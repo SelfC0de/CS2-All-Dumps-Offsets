@@ -3,8 +3,8 @@
 
 #include <cstdint>
 #include <windows.h>
-#include "../offsets/offsets.hpp"
-#include "../schemas/client_dll.hpp"
+#include "offsets.hpp"
+#include "client_dll.hpp"
 
 namespace entity { inline constexpr std::uint32_t CS2_BUILD = 14197; }
 

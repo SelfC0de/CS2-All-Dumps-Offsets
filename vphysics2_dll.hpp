@@ -10,7 +10,7 @@
 //   pawn->m_iHealth() = 100;
 
 #pragma once
-#include "../macros.hpp"
+#include "macros.hpp"
 
 namespace vphysics2 {
 

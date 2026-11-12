@@ -101,4 +101,4 @@ struct BoneMaskBlendSpace { std::uint8_t _x[4]; };
 struct BreakableContentsType_t { std::uint8_t _x[4]; };
 struct BrushSolidities_e { std::uint8_t _x[4]; };
 struct C4LightEffect_t { std::uint8_t _x[4]; };
-struct CAI_Expresser { std::uint8_t _x[4
+struct CAI_Expresser { std::uint8_t _x[4]; };
