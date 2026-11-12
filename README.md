@@ -14,31 +14,3 @@ Raw, machine-generated CS2 dumps: offsets, schema classes, interfaces, patterns,
 | **Dumped at** | 2026-11-12 11:33 (UTC+3) |
 | **Signature recovery** | `415 / 505` |
 | **Modules** | 19 |
-
----
-
-## Using it
-
-Add [`output/`](output) to your include path and include the entry header:
-
-```cpp
-#include <cs2.hpp>
-
-auto pawn = *reinterpret_cast<client::C_CSPlayerPawn**>(
-    reinterpret_cast<std::uintptr_t>(GetModuleHandleA("client.dll")) + offsets::client::LocalPlayerPawn);
-```
-
-Other languages use the matching file of the same module:
-
-```csharp
-using CS2Dumper.Offsets;
-
-nint pawn = ClientDll.dwLocalPlayerPawn;
-```
-
-```python
-import json
-
-offsets = json.load(open("output/offsets.json"))
-print(offsets["client.dll"]["dwLocalPlayerPawn"])  # 39140664
-```
