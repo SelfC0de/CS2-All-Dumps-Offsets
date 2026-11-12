@@ -43,7 +43,7 @@ Every artifact sits in the repo root, one file per category. Nothing is nested, 
 | [`convars.hpp`](convars.hpp) / [`convars.json`](convars.json) | ConVars and console commands |
 | [`protobufs.hpp`](protobufs.hpp) / [`protobufs.json`](protobufs.json) | Protobuf message definitions |
 | [`schemas.json`](schemas.json) | All schema classes as JSON |
-| [`sdk.hpp`](sdk.hpp), [`types.hpp`](types.hpp), [`structs.hpp`](structs.hpp), [`classes.hpp`](classes.hpp) | Alternative flat C++ dump: offsets + types + structs + classes |
+| [`flat/`](flat) | Alternative four-file C++ dump: `sdk.hpp`, `types.hpp`, `structs.hpp`, `classes.hpp` |
 | [`entity_system.hpp`](entity_system.hpp) | Ready-made entity-list helpers |
 | [`manifest.json`](manifest.json), [`verified_features.json`](verified_features.json), [`build.log`](build.log) | Build metadata, validated fields, generator log |
 
@@ -76,7 +76,7 @@ auto pawn = *reinterpret_cast<client::C_CSPlayerPawn**>(
 
 `cs2.hpp` pulls in every generated header for you. Nothing else to wire up.
 
-For the flat style, include `sdk.hpp` + `types.hpp` + `structs.hpp` + `classes.hpp` instead.
+The four-file variant lives in [`flat/`](flat) — same data, one file per kind; add that folder to the include path and include `sdk.hpp`.
 ### JSON
 
 Every category mirrors the C++ side, so you can drive your own generator:
