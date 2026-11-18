@@ -1,0 +1,10 @@
+// C_OP_SpringToVectorConstraint
+// Size: 0xB3454E84 (-1287303548 bytes)
+// Parent: CParticleFunctionConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SpringToVectorConstraint -> CParticleFunctionConstraint -> CParticleFunction
+//
+
+// (no own fields)

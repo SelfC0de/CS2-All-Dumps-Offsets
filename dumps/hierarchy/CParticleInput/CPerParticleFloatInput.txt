@@ -1,0 +1,10 @@
+// CPerParticleFloatInput
+// Size: 0xB364EB70 (-1285231760 bytes)
+// Parent: CParticleFloatInput
+// Module: client.dll
+//
+// Inheritance:
+//   CPerParticleFloatInput -> CParticleFloatInput -> CParticleInput
+//
+
+// (no own fields)

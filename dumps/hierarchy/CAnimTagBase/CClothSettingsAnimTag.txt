@@ -1,0 +1,10 @@
+// CClothSettingsAnimTag
+// Size: 0xB33DEBD5 (-1287787563 bytes)
+// Parent: CAnimTagBase
+// Module: client.dll
+//
+// Inheritance:
+//   CClothSettingsAnimTag -> CAnimTagBase -> IAnimTag -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IClothSettingsAnimTag
+//
+
+// (no own fields)

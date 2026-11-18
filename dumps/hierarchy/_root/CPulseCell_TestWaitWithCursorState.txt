@@ -1,0 +1,10 @@
+// CPulseCell_TestWaitWithCursorState
+// Size: 0xB3454702 (-1287305470 bytes)
+// Parent: CPulseCell_BaseYieldingInflow
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseCell_TestWaitWithCursorState -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

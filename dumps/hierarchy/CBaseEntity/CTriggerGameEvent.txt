@@ -1,0 +1,10 @@
+// CTriggerGameEvent
+// Size: 0xB345C63C (-1287272900 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerGameEvent -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

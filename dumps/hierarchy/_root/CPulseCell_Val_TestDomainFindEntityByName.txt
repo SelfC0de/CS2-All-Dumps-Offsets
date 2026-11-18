@@ -1,0 +1,10 @@
+// CPulseCell_Val_TestDomainFindEntityByName
+// Size: 0xB34546D4 (-1287305516 bytes)
+// Parent: CPulseCell_BaseValue
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseCell_Val_TestDomainFindEntityByName -> CPulseCell_BaseValue -> CPulseCell_Base
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CDirectionalBlendUpdateNode
+// Size: 0xB3451E75 (-1287315851 bytes)
+// Parent: CLeafUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CDirectionalBlendUpdateNode -> CLeafUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

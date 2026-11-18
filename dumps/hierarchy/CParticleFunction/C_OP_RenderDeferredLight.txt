@@ -1,0 +1,10 @@
+// C_OP_RenderDeferredLight
+// Size: 0xB3457A96 (-1287292266 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderDeferredLight -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

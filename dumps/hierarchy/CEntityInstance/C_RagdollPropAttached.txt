@@ -1,0 +1,10 @@
+// C_RagdollPropAttached
+// Size: 0xB345FF74 (-1287258252 bytes)
+// Parent: C_RagdollProp
+// Module: client.dll
+//
+// Inheritance:
+//   C_RagdollPropAttached -> C_RagdollProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

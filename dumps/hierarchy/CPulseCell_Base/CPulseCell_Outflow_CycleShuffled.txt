@@ -1,0 +1,10 @@
+// CPulseCell_Outflow_CycleShuffled
+// Size: 0xB364C738 (-1285241032 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_Outflow_CycleShuffled -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

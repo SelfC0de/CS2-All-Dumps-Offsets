@@ -1,0 +1,10 @@
+// C_INIT_InitFromVectorFieldSnapshot
+// Size: 0xB345589C (-1287300964 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_InitFromVectorFieldSnapshot -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

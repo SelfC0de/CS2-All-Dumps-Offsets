@@ -1,0 +1,10 @@
+// C_HandleTest
+// Size: 0xB345F616 (-1287260650 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_HandleTest -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

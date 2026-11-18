@@ -1,0 +1,10 @@
+// CTurnHelperUpdateNode
+// Size: 0xB3452150 (-1287315120 bytes)
+// Parent: CUnaryUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CTurnHelperUpdateNode -> CUnaryUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> ITargetWarpInputNode
+//
+
+// (no own fields)

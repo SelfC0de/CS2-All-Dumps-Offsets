@@ -1,0 +1,10 @@
+// CPhysHingeAlias_phys_hinge_local
+// Size: 0xB345B737 (-1287276745 bytes)
+// Parent: CPhysHinge
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysHingeAlias_phys_hinge_local -> CPhysHinge -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IVPhysicsWatcher -> IWatcherCallback
+//
+
+// (no own fields)

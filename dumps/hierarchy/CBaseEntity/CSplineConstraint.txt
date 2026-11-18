@@ -1,0 +1,10 @@
+// CSplineConstraint
+// Size: 0xB345B7E6 (-1287276570 bytes)
+// Parent: CPhysConstraint
+// Module: server.dll
+//
+// Inheritance:
+//   CSplineConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+//
+
+// (no own fields)

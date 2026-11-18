@@ -1,0 +1,10 @@
+// CPointPush
+// Size: 0xB345B841 (-1287276479 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointPush -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

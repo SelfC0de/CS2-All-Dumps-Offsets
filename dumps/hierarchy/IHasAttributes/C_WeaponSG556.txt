@@ -1,0 +1,10 @@
+// C_WeaponSG556
+// Size: 0x6FAF0325 (1873740581 bytes)
+// Parent: C_CSWeaponBaseGun
+// Module: client.dll
+//
+// Inheritance:
+//   C_WeaponSG556 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CRagdollAnimTag
+// Size: 0xB33DECA4 (-1287787356 bytes)
+// Parent: CAnimTagBase
+// Module: client.dll
+//
+// Inheritance:
+//   CRagdollAnimTag -> CAnimTagBase -> IAnimTag -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IRagdollAnimTag
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CTriggerHostageReset
+// Size: 0xB345CC31 (-1287271375 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerHostageReset -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

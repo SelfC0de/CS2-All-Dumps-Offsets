@@ -1,0 +1,10 @@
+// CCPPScriptComponentUpdater
+// Size: 0xB33DED6D (-1287787155 bytes)
+// Parent: CAnimComponentUpdater
+// Module: client.dll
+//
+// Inheritance:
+//   CCPPScriptComponentUpdater -> CAnimComponentUpdater -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

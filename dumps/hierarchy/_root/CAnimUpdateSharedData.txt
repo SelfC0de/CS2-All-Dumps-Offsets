@@ -1,0 +1,10 @@
+// CAnimUpdateSharedData
+// Size: 0xB33DE9D5 (-1287788075 bytes)
+// Parent: ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimUpdateSharedData -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

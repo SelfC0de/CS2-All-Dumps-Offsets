@@ -1,0 +1,6 @@
+// WeaponPurchaseCount_t
+// Size: 0xB345A4F4 (-1287281420 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

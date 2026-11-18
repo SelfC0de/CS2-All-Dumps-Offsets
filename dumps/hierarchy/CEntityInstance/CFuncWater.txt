@@ -1,0 +1,10 @@
+// CFuncWater
+// Size: 0xB345C08E (-1287274354 bytes)
+// Parent: C_BaseModelEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CFuncWater -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

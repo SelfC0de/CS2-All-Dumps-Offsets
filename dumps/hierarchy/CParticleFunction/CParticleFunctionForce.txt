@@ -1,0 +1,28 @@
+// CParticleFunctionForce
+// Size: 0xB3454C26 (-1287304154 bytes)
+// Parent: CParticleFunction
+// Module: client.dll
+//
+// Inheritance:
+//   CParticleFunctionForce -> CParticleFunction
+//
+// Direct subclasses (16):
+//   C_OP_AttractToControlPoint
+//   C_OP_CPVelocityForce
+//   C_OP_CurlNoiseForce
+//   C_OP_DensityForce
+//   C_OP_ExternalGameImpulseForce
+//   C_OP_ExternalWindForce
+//   C_OP_ForceBasedOnDistanceToPlane
+//   C_OP_IntraParticleForce
+//   C_OP_LocalAccelerationForce
+//   C_OP_ParentVortices
+//   C_OP_PerParticleForce
+//   C_OP_RandomForce
+//   C_OP_TimeVaryingForce
+//   C_OP_TurbulenceForce
+//   C_OP_TwistAroundAxis
+//   C_OP_WindForce
+//
+
+// (no own fields)

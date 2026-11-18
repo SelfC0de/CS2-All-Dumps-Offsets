@@ -1,0 +1,10 @@
+// CNmBlendTask
+// Size: 0xB3450CFB (-1287320325 bytes)
+// Parent: CNmBlendTaskBase
+// Module: client.dll
+//
+// Inheritance:
+//   CNmBlendTask -> CNmBlendTaskBase -> CNmPoseTask
+//
+
+// (no own fields)

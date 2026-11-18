@@ -1,0 +1,9 @@
+// CSPerRoundStats_t
+// Size: 0xB345A0CC (-1287282484 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   CSMatchStats_t
+//
+
+// (no own fields)

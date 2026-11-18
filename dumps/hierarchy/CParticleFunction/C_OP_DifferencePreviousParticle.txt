@@ -1,0 +1,10 @@
+// C_OP_DifferencePreviousParticle
+// Size: 0xB345602A (-1287299030 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_DifferencePreviousParticle -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

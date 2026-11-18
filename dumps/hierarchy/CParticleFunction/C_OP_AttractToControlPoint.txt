@@ -1,0 +1,10 @@
+// C_OP_AttractToControlPoint
+// Size: 0xB3455DAC (-1287299668 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_AttractToControlPoint -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

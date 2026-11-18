@@ -1,0 +1,10 @@
+// C_OP_DirectionBetweenVecsToVec
+// Size: 0xB34567E0 (-1287297056 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_DirectionBetweenVecsToVec -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

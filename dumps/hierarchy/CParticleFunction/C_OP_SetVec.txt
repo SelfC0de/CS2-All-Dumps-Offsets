@@ -1,0 +1,10 @@
+// C_OP_SetVec
+// Size: 0xB34570ED (-1287294739 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetVec -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,9 @@
+// IParticleSystemDefinition
+// Size: 0xB3454A69 (-1287304599 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   CParticleSystemDefinition
+//
+
+// (no own fields)

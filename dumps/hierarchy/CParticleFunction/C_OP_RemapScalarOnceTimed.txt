@@ -1,0 +1,10 @@
+// C_OP_RemapScalarOnceTimed
+// Size: 0xB3456163 (-1287298717 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapScalarOnceTimed -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

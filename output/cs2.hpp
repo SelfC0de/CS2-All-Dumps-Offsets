@@ -2,40 +2,40 @@
 //
 // Single-include amalgamation header for CS2 internal cheats.
 //
-// Add this folder to your include path and:
+// Add the dump's `include/` to your include path and:
 //
 //     #include <cs2.hpp>
 
 #pragma once
 
-inline constexpr unsigned int CS2_BUILD = 14197;
+inline constexpr unsigned int CS2_BUILD = 14198;
 
 #include "macros.hpp"
 
 // Per-module schema classes
-#include "animationsystem_dll.hpp"
-#include "engine2_dll.hpp"
-#include "host_dll.hpp"
-#include "materialsystem2_dll.hpp"
-#include "networksystem_dll.hpp"
-#include "panorama_dll.hpp"
-#include "particles_dll.hpp"
-#include "pulse_system_dll.hpp"
-#include "rendersystemdx11_dll.hpp"
-#include "resourcesystem_dll.hpp"
-#include "scenesystem_dll.hpp"
-#include "schemasystem_dll.hpp"
-#include "client_dll.hpp"
-#include "server_dll.hpp"
-#include "soundsystem_dll.hpp"
-#include "steamaudio_dll.hpp"
-#include "vphysics2_dll.hpp"
-#include "worldrenderer_dll.hpp"
+#include "schemas/animationsystem_dll.hpp"
+#include "schemas/engine2_dll.hpp"
+#include "schemas/host_dll.hpp"
+#include "schemas/materialsystem2_dll.hpp"
+#include "schemas/networksystem_dll.hpp"
+#include "schemas/panorama_dll.hpp"
+#include "schemas/particles_dll.hpp"
+#include "schemas/pulse_system_dll.hpp"
+#include "schemas/rendersystemdx11_dll.hpp"
+#include "schemas/resourcesystem_dll.hpp"
+#include "schemas/scenesystem_dll.hpp"
+#include "schemas/schemasystem_dll.hpp"
+#include "schemas/client_dll.hpp"
+#include "schemas/server_dll.hpp"
+#include "schemas/soundsystem_dll.hpp"
+#include "schemas/steamaudio_dll.hpp"
+#include "schemas/vphysics2_dll.hpp"
+#include "schemas/worldrenderer_dll.hpp"
 
-#include "offsets.hpp"
-#include "interfaces.hpp"
+#include "offsets/offsets.hpp"
+#include "interfaces/interfaces.hpp"
 #include "buttons.hpp"
-#include "protobufs.hpp"
-#include "patterns.hpp"
+#include "protobufs/protobufs.hpp"
+#include "patterns/patterns.hpp"
 
-#include "entity_system.hpp"
+#include "impl/entity_system.hpp"

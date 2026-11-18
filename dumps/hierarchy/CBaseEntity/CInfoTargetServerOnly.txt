@@ -1,0 +1,10 @@
+// CInfoTargetServerOnly
+// Size: 0xB345ACB9 (-1287279431 bytes)
+// Parent: CServerOnlyPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CInfoTargetServerOnly -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

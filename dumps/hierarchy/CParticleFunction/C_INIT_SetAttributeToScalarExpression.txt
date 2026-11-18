@@ -1,0 +1,10 @@
+// C_INIT_SetAttributeToScalarExpression
+// Size: 0xB3455BF8 (-1287300104 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_SetAttributeToScalarExpression -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

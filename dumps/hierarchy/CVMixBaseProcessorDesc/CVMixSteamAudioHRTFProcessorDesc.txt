@@ -1,0 +1,10 @@
+// CVMixSteamAudioHRTFProcessorDesc
+// Size: 0xB3453B59 (-1287308455 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixSteamAudioHRTFProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

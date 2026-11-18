@@ -1,0 +1,10 @@
+// C_OP_MovementMoveAlongSkinnedCPSnapshot
+// Size: 0xB3457066 (-1287294874 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_MovementMoveAlongSkinnedCPSnapshot -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

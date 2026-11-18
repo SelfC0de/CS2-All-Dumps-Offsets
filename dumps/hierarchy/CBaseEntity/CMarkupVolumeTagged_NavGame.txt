@@ -1,0 +1,10 @@
+// CMarkupVolumeTagged_NavGame
+// Size: 0xB345C6D0 (-1287272752 bytes)
+// Parent: CMarkupVolumeWithRef
+// Module: server.dll
+//
+// Inheritance:
+//   CMarkupVolumeTagged_NavGame -> CMarkupVolumeWithRef -> CMarkupVolumeTagged -> CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+//
+
+// (no own fields)

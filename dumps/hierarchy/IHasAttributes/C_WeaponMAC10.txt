@@ -1,0 +1,10 @@
+// C_WeaponMAC10
+// Size: 0x6FAF028A (1873740426 bytes)
+// Parent: C_CSWeaponBaseGun
+// Module: client.dll
+//
+// Inheritance:
+//   C_WeaponMAC10 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+
+// (no own fields)

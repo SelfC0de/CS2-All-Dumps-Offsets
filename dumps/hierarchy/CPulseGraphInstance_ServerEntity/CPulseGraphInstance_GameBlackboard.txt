@@ -1,0 +1,10 @@
+// CPulseGraphInstance_GameBlackboard
+// Size: 0xB345AF7F (-1287278721 bytes)
+// Parent: CPulseGraphInstance_ServerEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPulseGraphInstance_GameBlackboard -> CPulseGraphInstance_ServerEntity -> CBasePulseGraphInstance -> IPulseHost_Unknown -> IPulseHost_GameEntity -> CPulseBlackboardViewFromGraphInstance -> IPulseBlackboardView
+//
+
+// (no own fields)

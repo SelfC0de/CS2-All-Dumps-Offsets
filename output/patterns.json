@@ -27,7 +27,7 @@
       "prototype": "void __fastcall FrameUpdate(__int64 a1)",
       "resolve": "raw",
       "rva": 440000,
-      "va": 140709011437248
+      "va": 140712971581120
     },
     {
       "bytes": null,
@@ -38,7 +38,7 @@
       "prototype": "",
       "resolve": "riprel",
       "rva": 8648376,
-      "va": 140709019645624
+      "va": 140712979789496
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 18 57 48 83 EC 20 49 8B 40 48 49 8B D8 48 8B",
@@ -49,7 +49,7 @@
       "prototype": "__int64 __fastcall ShouldUpdateSequences(__int64 a1, __int64 a2, __int64 a3)",
       "resolve": "raw",
       "rva": 1243360,
-      "va": 140709012240608
+      "va": 140712972384480
     },
     {
       "bytes": "48 89 5C 24 10 55 56 57 41 54 41 55 41 56 41 57 48 8D 6C 24 C0 48 81 EC",
@@ -59,30 +59,30 @@
       "pattern_synth": "48 89 5C 24 10 55 56 57 41 54 41 55 41 56 41 57 48 8D 6C 24 C0 48 81 EC",
       "prototype": "char __fastcall AddStattrakEntity(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 8375488,
-      "va": 140708751396032
+      "rva": 8378272,
+      "va": 140712459098016
     },
     {
-      "bytes": "48 89 5C 24 08 57 48 83 EC 20 8B FA 48 8B D9 E8 3C 0C 94 00 48 8B CB E8",
+      "bytes": "48 89 5C 24 08 57 48 83 EC 20 8B FA 48 8B D9 E8 6C 18 94 00 48 8B CB E8",
       "module": "client.dll",
       "name": "ApplyEconCustomization",
       "pattern": "48 89 5C 24 ? 57 48 83 EC ? 8B FA 48 8B D9 E8 ? ? ? ? 48 8B CB E8 ? ? ? ? 48 85 C0 74",
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 8B FA 48 8B D9 E8 ? ? ? ? 48 8B CB E8 ? ? ? ? 48 85 C0 74",
       "prototype": "__int64 __fastcall ApplyEconCustomization(__int64 a1, char a2)",
       "resolve": "raw",
-      "rva": 8504928,
-      "va": 140708751525472
+      "rva": 8507712,
+      "va": 140712459227456
     },
     {
-      "bytes": "40 53 48 83 EC 20 48 8B D9 48 81 C1 E8 0D 00 00 E8 1B CE 23 00 48 8B CB",
+      "bytes": "40 53 48 83 EC 20 48 8B D9 48 81 C1 E8 0D 00 00 E8 2B CE 23 00 48 8B CB",
       "module": "client.dll",
       "name": "AutowallInit",
       "pattern": "40 53 48 83 EC ? 48 8B D9 48 81 C1 ? ? ? ? E8 ? ? ? ?",
       "pattern_synth": "40 53 48 83 EC 20 48 8B D9 48 81 C1 E8 0D 00 00",
       "prototype": "__int64 __fastcall AutowallInit(__int64 a1)",
       "resolve": "raw",
-      "rva": 9858944,
-      "va": 140708752879488
+      "rva": 9861648,
+      "va": 140712460581392
     },
     {
       "bytes": "40 55 56 41 54 41 55 41 57 48 8B EC 48 83 EC 70 48 8B F1 4C 8B FA 48 81",
@@ -92,8 +92,8 @@
       "pattern_synth": "40 55 56 41 54 41 55 41 57 48 8B EC 48 83 EC 70",
       "prototype": "char __fastcall AutowallTracePos(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 11611840,
-      "va": 140708754632384
+      "rva": 11614560,
+      "va": 140712462334304
     },
     {
       "bytes": "4C 8B DC 49 89 5B 10 49 89 6B 18 49 89 73 20 57 41 54 41 57 48 83 EC 60",
@@ -103,8 +103,8 @@
       "pattern_synth": "4C 8B DC 49 89 5B 10 49 89 6B 18 49 89 73 20 57 41 54 41 57",
       "prototype": "__int64 __fastcall C_BaseEntity_ProcessInterpolatedList(__int64 a1, unsigned int a2, int a3, unsigned int a4)",
       "resolve": "raw",
-      "rva": 11514736,
-      "va": 140708754535280
+      "rva": 11517456,
+      "va": 140712462237200
     },
     {
       "bytes": "40 55 53 56 41 54 41 57 48 8D AC 24 20 FF FF FF 48 81 EC E0 01 00 00 48",
@@ -114,8 +114,8 @@
       "pattern_synth": "40 55 53 56 41 54 41 57 48 8D AC 24 20 FF FF FF",
       "prototype": "void __fastcall C_BaseEntity_RestoreData(__int64 a1, const char *a2, unsigned int a3, int a4)",
       "resolve": "raw",
-      "rva": 11535248,
-      "va": 140708754555792
+      "rva": 11537968,
+      "va": 140712462257712
     },
     {
       "bytes": "48 8B C4 55 56 57 41 56 41 57 48 8D A8 E8 FD FF FF 48 81 EC F0 02 00 00",
@@ -125,30 +125,30 @@
       "pattern_synth": "48 8B C4 55 56 57 41 56 41 57 48 8D A8 E8 FD FF",
       "prototype": "void __fastcall C_BaseEntity_SaveData(_QWORD *a1, const char *a2, __int64 a3, int a4, int a5, unsigned int a6, __int64 a7)",
       "resolve": "raw",
-      "rva": 11535776,
-      "va": 140708754556320
+      "rva": 11538496,
+      "va": 140712462258240
     },
     {
-      "bytes": "48 89 5C 24 08 55 48 8B EC 48 83 EC 40 E8 4E 66 95 00 48 8D 05 07 7F FE",
+      "bytes": "48 89 5C 24 08 55 48 8B EC 48 83 EC 40 E8 2E 7F 95 00 48 8D 05 07 7F FE",
       "module": "client.dll",
       "name": "C_BaseEntity_StartParticleSystem",
       "pattern": "48 89 5C 24 08 55 48 8B EC 48 83 EC 40 E8 ? ? ? ? 48 8D 05 ? ? ? ? 33 DB 48 8D 15",
-      "pattern_synth": "48 89 5C 24 08 55 48 8B EC 48 83 EC 40 E8 4E 66",
+      "pattern_synth": "48 89 5C 24 08 55 48 8B EC 48 83 EC 40 E8 2E 7F",
       "prototype": "",
       "resolve": "raw",
-      "rva": 15044448,
-      "va": 140708758064992
+      "rva": 15050016,
+      "va": 140712465769760
     },
     {
-      "bytes": "40 53 48 83 EC 40 48 8B D9 E8 82 58 92 00 48 8B C8 E8 5A 23 FC FF 48 85",
+      "bytes": "40 53 48 83 EC 40 48 8B D9 E8 B2 64 92 00 48 8B C8 E8 5A 23 FC FF 48 85",
       "module": "client.dll",
       "name": "C_CSWeaponBase_GetEconWpnData",
       "pattern": "40 53 48 83 EC 40 48 8B D9 E8 ? ? ? ? 48 8B C8 E8 ? ? ? ? 48 85 C0 75 ? 48 8B 43 10",
       "pattern_synth": "40 53 48 83 EC 40 48 8B D9 E8 ? ? ? ? 48 8B C8 E8 5A 23",
       "prototype": "__int64 __fastcall C_CSWeaponBase_GetEconWpnData(__int64 a1)",
       "resolve": "raw",
-      "rva": 8415328,
-      "va": 140708751435872
+      "rva": 8418112,
+      "va": 140712459137856
     },
     {
       "bytes": "48 85 C9 0F 84 75 17 00 00 48 8B C4 48 89 50 10 48 89 48 08 55 41 55 41",
@@ -158,30 +158,30 @@
       "pattern_synth": "48 85 C9 0F 84 ? ? ? ? 48 8B C4 48 89 50 10",
       "prototype": "void __fastcall C_EconEntity_BuildModernWeaponSkinMaterial(__int64 a1, _QWORD *a2, __int64 a3, int a4, char a5, char a6, __int64 a7)",
       "resolve": "raw",
-      "rva": 14925424,
-      "va": 140708757945968
+      "rva": 14930992,
+      "va": 140712465650736
     },
     {
-      "bytes": "4C 8B DC 53 48 81 EC 90 00 00 00 F2 0F 10 05 55 8F 2F 01 48 8B DA 48 8B",
+      "bytes": "4C 8B DC 53 48 81 EC 90 00 00 00 F2 0F 10 05 75 A4 2F 01 48 8B DA 48 8B",
       "module": "client.dll",
       "name": "CacheParticleEffect",
       "pattern": "4C 8B DC 53 48 81 EC ? ? ? ? F2 0F 10 05",
-      "pattern_synth": "4C 8B DC 53 48 81 EC 90 00 00 00 F2 0F 10 05 55",
+      "pattern_synth": "4C 8B DC 53 48 81 EC 90 00 00 00 F2 0F 10 05 75",
       "prototype": "",
       "resolve": "raw",
-      "rva": 8141104,
-      "va": 140708751161648
+      "rva": 8143888,
+      "va": 140712458863632
     },
     {
-      "bytes": "48 83 EC 08 4C 8B 0D 25 06 13 01 4C 8B DA 48 8B 49 10 49 83 C1 10 48 85",
+      "bytes": "48 83 EC 08 4C 8B 0D F5 0D 13 01 4C 8B DA 48 8B 49 10 49 83 C1 10 48 85",
       "module": "client.dll",
       "name": "CalculateInterpolation",
       "pattern": "E8 ? ? ? ? 8B 45 ? 3B 45 60 75 04 32 D2 EB 09 BA 01 00 00 00 41 0F 4C D5 C0 EA 07 84 D2 0F 85 87",
       "pattern_synth": "48 83 EC 08 4C 8B 0D ? ? ? ? 4C 8B DA 48 8B",
       "prototype": "int *__fastcall CalculateInterpolation(__int64 a1, int *a2)",
       "resolve": "rel32",
-      "rva": 22907360,
-      "va": 140708765927904
+      "rva": 22919296,
+      "va": 140712473639040
     },
     {
       "bytes": "48 89 4C 24 08 55 53 56 57 41 54 41 55 41 56 41 57 B8 98 42 00 00 E8 55",
@@ -191,8 +191,8 @@
       "pattern_synth": "48 89 4C 24 08 55 53 56 57 41 54 41 55 41 56 41 57 B8 98 42",
       "prototype": "void __fastcall CalculateWorldSpaceBones(__int64 a1, unsigned int a2)",
       "resolve": "raw",
-      "rva": 11097584,
-      "va": 140708754118128
+      "rva": 11100304,
+      "va": 140712461820048
     },
     {
       "bytes": "40 55 53 56 41 56 41 57 48 8B EC 48 83 EC 20 4D 8B F8 4C 8B F2 48 8B F1",
@@ -202,8 +202,8 @@
       "pattern_synth": "40 55 53 56 41 56 41 57 48 8B EC 48 83 EC 20 4D",
       "prototype": "void __fastcall CalcViewmodel(__int64 a1, float *a2, float *a3)",
       "resolve": "raw",
-      "rva": 9217152,
-      "va": 140708752237696
+      "rva": 9219856,
+      "va": 140712459939600
     },
     {
       "bytes": "40 53 48 83 EC 60 48 8B 41 08 49 8B D8 8B 48 30 48 C1 E9 0C F6 C1 01 0F",
@@ -213,19 +213,19 @@
       "pattern_synth": "40 53 48 83 EC 60 48 8B 41 08 49 8B D8 8B 48 30",
       "prototype": "__int64 __fastcall CalcViewmodelView(__int64 a1, __int64 a2, _DWORD *a3)",
       "resolve": "raw",
-      "rva": 13659584,
-      "va": 140708756680128
+      "rva": 13662544,
+      "va": 140712464382288
     },
     {
-      "bytes": "BA 04 00 00 00 FF 15 4E 2F 76 01 84 C0 0F 84 C2 00 00 00 F6 47 38 01 0F",
+      "bytes": "BA 04 00 00 00 FF 15 9E 58 76 01 84 C0 0F 84 C2 00 00 00 F6 47 38 01 0F",
       "module": "client.dll",
       "name": "ThinkReturn",
       "pattern": "BA 04 00 00 00 FF 15 ? ? ? ? 84 C0 0F 84",
-      "pattern_synth": "BA 04 00 00 00 FF 15 4E 2F 76 01 84 C0 0F 84 C2",
+      "pattern_synth": "BA 04 00 00 00 FF 15 9E 58 76 01 84 C0 0F 84 C2",
       "prototype": "char __fastcall ThinkReturn(__int64 a1, _DWORD *a2)",
       "resolve": "raw",
-      "rva": 3422143,
-      "va": 140708746442687
+      "rva": 3419759,
+      "va": 140712454139503
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83",
@@ -235,30 +235,30 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83 EC 20 33 F6",
       "prototype": "__int64 __fastcall CAttributeStringFill(__int64 a1, __int64 a2)",
       "resolve": "rel32",
-      "rva": 16186624,
-      "va": 140708759207168
+      "rva": 16192096,
+      "va": 140712466911840
     },
     {
-      "bytes": "48 8B C2 48 83 C8 02 45 84 C0 48 0F 44 C2 48 89 41 08 48 8D 05 37 04 56",
+      "bytes": "48 8B C2 48 83 C8 02 45 84 C0 48 0F 44 C2 48 89 41 08 48 8D 05 67 41 56",
       "module": "client.dll",
       "name": "CAttributeStringInit",
       "pattern": "E8 ? ? ? ? 48 8D 05 ? ? ? ? 48 89 7D ? 48 89 45 ? 49 8D 4F",
-      "pattern_synth": "48 8B C2 48 83 C8 02 45 84 C0 48 0F 44 C2 48 89 41 08 48 8D 05 37 04 56",
+      "pattern_synth": "48 8B C2 48 83 C8 02 45 84 C0 48 0F 44 C2 48 89 41 08 48 8D 05 67 41 56",
       "prototype": "_QWORD *__fastcall CAttributeStringInit(_QWORD *a1, __int64 a2, char a3)",
       "resolve": "rel32",
-      "rva": 6172928,
-      "va": 140708749193472
+      "rva": 6174688,
+      "va": 140712456894432
     },
     {
-      "bytes": "40 53 48 83 EC 20 48 8B D9 4C 8B C2 48 8B 0D CD FB BE 01 48 8D 54 24 40",
+      "bytes": "40 53 48 83 EC 20 48 8B D9 4C 8B C2 48 8B 0D CD 27 BF 01 48 8D 54 24 40",
       "module": "client.dll",
       "name": "ChangeModel",
       "pattern": "40 53 48 83 EC ? 48 8B D9 4C 8B C2 48 8B 0D ? ? ? ? 48 8D 54 24",
-      "pattern_synth": "40 53 48 83 EC 20 48 8B D9 4C 8B C2 48 8B 0D ? ? ? ? 48",
+      "pattern_synth": "40 53 48 83 EC 20 48 8B D9 4C 8B C2 48 8B 0D CD",
       "prototype": "__int64 __fastcall ChangeModel(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 9828544,
-      "va": 140708752849088
+      "rva": 9831248,
+      "va": 140712460550992
     },
     {
       "bytes": "40 55 53 56 57 41 54 48 8D 6C 24 90 48 81 EC 70 01 00 00 4D 8B E0 48 8B",
@@ -268,8 +268,8 @@
       "pattern_synth": "40 55 53 56 57 41 54 48 8D 6C 24 90 48 81 EC 70",
       "prototype": "unsigned __int64 __fastcall TakeDamageOld(__int64 a1, __int64 a2, __int64 **a3)",
       "resolve": "raw",
-      "rva": 2287872,
-      "va": 140708745308416
+      "rva": 2285488,
+      "va": 140712453005232
     },
     {
       "bytes": "85 D2 0F 88 B1 01 00 00 55 56 57 48 83 EC 60 41 8B E8 4C 89 B4 24 88 00",
@@ -279,8 +279,8 @@
       "pattern_synth": "85 D2 0F 88 ? ? ? ? 55 56 57 48 83 EC 60 41",
       "prototype": "void __fastcall SetBodygroup(__int64 a1, int a2, int a3)",
       "resolve": "raw",
-      "rva": 9823632,
-      "va": 140708752844176
+      "rva": 9826336,
+      "va": 140712460546080
     },
     {
       "bytes": "85 D2 0F 88 B1 01 00 00 55 56 57 48 83 EC 60 41 8B E8 4C 89 B4 24 88 00",
@@ -290,8 +290,8 @@
       "pattern_synth": "85 D2 0F 88 ? ? ? ? 55 56 57 48 83 EC 60 41",
       "prototype": "void __fastcall SetBodyGroup(__int64 thisPtr, int iGroup, int iValue)",
       "resolve": "raw",
-      "rva": 9823632,
-      "va": 140708752844176
+      "rva": 9826336,
+      "va": 140712460546080
     },
     {
       "bytes": "48 89 5C 24 10 57 48 83 EC 30 8B 41 04 48 8D 79 08 48 8B D9 A9 FF FF FF",
@@ -301,8 +301,8 @@
       "pattern_synth": "48 89 5C 24 10 57 48 83 EC 30 8B 41 04 48 8D 79",
       "prototype": "char __fastcall CBufferStringInit(__int64 a1, const char *a2)",
       "resolve": "raw",
-      "rva": 26696384,
-      "va": 140708769716928
+      "rva": 26708320,
+      "va": 140712477428064
     },
     {
       "bytes": "48 89 5C 24 08 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 70 F3 FF FF",
@@ -312,8 +312,8 @@
       "pattern_synth": "48 89 5C 24 08 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 70 F3 FF FF",
       "prototype": "void __fastcall HudChat_OnSayText2(int a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 18494656,
-      "va": 140708761515200
+      "rva": 18500560,
+      "va": 140712469220304
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 18 48 89 74 24 20 89 54 24 10 57 41 54 41 55",
@@ -323,30 +323,30 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 18 48 89 74 24 20 89 54 24 10 57 41 54 41 55 41 56 41 57 48 83 EC 70",
       "prototype": "char __fastcall EquipItemInLoadout(_QWORD *a1, unsigned int a2, int a3, unsigned __int64 a4)",
       "resolve": "raw",
-      "rva": 8609776,
-      "va": 140708751630320
+      "rva": 8612480,
+      "va": 140712459332224
     },
     {
-      "bytes": "40 55 53 48 8D AC 24 78 FF FF FF 48 81 EC 88 01 00 00 8B 15 80 70 D2 01",
+      "bytes": "40 55 53 48 8D AC 24 78 FF FF FF 48 81 EC 88 01 00 00 8B 15 70 9C D2 01",
       "module": "client.dll",
       "name": "ProcessForceSubtickMoves",
       "pattern": "40 55 53 48 8D AC 24 78 FF FF FF 48 81 EC 88 01 00 00 8B 15 ? ? ? ? 48 8B D9 65 48 8B 04 25 58 00 00 00 B9 68 00 00 00 48 8B 04 D0 8B 04 01 39 05 ? ? ? ? 0F 8F 36 0E 00 00",
       "pattern_synth": "40 55 53 48 8D AC 24 78 FF FF FF 48 81 EC 88 01 00 00 8B 15 ? ? ? ? 48 8B D9 65 48 8B 04 25 58 00 00 00 B9 68 00 00 00 48 8B 04 D0 8B 04 01",
       "prototype": "void *__fastcall ProcessForceSubtickMoves(int a1)",
       "resolve": "raw",
-      "rva": 10903456,
-      "va": 140708753924000
+      "rva": 10906160,
+      "va": 140712461625904
     },
     {
-      "bytes": "48 83 EC 28 8B 0D 4E 25 D3 01 65 48 8B 04 25 58 00 00 00 BA 68 00 00 00",
+      "bytes": "48 83 EC 28 8B 0D 3E 51 D3 01 65 48 8B 04 25 58 00 00 00 BA 68 00 00 00",
       "module": "client.dll",
       "name": "QueueForceSubtickMove",
       "pattern": "48 83 EC 28 8B 0D ? ? ? ? 65 48 8B 04 25 58 00 00 00 BA 68 00 00 00 48 8B 04 C8 8B 04 02 39 05 ? ? ? ? 0F 8F 82",
-      "pattern_synth": "48 83 EC 28 8B 0D ? ? ? ? 65 48 8B 04 25 58 00 00 00 BA 68 00 00 00 48 8B 04 C8 8B 04 02 39 05 1B 6B AE 01 0F 8F 82",
+      "pattern_synth": "48 83 EC 28 8B 0D ? ? ? ? 65 48 8B 04 25 58 00 00 00 BA 68 00 00 00 48 8B 04 C8 8B 04 02 39 05 8B 97 AE 01 0F 8F 82",
       "prototype": "__int64 *__fastcall QueueForceSubtickMove(void)",
       "resolve": "raw",
-      "rva": 10857184,
-      "va": 140708753877728
+      "rva": 10859888,
+      "va": 140712461579632
     },
     {
       "bytes": "48 8B C4 48 81 EC C8 00 00 00 48 89 58 10 48 89 68 18 48 8B EA 48 89 70",
@@ -356,8 +356,8 @@
       "pattern_synth": "48 8B C4 48 81 EC C8 00 00 00 48 89 58 10 48 89",
       "prototype": "void __fastcall RunCommand_Context(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 10932528,
-      "va": 140708753953072
+      "rva": 10935232,
+      "va": 140712461654976
     },
     {
       "bytes": "40 55 48 83 EC 30 49 63 E8 83 FD 39 0F 87 94 01 00 00 83 FA 03 0F 87 8B",
@@ -367,8 +367,8 @@
       "pattern_synth": "40 55 48 83 EC 30 49 63 E8 ? ? ? ? 87 94 01",
       "prototype": "__int64 *__fastcall GetItemInLoadout(__int64 a1, unsigned int a2, unsigned int a3)",
       "resolve": "raw",
-      "rva": 8617408,
-      "va": 140708751637952
+      "rva": 8620112,
+      "va": 140712459339856
     },
     {
       "bytes": "48 89 5C 24 10 55 56 57 48 81 EC B0 00 00 00 44 0F 29 84 24 80 00 00 00",
@@ -378,8 +378,8 @@
       "pattern_synth": "48 89 5C 24 10 55 56 57 48 81 EC B0 00 00 00 44",
       "prototype": "",
       "resolve": "raw",
-      "rva": 8418464,
-      "va": 140708751439008
+      "rva": 8421248,
+      "va": 140712459140992
     },
     {
       "bytes": "48 89 5C 24 08 57 48 81 EC F0 00 00 00 F3 0F 10 0A 48 8D 8C 24 10 01 00",
@@ -389,41 +389,41 @@
       "pattern_synth": "48 89 5C 24 08 57 48 81 EC F0 00 00 00 F3 0F 10",
       "prototype": "",
       "resolve": "raw",
-      "rva": 13742944,
-      "va": 140708756763488
+      "rva": 13745904,
+      "va": 140712464465648
     },
     {
-      "bytes": "48 83 EC 28 B9 48 00 00 00 E8 22 00 B5 FF 48 85 C0 74 3E 48 8D 0D E6 04",
+      "bytes": "48 83 EC 28 B9 48 00 00 00 E8 62 F4 B4 FF 48 85 C0 74 3E 48 8D 0D 2E 0D",
       "module": "client.dll",
       "name": "CEconItemCreateInstance",
       "pattern": "48 83 EC 28 B9 48 00 00 00 E8",
       "pattern_synth": "48 83 EC 28 B9 48 00 00 00 E8 ? ? ? ? 48 85",
       "prototype": "uintptr_t __cdecl CEconItemCreateInstance()",
       "resolve": "raw",
-      "rva": 17659904,
-      "va": 140708760680448
+      "rva": 17665632,
+      "va": 140712468385376
     },
     {
-      "bytes": "48 89 5C 24 10 48 89 6C 24 18 57 41 56 41 57 48 83 EC 60 48 8D 05 66 AF",
+      "bytes": "48 89 5C 24 10 48 89 6C 24 18 57 41 56 41 57 48 83 EC 60 48 8D 05 F6 B6",
       "module": "client.dll",
       "name": "GetAttributeDefinitionByName",
       "pattern": "48 89 5C 24 10 48 89 6C 24 18 57 41 56 41 57 48 83 EC 60 48 8D 05",
       "pattern_synth": "48 89 5C 24 10 48 89 6C 24 18 57 41 56 41 57 48 83 EC 60 48",
       "prototype": "__int64 __fastcall GetAttributeDefinitionByName(__int64 a1, unsigned __int8 *a2)",
       "resolve": "raw",
-      "rva": 17996816,
-      "va": 140708761017360
+      "rva": 18002720,
+      "va": 140712468722464
     },
     {
-      "bytes": "48 89 5C 24 08 57 48 83 EC 40 8B 15 98 50 60 01 48 8B F9 65 48 8B 04 25",
+      "bytes": "48 89 5C 24 08 57 48 83 EC 40 8B 15 08 70 60 01 48 8B F9 65 48 8B 04 25",
       "module": "client.dll",
       "name": "GetCustomPaintKitIndex",
       "pattern": "48 89 5C 24 ? 57 48 83 EC ? 8B 15 ? ? ? ? 48 8B F9 65 48 8B 04 25 ? ? ? ? B9 ? ? ? ? 48 8B 04 D0 8B 04 01 39 05 ? ? ? ? 0F 8F ? ? ? ? E8 ? ? ? ? 8B 58 ? 39 1D ? ? ? ? 74 ? E8 ? ? ? ? 48 8B 15 ? ? ? ? 48 8B C8 E8 ? ? ? ? 48 89 05 ? ? ? ? 89 1D ? ? ? ? EB ? 48 8B 05 ? ? ? ? 48 85 C0 74",
-      "pattern_synth": "48 89 5C 24 08 57 48 83 EC 40 8B 15 ? ? ? ? 48 8B F9 65 48 8B 04 25 58 00 00 00 B9 68 00 00 00 48 8B 04 D0 8B 04 01 39 05 8A AF 45 01 0F 8F",
+      "pattern_synth": "48 89 5C 24 08 57 48 83 EC 40 8B 15 ? ? ? ? 48 8B F9 65 48 8B 04 25 58 00 00 00 B9 68 00 00 00 48 8B 04 D0 8B 04 01 39 05 82 CE 45 01 0F 8F",
       "prototype": "__int64 __fastcall GetCustomPaintKitIndex(__int64 *a1)",
       "resolve": "raw",
-      "rva": 18382736,
-      "va": 140708761403280
+      "rva": 18388640,
+      "va": 140712469108384
     },
     {
       "bytes": "40 55 56 57 41 54 41 55 41 56 41 57 48 83 EC 50 48 8D 6C 24 50 80 A1 06",
@@ -433,8 +433,8 @@
       "pattern_synth": "40 55 56 57 41 54 41 55 41 56 41 57 48 83 EC 50 48 8D 6C 24 50 80 A1 06",
       "prototype": "char __fastcall BuildBoneMergeWork(__int64 a1, _QWORD *a2, char a3)",
       "resolve": "raw",
-      "rva": 10265184,
-      "va": 140708753285728
+      "rva": 10267888,
+      "va": 140712460987632
     },
     {
       "bytes": "48 89 5C 24 10 48 89 6C 24 18 48 89 74 24 20 57 41 54 41 55 41 56 41 57",
@@ -444,19 +444,19 @@
       "pattern_synth": "48 89 5C 24 10 48 89 6C 24 18 48 89 74 24 20 57 41 54 41 55 41 56 41 57 48 83 EC 30 48 8B F9 8B",
       "prototype": "char __fastcall StartHierarchicalAttachment(__int64 a1)",
       "resolve": "raw",
-      "rva": 10558752,
-      "va": 140708753579296
+      "rva": 10561456,
+      "va": 140712461281200
     },
     {
-      "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B 05 F2 0B 68 01 48 8B",
+      "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B 05 6A 21 68 01 48 8B",
       "module": "client.dll",
       "name": "OnGlowTypeChanged",
       "pattern": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B 05 ? ? ? ? 48 8B D9 F3 0F 10 41 4C",
-      "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B 05 F2 0B",
+      "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B 05 6A 21",
       "prototype": "__int64 __fastcall OnGlowTypeChanged(__int64 a1)",
       "resolve": "raw",
-      "rva": 12193456,
-      "va": 140708755214000
+      "rva": 12196176,
+      "va": 140712462915920
     },
     {
       "bytes": null,
@@ -466,8 +466,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 35840368,
-      "va": 140708778860912
+      "rva": 35848720,
+      "va": 140712486568464
     },
     {
       "bytes": "4C 8B DC 55 57 48 83 EC 48 48 63 41 68 48 8B F9 48 63 EA 49 89 5B 08 48",
@@ -477,8 +477,8 @@
       "pattern_synth": "4C 8B DC 55 57 48 83 EC 48 48 63 41 68 48 8B F9",
       "prototype": "__int64 __fastcall ClearHUDWeaponIcon(__int64 a1, int a2, __int64 a3)",
       "resolve": "rel32",
-      "rva": 15359136,
-      "va": 140708758379680
+      "rva": 15364608,
+      "va": 140712466084352
     },
     {
       "bytes": "4C 8B DC 55 56 48 83 EC 78 49 8B 68 08 48 8B F1 48 85 ED 0F 84 72 01 00",
@@ -488,19 +488,19 @@
       "pattern_synth": "4C 8B DC 55 56 48 83 EC 78 49 8B 68 08 48 8B F1",
       "prototype": "__int64 __fastcall Client_DispatchSpawn(_QWORD *a1, __int64 a2, __int64 a3, __int64 a4)",
       "resolve": "raw",
-      "rva": 22957328,
-      "va": 140708765977872
+      "rva": 22969264,
+      "va": 140712473689008
     },
     {
-      "bytes": "40 53 57 48 81 EC 78 02 00 00 48 8B CA 48 8B FA FF 15 CA FC DA 00 48 8B",
+      "bytes": "40 53 57 48 81 EC 78 02 00 00 48 8B CA 48 8B FA FF 15 3A 11 DB 00 48 8B",
       "module": "client.dll",
       "name": "ClientModeCSNormal_OnEvent",
       "pattern": "40 53 57 48 81 EC 78 02 00 00 48 8B CA 48 8B FA",
       "pattern_synth": "40 53 57 48 81 EC 78 02 00 00 48 8B CA 48 8B FA",
       "prototype": "void __fastcall ClientModeCSNormal_OnEvent(__int64 a1, KeyValues *a2)",
       "resolve": "raw",
-      "rva": 13597328,
-      "va": 140708756617872
+      "rva": 13600288,
+      "va": 140712464320032
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 18 55 57 41 56 48 8B EC 48 83 EC 50 45 8B F1",
@@ -510,8 +510,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 18 55 57 41 56 48 8B EC 48 83 EC 50 45 8B F1",
       "prototype": "",
       "resolve": "raw",
-      "rva": 10721504,
-      "va": 140708753742048
+      "rva": 10724208,
+      "va": 140712461443952
     },
     {
       "bytes": "48 89 5C 24 08 57 48 81 EC F0 00 00 00 F3 0F 10 0A 48 8D 8C 24 10 01 00",
@@ -521,41 +521,41 @@
       "pattern_synth": "48 89 5C 24 08 57 48 81 EC F0 00 00 00 F3 0F 10",
       "prototype": "__int64 __fastcall ComputeRandomSeed(__int64 a1, __int64 a2, int a3)",
       "resolve": "raw",
-      "rva": 13742944,
-      "va": 140708756763488
+      "rva": 13745904,
+      "va": 140712464465648
     },
     {
-      "bytes": "48 83 EC 28 48 8B 0D 55 62 9F 01 48 8D 54 24 30 48 8B 01 FF 90 10 03 00",
+      "bytes": "48 83 EC 28 48 8B 0D 45 8E 9F 01 48 8D 54 24 30 48 8B 01 FF 90 10 03 00",
       "module": "client.dll",
       "name": "ConCommand_firstperson",
       "pattern": "48 83 EC 28 48 8B 0D ? ? ? ? 48 8D 54 24 30 48 8B 01 FF 90 ? ? ? ? 83 7C 24 30 00 75 ? 48 8B 05 ? ? ? ? C6 80 29 02 00 00 00 C7 80 A8 06 00 00 00",
       "pattern_synth": "48 83 EC 28 48 8B 0D ? ? ? ? 48 8D 54 24 30 48 8B 01 FF 90 10 03 00 00 83 7C 24 30 00 75 69",
       "prototype": "__int64 ConCommand_firstperson()",
       "resolve": "raw",
-      "rva": 11899488,
-      "va": 140708754920032
+      "rva": 11902208,
+      "va": 140712462621952
     },
     {
-      "bytes": "48 83 EC 38 48 8B 0D 75 61 9F 01 48 8D 54 24 40 48 8B 01 FF 90 10 03 00",
+      "bytes": "48 83 EC 38 48 8B 0D 65 8D 9F 01 48 8D 54 24 40 48 8B 01 FF 90 10 03 00",
       "module": "client.dll",
       "name": "ConCommand_thirdperson",
       "pattern": "48 83 EC 38 48 8B 0D ? ? ? ? 48 8D 54 24 ? 48 8B 01 FF 90 10 03 00 00 83 7C 24 ? 00 0F 85 ? ? ? ? 4C 8B 05 ? ? ? ? 41 8B 80 50 0B 00 00",
       "pattern_synth": "48 83 EC 38 48 8B 0D ? ? ? ? 48 8D 54 24 40",
       "prototype": "__int64 ConCommand_thirdperson()",
       "resolve": "raw",
-      "rva": 11899712,
-      "va": 140708754920256
+      "rva": 11902432,
+      "va": 140712462622176
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 30 48 8B F1 48 8B FA B9 50 00",
       "module": "client.dll",
       "name": "Constructor",
       "pattern": "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC 30 48 8B F1 48 8B FA B9 ? ? ? ? E8 ? ? ? ? 48 8B D8 48 85 C0 74",
-      "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 30 48 8B F1 48 8B FA B9 50 00 00 00 E8 81",
+      "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 30 48 8B F1 48 8B FA B9 50 00 00 00 E8 C1",
       "prototype": "",
       "resolve": "raw",
-      "rva": 15578256,
-      "va": 140708758598800
+      "rva": 15583728,
+      "va": 140712466303472
     },
     {
       "bytes": "48 89 4C 24 08 55 56 41 54 41 55 41 56 48 8D 6C 24 90 48 81 EC 70 01 00",
@@ -565,8 +565,8 @@
       "pattern_synth": "48 89 4C 24 08 55 56 41 54 41 55 41 56 48 8D 6C",
       "prototype": "char __fastcall StartDefuse(__int64 a1)",
       "resolve": "raw",
-      "rva": 13270720,
-      "va": 140708756291264
+      "rva": 13273440,
+      "va": 140712463993184
     },
     {
       "bytes": "40 57 48 83 EC 20 4C 8B 49 18 44 8B D2 4C 63 41 10 48 8B F9 4F 8D 1C C1",
@@ -576,85 +576,85 @@
       "pattern_synth": "40 57 48 83 EC 20 4C 8B 49 18 44 8B D2 4C 63 41",
       "prototype": "__int64 __fastcall CreateBaseTypeCache(__int64 a1, unsigned int a2)",
       "resolve": "raw",
-      "rva": 23199200,
-      "va": 140708766219744
+      "rva": 23211136,
+      "va": 140712473930880
     },
     {
-      "bytes": "48 83 EC 28 B9 48 00 00 00 E8 22 00 B5 FF 48 85 C0 74 3E 48 8D 0D E6 04",
+      "bytes": "48 83 EC 28 B9 48 00 00 00 E8 62 F4 B4 FF 48 85 C0 74 3E 48 8D 0D 2E 0D",
       "module": "client.dll",
       "name": "CreateEconItem",
       "pattern": "48 83 EC 28 B9 48 00 00 00 E8 ? ? ? ? 48 85",
       "pattern_synth": "48 83 EC 28 B9 48 00 00 00 E8 ? ? ? ? 48 85",
       "prototype": "",
       "resolve": "raw",
-      "rva": 17659904,
-      "va": 140708760680448
+      "rva": 17665632,
+      "va": 140712468385376
     },
     {
-      "bytes": "4C 8D 05 D3 CA 68 00 4C 8B CF BA 03 00 00 00 FF 15 A5 C9 32 00 EB 15 0F",
+      "bytes": "4C 8D 05 33 BC 68 00 4C 8B CF BA 03 00 00 00 FF 15 05 BB 32 00 EB 15 0F",
       "module": "client.dll",
       "name": "CreateEntityByClassName",
       "pattern": "4C 8D 05 ? ? ? ? 4C 8B CF BA 03 00 00 00 FF 15 ? ? ? ? EB ? 0F B7 C8 48",
-      "pattern_synth": "4C 8D 05 ? ? ? ? 4C 8B CF BA 03 00 00 00 FF 15 A5 C9 32",
+      "pattern_synth": "4C 8D 05 ? ? ? ? 4C 8B CF BA 03 00 00 00 FF 15 05 BB 32",
       "prototype": "__int64 __fastcall CreateEntityByClassName(__int64 a1, int a2, __int64 a3, __int64 a4)",
       "resolve": "raw",
-      "rva": 24620662,
-      "va": 140708767641206
+      "rva": 24632598,
+      "va": 140712475352342
     },
     {
-      "bytes": "4C 8B 0D 41 65 DC 00 4C 8B D2 4C 8B D9 4D 85 C9 74 2E 49 8B 41 08 4D 8B",
+      "bytes": "4C 8B 0D 21 6D DC 00 4C 8B D2 4C 8B D9 4D 85 C9 74 2E 49 8B 41 08 4D 8B",
       "module": "client.dll",
       "name": "CreateInterface",
       "pattern": "4C 8B 0D ? ? ? ? 4C 8B D2 4C 8B D9 4D 85 C9 74 ? 49 8B 41 08",
       "pattern_synth": "4C 8B 0D ? ? ? ? 4C 8B D2 4C 8B D9 4D 85 C9",
       "prototype": "__int64 __fastcall CreateInterface(__int64 a1, _DWORD *a2)",
       "resolve": "raw",
-      "rva": 27024544,
-      "va": 140708770045088
+      "rva": 27036480,
+      "va": 140712477756224
     },
     {
       "bytes": "48 89 5C 24 10 57 48 83 EC 20 33 DB 48 8B F9 48 85 C9 75 2D B9 38 00 00",
       "module": "client.dll",
       "name": "CreateNewSubtickMoveStep",
       "pattern": "E8 ? ? ? ? 48 8B D0 48 8B CE E8 ? ? ? ? 48 8B C8",
-      "pattern_synth": "48 89 5C 24 10 57 48 83 EC 20 33 DB 48 8B F9 48 85 C9 75 2D B9 38 00 00 00 E8 C2 17",
+      "pattern_synth": "48 89 5C 24 10 57 48 83 EC 20 33 DB 48 8B F9 48 85 C9 75 2D B9 38 00 00 00 E8 B2 2B",
       "prototype": "__int64 __fastcall CreateNewSubtickMoveStep(__int64 a1)",
       "resolve": "rel32",
-      "rva": 5202000,
-      "va": 140708748222544
+      "rva": 5199616,
+      "va": 140712455919360
     },
     {
-      "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 50 F3 0F 10 1D 5D 37 0B 01 41",
+      "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 50 F3 0F 10 1D CD 4C 0B 01 41",
       "module": "client.dll",
       "name": "CreateParticleEffect",
       "pattern": "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? F3 0F 10 1D ? ? ? ? 41 8B F8 8B DA 4C 8D 05",
-      "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 50 F3 0F 10 1D 5D",
+      "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 50 F3 0F 10 1D CD",
       "prototype": "__int64 __fastcall CreateParticleEffect(int a1, int a2, int a3, __int64 a4, int a5)",
       "resolve": "raw",
-      "rva": 10536768,
-      "va": 140708753557312
+      "rva": 10539472,
+      "va": 140712461259216
     },
     {
-      "bytes": "48 83 EC 28 B9 48 00 00 00 E8 22 00 B5 FF 48 85 C0 74 3E 48 8D 0D E6 04",
+      "bytes": "48 83 EC 28 B9 48 00 00 00 E8 62 F4 B4 FF 48 85 C0 74 3E 48 8D 0D 2E 0D",
       "module": "client.dll",
       "name": "CreateSOSubclassEconItem",
       "pattern": "48 83 EC 28 B9 48 00 00 00 E8 ? ? ? ? 48 85",
       "pattern_synth": "48 83 EC 28 B9 48 00 00 00 E8 ? ? ? ? 48 85",
       "prototype": "__int64 CreateSOSubclassEconItem()",
       "resolve": "raw",
-      "rva": 17659904,
-      "va": 140708760680448
+      "rva": 17665632,
+      "va": 140712468385376
     },
     {
       "bytes": "48 89 5C 24 10 57 48 83 EC 20 33 DB 48 8B F9 48 85 C9 75 2D B9 38 00 00",
       "module": "client.dll",
       "name": "CreateSubtickMoveStep",
       "pattern": "E8 ? ? ? ? 48 8B D0 49 8D 4E ? E8 ? ? ? ? 4C 8B C8 4C 8D 43 ? 49 8B D1 48 8B CE E8 ? ? ? ? 48 8B D8 48 85 C0 0F 84 ? ? ? ? 48 3B 06 0F 83 ? ? ? ? 0F B7 00 66 C7 45 ? ? ? 66 3B 45 ? 74 ? E9 ? ? ? ? 40 80 FF ? 0F 85 ? ? ? ? 41 83 4E",
-      "pattern_synth": "48 89 5C 24 10 57 48 83 EC 20 33 DB 48 8B F9 48 85 C9 75 2D B9 38 00 00 00 E8 C2 17",
+      "pattern_synth": "48 89 5C 24 10 57 48 83 EC 20 33 DB 48 8B F9 48 85 C9 75 2D B9 38 00 00 00 E8 B2 2B",
       "prototype": "",
       "resolve": "rel32",
-      "rva": 5202000,
-      "va": 140708748222544
+      "rva": 5199616,
+      "va": 140712455919360
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 41 56 41 57 48 83 EC 40",
@@ -664,8 +664,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 41 56 41 57 48 83 EC 40 F2 0F 10 02",
       "prototype": "",
       "resolve": "raw",
-      "rva": 8907104,
-      "va": 140708751927648
+      "rva": 8909808,
+      "va": 140712459629552
     },
     {
       "bytes": "48 8B C4 55 53 56 57 41 54 41 55 41 56 41 57 48 8D 68 A8 48 81 EC 18 01",
@@ -675,8 +675,8 @@
       "pattern_synth": "48 8B C4 55 53 56 57 41 54 41 55 41 56 41 57 48 8D 68 A8 48",
       "prototype": "void __fastcall CSBaseGunFireData(__int64 a1)",
       "resolve": "raw",
-      "rva": 23033312,
-      "va": 140708766053856
+      "rva": 23045248,
+      "va": 140712473764992
     },
     {
       "bytes": "48 89 5C 24 20 55 56 57 41 54 41 55 48 81 EC D0 00 00 00 49 63 30 4D 8B",
@@ -686,8 +686,8 @@
       "pattern_synth": "48 89 5C 24 20 55 56 57 41 54 41 55 48 81 EC D0",
       "prototype": "char __fastcall GetTransformsForHitboxList(__int64 a1, __int64 a2, int *a3)",
       "resolve": "raw",
-      "rva": 11161616,
-      "va": 140708754182160
+      "rva": 11164336,
+      "va": 140712461884080
     },
     {
       "bytes": "48 89 5C 24 08 57 48 83 EC 20 49 63 D8 49 8B F9 45 85 C0 78 20 3B 99 58",
@@ -697,8 +697,8 @@
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 49 63 D8 49 8B F9",
       "prototype": "__int64 __fastcall OnBodyGroupChoiceChanged(__int64 a1, __int64 a2, int a3, _DWORD *a4)",
       "resolve": "raw",
-      "rva": 11206704,
-      "va": 140708754227248
+      "rva": 11209424,
+      "va": 140712461929168
     },
     {
       "bytes": "49 8B 00 48 89 81 B8 00 00 00 C6 81 B0 00 00 00 01 C3 CC CC CC CC CC CC",
@@ -708,8 +708,8 @@
       "pattern_synth": "49 8B 00 48 89 81 B8 00 00 00 C6 81 B0 00 00 00",
       "prototype": "__int64 __fastcall OnSkeletonModelChanged(__int64 a1, __int64 a2, __int64 *a3)",
       "resolve": "raw",
-      "rva": 11207200,
-      "va": 140708754227744
+      "rva": 11209920,
+      "va": 140712461929664
     },
     {
       "bytes": "48 8B C4 4C 89 40 18 89 50 10 55 57 48 8D A8 68 FE FF FF 48 81 EC 88 02",
@@ -719,8 +719,8 @@
       "pattern_synth": "48 8B C4 4C 89 40 18 89 50 10 55 57 48 8D A8 68",
       "prototype": "char __fastcall PostDataUpdate(__int64 a1, __int64 a2, __int64 a3)",
       "resolve": "raw",
-      "rva": 11211488,
-      "va": 140708754232032
+      "rva": 11214208,
+      "va": 140712461933952
     },
     {
       "bytes": "3B 91 F8 03 00 00 74 24 89 91 F8 03 00 00 48 8B 81 18 02 00 00 48 85 C0",
@@ -730,8 +730,8 @@
       "pattern_synth": "3B 91 F8 03 00 00 74 24 89 91 F8 03 00 00 48 8B",
       "prototype": "void __fastcall SetMaterialGroup(__int64 a1, unsigned int a2)",
       "resolve": "raw",
-      "rva": 11236240,
-      "va": 140708754256784
+      "rva": 11238960,
+      "va": 140712461958704
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8D 99 40 01 00 00 48 8B",
@@ -741,8 +741,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8D 99 40 01",
       "prototype": "__int64 __fastcall SetMeshGroupMask(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 11241072,
-      "va": 140708754261616
+      "rva": 11243792,
+      "va": 140712461963536
     },
     {
       "bytes": "40 53 48 83 EC 20 4C 8B 02 48 8B D9 4C 39 81 08 02 00 00 74 40 80 B9 AA",
@@ -752,52 +752,52 @@
       "pattern_synth": "40 53 48 83 EC 20 4C 8B 02 48 8B D9 4C 39 81 08",
       "prototype": "__int64 __fastcall SetMeshGroupMask(__int64 a1, _QWORD *a2)",
       "resolve": "raw",
-      "rva": 11280656,
-      "va": 140708754301200
+      "rva": 11283376,
+      "va": 140712462003120
     },
     {
-      "bytes": "48 8B C4 48 81 EC 78 02 00 00 8B 0D C0 65 9D 01 BA 02 00 00 00 48 89 58",
+      "bytes": "48 8B C4 48 81 EC 78 02 00 00 8B 0D B0 91 9D 01 BA 02 00 00 00 48 89 58",
       "module": "client.dll",
       "name": "Shutdown",
       "pattern": "48 8B C4 48 81 EC ? ? ? ? 8B 0D ? ? ? ? BA 02 00 00 00 48 89 58 08 48 89 70 F0 48 89 78 E8",
       "pattern_synth": "48 8B C4 48 81 EC 78 02 00 00 8B 0D ? ? ? ?",
       "prototype": "__int64 __fastcall Shutdown()",
       "resolve": "raw",
-      "rva": 12022432,
-      "va": 140708755042976
+      "rva": 12025152,
+      "va": 140712462744896
     },
     {
-      "bytes": "40 55 48 8D AC 24 70 FD FF FF 48 81 EC 90 03 00 00 F2 0F 10 05 C7 CD A0",
+      "bytes": "40 55 48 8D AC 24 70 FD FF FF 48 81 EC 90 03 00 00 F2 0F 10 05 C7 F4 A0",
       "module": "client.dll",
       "name": "ParseSubtickDuration",
       "pattern": "40 55 48 8D AC 24 70 FD FF FF 48 81 EC 90 03 00 00 F2 0F 10 05 ? ? ? ? 48 8D 05",
       "pattern_synth": "40 55 48 8D AC 24 70 FD FF FF 48 81 EC 90 03 00",
       "prototype": "",
       "resolve": "raw",
-      "rva": 719504,
-      "va": 140708743740048
+      "rva": 717712,
+      "va": 140712451437456
     },
     {
-      "bytes": "40 55 48 8D AC 24 40 FE FF FF 48 81 EC C0 02 00 00 F2 0F 10 05 87 CA A0",
+      "bytes": "40 55 48 8D AC 24 40 FE FF FF 48 81 EC C0 02 00 00 F2 0F 10 05 87 F1 A0",
       "module": "client.dll",
       "name": "ParseSubtickFraction",
       "pattern": "40 55 48 8D AC 24 40 FE FF FF 48 81 EC C0 02 00 00 F2 0F 10 05 ? ? ? ? 48 8D 05",
       "pattern_synth": "40 55 48 8D AC 24 40 FE FF FF 48 81 EC C0 02 00 00 F2 0F 10",
       "prototype": "",
       "resolve": "raw",
-      "rva": 720336,
-      "va": 140708743740880
+      "rva": 718544,
+      "va": 140712451438288
     },
     {
-      "bytes": "41 B9 88 02 00 00 8B 57 14 81 E2 FF FF FF 3F 8D 71 01 44 8B C6 FF 15 AB",
+      "bytes": "41 B9 88 02 00 00 8B 57 14 81 E2 FF FF FF 3F 8D 71 01 44 8B C6 FF 15 CB",
       "module": "client.dll",
       "name": "CompositeMaterialInput_AddToTail",
       "pattern": "41 B9 88 02 00 00 8B 57 14 81 E2 FF FF FF 3F 8D 71 01 44 8B C6 FF 15",
       "pattern_synth": "41 B9 88 02 00 00 8B 57 14 81 E2 FF FF FF 3F 8D 71 01 44 8B",
       "prototype": "__int64 __fastcall CompositeMaterialInput_AddToTail(int *a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 8364882,
-      "va": 140708751385344
+      "rva": 8367666,
+      "va": 140712459087328
     },
     {
       "bytes": "40 55 41 54 41 55 41 56 41 57 48 8D AC 24 F0 FE FF FF 48 81 EC 10 02 00",
@@ -807,8 +807,8 @@
       "pattern_synth": "40 55 41 54 41 55 41 56 41 57 48 8D AC 24 F0 FE FF FF 48 81 EC 10 02 00 00 48 83 79 38 00 45 0F",
       "prototype": "void __fastcall DamageFeedbackEmitter(__int64 a1, _QWORD *a2, __int64 a3)",
       "resolve": "raw",
-      "rva": 9026000,
-      "va": 140708752046544
+      "rva": 9028704,
+      "va": 140712459748448
     },
     {
       "bytes": "83 FA FF 0F 84 D5 01 00 00 41 54 41 56 41 57 48 83 EC 40 48 89 5C 24 60",
@@ -818,19 +818,19 @@
       "pattern_synth": "83 FA FF 0F 84 ? ? ? ? 41 54 41 56 41 57 48",
       "prototype": "void __fastcall DestroyParticle(__int64 a1, __int64 a2, unsigned __int8 a3, char a4)",
       "resolve": "raw",
-      "rva": 10291760,
-      "va": 140708753312304
+      "rva": 10294464,
+      "va": 140712461014208
     },
     {
-      "bytes": "48 89 5C 24 08 57 48 83 EC 40 48 8B F9 48 8B DA 48 8D 4C 24 20 E8 36 0F",
+      "bytes": "48 89 5C 24 08 57 48 83 EC 40 48 8B F9 48 8B DA 48 8D 4C 24 20 E8 26 EB",
       "module": "client.dll",
       "name": "DispatchEffect",
       "pattern": "48 89 5C 24 ? 57 48 83 EC ? 48 8B F9 48 8B DA 48 8D 4C 24",
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 40 48 8B F9 48 8B DA 48 8D 4C 24",
       "prototype": "__int64 __fastcall DispatchEffect(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 19026128,
-      "va": 140708762046672
+      "rva": 19038064,
+      "va": 140712469757808
     },
     {
       "bytes": "4C 8B DC 55 56 48 83 EC 78 49 8B 68 08 48 8B F1 48 85 ED 0F 84 72 01 00",
@@ -840,8 +840,8 @@
       "pattern_synth": "4C 8B DC 55 56 48 83 EC 78 49 8B 68 08 48 8B F1",
       "prototype": "__int64 __fastcall DispatchSpawn_caller(_QWORD *a1, __int64 a2, __int64 a3, __int64 a4)",
       "resolve": "raw",
-      "rva": 22957328,
-      "va": 140708765977872
+      "rva": 22969264,
+      "va": 140712473689008
     },
     {
       "bytes": "48 89 5C 24 10 48 89 74 24 18 48 89 7C 24 20 55 41 56 41 57 48 8B EC 48",
@@ -851,8 +851,8 @@
       "pattern_synth": "48 89 5C 24 10 48 89 74 24 18 48 89 7C 24 20 55 41 56 41 57 48 8B EC 48 83 EC 60 48 8D B9 80 00",
       "prototype": "",
       "resolve": "raw",
-      "rva": 22947760,
-      "va": 140708765968304
+      "rva": 22959696,
+      "va": 140712473679440
     },
     {
       "bytes": "48 89 5C 24 08 57 48 83 EC 20 48 8B D9 E8 1E 81 11 00 48 85 C0 0F 84 C5",
@@ -862,19 +862,19 @@
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 48 8B D9 E8 1E 81",
       "prototype": "bool __fastcall DrawCrosshair(_QWORD *a1)",
       "resolve": "raw",
-      "rva": 8541040,
-      "va": 140708751561584
+      "rva": 8543744,
+      "va": 140712459263488
     },
     {
-      "bytes": "40 53 48 83 EC 20 48 8B D9 83 FA FF 75 17 48 8B 0D 2B 92 A5 01 48 8D 54",
+      "bytes": "40 53 48 83 EC 20 48 8B D9 83 FA FF 75 17 48 8B 0D 1B BE A5 01 48 8D 54",
       "module": "client.dll",
       "name": "DrawOverHead",
       "pattern": "40 53 48 83 EC ? 48 8B D9 83 FA ? 75 ? 48 8B 0D ? ? ? ? 48 8D 54 24 ? 48 8B 01 FF 90 ? ? ? ? 8B 10",
       "pattern_synth": "40 53 48 83 EC 20 48 8B D9 83 FA FF 75 17 48 8B",
       "prototype": "unsigned __int8 __fastcall DrawOverHead(__int64 a1, unsigned int a2)",
       "resolve": "raw",
-      "rva": 11494016,
-      "va": 140708754514560
+      "rva": 11496736,
+      "va": 140712462216480
     },
     {
       "bytes": "48 8B C4 53 57 48 83 EC 68 48 8B FA 44 0F 29 40 B8 48 8B 51 10 48 8B D9",
@@ -884,8 +884,8 @@
       "pattern_synth": "48 8B C4 53 57 48 83 EC 68 48 8B FA 44 0F 29 40",
       "prototype": "__int64 __fastcall DrawScopeOverlay(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 9293424,
-      "va": 140708752313968
+      "rva": 9296128,
+      "va": 140712460015872
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 41 56 41 57 48 83 EC 40",
@@ -895,8 +895,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 41 56 41 57 48 83 EC 40 48 8B 9C 24 88 00 00 00 4D 8B F8 48 8B FA 48 8B",
       "prototype": "__int64 __fastcall DrawSmokeVertex(__int64 a1, __int64 a2, int a3, int a4, __int64 a5, __int64 a6)",
       "resolve": "raw",
-      "rva": 13729872,
-      "va": 140708756750416
+      "rva": 13732832,
+      "va": 140712464452576
     },
     {
       "bytes": "48 83 EC 28 45 0F B6 08 44 38 89 0C 0F 00 00 74 49 44 88 89 0C 0F 00 00",
@@ -906,8 +906,8 @@
       "pattern_synth": "48 83 EC 28 45 0F B6 08 44 38 89 0C 0F 00 00 74",
       "prototype": "",
       "resolve": "raw",
-      "rva": 7757392,
-      "va": 140708750777936
+      "rva": 7759824,
+      "va": 140712458479568
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83",
@@ -917,19 +917,19 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83 EC 40 49 8B E9 49 8B F8",
       "prototype": "float *__fastcall DrawViewPunch2(int a1, __int64 a2, __int64 a3, float *a4, float *a5, float *a6)",
       "resolve": "raw",
-      "rva": 8905344,
-      "va": 140708751925888
+      "rva": 8908048,
+      "va": 140712459627792
     },
     {
-      "bytes": "40 53 48 81 EC B0 00 00 00 0F 10 02 48 8B 05 ED C7 B8 01 0F 10 4A 10 89",
+      "bytes": "40 53 48 81 EC B0 00 00 00 0F 10 02 48 8B 05 CD F3 B8 01 0F 10 4A 10 89",
       "module": "client.dll",
       "name": "EmitPanoramaSound",
       "pattern": "40 53 48 81 EC ? ? ? ? ? ? ? 48 8B 05",
-      "pattern_synth": "40 53 48 81 EC B0 00 00 00 0F 10 02 48 8B 05 ED",
+      "pattern_synth": "40 53 48 81 EC B0 00 00 00 0F 10 02 48 8B 05 CD",
       "prototype": "",
       "resolve": "raw",
-      "rva": 12578432,
-      "va": 140708755598976
+      "rva": 12581152,
+      "va": 140712463300896
     },
     {
       "bytes": "40 53 48 83 EC 30 4C 89 4C 24 20 48 8B D9 45 8B C8 4C 8B C2 48 8B D1 48",
@@ -939,19 +939,19 @@
       "pattern_synth": "40 53 48 83 EC 30 4C 89 4C 24 20 48 8B D9 45 8B",
       "prototype": "__int64 __fastcall EmitSoundByHandle(__int64 a1, int a2, int a3, __int64 a4)",
       "resolve": "raw",
-      "rva": 12577840,
-      "va": 140708755598384
+      "rva": 12580560,
+      "va": 140712463300304
     },
     {
-      "bytes": "48 8D 15 58 3D E5 00 45 33 C0 B9 01 00 00 00 FF 15 BA E2 C2 00 EB 48 48",
+      "bytes": "48 8D 15 38 46 E5 00 45 33 C0 B9 01 00 00 00 FF 15 FA EC C2 00 EB 48 48",
       "module": "client.dll",
       "name": "FindHudElement",
       "pattern": "48 8D 15 ? ? ? ? 45 33 C0 B9 ? ? ? ? FF 15 ? ? ? ? EB ? 48 8B 15",
-      "pattern_synth": "48 8D 15 ? ? ? ? 45 33 C0 B9 01 00 00 00 FF 15 BA E2 C2",
+      "pattern_synth": "48 8D 15 ? ? ? ? 45 33 C0 B9 01 00 00 00 FF 15 FA EC C2",
       "prototype": "_QWORD **__fastcall FindHudElement(__int64 a1, unsigned __int8 a2)",
       "resolve": "raw",
-      "rva": 15173705,
-      "va": 140708758194249
+      "rva": 15179273,
+      "va": 140712465899017
     },
     {
       "bytes": "48 89 5C 24 08 57 48 83 EC 30 4C 8B 52 08 48 8B D9 8B 0A 49 8B F9 44 8B",
@@ -961,8 +961,8 @@
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 30 4C 8B 52 08 48 8B",
       "prototype": "__int64 __fastcall FindSOCache(__int64 a1, int *a2, __int64 a3, __int64 a4)",
       "resolve": "raw",
-      "rva": 26946912,
-      "va": 140708769967456
+      "rva": 26958848,
+      "va": 140712477678592
     },
     {
       "bytes": "85 D2 0F 88 22 09 00 00 48 89 4C 24 08 55 53 48 8D AC 24 88 FE FF FF 48",
@@ -972,8 +972,8 @@
       "pattern_synth": "85 D2 0F 88 ? ? ? ? 48 89 4C 24 08 55 53 48",
       "prototype": "void __fastcall FlashOverlay(__int64 a1, int a2)",
       "resolve": "raw",
-      "rva": 15078704,
-      "va": 140708758099248
+      "rva": 15084272,
+      "va": 140712465804016
     },
     {
       "bytes": "48 89 5C 24 18 48 89 6C 24 20 57 48 83 EC 40 48 8B F9 33 ED 48 8B 89 B0",
@@ -983,8 +983,8 @@
       "pattern_synth": "48 89 5C 24 18 48 89 6C 24 20 57 48 83 EC 40 48",
       "prototype": "",
       "resolve": "raw",
-      "rva": 11937968,
-      "va": 140708754958512
+      "rva": 11940688,
+      "va": 140712462660432
     },
     {
       "bytes": "48 89 5C 24 10 48 89 6C 24 18 56 57 41 56 48 83 EC 20 41 0F B6 E9 48 8D",
@@ -994,8 +994,8 @@
       "pattern_synth": "48 89 5C 24 10 48 89 6C 24 18 56 57 41 56 48 83 EC 20 41 0F",
       "prototype": "__int64 __fastcall GameEventManager_AddListener(__int64 a1, __int64 a2, const char *a3, unsigned __int8 a4)",
       "resolve": "raw",
-      "rva": 10242256,
-      "va": 140708753262800
+      "rva": 10244960,
+      "va": 140712460964704
     },
     {
       "bytes": "48 8B C4 48 89 50 10 55 41 54 41 55 41 56 48 8D 68 D8 48 81 EC 08 01 00",
@@ -1005,8 +1005,8 @@
       "pattern_synth": "48 8B C4 48 89 50 10 55 41 54 41 55 41 56 48 8D",
       "prototype": "__int64 __fastcall GameEventManager_UnserializeEvent(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 10587440,
-      "va": 140708753607984
+      "rva": 10590144,
+      "va": 140712461309888
     },
     {
       "bytes": "4C 8B DC 49 89 5B 08 49 89 6B 10 49 89 73 18 57 48 81 EC 80 00 00 00 33",
@@ -1016,30 +1016,30 @@
       "pattern_synth": "4C 8B DC 49 89 5B 08 49 89 6B 10 49 89 73 18 57 48 81 EC 80",
       "prototype": "__int64 __fastcall GameTraceLine(int a1, int a2, int a3, int a4, __int64 a5, __int64 a6, __int64 a7)",
       "resolve": "raw",
-      "rva": 10572400,
-      "va": 140708753592944
+      "rva": 10575104,
+      "va": 140712461294848
     },
     {
       "bytes": "40 53 48 83 EC 20 48 8B 99 30 03 00 00 90 80 BB 10 01 00 00 00 74 08 48",
       "module": "client.dll",
       "name": "GetAbsOrigin",
       "pattern": "F8 ? 75 ? E8 ? ? ? ? F3",
-      "pattern_synth": "40 53 48 83 EC 20 48 8B 99 30 03 00 00 90 80 BB 10 01 00 00 00 74 08 48 8B CB E8 51",
+      "pattern_synth": "40 53 48 83 EC 20 48 8B 99 30 03 00 00 90 80 BB 10 01 00 00 00 74 08 48 8B CB E8 31",
       "prototype": "",
       "resolve": "riprel",
-      "rva": 2202016,
-      "va": 140708745222560
+      "rva": 2199632,
+      "va": 140712452919376
     },
     {
-      "bytes": "48 89 5C 24 10 48 89 6C 24 18 57 41 56 41 57 48 83 EC 60 48 8D 05 66 AF",
+      "bytes": "48 89 5C 24 10 48 89 6C 24 18 57 41 56 41 57 48 83 EC 60 48 8D 05 F6 B6",
       "module": "client.dll",
       "name": "GetAttributeDefByName",
       "pattern": "48 89 5C 24 10 48 89 6C 24 18 57 41 56 41 57 48 83 EC 60 48 8D 05",
       "pattern_synth": "48 89 5C 24 10 48 89 6C 24 18 57 41 56 41 57 48 83 EC 60 48",
       "prototype": "",
       "resolve": "raw",
-      "rva": 17996816,
-      "va": 140708761017360
+      "rva": 18002720,
+      "va": 140712468722464
     },
     {
       "bytes": "4C 8D 49 10 81 FA FE 7F 00 00 77 47 8B CA C1 F9 09 83 F9 3F 77 3D 48 63",
@@ -1049,30 +1049,30 @@
       "pattern_synth": "4C 8D 49 10 81 FA FE 7F 00 00 77 47 8B CA C1 F9",
       "prototype": "__int64 __fastcall GetBaseEntity(__int64 a1, int a2)",
       "resolve": "raw",
-      "rva": 10425088,
-      "va": 140708753445632
+      "rva": 10427792,
+      "va": 140712461147536
     },
     {
-      "bytes": "48 89 5C 24 08 57 48 83 EC 20 48 8B F9 48 8B DA 48 8B 0D 31 B3 C8 01 48",
+      "bytes": "48 89 5C 24 08 57 48 83 EC 20 48 8B F9 48 8B DA 48 8B 0D 31 DF C8 01 48",
       "module": "client.dll",
       "name": "GetBombsiteACenter",
       "pattern": "54 24 ? E8 ? ? ? ? EB 0A",
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 48 8B F9 48 8B DA 48 8B 0D 31",
       "prototype": "",
       "resolve": "riprel",
-      "rva": 9208992,
-      "va": 140708752229536
+      "rva": 9211696,
+      "va": 140712459931440
     },
     {
-      "bytes": "48 89 5C 24 08 57 48 83 EC 20 48 8B F9 48 8B DA 48 8B 0D D1 B2 C8 01 48",
+      "bytes": "48 89 5C 24 08 57 48 83 EC 20 48 8B F9 48 8B DA 48 8B 0D D1 DE C8 01 48",
       "module": "client.dll",
       "name": "GetBombsiteBCenter",
       "pattern": "EB 0A 48 8D 54 24 ? E8 ? ? ? ? F2",
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 48 8B F9 48 8B DA 48 8B 0D D1",
       "prototype": "",
       "resolve": "riprel",
-      "rva": 9209088,
-      "va": 140708752229632
+      "rva": 9211792,
+      "va": 140712459931536
     },
     {
       "bytes": "40 53 48 83 EC 20 48 8B 89 30 03 00 00 48 8B DA 48 8B 01 FF 50 68 48 8B",
@@ -1082,19 +1082,19 @@
       "pattern_synth": "40 53 48 83 EC 20 48 8B 89 30 03 00 00 48 8B DA 48 8B 01 FF 50 68 48 8B",
       "prototype": "__int64 __fastcall GetBonePositionByName(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 9756240,
-      "va": 140708752776784
+      "rva": 9758944,
+      "va": 140712460478688
     },
     {
-      "bytes": "48 8B 05 19 0B 44 01 C3 CC CC CC CC CC CC CC CC 48 89 5C 24 08 57 48 83",
+      "bytes": "48 8B 05 09 2A 44 01 C3 CC CC CC CC CC CC CC CC 48 89 5C 24 08 57 48 83",
       "module": "client.dll",
       "name": "GetChatObject",
       "pattern": "E8 ? ? ? ? 48 8B E8 48 85 C0 0F 84 ? ? ? ? 4C 8D 05",
       "pattern_synth": "48 8B 05 ? ? ? ? C3 CC CC CC CC CC CC CC CC 48 89 5C 24 08 57 48 83 EC 40 48 8B",
       "prototype": "__int64 GetChatObject()",
       "resolve": "rel32",
-      "rva": 18493344,
-      "va": 140708761513888
+      "rva": 18499248,
+      "va": 140712469218992
     },
     {
       "bytes": "40 53 48 83 EC 20 8B DA E8 83 00 00 00 4C 8B C0 85 DB 7F 0A 33 C9 8B C1",
@@ -1104,19 +1104,19 @@
       "pattern_synth": "40 53 48 83 EC 20 8B DA E8 ? ? ? ? 4C 8B C0",
       "prototype": "__int64 __fastcall GetControllerCmd(__int64 a1, int a2)",
       "resolve": "raw",
-      "rva": 9697824,
-      "va": 140708752718368
+      "rva": 9700528,
+      "va": 140712460420272
     },
     {
-      "bytes": "48 83 EC 28 48 8B 05 75 4C 01 02 48 85 C0 0F 85 AC 06 00 00 48 89 5C 24",
+      "bytes": "48 83 EC 28 48 8B 05 6D 8D 01 02 48 85 C0 0F 85 AC 06 00 00 48 89 5C 24",
       "module": "client.dll",
       "name": "GetEconItemSystem",
       "pattern": "48 83 EC 28 48 8B 05 ? ? ? ? 48 85 C0 0F 85 ? ? ? ? 48 89 5C 24",
       "pattern_synth": "48 83 EC 28 48 8B 05 ? ? ? ? 48 85 C0 0F 85 ? ? ? ? 48 89 5C 24 30 B9 50 00 00 00 48 89 74 24 40 4C 89 74 24 20 E8 ? ? ? ? 33 F6 48",
       "prototype": "__int64 GetEconItemSystem()",
       "resolve": "raw",
-      "rva": 3761680,
-      "va": 140708746782224
+      "rva": 3759296,
+      "va": 140712454479040
     },
     {
       "bytes": "4C 8D 49 10 81 FA FE 7F 00 00 77 47 8B CA C1 F9 09 83 F9 3F 77 3D 48 63",
@@ -1126,8 +1126,8 @@
       "pattern_synth": "4C 8D 49 10 81 FA FE 7F 00 00 77 47 8B CA C1 F9",
       "prototype": "__int64 __fastcall GetEntityByIndex(__int64 a1, int a2)",
       "resolve": "raw",
-      "rva": 10425088,
-      "va": 140708753445632
+      "rva": 10427792,
+      "va": 140712461147536
     },
     {
       "bytes": "48 85 C9 74 32 48 8B 49 10 48 85 C9 74 29 44 8B 41 10 BA FF 7F 00 00 8B",
@@ -1137,19 +1137,19 @@
       "pattern_synth": "48 85 C9 74 32 48 8B 49 10 48 85 C9 74 29 44 8B 41 10 BA FF",
       "prototype": "__int64 __fastcall GetEntityHandle(__int64 a1)",
       "resolve": "raw",
-      "rva": 10322016,
-      "va": 140708753342560
+      "rva": 10324720,
+      "va": 140712461044464
     },
     {
-      "bytes": "48 83 EC 28 48 8B 0D DD 93 51 01 48 8B 01 FF 90 C8 00 00 00 48 85 C0 74",
+      "bytes": "48 83 EC 28 48 8B 0D 35 B5 51 01 48 8B 01 FF 90 C8 00 00 00 48 85 C0 74",
       "module": "client.dll",
       "name": "GetGameModeName",
       "pattern": "48 83 EC ? 48 8B 0D ? ? ? ? ? ? ? FF 90 ? ? ? ? 48 85 C0 74 ? 48 8B 0D ? ? ? ? ? ? ? 4C 8B 42",
       "pattern_synth": "48 83 EC 28 48 8B 0D ? ? ? ? 48 8B 01 FF 90 C8 00 00 00",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16357712,
-      "va": 140708759378256
+      "rva": 16363328,
+      "va": 140712467083072
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 20 48 8B F2 48",
@@ -1159,30 +1159,30 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 20 48 8B F2 48 8B F9 48 8B",
       "prototype": "void __fastcall GetGlowColor(__int64 a1, float *a2)",
       "resolve": "raw",
-      "rva": 12183584,
-      "va": 140708755204128
+      "rva": 12186304,
+      "va": 140712462906048
     },
     {
-      "bytes": "40 53 48 83 EC 20 48 83 79 10 00 48 8B D9 74 16 E8 FB FE CC 00 84 C0 75",
+      "bytes": "40 53 48 83 EC 20 48 83 79 10 00 48 8B D9 74 16 E8 FB 22 CD 00 84 C0 75",
       "module": "client.dll",
       "name": "GetHitGroup",
       "pattern": "40 53 48 83 EC 20 48 83 79 10 00 48 8B D9 74 16 E8 ?? ?? ?? ?? 84 C0 75 0D 48 8B 43 10 8B 40 38",
       "pattern_synth": "40 53 48 83 EC 20 48 83 79 10 00 48 8B D9 74 16",
       "prototype": "__int64 __fastcall GetHitGroup(__int64 a1)",
       "resolve": "raw",
-      "rva": 11150592,
-      "va": 140708754171136
+      "rva": 11153312,
+      "va": 140712461873056
     },
     {
-      "bytes": "48 8D 05 29 C9 C8 01 C3 CC CC CC CC CC CC CC CC 0F B6 81 6B 02 00 00 C3",
+      "bytes": "48 8D 05 89 F5 C8 01 C3 CC CC CC CC CC CC CC CC 0F B6 81 6B 02 00 00 C3",
       "module": "client.dll",
       "name": "GetInventoryManager",
       "pattern": "E8 ? ? ? ? 48 8B D3 48 8B C8 4C 8B 00 41 FF 90 10 02 00 00 48 8B 0D ? ? ? ? 48 85 C9",
       "pattern_synth": "48 8D 05 ? ? ? ? C3 CC CC CC CC CC CC CC CC 0F B6 81 6B",
       "prototype": "__int64 *GetInventoryManager()",
       "resolve": "rel32",
-      "rva": 8627728,
-      "va": 140708751648272
+      "rva": 8630432,
+      "va": 140712459350176
     },
     {
       "bytes": "48 89 54 24 10 53 48 83 EC 20 48 8B D9 48 85 D2 75 08 33 C0 48 83 C4 20",
@@ -1192,41 +1192,41 @@
       "pattern_synth": "48 89 54 24 10 53 48 83 EC 20 48 8B D9 48 85 D2",
       "prototype": "uintptr_t __fastcall GetItemViewByID(uintptr_t, uint64_t)",
       "resolve": "raw",
-      "rva": 18009504,
-      "va": 140708761030048
+      "rva": 18015408,
+      "va": 140712468735152
     },
     {
-      "bytes": "48 83 EC 28 83 F9 FF 75 17 48 8B 0D 90 97 BE 01 48 8D 54 24 30 48 8B 01",
+      "bytes": "48 83 EC 28 83 F9 FF 75 17 48 8B 0D 90 C3 BE 01 48 8D 54 24 30 48 8B 01",
       "module": "client.dll",
       "name": "GetLocalControllerById",
       "pattern": "48 83 EC 28 83 F9 FF 75 ? 48 8B 0D ? ? ? ? 48 8D 54 24 ? 48 8B 01 FF 90 ? ? ? ? 8B 08 48 63 C1 4C 8D 05",
-      "pattern_synth": "48 83 EC 28 83 F9 FF 75 17 48 8B 0D ? ? ? ? 48 8D 54 24 30 48 8B 01 FF 90 10 03 00 00 8B 08 48 63 C1 4C 8D 05 7E 53",
+      "pattern_synth": "48 83 EC 28 83 F9 FF 75 17 48 8B 0D ? ? ? ? 48 8D 54 24 30 48 8B 01 FF 90 10 03 00 00 8B 08 48 63 C1 4C 8D 05 9E 85",
       "prototype": "__int64 __fastcall GetLocalControllerById(int a1)",
       "resolve": "raw",
-      "rva": 9854240,
-      "va": 140708752874784
+      "rva": 9856944,
+      "va": 140712460576688
     },
     {
-      "bytes": "48 83 EC 28 83 F9 FF 75 17 48 8B 0D 90 97 BE 01 48 8D 54 24 30 48 8B 01",
+      "bytes": "48 83 EC 28 83 F9 FF 75 17 48 8B 0D 90 C3 BE 01 48 8D 54 24 30 48 8B 01",
       "module": "client.dll",
       "name": "GetLocalPawn",
       "pattern": "48 83 EC ? 83 F9 ? 75 ? 48 8B 0D ? ? ? ? 48 8D 54 24 ? ? ? ? FF 90 ? ? ? ? ? ? 48 63 C1 4C 8D 05",
-      "pattern_synth": "48 83 EC 28 83 F9 FF 75 17 48 8B 0D ? ? ? ? 48 8D 54 24 30 48 8B 01 FF 90 10 03 00 00 8B 08 48 63 C1 4C 8D 05 7E 53",
+      "pattern_synth": "48 83 EC 28 83 F9 FF 75 17 48 8B 0D ? ? ? ? 48 8D 54 24 30 48 8B 01 FF 90 10 03 00 00 8B 08 48 63 C1 4C 8D 05 9E 85",
       "prototype": "__int64 __fastcall GetLocalPawn(int a1)",
       "resolve": "raw",
-      "rva": 9854240,
-      "va": 140708752874784
+      "rva": 9856944,
+      "va": 140712460576688
     },
     {
-      "bytes": "48 83 EC 28 48 8B 0D 65 AB 5A 01 48 8B 01 FF 90 08 02 00 00 48 8B C8 48",
+      "bytes": "48 83 EC 28 48 8B 0D 05 CC 5A 01 48 8B 01 FF 90 08 02 00 00 48 8B C8 48",
       "module": "client.dll",
       "name": "GetMapName",
       "pattern": "48 83 EC ? 48 8B 0D ? ? ? ? ? ? ? FF 90 ? ? ? ? 48 8B C8 48 83 C4",
       "pattern_synth": "48 83 EC 28 48 8B 0D ? ? ? ? 48 8B 01 FF 90 08 02 00 00",
       "prototype": "__int64 GetMapName()",
       "resolve": "raw",
-      "rva": 16402768,
-      "va": 140708759423312
+      "rva": 16408384,
+      "va": 140712467128128
     },
     {
       "bytes": "40 53 48 83 EC 60 0F 29 74 24 50 0F 57 DB F3 0F 10 B1 AC 00 00 00 49 8B",
@@ -1236,19 +1236,19 @@
       "pattern_synth": "40 53 48 83 EC 60 0F 29 74 24 50 0F 57 DB F3 0F",
       "prototype": "double __fastcall GetMatrixForView(__int64 a1, __int64 a2, __int64 a3)",
       "resolve": "raw",
-      "rva": 1447248,
-      "va": 140708744467792
+      "rva": 1444864,
+      "va": 140712452164608
     },
     {
-      "bytes": "40 53 48 83 EC 20 48 8B D9 48 8B 0D 38 F3 BF 01 48 83 C1 08 48 8B 01 FF",
+      "bytes": "40 53 48 83 EC 20 48 8B D9 48 8B 0D A8 1F C0 01 48 83 C1 08 48 8B 01 FF",
       "module": "client.dll",
       "name": "GetPlayerInterp",
       "pattern": "40 53 48 83 EC ? 48 8B D9 48 8B 0D ? ? ? ? 48 83 C1",
       "pattern_synth": "40 53 48 83 EC 20 48 8B D9 48 8B 0D ? ? ? ? 48 83 C1 08",
       "prototype": "float __fastcall GetPlayerInterp(__int64 a1)",
       "resolve": "raw",
-      "rva": 9678096,
-      "va": 140708752698640
+      "rva": 9680800,
+      "va": 140712460400544
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 20 57 48 83 EC 30 48 8B CA 48",
@@ -1258,19 +1258,19 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 20 57 48 83 EC 30 48 8B CA 48",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16442304,
-      "va": 140708759462848
+      "rva": 16447920,
+      "va": 140712467167664
     },
     {
-      "bytes": "F2 0F 10 44 24 60 F2 0F 11 84 24 88 00 00 00 FF 15 34 1F 99 01 0F B7 84",
+      "bytes": "F2 0F 10 44 24 60 F2 0F 11 84 24 88 00 00 00 FF 15 A4 48 99 01 0F B7 84",
       "module": "client.dll",
       "name": "GetRemovedAimpunch",
       "pattern": "F2 0F 10 44 24 ? F2 0F 11 84 24 ? ? ? ? FF 15",
-      "pattern_synth": "F2 0F 10 44 24 60 F2 0F 11 84 24 88 00 00 00 FF 15 34 1F 99",
+      "pattern_synth": "F2 0F 10 44 24 60 F2 0F 11 84 24 88 00 00 00 FF 15 A4 48 99",
       "prototype": "__int64 GetRemovedAimpunch()",
       "resolve": "raw",
-      "rva": 1137383,
-      "va": 140708744157927
+      "rva": 1134967,
+      "va": 140712451854711
     },
     {
       "bytes": "40 53 48 83 EC 20 48 8B 89 98 15 00 00 48 8B DA E8 7B 5C F8 FF 48 8B C3",
@@ -1280,30 +1280,30 @@
       "pattern_synth": "40 53 48 83 EC 20 48 8B 89 98 15 00 00 48 8B DA",
       "prototype": "__int64 __fastcall GetRemovedAimPunch_E8(__int64 a1, __int64 a2)",
       "resolve": "rel32",
-      "rva": 9208480,
-      "va": 140708752229024
+      "rva": 9211184,
+      "va": 140712459930928
     },
     {
-      "bytes": "40 53 48 83 EC 20 48 8B D9 48 8B 0D 68 01 5A 01 48 85 C9 74 35 E8 D6 55",
+      "bytes": "40 53 48 83 EC 20 48 8B D9 48 8B 0D E8 21 5A 01 48 85 C9 74 35 E8 46 49",
       "module": "client.dll",
       "name": "GetServerName",
       "pattern": "40 53 48 83 EC ? 48 8B D9 48 8B 0D ? ? ? ? 48 85 C9 74 ? E8 ? ? ? ? 48 85 C0",
-      "pattern_synth": "40 53 48 83 EC 20 48 8B D9 48 8B 0D ? ? ? ? 48 85 C9 74 35 E8 D6 55",
+      "pattern_synth": "40 53 48 83 EC 20 48 8B D9 48 8B 0D ? ? ? ? 48 85 C9 74 35 E8 46 49",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16463472,
-      "va": 140708759484016
+      "rva": 16469120,
+      "va": 140712467188864
     },
     {
-      "bytes": "48 63 41 10 48 8B 0D D5 E5 B5 01 48 C1 E0 05 48 03 41 28 C3 CC CC CC CC",
+      "bytes": "48 63 41 10 48 8B 0D 45 12 B6 01 48 C1 E0 05 48 03 41 28 C3 CC CC CC CC",
       "module": "client.dll",
       "name": "GetSurfaceData",
       "pattern": "E8 ? ? ? ? 80 78 18 00",
       "pattern_synth": "48 63 41 10 48 8B 0D ? ? ? ? 48 C1 E0 05 48",
       "prototype": "__int64 __fastcall GetSurfaceData(__int64 a1)",
       "resolve": "rel32",
-      "rva": 10346432,
-      "va": 140708753366976
+      "rva": 10349136,
+      "va": 140712461068880
     },
     {
       "bytes": "8B 81 B8 06 00 00 C3 CC CC CC CC CC CC CC CC CC 8B 91 BC 14 00 00 83 FA",
@@ -1313,30 +1313,30 @@
       "pattern_synth": "8B 81 B8 06 00 00 C3 CC CC CC CC CC CC CC CC CC",
       "prototype": "__int64 __fastcall GetTickBase(__int64 a1)",
       "resolve": "rel32",
-      "rva": 9697152,
-      "va": 140708752717696
+      "rva": 9699856,
+      "va": 140712460419600
     },
     {
-      "bytes": "41 56 41 57 48 83 EC 48 48 8D 54 24 68 E8 1E 8F C9 00 8B 44 24 68 83 F8",
+      "bytes": "41 56 41 57 48 83 EC 48 48 8D 54 24 68 E8 2E B3 C9 00 8B 44 24 68 83 F8",
       "module": "client.dll",
       "name": "GetUserCmdManager",
       "pattern": "41 56 41 57 48 83 EC ? 48 8D 54 24",
-      "pattern_synth": "41 56 41 57 48 83 EC 48 48 8D 54 24 68 E8 1E 8F",
+      "pattern_synth": "41 56 41 57 48 83 EC 48 48 8D 54 24 68 E8 2E B3",
       "prototype": "__int64 __fastcall GetUserCmdManager(__int64 a1)",
       "resolve": "raw",
-      "rva": 9697968,
-      "va": 140708752718512
+      "rva": 9700672,
+      "va": 140712460420416
     },
     {
-      "bytes": "4C 8B C1 85 D2 74 08 48 8D 05 22 64 F5 00 C3 8B 81 50 0B 00 00 85 C0 74",
+      "bytes": "4C 8B C1 85 D2 74 08 48 8D 05 82 79 F5 00 C3 8B 81 50 0B 00 00 85 C0 74",
       "module": "client.dll",
       "name": "GetViewAngles",
       "pattern": "4C 8B C1 85 D2 74 08 48 8D 05 ? ? ? ? C3",
       "pattern_synth": "4C 8B C1 85 D2 74 08 48 8D 05 ? ? ? ? C3 8B",
       "prototype": "__int64 *__fastcall GetViewAngles(__int64 a1, int a2)",
       "resolve": "raw",
-      "rva": 11953232,
-      "va": 140708754973776
+      "rva": 11955952,
+      "va": 140712462675696
     },
     {
       "bytes": "40 55 53 56 41 56 41 57 48 8B EC 48 83 EC 20 4D 8B F8 4C 8B F2 48 8B F1",
@@ -1346,30 +1346,30 @@
       "pattern_synth": "40 55 53 56 41 56 41 57 48 8B EC 48 83 EC 20 4D",
       "prototype": "void __fastcall GetViewModelOffsets(__int64 viewmodel, float *outOffsets, float *outFov)",
       "resolve": "raw",
-      "rva": 9217152,
-      "va": 140708752237696
+      "rva": 9219856,
+      "va": 140712459939600
     },
     {
-      "bytes": "40 53 48 83 EC 50 48 8B D9 E8 62 31 42 00 48 85 C0 74 0D 48 8B C8 48 83",
+      "bytes": "40 53 48 83 EC 50 48 8B D9 E8 72 31 42 00 48 85 C0 74 0D 48 8B C8 48 83",
       "module": "client.dll",
       "name": "GetWorldFovResolver",
       "pattern": "40 53 48 83 EC 50 48 8B D9 E8 ? ? ? ? 48 85 C0 74 ? 48 8B C8 48 83 C4 50 5B E9",
       "pattern_synth": "40 53 48 83 EC 50 48 8B D9 E8 ? ? ? ? 48 85",
       "prototype": "float __fastcall GetWorldFovResolver(__int64 a1)",
       "resolve": "raw",
-      "rva": 8937136,
-      "va": 140708751957680
+      "rva": 8939840,
+      "va": 140712459659584
     },
     {
-      "bytes": "48 8B 05 C9 1B 9B 01 C3 CC CC CC CC CC CC CC CC 8B 41 38 C3 CC CC CC CC",
+      "bytes": "48 8B 05 B9 47 9B 01 C3 CC CC CC CC CC CC CC CC 8B 41 38 C3 CC CC CC CC",
       "module": "client.dll",
       "name": "GlowObjectManager_GetInstance",
       "pattern": "48 8B 05 ? ? ? ? C3 CC CC CC CC CC CC CC CC 8B 41 38 C3",
       "pattern_synth": "48 8B 05 ? ? ? ? C3 CC CC CC CC CC CC CC CC 8B 41 38 C3",
       "prototype": "__int64 GlowObjectManager_GetInstance()",
       "resolve": "raw",
-      "rva": 12183856,
-      "va": 140708755204400
+      "rva": 12186576,
+      "va": 140712462906320
     },
     {
       "bytes": "48 83 EC 28 45 0F B6 08 44 38 89 0C 0F 00 00 74 49 44 88 89 0C 0F 00 00",
@@ -1379,30 +1379,30 @@
       "pattern_synth": "48 83 EC 28 45 0F B6 08 44 38 89 0C 0F 00 00 74",
       "prototype": "void __fastcall HandleTeamIntro(__int64 a1, __int64 a2, char *a3)",
       "resolve": "raw",
-      "rva": 7757392,
-      "va": 140708750777936
+      "rva": 7759824,
+      "va": 140712458479568
     },
     {
-      "bytes": "4C 89 44 24 18 4C 89 4C 24 20 53 B8 40 10 00 00 E8 4B 2E 85 00 48 2B E0",
+      "bytes": "4C 89 44 24 18 4C 89 4C 24 20 53 B8 40 10 00 00 E8 DB 45 85 00 48 2B E0",
       "module": "client.dll",
       "name": "HudChatPrintf",
       "pattern": "E8 ? ? ? ? 49 8B 4E 20 BA ? ? ? ?",
       "pattern_synth": "4C 89 44 24 18 4C 89 4C 24 20 53 B8 40 10 00 00",
       "prototype": "__int64 HudChatPrintf(__int64 a1, unsigned int a2, __int64 a3, ...)",
       "resolve": "rel32",
-      "rva": 18483712,
-      "va": 140708761504256
+      "rva": 18489616,
+      "va": 140712469209360
     },
     {
       "bytes": "40 55 41 56 48 83 EC 68 48 8B EA 83 F9 06 0F 87 B4 02 00 00 48 63 C1 48",
       "module": "client.dll",
       "name": "InfoForResourceTypeCCompositeMaterial_TypeManager",
       "pattern": "40 55 41 56 48 83 EC 68 48 8B EA 83 F9 06 0F 87 B4 02 00 00",
-      "pattern_synth": "40 55 41 56 48 83 EC 68 48 8B EA 83 F9 06 0F 87 ? ? ? ? 48 63 C1 48 8D 15 02 E5",
+      "pattern_synth": "40 55 41 56 48 83 EC 68 48 8B EA 83 F9 06 0F 87 ? ? ? ? 48 63 C1 48 8D 15 62 B6",
       "prototype": "__int64 __fastcall InfoForResourceTypeCCompositeMaterial_TypeManager(int a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 21895904,
-      "va": 140708764916448
+      "rva": 21907840,
+      "va": 140712472627584
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 0F B6 41 39 33 FF 24 C9 C7",
@@ -1412,8 +1412,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 0F B6 41 39 33 FF 24 C9 C7",
       "prototype": "__int64 __fastcall InitFilter(__int64 a1, _DWORD *a2, __int64 a3, char a4, char a5)",
       "resolve": "raw",
-      "rva": 3485200,
-      "va": 140708746505744
+      "rva": 3482816,
+      "va": 140712454202560
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 0F B6 41 39 33 FF C7 41 34",
@@ -1423,8 +1423,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 0F B6 41 39 33 FF C7 41 34",
       "prototype": "__int64 __fastcall InitPlayerMovementTraceFilter(__int64 a1, _DWORD *a2, __int64 a3, char a4)",
       "resolve": "raw",
-      "rva": 9146336,
-      "va": 140708752166880
+      "rva": 9149040,
+      "va": 140712459868784
     },
     {
       "bytes": "48 89 5C 24 20 56 48 83 EC 20 48 8B D9 48 89 6C 24 30 48 8B E9 48 8B 0D",
@@ -1434,30 +1434,30 @@
       "pattern_synth": "48 89 5C 24 20 56 48 83 EC 20 48 8B D9 48 89 6C 24 30 48 8B E9 48 8B 0D",
       "prototype": "",
       "resolve": "raw",
-      "rva": 13533808,
-      "va": 140708756554352
+      "rva": 13536720,
+      "va": 140712464256464
     },
     {
-      "bytes": "48 83 EC 28 48 8B 0D A5 37 58 01 48 8B 01 FF 90 50 01 00 00 84 C0 75 0D",
+      "bytes": "48 83 EC 28 48 8B 0D 35 57 58 01 48 8B 01 FF 90 50 01 00 00 84 C0 75 0D",
       "module": "client.dll",
       "name": "IsDemoOrHltv",
       "pattern": "48 83 EC ? 48 8B 0D ? ? ? ? ? ? ? FF 90 ? ? ? ? 84 C0 75 ? 38 05",
       "pattern_synth": "48 83 EC 28 48 8B 0D ? ? ? ? 48 8B 01 FF 90 50 01 00 00 84 C0 75 0D",
       "prototype": "char IsDemoOrHltv()",
       "resolve": "raw",
-      "rva": 16563472,
-      "va": 140708759584016
+      "rva": 16569360,
+      "va": 140712467289104
     },
     {
-      "bytes": "48 89 5C 24 08 48 89 6C 24 18 48 89 74 24 20 57 48 83 EC 20 48 8B 0D 65",
+      "bytes": "48 89 5C 24 08 48 89 6C 24 18 48 89 74 24 20 57 48 83 EC 20 48 8B 0D F5",
       "module": "client.dll",
       "name": "IsLocalPlayerWatchingOwnDemo",
       "pattern": "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC 20 48 8B 0D ? ? ? ? 48 8B 01",
-      "pattern_synth": "48 89 5C 24 08 48 89 6C 24 18 48 89 74 24 20 57 48 83 EC 20 48 8B 0D 65",
+      "pattern_synth": "48 89 5C 24 08 48 89 6C 24 18 48 89 74 24 20 57 48 83 EC 20 48 8B 0D F5",
       "prototype": "char __fastcall IsLocalPlayerWatchingOwnDemo()",
       "resolve": "raw",
-      "rva": 16566080,
-      "va": 140708759586624
+      "rva": 16571968,
+      "va": 140712467291712
     },
     {
       "bytes": "48 83 EC 28 E8 27 06 00 00 0F B6 40 20 48 83 C4 28 C3 CC CC CC CC CC CC",
@@ -1467,8 +1467,8 @@
       "pattern_synth": "48 83 EC 28 E8 ? ? ? ? 0F B6 40 20 48 83 C4 28 C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC 48 83 EC 28 E8 07 06 00",
       "prototype": "",
       "resolve": "raw",
-      "rva": 19898112,
-      "va": 140708762918656
+      "rva": 19910048,
+      "va": 140712470629792
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 18 48 89 7C 24 20 55 41 56 41 57 48 8B EC 48",
@@ -1478,8 +1478,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 18 48 89 7C 24 20 55 41 56 41 57 48 8B EC 48 81 EC 80 00 00 00 44 8B",
       "prototype": "__int64 __fastcall KillFeedbackEmitter(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 9191680,
-      "va": 140708752212224
+      "rva": 9194384,
+      "va": 140712459914128
     },
     {
       "bytes": "40 55 56 41 56 48 8D 6C 24 90 48 81 EC 70 01 00 00 48 8B 01 4C 8B F1 FF",
@@ -1489,19 +1489,19 @@
       "pattern_synth": "40 55 56 41 56 48 8D 6C 24 90 48 81 EC 70 01 00",
       "prototype": "__int64 __fastcall LevelInit(__int64 a1)",
       "resolve": "raw",
-      "rva": 9784928,
-      "va": 140708752805472
+      "rva": 9787632,
+      "va": 140712460507376
     },
     {
-      "bytes": "48 83 EC 28 48 8B 0D B5 D4 9E 01 48 8D 15 9E B3 10 01 45 33 C9 45 33 C0",
+      "bytes": "48 83 EC 28 48 8B 0D 25 00 9F 01 48 8D 15 5E C7 10 01 45 33 C9 45 33 C0",
       "module": "client.dll",
       "name": "LevelShutdown",
       "pattern": "48 83 EC ? 48 8B 0D ? ? ? ? 48 8D 15",
-      "pattern_synth": "48 83 EC 28 48 8B 0D ? ? ? ? 48 8D 15 9E B3",
+      "pattern_synth": "48 83 EC 28 48 8B 0D ? ? ? ? 48 8D 15 5E C7",
       "prototype": "",
       "resolve": "raw",
-      "rva": 11848592,
-      "va": 140708754869136
+      "rva": 11851536,
+      "va": 140712462571280
     },
     {
       "bytes": "40 53 48 83 EC 20 48 8B 89 30 03 00 00 48 8B DA 48 8B 01 FF 50 68 48 8B",
@@ -1511,8 +1511,8 @@
       "pattern_synth": "40 53 48 83 EC 20 48 8B 89 30 03 00 00 48 8B DA 48 8B 01 FF 50 68 48 8B",
       "prototype": "__int64 __fastcall LookupBone(__int64 a1, __int64 a2)",
       "resolve": "rel32",
-      "rva": 9756240,
-      "va": 140708752776784
+      "rva": 9758944,
+      "va": 140712460478688
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83",
@@ -1522,19 +1522,19 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83 EC 60 48 8B F2 45 33 F6",
       "prototype": "",
       "resolve": "riprel",
-      "rva": 11982048,
-      "va": 140708755002592
+      "rva": 11984768,
+      "va": 140712462704512
     },
     {
-      "bytes": "40 53 56 57 48 83 EC 40 80 3D BD 46 32 02 00 8B F2 8B 3D 99 BA F8 01 48",
+      "bytes": "40 53 56 57 48 83 EC 40 80 3D 8D 89 32 02 00 8B F2 8B 3D E1 E3 F8 01 48",
       "module": "client.dll",
       "name": "MarkInterpLatchFlagsDirty",
       "pattern": "40 53 56 57 48 83 EC ? 80 3D ? ? ? ? 00",
-      "pattern_synth": "40 53 56 57 48 83 EC 40 80 3D BD 46 32 02 00 8B",
+      "pattern_synth": "40 53 56 57 48 83 EC 40 80 3D 8D 89 32 02 00 8B",
       "prototype": "void __fastcall MarkInterpLatchFlagsDirty(__int64 a1, unsigned int a2)",
       "resolve": "raw",
-      "rva": 2250208,
-      "va": 140708745270752
+      "rva": 2247824,
+      "va": 140712452967568
     },
     {
       "bytes": "48 85 D2 0F 84 1A 11 00 00 48 8B C4 55 53 56 57 48 8D A8 98 FE FF FF 48",
@@ -1544,8 +1544,8 @@
       "pattern_synth": "48 85 D2 0F 84 ? ? ? ? 48 8B C4 55 53 56 57 48 8D A8 98",
       "prototype": "void __fastcall MatchFoundHandler(__int64 thisptr, __int64 *kv)",
       "resolve": "raw",
-      "rva": 13600352,
-      "va": 140708756620896
+      "rva": 13603312,
+      "va": 140712464323056
     },
     {
       "bytes": "48 89 5C 24 08 57 48 83 EC 20 8B FA 48 8B D9 E8 EC 00 01 00 84 C0 0F 84",
@@ -1555,19 +1555,19 @@
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 8B FA 48 8B D9 E8 ? ? ? ? 84 C0 0F 84",
       "prototype": "__int64 __fastcall ModulationUpdate(__int64 a1, char a2)",
       "resolve": "raw",
-      "rva": 10928096,
-      "va": 140708753948640
+      "rva": 10930800,
+      "va": 140712461650544
     },
     {
       "bytes": "48 89 5C 24 10 48 89 74 24 18 48 89 7C 24 20 55 48 8B EC 48 83 EC 30 48",
       "module": "client.dll",
       "name": "NoClipOnChange",
       "pattern": "48 89 5C 24 10 48 89 74 24 18 48 89 7C 24 20 55 48 8B EC 48 83 EC 30 48 8D 05",
-      "pattern_synth": "48 89 5C 24 10 48 89 74 24 18 48 89 7C 24 20 55 48 8B EC 48 83 EC 30 48 8D 05 8A DF",
+      "pattern_synth": "48 89 5C 24 10 48 89 74 24 18 48 89 7C 24 20 55 48 8B EC 48 83 EC 30 48 8D 05 FA EE",
       "prototype": "__int64 __fastcall NoClipOnChange(__int64 a1)",
       "resolve": "raw",
-      "rva": 1435648,
-      "va": 140708744456192
+      "rva": 1433264,
+      "va": 140712452153008
     },
     {
       "bytes": "48 89 74 24 10 57 48 83 EC 20 41 B9 FF 7F 00 00 41 8B C0 41 23 C1 48 8B",
@@ -1577,8 +1577,8 @@
       "pattern_synth": "48 89 74 24 10 57 48 83 EC 20 41 B9 FF 7F 00 00 41 8B C0 41 23 C1 48 8B F2 41 83 F8 FF 48 8B F9 44 0F 45 C8 41 81 F9 00 40 00 00 73 0D FF 81 20",
       "prototype": "__int64 __fastcall OnAddEntity(__int64 a1, __int64 a2, int a3)",
       "resolve": "raw",
-      "rva": 10429616,
-      "va": 140708753450160
+      "rva": 10432320,
+      "va": 140712461152064
     },
     {
       "bytes": "48 89 74 24 10 57 48 83 EC 20 41 B9 FF 7F 00 00 41 8B C0 41 23 C1 48 8B",
@@ -1588,30 +1588,30 @@
       "pattern_synth": "48 89 74 24 10 57 48 83 EC 20 41 B9 FF 7F 00 00 41 8B C0 41 23 C1 48 8B F2 41 83 F8 FF 48 8B F9 44 0F 45 C8 41 81 F9 00 40 00 00 73 08 FF 89 20",
       "prototype": "__int64 __fastcall OnRemoveEntity(__int64 a1, _QWORD *a2, int a3)",
       "resolve": "raw",
-      "rva": 10432304,
-      "va": 140708753452848
+      "rva": 10435008,
+      "va": 140712461154752
     },
     {
-      "bytes": "40 56 57 41 57 48 83 EC 40 48 8B 3D 58 68 86 01 4D 85 C0 48 8B 35 96 11",
+      "bytes": "40 56 57 41 57 48 83 EC 40 48 8B 3D A8 88 86 01 4D 85 C0 48 8B 35 26 32",
       "module": "client.dll",
       "name": "PanoramaEvent",
       "pattern": "40 56 57 41 57 48 83 EC ? 48 8B 3D ? ? ? ? 4D 85 C0",
       "pattern_synth": "40 56 57 41 57 48 83 EC 40 48 8B 3D ? ? ? ?",
       "prototype": "",
       "resolve": "raw",
-      "rva": 13964560,
-      "va": 140708756985104
+      "rva": 13970176,
+      "va": 140712464689920
     },
     {
-      "bytes": "48 89 5C 24 08 57 48 83 EC 20 0F 28 05 4F D0 50 02 48 8B D9 0F 11 01 0F",
+      "bytes": "48 89 5C 24 08 57 48 83 EC 20 0F 28 05 0F 10 51 02 48 8B D9 0F 11 01 0F",
       "module": "client.dll",
       "name": "ParticleCollection",
       "pattern": "48 89 5C 24 ? 57 48 83 EC ? 0F 28 05",
-      "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 0F 28 05 4F D0 50",
+      "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 0F 28 05 0F 10 51",
       "prototype": "__int64 __fastcall ParticleCollection(__int64 a1)",
       "resolve": "raw",
-      "rva": 2107328,
-      "va": 140708745127872
+      "rva": 2104944,
+      "va": 140712452824688
     },
     {
       "bytes": null,
@@ -1621,8 +1621,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 39222160,
-      "va": 140708782242704
+      "rva": 39234880,
+      "va": 140712489954624
     },
     {
       "bytes": null,
@@ -1632,8 +1632,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 35840368,
-      "va": 140708778860912
+      "rva": 35848720,
+      "va": 140712486568464
     },
     {
       "bytes": null,
@@ -1643,8 +1643,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 41465080,
-      "va": 140708784485624
+      "rva": 41479032,
+      "va": 140712492198776
     },
     {
       "bytes": null,
@@ -1654,8 +1654,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 40931344,
-      "va": 140708783951888
+      "rva": 40945280,
+      "va": 140712491665024
     },
     {
       "bytes": null,
@@ -1665,8 +1665,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 39035080,
-      "va": 140708782055624
+      "rva": 39049056,
+      "va": 140712489768800
     },
     {
       "bytes": null,
@@ -1676,8 +1676,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 40931344,
-      "va": 140708783951888
+      "rva": 40945280,
+      "va": 140712491665024
     },
     {
       "bytes": null,
@@ -1687,8 +1687,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 39139304,
-      "va": 140708782159848
+      "rva": 39153272,
+      "va": 140712489873016
     },
     {
       "bytes": null,
@@ -1698,8 +1698,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 35752616,
-      "va": 140708778773160
+      "rva": 35760920,
+      "va": 140712486480664
     },
     {
       "bytes": null,
@@ -1709,8 +1709,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 39139304,
-      "va": 140708782159848
+      "rva": 39153272,
+      "va": 140712489873016
     },
     {
       "bytes": null,
@@ -1720,8 +1720,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 35789496,
-      "va": 140708778810040
+      "rva": 35797712,
+      "va": 140712486517456
     },
     {
       "bytes": null,
@@ -1731,8 +1731,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 39126272,
-      "va": 140708782146816
+      "rva": 39140240,
+      "va": 140712489859984
     },
     {
       "bytes": null,
@@ -1742,8 +1742,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 39602968,
-      "va": 140708782623512
+      "rva": 39616840,
+      "va": 140712490336584
     },
     {
       "bytes": "48 89 5C 24 20 57 48 81 EC D0 06 00 00 48 8B 01 48 8B F9 FF 90 E0 06 00",
@@ -1753,8 +1753,8 @@
       "pattern_synth": "48 89 5C 24 20 57 48 81 EC D0 06 00 00 48 8B 01",
       "prototype": "__int64 __fastcall PhysicsRunThink_Ctrl(__int64 a1)",
       "resolve": "raw",
-      "rva": 9814272,
-      "va": 140708752834816
+      "rva": 9816976,
+      "va": 140712460536720
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 8B 81 74 03 00 00 48 8B F9",
@@ -1764,8 +1764,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 8B 81 74 03 00",
       "prototype": "char __fastcall PhysicsRunThink_Pawn(__int64 a1)",
       "resolve": "raw",
-      "rva": 12201904,
-      "va": 140708755222448
+      "rva": 12204624,
+      "va": 140712462924368
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 18 48 89 7C 24 20 55 48 8D 6C 24 A9 48 81 EC",
@@ -1775,8 +1775,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 18 48 89 7C 24 20 55 48 8D 6C 24 A9 48 81 EC 90 00 00 00 33 FF 48 8B",
       "prototype": "__int64 __fastcall PlayVSound_client(__int64 a1)",
       "resolve": "raw",
-      "rva": 23190592,
-      "va": 140708766211136
+      "rva": 23202528,
+      "va": 140712473922272
     },
     {
       "bytes": null,
@@ -1786,8 +1786,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 38973640,
-      "va": 140708781994184
+      "rva": 38989176,
+      "va": 140712489708920
     },
     {
       "bytes": null,
@@ -1797,19 +1797,19 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 39550328,
-      "va": 140708782570872
+      "rva": 39564216,
+      "va": 140712490283960
     },
     {
-      "bytes": "48 89 5C 24 08 66 41 0F 6E C8 48 8D 1D AF 55 F1 01 66 0F 70 C9 00 4C 8B",
+      "bytes": "48 89 5C 24 08 66 41 0F 6E C8 48 8D 1D CF 95 F1 01 66 0F 70 C9 00 4C 8B",
       "module": "client.dll",
       "name": "PostProcessQuery",
       "pattern": "48 89 5C 24 08 66 41 0F 6E C8 48 8D 1D ? ? ? ? 66 0F 70 C9 00 4C 8B DA 4C 8B D1 0F 1F 40 00 45 33 C0 49 8B C2",
-      "pattern_synth": "48 89 5C 24 08 66 41 0F 6E C8 48 8D 1D AF 55 F1",
+      "pattern_synth": "48 89 5C 24 08 66 41 0F 6E C8 48 8D 1D CF 95 F1",
       "prototype": "void *__fastcall PostProcessQuery(void *state, void *out, unsigned int key, void *def)",
       "resolve": "raw",
-      "rva": 3589648,
-      "va": 140708746610192
+      "rva": 3587264,
+      "va": 140712454307008
     },
     {
       "bytes": null,
@@ -1819,8 +1819,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 35753608,
-      "va": 140708778774152
+      "rva": 35761912,
+      "va": 140712486481656
     },
     {
       "bytes": null,
@@ -1830,8 +1830,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 39140416,
-      "va": 140708782160960
+      "rva": 39154752,
+      "va": 140712489874496
     },
     {
       "bytes": "48 8B C4 53 56 41 55 48 81 EC E0 00 00 00 44 0F 29 40 A8 45 33 ED 49 8B",
@@ -1841,8 +1841,8 @@
       "pattern_synth": "48 8B C4 53 56 41 55 48 81 EC E0 00 00 00 44 0F",
       "prototype": "__int64 __fastcall ProcessImpacts(_QWORD *a1, __int64 a2, __int64 a3)",
       "resolve": "raw",
-      "rva": 10881344,
-      "va": 140708753901888
+      "rva": 10884048,
+      "va": 140712461603792
     },
     {
       "bytes": "48 8B C4 53 55 56 57 41 54 41 55 41 56 41 57 48 81 EC B8 00 00 00 8B AA",
@@ -1852,8 +1852,8 @@
       "pattern_synth": "48 8B C4 53 55 56 57 41 54 41 55 41 56 41 57 48 81 EC B8 00",
       "prototype": "__int64 __fastcall ProcessMovement(__int64 a1, __int64 a2)",
       "resolve": "rel32",
-      "rva": 10925744,
-      "va": 140708753946288
+      "rva": 10928448,
+      "va": 140712461648192
     },
     {
       "bytes": "89 54 24 10 48 89 4C 24 08 53 56 57 48 83 EC 70 48 63 DA 48 8D B9 28 02",
@@ -1863,8 +1863,8 @@
       "pattern_synth": "89 54 24 10 48 89 4C 24 08 53 56 57 48 83 EC 70",
       "prototype": "__int64 __fastcall ProcessSubTickInput(__int64 a1, int a2)",
       "resolve": "raw",
-      "rva": 11884704,
-      "va": 140708754905248
+      "rva": 11887424,
+      "va": 140712462607168
     },
     {
       "bytes": null,
@@ -1874,8 +1874,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 41035456,
-      "va": 140708784056000
+      "rva": 41049408,
+      "va": 140712491769152
     },
     {
       "bytes": null,
@@ -1885,8 +1885,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 39163456,
-      "va": 140708782184000
+      "rva": 39177808,
+      "va": 140712489897552
     },
     {
       "bytes": null,
@@ -1896,8 +1896,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 39165960,
-      "va": 140708782186504
+      "rva": 39180312,
+      "va": 140712489900056
     },
     {
       "bytes": null,
@@ -1907,8 +1907,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 39163392,
-      "va": 140708782183936
+      "rva": 39177744,
+      "va": 140712489897488
     },
     {
       "bytes": null,
@@ -1918,8 +1918,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 35752616,
-      "va": 140708778773160
+      "rva": 35760920,
+      "va": 140712486480664
     },
     {
       "bytes": null,
@@ -1929,8 +1929,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 38503344,
-      "va": 140708781523888
+      "rva": 38516352,
+      "va": 140712489236096
     },
     {
       "bytes": null,
@@ -1940,19 +1940,19 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 39163456,
-      "va": 140708782184000
+      "rva": 39177808,
+      "va": 140712489897552
     },
     {
-      "bytes": "48 83 EC 78 E8 F7 9D CA 00 48 85 C0 0F 84 3A 01 00 00 48 8B 10 48 8B C8",
+      "bytes": "48 83 EC 78 E8 07 C2 CA 00 48 85 C0 0F 84 3A 01 00 00 48 8B 10 48 8B C8",
       "module": "client.dll",
       "name": "RegenerateWeaponSkins",
       "pattern": "48 83 EC ? E8 ? ? ? ? 48 85 C0 0F 84 ? ? ? ? 48 8B 10",
       "pattern_synth": "48 83 EC 78 E8 ? ? ? ? 48 85 C0 0F 84 3A 01",
       "prototype": "__int64 RegenerateWeaponSkins()",
       "resolve": "raw",
-      "rva": 8541328,
-      "va": 140708751561872
+      "rva": 8544032,
+      "va": 140712459263776
     },
     {
       "bytes": "48 89 5C 24 08 57 48 83 EC 20 48 8B D9 48 8B FA 48 8B 49 10 48 85 C9 74",
@@ -1962,30 +1962,30 @@
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 48 8B D9 48 8B FA 48 8B 49 10",
       "prototype": "",
       "resolve": "raw",
-      "rva": 19054720,
-      "va": 140708762075264
+      "rva": 19066656,
+      "va": 140712469786400
     },
     {
-      "bytes": "40 53 48 83 EC 20 48 8D 05 4B 2E 50 01 48 8D 59 08 48 89 01 F6 03 01 74",
+      "bytes": "40 53 48 83 EC 20 48 8D 05 BB 11 50 01 48 8D 59 08 48 89 01 F6 03 01 74",
       "module": "client.dll",
       "name": "ReportHit",
       "pattern": "E8 ? ? ? ? 48 8B AC 24 D8 00 00 00 48 81 C4",
-      "pattern_synth": "40 53 48 83 EC 20 48 8D 05 ? ? ? ? 48 8D 59 08 48 89 01 F6 03 01 74 08 48 8B CB E8 EF FF E7",
+      "pattern_synth": "40 53 48 83 EC 20 48 8D 05 ? ? ? ? 48 8D 59 08 48 89 01 F6 03 01 74 08 48 8B CB E8 8F EE E7",
       "prototype": "char __fastcall ReportHit(_QWORD *a1)",
       "resolve": "rel32",
-      "rva": 6775072,
-      "va": 140708749795616
+      "rva": 6777136,
+      "va": 140712457496880
     },
     {
-      "bytes": "4C 89 44 24 18 4C 89 4C 24 20 53 B8 40 10 00 00 E8 4B 2E 85 00 48 2B E0",
+      "bytes": "4C 89 44 24 18 4C 89 4C 24 20 53 B8 40 10 00 00 E8 DB 45 85 00 48 2B E0",
       "module": "client.dll",
       "name": "SendChatMessage",
       "pattern": "E8 ? ? ? ? 49 8B 4E 20 BA ? ? ? ?",
       "pattern_synth": "4C 89 44 24 18 4C 89 4C 24 20 53 B8 40 10 00 00",
       "prototype": "__int64 SendChatMessage(__int64 a1, unsigned int a2, __int64 a3, ...)",
       "resolve": "rel32",
-      "rva": 18483712,
-      "va": 140708761504256
+      "rva": 18489616,
+      "va": 140712469209360
     },
     {
       "bytes": "40 55 56 41 57 48 83 EC 60 8B 4A 20 45 33 FF 44 8B 42 30 8B C1 C1 E8 05",
@@ -1995,8 +1995,8 @@
       "pattern_synth": "40 55 56 41 57 48 83 EC 60 8B 4A 20 45 33 FF 44",
       "prototype": "",
       "resolve": "raw",
-      "rva": 9814672,
-      "va": 140708752835216
+      "rva": 9817376,
+      "va": 140712460537120
     },
     {
       "bytes": "48 89 5C 24 08 57 48 83 EC 60 48 8B 01 48 8B FA 48 8B D9 FF 90 90 02 00",
@@ -2006,8 +2006,8 @@
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 60 48 8B 01 48 8B FA 48 8B D9 FF",
       "prototype": "__int64 __fastcall SetAbsOrigin_Pawn(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 2274704,
-      "va": 140708745295248
+      "rva": 2272320,
+      "va": 140712452992064
     },
     {
       "bytes": "85 D2 0F 88 13 02 00 00 53 55 48 83 EC 28 48 63 EA 48 8B D9 3B 69 28 0F",
@@ -2017,8 +2017,8 @@
       "pattern_synth": "85 D2 0F 88 ? ? ? ? 53 55 48 83 EC 28 48 63",
       "prototype": "void __fastcall SetBodyGroup_inv(__int64 a1, int a2, const char *a3)",
       "resolve": "raw",
-      "rva": 23205088,
-      "va": 140708766225632
+      "rva": 23217024,
+      "va": 140712473936768
     },
     {
       "bytes": "48 83 EC 38 F2 0F 10 02 8B 42 08 48 8D 54 24 20 F2 0F 11 44 24 20 89 44",
@@ -2028,30 +2028,30 @@
       "pattern_synth": "48 83 EC 38 F2 0F 10 02 8B 42 08 48 8D 54 24 20",
       "prototype": "__int64 __fastcall SetCollisionBounds(__int64 a1, __int64 *a2)",
       "resolve": "raw",
-      "rva": 8903344,
-      "va": 140708751923888
+      "rva": 8906048,
+      "va": 140712459625792
     },
     {
       "bytes": "48 89 6C 24 20 57 41 56 41 57 48 81 EC A0 00 00 00 48 8B FA C7 44 24 20",
       "module": "client.dll",
       "name": "SetDynamicAttributeValue",
       "pattern": "48 89 6C 24 ? 57 41 56 41 57 48 81 EC ? ? ? ? 48 8B FA C7 44 24 ? ? ? ? ? 4D 8B F8",
-      "pattern_synth": "48 89 6C 24 20 57 41 56 41 57 48 81 EC A0 00 00 00 48 8B FA C7 44 24 20 00 00 00 00 4D 8B F8 4C 8D 0D ? ? ? ? 48 8B E9 ? ? ? ? 2C 21 01",
+      "pattern_synth": "48 89 6C 24 20 57 41 56 41 57 48 81 EC A0 00 00 00 48 8B FA C7 44 24 20 00 00 00 00 4D 8B F8 4C 8D 0D ? ? ? ? 48 8B E9 ? ? ? ? 4D 21 01",
       "prototype": "__int64 __fastcall SetDynamicAttributeValue(__int64 a1, __int64 a2, _DWORD *a3)",
       "resolve": "raw",
-      "rva": 17693072,
-      "va": 140708760713616
+      "rva": 17698800,
+      "va": 140712468418544
     },
     {
       "bytes": "48 89 6C 24 20 57 41 56 41 57 48 81 EC A0 00 00 00 48 8B FA C7 44 24 20",
       "module": "client.dll",
       "name": "SetDynamicAttributeValue_raw",
       "pattern": "48 89 6C 24 ? 57 41 56 41 57 48 81 EC ? ? ? ? 48 8B FA C7 44 24",
-      "pattern_synth": "48 89 6C 24 20 57 41 56 41 57 48 81 EC A0 00 00 00 48 8B FA C7 44 24 20 00 00 00 00 4D 8B F8 4C 8D 0D ? ? ? ? 48 8B E9 ? ? ? ? 2C 21 01",
+      "pattern_synth": "48 89 6C 24 20 57 41 56 41 57 48 81 EC A0 00 00 00 48 8B FA C7 44 24 20 00 00 00 00 4D 8B F8 4C 8D 0D ? ? ? ? 48 8B E9 ? ? ? ? 4D 21 01",
       "prototype": "__int64 __fastcall SetDynamicAttributeValue_raw(__int64 a1, __int64 a2, _DWORD *a3)",
       "resolve": "raw",
-      "rva": 17693072,
-      "va": 140708760713616
+      "rva": 17698800,
+      "va": 140712468418544
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 55 41 56 41 57 48 8D AC 24",
@@ -2061,8 +2061,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 55 41 56 41 57 48 8D AC 24 50 FF FF FF 48 81 EC B0 01 00 00 48 8B F1 4D 8B",
       "prototype": "",
       "resolve": "riprel",
-      "rva": 15033360,
-      "va": 140708758053904
+      "rva": 15038928,
+      "va": 140712465758672
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8D 99 40 01 00 00 48 8B",
@@ -2072,30 +2072,30 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8D 99 40 01",
       "prototype": "__int64 __fastcall SetMeshGroupMask(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 11241072,
-      "va": 140708754261616
+      "rva": 11243792,
+      "va": 140712461963536
     },
     {
-      "bytes": "40 53 48 83 EC 20 48 8B D9 4C 8B C2 48 8B 0D CD FB BE 01 48 8D 54 24 40",
+      "bytes": "40 53 48 83 EC 20 48 8B D9 4C 8B C2 48 8B 0D CD 27 BF 01 48 8D 54 24 40",
       "module": "client.dll",
       "name": "SetModel",
       "pattern": "40 53 48 83 EC ? 48 8B D9 4C 8B C2 48 8B 0D ? ? ? ? 48 8D 54 24",
-      "pattern_synth": "40 53 48 83 EC 20 48 8B D9 4C 8B C2 48 8B 0D ? ? ? ? 48",
+      "pattern_synth": "40 53 48 83 EC 20 48 8B D9 4C 8B C2 48 8B 0D CD",
       "prototype": "__int64 __fastcall SetModel(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 9828544,
-      "va": 140708752849088
+      "rva": 9831248,
+      "va": 140712460550992
     },
     {
-      "bytes": "40 53 48 83 EC 20 48 8B DA 48 8D 15 28 FD CF 00 48 8B CB FF 15 8F 82 AB",
+      "bytes": "40 53 48 83 EC 20 48 8B DA 48 8D 15 B8 04 D0 00 48 8B CB FF 15 6F 8B AB",
       "module": "client.dll",
       "name": "SetPlayerReady",
       "pattern": "40 53 48 83 EC 20 48 8B DA 48 8D 15 ? ? ? ? 48 8B CB FF 15 ? ? ? ? 85 C0 75 14 BA",
       "pattern_synth": "40 53 48 83 EC 20 48 8B DA 48 8D 15 ? ? ? ? 48 8B CB FF",
       "prototype": "char __fastcall SetPlayerReady(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 16709440,
-      "va": 140708759729984
+      "rva": 16715360,
+      "va": 140712467435104
     },
     {
       "bytes": "48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 20 66 0F 6E CA 49 8B F0 66 0F",
@@ -2105,8 +2105,8 @@
       "pattern_synth": "48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 20 66 0F 6E CA 49 8B F0 66 0F 70 C9 00 8B EA 48 8B F9 45 33 C9 48 8B C1 66 66 0F 1F 84 00 00 00 00 00",
       "prototype": "unsigned __int64 __fastcall SetSceneObjectAttributeFloat4(__m128i *a1, unsigned int a2, __m128i *a3)",
       "resolve": "riprel",
-      "rva": 1486752,
-      "va": 140708744507296
+      "rva": 1484368,
+      "va": 140712452204112
     },
     {
       "bytes": "48 89 6C 24 18 48 89 7C 24 20 41 56 48 83 EC 20 4C 63 31 48 8B EA 48 8B",
@@ -2116,19 +2116,19 @@
       "pattern_synth": "48 89 6C 24 18 48 89 7C 24 20 41 56 48 83 EC 20 4C 63 31 48 8B EA 48 8B F9 44 3B 71 10 0F 85 ? ? ? ? F7 41 14 00 00 00 40 0F 85 ? ? ? ?",
       "prototype": "__int64 __fastcall SetTraceData(int *a1, _OWORD *a2)",
       "resolve": "rel32",
-      "rva": 8686112,
-      "va": 140708751706656
+      "rva": 8688816,
+      "va": 140712459408560
     },
     {
-      "bytes": "40 53 48 83 EC 20 80 79 0C 00 48 8B D9 74 3C 48 8B 0D 9A C6 9F 01 48 8D",
+      "bytes": "40 53 48 83 EC 20 80 79 0C 00 48 8B D9 74 3C 48 8B 0D 8A F2 9F 01 48 8D",
       "module": "client.dll",
       "name": "SetTraceInit",
       "pattern": "E8 ? ? ? ? F2 0F 10 ? 4C 8D ?",
       "pattern_synth": "40 53 48 83 EC 20 80 79 0C 00 48 8B D9 74 3C 48",
       "prototype": "",
       "resolve": "rel32",
-      "rva": 11873808,
-      "va": 140708754894352
+      "rva": 11876528,
+      "va": 140712462596272
     },
     {
       "bytes": "40 53 48 83 EC 30 80 FA 06 0F B6 C2 41 B9 16 00 00 00 48 8B D9 44 0F 45",
@@ -2138,8 +2138,8 @@
       "pattern_synth": "40 53 48 83 EC 30 80 FA 06 0F B6 C2 41 B9 16 00",
       "prototype": "unsigned __int64 *__fastcall SetTypeKV3(unsigned __int64 *a1, unsigned __int8 a2, unsigned __int8 a3)",
       "resolve": "raw",
-      "rva": 26928176,
-      "va": 140708769948720
+      "rva": 26940112,
+      "va": 140712477659856
     },
     {
       "bytes": "48 83 EC 28 E8 37 2E 00 00 8B 80 10 59 00 00 48 83 C4 28 C3 CC CC CC CC",
@@ -2149,8 +2149,8 @@
       "pattern_synth": "48 83 EC 28 E8 ? ? ? ? 8B 80 10 59 00 00 48",
       "prototype": "__int64 __fastcall SetupCmd(__int64 a1)",
       "resolve": "raw",
-      "rva": 9686128,
-      "va": 140708752706672
+      "rva": 9688832,
+      "va": 140712460408576
     },
     {
       "bytes": "48 8B C4 48 89 58 10 48 89 68 18 48 89 70 20 57 48 81 EC A0 00 00 00 0F",
@@ -2160,8 +2160,8 @@
       "pattern_synth": "48 8B C4 48 89 58 10 48 89 68 18 48 89 70 20 57 48 81 EC A0 00 00 00 0F 29 70 E8 48",
       "prototype": "",
       "resolve": "raw",
-      "rva": 13797184,
-      "va": 140708756817728
+      "rva": 13800224,
+      "va": 140712464519968
     },
     {
       "bytes": "48 89 5C 24 18 48 89 6C 24 20 56 57 41 56 48 83 EC 20 48 8B EA 4C 8B F1",
@@ -2171,8 +2171,8 @@
       "pattern_synth": "48 89 5C 24 18 48 89 6C 24 20 56 57 41 56 48 83 EC 20 48 8B EA 4C 8B F1",
       "prototype": "__int64 __fastcall SetupMove(__int64 a1, int *a2)",
       "resolve": "raw",
-      "rva": 14457888,
-      "va": 140708757478432
+      "rva": 14463520,
+      "va": 140712465183264
     },
     {
       "bytes": "48 8B CE E8 89 8D FF FF 48 8B 5C 24 50 48 8B 6C 24 58 48 83 C4 30 41 5E",
@@ -2182,8 +2182,8 @@
       "pattern_synth": "48 8B CE E8 ? ? ? ? 48 8B 5C 24 50 48 8B 6C 24 58 48 83",
       "prototype": "__int64 __fastcall SetupMovementMoves(__int64 a1, __int64 a2, __int64 a3, __int64 a4)",
       "resolve": "raw",
-      "rva": 19217343,
-      "va": 140708762237887
+      "rva": 19229279,
+      "va": 140712469949023
     },
     {
       "bytes": "85 D2 75 3D 48 63 81 50 0B 00 00 F2 41 0F 10 00 85 C0 74 1B 48 69 D0 40",
@@ -2193,8 +2193,8 @@
       "pattern_synth": "85 D2 75 3D 48 63 81 50 0B 00 00 F2 41 0F 10 00",
       "prototype": "void __fastcall SetViewAngle(__int64 a1, int a2, __int64 *a3)",
       "resolve": "raw",
-      "rva": 12018592,
-      "va": 140708755039136
+      "rva": 12021312,
+      "va": 140712462741056
     },
     {
       "bytes": "85 D2 75 3D 48 63 81 50 0B 00 00 F2 41 0F 10 00 85 C0 74 1B 48 69 D0 40",
@@ -2204,19 +2204,19 @@
       "pattern_synth": "85 D2 75 3D 48 63 81 50 0B 00 00 F2 41 0F 10 00",
       "prototype": "",
       "resolve": "raw",
-      "rva": 12018592,
-      "va": 140708755039136
+      "rva": 12021312,
+      "va": 140712462741056
     },
     {
-      "bytes": "4C 8B DC 49 89 5B 08 49 89 73 10 57 48 81 EC 00 01 00 00 8B 05 97 AF 6F",
+      "bytes": "4C 8B DC 49 89 5B 08 49 89 73 10 57 48 81 EC 00 01 00 00 8B 05 BF C7 6F",
       "module": "client.dll",
       "name": "SharedRandomFloat",
       "pattern": "4C 8B DC 49 89 5B 08 49 89 73 10 57 48 81 EC 00 01 00 00 8B 05 ? ? ? ? 48 8D 54 24 40",
       "pattern_synth": "4C 8B DC 49 89 5B 08 49 89 73 10 57 48 81 EC 00",
       "prototype": "",
       "resolve": "raw",
-      "rva": 11246992,
-      "va": 140708754267536
+      "rva": 11249712,
+      "va": 140712461969456
     },
     {
       "bytes": "44 88 4C 24 20 53 41 56 41 57 48 81 EC 60 02 00 00 44 8B 91 C0 01 00 00",
@@ -2226,8 +2226,8 @@
       "pattern_synth": "44 88 4C 24 20 53 41 56 41 57 48 81 EC 60 02 00",
       "prototype": "",
       "resolve": "raw",
-      "rva": 13949184,
-      "va": 140708756969728
+      "rva": 13954800,
+      "va": 140712464674544
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 30 48 8B FA 48 8B F1 41 83 F9",
@@ -2237,8 +2237,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 30 48 8B FA 48 8B F1 41 83 F9 01 75 7F 48 8B 5C 24 60 48 85 DB 74 75 48 85 D2 74 70 49 8B C8 E8 BE 4B",
       "prototype": "void __fastcall SOCreated(uintptr_t, uint64_t, uintptr_t, int)",
       "resolve": "raw",
-      "rva": 3822416,
-      "va": 140708746842960
+      "rva": 3820032,
+      "va": 140712454539776
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 49 63 D8 48 8B F1 48 63 FA",
@@ -2248,8 +2248,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 49 63 D8 48 8B",
       "prototype": "float __fastcall SomeTimingFromPawn(__int64 a1, int a2, unsigned int a3)",
       "resolve": "raw",
-      "rva": 11429952,
-      "va": 140708754450496
+      "rva": 11432672,
+      "va": 140712462152416
     },
     {
       "bytes": "48 89 5C 24 10 55 56 57 41 56 41 57 48 8B EC 48 83 EC 60 48 8B 01 41 8B",
@@ -2259,8 +2259,8 @@
       "pattern_synth": "48 89 5C 24 10 55 56 57 41 56 41 57 48 8B EC 48 83 EC 60 48",
       "prototype": "__int64 __fastcall SpectatorInput(_DWORD *a1, __int64 a2, unsigned int a3)",
       "resolve": "raw",
-      "rva": 8715008,
-      "va": 140708751735552
+      "rva": 8717712,
+      "va": 140712459437456
     },
     {
       "bytes": "48 89 5C 24 08 57 48 81 EC F0 00 00 00 F3 0F 10 0A 48 8D 8C 24 10 01 00",
@@ -2270,8 +2270,8 @@
       "pattern_synth": "48 89 5C 24 08 57 48 81 EC F0 00 00 00 F3 0F 10",
       "prototype": "__int64 __fastcall SpreadSeedGen(__int64 a1, __int64 a2, int a3)",
       "resolve": "raw",
-      "rva": 13742944,
-      "va": 140708756763488
+      "rva": 13745904,
+      "va": 140712464465648
     },
     {
       "bytes": "48 89 74 24 20 55 57 41 56 48 8D 6C 24 B9 48 81 EC E0 00 00 00 48 8B CA",
@@ -2281,19 +2281,19 @@
       "pattern_synth": "48 89 74 24 20 55 57 41 56 48 8D 6C 24 B9 48 81 EC E0 00 00",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16736256,
-      "va": 140708759756800
+      "rva": 16742176,
+      "va": 140712467461920
     },
     {
-      "bytes": "48 89 5C 24 10 56 48 83 EC 50 48 8B CA 49 8B F0 FF 15 22 0A AB 00 48 8B",
+      "bytes": "48 89 5C 24 10 56 48 83 EC 50 48 8B CA 49 8B F0 FF 15 02 13 AB 00 48 8B",
       "module": "client.dll",
       "name": "SubmitPlayerReport",
       "pattern": "48 89 5C 24 ? 56 48 83 EC ? 48 8B CA",
       "pattern_synth": "48 89 5C 24 10 56 48 83 EC 50 48 8B CA 49 8B F0",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16737344,
-      "va": 140708759757888
+      "rva": 16743264,
+      "va": 140712467463008
     },
     {
       "bytes": "40 53 57 41 56 48 83 EC 50 8B 84 24 90 00 00 00 4C 8B F1 48 81 C1 04 1D",
@@ -2303,30 +2303,30 @@
       "pattern_synth": "40 53 57 41 56 48 83 EC 50 8B 84 24 90 00 00 00",
       "prototype": "void __fastcall TestSurfaces(__int64 a1, float a2, float a3, float a4, int a5, int a6, __int64 a7)",
       "resolve": "raw",
-      "rva": 8916880,
-      "va": 140708751937424
+      "rva": 8919584,
+      "va": 140712459639328
     },
     {
-      "bytes": "48 83 EC 28 48 8B 0D 55 62 9F 01 48 8D 54 24 30 48 8B 01 FF 90 10 03 00",
+      "bytes": "48 83 EC 28 48 8B 0D 45 8E 9F 01 48 8D 54 24 30 48 8B 01 FF 90 10 03 00",
       "module": "client.dll",
       "name": "ThirdPersonOffHandler",
       "pattern": "48 83 EC 28 48 8B 0D ? ? ? ? 48 8D 54 24 ? 48 8B 01 FF 90 ? ? ? ? 83 7C 24 ? 00 75 ? 48 8B 05 ? ? ? ? C6 80 29 02 00 00 00 C7 80",
       "pattern_synth": "48 83 EC 28 48 8B 0D ? ? ? ? 48 8D 54 24 30 48 8B 01 FF 90 10 03 00 00 83 7C 24 30 00 75 69",
       "prototype": "__int64 ThirdPersonOffHandler()",
       "resolve": "raw",
-      "rva": 11899488,
-      "va": 140708754920032
+      "rva": 11902208,
+      "va": 140712462621952
     },
     {
-      "bytes": "48 83 EC 38 48 8B 0D 75 61 9F 01 48 8D 54 24 40 48 8B 01 FF 90 10 03 00",
+      "bytes": "48 83 EC 38 48 8B 0D 65 8D 9F 01 48 8D 54 24 40 48 8B 01 FF 90 10 03 00",
       "module": "client.dll",
       "name": "ThirdPersonOnHandler",
       "pattern": "48 83 EC 38 48 8B 0D ? ? ? ? 48 8D 54 24 ? 48 8B 01 FF 90 10 03 00 00 83 7C 24 ? 00 0F 85 ? ? ? ? 4C 8B 05 ? ? ? ? 41 8B 80 50 0B",
       "pattern_synth": "48 83 EC 38 48 8B 0D ? ? ? ? 48 8D 54 24 40",
       "prototype": "__int64 ThirdPersonOnHandler()",
       "resolve": "raw",
-      "rva": 11899712,
-      "va": 140708754920256
+      "rva": 11902432,
+      "va": 140712462622176
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 41 56 41 57 48 83 EC 40",
@@ -2336,8 +2336,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 41 56 41 57 48 83 EC 40 F2 0F 10 02",
       "prototype": "char __fastcall TraceCreate(__int64 a1, __int64 a2, int a3, __int64 a4, int a5, char a6)",
       "resolve": "raw",
-      "rva": 8907104,
-      "va": 140708751927648
+      "rva": 8909808,
+      "va": 140712459629552
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 81 EC 80 00 00 00 48",
@@ -2347,8 +2347,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 81 EC 80 00 00 00 48 8B E9 0F 29",
       "prototype": "__int64 __fastcall TraceGetInfo(__int64 a1, __int64 a2, float a3, unsigned __int64 *a4)",
       "resolve": "raw",
-      "rva": 8917168,
-      "va": 140708751937712
+      "rva": 8919872,
+      "va": 140712459639616
     },
     {
       "bytes": "48 8B C4 44 89 48 20 48 89 50 10 48 89 48 08 55 57 41 57 48 8D A8 78 FE",
@@ -2358,8 +2358,8 @@
       "pattern_synth": "48 8B C4 44 89 48 20 48 89 50 10 48 89 48 08 55",
       "prototype": "char __fastcall TraceHandleBulletPen(__int64 a1, float *a2, __int64 a3, int a4, __int64 a5)",
       "resolve": "raw",
-      "rva": 9031840,
-      "va": 140708752052384
+      "rva": 9034544,
+      "va": 140712459754288
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8D 79 08 33 F6 C7 47 08",
@@ -2369,8 +2369,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8D 79 08 33",
       "prototype": "__int64 __fastcall TraceInitData(__int64 a1)",
       "resolve": "raw",
-      "rva": 8889984,
-      "va": 140708751910528
+      "rva": 8892688,
+      "va": 140712459612432
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 0F B6 41 39 33 FF 24 C9 C7",
@@ -2380,19 +2380,19 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 0F B6 41 39 33 FF 24 C9 C7",
       "prototype": "__int64 __fastcall TraceInitFilter(__int64 a1, _DWORD *a2, __int64 a3, char a4, char a5)",
       "resolve": "raw",
-      "rva": 3485200,
-      "va": 140708746505744
+      "rva": 3482816,
+      "va": 140712454202560
     },
     {
-      "bytes": "40 55 41 55 41 57 48 83 EC 30 4C 8B 3D 7F 03 FB 00 45 33 ED 48 8B E9 4D",
+      "bytes": "40 55 41 55 41 57 48 83 EC 30 4C 8B 3D 5F 0B FB 00 45 33 ED 48 8B E9 4D",
       "module": "client.dll",
       "name": "TraceInitInfo",
       "pattern": "40 55 41 55 41 57 48 83 EC 30",
-      "pattern_synth": "40 55 41 55 41 57 48 83 EC 30 4C 8B 3D 7F 03 FB",
+      "pattern_synth": "40 55 41 55 41 57 48 83 EC 30 4C 8B 3D 5F 0B FB",
       "prototype": "__int64 __fastcall TraceInitInfo(__int64 a1)",
       "resolve": "raw",
-      "rva": 24584624,
-      "va": 140708767605168
+      "rva": 24596560,
+      "va": 140712475316304
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 41 56 41 57 48 83 EC 40",
@@ -2402,8 +2402,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 41 56 41 57 48 83 EC 40 F2 0F 10 02",
       "prototype": "char __fastcall TraceToExit(__int64 a1, __int64 a2, int a3, __int64 a4, int a5, char a6)",
       "resolve": "raw",
-      "rva": 8907104,
-      "va": 140708751927648
+      "rva": 8909808,
+      "va": 140712459629552
     },
     {
       "bytes": null,
@@ -2413,8 +2413,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 30104600,
-      "va": 140708773125144
+      "rva": 30112520,
+      "va": 140712480832264
     },
     {
       "bytes": null,
@@ -2424,8 +2424,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 30104536,
-      "va": 140708773125080
+      "rva": 30112456,
+      "va": 140712480832200
     },
     {
       "bytes": "40 56 48 83 EC 20 41 8B F0 49 8B C1 45 33 C0 4C 8B C9 83 FA FF 74 7D 48",
@@ -2435,8 +2435,8 @@
       "pattern_synth": "40 56 48 83 EC 20 41 8B F0 49 8B C1 45 33 C0 4C",
       "prototype": "",
       "resolve": "raw",
-      "rva": 10537936,
-      "va": 140708753558480
+      "rva": 10540640,
+      "va": 140712461260384
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 18 48 89 74 24 20 57 48 83 EC 20 48 8B E9 48",
@@ -2446,41 +2446,41 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 18 48 89 74 24 20 57 48 83 EC 20 48 8B E9 48",
       "prototype": "char __fastcall UnlockInventory(__int64 a1)",
       "resolve": "raw",
-      "rva": 7749984,
-      "va": 140708750770528
+      "rva": 7752416,
+      "va": 140712458472160
     },
     {
-      "bytes": "74 26 C6 05 AA B3 20 02 01 33 C0 83 F8 01 74 18 48 8B 05 04 E8 3F 02 48",
+      "bytes": "74 26 C6 05 7A F4 20 02 01 33 C0 83 F8 01 74 18 48 8B 05 E4 27 40 02 48",
       "module": "client.dll",
       "name": "UntrustedFlagSetter",
       "pattern": "74 26 C6 05 ? ? ? ? 01 33 C0 83 F8 01",
-      "pattern_synth": "74 26 C6 05 AA B3 20 02 01 33 C0 83 F8 01 74 18",
+      "pattern_synth": "74 26 C6 05 7A F4 20 02 01 33 C0 83 F8 01 74 18",
       "prototype": "",
       "resolve": "raw",
-      "rva": 1379493,
-      "va": 140708744400037
+      "rva": 1377109,
+      "va": 140712452096853
     },
     {
-      "bytes": "48 8B 0D 61 BE 6A 01 4C 8D 05 82 BE 6A 01 48 85 D2 48 8D 05 08 FB F2 FF",
+      "bytes": "48 8B 0D D9 D3 6A 01 4C 8D 05 82 D4 6A 01 48 85 D2 48 8D 05 08 FB F2 FF",
       "module": "client.dll",
       "name": "UpdateGlobalVars",
       "pattern": "48 8B 0D ? ? ? ? 4C 8D 05 ? ? ? ? 48 85 D2",
       "pattern_synth": "48 8B 0D ? ? ? ? 4C 8D 05 ? ? ? ? 48 85 D2 48 8D 05",
       "prototype": "void *__fastcall UpdateGlobalVars(__int64 a1, void *a2)",
       "resolve": "raw",
-      "rva": 12016720,
-      "va": 140708755037264
+      "rva": 12019440,
+      "va": 140712462739184
     },
     {
-      "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 40 48 8B D9 C6 05 9F F7 12 01",
+      "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 40 48 8B D9 C6 05 6F FF 12 01",
       "module": "client.dll",
       "name": "UpdateOnRemove",
       "pattern": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 40 48 8B D9 C6 05 ? ? ? ? 01 48 8B 49",
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 40 48 8B D9 C6 05",
       "prototype": "",
       "resolve": "raw",
-      "rva": 22911536,
-      "va": 140708765932080
+      "rva": 22923472,
+      "va": 140712473643216
     },
     {
       "bytes": "48 85 D2 0F 84 57 01 00 00 48 89 5C 24 08 57 48 83 EC 30 80 3A 00 48 8B",
@@ -2490,19 +2490,19 @@
       "pattern_synth": "48 85 D2 0F 84 ? ? ? ? 48 89 5C 24 08 57 48 83 EC 30 80",
       "prototype": "void __fastcall UpdatePostProcessing(__int64 a1, _BYTE *a2)",
       "resolve": "raw",
-      "rva": 16726880,
-      "va": 140708759747424
+      "rva": 16732800,
+      "va": 140712467452544
     },
     {
-      "bytes": "48 89 5C 24 08 57 48 83 EC 30 48 8B F9 E8 EE 8D 6B 00 48 8B 47 10 48 8B",
+      "bytes": "48 89 5C 24 08 57 48 83 EC 30 48 8B F9 E8 CE A1 6B 00 48 8B 47 10 48 8B",
       "module": "client.dll",
       "name": "UpdateSkybox",
       "pattern": "48 89 5C 24 ? 57 48 83 EC ? 48 8B F9 E8 ? ? ? ? 48 8B 47",
-      "pattern_synth": "48 89 5C 24 08 57 48 83 EC 30 48 8B F9 E8 EE 8D",
+      "pattern_synth": "48 89 5C 24 08 57 48 83 EC 30 48 8B F9 E8 CE A1",
       "prototype": "__int64 __fastcall UpdateSkybox(__int64 a1)",
       "resolve": "raw",
-      "rva": 2561424,
-      "va": 140708745581968
+      "rva": 2559040,
+      "va": 140712453278784
     },
     {
       "bytes": "4C 8B DC 53 48 81 EC 90 01 00 00 48 8B 41 10 48 8B D9 8B 50 30 C1 EA 04",
@@ -2512,8 +2512,8 @@
       "pattern_synth": "4C 8B DC 53 48 81 EC 90 01 00 00 48 8B 41 10 48",
       "prototype": "void __fastcall UpdateSubClass(_QWORD *a1)",
       "resolve": "raw",
-      "rva": 2133472,
-      "va": 140708745154016
+      "rva": 2131088,
+      "va": 140712452850832
     },
     {
       "bytes": "48 89 5C 24 18 55 57 41 56 48 8D 6C 24 C9 48 81 EC B0 00 00 00 8B 01 48",
@@ -2523,19 +2523,19 @@
       "pattern_synth": "48 89 5C 24 18 55 57 41 56 48 8D 6C 24 C9 48 81",
       "prototype": "",
       "resolve": "raw",
-      "rva": 13574736,
-      "va": 140708756595280
+      "rva": 13577648,
+      "va": 140712464297392
     },
     {
-      "bytes": "40 55 41 55 41 57 48 83 EC 30 4C 8B 3D 7F 03 FB 00 45 33 ED 48 8B E9 4D",
+      "bytes": "40 55 41 55 41 57 48 83 EC 30 4C 8B 3D 5F 0B FB 00 45 33 ED 48 8B E9 4D",
       "module": "client.dll",
       "name": "InitTraceInfo",
       "pattern": "40 55 41 55 41 57 48 83 EC",
-      "pattern_synth": "40 55 41 55 41 57 48 83 EC 30 4C 8B 3D 7F 03 FB",
+      "pattern_synth": "40 55 41 55 41 57 48 83 EC 30 4C 8B 3D 5F 0B FB",
       "prototype": "",
       "resolve": "raw",
-      "rva": 24584624,
-      "va": 140708767605168
+      "rva": 24596560,
+      "va": 140712475316304
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 81 EC 80 00 00 00 48",
@@ -2545,8 +2545,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 81 EC 80 00 00 00 48 8B E9 0F 29",
       "prototype": "__int64 __fastcall GetTraceInfo_v2(__int64 a1, __int64 a2, float a3, unsigned __int64 *a4)",
       "resolve": "raw",
-      "rva": 8917168,
-      "va": 140708751937712
+      "rva": 8919872,
+      "va": 140712459639616
     },
     {
       "bytes": "48 8B C4 44 89 48 20 48 89 50 10 48 89 48 08 55 57 41 57 48 8D A8 78 FE",
@@ -2556,30 +2556,30 @@
       "pattern_synth": "48 8B C4 44 89 48 20 48 89 50 10 48 89 48 08 55",
       "prototype": "",
       "resolve": "raw",
-      "rva": 9031840,
-      "va": 140708752052384
+      "rva": 9034544,
+      "va": 140712459754288
     },
     {
-      "bytes": "48 8B 0D 39 D3 5A 01 48 8B 01 48 FF A0 08 02 00 00 CC CC CC CC CC CC CC",
+      "bytes": "48 8B 0D D9 F3 5A 01 48 8B 01 48 FF A0 08 02 00 00 CC CC CC CC CC CC CC",
       "module": "client.dll",
       "name": "GetMapBspName",
       "pattern": "48 8B 0D ? ? ? ? ? ? ? 48 FF A0 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 48 89 5C 24 ? 57",
       "pattern_synth": "48 8B 0D ? ? ? ? 48 8B 01 48 FF A0 08 02 00",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16392576,
-      "va": 140708759413120
+      "rva": 16398192,
+      "va": 140712467117936
     },
     {
-      "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B CA FF 15 20 B0 AF 00",
+      "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B CA FF 15 30 BA AF 00",
       "module": "client.dll",
       "name": "GetPlayerModel",
       "pattern": "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B CA FF 15 ? ? ? ? 48 8B 1D ? ? ? ? 33 C9 48 8B F0 33 FF 8B 5B ? 0F 1F 80 ? ? ? ? 3B CB 74 ? 8B CF E8 ? ? ? ? 48 85 C0 74 ? 8B 88 ? ? ? ? C1 E9 ? F6 C1 ? 74 ? 48 63 C7 EB ? 48 8B C8 E8 ? ? ? ? 48 3B C6 74 ? 8D 4F ? 8B F9 EB ? BF ? ? ? ? 8B CF E8 ? ? ? ? 48 8B D8 48 85 C0 74 ? 48 8B C8 E8 ? ? ? ? 48 85 C0 48 0F 45 D8 48 8B CB E8 ? ? ? ? 0F B7 D8 E8 ? ? ? ? 8B D3 45 33 C0 48 8B C8 E8 ? ? ? ? 48 8B D8",
-      "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B CA FF 15 20 B0 AF 00",
+      "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B CA FF 15 30 BA AF 00",
       "prototype": "char *__fastcall GetPlayerModel(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 16432704,
-      "va": 140708759453248
+      "rva": 16438320,
+      "va": 140712467158064
     },
     {
       "bytes": "0F B6 81 20 02 00 00 C3 CC CC CC CC CC CC CC CC 48 83 EC 28 33 C9 4C 8D",
@@ -2589,8 +2589,8 @@
       "pattern_synth": "0F B6 81 20 02 00 00 C3 CC CC CC CC CC CC CC CC",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16565712,
-      "va": 140708759586256
+      "rva": 16571600,
+      "va": 140712467291344
     },
     {
       "bytes": "48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 20 66 0F 6E CA 49 8B F0 66 0F",
@@ -2600,228 +2600,228 @@
       "pattern_synth": "48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 20 66 0F 6E CA 49 8B F0 66 0F 70 C9 00 8B EA 48 8B F9 45 33 C9 48 8B C1 66 66 0F 1F 84 00 00 00 00 00",
       "prototype": "",
       "resolve": "raw",
-      "rva": 1486208,
-      "va": 140708744506752
+      "rva": 1483824,
+      "va": 140712452203568
     },
     {
-      "bytes": "0F B6 05 29 10 5B 01 24 01 C3 CC CC CC CC CC CC 8B 51 40 33 C0 85 D2 7E",
+      "bytes": "0F B6 05 C9 2B 5B 01 24 01 C3 CC CC CC CC CC CC 8B 51 40 33 C0 85 D2 7E",
       "module": "client.dll",
       "name": "HasOngoingMatch",
       "pattern": "0F B6 05 ? ? ? ? 24",
-      "pattern_synth": "0F B6 05 29 10 5B 01 24 01 C3 CC CC CC CC CC CC",
+      "pattern_synth": "0F B6 05 C9 2B 5B 01 24 01 C3 CC CC CC CC CC CC",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16489328,
-      "va": 140708759509872
+      "rva": 16494976,
+      "va": 140712467214720
     },
     {
-      "bytes": "48 83 EC 38 F6 05 95 04 5F 01 01 74 5F 48 8B 0D FC 0E 81 01 48 8B 01 FF",
+      "bytes": "48 83 EC 38 F6 05 E5 20 5F 01 01 74 5F 48 8B 0D 1C 30 81 01 48 8B 01 FF",
       "module": "client.dll",
       "name": "ActionReconnectToOngoingMatch",
       "pattern": "48 83 EC ? F6 05 ? ? ? ? ? 74 ? 48 8B 0D",
-      "pattern_synth": "48 83 EC 38 F6 05 95 04 5F 01 01 74 5F 48 8B 0D",
+      "pattern_synth": "48 83 EC 38 F6 05 E5 20 5F 01 01 74 5F 48 8B 0D",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16230144,
-      "va": 140708759250688
+      "rva": 16235616,
+      "va": 140712466955360
     },
     {
-      "bytes": "40 57 48 83 EC 50 33 FF F6 05 71 13 5F 01 01 0F 84 BA 00 00 00 8B 0D FD",
+      "bytes": "40 57 48 83 EC 50 33 FF F6 05 C1 2F 5F 01 01 0F 84 BA 00 00 00 8B 0D 1D",
       "module": "client.dll",
       "name": "ActionAbandonOngoingMatch",
       "pattern": "40 57 48 83 EC ? 33 FF",
-      "pattern_synth": "40 57 48 83 EC 50 33 FF F6 05 71 13 5F 01 01 0F",
+      "pattern_synth": "40 57 48 83 EC 50 33 FF F6 05 C1 2F 5F 01 01 0F",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16226336,
-      "va": 140708759246880
+      "rva": 16231808,
+      "va": 140712466951552
     },
     {
-      "bytes": "48 89 5C 24 18 55 57 41 56 48 81 EC 60 01 00 00 48 8B 0D 61 90 53 01 49",
+      "bytes": "48 89 5C 24 18 55 57 41 56 48 81 EC 60 01 00 00 48 8B 0D 49 B2 53 01 49",
       "module": "client.dll",
       "name": "ActionMatchmaking",
       "pattern": "48 89 5C 24 ? 55 57 41 56 48 81 EC ? ? ? ? 48 8B 0D",
       "pattern_synth": "48 89 5C 24 18 55 57 41 56 48 81 EC 60 01 00 00",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16227520,
-      "va": 140708759248064
+      "rva": 16232992,
+      "va": 140712466952736
     },
     {
-      "bytes": "48 83 EC 58 8B 05 F6 6E 5D 01 C1 E8 09 A8 01 74 52 48 8D 4C 24 20 48 89",
+      "bytes": "48 83 EC 58 8B 05 B6 8A 5D 01 C1 E8 09 A8 01 74 52 48 8D 4C 24 20 48 89",
       "module": "client.dll",
       "name": "GetCooldownSecondsRemaining",
       "pattern": "48 83 EC ? 8B 05 ? ? ? ? C1 E8 ? A8 ? 74 ? 48 8D 4C 24",
       "pattern_synth": "48 83 EC 58 8B 05 ? ? ? ? C1 E8 ? ? ? ?",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16333984,
-      "va": 140708759354528
+      "rva": 16339600,
+      "va": 140712467059344
     },
     {
-      "bytes": "8B 15 22 6F 5D 01 8D 42 F8 83 F8 0C 77 14 4C 8D 05 DB C2 06 FF 41 8B 8C",
+      "bytes": "8B 15 E2 8A 5D 01 8D 42 F8 83 F8 0C 77 14 4C 8D 05 EB AC 06 FF 41 8B 8C",
       "module": "client.dll",
       "name": "GetCooldownType",
       "pattern": "8B 15 ? ? ? ? 8D 42 ? 83 F8",
       "pattern_synth": "8B 15 ? ? ? ? 8D 42 F8 83 F8 0C 77 14 4C 8D",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16334096,
-      "va": 140708759354640
+      "rva": 16339712,
+      "va": 140712467059456
     },
     {
-      "bytes": "8B 0D 02 64 5E 01 8D 41 F8 A9 F9 FF FF FF 75 08 83 F9 0C 74 03 B0 01 C3",
+      "bytes": "8B 0D C2 7F 5E 01 8D 41 F8 A9 F9 FF FF FF 75 08 83 F9 0C 74 03 B0 01 C3",
       "module": "client.dll",
       "name": "CooldownIsPermanent",
       "pattern": "8B 0D ? ? ? ? 8D 41 ? A9",
       "pattern_synth": "8B 0D ? ? ? ? 8D 41 F8 A9 F9 FF FF FF 75 08",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16271408,
-      "va": 140708759291952
+      "rva": 16277024,
+      "va": 140712466996768
     },
     {
-      "bytes": "8B 05 02 71 5D 01 48 8D 15 4B 65 B2 00 FF C8 83 F8 16 0F 87 EC 00 00 00",
+      "bytes": "8B 05 C2 8C 5D 01 48 8D 15 5B 6F B2 00 FF C8 83 F8 16 0F 87 EC 00 00 00",
       "module": "client.dll",
       "name": "GetCooldownReason",
       "pattern": "8B 05 ? ? ? ? 48 8D 15 ? ? ? ? FF C8",
       "pattern_synth": "8B 05 ? ? ? ? 48 8D 15 ? ? ? ? FF C8 83",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16333616,
-      "va": 140708759354160
+      "rva": 16339232,
+      "va": 140712467058976
     },
     {
-      "bytes": "E9 FB FB D6 FF CC CC CC CC CC CC CC CC CC CC CC 48 89 5C 24 10 48 89 74",
+      "bytes": "E9 FB F1 D6 FF CC CC CC CC CC CC CC CC CC CC CC 48 89 5C 24 10 48 89 74",
       "module": "client.dll",
       "name": "ActionAcknowledgePenalty",
       "pattern": "E9 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 48 89 5C 24 ? 48 89 74 24 ? 57 48 81 EC ? ? ? ? 41 8B D9",
       "pattern_synth": "E9 ? ? ? ? CC CC CC CC CC CC CC CC CC CC CC 48 89 5C 24 10 48 89 74 24 18 57 48 81 EC 40 01",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16226640,
-      "va": 140708759247184
+      "rva": 16232112,
+      "va": 140712466951856
     },
     {
-      "bytes": "8B 05 F2 A2 57 01 32 D2 FF C8 83 F8 16 77 1F 4C 8D 05 AA F6 00 FF 41 0F",
+      "bytes": "8B 05 82 BD 57 01 32 D2 FF C8 83 F8 16 77 1F 4C 8D 05 8A DF 00 FF 41 0F",
       "module": "client.dll",
       "name": "ShowFairPlayGuidelinesForCooldown",
       "pattern": "8B 05 ? ? ? ? 32 D2",
       "pattern_synth": "8B 05 ? ? ? ? 32 D2 FF C8 83 F8 16 77 1F 4C",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16714048,
-      "va": 140708759734592
+      "rva": 16719968,
+      "va": 140712467439712
     },
     {
-      "bytes": "40 53 48 83 EC 20 8B 05 84 2D 5B 01 33 DB C1 E8 05 A8 01 74 43 48 8B 05",
+      "bytes": "40 53 48 83 EC 20 8B 05 24 49 5B 01 33 DB C1 E8 05 A8 01 74 43 48 8B 05",
       "module": "client.dll",
       "name": "GetTournamentTeamCount",
       "pattern": "40 53 48 83 EC ? 8B 05 ? ? ? ? 33 DB C1 E8 ? A8 ? 74 ? 48 8B 05 ? ? ? ? 48 8D 0D ? ? ? ? 48 85 C0 48 0F 45 C8 8B 41 ? ? ? A8 ? 74 ? 48 8B 49 ? 48 83 E1 ? 48 83 79 ? ? 76 ? ? ? ? ? ? 74 ? FF 15 ? ? ? ? 85 C0 0F 44 1D ? ? ? ? 8B C3 48 83 C4 ? 5B C3 48 89 5C 24",
       "pattern_synth": "40 53 48 83 EC 20 8B 05 ? ? ? ? 33 DB C1 E8 ? ? ? ? 43 48 8B 05 ? ? ? ? 48 8D 0D ? ? ? ? 48 85 C0 48 0F 45 C8 8B 41 10 D1 E8 A8",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16481808,
-      "va": 140708759502352
+      "rva": 16487456,
+      "va": 140712467207200
     },
     {
-      "bytes": "40 53 48 83 EC 20 8B 05 C4 2A 5B 01 C1 E8 05 49 63 D8 A8 01 74 79 48 8B",
+      "bytes": "40 53 48 83 EC 20 8B 05 64 46 5B 01 C1 E8 05 49 63 D8 A8 01 74 79 48 8B",
       "module": "client.dll",
       "name": "GetTournamentTeamNameByIndex",
       "pattern": "40 53 48 83 EC ? 8B 05 ? ? ? ? C1 E8 ? 49 63 D8 A8 ? 74 ? 48 8B 05 ? ? ? ? 48 8D 0D ? ? ? ? 48 85 C0 48 0F 45 C8 8B 41 ? ? ? A8 ? 74 ? 48 8B 49 ? 48 83 E1 ? 48 83 79 ? ? 76 ? ? ? ? ? ? 00 74 ? FF 15 ? ? ? ? 85 C0 75 ? 85 DB 78 ? 3B 1D ? ? ? ? 7D ? 48 8B 05 ? ? ? ? 48 8B 54 D8 ? 8B 42 ? C1 E8 ? A8 ? 74 ? 48 8B 42 ? 48 83 E0 ? 48 83 78 ? ? 76 ? ? ? ? 48 83 C4 ? 5B C3 48 8D 05 ? ? ? ? 48 83 C4 ? 5B C3 ? ? ? ? 48 89 5C 24",
-      "pattern_synth": "40 53 48 83 EC 20 8B 05 ? ? ? ? C1 E8 ? ? ? ? A8 01 74 79 48 8B 05 2B 2B 5B",
+      "pattern_synth": "40 53 48 83 EC 20 8B 05 ? ? ? ? C1 E8 ? ? ? ? A8 01 74 79 48 8B 05 CB 46 5B",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16482512,
-      "va": 140708759503056
+      "rva": 16488160,
+      "va": 140712467207904
     },
     {
-      "bytes": "40 53 48 83 EC 20 8B 05 54 29 5B 01 C1 E8 05 49 63 D8 A8 01 74 75 48 8B",
+      "bytes": "40 53 48 83 EC 20 8B 05 F4 44 5B 01 C1 E8 05 49 63 D8 A8 01 74 75 48 8B",
       "module": "client.dll",
       "name": "GetTournamentTeamTagByIndex",
       "pattern": "40 53 48 83 EC ? 8B 05 ? ? ? ? C1 E8 ? 49 63 D8 A8 ? 74 ? 48 8B 05 ? ? ? ? 48 8D 0D ? ? ? ? 48 85 C0 48 0F 45 C8 8B 41 ? ? ? A8 ? 74 ? 48 8B 49 ? 48 83 E1 ? 48 83 79 ? ? 76 ? ? ? ? ? ? 00 74 ? FF 15 ? ? ? ? 85 C0 75 ? 85 DB 78 ? 3B 1D ? ? ? ? 7D ? 48 8B 05 ? ? ? ? 48 8B 44 D8",
       "pattern_synth": "40 53 48 83 EC 20 8B 05 ? ? ? ? C1 E8 ? ? ? ? A8 01 74 75 48 8B",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16482880,
-      "va": 140708759503424
+      "rva": 16488528,
+      "va": 140712467208272
     },
     {
-      "bytes": "40 53 48 83 EC 20 8B 05 44 2C 5B 01 C1 E8 05 49 63 D8 A8 01 74 78 48 8B",
+      "bytes": "40 53 48 83 EC 20 8B 05 E4 47 5B 01 C1 E8 05 49 63 D8 A8 01 74 78 48 8B",
       "module": "client.dll",
       "name": "GetTournamentTeamFlagByIndex",
       "pattern": "40 53 48 83 EC ? 8B 05 ? ? ? ? C1 E8 ? 49 63 D8 A8 ? 74 ? 48 8B 05 ? ? ? ? 48 8D 0D ? ? ? ? 48 85 C0 48 0F 45 C8 8B 41 ? ? ? A8 ? 74 ? 48 8B 49 ? 48 83 E1 ? 48 83 79 ? ? 76 ? ? ? ? ? ? 00 74 ? FF 15 ? ? ? ? 85 C0 75 ? 85 DB 78 ? 3B 1D ? ? ? ? 7D ? 48 8B 05 ? ? ? ? 48 8B 54 D8 ? 8B 42 ? ? ? A8",
       "pattern_synth": "40 53 48 83 EC 20 8B 05 ? ? ? ? C1 E8 ? ? ? ? A8 01 74 78 48 8B",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16482128,
-      "va": 140708759502672
+      "rva": 16487776,
+      "va": 140712467207520
     },
     {
-      "bytes": "48 89 5C 24 08 57 48 83 EC 20 8B 05 A0 2B 5B 01 33 DB C1 E8 05 41 8B F8",
+      "bytes": "48 89 5C 24 08 57 48 83 EC 20 8B 05 40 47 5B 01 33 DB C1 E8 05 41 8B F8",
       "module": "client.dll",
       "name": "GetTournamentTeamNameByID",
       "pattern": "48 89 5C 24 ? 57 48 83 EC ? 8B 05 ? ? ? ? 33 DB C1 E8 ? 41 8B F8 A8 ? 0F 84 ? ? ? ? 48 8B 05 ? ? ? ? 48 8D 0D ? ? ? ? 48 85 C0 48 0F 45 C8 8B 41 ? ? ? A8 ? 74 ? 48 8B 49 ? 48 83 E1 ? 48 83 79 ? ? 76 ? ? ? ? ? ? 74 ? FF 15 ? ? ? ? 85 C0 75 ? 48 63 05 ? ? ? ? 85 C0 7E ? 4C 8B 15 ? ? ? ? 4C 8B C8 48 8B CB 49 8D 52 ? 66 0F 1F 44 00 ? ? ? ? 41 8B 40 ? C1 E8",
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 8B 05 ? ? ? ? 33 DB C1 E8 ? ? ? ? A8 01 0F 84 ? ? ? ? 48 8B 05 ? ? ? ? 48 8D 0D ? ? ? ? 48 85",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16482288,
-      "va": 140708759502832
+      "rva": 16487936,
+      "va": 140712467207680
     },
     {
-      "bytes": "48 89 5C 24 08 57 48 83 EC 20 8B 05 20 2A 5B 01 33 DB C1 E8 05 41 8B F8",
+      "bytes": "48 89 5C 24 08 57 48 83 EC 20 8B 05 C0 45 5B 01 33 DB C1 E8 05 41 8B F8",
       "module": "client.dll",
       "name": "GetTournamentTeamTagByID",
       "pattern": "48 89 5C 24 ? 57 48 83 EC ? 8B 05 ? ? ? ? 33 DB C1 E8 ? 41 8B F8 A8 ? 74",
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 8B 05 ? ? ? ? 33 DB C1 E8 ? ? ? ? A8 01 74 76",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16482672,
-      "va": 140708759503216
+      "rva": 16488320,
+      "va": 140712467208064
     },
     {
-      "bytes": "48 89 5C 24 08 57 48 83 EC 20 8B 05 20 2D 5B 01 33 DB C1 E8 05 41 8B F8",
+      "bytes": "48 89 5C 24 08 57 48 83 EC 20 8B 05 C0 48 5B 01 33 DB C1 E8 05 41 8B F8",
       "module": "client.dll",
       "name": "GetTournamentTeamFlagByID",
       "pattern": "48 89 5C 24 ? 57 48 83 EC ? 8B 05 ? ? ? ? 33 DB C1 E8 ? 41 8B F8 A8 ? 0F 84 ? ? ? ? 48 8B 05 ? ? ? ? 48 8D 0D ? ? ? ? 48 85 C0 48 0F 45 C8 8B 41 ? ? ? A8 ? 74 ? 48 8B 49 ? 48 83 E1 ? 48 83 79 ? ? 76 ? ? ? ? ? ? 74 ? FF 15 ? ? ? ? 85 C0 75 ? 48 63 05 ? ? ? ? 85 C0 7E ? 4C 8B 15 ? ? ? ? 4C 8B C8 48 8B CB 49 8D 52 ? 66 0F 1F 44 00 ? ? ? ? 41 8B 40 ? ? ? A8",
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 8B 05 ? ? ? ? 33 DB C1 E8 ? ? ? ? A8 01 0F 84 ? ? ? ? 48 8B 05 ? ? ? ? 48 8D 0D ? ? ? ? 48 85",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16481904,
-      "va": 140708759502448
+      "rva": 16487552,
+      "va": 140712467207296
     },
     {
-      "bytes": "40 53 48 83 EC 20 8B 05 84 2E 5B 01 33 DB C1 E8 05 A8 01 74 43 48 8B 05",
+      "bytes": "40 53 48 83 EC 20 8B 05 24 4A 5B 01 33 DB C1 E8 05 A8 01 74 43 48 8B 05",
       "module": "client.dll",
       "name": "GetTournamentStageCount",
       "pattern": "40 53 48 83 EC ? 8B 05 ? ? ? ? 33 DB C1 E8 ? A8 ? 74 ? 48 8B 05 ? ? ? ? 48 8D 0D ? ? ? ? 48 85 C0 48 0F 45 C8 8B 41 ? ? ? A8 ? 74 ? 48 8B 49 ? 48 83 E1 ? 48 83 79 ? ? 76 ? ? ? ? ? ? 74 ? FF 15 ? ? ? ? 85 C0 0F 44 1D ? ? ? ? 8B C3 48 83 C4 ? 5B C3 40 53",
       "pattern_synth": "40 53 48 83 EC 20 8B 05 ? ? ? ? 33 DB C1 E8 ? ? ? ? 43 48 8B 05 ? ? ? ? 48 8D 0D ? ? ? ? 48 85 C0 48 0F 45 C8 8B 41 10 D1 E8 A8",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16481552,
-      "va": 140708759502096
+      "rva": 16487200,
+      "va": 140712467206944
     },
     {
-      "bytes": "40 53 48 83 EC 20 8B 05 24 2E 5B 01 C1 E8 05 49 63 D8 A8 01 74 79 48 8B",
+      "bytes": "40 53 48 83 EC 20 8B 05 C4 49 5B 01 C1 E8 05 49 63 D8 A8 01 74 79 48 8B",
       "module": "client.dll",
       "name": "GetTournamentStageNameByIndex",
       "pattern": "40 53 48 83 EC ? 8B 05 ? ? ? ? C1 E8 ? 49 63 D8 A8 ? 74 ? 48 8B 05 ? ? ? ? 48 8D 0D ? ? ? ? 48 85 C0 48 0F 45 C8 8B 41 ? ? ? A8 ? 74 ? 48 8B 49 ? 48 83 E1 ? 48 83 79 ? ? 76 ? ? ? ? ? ? 00 74 ? FF 15 ? ? ? ? 85 C0 75 ? 85 DB 78 ? 3B 1D ? ? ? ? 7D ? 48 8B 05 ? ? ? ? 48 8B 54 D8 ? 8B 42 ? C1 E8 ? A8 ? 74 ? 48 8B 42 ? 48 83 E0 ? 48 83 78 ? ? 76 ? ? ? ? 48 83 C4 ? 5B C3 48 8D 05 ? ? ? ? 48 83 C4 ? 5B C3 ? ? ? ? 40 53",
-      "pattern_synth": "40 53 48 83 EC 20 8B 05 ? ? ? ? C1 E8 ? ? ? ? A8 01 74 79 48 8B 05 8B 2E 5B",
+      "pattern_synth": "40 53 48 83 EC 20 8B 05 ? ? ? ? C1 E8 ? ? ? ? A8 01 74 79 48 8B 05 2B 4A 5B",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16481648,
-      "va": 140708759502192
+      "rva": 16487296,
+      "va": 140712467207040
     },
     {
-      "bytes": "48 83 EC 28 F7 05 B2 7F 2A 01 FF FF FF 3F 75 05 E8 BB 80 02 00 48 8B 05",
+      "bytes": "48 83 EC 28 F7 05 A2 A0 2A 01 FF FF FF 3F 75 05 E8 DB 80 02 00 48 8B 05",
       "module": "client.dll",
       "name": "GetDirectChallengeCode",
       "pattern": "48 83 EC ? F7 05",
-      "pattern_synth": "48 83 EC 28 F7 05 B2 7F 2A 01 FF FF FF 3F 75 05",
+      "pattern_synth": "48 83 EC 28 F7 05 A2 A0 2A 01 FF FF FF 3F 75 05",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16343280,
-      "va": 140708759363824
+      "rva": 16348896,
+      "va": 140712467068640
     },
     {
       "bytes": "48 81 EC A8 00 00 00 85 D2 75 0A 33 C0 48 81 C4 A8 00 00 00 C3 0F B7 C2",
@@ -2831,30 +2831,30 @@
       "pattern_synth": "48 81 EC A8 00 00 00 85 D2 75 0A 33 C0 48 81 C4",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16343360,
-      "va": 140708759363904
+      "rva": 16348976,
+      "va": 140712467068720
     },
     {
-      "bytes": "48 83 EC 28 E8 97 ED 02 00 48 8B 05 84 EC 2A 01 0F BA E0 1E 73 0C 48 8D",
+      "bytes": "48 83 EC 28 E8 B7 ED 02 00 48 8B 05 74 0D 2B 01 0F BA E0 1E 73 0C 48 8D",
       "module": "client.dll",
       "name": "GenerateDirectChallengeCode",
       "pattern": "48 83 EC ? E8 ? ? ? ? 48 8B 05",
       "pattern_synth": "48 83 EC 28 E8 ? ? ? ? 48 8B 05 ? ? ? ?",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16315424,
-      "va": 140708759335968
+      "rva": 16321040,
+      "va": 140712467040784
     },
     {
-      "bytes": "48 81 EC 38 04 00 00 48 8B CA 48 8D 15 7F B0 BF 00 E8 8A 00 A5 00 85 C0",
+      "bytes": "48 81 EC 38 04 00 00 48 8B CA 48 8D 15 FF BA BF 00 E8 3A 19 A5 00 85 C0",
       "module": "client.dll",
       "name": "GetRotatingOfficialMapGroupCurrentState",
       "pattern": "48 81 EC ? ? ? ? 48 8B CA 48 8D 15",
-      "pattern_synth": "48 81 EC 38 04 00 00 48 8B CA 48 8D 15 7F B0 BF",
+      "pattern_synth": "48 81 EC 38 04 00 00 48 8B CA 48 8D 15 FF BA BF",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16459248,
-      "va": 140708759479792
+      "rva": 16464864,
+      "va": 140712467184608
     },
     {
       "bytes": "48 89 6C 24 20 4C 89 44 24 18 56 57 41 54 41 56 41 57 48 83 EC 70 48 8B",
@@ -2864,8 +2864,8 @@
       "pattern_synth": "48 89 6C 24 20 4C 89 44 24 18 56 57 41 54 41 56",
       "prototype": "",
       "resolve": "raw",
-      "rva": 4211968,
-      "va": 140709487199488
+      "rva": 4213040,
+      "va": 140713884076336
     },
     {
       "bytes": "48 8B C4 4C 89 40 18 4C 89 48 20 55 53 57 48 8D 68 A1 48 81 EC C0 00 00",
@@ -2876,7 +2876,7 @@
       "prototype": "char ClientCommand(__int64 a1, int a2, __int64 a3, ...)",
       "resolve": "raw",
       "rva": 648864,
-      "va": 140709483636384
+      "va": 140713880512160
     },
     {
       "bytes": "40 53 56 48 81 EC 48 07 00 00 48 8B F1 48 8B DA 48 8B 4A 48 48 83 E1 FC",
@@ -2887,7 +2887,7 @@
       "prototype": "char __fastcall ExecuteStringCommand(__int64 a1, __int64 a2)",
       "resolve": "raw",
       "rva": 1169728,
-      "va": 140709484157248
+      "va": 140713881033024
     },
     {
       "bytes": "48 89 54 24 10 48 89 4C 24 08 55 53 56 57 41 56 41 57 48 8D 6C 24 98 48",
@@ -2898,7 +2898,7 @@
       "prototype": "char __fastcall SendSnapshot(__int64 a1, __int64 a2)",
       "resolve": "raw",
       "rva": 1174000,
-      "va": 140709484161520
+      "va": 140713881037296
     },
     {
       "bytes": "40 53 48 83 EC 40 8B 01 48 8B D9 C6 41 18 01 83 F8 02 74 07 83 F8 04 75",
@@ -2908,8 +2908,8 @@
       "pattern_synth": "40 53 48 83 EC 40 8B 01 48 8B D9 C6 41 18 01 83",
       "prototype": "void __fastcall HostStateRequest_Start(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 2198192,
-      "va": 140709485185712
+      "rva": 2199264,
+      "va": 140713882062560
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 55 41 54 41 55 41 56 41 57",
@@ -2920,7 +2920,7 @@
       "prototype": "void __fastcall ProcessConVar(__int64 a1, __int64 a2)",
       "resolve": "raw",
       "rva": 1844880,
-      "va": 140709484832400
+      "va": 140713881708176
     },
     {
       "bytes": "40 55 56 41 56 41 57 48 8D AC 24 38 FF FF FF 48 81 EC C8 01 00 00 65 48",
@@ -2931,10 +2931,10 @@
       "prototype": "char __fastcall InternalProcessPacketEntities(__int64 a1, __int64 a2)",
       "resolve": "raw",
       "rva": 287760,
-      "va": 140709483275280
+      "va": 140713880151056
     },
     {
-      "bytes": "48 89 5C 24 08 57 48 83 EC 30 48 8B FA 48 8B D9 8B 0D 82 62 90 00 BA 02",
+      "bytes": "48 89 5C 24 08 57 48 83 EC 30 48 8B FA 48 8B D9 8B 0D E2 62 90 00 BA 02",
       "module": "engine2.dll",
       "name": "ProcessServerInfo",
       "pattern": "48 89 5C 24 08 57 48 83 EC 30 48 8B FA 48 8B D9 8B 0D ? ? ? ? BA 02 00 00 00 FF 15",
@@ -2942,7 +2942,7 @@
       "prototype": "char __fastcall ProcessServerInfo(__int64 a1, __int64 a2)",
       "resolve": "raw",
       "rva": 430768,
-      "va": 140709483418288
+      "va": 140713880294064
     },
     {
       "bytes": "48 89 5C 24 20 55 57 41 57 48 81 EC F0 00 00 00 8B 7A 50 45 33 FF 44 38",
@@ -2953,18 +2953,18 @@
       "prototype": "char __fastcall ProcessTick(__int64 a1, __int64 a2)",
       "resolve": "raw",
       "rva": 429312,
-      "va": 140709483416832
+      "va": 140713880292608
     },
     {
-      "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B 1D 0A 6D 98 00 48 8B",
+      "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B 1D 6A 6D 98 00 48 8B",
       "module": "engine2.dll",
       "name": "ForceDemoRecordingFullUpdateAfterNextDeltaPacket",
       "pattern": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B 1D ? ? ? ? 48 8B FA 48 8B F1 48 85 DB",
-      "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B 1D 0A 6D",
+      "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B 1D 6A 6D",
       "prototype": "char __fastcall ForceDemoRecordingFullUpdateAfterNextDeltaPacket(__int64 a1, const char *a2)",
       "resolve": "raw",
       "rva": 167440,
-      "va": 140709483154960
+      "va": 140713880030736
     },
     {
       "bytes": "40 53 41 56 48 83 EC 48 4C 8B F2 48 8B D9 48 8B 12 48 85 D2 0F 84 0C 03",
@@ -2975,7 +2975,7 @@
       "prototype": "__int64 __fastcall CreateStringTable(__int64 a1, const char *a2, __int64 a3)",
       "resolve": "raw",
       "rva": 1086560,
-      "va": 140709484074080
+      "va": 140713880949856
     },
     {
       "bytes": "44 89 4C 24 20 44 89 44 24 18 48 89 4C 24 08 55 53 56 57 41 54 41 55 41",
@@ -2986,7 +2986,7 @@
       "prototype": "__int64 __fastcall WriteUpdateMessageAtTick(__int64 a1, __int64 a2, int a3, int a4, int a5)",
       "resolve": "raw",
       "rva": 1089696,
-      "va": 140709484077216
+      "va": 140713880952992
     },
     {
       "bytes": "40 55 53 56 48 8D AC 24 50 FA FF FF 48 81 EC B0 06 00 00 48 8B D9 48 8B",
@@ -2997,18 +2997,18 @@
       "prototype": "__int64 __fastcall ExecuteStringCommand(__int64 a1, __int64 a2)",
       "resolve": "raw",
       "rva": 768320,
-      "va": 140709483755840
+      "va": 140713880631616
     },
     {
-      "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 60 44 8B 15 09",
+      "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 60 44 8B 15 39",
       "module": "engine2.dll",
       "name": "Cvar_RegisterConCommand",
       "pattern": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 60 44 8B 15 ? ? ? ? 48 8B D9 65 48",
-      "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 60 44 8B 15 09",
+      "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 60 44 8B 15 39",
       "prototype": "_QWORD *__fastcall Cvar_RegisterConCommand(_QWORD *a1, __int64 a2, __int128 *a3, __int64 a4, __int64 a5, __int128 *a6)",
       "resolve": "raw",
-      "rva": 4210784,
-      "va": 140709487198304
+      "rva": 4211856,
+      "va": 140713884075152
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 54 41 56",
@@ -3018,8 +3018,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 54 41 56 41 57 48 81 EC D0 00 00",
       "prototype": "__int128 *__fastcall Cvar_RegisterConVar(_QWORD *a1, __int64 a2, __int64 a3, __int64 a4, __int128 *a5)",
       "resolve": "raw",
-      "rva": 4205984,
-      "va": 140709487193504
+      "rva": 4207056,
+      "va": 140713884070352
     },
     {
       "bytes": "40 53 48 83 EC 20 48 8B 41 08 48 8B D9 8B 50 30 48 C1 EA 0C F6 C2 01 0F",
@@ -3030,21 +3030,21 @@
       "prototype": "void __fastcall Cvar_RevertFlaggedCvars_OnSvCheatsChange(__int64 a1, __int64 a2, _BYTE *a3, char *a4)",
       "resolve": "raw",
       "rva": 628608,
-      "va": 140709483616128
+      "va": 140713880491904
     },
     {
-      "bytes": "48 8D 0D 27 B3 47 00 33 D2 FF 50 30 48 8B CF C7 87 E8 00 00 00 00 00 20",
+      "bytes": "48 8D 0D F7 AE 47 00 33 D2 FF 50 30 48 8B CF C7 87 E8 00 00 00 00 00 20",
       "module": "engine2.dll",
       "name": "DisablePvsAccessor",
       "pattern": "48 8D 0D ? ? ? ? 33 D2 FF 50",
       "pattern_synth": "48 8D 0D ? ? ? ? 33 D2 FF 50 30 48 8B CF C7",
       "prototype": "__int64 __fastcall DisablePvsAccessor(_DWORD *a1, __int64 a2, int a3, char a4)",
       "resolve": "raw",
-      "rva": 2350562,
-      "va": 140709485338082
+      "rva": 2351634,
+      "va": 140713882214930
     },
     {
-      "bytes": "48 89 5C 24 20 55 57 41 54 48 8B EC 48 83 EC 70 45 33 E4 48 C7 05 B6 ED",
+      "bytes": "48 89 5C 24 20 55 57 41 54 48 8B EC 48 83 EC 70 45 33 E4 48 C7 05 16 EE",
       "module": "engine2.dll",
       "name": "Engine_Disconnect_main",
       "pattern": "48 89 5C 24 20 55 57 41 54 48 8B EC 48 83 EC 70 45 33 E4 48 C7 05",
@@ -3052,10 +3052,10 @@
       "prototype": "__int64 *Engine_Disconnect_main()",
       "resolve": "raw",
       "rva": 1903872,
-      "va": 140709484891392
+      "va": 140713881767168
     },
     {
-      "bytes": "48 83 EC 28 E8 D7 86 3A 00 84 C0 74 0C 48 8D 05 1C DA 55 00 48 83 C4 28",
+      "bytes": "48 83 EC 28 E8 07 8B 3A 00 84 C0 74 0C 48 8D 05 1C DA 55 00 48 83 C4 28",
       "module": "engine2.dll",
       "name": "Engine_GetLevelName",
       "pattern": "48 83 EC ? E8 ? ? ? ? 84 C0 74 ? 48 8D 05 ? ? ? ? 48 83 C4 ? C3 48 8B 0D ? ? ? ? 48 85 C9 74 ? 83 B9 ? ? ? ? ? 7C ? 48 8B 89 ? ? ? ? 48 8D 05 ? ? ? ? 48 85 C9 48 0F 45 C1 48 83 C4 ? C3 48 8D 05 ? ? ? ? 48 83 C4 ? C3 ? ? ? ? ? ? ? ? ? ? ? ? 48 83 EC",
@@ -3063,7 +3063,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 475024,
-      "va": 140709483462544
+      "va": 140713880338320
     },
     {
       "bytes": "40 53 56 48 81 EC 48 07 00 00 48 8B F1 48 8B DA 48 8B 4A 48 48 83 E1 FC",
@@ -3074,7 +3074,7 @@
       "prototype": "char __fastcall Engine_HLTVClient_ExecuteStringCommand(__int64 a1, __int64 a2)",
       "resolve": "raw",
       "rva": 1169728,
-      "va": 140709484157248
+      "va": 140713881033024
     },
     {
       "bytes": "48 89 6C 24 18 48 89 7C 24 20 41 56 48 83 EC 30 48 8B EA 48 8B F9 8B 0D",
@@ -3084,11 +3084,11 @@
       "pattern_synth": "48 89 6C 24 18 48 89 7C 24 20 41 56 48 83 EC 30 48 8B EA 48",
       "prototype": "__int64 __fastcall Engine_HostStateMgr_QueueNewRequest(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 2206832,
-      "va": 140709485194352
+      "rva": 2207904,
+      "va": 140713882071200
     },
     {
-      "bytes": "48 8B 05 39 BC 93 00 48 85 C0 74 0B 83 B8 30 02 00 00 02 0F 9D C0 C3 C3",
+      "bytes": "48 8B 05 99 BC 93 00 48 85 C0 74 0B 83 B8 30 02 00 00 02 0F 9D C0 C3 C3",
       "module": "engine2.dll",
       "name": "Engine_IsConnected",
       "pattern": "48 8B 05 ? ? ? ? 48 85 C0 74 ? 83 B8 ? ? ? ? ? 0F 9D C0",
@@ -3096,7 +3096,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 474864,
-      "va": 140709483462384
+      "va": 140713880338160
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 40 44 89 81 3C",
@@ -3107,18 +3107,18 @@
       "prototype": "void __fastcall Engine_NetworkGameClient_Connect(__int64 a1, int a2, unsigned int a3, __int64 a4, unsigned int a5, char a6)",
       "resolve": "raw",
       "rva": 514960,
-      "va": 140709483502480
+      "va": 140713880378256
     },
     {
-      "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 60 44 8B 15 09",
+      "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 60 44 8B 15 39",
       "module": "engine2.dll",
       "name": "Engine_RegisterConCommand",
       "pattern": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 60 44 8B 15",
-      "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 60 44 8B 15 09",
+      "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 60 44 8B 15 39",
       "prototype": "_QWORD *__fastcall Engine_RegisterConCommand(_QWORD *a1, __int64 a2, __int128 *a3, __int64 a4, __int64 a5, __int128 *a6)",
       "resolve": "raw",
-      "rva": 4210784,
-      "va": 140709487198304
+      "rva": 4211856,
+      "va": 140713884075152
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 54 41 56",
@@ -3128,8 +3128,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 54 41 56 41 57 48 81 EC D0 00 00",
       "prototype": "__int128 *__fastcall Engine_RegisterConVar(_QWORD *a1, __int64 a2, __int64 a3, __int64 a4, __int128 *a5)",
       "resolve": "raw",
-      "rva": 4205984,
-      "va": 140709487193504
+      "rva": 4207056,
+      "va": 140713884070352
     },
     {
       "bytes": "48 89 54 24 10 53 56 57 41 56 48 83 EC 28 48 8B 7C 24 78 49 8B D9 4C 8B",
@@ -3140,7 +3140,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 708352,
-      "va": 140709483695872
+      "va": 140713880571648
     },
     {
       "bytes": "48 89 5C 24 10 48 89 74 24 18 48 89 4C 24 08 57 48 81 EC A0 00 00 00 48",
@@ -3150,19 +3150,19 @@
       "pattern_synth": "48 89 5C 24 10 48 89 74 24 18 48 89 4C 24 08 57 48 81 EC A0",
       "prototype": "bool __fastcall Host_FilterTime(__int64 a1, float *a2)",
       "resolve": "raw",
-      "rva": 2166352,
-      "va": 140709485153872
+      "rva": 2167424,
+      "va": 140713882030720
     },
     {
-      "bytes": "48 89 74 24 10 57 48 83 EC 30 33 F6 48 8B FA 48 39 35 FA E4 49 00 74 67",
+      "bytes": "48 89 74 24 10 57 48 83 EC 30 33 F6 48 8B FA 48 39 35 CA E0 49 00 74 67",
       "module": "engine2.dll",
       "name": "HostStateRequest",
       "pattern": "48 89 74 24 ? 57 48 83 EC ? 33 F6 48 8B FA 48 39 35",
       "pattern_synth": "48 89 74 24 10 57 48 83 EC 30 33 F6 48 8B FA 48",
       "prototype": "",
       "resolve": "raw",
-      "rva": 2206416,
-      "va": 140709485193936
+      "rva": 2207488,
+      "va": 140713882070784
     },
     {
       "bytes": "40 53 48 83 EC 20 48 8B D9 3B 51 48 75 0D 0F B6 81 F0 0E 00 00 48 83 C4",
@@ -3173,10 +3173,10 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 763280,
-      "va": 140709483750800
+      "va": 140713880626576
     },
     {
-      "bytes": "48 8B 05 69 BC 93 00 48 85 C0 74 15 80 B8 3F 14 2C 00 00 75 0C 83 B8 30",
+      "bytes": "48 8B 05 C9 BC 93 00 48 85 C0 74 15 80 B8 3F 14 2C 00 00 75 0C 83 B8 30",
       "module": "engine2.dll",
       "name": "IsInGame",
       "pattern": "48 8B 05 ? ? ? ? 48 85 C0 74 ? 80 B8 ? ? ? ? 00 75 ? 83 B8 ? ? ? ? ? 7C",
@@ -3184,7 +3184,7 @@
       "prototype": "bool IsInGame()",
       "resolve": "raw",
       "rva": 474816,
-      "va": 140709483462336
+      "va": 140713880338112
     },
     {
       "bytes": null,
@@ -3194,8 +3194,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 7023896,
-      "va": 140709490011416
+      "rva": 7023900,
+      "va": 140713886887196
     },
     {
       "bytes": null,
@@ -3205,8 +3205,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 10156848,
-      "va": 140709493144368
+      "rva": 10156944,
+      "va": 140713890020240
     },
     {
       "bytes": null,
@@ -3217,7 +3217,7 @@
       "prototype": "",
       "resolve": "riprel",
       "rva": 7049488,
-      "va": 140709490037008
+      "va": 140713886912784
     },
     {
       "bytes": null,
@@ -3227,8 +3227,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 10175124,
-      "va": 140709493162644
+      "rva": 10175212,
+      "va": 140713890038508
     },
     {
       "bytes": null,
@@ -3238,8 +3238,8 @@
       "pattern_synth": null,
       "prototype": "",
       "resolve": "riprel",
-      "rva": 10175120,
-      "va": 140709493162640
+      "rva": 10175208,
+      "va": 140713890038504
     },
     {
       "bytes": "48 8B C4 55 41 55 41 56 41 57 48 8D A8 F8 FE FF FF 48 81 EC E8 01 00 00",
@@ -3250,7 +3250,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 662848,
-      "va": 140709483650368
+      "va": 140713880526144
     },
     {
       "bytes": "40 55 41 56 48 83 EC 68 80 B9 00 01 00 00 00 8B EA 4C 8B F1 0F 84 BD 01",
@@ -3261,7 +3261,7 @@
       "prototype": "void __fastcall RunPrediction(__int64 a1, unsigned int a2)",
       "resolve": "raw",
       "rva": 410224,
-      "va": 140709483397744
+      "va": 140713880273520
     },
     {
       "bytes": "48 89 5C 24 20 55 48 83 EC 20 48 63 41 30 48 8B EA 33 D2 48 8B D9 85 C0",
@@ -3272,7 +3272,7 @@
       "prototype": "int __fastcall AttachToWindow(__int64 a1, HWND a2)",
       "resolve": "raw",
       "rva": 14816,
-      "va": 140711834827232
+      "va": 140716586973664
     },
     {
       "bytes": null,
@@ -3283,7 +3283,7 @@
       "prototype": "",
       "resolve": "riprel",
       "rva": 289728,
-      "va": 140711835102144
+      "va": 140716587248576
     },
     {
       "bytes": null,
@@ -3294,7 +3294,7 @@
       "prototype": "",
       "resolve": "riprel",
       "rva": 289728,
-      "va": 140711835102144
+      "va": 140716587248576
     },
     {
       "bytes": "53 48 81 EC 60 01 00 00 8B 02 48 8B DA 2D 00 04 00 00 A9 FF FD FF FF 0F",
@@ -3305,7 +3305,7 @@
       "prototype": "void __fastcall SDL_EventHandler(__int64 a1, SDL_Event* event)",
       "resolve": "raw",
       "rva": 20209,
-      "va": 140711834832625
+      "va": 140716586979057
     },
     {
       "bytes": "48 89 5C 24 18 57 48 83 EC 30 8B 02 48 8B D9 39 05 5B 79 15 00 48 8B 0D",
@@ -3316,7 +3316,7 @@
       "prototype": "__int64 __fastcall GetMode(__int64 a1, unsigned int *a2)",
       "resolve": "raw",
       "rva": 47312,
-      "va": 140709472024784
+      "va": 140714068719824
     },
     {
       "bytes": "89 54 24 10 55 53 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 58 FE FF FF",
@@ -3327,7 +3327,7 @@
       "prototype": "int __fastcall BuildPassCommandData(__int64 a1, int a2, __int64 a3)",
       "resolve": "raw",
       "rva": 98240,
-      "va": 140709472075712
+      "va": 140714068770752
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 81",
@@ -3338,7 +3338,7 @@
       "prototype": "void* __fastcall CreateMaterial(void* a1, void** a2, const char* a3, void* a4, void* a5, char a6)",
       "resolve": "raw",
       "rva": 240912,
-      "va": 140709472218384
+      "va": 140714068913424
     },
     {
       "bytes": "48 8B C4 41 56 48 81 EC B0 00 00 00 F6 81 30 02 00 00 01 4C 8B F1 0F 84",
@@ -3349,7 +3349,7 @@
       "prototype": "__int64 __fastcall DynamicShaderCompile_ReloadAndSync(__int64 a1)",
       "resolve": "raw",
       "rva": 230320,
-      "va": 140709472207792
+      "va": 140714068902832
     },
     {
       "bytes": "4C 8B DC 53 41 55 48 83 EC 78 49 89 6B 10 48 8D 05 FB 19 0F 00 49 89 43",
@@ -3360,7 +3360,7 @@
       "prototype": "__int64 __fastcall FrameUpdate(__int64 *a1)",
       "resolve": "raw",
       "rva": 239264,
-      "va": 140709472216736
+      "va": 140714068911776
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B 59 20 48 8B F2 48 63",
@@ -3371,7 +3371,7 @@
       "prototype": "__int64 __fastcall FindParameter(__int64 a1, __int64 a2)",
       "resolve": "raw",
       "rva": 71712,
-      "va": 140709472049184
+      "va": 140714068744224
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 30 48 8B 59 20 48 8B F2 48 63",
@@ -3382,7 +3382,7 @@
       "prototype": "float __fastcall PrepareSceneMaterial(__int64 a1, __int64 a2, float a3)",
       "resolve": "raw",
       "rva": 71120,
-      "va": 140709472048592
+      "va": 140714068743632
     },
     {
       "bytes": "48 89 7C 24 20 41 56 48 83 EC 20 8B 81 14 04 00 00 25 FF FF FF 7F 75 06",
@@ -3393,7 +3393,7 @@
       "prototype": "_QWORD *__fastcall UpdateParameter(__int64 a1)",
       "resolve": "raw",
       "rva": 72880,
-      "va": 140709472050352
+      "va": 140714068745392
     },
     {
       "bytes": "40 55 53 57 41 54 41 55 41 57 48 8D AC 24 98 FC FF FF 48 81 EC 68 04 00",
@@ -3403,8 +3403,8 @@
       "pattern_synth": "40 55 53 57 41 54 41 55 41 57 48 8D AC 24 98 FC",
       "prototype": "",
       "resolve": "raw",
-      "rva": 1030160,
-      "va": 140709024544784
+      "rva": 1030176,
+      "va": 140713607215136
     },
     {
       "bytes": "48 89 5C 24 10 48 89 6C 24 18 57 41 56 41 57 48 83 EC 50 4C 8B B4 24 90",
@@ -3415,7 +3415,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 823136,
-      "va": 140709024337760
+      "va": 140713607008096
     },
     {
       "bytes": "48 8B C4 48 89 58 18 88 50 10 55 56 57 41 54 41 55 41 56 41 57 48 8D A8",
@@ -3426,7 +3426,7 @@
       "prototype": "void __fastcall DispatchEvent(int *a1, unsigned __int8 a2, __int64 a3)",
       "resolve": "raw",
       "rva": 677968,
-      "va": 140708832106576
+      "va": 140712626640976
     },
     {
       "bytes": "48 89 5C 24 10 48 89 6C 24 18 56 57 41 54 41 56 41 57 48 81 EC 80 00 00",
@@ -3437,7 +3437,7 @@
       "prototype": "__int64 __fastcall RunFrame(_QWORD *a1)",
       "resolve": "raw",
       "rva": 748400,
-      "va": 140708832177008
+      "va": 140712626711408
     },
     {
       "bytes": "4C 8B DC 49 89 5B 10 49 89 6B 18 49 89 73 20 57 41 56 41 57 48 81 EC 80",
@@ -3448,7 +3448,7 @@
       "prototype": "__int64 __fastcall CreateParticleCollection(__int64 a1, const char *a2, __int64 a3, __int64 a4, char a5, int a6, int a7)",
       "resolve": "raw",
       "rva": 731984,
-      "va": 140708922534736
+      "va": 140712717200208
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 41 56 41 57 48 81 EC 40",
@@ -3459,7 +3459,7 @@
       "prototype": "__int64 *__fastcall FindParticleSystem(__int64 a1, __int64 *a2, const char *a3, char a4)",
       "resolve": "raw",
       "rva": 731456,
-      "va": 140708922534208
+      "va": 140712717199680
     },
     {
       "bytes": null,
@@ -3470,7 +3470,7 @@
       "prototype": "__int64 GetParticleManager()",
       "resolve": "riprel",
       "rva": 6281384,
-      "va": 140708928084136
+      "va": 140712722749608
     },
     {
       "bytes": "48 89 5C 24 10 48 89 6C 24 18 56 57 41 54 41 56 41 57 48 81 EC 00 01 00",
@@ -3481,7 +3481,7 @@
       "prototype": "void __fastcall SetMaterialShaderType(__int64 a1, int *a2)",
       "resolve": "raw",
       "rva": 712592,
-      "va": 140708922515344
+      "va": 140712717180816
     },
     {
       "bytes": "48 89 5C 24 10 48 89 74 24 18 48 89 7C 24 20 48 89 4C 24 08 55 41 54 41",
@@ -3492,7 +3492,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 100288,
-      "va": 140709478107072
+      "va": 140713870591936
     },
     {
       "bytes": "40 55 48 83 EC 20 48 83 BA A8 00 00 00 00 48 8B EA 0F 85 3A 01 00 00 48",
@@ -3503,7 +3503,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 867104,
-      "va": 140708931582752
+      "va": 140712726248224
     },
     {
       "bytes": "4C 89 4C 24 20 4C 89 44 24 18 48 89 4C 24 08 55 48 8D AC 24 A0 83 FF FF",
@@ -3514,7 +3514,7 @@
       "prototype": "__int64 __fastcall BuildSceneInfoGpu(__int64 *a1, __int64 a2, ...)",
       "resolve": "raw",
       "rva": 1530624,
-      "va": 140708932246272
+      "va": 140712726911744
     },
     {
       "bytes": "45 85 C9 0F 8E 1F 07 00 00 4C 8B DC 55 41 56 49 8D AB 58 FC FF FF 48 81",
@@ -3525,7 +3525,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 1396656,
-      "va": 140708932112304
+      "va": 140712726777776
     },
     {
       "bytes": "48 8B C4 48 89 48 08 55 41 54 41 56 48 8D 68 D8 48 81 EC 10 01 00 00 4C",
@@ -3536,7 +3536,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 780400,
-      "va": 140708931496048
+      "va": 140712726161520
     },
     {
       "bytes": "40 53 56 41 54 48 83 EC 50 0F B6 82 9B 00 00 00 45 33 E4 48 8B DA 48 8B",
@@ -3547,7 +3547,7 @@
       "prototype": "void __fastcall DeleteObjectForReal(__int64 a1, __int64 a2)",
       "resolve": "raw",
       "rva": 877392,
-      "va": 140708931593040
+      "va": 140712726258512
     },
     {
       "bytes": "48 8B C4 88 50 10 48 89 48 08 55 53 41 54 41 55 48 8D 68 A1 48 81 EC 98",
@@ -3558,7 +3558,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 952384,
-      "va": 140708931668032
+      "va": 140712726333504
     },
     {
       "bytes": "48 85 D2 0F 84 7D 01 00 00 48 8B C4 48 89 50 10 53 41 56 48 83 EC 58 48",
@@ -3569,7 +3569,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 881232,
-      "va": 140708931596880
+      "va": 140712726262352
     },
     {
       "bytes": "48 8B C4 48 89 50 10 48 89 48 08 55 53 56 57 41 54 41 55 41 56 41 57 48",
@@ -3580,7 +3580,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 247200,
-      "va": 140708930962848
+      "va": 140712725628320
     },
     {
       "bytes": "45 85 C9 0F 8E 1F 07 00 00 4C 8B DC 55 41 56 49 8D AB 58 FC FF FF 48 81",
@@ -3591,7 +3591,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 1396656,
-      "va": 140708932112304
+      "va": 140712726777776
     },
     {
       "bytes": "48 89 54 24 10 55 57 41 56 48 83 EC 50 48 8B 05 04 45 78 00 4D 8B F0 48",
@@ -3602,7 +3602,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 1700608,
-      "va": 140708932416256
+      "va": 140712727081728
     },
     {
       "bytes": "8B 02 89 01 F2 0F 10 42 04 F2 0F 11 41 04 8B 42 0C 89 41 0C F2 0F 10 42",
@@ -3613,7 +3613,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 836640,
-      "va": 140708931552288
+      "va": 140712726217760
     },
     {
       "bytes": "40 53 48 83 EC 20 48 8B DA 48 8B D1 48 8D 0D BD DE 01 00 E8 98 63 00 00",
@@ -3624,7 +3624,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 232928,
-      "va": 140711719570912
+      "va": 140716559338976
     },
     {
       "bytes": "48 89 54 24 10 53 56 57 41 55 41 56 41 57 48 83 EC 48 45 33 ED 49 63 C0",
@@ -3635,7 +3635,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 67536,
-      "va": 140711719405520
+      "va": 140716559173584
     },
     {
       "bytes": "88 54 24 10 55 53 57 41 54 41 55 48 8B EC 48 81 EC 80 00 00 00 65 48 8B",
@@ -3646,7 +3646,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 22768,
-      "va": 140711719360752
+      "va": 140716559128816
     },
     {
       "bytes": null,
@@ -3657,7 +3657,7 @@
       "prototype": "",
       "resolve": "riprel",
       "rva": 485136,
-      "va": 140711719823120
+      "va": 140716559591184
     },
     {
       "bytes": "48 89 5C 24 10 57 48 83 EC 30 48 8B DA 48 8B F9 48 85 C9 0F 84 9B 00 00",
@@ -3667,8 +3667,8 @@
       "pattern_synth": "48 89 5C 24 10 57 48 83 EC 30 48 8B DA 48 8B F9 48 85 C9 0F",
       "prototype": "",
       "resolve": "raw",
-      "rva": 13219600,
-      "va": 140708799821584
+      "rva": 13224112,
+      "va": 140712551499952
     },
     {
       "bytes": "40 53 48 83 EC 30 4C 89 4C 24 20 48 8B D9 45 8B C8 4C 8B C2 48 8B D1 48",
@@ -3678,8 +3678,8 @@
       "pattern_synth": "40 53 48 83 EC 30 4C 89 4C 24 20 48 8B D9 45 8B",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16103040,
-      "va": 140708802705024
+      "rva": 16107552,
+      "va": 140712554383392
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 55 48 8B EC 48 81 EC 80 00",
@@ -3689,8 +3689,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 55 48 8B EC 48 81 EC 80 00 00 00 33 C0",
       "prototype": "",
       "resolve": "raw",
-      "rva": 13625232,
-      "va": 140708800227216
+      "rva": 13629744,
+      "va": 140712551905584
     },
     {
       "bytes": "48 89 5C 24 08 57 48 83 EC 30 F3 0F 10 81 FC 03 00 00 48 8B F9 0F 29 74",
@@ -3700,8 +3700,8 @@
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 30 F3 0F 10 81 FC 03",
       "prototype": "",
       "resolve": "raw",
-      "rva": 4094176,
-      "va": 140708790696160
+      "rva": 4094208,
+      "va": 140712542370048
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83",
@@ -3711,30 +3711,30 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83 EC 20 41 0F",
       "prototype": "",
       "resolve": "raw",
-      "rva": 4096896,
-      "va": 140708790698880
+      "rva": 4096928,
+      "va": 140712542372768
     },
     {
-      "bytes": "40 53 48 83 EC 20 48 8B D9 4C 8B C2 48 8B 0D AD FE 62 01 48 8D 54 24 40",
+      "bytes": "40 53 48 83 EC 20 48 8B D9 4C 8B C2 48 8B 0D AD 10 63 01 48 8D 54 24 40",
       "module": "server.dll",
       "name": "SetModel",
       "pattern": "40 53 48 83 EC ? 48 8B D9 4C 8B C2 48 8B 0D ? ? ? ? 48 8D 54 24 ? 48 8B 01 FF 50 ? 48 8B 54 24 ? 48 8B CB E8 ? ? ? ? 48 83 C4 ? 5B C3",
       "pattern_synth": "40 53 48 83 EC 20 48 8B D9 4C 8B C2 48 8B 0D AD",
       "prototype": "",
       "resolve": "raw",
-      "rva": 11977824,
-      "va": 140708798579808
+      "rva": 11982336,
+      "va": 140712550258176
     },
     {
-      "bytes": "44 88 4C 24 20 53 57 41 54 41 56 41 57 48 83 EC 30 4C 8B 15 70 A6 3B 01",
+      "bytes": "44 88 4C 24 20 53 57 41 54 41 56 41 57 48 83 EC 30 4C 8B 15 D0 B5 3B 01",
       "module": "server.dll",
       "name": "SetPawn",
       "pattern": "44 88 4C 24 ? 53 57 41 54 41 56 41 57 48 83 EC",
       "pattern_synth": "44 88 4C 24 20 53 57 41 54 41 56 41 57 48 83 EC",
       "prototype": "",
       "resolve": "raw",
-      "rva": 11987952,
-      "va": 140708798589936
+      "rva": 11992464,
+      "va": 140712550268304
     },
     {
       "bytes": "48 89 5C 24 10 57 48 81 EC 80 00 00 00 48 8B F9 48 8B DA 48 8B 89 48 0B",
@@ -3744,8 +3744,8 @@
       "pattern_synth": "48 89 5C 24 10 57 48 81 EC 80 00 00 00 48 8B F9 48 8B DA 48 8B 89 48 0B",
       "prototype": "",
       "resolve": "raw",
-      "rva": 11829616,
-      "va": 140708798431600
+      "rva": 11834128,
+      "va": 140712550109968
     },
     {
       "bytes": "48 85 D2 0F 84 9C 00 00 00 48 89 5C 24 08 57 48 83 EC 30 48 8B DA 48 8B",
@@ -3755,8 +3755,8 @@
       "pattern_synth": "48 85 D2 0F 84 ? ? ? ? 48 89 5C 24 08 57 48 83 EC 30 48 8B DA 48 8B",
       "prototype": "",
       "resolve": "raw",
-      "rva": 11522384,
-      "va": 140708798124368
+      "rva": 11526896,
+      "va": 140712549802736
     },
     {
       "bytes": "40 53 41 55 48 83 EC 28 83 BA D0 00 00 00 00 4C 8B EA 48 8B D9 C7 44 24",
@@ -3766,8 +3766,8 @@
       "pattern_synth": "40 53 41 55 48 83 EC 28 83 BA D0 00 00 00 00 4C",
       "prototype": "",
       "resolve": "raw",
-      "rva": 21607504,
-      "va": 140708808209488
+      "rva": 21612016,
+      "va": 140712559887856
     },
     {
       "bytes": "40 57 41 56 48 83 EC 28 48 8B 01 4C 8B F2 48 8B F9 FF 90 78 08 00 00 84",
@@ -3777,8 +3777,8 @@
       "pattern_synth": "40 57 41 56 48 83 EC 28 48 8B 01 4C 8B F2 48 8B",
       "prototype": "",
       "resolve": "raw",
-      "rva": 4103808,
-      "va": 140708790705792
+      "rva": 4103840,
+      "va": 140712542379680
     },
     {
       "bytes": "48 8B C4 4C 89 48 20 48 89 48 08 55 41 54 41 56 41 57 48 8D 68 A1 48 81",
@@ -3788,8 +3788,8 @@
       "pattern_synth": "48 8B C4 4C 89 48 20 48 89 48 08 55 41 54 41 56",
       "prototype": "_BYTE *__fastcall TerminateRound(__int64 a1, __int64 a2, unsigned int a3, __int64 a4)",
       "resolve": "raw",
-      "rva": 9821792,
-      "va": 140708796423776
+      "rva": 9826304,
+      "va": 140712548102144
     },
     {
       "bytes": "40 55 53 41 55 41 57 48 8D 6C 24 C1 48 81 EC A8 00 00 00 80 79 48 00 4C",
@@ -3799,8 +3799,8 @@
       "pattern_synth": "40 55 53 41 55 41 57 48 8D 6C 24 C1 48 81 EC A8",
       "prototype": "double __fastcall Think(__int64 a1)",
       "resolve": "raw",
-      "rva": 9728560,
-      "va": 140708796330544
+      "rva": 9733072,
+      "va": 140712548008912
     },
     {
       "bytes": "48 89 5C 24 10 48 89 6C 24 18 56 57 41 54 41 56 41 57 48 83 EC 40 48 8B",
@@ -3810,8 +3810,8 @@
       "pattern_synth": "48 89 5C 24 10 48 89 6C 24 18 56 57 41 54 41 56 41 57 48 83 EC 40 48 8B 01 48 8B FA",
       "prototype": "bool __fastcall WeaponServices_CanUse(__int64 thisptr, int weaponHandle)",
       "resolve": "raw",
-      "rva": 11513296,
-      "va": 140708798115280
+      "rva": 11517808,
+      "va": 140712549793648
     },
     {
       "bytes": "48 89 5C 24 10 57 48 83 EC 20 48 83 79 38 00 48 8B FA 48 8B D9 75 05 E8",
@@ -3821,19 +3821,19 @@
       "pattern_synth": "48 89 5C 24 10 57 48 83 EC 20 48 83 79 38 00 48",
       "prototype": "",
       "resolve": "raw",
-      "rva": 11528720,
-      "va": 140708798130704
+      "rva": 11533232,
+      "va": 140712549809072
     },
     {
-      "bytes": "40 53 57 48 81 EC 88 00 00 00 48 8B D9 8B FA 8B CA E8 8A 9C 9F FF 48 85",
+      "bytes": "40 53 57 48 81 EC 88 00 00 00 48 8B D9 8B FA 8B CA E8 0A 8B 9F FF 48 85",
       "module": "server.dll",
       "name": "SwitchTeam",
       "pattern": "40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA",
       "pattern_synth": "40 53 57 48 81 EC 88 00 00 00 48 8B D9 8B FA 8B",
       "prototype": "",
       "resolve": "raw",
-      "rva": 11096048,
-      "va": 140708797698032
+      "rva": 11100560,
+      "va": 140712549376400
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 20 44 89 44 24 18 55 41 54 41",
@@ -3843,41 +3843,41 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 20 44 89 44 24 18",
       "prototype": "__int64 __fastcall GiveNamedItem(__int64 a1, const char *a2, int a3, __int64 a4, char a5, unsigned __int64 *a6)",
       "resolve": "raw",
-      "rva": 11210192,
-      "va": 140708797812176
+      "rva": 11214704,
+      "va": 140712549490544
     },
     {
-      "bytes": "40 57 48 81 EC 50 01 00 00 80 3D 75 41 EC 01 00 48 8B F9 0F 85 66 02 00",
+      "bytes": "40 57 48 81 EC 50 01 00 00 80 3D 25 62 EC 01 00 48 8B F9 0F 85 66 02 00",
       "module": "server.dll",
       "name": "PostThink",
       "pattern": "40 57 48 81 EC ? ? ? ? 80 3D ? ? ? ? 00 48 8B F9 0F 85 ? ? ? ? E8 ? ? ? ? 80 3D ? ? ? ? 00",
-      "pattern_synth": "40 57 48 81 EC 50 01 00 00 80 3D 75 41 EC 01 00",
+      "pattern_synth": "40 57 48 81 EC 50 01 00 00 80 3D 25 62 EC 01 00",
       "prototype": "void __fastcall PostThink(__int64 a1)",
       "resolve": "raw",
-      "rva": 2315232,
-      "va": 140708788917216
+      "rva": 2315264,
+      "va": 140712540591104
     },
     {
-      "bytes": "40 53 57 48 81 EC 88 00 00 00 48 8B D9 8B FA 8B CA E8 8A 9C 9F FF 48 85",
+      "bytes": "40 53 57 48 81 EC 88 00 00 00 48 8B D9 8B FA 8B CA E8 0A 8B 9F FF 48 85",
       "module": "server.dll",
       "name": "SwitchTeam",
       "pattern": "40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA 8B CA E8 ? ? ? ? 48 85 C0 0F 84 ? ? ? ?",
       "pattern_synth": "40 53 57 48 81 EC 88 00 00 00 48 8B D9 8B FA 8B",
       "prototype": "__int64 __fastcall SwitchTeam(__int64 a1, unsigned int a2)",
       "resolve": "raw",
-      "rva": 11096048,
-      "va": 140708797698032
+      "rva": 11100560,
+      "va": 140712549376400
     },
     {
-      "bytes": "48 89 5C 24 10 57 48 83 EC 20 48 8B D9 4C 8B C2 48 8B 0D 09 72 F7 00 48",
+      "bytes": "48 89 5C 24 10 57 48 83 EC 20 48 8B D9 4C 8B C2 48 8B 0D B9 81 F7 00 48",
       "module": "server.dll",
       "name": "SetEntityName",
       "pattern": "48 89 5C 24 10 57 48 83 EC 20 48 8B D9 4C 8B C2",
       "pattern_synth": "48 89 5C 24 10 57 48 83 EC 20 48 8B D9 4C 8B C2",
       "prototype": "",
       "resolve": "raw",
-      "rva": 20565584,
-      "va": 140708807167568
+      "rva": 20570096,
+      "va": 140712558845936
     },
     {
       "bytes": "48 83 EC 68 45 33 C9 C6 44 24 20 00 48 8D 4C 24 30 E8 5A 5D 77 00 48 8D",
@@ -3887,8 +3887,8 @@
       "pattern_synth": "48 83 EC 68 45 33 C9 C6 44 24 20 00 48 8D 4C 24",
       "prototype": "",
       "resolve": "raw",
-      "rva": 12533136,
-      "va": 140708799135120
+      "rva": 12537648,
+      "va": 140712550813488
     },
     {
       "bytes": "48 81 EC 88 00 00 00 4D 85 C0 75 0A 33 C0 48 81 C4 88 00 00 00 C3 48 8B",
@@ -3898,19 +3898,19 @@
       "pattern_synth": "48 81 EC 88 00 00 00 4D 85 C0 75 0A 33 C0 48 81",
       "prototype": "",
       "resolve": "raw",
-      "rva": 12534464,
-      "va": 140708799136448
+      "rva": 12538976,
+      "va": 140712550814816
     },
     {
-      "bytes": "40 53 48 83 EC 20 48 8B 01 48 8B D9 FF 50 10 48 8B 03 48 8D 15 CF AE D3",
+      "bytes": "40 53 48 83 EC 20 48 8B 01 48 8B D9 FF 50 10 48 8B 03 48 8D 15 7F AF D3",
       "module": "server.dll",
       "name": "Init",
       "pattern": "40 53 48 83 EC ? 48 8B 01 48 8B D9 FF 50 ? 48 8B 03",
       "pattern_synth": "40 53 48 83 EC 20 48 8B 01 48 8B D9 FF 50 10 48",
       "prototype": "",
       "resolve": "raw",
-      "rva": 12568160,
-      "va": 140708799170144
+      "rva": 12572672,
+      "va": 140712550848512
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 55 57 41 54 41 56 41 57 48 8B EC 48 83 EC",
@@ -3920,8 +3920,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 55 57 41 54 41 56 41 57 48 8B EC 48 83 EC 50 4C 8B F1",
       "prototype": "__int64 __fastcall InputTriggerForAllPlayers(__int64 a1)",
       "resolve": "raw",
-      "rva": 14843376,
-      "va": 140708801445360
+      "rva": 14847888,
+      "va": 140712553123728
     },
     {
       "bytes": "48 85 C9 0F 84 80 01 00 00 48 89 5C 24 20 55 56 57 48 8D 6C 24 B9 48 81",
@@ -3931,19 +3931,19 @@
       "pattern_synth": "48 85 C9 0F 84 ? ? ? ? 48 89 5C 24 20 55 56",
       "prototype": "",
       "resolve": "raw",
-      "rva": 9964560,
-      "va": 140708796566544
+      "rva": 9969072,
+      "va": 140712548244912
     },
     {
-      "bytes": "48 83 EC 48 C6 44 24 30 00 4C 8B C1 48 8B 0D AD D0 72 01 45 33 C9 C7 44",
+      "bytes": "48 83 EC 48 C6 44 24 30 00 4C 8B C1 48 8B 0D 5D E0 72 01 45 33 C9 C7 44",
       "module": "server.dll",
       "name": "CreateEntityByName",
       "pattern": "48 83 EC 48 C6 44 24 30 00",
-      "pattern_synth": "48 83 EC 48 C6 44 24 30 00 4C 8B C1 48 8B 0D AD",
+      "pattern_synth": "48 83 EC 48 C6 44 24 30 00 4C 8B C1 48 8B 0D 5D",
       "prototype": "",
       "resolve": "raw",
-      "rva": 12480432,
-      "va": 140708799082416
+      "rva": 12484944,
+      "va": 140712550760784
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83",
@@ -3953,8 +3953,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83 EC 20 45 33 F6 48 C7 41 08 01 00 00 00 4C 89 31 48 8B F9 4C 89 71 48 49",
       "prototype": "",
       "resolve": "raw",
-      "rva": 3281072,
-      "va": 140708789883056
+      "rva": 3281104,
+      "va": 140712541556944
     },
     {
       "bytes": "48 89 5C 24 08 57 48 83 EC 20 48 8B 02 48 8B F9 48 8B CA 48 8B DA FF 90",
@@ -3964,8 +3964,8 @@
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 48 8B 02 48 8B F9 48 8B CA 48 8B DA FF 90 58 05 00 00 84 C0 74 10",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16511136,
-      "va": 140708803113120
+      "rva": 16515648,
+      "va": 140712554791488
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 4C 89 74 24 20 55 48 8D 6C",
@@ -3975,8 +3975,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 4C 89 74 24 20 55 48 8D 6C 24 D1 48 81",
       "prototype": "",
       "resolve": "raw",
-      "rva": 12872816,
-      "va": 140708799474800
+      "rva": 12877328,
+      "va": 140712551153168
     },
     {
       "bytes": "4C 89 44 24 18 F3 0F 11 4C 24 10 55 53 56 57 41 54 41 55 41 56 41 57 48",
@@ -3986,8 +3986,8 @@
       "pattern_synth": "4C 89 44 24 18 F3 0F 11 4C 24 10 55 53 56 57 41",
       "prototype": "",
       "resolve": "raw",
-      "rva": 11255040,
-      "va": 140708797857024
+      "rva": 11259552,
+      "va": 140712549535392
     },
     {
       "bytes": "48 89 5C 24 08 57 48 83 EC 20 33 FF 4C 8B CA 8B D9 8B C7 48 85 D2 74 22",
@@ -3997,8 +3997,8 @@
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 33 FF 4C 8B CA 8B",
       "prototype": "",
       "resolve": "raw",
-      "rva": 5526272,
-      "va": 140708792128256
+      "rva": 5526304,
+      "va": 140712543802144
     },
     {
       "bytes": "40 56 48 83 EC 40 48 89 5C 24 50 48 8D B1 20 01 00 00 48 89 6C 24 58 48",
@@ -4008,8 +4008,8 @@
       "pattern_synth": "40 56 48 83 EC 40 48 89 5C 24 50 48 8D B1 20 01",
       "prototype": "",
       "resolve": "raw",
-      "rva": 5817520,
-      "va": 140708792419504
+      "rva": 5817552,
+      "va": 140712544093392
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 20 44 89 44 24 18 55 41 54 41",
@@ -4019,8 +4019,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 20 44 89 44 24 18",
       "prototype": "",
       "resolve": "raw",
-      "rva": 11210192,
-      "va": 140708797812176
+      "rva": 11214704,
+      "va": 140712549490544
     },
     {
       "bytes": "44 89 4C 24 20 44 88 44 24 18 55 53 56 57 41 54 41 55 48 8D AC 24 78 FE",
@@ -4030,41 +4030,41 @@
       "pattern_synth": "44 89 4C 24 20 44 88 44 24 18 55 53 56 57 41 54",
       "prototype": "",
       "resolve": "raw",
-      "rva": 13554352,
-      "va": 140708800156336
+      "rva": 13558864,
+      "va": 140712551834704
     },
     {
-      "bytes": "48 8B 1D 1E 4B A9 01 48 85 DB 0F 84 A4 00 00 00 BD FF FF 00 00 0F 1F 84",
+      "bytes": "48 8B 1D CE 6B A9 01 48 85 DB 0F 84 A4 00 00 00 BD FF FF 00 00 0F 1F 84",
       "module": "server.dll",
       "name": "InitAllSystems_pFirst",
       "pattern": "48 8B 1D ? ? ? ? 48 85 DB 0F 84 ? ? ? ? BD",
       "pattern_synth": "48 8B 1D ? ? ? ? 48 85 DB 0F 84 ? ? ? ? BD FF FF 00",
       "prototype": "",
       "resolve": "raw",
-      "rva": 5509267,
-      "va": 140708792111251
+      "rva": 5509299,
+      "va": 140712543785139
     },
     {
-      "bytes": "8B 05 FC CB 85 01 83 E8 01 48 63 F8 0F 88 AD 00 00 00 48 89 5C 24 48 48",
+      "bytes": "8B 05 EC EB 85 01 83 E8 01 48 63 F8 0F 88 AD 00 00 00 48 89 5C 24 48 48",
       "module": "server.dll",
       "name": "LoopDestroyAllSystems_s_GameSystems",
       "pattern": "8B 05 ? ? ? ? 83 E8 ? 48 63 F8 0F 88",
       "pattern_synth": "8B 05 ? ? ? ? 83 E8 ? ? ? ? 0F 88 AD 00",
       "prototype": "",
       "resolve": "raw",
-      "rva": 5529446,
-      "va": 140708792131430
+      "rva": 5529478,
+      "va": 140712543805318
     },
     {
-      "bytes": "48 39 1D 10 F5 A8 01 74 4D 39 05 20 F4 A8 01 7E 45 48 98 48 89 74 24 50",
+      "bytes": "48 39 1D A0 15 A9 01 74 4D 39 05 D8 14 A9 01 7E 45 48 98 48 89 74 24 50",
       "module": "server.dll",
       "name": "LoopPostInitAllSystems_pEventDispatcher",
       "pattern": "48 39 1D ? ? ? ? 74 ? 39 05",
-      "pattern_synth": "48 39 1D 10 F5 A8 01 74 4D 39 05 20 F4 A8 01 7E",
+      "pattern_synth": "48 39 1D A0 15 A9 01 74 4D 39 05 D8 14 A9 01 7E",
       "prototype": "",
       "resolve": "raw",
-      "rva": 5531273,
-      "va": 140708792133257
+      "rva": 5531305,
+      "va": 140712543807145
     },
     {
       "bytes": "40 56 48 83 EC 60 48 63 42 58 48 8B F2 85 C0 74 0F 0F 88 04 01 00 00 83",
@@ -4074,8 +4074,8 @@
       "pattern_synth": "40 56 48 83 EC 60 48 63 42 58 48 8B F2 85 C0 74",
       "prototype": "void __fastcall LegacyGameEventListener(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 12625840,
-      "va": 140708799227824
+      "rva": 12630352,
+      "va": 140712550906192
     },
     {
       "bytes": "4C 8B C2 48 8B D1 48 8B 09 48 85 C9 74 35 48 8B 41 10 F7 40 30 00 04 00",
@@ -4085,8 +4085,8 @@
       "pattern_synth": "4C 8B C2 48 8B D1 48 8B 09 48 85 C9 74 35 48 8B",
       "prototype": "",
       "resolve": "raw",
-      "rva": 20560224,
-      "va": 140708807162208
+      "rva": 20564736,
+      "va": 140712558840576
     },
     {
       "bytes": "48 8B C4 44 88 48 20 44 89 40 18 48 89 50 10 53 56 48 81 EC E8 00 00 00",
@@ -4096,8 +4096,8 @@
       "pattern_synth": "48 8B C4 44 88 48 20 44 89 40 18 48 89 50 10 53",
       "prototype": "",
       "resolve": "raw",
-      "rva": 11930688,
-      "va": 140708798532672
+      "rva": 11935200,
+      "va": 140712550211040
     },
     {
       "bytes": "48 89 5C 24 18 55 56 57 41 55 41 57 48 83 EC 20 44 8B 89 EC 03 00 00 33",
@@ -4107,8 +4107,8 @@
       "pattern_synth": "48 89 5C 24 18 55 56 57 41 55 41 57 48 83 EC 20 44 8B 89 EC",
       "prototype": "",
       "resolve": "raw",
-      "rva": 15235232,
-      "va": 140708801837216
+      "rva": 15239744,
+      "va": 140712553515584
     },
     {
       "bytes": "48 89 5C 24 08 48 89 7C 24 10 55 48 8D 6C 24 A0 48 81 EC 60 01 00 00 48",
@@ -4118,8 +4118,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 7C 24 10 55 48 8D 6C 24 A0 48 81 EC 60 01 00 00 48 8B 02 48 8B",
       "prototype": "__int64 __fastcall TriggerPush_Touch(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 9159920,
-      "va": 140708795761904
+      "rva": 9164512,
+      "va": 140712547440352
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 60 8B E9 49 8B",
@@ -4129,30 +4129,30 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 60 8B E9 49 8B",
       "prototype": "",
       "resolve": "raw",
-      "rva": 16628752,
-      "va": 140708803230736
+      "rva": 16633264,
+      "va": 140712554909104
     },
     {
-      "bytes": "48 83 EC 48 C6 44 24 30 00 4C 8B C1 48 8B 0D AD D0 72 01 45 33 C9 C7 44",
+      "bytes": "48 83 EC 48 C6 44 24 30 00 4C 8B C1 48 8B 0D 5D E0 72 01 45 33 C9 C7 44",
       "module": "server.dll",
       "name": "UTIL_CreateEntityByName",
       "pattern": "48 83 EC ? C6 44 24 ? ? 4C 8B C1",
-      "pattern_synth": "48 83 EC 48 C6 44 24 30 00 4C 8B C1 48 8B 0D AD",
+      "pattern_synth": "48 83 EC 48 C6 44 24 30 00 4C 8B C1 48 8B 0D 5D",
       "prototype": "",
       "resolve": "raw",
-      "rva": 12480432,
-      "va": 140708799082416
+      "rva": 12484944,
+      "va": 140712550760784
     },
     {
-      "bytes": "48 85 C9 74 0F 48 8B D1 48 8B 0D B1 BB 6E 01 E9 DC 14 75 00 C3 CC CC CC",
+      "bytes": "48 85 C9 74 0F 48 8B D1 48 8B 0D 61 CB 6E 01 E9 DC 14 75 00 C3 CC CC CC",
       "module": "server.dll",
       "name": "UTIL_Remove",
       "pattern": "48 85 C9 74 ? 48 8B D1 48 8B 0D ? ? ? ?",
       "pattern_synth": "48 85 C9 74 0F 48 8B D1 48 8B 0D ? ? ? ? E9",
       "prototype": "",
       "resolve": "raw",
-      "rva": 12747952,
-      "va": 140708799349936
+      "rva": 12752464,
+      "va": 140712551028304
     },
     {
       "bytes": "40 53 55 56 48 83 EC 20 83 B9 EC 24 00 00 00 49 8B D8 48 8B F2 48 8B E9",
@@ -4162,8 +4162,8 @@
       "pattern_synth": "40 53 55 56 48 83 EC 20 83 B9 EC 24 00 00 00 49",
       "prototype": "",
       "resolve": "raw",
-      "rva": 1843152,
-      "va": 140708999864272
+      "rva": 1844752,
+      "va": 140712794531344
     },
     {
       "bytes": "48 8B C4 48 89 58 08 57 48 81 EC A0 00 00 00 33 FF 48 8B D9 39 79 2C 0F",
@@ -4173,8 +4173,8 @@
       "pattern_synth": "48 8B C4 48 89 58 08 57 48 81 EC A0 00 00 00 33",
       "prototype": "_UNKNOWN **__fastcall PlayVSound(__int64 a1, __int64 a2, int a3, int a4)",
       "resolve": "raw",
-      "rva": 3387792,
-      "va": 140709001408912
+      "rva": 3389392,
+      "va": 140712796075984
     },
     {
       "bytes": null,
@@ -4185,7 +4185,7 @@
       "prototype": "",
       "resolve": "riprel",
       "rva": 6638808,
-      "va": 140709004659928
+      "va": 140712799325400
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 18 48 89 7C 24 20 55 48 8D 6C 24 90 48 81 EC",
@@ -4195,8 +4195,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 18 48 89 7C 24 20 55 48 8D 6C 24",
       "prototype": "",
       "resolve": "raw",
-      "rva": 2002880,
-      "va": 140709000024000
+      "rva": 2004480,
+      "va": 140712794691072
     },
     {
       "bytes": "4C 8B 0D 29 B5 19 00 4C 8B D2 4C 8B D9 4D 85 C9 74 2E 49 8B 41 08 4D 8B",
@@ -4207,7 +4207,7 @@
       "prototype": "void *__fastcall CreateInterface(const char *pName, int *pReturnCode)",
       "resolve": "raw",
       "rva": 2157408,
-      "va": 140711304424288
+      "va": 140713892572000
     },
     {
       "bytes": "48 89 5C 24 10 48 89 6C 24 18 48 89 7C 24 20 41 54 41 56 41 57 48 83 EC",
@@ -4218,7 +4218,7 @@
       "prototype": "",
       "resolve": "rel32",
       "rva": 1198768,
-      "va": 140711303465648
+      "va": 140713891613360
     },
     {
       "bytes": "48 89 5C 24 08 57 48 83 EC 70 4C 8B D1 48 C7 C0 FF FF FF FF 48 FF C0 41",
@@ -4229,7 +4229,7 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 1198560,
-      "va": 140711303465440
+      "va": 140713891613152
     },
     {
       "bytes": null,
@@ -4240,7 +4240,7 @@
       "prototype": "",
       "resolve": "riprel",
       "rva": 3851888,
-      "va": 140711306118768
+      "va": 140713894266480
     },
     {
       "bytes": null,
@@ -4251,7 +4251,7 @@
       "prototype": "",
       "resolve": "riprel",
       "rva": 3839336,
-      "va": 140711306106216
+      "va": 140713894253928
     },
     {
       "bytes": "48 83 EC 28 48 83 3D 4C 22 29 00 00 75 05 E8 5D E2 FF FF 48 8D 4C 24 30",
@@ -4262,7 +4262,7 @@
       "prototype": "double __fastcall Plat_FloatTime()",
       "resolve": "raw",
       "rva": 1319760,
-      "va": 140711303586640
+      "va": 140713891734352
     },
     {
       "bytes": "48 83 EC 28 48 8D 4C 24 30 E8 5E 39 18 00 48 8B 44 24 30 48 83 C4 28 C3",
@@ -4273,7 +4273,7 @@
       "prototype": "unsigned __int64 __fastcall Plat_GetTime()",
       "resolve": "raw",
       "rva": 1319312,
-      "va": 140711303586192
+      "va": 140713891733904
     },
     {
       "bytes": "40 53 48 83 EC 20 48 8B 1D CB 21 29 00 48 85 DB 75 0C E8 D9 E1 FF FF 48",
@@ -4284,7 +4284,7 @@
       "prototype": "unsigned __int64 __fastcall Plat_MSTime()",
       "resolve": "raw",
       "rva": 1319888,
-      "va": 140711303586768
+      "va": 140713891734480
     },
     {
       "bytes": "48 89 5C 24 08 57 48 83 EC 20 8B 41 04 8D 7A 08 48 8B D9 0F BA E0 1E 73",
@@ -4295,10 +4295,10 @@
       "prototype": "",
       "resolve": "raw",
       "rva": 343392,
-      "va": 140711302610272
+      "va": 140713890757984
     },
     {
-      "bytes": "48 83 EC 28 E8 D7 86 3A 00 84 C0 74 0C 48 8D 05 1C DA 55 00 48 83 C4 28",
+      "bytes": "48 83 EC 28 E8 07 8B 3A 00 84 C0 74 0C 48 8D 05 1C DA 55 00 48 83 C4 28",
       "module": "engine2.dll",
       "name": "GetLevelName",
       "pattern": "48 83 EC 28 E8 ? ? ? ? 84 C0 74 0C 48 8D ? ? ? ? ? 48 83 C4 28 C3 48 8B ? ? ? ? ? 48 85 C9 74 23 83 B9 30 02 00 00 02 7C 1A 48 8B 89 10 02 00 00 48 8D ? ? ? ? ? 48 85 C9 48 0F 45 C1 48 83 C4 28 C3 48 8D ? ? ? ? ? 48 83 C4 28 C3",
@@ -4306,10 +4306,10 @@
       "prototype": "const char *GetLevelName()",
       "resolve": "raw",
       "rva": 475024,
-      "va": 140709483462544
+      "va": 140713880338320
     },
     {
-      "bytes": "48 83 EC 28 E8 77 86 3A 00 84 C0 74 0C 48 8D 05 FC D8 55 00 48 83 C4 28",
+      "bytes": "48 83 EC 28 E8 A7 8A 3A 00 84 C0 74 0C 48 8D 05 FC D8 55 00 48 83 C4 28",
       "module": "engine2.dll",
       "name": "GetLevelNameShort",
       "pattern": "48 83 EC 28 E8 ? ? ? ? 84 C0 74 0C 48 8D ? ? ? ? ? 48 83 C4 28 C3 48 8B ? ? ? ? ? 48 85 C9 74 23 83 B9 30 02 00 00 02 7C 1A 48 8B 89 18 02 00 00 48 8D ? ? ? ? ? 48 85 C9 48 0F 45 C1 48 83 C4 28 C3 48 8D ? ? ? ? ? 48 83 C4 28 C3",
@@ -4317,40 +4317,40 @@
       "prototype": "const char *GetLevelNameShort()",
       "resolve": "raw",
       "rva": 475120,
-      "va": 140709483462640
+      "va": 140713880338416
     },
     {
-      "bytes": "48 83 EC 28 83 F9 FF 75 17 48 8B 0D D0 97 BE 01 48 8D 54 24 30 48 8B 01",
+      "bytes": "48 83 EC 28 83 F9 FF 75 17 48 8B 0D D0 C3 BE 01 48 8D 54 24 30 48 8B 01",
       "module": "client.dll",
       "name": "GetLocalPlayerController",
       "pattern": "E8 ? ? ? ? 48 8B E8 48 85 C0 74 ? 33 DB 39 1D",
-      "pattern_synth": "48 83 EC 28 83 F9 FF 75 17 48 8B 0D ? ? ? ? 48 8D 54 24 30 48 8B 01 FF 90 10 03 00 00 8B 08 48 63 C1 48 8D 0D BE 53",
+      "pattern_synth": "48 83 EC 28 83 F9 FF 75 17 48 8B 0D ? ? ? ? 48 8D 54 24 30 48 8B 01 FF 90 10 03 00 00 8B 08 48 63 C1 48 8D 0D DE 85",
       "prototype": "__int64 __fastcall GetLocalPlayerController(int a1)",
       "resolve": "rel32",
-      "rva": 9854176,
-      "va": 140708752874720
+      "rva": 9856880,
+      "va": 140712460576624
     },
     {
-      "bytes": "48 8D 05 29 C9 C8 01 C3 CC CC CC CC CC CC CC CC 0F B6 81 6B 02 00 00 C3",
+      "bytes": "48 8D 05 89 F5 C8 01 C3 CC CC CC CC CC CC CC CC 0F B6 81 6B 02 00 00 C3",
       "module": "client.dll",
       "name": "Get",
       "pattern": "E8 ? ? ? ? 48 8B D8 E8 ? ? ? ? 8B 70",
       "pattern_synth": "48 8D 05 ? ? ? ? C3 CC CC CC CC CC CC CC CC 0F B6 81 6B",
       "prototype": "__int64 *Get()",
       "resolve": "rel32",
-      "rva": 8627728,
-      "va": 140708751648272
+      "rva": 8630432,
+      "va": 140712459350176
     },
     {
-      "bytes": "48 83 EC 28 B9 48 00 00 00 E8 22 00 B5 FF 48 85 C0 74 3E 48 8D 0D E6 04",
+      "bytes": "48 83 EC 28 B9 48 00 00 00 E8 62 F4 B4 FF 48 85 C0 74 3E 48 8D 0D 2E 0D",
       "module": "client.dll",
       "name": "CreateSharedObjectSubclassEconItem",
       "pattern": "48 83 EC ? B9 ? ? ? ? E8 ? ? ? ? 48 85 C0 74 ? 48 8D 0D ? ? ? ? C7 40",
       "pattern_synth": "48 83 EC 28 B9 48 00 00 00 E8 ? ? ? ? 48 85",
       "prototype": "__int64 CreateSharedObjectSubclassEconItem()",
       "resolve": "raw",
-      "rva": 17659904,
-      "va": 140708760680448
+      "rva": 17665632,
+      "va": 140712468385376
     },
     {
       "bytes": "85 D2 78 17 3B 91 50 01 00 00 7D 0F 48 8B 81 58 01 00 00 48 63 D2 48 8B",
@@ -4360,8 +4360,8 @@
       "pattern_synth": "85 D2 78 17 3B 91 50 01 00 00 7D 0F 48 8B 81 58",
       "prototype": "__int64 __fastcall GetAttributeDefinitionInterface(__int64 a1, int a2)",
       "resolve": "rel32",
-      "rva": 17996784,
-      "va": 140708761017328
+      "rva": 18002688,
+      "va": 140712468722432
     },
     {
       "bytes": "8B 41 14 0F BA E0 1E 73 05 48 8D 41 18 C3 A9 FF FF FF 3F 76 05 48 8B 41",
@@ -4371,8 +4371,8 @@
       "pattern_synth": "8B 41 14 0F BA E0 1E 73 05 48 8D 41 18 C3 A9 FF",
       "prototype": "char *__fastcall GetName(__int64 a1)",
       "resolve": "raw",
-      "rva": 10364752,
-      "va": 140708753385296
+      "rva": 10367456,
+      "va": 140712461087200
     },
     {
       "bytes": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 30 48 8B 01 41",
@@ -4382,8 +4382,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 30 48 8B 01 41 8B F0 48 8B",
       "prototype": "__int64 __fastcall GetInt64(__int64 a1, _BYTE *a2, unsigned int a3)",
       "resolve": "raw",
-      "rva": 11429664,
-      "va": 140708754450208
+      "rva": 11432384,
+      "va": 140712462152128
     },
     {
       "bytes": "48 83 EC 38 8B 02 4C 8D 44 24 20 89 44 24 20 8B 42 04 89 44 24 24 48 8B",
@@ -4393,8 +4393,8 @@
       "pattern_synth": "48 83 EC 38 8B 02 4C 8D 44 24 20 89 44 24 20 8B",
       "prototype": "__int64 __fastcall GetPlayerController(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 10365392,
-      "va": 140708753385936
+      "rva": 10368096,
+      "va": 140712461087840
     },
     {
       "bytes": "48 83 EC 38 8B 02 48 83 C1 58 89 44 24 20 8B 42 04 89 44 24 24 48 8B 42",
@@ -4404,8 +4404,8 @@
       "pattern_synth": "48 83 EC 38 8B 02 48 83 C1 58 89 44 24 20 8B 42 04 89 44 24 24 48 8B 42 08 48 8D 54 24 20 48 89 44 24 28 E8 ? ? ? ? 48 83 C4 38 C3 CC CC CC",
       "prototype": "__int64 __fastcall GetString(__int64 a1, __int64 a2, __int64 a3)",
       "resolve": "raw",
-      "rva": 10370208,
-      "va": 140708753390752
+      "rva": 10372912,
+      "va": 140712461092656
     },
     {
       "bytes": "48 83 EC 38 8B 02 48 83 C1 58 89 44 24 20 41 B1 1A 8B 42 04 89 44 24 24",
@@ -4415,8 +4415,8 @@
       "pattern_synth": "48 83 EC 38 8B 02 48 83 C1 58 89 44 24 20 41 B1 1A 8B 42 04",
       "prototype": "__int64 __fastcall SetString(__int64 a1, __int64 a2, __int64 a3, __int64 a4)",
       "resolve": "raw",
-      "rva": 10543264,
-      "va": 140708753563808
+      "rva": 10545968,
+      "va": 140712461265712
     },
     {
       "bytes": "48 89 5C 24 10 48 89 74 24 18 48 89 7C 24 20 55 41 56 41 57 48 8D AC 24",
@@ -4426,19 +4426,19 @@
       "pattern_synth": "48 89 5C 24 10 48 89 74 24 18 48 89 7C 24 20 55 41 56 41 57 48 8D AC 24 20 80 FF FF",
       "prototype": "char __fastcall C_BaseEntity_ComputeHitboxSurroundingBox(__int64 a1, unsigned __int64 *a2, float *a3)",
       "resolve": "raw",
-      "rva": 9637840,
-      "va": 140708752658384
+      "rva": 9640544,
+      "va": 140712460360288
     },
     {
-      "bytes": "40 56 48 83 EC 20 48 89 5C 24 30 48 8B F1 48 8B 1D 33 72 45 01 48 85 DB",
+      "bytes": "40 56 48 83 EC 20 48 89 5C 24 30 48 8B F1 48 8B 1D 33 91 45 01 48 85 DB",
       "module": "client.dll",
       "name": "C_EconItemView_GetStaticData",
       "pattern": "40 56 48 83 EC ? 48 89 5C 24 ? 48 8B F1 48 8B 1D ? ? ? ? 48 85 DB 75 ? B9 ? ? ? ? 48 89 7C 24 ? E8 ? ? ? ? 33 FF 48 8B D8 48 85 C0 74 ? 48 8D 05 ? ? ? ? 48 89 7B ? B9 ? ? ? ? 48 89 03 E8 ? ? ? ? 48 85 C0 74 ? 48 8B C8 E8 ? ? ? ? 48 8B F8 48 8D 05 ? ? ? ? 48 89 7B ? 48 89 03 EB ? 48 8B DF 48 8B 7C 24 ? 48 89 1D ? ? ? ? 48 8B 4B ? 48 8B 5C 24 ? 48 85 C9 75",
-      "pattern_synth": "40 56 48 83 EC 20 48 89 5C 24 30 48 8B F1 48 8B 1D 33 72 45",
+      "pattern_synth": "40 56 48 83 EC 20 48 89 5C 24 30 48 8B F1 48 8B 1D 33 91 45",
       "prototype": "__int64 __fastcall C_EconItemView_GetStaticData(__int64 a1)",
       "resolve": "raw",
-      "rva": 18396752,
-      "va": 140708761417296
+      "rva": 18402656,
+      "va": 140712469122400
     },
     {
       "bytes": "48 89 4C 24 08 55 53 56 57 41 54 41 55 41 56 41 57 B8 98 42 00 00 E8 55",
@@ -4448,8 +4448,8 @@
       "pattern_synth": "48 89 4C 24 08 55 53 56 57 41 54 41 55 41 56 41 57 B8 98 42",
       "prototype": "void __fastcall CalcWorldSpaceBones(__int64 a1, unsigned int a2)",
       "resolve": "raw",
-      "rva": 11097584,
-      "va": 140708754118128
+      "rva": 11100304,
+      "va": 140712461820048
     },
     {
       "bytes": "40 53 48 83 EC 20 48 8B 89 30 03 00 00 48 8B DA 48 8B 01 FF 50 68 48 8B",
@@ -4459,8 +4459,8 @@
       "pattern_synth": "40 53 48 83 EC 20 48 8B 89 30 03 00 00 48 8B DA 48 8B 01 FF 50 68 48 8B",
       "prototype": "__int64 __fastcall C_BaseEntity_GetBoneIdByName(__int64 a1, __int64 a2)",
       "resolve": "rel32",
-      "rva": 9756240,
-      "va": 140708752776784
+      "rva": 9758944,
+      "va": 140712460478688
     },
     {
       "bytes": "48 89 5C 24 10 55 56 57 48 81 EC B0 00 00 00 44 0F 29 84 24 80 00 00 00",
@@ -4470,30 +4470,30 @@
       "pattern_synth": "48 89 5C 24 10 55 56 57 48 81 EC B0 00 00 00 44",
       "prototype": "double __fastcall C_CSWeaponBaseGun_GetInaccuracy(float *a1, float *a2, float *a3)",
       "resolve": "raw",
-      "rva": 8418464,
-      "va": 140708751439008
+      "rva": 8421248,
+      "va": 140712459140992
     },
     {
-      "bytes": "40 53 48 83 EC 20 48 8B DA 48 8D 15 28 FD CF 00 48 8B CB FF 15 8F 82 AB",
+      "bytes": "40 53 48 83 EC 20 48 8B DA 48 8D 15 B8 04 D0 00 48 8B CB FF 15 6F 8B AB",
       "module": "client.dll",
       "name": "SetLocalPlayerReady",
       "pattern": "40 53 48 83 EC 20 48 8B DA 48 8D 15 ? ? ? ? 48 8B CB FF",
       "pattern_synth": "40 53 48 83 EC 20 48 8B DA 48 8D 15 ? ? ? ? 48 8B CB FF",
       "prototype": "char __fastcall SetLocalPlayerReady(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 16709440,
-      "va": 140708759729984
+      "rva": 16715360,
+      "va": 140712467435104
     },
     {
-      "bytes": "48 89 74 24 10 57 48 83 EC 30 48 83 3D 3E B7 79 01 00 48 8B FA 48 8B F1",
+      "bytes": "48 89 74 24 10 57 48 83 EC 30 48 83 3D CE E3 79 01 00 48 8B FA 48 8B F1",
       "module": "client.dll",
       "name": "ScreenTransform",
       "pattern": "48 89 74 24 ? 57 48 83 EC ? 48 83 3D ? ? ? ? ? 48 8B FA",
-      "pattern_synth": "48 89 74 24 10 57 48 83 EC 30 48 83 3D 3E B7 79",
+      "pattern_synth": "48 89 74 24 10 57 48 83 EC 30 48 83 3D CE E3 79",
       "prototype": "__int64 __fastcall ScreenTransform(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 12647264,
-      "va": 140708755667808
+      "rva": 12649984,
+      "va": 140712463369728
     },
     {
       "bytes": "48 89 5C 24 08 57 48 83 EC 20 48 8B D9 48 8B FA 48 8B 49 10 48 85 C9 74",
@@ -4503,8 +4503,8 @@
       "pattern_synth": "48 89 5C 24 08 57 48 83 EC 20 48 8B D9 48 8B FA 48 8B 49 10",
       "prototype": "__int64 __fastcall ProtobufAddToRepeatedPtrElement(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 19054720,
-      "va": 140708762075264
+      "rva": 19066656,
+      "va": 140712469786400
     },
     {
       "bytes": "48 89 5C 24 10 48 89 6C 24 18 48 89 74 24 20 57 41 56 41 57 48 83 EC 20",
@@ -4514,19 +4514,19 @@
       "pattern_synth": "48 89 5C 24 10 48 89 6C 24 18 48 89 74 24 20 57 41 56 41 57 48 83 EC 20 44 0F B6 F2",
       "prototype": "__int64 __fastcall C_CSWeaponBase_UpdateCompositeMaterial(__int64 *a1, char a2)",
       "resolve": "rel32",
-      "rva": 21891728,
-      "va": 140708764912272
+      "rva": 21903664,
+      "va": 140712472623408
     },
     {
-      "bytes": "48 83 EC 08 4C 8B 0D 25 06 13 01 4C 8B DA 48 8B 49 10 49 83 C1 10 48 85",
+      "bytes": "48 83 EC 08 4C 8B 0D F5 0D 13 01 4C 8B DA 48 8B 49 10 49 83 C1 10 48 85",
       "module": "client.dll",
       "name": "GetCUserCmdTick",
       "pattern": "48 83 EC ? 4C 8B 0D ? ? ? ? 4C 8B DA",
       "pattern_synth": "48 83 EC 08 4C 8B 0D ? ? ? ? 4C 8B DA 48 8B",
       "prototype": "int *__fastcall GetCUserCmdTick(__int64 a1, int *a2)",
       "resolve": "raw",
-      "rva": 22907360,
-      "va": 140708765927904
+      "rva": 22919296,
+      "va": 140712473639040
     },
     {
       "bytes": "48 89 4C 24 08 41 56 41 57 48 83 EC 48 4C 63 FA 4C 8B F1 4C 89 7C 24 78",
@@ -4536,8 +4536,8 @@
       "pattern_synth": "48 89 4C 24 08 41 56 41 57 48 83 EC 48 4C 63 FA",
       "prototype": "__int64 __fastcall GetCUserCmdArray(__int64 a1, int a2)",
       "resolve": "raw",
-      "rva": 9698368,
-      "va": 140708752718912
+      "rva": 9701072,
+      "va": 140712460420816
     },
     {
       "bytes": "40 53 48 83 EC 20 8B DA E8 83 00 00 00 4C 8B C0 85 DB 7F 0A 33 C9 8B C1",
@@ -4547,8 +4547,8 @@
       "pattern_synth": "40 53 48 83 EC 20 8B DA E8 ? ? ? ? 4C 8B C0",
       "prototype": "__int64 __fastcall GetCUserCmdBySequenceNumber(__int64 a1, int a2)",
       "resolve": "raw",
-      "rva": 9697824,
-      "va": 140708752718368
+      "rva": 9700528,
+      "va": 140712460420272
     },
     {
       "bytes": "40 55 56 48 83 EC 38 48 8B 41 10 48 8B F2 83 4A 10 08 48 8B E9 8B 52 10",
@@ -4558,8 +4558,8 @@
       "pattern_synth": "40 55 56 48 83 EC 38 48 8B 41 10 48 8B F2 83 4A",
       "prototype": "__int64 __fastcall SerializeToProtoBufItem(__int64 a1, __int64 a2)",
       "resolve": "raw",
-      "rva": 18295392,
-      "va": 140708761315936
+      "rva": 18301296,
+      "va": 140712469021040
     },
     {
       "bytes": "48 89 5C 24 08 48 89 74 24 10 57 48 81 EC 40 01 00 00 8B DA 48 8B F9 E8",
@@ -4569,8 +4569,8 @@
       "pattern_synth": "48 89 5C 24 08 48 89 74 24 10 57 48 81 EC 40 01 00 00 8B DA 48 8B F9 E8 ? ? ? ? 48 8B F0 48",
       "prototype": "__int64 __fastcall C_BaseEntity_GetHitBoxSet(__int64 a1, unsigned int a2)",
       "resolve": "raw",
-      "rva": 9682480,
-      "va": 140708752703024
+      "rva": 9685184,
+      "va": 140712460404928
     },
     {
       "bytes": "48 8B C4 55 48 8B EC 48 83 EC 70 48 89 58 10 48 89 70 18 48 89 78 20 48",
@@ -4580,8 +4580,8 @@
       "pattern_synth": "48 8B C4 55 48 8B EC 48 83 EC 70 48 89 58 10 48 89 70 18 48",
       "prototype": "__int64 __fastcall C_BaseEntity_UpdateBodyGroupChoice(__int64 a1)",
       "resolve": "rel32",
-      "rva": 9763856,
-      "va": 140708752784400
+      "rva": 9766560,
+      "va": 140712460486304
     }
   ],
   "total_scanned": 505

@@ -1,0 +1,10 @@
+// C_BaseDoor
+// Size: 0xB345FB77 (-1287259273 bytes)
+// Parent: C_BaseToggle
+// Module: client.dll
+//
+// Inheritance:
+//   C_BaseDoor -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

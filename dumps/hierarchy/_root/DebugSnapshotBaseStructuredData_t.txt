@@ -1,0 +1,12 @@
+// DebugSnapshotBaseStructuredData_t
+// Size: 0xB34586E4 (-1287289116 bytes)
+// Module: client.dll
+//
+// Direct subclasses (4):
+//   AI_BaseNPC_DebugSnapshotData_t
+//   AI_DefaultNPC_DebugSnapshotData_t
+//   AI_GroundRootMotionMotor_DebugSnapshotData_t
+//   DebugDrawBoneTransforms_t
+//
+
+// (no own fields)

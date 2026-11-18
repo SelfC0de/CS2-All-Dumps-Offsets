@@ -1,0 +1,10 @@
+// CFuncWallToggle
+// Size: 0xB345B19B (-1287278181 bytes)
+// Parent: CFuncWall
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncWallToggle -> CFuncWall -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

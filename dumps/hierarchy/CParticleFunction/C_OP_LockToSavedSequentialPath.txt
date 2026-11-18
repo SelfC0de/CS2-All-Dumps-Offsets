@@ -1,0 +1,10 @@
+// C_OP_LockToSavedSequentialPath
+// Size: 0xB3456B9B (-1287296101 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_LockToSavedSequentialPath -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

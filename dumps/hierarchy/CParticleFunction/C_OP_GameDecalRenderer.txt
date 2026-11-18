@@ -1,0 +1,10 @@
+// C_OP_GameDecalRenderer
+// Size: 0xB3457CB5 (-1287291723 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_GameDecalRenderer -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

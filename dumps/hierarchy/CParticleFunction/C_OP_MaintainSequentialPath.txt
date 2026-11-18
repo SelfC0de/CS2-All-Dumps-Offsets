@@ -1,0 +1,10 @@
+// C_OP_MaintainSequentialPath
+// Size: 0xB3456B56 (-1287296170 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_MaintainSequentialPath -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

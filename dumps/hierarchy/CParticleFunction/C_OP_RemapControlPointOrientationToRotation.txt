@@ -1,0 +1,10 @@
+// C_OP_RemapControlPointOrientationToRotation
+// Size: 0xB3456DB1 (-1287295567 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapControlPointOrientationToRotation -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

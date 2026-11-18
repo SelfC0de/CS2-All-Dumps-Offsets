@@ -1,0 +1,6 @@
+// CGlowProperty
+// Size: 0xB3459A56 (-1287284138 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

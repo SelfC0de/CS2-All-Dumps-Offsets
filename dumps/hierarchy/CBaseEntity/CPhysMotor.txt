@@ -1,0 +1,10 @@
+// CPhysMotor
+// Size: 0xB34597E5 (-1287284763 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysMotor -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

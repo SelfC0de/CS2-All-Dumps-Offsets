@@ -1,0 +1,10 @@
+// C_OP_ReadFromNeighboringParticle
+// Size: 0xB3456A2A (-1287296470 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ReadFromNeighboringParticle -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

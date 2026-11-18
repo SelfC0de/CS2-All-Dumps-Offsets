@@ -1,0 +1,10 @@
+// C_FuncTrackTrain
+// Size: 0xB345F5C0 (-1287260736 bytes)
+// Parent: C_BaseModelEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_FuncTrackTrain -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

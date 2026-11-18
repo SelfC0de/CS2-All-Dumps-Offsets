@@ -1,0 +1,10 @@
+// CNmChainLookatTask
+// Size: 0xB3450D8D (-1287320179 bytes)
+// Parent: CNmPoseTask
+// Module: client.dll
+//
+// Inheritance:
+//   CNmChainLookatTask -> CNmPoseTask
+//
+
+// (no own fields)

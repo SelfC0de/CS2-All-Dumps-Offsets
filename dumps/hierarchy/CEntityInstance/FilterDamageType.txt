@@ -1,0 +1,10 @@
+// FilterDamageType
+// Size: 0xB345C3F1 (-1287273487 bytes)
+// Parent: CBaseFilter
+// Module: client.dll
+//
+// Inheritance:
+//   FilterDamageType -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

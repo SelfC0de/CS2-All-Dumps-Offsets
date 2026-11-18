@@ -1,0 +1,10 @@
+// C_PropDoorRotating
+// Size: 0xB345FBF3 (-1287259149 bytes)
+// Parent: C_BasePropDoor
+// Module: client.dll
+//
+// Inheritance:
+//   C_PropDoorRotating -> C_BasePropDoor -> C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2
+//
+
+// (no own fields)

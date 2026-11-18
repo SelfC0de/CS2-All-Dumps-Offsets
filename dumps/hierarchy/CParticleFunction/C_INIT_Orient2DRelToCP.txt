@@ -1,0 +1,10 @@
+// C_INIT_Orient2DRelToCP
+// Size: 0xB3455272 (-1287302542 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_Orient2DRelToCP -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

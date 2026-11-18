@@ -1,0 +1,10 @@
+// CCSPlayerController_DamageServices
+// Size: 0xB345A80A (-1287280630 bytes)
+// Parent: CPlayerControllerComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayerController_DamageServices -> CPlayerControllerComponent
+//
+
+// (no own fields)

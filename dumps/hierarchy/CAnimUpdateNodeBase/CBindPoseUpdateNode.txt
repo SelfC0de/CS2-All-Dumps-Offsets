@@ -1,0 +1,10 @@
+// CBindPoseUpdateNode
+// Size: 0xB3451E0B (-1287315957 bytes)
+// Parent: CLeafUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CBindPoseUpdateNode -> CLeafUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

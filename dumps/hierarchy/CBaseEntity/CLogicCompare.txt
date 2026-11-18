@@ -1,0 +1,10 @@
+// CLogicCompare
+// Size: 0xB345B5F1 (-1287277071 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicCompare -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

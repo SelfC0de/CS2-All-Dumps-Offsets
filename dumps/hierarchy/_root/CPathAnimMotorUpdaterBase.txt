@@ -1,0 +1,14 @@
+// CPathAnimMotorUpdaterBase
+// Size: 0xB3450261 (-1287323039 bytes)
+// Parent: CAnimMotorUpdaterBase
+// Module: client.dll
+//
+// Inheritance:
+//   CPathAnimMotorUpdaterBase -> CAnimMotorUpdaterBase -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+// Direct subclasses (2):
+//   CDampedPathAnimMotorUpdater
+//   CPathAnimMotorUpdater
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_InstantaneousEmitter
+// Size: 0xB3455CE5 (-1287299867 bytes)
+// Parent: CParticleFunctionEmitter
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_InstantaneousEmitter -> CParticleFunctionEmitter -> CParticleFunction
+//
+
+// (no own fields)

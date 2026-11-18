@@ -1,0 +1,10 @@
+// C_OP_ScreenSpaceDistanceToEdge
+// Size: 0xB3456096 (-1287298922 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ScreenSpaceDistanceToEdge -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

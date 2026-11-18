@@ -1,0 +1,10 @@
+// C_RetakeGameRules
+// Size: 0xB345EC0B (-1287263221 bytes)
+// Parent: CGameEventListener
+// Module: client.dll
+//
+// Inheritance:
+//   C_RetakeGameRules -> CGameEventListener -> IGameEventListener2
+//
+
+// (no own fields)

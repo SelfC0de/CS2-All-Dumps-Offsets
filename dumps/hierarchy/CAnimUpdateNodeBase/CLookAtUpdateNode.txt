@@ -1,0 +1,10 @@
+// CLookAtUpdateNode
+// Size: 0xB3451FE0 (-1287315488 bytes)
+// Parent: CUnaryUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CLookAtUpdateNode -> CUnaryUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> ITargetWarpInputNode
+//
+
+// (no own fields)

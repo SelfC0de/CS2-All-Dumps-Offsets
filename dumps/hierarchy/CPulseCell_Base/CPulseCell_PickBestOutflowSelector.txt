@@ -1,0 +1,10 @@
+// CPulseCell_PickBestOutflowSelector
+// Size: 0xB364EA18 (-1285232104 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_PickBestOutflowSelector -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

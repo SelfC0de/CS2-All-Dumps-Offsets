@@ -1,0 +1,10 @@
+// C_OP_SetUserEvent
+// Size: 0xB34570A9 (-1287294807 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetUserEvent -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

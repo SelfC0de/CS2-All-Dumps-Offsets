@@ -1,0 +1,10 @@
+// CPhysExplosion
+// Size: 0xB345BD9B (-1287275109 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysExplosion -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

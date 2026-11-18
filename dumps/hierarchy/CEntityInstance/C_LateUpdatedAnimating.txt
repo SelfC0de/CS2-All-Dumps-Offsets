@@ -1,0 +1,13 @@
+// C_LateUpdatedAnimating
+// Size: 0xB345FE8F (-1287258481 bytes)
+// Parent: CBaseAnimGraph
+// Module: client.dll
+//
+// Inheritance:
+//   C_LateUpdatedAnimating -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (1):
+//   C_CS2HudModelAddon
+//
+
+// (no own fields)

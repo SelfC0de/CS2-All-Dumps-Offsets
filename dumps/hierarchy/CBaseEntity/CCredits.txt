@@ -1,0 +1,10 @@
+// CCredits
+// Size: 0xB345B3CF (-1287277617 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CCredits -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

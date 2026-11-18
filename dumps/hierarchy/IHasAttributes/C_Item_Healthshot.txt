@@ -1,0 +1,10 @@
+// C_Item_Healthshot
+// Size: 0x6FAF00BA (1873739962 bytes)
+// Parent: C_WeaponBaseItem
+// Module: client.dll
+//
+// Inheritance:
+//   C_Item_Healthshot -> C_WeaponBaseItem -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+
+// (no own fields)

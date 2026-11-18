@@ -1,0 +1,10 @@
+// CTestPulseIO
+// Size: 0xB34596F5 (-1287285003 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CTestPulseIO -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

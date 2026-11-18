@@ -1,0 +1,10 @@
+// CEnumAnimParameter
+// Size: 0xB34504FE (-1287322370 bytes)
+// Parent: CConcreteAnimParameter
+// Module: client.dll
+//
+// Inheritance:
+//   CEnumAnimParameter -> CConcreteAnimParameter -> CAnimParameterBase -> IAnimParameter -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IEnumAnimParameter
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CGameGibManager
+// Size: 0xB345ADA3 (-1287279197 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CGameGibManager -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_EnableChildrenFromParentParticleCount
+// Size: 0xB34576F0 (-1287293200 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_EnableChildrenFromParentParticleCount -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

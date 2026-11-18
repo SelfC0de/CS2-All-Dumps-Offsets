@@ -1,0 +1,10 @@
+// C_EnvShakeVolume
+// Size: 0xB345F0D4 (-1287261996 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_EnvShakeVolume -> C_BaseEntity -> CEntityInstance -> ?$CUtlAutoList@VC_EnvShakeVolume
+//
+
+// (no own fields)

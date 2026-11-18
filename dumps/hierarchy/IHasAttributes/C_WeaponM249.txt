@@ -1,0 +1,10 @@
+// C_WeaponM249
+// Size: 0x6FAF036C (1873740652 bytes)
+// Parent: C_CSWeaponBaseGun
+// Module: client.dll
+//
+// Inheritance:
+//   C_WeaponM249 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+
+// (no own fields)

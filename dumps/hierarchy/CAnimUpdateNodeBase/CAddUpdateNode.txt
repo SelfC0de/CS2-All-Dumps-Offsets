@@ -1,0 +1,10 @@
+// CAddUpdateNode
+// Size: 0xB3451DC6 (-1287316026 bytes)
+// Parent: CBinaryUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CAddUpdateNode -> CBinaryUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> ITargetWarpInputNode
+//
+
+// (no own fields)

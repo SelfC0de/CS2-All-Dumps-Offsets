@@ -1,0 +1,10 @@
+// CCS2PawnGraphController
+// Size: 0xB345A6D7 (-1287280937 bytes)
+// Parent: CCS2WeaponGraphController
+// Module: client.dll
+//
+// Inheritance:
+//   CCS2PawnGraphController -> CCS2WeaponGraphController -> CAnimGraphControllerBase
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CEnvWind
+// Size: 0xB345B2CA (-1287277878 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvWind -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

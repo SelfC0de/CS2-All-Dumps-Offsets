@@ -1,0 +1,10 @@
+// C_SkyCamera
+// Size: 0xB345E9A2 (-1287263838 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_SkyCamera -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

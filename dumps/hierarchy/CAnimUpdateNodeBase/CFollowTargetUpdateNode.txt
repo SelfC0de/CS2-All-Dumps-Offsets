@@ -1,0 +1,10 @@
+// CFollowTargetUpdateNode
+// Size: 0xB3451EED (-1287315731 bytes)
+// Parent: CUnaryUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CFollowTargetUpdateNode -> CUnaryUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> ITargetWarpInputNode
+//
+
+// (no own fields)

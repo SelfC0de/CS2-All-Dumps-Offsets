@@ -1,0 +1,10 @@
+// C_FuncLadder
+// Size: 0xB345F750 (-1287260336 bytes)
+// Parent: C_BaseModelEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_FuncLadder -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

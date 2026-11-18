@@ -1,0 +1,10 @@
+// CCSPlayer_BuyServices
+// Size: 0xB345A5A7 (-1287281241 bytes)
+// Parent: CPlayerPawnComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayer_BuyServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

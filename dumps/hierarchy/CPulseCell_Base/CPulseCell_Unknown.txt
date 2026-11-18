@@ -1,0 +1,10 @@
+// CPulseCell_Unknown
+// Size: 0xB364E82B (-1285232597 bytes)
+// Parent: CPulseCell_Base
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_Unknown -> CPulseCell_Base
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CEnvFade
+// Size: 0xB345B3C2 (-1287277630 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvFade -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

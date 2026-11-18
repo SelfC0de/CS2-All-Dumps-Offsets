@@ -1,0 +1,10 @@
+// CMultiLightProxy
+// Size: 0xB345AD2C (-1287279316 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CMultiLightProxy -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CWeaponNegev
+// Size: 0xB345D15C (-1287270052 bytes)
+// Parent: CCSWeaponBaseGun
+// Module: server.dll
+//
+// Inheritance:
+//   CWeaponNegev -> CCSWeaponBaseGun -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+//
+
+// (no own fields)

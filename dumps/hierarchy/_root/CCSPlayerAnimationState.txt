@@ -1,0 +1,6 @@
+// CCSPlayerAnimationState
+// Size: 0xB345A6F3 (-1287280909 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

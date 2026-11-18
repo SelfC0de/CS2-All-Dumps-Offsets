@@ -1,0 +1,13 @@
+// CLogicPlayerProxyBase
+// Size: 0xB345B50F (-1287277297 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicPlayerProxyBase -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (1):
+//   CGenericLogicPlayerProxy
+//
+
+// (no own fields)

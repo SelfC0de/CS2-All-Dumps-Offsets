@@ -1,0 +1,10 @@
+// CPhysicsEntitySolver
+// Size: 0xB345B815 (-1287276523 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysicsEntitySolver -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> ?$CUtlAutoList@VCPhysicsEntitySolver
+//
+
+// (no own fields)

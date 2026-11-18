@@ -1,0 +1,10 @@
+// C_OP_DragRelativeToPlane
+// Size: 0xB34570FD (-1287294723 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_DragRelativeToPlane -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

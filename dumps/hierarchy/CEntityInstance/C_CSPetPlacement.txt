@@ -1,0 +1,10 @@
+// C_CSPetPlacement
+// Size: 0xB345EDCD (-1287262771 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSPetPlacement -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

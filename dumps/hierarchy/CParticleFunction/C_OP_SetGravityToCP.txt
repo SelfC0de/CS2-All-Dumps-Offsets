@@ -1,0 +1,10 @@
+// C_OP_SetGravityToCP
+// Size: 0xB3457916 (-1287292650 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetGravityToCP -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

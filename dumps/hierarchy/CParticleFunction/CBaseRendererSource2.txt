@@ -1,0 +1,15 @@
+// CBaseRendererSource2
+// Size: 0xB3454CA9 (-1287304023 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   CBaseRendererSource2 -> CParticleFunctionRenderer -> CParticleFunction
+//
+// Direct subclasses (3):
+//   CBaseTrailRenderer
+//   C_OP_RenderRopes
+//   C_OP_RenderSprites
+//
+
+// (no own fields)

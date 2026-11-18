@@ -1,0 +1,10 @@
+// C_OP_RenderTreeShake
+// Size: 0xB3457C30 (-1287291856 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderTreeShake -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

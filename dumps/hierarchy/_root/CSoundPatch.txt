@@ -1,0 +1,6 @@
+// CSoundPatch
+// Size: 0xB3459D28 (-1287283416 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

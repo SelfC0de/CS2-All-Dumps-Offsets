@@ -1,0 +1,10 @@
+// C_OP_SetControlPointPositions
+// Size: 0xB345742A (-1287293910 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetControlPointPositions -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_WeaponRevolver
+// Size: 0x6FAF037D (1873740669 bytes)
+// Parent: C_CSWeaponBaseGun
+// Module: client.dll
+//
+// Inheritance:
+//   C_WeaponRevolver -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+
+// (no own fields)

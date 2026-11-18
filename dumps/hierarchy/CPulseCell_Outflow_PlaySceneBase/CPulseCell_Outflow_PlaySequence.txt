@@ -1,0 +1,10 @@
+// CPulseCell_Outflow_PlaySequence
+// Size: 0xB34593B5 (-1287285835 bytes)
+// Parent: CPulseCell_Outflow_PlaySceneBase
+// Module: server.dll
+//
+// Inheritance:
+//   CPulseCell_Outflow_PlaySequence -> CPulseCell_Outflow_PlaySceneBase -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

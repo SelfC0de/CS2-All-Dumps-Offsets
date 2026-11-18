@@ -1,0 +1,10 @@
+// C_OP_ChooseRandomChildrenInGroup
+// Size: 0xB3457815 (-1287292907 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ChooseRandomChildrenInGroup -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

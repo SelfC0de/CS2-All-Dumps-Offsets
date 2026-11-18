@@ -1,0 +1,10 @@
+// CTestPulseIOComponent_Derived
+// Size: 0xB34596D3 (-1287285037 bytes)
+// Parent: CTestPulseIOComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CTestPulseIOComponent_Derived -> CTestPulseIOComponent
+//
+
+// (no own fields)

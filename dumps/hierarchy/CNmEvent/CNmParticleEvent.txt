@@ -1,0 +1,10 @@
+// CNmParticleEvent
+// Size: 0xB364FCB2 (-1285227342 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmParticleEvent -> CNmEvent
+//
+
+// (no own fields)

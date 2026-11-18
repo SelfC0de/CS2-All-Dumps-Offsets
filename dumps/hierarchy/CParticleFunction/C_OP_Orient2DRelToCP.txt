@@ -1,0 +1,10 @@
+// C_OP_Orient2DRelToCP
+// Size: 0xB3456ACF (-1287296305 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_Orient2DRelToCP -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

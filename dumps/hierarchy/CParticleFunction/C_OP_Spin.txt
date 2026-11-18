@@ -1,0 +1,10 @@
+// C_OP_Spin
+// Size: 0xB34564CD (-1287297843 bytes)
+// Parent: CGeneralSpin
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_Spin -> CGeneralSpin -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

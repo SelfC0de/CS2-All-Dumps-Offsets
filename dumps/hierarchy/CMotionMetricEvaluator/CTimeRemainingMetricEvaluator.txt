@@ -1,0 +1,10 @@
+// CTimeRemainingMetricEvaluator
+// Size: 0xB3450225 (-1287323099 bytes)
+// Parent: CMotionMetricEvaluator
+// Module: client.dll
+//
+// Inheritance:
+//   CTimeRemainingMetricEvaluator -> CMotionMetricEvaluator -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CNmSoundEvent
+// Size: 0xB364FCDE (-1285227298 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmSoundEvent -> CNmEvent
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CPhysPulley
+// Size: 0xB345B798 (-1287276648 bytes)
+// Parent: CPhysConstraint
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysPulley -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

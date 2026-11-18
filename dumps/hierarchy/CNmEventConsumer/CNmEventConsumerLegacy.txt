@@ -1,0 +1,10 @@
+// CNmEventConsumerLegacy
+// Size: 0xB3458D55 (-1287287467 bytes)
+// Parent: CNmEventConsumer
+// Module: client.dll
+//
+// Inheritance:
+//   CNmEventConsumerLegacy -> CNmEventConsumer
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_SoundOpvarSetOBBEntity
+// Size: 0xB345EACA (-1287263542 bytes)
+// Parent: C_SoundOpvarSetAABBEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_SoundOpvarSetOBBEntity -> C_SoundOpvarSetAABBEntity -> CSoundOpvarSetBoxEntity -> C_SoundOpvarSetPointEntity -> C_SoundOpvarSetPointBase -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

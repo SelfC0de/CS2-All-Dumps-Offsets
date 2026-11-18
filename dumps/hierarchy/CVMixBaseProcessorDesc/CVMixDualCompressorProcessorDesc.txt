@@ -1,0 +1,10 @@
+// CVMixDualCompressorProcessorDesc
+// Size: 0xB34538D0 (-1287309104 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixDualCompressorProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

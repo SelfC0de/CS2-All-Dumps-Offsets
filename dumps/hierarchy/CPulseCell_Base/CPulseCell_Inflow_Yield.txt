@@ -1,0 +1,10 @@
+// CPulseCell_Inflow_Yield
+// Size: 0xB364C685 (-1285241211 bytes)
+// Parent: CPulseCell_BaseYieldingInflow
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_Inflow_Yield -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

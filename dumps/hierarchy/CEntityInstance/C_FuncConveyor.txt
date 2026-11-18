@@ -1,0 +1,10 @@
+// C_FuncConveyor
+// Size: 0xB345F89D (-1287260003 bytes)
+// Parent: C_BaseModelEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_FuncConveyor -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> ISceneObjectController
+//
+
+// (no own fields)

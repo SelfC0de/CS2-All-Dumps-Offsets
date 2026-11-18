@@ -1,0 +1,10 @@
+// CCSPlayerController_InventoryServices
+// Size: 0xB345A881 (-1287280511 bytes)
+// Parent: CPlayerControllerComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayerController_InventoryServices -> CPlayerControllerComponent
+//
+
+// (no own fields)

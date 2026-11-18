@@ -1,0 +1,10 @@
+// CNmCameraDOFEvent
+// Size: 0xB364FB93 (-1285227629 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmCameraDOFEvent -> CNmEvent
+//
+
+// (no own fields)

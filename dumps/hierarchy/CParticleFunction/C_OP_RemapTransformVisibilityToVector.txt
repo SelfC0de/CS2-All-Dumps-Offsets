@@ -1,0 +1,10 @@
+// C_OP_RemapTransformVisibilityToVector
+// Size: 0xB3456218 (-1287298536 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapTransformVisibilityToVector -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

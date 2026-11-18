@@ -1,0 +1,23 @@
+// CBaseFilter
+// Size: 0xB345AFD9 (-1287278631 bytes)
+// Parent: CLogicalEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+//
+// Direct subclasses (11):
+//   CFilterAttributeInt
+//   CFilterClass
+//   CFilterLOS
+//   CFilterMassGreater
+//   CFilterModel
+//   CFilterMultiple
+//   CFilterName
+//   CFilterProximity
+//   CFilterTeam
+//   FilterDamageType
+//   FilterHealth
+//
+
+// (no own fields)

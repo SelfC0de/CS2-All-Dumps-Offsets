@@ -1,0 +1,10 @@
+// C_EntityFlame
+// Size: 0xB345E8EE (-1287264018 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_EntityFlame -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

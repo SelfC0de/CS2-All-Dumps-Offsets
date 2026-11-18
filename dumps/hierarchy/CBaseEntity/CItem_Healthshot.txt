@@ -1,0 +1,10 @@
+// CItem_Healthshot
+// Size: 0xB345CFEE (-1287270418 bytes)
+// Parent: CWeaponBaseItem
+// Module: server.dll
+//
+// Inheritance:
+//   CItem_Healthshot -> CWeaponBaseItem -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+//
+
+// (no own fields)

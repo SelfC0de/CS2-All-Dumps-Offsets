@@ -1,0 +1,10 @@
+// C_INIT_RingWave
+// Size: 0xB3454EC3 (-1287303485 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RingWave -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

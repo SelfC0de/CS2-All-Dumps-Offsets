@@ -1,0 +1,10 @@
+// CKnife
+// Size: 0xB345CF74 (-1287270540 bytes)
+// Parent: CCSWeaponBase
+// Module: server.dll
+//
+// Inheritance:
+//   CKnife -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+//
+
+// (no own fields)

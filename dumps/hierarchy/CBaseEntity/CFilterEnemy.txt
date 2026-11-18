@@ -1,0 +1,10 @@
+// CFilterEnemy
+// Size: 0xB345C417 (-1287273449 bytes)
+// Parent: CBaseFilter
+// Module: server.dll
+//
+// Inheritance:
+//   CFilterEnemy -> CBaseFilter -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

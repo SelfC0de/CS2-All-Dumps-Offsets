@@ -1,0 +1,10 @@
+// C_INIT_RandomAlphaWindowThreshold
+// Size: 0xB34551E8 (-1287302680 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RandomAlphaWindowThreshold -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

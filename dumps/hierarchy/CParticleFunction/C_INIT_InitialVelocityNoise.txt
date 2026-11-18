@@ -1,0 +1,10 @@
+// C_INIT_InitialVelocityNoise
+// Size: 0xB34550FB (-1287302917 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_InitialVelocityNoise -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

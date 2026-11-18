@@ -1,0 +1,10 @@
+// C_CSGO_TeamSelectCamera
+// Size: 0xB345EF32 (-1287262414 bytes)
+// Parent: C_CSGO_TeamPreviewCamera
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSGO_TeamSelectCamera -> C_CSGO_TeamPreviewCamera -> C_CSGO_MapPreviewCameraPath -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

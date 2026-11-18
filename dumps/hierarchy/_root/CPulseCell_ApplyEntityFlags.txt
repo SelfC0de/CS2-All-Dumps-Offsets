@@ -1,0 +1,10 @@
+// CPulseCell_ApplyEntityFlags
+// Size: 0xB34590F6 (-1287286538 bytes)
+// Parent: CPulseCell_BaseYieldingInflow
+// Module: server.dll
+//
+// Inheritance:
+//   CPulseCell_ApplyEntityFlags -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

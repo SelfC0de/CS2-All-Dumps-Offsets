@@ -1,0 +1,10 @@
+// CScriptTriggerHurt
+// Size: 0xB345CE3D (-1287270851 bytes)
+// Parent: CTriggerHurt
+// Module: server.dll
+//
+// Inheritance:
+//   CScriptTriggerHurt -> CTriggerHurt -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

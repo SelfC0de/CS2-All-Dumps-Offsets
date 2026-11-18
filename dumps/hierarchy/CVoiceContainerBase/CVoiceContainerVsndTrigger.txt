@@ -1,0 +1,10 @@
+// CVoiceContainerVsndTrigger
+// Size: 0xB34534BD (-1287310147 bytes)
+// Parent: CVoiceContainerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerVsndTrigger -> CVoiceContainerBase
+//
+
+// (no own fields)

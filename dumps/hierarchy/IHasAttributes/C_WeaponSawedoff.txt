@@ -1,0 +1,10 @@
+// C_WeaponSawedoff
+// Size: 0x6FAF03A3 (1873740707 bytes)
+// Parent: C_CSWeaponBaseShotgun
+// Module: client.dll
+//
+// Inheritance:
+//   C_WeaponSawedoff -> C_CSWeaponBaseShotgun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+
+// (no own fields)

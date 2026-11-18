@@ -1,0 +1,10 @@
+// CPlayerInputAnimMotorUpdater
+// Size: 0xB34502FE (-1287322882 bytes)
+// Parent: CAnimMotorUpdaterBase
+// Module: client.dll
+//
+// Inheritance:
+//   CPlayerInputAnimMotorUpdater -> CAnimMotorUpdaterBase -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

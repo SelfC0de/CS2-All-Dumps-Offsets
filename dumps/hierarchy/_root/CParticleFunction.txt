@@ -1,0 +1,9 @@
+// CParticleFunction
+// Size: 0xB3454B94 (-1287304300 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   CParticleFunctionForce
+//
+
+// (no own fields)

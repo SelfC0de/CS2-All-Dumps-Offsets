@@ -1,0 +1,10 @@
+// C_OP_RenderVRHapticEvent
+// Size: 0xB3457C5D (-1287291811 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderVRHapticEvent -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

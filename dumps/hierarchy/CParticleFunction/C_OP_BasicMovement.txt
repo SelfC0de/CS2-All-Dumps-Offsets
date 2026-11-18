@@ -1,0 +1,10 @@
+// C_OP_BasicMovement
+// Size: 0xB3455EF7 (-1287299337 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_BasicMovement -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

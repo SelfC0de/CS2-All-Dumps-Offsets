@@ -1,0 +1,10 @@
+// C_OP_PerParticleForce
+// Size: 0xB3455E3B (-1287299525 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_PerParticleForce -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

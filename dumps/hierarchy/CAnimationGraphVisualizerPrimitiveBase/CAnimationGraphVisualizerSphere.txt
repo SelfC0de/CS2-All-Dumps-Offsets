@@ -1,0 +1,10 @@
+// CAnimationGraphVisualizerSphere
+// Size: 0xB3450BFA (-1287320582 bytes)
+// Parent: CAnimationGraphVisualizerPrimitiveBase
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimationGraphVisualizerSphere -> CAnimationGraphVisualizerPrimitiveBase
+//
+
+// (no own fields)

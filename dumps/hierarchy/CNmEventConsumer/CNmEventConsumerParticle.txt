@@ -1,0 +1,10 @@
+// CNmEventConsumerParticle
+// Size: 0xB3458D70 (-1287287440 bytes)
+// Parent: CNmEventConsumer
+// Module: client.dll
+//
+// Inheritance:
+//   CNmEventConsumerParticle -> CNmEventConsumer
+//
+
+// (no own fields)

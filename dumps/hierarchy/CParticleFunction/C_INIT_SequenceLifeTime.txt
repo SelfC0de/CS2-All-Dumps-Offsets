@@ -1,0 +1,10 @@
+// C_INIT_SequenceLifeTime
+// Size: 0xB3455577 (-1287301769 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_SequenceLifeTime -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

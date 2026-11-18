@@ -1,0 +1,10 @@
+// C_OP_InterpolateRadius
+// Size: 0xB3456500 (-1287297792 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_InterpolateRadius -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

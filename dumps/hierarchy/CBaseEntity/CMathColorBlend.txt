@@ -1,0 +1,10 @@
+// CMathColorBlend
+// Size: 0xB345B59D (-1287277155 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CMathColorBlend -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

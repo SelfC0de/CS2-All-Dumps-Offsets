@@ -1,0 +1,10 @@
+// C_OP_FadeAndKill
+// Size: 0xB3455F0E (-1287299314 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_FadeAndKill -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CPathNode
+// Size: 0xB345B11C (-1287278308 bytes)
+// Parent: C_PointEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CPathNode -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

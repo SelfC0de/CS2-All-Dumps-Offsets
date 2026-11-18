@@ -1,0 +1,6 @@
+// EngineCountdownTimer
+// Size: 0xB3458C8B (-1287287669 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

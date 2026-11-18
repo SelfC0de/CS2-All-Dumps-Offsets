@@ -1,0 +1,10 @@
+// C_ClientRagdoll
+// Size: 0xB345FB9B (-1287259237 bytes)
+// Parent: CBaseAnimGraph
+// Module: client.dll
+//
+// Inheritance:
+//   C_ClientRagdoll -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

@@ -1,0 +1,6 @@
+// CMovementStatsProperty
+// Size: 0xB34598AD (-1287284563 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

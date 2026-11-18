@@ -1,0 +1,13 @@
+// CFuncNavBlocker
+// Size: 0xB345BE07 (-1287275001 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncNavBlocker -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+//
+// Direct subclasses (1):
+//   CScriptNavBlocker
+//
+
+// (no own fields)

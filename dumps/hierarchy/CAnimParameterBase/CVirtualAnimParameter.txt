@@ -1,0 +1,10 @@
+// CVirtualAnimParameter
+// Size: 0xB34504CD (-1287322419 bytes)
+// Parent: CAnimParameterBase
+// Module: client.dll
+//
+// Inheritance:
+//   CVirtualAnimParameter -> CAnimParameterBase -> IAnimParameter -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

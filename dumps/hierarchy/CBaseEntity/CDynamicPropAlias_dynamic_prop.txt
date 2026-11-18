@@ -1,0 +1,10 @@
+// CDynamicPropAlias_dynamic_prop
+// Size: 0xB345C4C0 (-1287273280 bytes)
+// Parent: CDynamicProp
+// Module: server.dll
+//
+// Inheritance:
+//   CDynamicPropAlias_dynamic_prop -> CDynamicProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+//
+
+// (no own fields)

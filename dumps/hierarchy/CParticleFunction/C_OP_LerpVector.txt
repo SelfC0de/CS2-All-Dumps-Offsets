@@ -1,0 +1,10 @@
+// C_OP_LerpVector
+// Size: 0xB345628A (-1287298422 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_LerpVector -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -20,7 +20,6 @@
 
 #include <cstddef>
 #include <cstdint>
-#include <memory>
 #include <utility>
 
 
@@ -850,9 +849,6 @@ class CUtlStringToken {
 public:
     std::uint32_t m_nHashCode;
 };
-
-// Same layout, but never registered in the string pool.
-using CUtlStringTokenNoRegistration = CUtlStringToken;
 
 class CResourceName {
 public:

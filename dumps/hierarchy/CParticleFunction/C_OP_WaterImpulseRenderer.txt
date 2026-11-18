@@ -1,0 +1,10 @@
+// C_OP_WaterImpulseRenderer
+// Size: 0xB3457CD0 (-1287291696 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_WaterImpulseRenderer -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

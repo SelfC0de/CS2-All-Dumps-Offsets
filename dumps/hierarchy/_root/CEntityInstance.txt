@@ -1,0 +1,9 @@
+// CEntityInstance
+// Size: 0xB32C8061 (-1288929183 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   C_BaseEntity
+//
+
+// (no own fields)

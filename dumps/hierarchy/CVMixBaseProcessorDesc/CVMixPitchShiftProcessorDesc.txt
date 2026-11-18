@@ -1,0 +1,10 @@
+// CVMixPitchShiftProcessorDesc
+// Size: 0xB3453944 (-1287308988 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixPitchShiftProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

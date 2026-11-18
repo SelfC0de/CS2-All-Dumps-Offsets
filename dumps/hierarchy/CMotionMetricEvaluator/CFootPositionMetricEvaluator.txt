@@ -1,0 +1,10 @@
+// CFootPositionMetricEvaluator
+// Size: 0xB3450184 (-1287323260 bytes)
+// Parent: CMotionMetricEvaluator
+// Module: client.dll
+//
+// Inheritance:
+//   CFootPositionMetricEvaluator -> CMotionMetricEvaluator -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

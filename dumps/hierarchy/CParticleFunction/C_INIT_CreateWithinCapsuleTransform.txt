@@ -1,0 +1,10 @@
+// C_INIT_CreateWithinCapsuleTransform
+// Size: 0xB3454FF3 (-1287303181 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreateWithinCapsuleTransform -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

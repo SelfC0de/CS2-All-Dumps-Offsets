@@ -1,0 +1,10 @@
+// CGameText
+// Size: 0xB345C674 (-1287272844 bytes)
+// Parent: CRulePointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CGameText -> CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

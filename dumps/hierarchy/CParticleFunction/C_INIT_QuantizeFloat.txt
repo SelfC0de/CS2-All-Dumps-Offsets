@@ -1,0 +1,10 @@
+// C_INIT_QuantizeFloat
+// Size: 0xB3455BDF (-1287300129 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_QuantizeFloat -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

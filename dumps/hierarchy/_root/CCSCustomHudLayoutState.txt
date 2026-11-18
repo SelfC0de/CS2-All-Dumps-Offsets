@@ -1,0 +1,6 @@
+// CCSCustomHudLayoutState
+// Size: 0xB345A454 (-1287281580 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

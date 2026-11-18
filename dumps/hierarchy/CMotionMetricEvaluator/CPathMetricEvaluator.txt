@@ -1,0 +1,10 @@
+// CPathMetricEvaluator
+// Size: 0xB34501E9 (-1287323159 bytes)
+// Parent: CMotionMetricEvaluator
+// Module: client.dll
+//
+// Inheritance:
+//   CPathMetricEvaluator -> CMotionMetricEvaluator -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

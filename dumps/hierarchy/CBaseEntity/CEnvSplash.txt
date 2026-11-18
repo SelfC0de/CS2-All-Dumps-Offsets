@@ -1,0 +1,10 @@
+// CEnvSplash
+// Size: 0xB345B2FC (-1287277828 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvSplash -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

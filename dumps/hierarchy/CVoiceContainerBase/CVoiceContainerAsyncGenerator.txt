@@ -1,0 +1,16 @@
+// CVoiceContainerAsyncGenerator
+// Size: 0xB345303E (-1287311298 bytes)
+// Parent: CVoiceContainerGenerator
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerAsyncGenerator -> CVoiceContainerGenerator -> CVoiceContainerBase
+//
+// Direct subclasses (4):
+//   CVoiceContainerGranulator
+//   CVoiceContainerRandomSampler
+//   CVoiceContainerStaticAdditiveSynth
+//   CVoiceContainerTapePlayer
+//
+
+// (no own fields)

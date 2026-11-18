@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-12 08:33:41.7308395 UTC
+// 2026-11-18 06:23:05.2221886 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -85,7 +85,7 @@ pub mod cs2_dumper {
             // Member count: 8
             #[repr(u32)]
             pub enum RenderMultisampleType_t {
-                RENDER_MULTISAMPLE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                RENDER_MULTISAMPLE_INVALID = 0x-1,
                 RENDER_MULTISAMPLE_NONE = 0x0,
                 RENDER_MULTISAMPLE_2X = 0x1,
                 RENDER_MULTISAMPLE_4X = 0x2,
@@ -118,7 +118,7 @@ pub mod cs2_dumper {
             // Member count: 3
             #[repr(u32)]
             pub enum RenderSlotType_t {
-                RENDER_SLOT_INVALID = 0xFFFFFFFFFFFFFFFF,
+                RENDER_SLOT_INVALID = 0x-1,
                 RENDER_SLOT_PER_VERTEX = 0x0,
                 RENDER_SLOT_PER_INSTANCE = 0x1
             }

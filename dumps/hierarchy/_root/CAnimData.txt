@@ -1,0 +1,10 @@
+// CAnimData
+// Size: 0xB32C856C (-1288927892 bytes)
+// Parent: ?$CRefCounted@V?$CRefCountServiceBase@VCRefMT
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimData -> ?$CRefCounted@V?$CRefCountServiceBase@VCRefMT -> ?$CRefCountServiceBase@VCRefMT
+//
+
+// (no own fields)

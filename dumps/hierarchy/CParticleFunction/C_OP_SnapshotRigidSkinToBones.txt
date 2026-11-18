@@ -1,0 +1,10 @@
+// C_OP_SnapshotRigidSkinToBones
+// Size: 0xB34568A7 (-1287296857 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SnapshotRigidSkinToBones -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

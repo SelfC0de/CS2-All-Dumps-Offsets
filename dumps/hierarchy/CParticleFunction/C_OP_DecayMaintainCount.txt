@@ -1,0 +1,10 @@
+// C_OP_DecayMaintainCount
+// Size: 0xB3456447 (-1287297977 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_DecayMaintainCount -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

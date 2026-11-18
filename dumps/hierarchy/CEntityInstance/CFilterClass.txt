@@ -1,0 +1,10 @@
+// CFilterClass
+// Size: 0xB345B021 (-1287278559 bytes)
+// Parent: CBaseFilter
+// Module: client.dll
+//
+// Inheritance:
+//   CFilterClass -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

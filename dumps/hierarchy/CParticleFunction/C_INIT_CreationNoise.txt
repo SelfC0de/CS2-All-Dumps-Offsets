@@ -1,0 +1,10 @@
+// C_INIT_CreationNoise
+// Size: 0xB34553B6 (-1287302218 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreationNoise -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

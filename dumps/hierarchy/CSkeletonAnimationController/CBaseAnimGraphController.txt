@@ -1,0 +1,10 @@
+// CBaseAnimGraphController
+// Size: 0xB345B04A (-1287278518 bytes)
+// Parent: CSkeletonAnimationController
+// Module: client.dll
+//
+// Inheritance:
+//   CBaseAnimGraphController -> CSkeletonAnimationController -> ISkeletonAnimationController -> IAnimGraphSequenceFinishedListener
+//
+
+// (no own fields)

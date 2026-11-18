@@ -1,0 +1,10 @@
+// CSoundOpvarSetEntity
+// Size: 0xB345B9C7 (-1287276089 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CSoundOpvarSetEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

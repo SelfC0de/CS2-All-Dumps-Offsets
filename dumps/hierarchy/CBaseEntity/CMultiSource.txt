@@ -1,0 +1,10 @@
+// CMultiSource
+// Size: 0xB345B5C0 (-1287277120 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CMultiSource -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

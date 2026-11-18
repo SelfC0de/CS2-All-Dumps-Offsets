@@ -1,0 +1,15 @@
+// CAnimGraphControllerBase
+// Size: 0xB3458405 (-1287289851 bytes)
+// Module: client.dll
+//
+// Direct subclasses (7):
+//   CBaseAnimGraphDestructibleParts_GraphController
+//   CCS2ChickenGraphController
+//   CCS2UIPawnGraphController
+//   CCS2WeaponGraphController
+//   CChoreo_GraphController
+//   CDynamicPropGraphController
+//   CEmptyGraphController
+//
+
+// (no own fields)

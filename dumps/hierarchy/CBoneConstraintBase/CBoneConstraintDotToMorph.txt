@@ -1,0 +1,10 @@
+// CBoneConstraintDotToMorph
+// Size: 0xB364F63D (-1285228995 bytes)
+// Parent: CBoneConstraintBase
+// Module: client.dll
+//
+// Inheritance:
+//   CBoneConstraintDotToMorph -> CBoneConstraintBase
+//
+
+// (no own fields)

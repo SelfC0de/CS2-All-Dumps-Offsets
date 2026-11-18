@@ -1,0 +1,14 @@
+// CBasePlatTrain
+// Size: 0xB345C7E0 (-1287272480 bytes)
+// Parent: CBaseToggle
+// Module: server.dll
+//
+// Inheritance:
+//   CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (2):
+//   CFuncPlat
+//   CFuncTrain
+//
+
+// (no own fields)

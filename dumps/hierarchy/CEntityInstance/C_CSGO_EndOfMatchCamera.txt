@@ -1,0 +1,10 @@
+// C_CSGO_EndOfMatchCamera
+// Size: 0xB345EFF2 (-1287262222 bytes)
+// Parent: C_CSGO_TeamPreviewCamera
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSGO_EndOfMatchCamera -> C_CSGO_TeamPreviewCamera -> C_CSGO_MapPreviewCameraPath -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

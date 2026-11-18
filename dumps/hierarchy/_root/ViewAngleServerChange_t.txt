@@ -1,0 +1,6 @@
+// ViewAngleServerChange_t
+// Size: 0xB34581B2 (-1287290446 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

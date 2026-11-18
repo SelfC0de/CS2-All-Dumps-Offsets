@@ -1,0 +1,10 @@
+// C_OP_SetControlPointFromObjectScale
+// Size: 0xB34574EF (-1287293713 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetControlPointFromObjectScale -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

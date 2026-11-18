@@ -1,0 +1,10 @@
+// CEnvSpark
+// Size: 0xB345B3F7 (-1287277577 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvSpark -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

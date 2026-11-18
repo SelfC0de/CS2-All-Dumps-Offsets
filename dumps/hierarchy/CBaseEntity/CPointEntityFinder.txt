@@ -1,0 +1,10 @@
+// CPointEntityFinder
+// Size: 0xB345B87B (-1287276421 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointEntityFinder -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

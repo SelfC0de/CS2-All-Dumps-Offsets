@@ -1,0 +1,10 @@
+// C_INIT_RemapTransformOrientationToRotations
+// Size: 0xB345594D (-1287300787 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RemapTransformOrientationToRotations -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

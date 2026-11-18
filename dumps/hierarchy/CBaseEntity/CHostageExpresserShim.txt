@@ -1,0 +1,10 @@
+// CHostageExpresserShim
+// Size: 0xB345CC89 (-1287271287 bytes)
+// Parent: CBaseCombatCharacter
+// Module: server.dll
+//
+// Inheritance:
+//   CHostageExpresserShim -> CBaseCombatCharacter -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

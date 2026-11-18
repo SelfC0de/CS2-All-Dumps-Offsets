@@ -1,0 +1,14 @@
+// CRagdollProp
+// Size: 0xB345C992 (-1287272046 bytes)
+// Parent: CBaseAnimGraph
+// Module: server.dll
+//
+// Inheritance:
+//   CRagdollProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> IBoneTransformOverride
+//
+// Direct subclasses (2):
+//   CRagdollPropAlias_physics_prop_ragdoll
+//   CRagdollPropAttached
+//
+
+// (no own fields)

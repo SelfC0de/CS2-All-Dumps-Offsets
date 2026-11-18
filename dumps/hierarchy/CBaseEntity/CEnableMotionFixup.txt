@@ -1,0 +1,10 @@
+// CEnableMotionFixup
+// Size: 0xB345B949 (-1287276215 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnableMotionFixup -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

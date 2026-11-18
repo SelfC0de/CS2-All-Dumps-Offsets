@@ -1,0 +1,10 @@
+// CAnimGraphDebugReplay
+// Size: 0xB33DE926 (-1287788250 bytes)
+// Parent: IAnimGraphDebugReplay
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimGraphDebugReplay -> IAnimGraphDebugReplay -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

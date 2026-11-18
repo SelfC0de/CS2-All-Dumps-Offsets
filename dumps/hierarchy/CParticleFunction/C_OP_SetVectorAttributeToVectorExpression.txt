@@ -1,0 +1,10 @@
+// C_OP_SetVectorAttributeToVectorExpression
+// Size: 0xB3456FBE (-1287295042 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetVectorAttributeToVectorExpression -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

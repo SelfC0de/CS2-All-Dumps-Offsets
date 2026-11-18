@@ -1,0 +1,10 @@
+// C_CS2HudModelWeapon
+// Size: 0x6FAF0169 (1873740137 bytes)
+// Parent: C_CS2HudModelBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_CS2HudModelWeapon -> C_CS2HudModelBase -> C_LateUpdatedAnimating -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IBoneTransformModifier -> IAttachmentOverride
+//
+
+// (no own fields)

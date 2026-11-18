@@ -1,0 +1,10 @@
+// CCommentaryAuto
+// Size: 0xB345B25E (-1287277986 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CCommentaryAuto -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CParticleCollectionRendererFloatInput
+// Size: 0xB364EBAD (-1285231699 bytes)
+// Parent: CParticleCollectionFloatInput
+// Module: client.dll
+//
+// Inheritance:
+//   CParticleCollectionRendererFloatInput -> CParticleCollectionFloatInput -> CParticleFloatInput -> CParticleInput
+//
+
+// (no own fields)

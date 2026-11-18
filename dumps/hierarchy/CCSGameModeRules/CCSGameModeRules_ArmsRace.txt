@@ -1,0 +1,10 @@
+// CCSGameModeRules_ArmsRace
+// Size: 0xB345A067 (-1287282585 bytes)
+// Parent: CCSGameModeRules
+// Module: client.dll
+//
+// Inheritance:
+//   CCSGameModeRules_ArmsRace -> CCSGameModeRules
+//
+
+// (no own fields)

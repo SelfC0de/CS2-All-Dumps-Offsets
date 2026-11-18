@@ -1,0 +1,10 @@
+// C_PostProcessingVolume
+// Size: 0xB345FF0B (-1287258357 bytes)
+// Parent: C_BaseTrigger
+// Module: client.dll
+//
+// Inheritance:
+//   C_PostProcessingVolume -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2
+//
+
+// (no own fields)

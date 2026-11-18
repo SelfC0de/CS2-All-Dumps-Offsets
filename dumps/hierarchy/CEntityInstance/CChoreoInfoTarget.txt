@@ -1,0 +1,10 @@
+// CChoreoInfoTarget
+// Size: 0xB345ACEB (-1287279381 bytes)
+// Parent: C_PointEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CChoreoInfoTarget -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

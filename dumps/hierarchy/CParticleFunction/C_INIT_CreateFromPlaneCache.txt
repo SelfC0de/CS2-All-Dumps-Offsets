@@ -1,0 +1,10 @@
+// C_INIT_CreateFromPlaneCache
+// Size: 0xB345574F (-1287301297 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreateFromPlaneCache -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

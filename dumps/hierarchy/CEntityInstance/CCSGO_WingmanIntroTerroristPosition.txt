@@ -1,0 +1,10 @@
+// CCSGO_WingmanIntroTerroristPosition
+// Size: 0xB345A233 (-1287282125 bytes)
+// Parent: CCSGO_WingmanIntroCharacterPosition
+// Module: client.dll
+//
+// Inheritance:
+//   CCSGO_WingmanIntroTerroristPosition -> CCSGO_WingmanIntroCharacterPosition -> C_CSGO_TeamIntroCharacterPosition -> C_CSGO_TeamPreviewCharacterPosition -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

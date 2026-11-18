@@ -1,0 +1,10 @@
+// C_OP_SetFloat
+// Size: 0xB34570DB (-1287294757 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetFloat -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

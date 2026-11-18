@@ -1,0 +1,10 @@
+// C_EnvParticleGlow
+// Size: 0xB345FF3D (-1287258307 bytes)
+// Parent: C_ParticleSystem
+// Module: client.dll
+//
+// Inheritance:
+//   C_EnvParticleGlow -> C_ParticleSystem -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

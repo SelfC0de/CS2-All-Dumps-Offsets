@@ -1,0 +1,10 @@
+// CPulseCell_Inflow_EventHandler
+// Size: 0xB364C54F (-1285241521 bytes)
+// Parent: CPulseCell_Inflow_BaseEntrypoint
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_Inflow_EventHandler -> CPulseCell_Inflow_BaseEntrypoint -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

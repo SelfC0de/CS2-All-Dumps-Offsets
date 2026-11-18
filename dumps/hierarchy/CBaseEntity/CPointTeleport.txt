@@ -1,0 +1,10 @@
+// CPointTeleport
+// Size: 0xB345B936 (-1287276234 bytes)
+// Parent: CServerOnlyPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointTeleport -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

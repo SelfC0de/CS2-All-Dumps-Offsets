@@ -1,0 +1,10 @@
+// C_GradientFog
+// Size: 0xB345F2B9 (-1287261511 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_GradientFog -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

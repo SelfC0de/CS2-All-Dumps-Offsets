@@ -1,0 +1,10 @@
+// C_INIT_ChaoticAttractor
+// Size: 0xB3455693 (-1287301485 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_ChaoticAttractor -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

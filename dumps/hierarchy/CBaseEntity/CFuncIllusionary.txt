@@ -1,0 +1,10 @@
+// CFuncIllusionary
+// Size: 0xB345B1C4 (-1287278140 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncIllusionary -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

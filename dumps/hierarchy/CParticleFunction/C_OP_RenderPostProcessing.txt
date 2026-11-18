@@ -1,0 +1,10 @@
+// C_OP_RenderPostProcessing
+// Size: 0xB3457B63 (-1287292061 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderPostProcessing -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_INIT_InitialRepulsionVelocity
+// Size: 0xB3455614 (-1287301612 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_InitialRepulsionVelocity -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,6 @@
+// CSmoothFunc
+// Size: 0xB3459841 (-1287284671 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

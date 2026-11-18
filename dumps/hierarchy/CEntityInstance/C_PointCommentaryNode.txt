@@ -1,0 +1,10 @@
+// C_PointCommentaryNode
+// Size: 0xB345FB31 (-1287259343 bytes)
+// Parent: CBaseAnimGraph
+// Module: client.dll
+//
+// Inheritance:
+//   C_PointCommentaryNode -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> ?$CUtlAutoList@VC_PointCommentaryNode
+//
+
+// (no own fields)

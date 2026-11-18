@@ -1,0 +1,14 @@
+// CPulseGraphInstance_TestDomain
+// Size: 0xB34545D8 (-1287305768 bytes)
+// Parent: CBasePulseGraphInstance
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseGraphInstance_TestDomain -> CBasePulseGraphInstance -> IPulseHost_Unknown -> IPulseGraphInstance_TestDomain -> CPulseBlackboardViewFromGraphInstance -> IPulseBlackboardView
+//
+// Direct subclasses (2):
+//   CPulseGraphInstance_TestDomain_Derived
+//   CPulseGraphInstance_TestDomain_UseReadOnlyBlackboardView
+//
+
+// (no own fields)

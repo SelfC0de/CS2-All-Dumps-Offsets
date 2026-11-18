@@ -1,0 +1,10 @@
+// ApproachAreaCost
+// Size: 0xB345AA2A (-1287280086 bytes)
+// Parent: CNavPathCost
+// Module: client.dll
+//
+// Inheritance:
+//   ApproachAreaCost -> CNavPathCost -> INavPathCost
+//
+
+// (no own fields)

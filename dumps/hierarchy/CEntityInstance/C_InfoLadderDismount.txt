@@ -1,0 +1,10 @@
+// C_InfoLadderDismount
+// Size: 0xB345E9EF (-1287263761 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_InfoLadderDismount -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

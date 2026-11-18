@@ -1,0 +1,10 @@
+// C_MolotovProjectile
+// Size: 0x6FAF0034 (1873739828 bytes)
+// Parent: C_BaseCSGrenadeProjectile
+// Module: client.dll
+//
+// Inheritance:
+//   C_MolotovProjectile -> C_BaseCSGrenadeProjectile -> C_BaseGrenade -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

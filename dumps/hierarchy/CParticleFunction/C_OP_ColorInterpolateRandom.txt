@@ -1,0 +1,10 @@
+// C_OP_ColorInterpolateRandom
+// Size: 0xB3456535 (-1287297739 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ColorInterpolateRandom -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

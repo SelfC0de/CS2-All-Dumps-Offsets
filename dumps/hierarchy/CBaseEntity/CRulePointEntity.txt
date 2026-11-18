@@ -1,0 +1,16 @@
+// CRulePointEntity
+// Size: 0xB345BD03 (-1287275261 bytes)
+// Parent: CRuleEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (4):
+//   CGameEnd
+//   CGameMoney
+//   CGamePlayerEquip
+//   CGameText
+//
+
+// (no own fields)

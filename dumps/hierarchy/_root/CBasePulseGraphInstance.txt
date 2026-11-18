@@ -1,0 +1,10 @@
+// CBasePulseGraphInstance
+// Size: 0xB364C0E6 (-1285242650 bytes)
+// Parent: IPulseHost_Unknown
+// Module: client.dll
+//
+// Inheritance:
+//   CBasePulseGraphInstance -> IPulseHost_Unknown
+//
+
+// (no own fields)

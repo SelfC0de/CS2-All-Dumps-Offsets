@@ -1,0 +1,10 @@
+// CBuyZone
+// Size: 0xB345CC0E (-1287271410 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CBuyZone -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

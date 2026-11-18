@@ -1,0 +1,10 @@
+// CPlayerSprayDecal
+// Size: 0xB345C140 (-1287274176 bytes)
+// Parent: CModelPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPlayerSprayDecal -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

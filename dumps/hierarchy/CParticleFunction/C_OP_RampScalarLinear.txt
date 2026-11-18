@@ -1,0 +1,10 @@
+// C_OP_RampScalarLinear
+// Size: 0xB34562E9 (-1287298327 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RampScalarLinear -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

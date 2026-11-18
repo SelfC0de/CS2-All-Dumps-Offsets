@@ -1,0 +1,10 @@
+// C_MapPreviewParticleSystem
+// Size: 0xB345FEEC (-1287258388 bytes)
+// Parent: C_ParticleSystem
+// Module: client.dll
+//
+// Inheritance:
+//   C_MapPreviewParticleSystem -> C_ParticleSystem -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

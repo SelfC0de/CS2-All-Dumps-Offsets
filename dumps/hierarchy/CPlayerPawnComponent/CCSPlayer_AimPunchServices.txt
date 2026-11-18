@@ -1,0 +1,10 @@
+// CCSPlayer_AimPunchServices
+// Size: 0xB345A54F (-1287281329 bytes)
+// Parent: CPlayerPawnComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayer_AimPunchServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

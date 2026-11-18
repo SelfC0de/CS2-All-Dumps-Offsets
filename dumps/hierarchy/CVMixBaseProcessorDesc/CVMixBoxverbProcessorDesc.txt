@@ -1,0 +1,10 @@
+// CVMixBoxverbProcessorDesc
+// Size: 0xB345372F (-1287309521 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixBoxverbProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

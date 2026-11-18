@@ -1,0 +1,10 @@
+// CItemAssaultSuit
+// Size: 0xB345CCEF (-1287271185 bytes)
+// Parent: CItem
+// Module: server.dll
+//
+// Inheritance:
+//   CItemAssaultSuit -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+//
+
+// (no own fields)

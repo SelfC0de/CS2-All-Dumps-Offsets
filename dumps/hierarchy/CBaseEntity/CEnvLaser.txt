@@ -1,0 +1,10 @@
+// CEnvLaser
+// Size: 0xB345C970 (-1287272080 bytes)
+// Parent: CBeam
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvLaser -> CBeam -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

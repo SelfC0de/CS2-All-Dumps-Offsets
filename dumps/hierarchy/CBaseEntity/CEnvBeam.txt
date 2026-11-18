@@ -1,0 +1,10 @@
+// CEnvBeam
+// Size: 0xB345C5B1 (-1287273039 bytes)
+// Parent: CBeam
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvBeam -> CBeam -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

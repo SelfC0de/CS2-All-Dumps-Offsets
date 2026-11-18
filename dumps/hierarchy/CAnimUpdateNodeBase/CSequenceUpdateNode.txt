@@ -1,0 +1,13 @@
+// CSequenceUpdateNode
+// Size: 0xB3450963 (-1287321245 bytes)
+// Parent: CSequenceUpdateNodeBase
+// Module: client.dll
+//
+// Inheritance:
+//   CSequenceUpdateNode -> CSequenceUpdateNodeBase -> CLeafUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IAnimVarBindingAdditionalContextLabelHelper -> ITargetWarpInputNode
+//
+// Direct subclasses (1):
+//   CJumpHelperUpdateNode
+//
+
+// (no own fields)

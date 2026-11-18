@@ -1,0 +1,5 @@
+# Dezlock Schema Hierarchy Index - server.dll
+# 310 classes in 6 categories
+
+fogplayerparams_t (0xB3459AA6, 0 fields)
+

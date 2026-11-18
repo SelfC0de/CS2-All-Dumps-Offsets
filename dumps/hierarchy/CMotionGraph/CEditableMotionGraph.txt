@@ -1,0 +1,10 @@
+// CEditableMotionGraph
+// Size: 0xB3450004 (-1287323644 bytes)
+// Parent: CMotionGraph
+// Module: client.dll
+//
+// Inheritance:
+//   CEditableMotionGraph -> CMotionGraph -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

@@ -1,0 +1,9 @@
+// IChoreoServices
+// Size: 0xB3458AFE (-1287288066 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   CGameChoreoServices
+//
+
+// (no own fields)

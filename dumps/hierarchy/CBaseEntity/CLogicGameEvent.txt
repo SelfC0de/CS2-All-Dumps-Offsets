@@ -1,0 +1,10 @@
+// CLogicGameEvent
+// Size: 0xB345B677 (-1287276937 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicGameEvent -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

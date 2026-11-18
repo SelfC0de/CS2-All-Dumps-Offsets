@@ -1,0 +1,10 @@
+// CPhysSlideConstraint
+// Size: 0xB345B770 (-1287276688 bytes)
+// Parent: CPhysConstraint
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysSlideConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IVPhysicsWatcher -> IWatcherCallback
+//
+
+// (no own fields)

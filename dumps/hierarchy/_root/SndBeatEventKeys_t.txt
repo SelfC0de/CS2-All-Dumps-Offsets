@@ -1,0 +1,11 @@
+// SndBeatEventKeys_t
+// Size: 0xB3452E78 (-1287311752 bytes)
+// Module: client.dll
+//
+// Direct subclasses (3):
+//   SndBeatEventKeyedFloats_t
+//   SndBeatEventKeyedMidiNotes_t
+//   SndBeatEventKeyedSndEvts_t
+//
+
+// (no own fields)

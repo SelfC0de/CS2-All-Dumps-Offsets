@@ -1,0 +1,10 @@
+// C_PointDeathcamBounds
+// Size: 0xB345F0BA (-1287262022 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_PointDeathcamBounds -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

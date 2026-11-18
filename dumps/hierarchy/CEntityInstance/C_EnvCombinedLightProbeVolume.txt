@@ -1,0 +1,13 @@
+// C_EnvCombinedLightProbeVolume
+// Size: 0xB345F216 (-1287261674 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_EnvCombinedLightProbeVolume -> C_BaseEntity -> CEntityInstance -> CBaseCubemap -> IToolObject -> CBaseLightProbeVolume -> IToolObject
+//
+// Direct subclasses (1):
+//   C_EnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_CSMinimapBoundary
+// Size: 0xB345ED83 (-1287262845 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSMinimapBoundary -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

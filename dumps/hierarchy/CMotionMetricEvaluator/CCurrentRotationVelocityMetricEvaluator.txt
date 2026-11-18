@@ -1,0 +1,10 @@
+// CCurrentRotationVelocityMetricEvaluator
+// Size: 0xB34500F0 (-1287323408 bytes)
+// Parent: CMotionMetricEvaluator
+// Module: client.dll
+//
+// Inheritance:
+//   CCurrentRotationVelocityMetricEvaluator -> CMotionMetricEvaluator -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

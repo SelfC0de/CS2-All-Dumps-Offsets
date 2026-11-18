@@ -1,0 +1,10 @@
+// CFogVolume
+// Size: 0xB345C1CA (-1287274038 bytes)
+// Parent: CServerOnlyModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CFogVolume -> CServerOnlyModelEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

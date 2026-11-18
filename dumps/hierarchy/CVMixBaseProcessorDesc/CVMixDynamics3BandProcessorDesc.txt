@@ -1,0 +1,10 @@
+// CVMixDynamics3BandProcessorDesc
+// Size: 0xB345388F (-1287309169 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixDynamics3BandProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

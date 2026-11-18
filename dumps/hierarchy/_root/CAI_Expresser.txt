@@ -1,0 +1,13 @@
+// CAI_Expresser
+// Size: 0xB3458E45 (-1287287227 bytes)
+// Parent: IResponseFilter
+// Module: client.dll
+//
+// Inheritance:
+//   CAI_Expresser -> IResponseFilter
+//
+// Direct subclasses (1):
+//   CAI_ExpresserWithFollowup
+//
+
+// (no own fields)

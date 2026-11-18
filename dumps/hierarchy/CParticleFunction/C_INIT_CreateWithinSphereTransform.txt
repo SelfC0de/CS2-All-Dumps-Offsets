@@ -1,0 +1,10 @@
+// C_INIT_CreateWithinSphereTransform
+// Size: 0xB3454FCC (-1287303220 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreateWithinSphereTransform -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

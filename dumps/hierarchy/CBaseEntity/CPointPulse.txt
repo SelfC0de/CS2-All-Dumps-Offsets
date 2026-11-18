@@ -1,0 +1,10 @@
+// CPointPulse
+// Size: 0xB345BB36 (-1287275722 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointPulse -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

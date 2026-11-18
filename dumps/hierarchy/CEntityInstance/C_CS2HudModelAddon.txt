@@ -1,0 +1,10 @@
+// C_CS2HudModelAddon
+// Size: 0x6FAF013C (1873740092 bytes)
+// Parent: C_LateUpdatedAnimating
+// Module: client.dll
+//
+// Inheritance:
+//   C_CS2HudModelAddon -> C_LateUpdatedAnimating -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IBoneTransformModifier
+//
+
+// (no own fields)

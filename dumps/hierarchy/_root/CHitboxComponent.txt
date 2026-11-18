@@ -1,0 +1,10 @@
+// CHitboxComponent
+// Size: 0xB3457EFE (-1287291138 bytes)
+// Parent: CEntityComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CHitboxComponent -> CEntityComponent
+//
+
+// (no own fields)

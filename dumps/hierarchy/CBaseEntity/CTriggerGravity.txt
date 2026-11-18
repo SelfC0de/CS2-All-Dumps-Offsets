@@ -1,0 +1,10 @@
+// CTriggerGravity
+// Size: 0xB345C895 (-1287272299 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerGravity -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

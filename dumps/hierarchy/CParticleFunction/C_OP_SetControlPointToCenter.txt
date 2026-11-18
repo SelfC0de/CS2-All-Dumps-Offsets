@@ -1,0 +1,10 @@
+// C_OP_SetControlPointToCenter
+// Size: 0xB34575C6 (-1287293498 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetControlPointToCenter -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

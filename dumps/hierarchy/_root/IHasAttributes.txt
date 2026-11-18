@@ -1,0 +1,6 @@
+// IHasAttributes
+// Size: 0xB3459F98 (-1287282792 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

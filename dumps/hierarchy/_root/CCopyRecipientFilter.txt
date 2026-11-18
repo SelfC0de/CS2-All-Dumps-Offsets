@@ -1,0 +1,10 @@
+// CCopyRecipientFilter
+// Size: 0xB3459CFC (-1287283460 bytes)
+// Parent: IRecipientFilter
+// Module: client.dll
+//
+// Inheritance:
+//   CCopyRecipientFilter -> IRecipientFilter
+//
+
+// (no own fields)

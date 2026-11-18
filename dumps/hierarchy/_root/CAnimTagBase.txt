@@ -1,0 +1,25 @@
+// CAnimTagBase
+// Size: 0xB33DEB55 (-1287787691 bytes)
+// Parent: IAnimTag
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimTagBase -> IAnimTag -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+// Direct subclasses (13):
+//   CAudioAnimTag
+//   CBodyGroupAnimTag
+//   CClothSettingsAnimTag
+//   CFootFallAnimTag
+//   CFootstepLandedAnimTag
+//   CHandshakeAnimTagBase
+//   CMaterialAttributeAnimTag
+//   CParticleAnimTag
+//   CRagdollAnimTag
+//   CSequenceFinishedAnimTag
+//   CStringAnimTag
+//   CTaskStatusAnimTag
+//   CWarpSectionAnimTagBase
+//
+
+// (no own fields)

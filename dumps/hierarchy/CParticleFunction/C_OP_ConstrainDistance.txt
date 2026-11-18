@@ -1,0 +1,10 @@
+// C_OP_ConstrainDistance
+// Size: 0xB3454D2F (-1287303889 bytes)
+// Parent: CParticleFunctionConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ConstrainDistance -> CParticleFunctionConstraint -> CParticleFunction
+//
+
+// (no own fields)

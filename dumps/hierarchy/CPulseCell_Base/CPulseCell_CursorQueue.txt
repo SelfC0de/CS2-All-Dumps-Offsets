@@ -1,0 +1,10 @@
+// CPulseCell_CursorQueue
+// Size: 0xB364EB2A (-1285231830 bytes)
+// Parent: CPulseCell_WaitForCursorsWithTagBase
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_CursorQueue -> CPulseCell_WaitForCursorsWithTagBase -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

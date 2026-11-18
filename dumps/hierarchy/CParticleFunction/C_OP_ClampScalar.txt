@@ -1,0 +1,10 @@
+// C_OP_ClampScalar
+// Size: 0xB3455F90 (-1287299184 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ClampScalar -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

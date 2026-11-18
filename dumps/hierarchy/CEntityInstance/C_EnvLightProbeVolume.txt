@@ -1,0 +1,10 @@
+// C_EnvLightProbeVolume
+// Size: 0xB345F2CB (-1287261493 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_EnvLightProbeVolume -> C_BaseEntity -> CEntityInstance -> CBaseLightProbeVolume -> IToolObject
+//
+
+// (no own fields)

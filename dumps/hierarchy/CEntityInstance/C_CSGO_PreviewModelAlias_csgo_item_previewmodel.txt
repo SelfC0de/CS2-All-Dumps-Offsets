@@ -1,0 +1,10 @@
+// C_CSGO_PreviewModelAlias_csgo_item_previewmodel
+// Size: 0xB345FD9B (-1287258725 bytes)
+// Parent: C_CSGO_PreviewModel
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSGO_PreviewModelAlias_csgo_item_previewmodel -> C_CSGO_PreviewModel -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

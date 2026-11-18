@@ -1,0 +1,10 @@
+// CCSPlayer_MovementServices
+// Size: 0xB345A62F (-1287281105 bytes)
+// Parent: CPlayer_MovementServices_Humanoid
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayer_MovementServices -> CPlayer_MovementServices_Humanoid -> CPlayer_MovementServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

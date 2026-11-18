@@ -1,0 +1,13 @@
+// CRopeKeyframe
+// Size: 0xB345BDBE (-1287275074 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CRopeKeyframe -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+//
+// Direct subclasses (1):
+//   CRopeKeyframeAlias_move_rope
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_INIT_RemapScalarToVector
+// Size: 0xB3455593 (-1287301741 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RemapScalarToVector -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

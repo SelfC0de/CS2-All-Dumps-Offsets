@@ -1,0 +1,10 @@
+// CSosGroupActionLimitSchema
+// Size: 0xB3452C1F (-1287312353 bytes)
+// Parent: CSosGroupActionSchema
+// Module: client.dll
+//
+// Inheritance:
+//   CSosGroupActionLimitSchema -> CSosGroupActionSchema
+//
+
+// (no own fields)

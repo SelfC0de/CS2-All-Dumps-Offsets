@@ -1,0 +1,10 @@
+// CBoneMaskUpdateNode
+// Size: 0xB34506F1 (-1287321871 bytes)
+// Parent: CBinaryUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CBoneMaskUpdateNode -> CBinaryUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> ITargetWarpInputNode
+//
+
+// (no own fields)

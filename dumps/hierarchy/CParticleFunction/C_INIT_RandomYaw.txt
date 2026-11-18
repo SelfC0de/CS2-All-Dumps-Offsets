@@ -1,0 +1,10 @@
+// C_INIT_RandomYaw
+// Size: 0xB34552AC (-1287302484 bytes)
+// Parent: CGeneralRandomRotation
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RandomYaw -> CGeneralRandomRotation -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

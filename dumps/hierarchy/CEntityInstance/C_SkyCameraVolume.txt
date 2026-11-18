@@ -1,0 +1,10 @@
+// C_SkyCameraVolume
+// Size: 0xB345EDB7 (-1287262793 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_SkyCameraVolume -> C_BaseEntity -> CEntityInstance -> ?$CUtlAutoList@VC_SkyCameraVolume
+//
+
+// (no own fields)

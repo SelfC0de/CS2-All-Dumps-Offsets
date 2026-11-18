@@ -1,0 +1,10 @@
+// C_INIT_AgeNoise
+// Size: 0xB3455563 (-1287301789 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_AgeNoise -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CBlockSelectionMetricEvaluator
+// Size: 0xB345008B (-1287323509 bytes)
+// Parent: CMotionMetricEvaluator
+// Module: client.dll
+//
+// Inheritance:
+//   CBlockSelectionMetricEvaluator -> CMotionMetricEvaluator -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

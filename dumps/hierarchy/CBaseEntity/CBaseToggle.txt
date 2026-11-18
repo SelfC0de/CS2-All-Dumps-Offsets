@@ -1,0 +1,16 @@
+// CBaseToggle
+// Size: 0xB345BB8D (-1287275635 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (4):
+//   CBaseButton
+//   CBasePlatTrain
+//   CFuncMoveLinear
+//   CGunTarget
+//
+
+// (no own fields)

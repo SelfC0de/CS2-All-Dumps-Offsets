@@ -1,0 +1,12 @@
+// CPulseCell_Base
+// Size: 0xB364C4A6 (-1285241690 bytes)
+// Module: client.dll
+//
+// Direct subclasses (4):
+//   CPulseCell_BaseFlow
+//   CPulseCell_BaseRequirement
+//   CPulseCell_BaseValue
+//   CPulseCell_Unknown
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_VelocityMatchingForce
+// Size: 0xB3456982 (-1287296638 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_VelocityMatchingForce -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

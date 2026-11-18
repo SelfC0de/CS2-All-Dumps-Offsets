@@ -1,0 +1,10 @@
+// C_OP_RtEnvCull
+// Size: 0xB3456848 (-1287296952 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RtEnvCull -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

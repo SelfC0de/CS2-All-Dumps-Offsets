@@ -1,0 +1,10 @@
+// CCSPlayer_HostageServices
+// Size: 0xB345A5DE (-1287281186 bytes)
+// Parent: CPlayerPawnComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayer_HostageServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

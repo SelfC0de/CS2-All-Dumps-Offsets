@@ -1,0 +1,10 @@
+// C_DecoyProjectile
+// Size: 0x6FAF004C (1873739852 bytes)
+// Parent: C_BaseCSGrenadeProjectile
+// Module: client.dll
+//
+// Inheritance:
+//   C_DecoyProjectile -> C_BaseCSGrenadeProjectile -> C_BaseGrenade -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

@@ -1,0 +1,6 @@
+// TestComponent_t
+// Size: 0xB34543EA (-1287306262 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

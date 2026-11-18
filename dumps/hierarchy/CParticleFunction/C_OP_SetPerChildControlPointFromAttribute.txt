@@ -1,0 +1,10 @@
+// C_OP_SetPerChildControlPointFromAttribute
+// Size: 0xB3456629 (-1287297495 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetPerChildControlPointFromAttribute -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

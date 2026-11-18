@@ -1,0 +1,10 @@
+// C_LocalTempEntity
+// Size: 0xB345FC78 (-1287259016 bytes)
+// Parent: CBaseAnimGraph
+// Module: client.dll
+//
+// Inheritance:
+//   C_LocalTempEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

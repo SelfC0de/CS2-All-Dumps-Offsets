@@ -1,0 +1,10 @@
+// CMultiplayRules
+// Size: 0xB3459A68 (-1287284120 bytes)
+// Parent: CGameRules
+// Module: server.dll
+//
+// Inheritance:
+//   CMultiplayRules -> CGameRules -> CMemZeroOnNew
+//
+
+// (no own fields)

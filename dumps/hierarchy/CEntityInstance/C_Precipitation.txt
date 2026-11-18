@@ -1,0 +1,10 @@
+// C_Precipitation
+// Size: 0xB345FBAF (-1287259217 bytes)
+// Parent: C_BaseTrigger
+// Module: client.dll
+//
+// Inheritance:
+//   C_Precipitation -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

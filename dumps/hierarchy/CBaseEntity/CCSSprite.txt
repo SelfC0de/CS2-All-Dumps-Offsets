@@ -1,0 +1,10 @@
+// CCSSprite
+// Size: 0xB345C09D (-1287274339 bytes)
+// Parent: CSprite
+// Module: server.dll
+//
+// Inheritance:
+//   CCSSprite -> CSprite -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

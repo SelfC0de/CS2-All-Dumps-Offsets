@@ -1,0 +1,10 @@
+// CPointConstraint
+// Size: 0xB364F50E (-1285229298 bytes)
+// Parent: CBaseConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   CPointConstraint -> CBaseConstraint -> CBoneConstraintBase
+//
+
+// (no own fields)

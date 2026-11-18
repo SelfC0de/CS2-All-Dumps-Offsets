@@ -1,0 +1,10 @@
+// CChangeLevel
+// Size: 0xB345CA77 (-1287271817 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CChangeLevel -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CConstantForceController
+// Size: 0xB3458F2E (-1287286994 bytes)
+// Parent: IMotionEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CConstantForceController -> IMotionEvent
+//
+
+// (no own fields)

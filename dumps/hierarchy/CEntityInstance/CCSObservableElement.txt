@@ -1,0 +1,10 @@
+// CCSObservableElement
+// Size: 0xB345A401 (-1287281663 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CCSObservableElement -> C_BaseEntity -> CEntityInstance -> ?$CUtlAutoList@VCCSObservableElement
+//
+
+// (no own fields)

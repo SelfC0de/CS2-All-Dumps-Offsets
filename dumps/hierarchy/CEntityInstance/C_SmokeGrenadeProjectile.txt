@@ -1,0 +1,10 @@
+// C_SmokeGrenadeProjectile
+// Size: 0x6FAF0062 (1873739874 bytes)
+// Parent: C_BaseCSGrenadeProjectile
+// Module: client.dll
+//
+// Inheritance:
+//   C_SmokeGrenadeProjectile -> C_BaseCSGrenadeProjectile -> C_BaseGrenade -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> ?$CUtlAutoList@VC_SmokeGrenadeProjectile
+//
+
+// (no own fields)

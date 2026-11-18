@@ -1,0 +1,10 @@
+// CNetworkTransmitComponent
+// Size: 0xB3457F27 (-1287291097 bytes)
+// Parent: IEventRegisterCallback
+// Module: client.dll
+//
+// Inheritance:
+//   CNetworkTransmitComponent -> IEventRegisterCallback
+//
+
+// (no own fields)

@@ -1,0 +1,6 @@
+// ServerAuthoritativeWeaponSlot_t
+// Size: 0xB345A85D (-1287280547 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

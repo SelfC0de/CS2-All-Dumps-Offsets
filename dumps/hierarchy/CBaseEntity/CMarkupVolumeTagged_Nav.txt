@@ -1,0 +1,10 @@
+// CMarkupVolumeTagged_Nav
+// Size: 0xB345C6B4 (-1287272780 bytes)
+// Parent: CMarkupVolumeTagged
+// Module: server.dll
+//
+// Inheritance:
+//   CMarkupVolumeTagged_Nav -> CMarkupVolumeTagged -> CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

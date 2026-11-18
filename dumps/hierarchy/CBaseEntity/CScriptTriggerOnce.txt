@@ -1,0 +1,10 @@
+// CScriptTriggerOnce
+// Size: 0xB345CE80 (-1287270784 bytes)
+// Parent: CTriggerOnce
+// Module: server.dll
+//
+// Inheritance:
+//   CScriptTriggerOnce -> CTriggerOnce -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

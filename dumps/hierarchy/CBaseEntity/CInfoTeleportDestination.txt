@@ -1,0 +1,10 @@
+// CInfoTeleportDestination
+// Size: 0xB345BAB3 (-1287275853 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CInfoTeleportDestination -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

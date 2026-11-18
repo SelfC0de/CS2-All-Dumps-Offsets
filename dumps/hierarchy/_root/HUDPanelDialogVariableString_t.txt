@@ -1,0 +1,6 @@
+// HUDPanelDialogVariableString_t
+// Size: 0xB345A431 (-1287281615 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

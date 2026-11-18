@@ -1,0 +1,10 @@
+// C_OP_SetRandomControlPointPosition
+// Size: 0xB34574A4 (-1287293788 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetRandomControlPointPosition -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

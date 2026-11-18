@@ -1,0 +1,10 @@
+// C_INIT_SetRigidAttachment
+// Size: 0xB345597D (-1287300739 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_SetRigidAttachment -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

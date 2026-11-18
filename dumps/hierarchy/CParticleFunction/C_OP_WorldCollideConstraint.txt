@@ -1,0 +1,10 @@
+// C_OP_WorldCollideConstraint
+// Size: 0xB3454DF0 (-1287303696 bytes)
+// Parent: CParticleFunctionConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_WorldCollideConstraint -> CParticleFunctionConstraint -> CParticleFunction
+//
+
+// (no own fields)

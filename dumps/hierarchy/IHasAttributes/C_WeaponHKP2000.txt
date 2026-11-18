@@ -1,0 +1,10 @@
+// C_WeaponHKP2000
+// Size: 0x6FAF0234 (1873740340 bytes)
+// Parent: C_CSWeaponBaseGun
+// Module: client.dll
+//
+// Inheritance:
+//   C_WeaponHKP2000 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+
+// (no own fields)

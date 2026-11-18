@@ -1,0 +1,10 @@
+// CWeaponM249
+// Size: 0xB345D1E1 (-1287269919 bytes)
+// Parent: CCSWeaponBaseGun
+// Module: server.dll
+//
+// Inheritance:
+//   CWeaponM249 -> CCSWeaponBaseGun -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+//
+
+// (no own fields)

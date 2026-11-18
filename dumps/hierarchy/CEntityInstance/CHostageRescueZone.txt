@@ -1,0 +1,10 @@
+// CHostageRescueZone
+// Size: 0xB345CB23 (-1287271645 bytes)
+// Parent: CHostageRescueZoneShim
+// Module: client.dll
+//
+// Inheritance:
+//   CHostageRescueZone -> CHostageRescueZoneShim -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> ?$CUtlAutoList@VCHostageRescueZone
+//
+
+// (no own fields)

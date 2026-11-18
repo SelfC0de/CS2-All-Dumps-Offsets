@@ -1,0 +1,10 @@
+// C_INIT_RemapInitialDirectionToTransformToVector
+// Size: 0xB34558C3 (-1287300925 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RemapInitialDirectionToTransformToVector -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

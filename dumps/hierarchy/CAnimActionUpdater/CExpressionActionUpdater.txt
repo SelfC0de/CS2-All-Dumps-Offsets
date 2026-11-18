@@ -1,0 +1,10 @@
+// CExpressionActionUpdater
+// Size: 0xB33DEB38 (-1287787720 bytes)
+// Parent: CAnimActionUpdater
+// Module: client.dll
+//
+// Inheritance:
+//   CExpressionActionUpdater -> CAnimActionUpdater -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

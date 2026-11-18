@@ -1,0 +1,10 @@
+// CInfoGameEventProxy
+// Size: 0xB345B032 (-1287278542 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CInfoGameEventProxy -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

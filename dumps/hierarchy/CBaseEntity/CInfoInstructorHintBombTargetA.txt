@@ -1,0 +1,10 @@
+// CInfoInstructorHintBombTargetA
+// Size: 0xB345C01F (-1287274465 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CInfoInstructorHintBombTargetA -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_LerpToInitialPosition
+// Size: 0xB3456706 (-1287297274 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_LerpToInitialPosition -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

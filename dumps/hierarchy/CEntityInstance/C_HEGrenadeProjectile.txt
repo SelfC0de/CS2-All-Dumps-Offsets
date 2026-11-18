@@ -1,0 +1,10 @@
+// C_HEGrenadeProjectile
+// Size: 0xB345FEAA (-1287258454 bytes)
+// Parent: C_BaseCSGrenadeProjectile
+// Module: client.dll
+//
+// Inheritance:
+//   C_HEGrenadeProjectile -> C_BaseCSGrenadeProjectile -> C_BaseGrenade -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

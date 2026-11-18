@@ -1,0 +1,10 @@
+// C_INIT_RandomRotationSpeed
+// Size: 0xB345528D (-1287302515 bytes)
+// Parent: CGeneralRandomRotation
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RandomRotationSpeed -> CGeneralRandomRotation -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

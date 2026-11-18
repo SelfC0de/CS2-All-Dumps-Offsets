@@ -1,0 +1,10 @@
+// CFuncNavObstruction
+// Size: 0xB345BB46 (-1287275706 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncNavObstruction -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> INavObstacle -> IPositionWatcher -> IWatcherCallback
+//
+
+// (no own fields)

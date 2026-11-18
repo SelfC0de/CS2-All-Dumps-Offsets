@@ -1,0 +1,10 @@
+// CPointTemplate
+// Size: 0xB345AD90 (-1287279216 bytes)
+// Parent: CLogicalEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CPointTemplate -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

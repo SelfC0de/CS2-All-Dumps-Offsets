@@ -1,0 +1,10 @@
+// C_PlantedC4
+// Size: 0xB345FE74 (-1287258508 bytes)
+// Parent: CBaseAnimGraph
+// Module: client.dll
+//
+// Inheritance:
+//   C_PlantedC4 -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> ?$CUtlAutoList@VC_PlantedC4
+//
+
+// (no own fields)

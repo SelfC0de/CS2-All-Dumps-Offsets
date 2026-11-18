@@ -1,0 +1,10 @@
+// C_OP_MovementRigidAttachToCP
+// Size: 0xB34566E5 (-1287297307 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_MovementRigidAttachToCP -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

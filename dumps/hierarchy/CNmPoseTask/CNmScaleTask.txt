@@ -1,0 +1,10 @@
+// CNmScaleTask
+// Size: 0xB3450E0B (-1287320053 bytes)
+// Parent: CNmPoseTask
+// Module: client.dll
+//
+// Inheritance:
+//   CNmScaleTask -> CNmPoseTask
+//
+
+// (no own fields)

@@ -1,0 +1,6 @@
+// EntitySpottedState_t
+// Size: 0xB3459FE9 (-1287282711 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

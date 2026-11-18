@@ -1,0 +1,13 @@
+// CInfoDynamicShadowHint
+// Size: 0xB345C1D9 (-1287274023 bytes)
+// Parent: C_PointEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CInfoDynamicShadowHint -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+//
+// Direct subclasses (1):
+//   CInfoDynamicShadowHintBox
+//
+
+// (no own fields)

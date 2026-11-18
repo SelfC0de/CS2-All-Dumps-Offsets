@@ -1,0 +1,10 @@
+// C_OP_RemapDotProductToCP
+// Size: 0xB34572C2 (-1287294270 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapDotProductToCP -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CCSWeaponBaseVData
+// Size: 0xB345A934 (-1287280332 bytes)
+// Parent: CBasePlayerWeaponVData
+// Module: client.dll
+//
+// Inheritance:
+//   CCSWeaponBaseVData -> CBasePlayerWeaponVData -> CEntitySubclassVDataBase -> CMemZeroOnNew
+//
+
+// (no own fields)

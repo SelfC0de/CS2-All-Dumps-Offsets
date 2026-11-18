@@ -1,0 +1,10 @@
+// CInfoWorldLayer
+// Size: 0xB345AD18 (-1287279336 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CInfoWorldLayer -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

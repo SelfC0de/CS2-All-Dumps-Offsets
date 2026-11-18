@@ -1,0 +1,10 @@
+// CTriggerDetectBulletFire
+// Size: 0xB345C90C (-1287272180 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerDetectBulletFire -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

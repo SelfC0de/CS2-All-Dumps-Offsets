@@ -1,0 +1,10 @@
+// C_OP_DampenToCP
+// Size: 0xB345667F (-1287297409 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_DampenToCP -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

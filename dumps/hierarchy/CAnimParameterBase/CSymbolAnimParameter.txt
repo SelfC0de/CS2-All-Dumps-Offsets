@@ -1,0 +1,10 @@
+// CSymbolAnimParameter
+// Size: 0xB3450579 (-1287322247 bytes)
+// Parent: CConcreteAnimParameter
+// Module: client.dll
+//
+// Inheritance:
+//   CSymbolAnimParameter -> CConcreteAnimParameter -> CAnimParameterBase -> IAnimParameter -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

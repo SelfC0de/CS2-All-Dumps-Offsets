@@ -1,0 +1,10 @@
+// C_INIT_LifespanFromVelocity
+// Size: 0xB345572F (-1287301329 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_LifespanFromVelocity -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

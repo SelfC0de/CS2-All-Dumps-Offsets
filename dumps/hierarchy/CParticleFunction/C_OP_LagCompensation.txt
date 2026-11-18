@@ -1,0 +1,10 @@
+// C_OP_LagCompensation
+// Size: 0xB3456B3D (-1287296195 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_LagCompensation -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

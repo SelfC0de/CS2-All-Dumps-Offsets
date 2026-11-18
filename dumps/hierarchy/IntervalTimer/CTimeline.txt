@@ -1,0 +1,10 @@
+// CTimeline
+// Size: 0xB3458CA4 (-1287287644 bytes)
+// Parent: IntervalTimer
+// Module: client.dll
+//
+// Inheritance:
+//   CTimeline -> IntervalTimer
+//
+
+// (no own fields)

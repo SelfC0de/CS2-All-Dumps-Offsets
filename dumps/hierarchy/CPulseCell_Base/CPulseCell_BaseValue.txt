@@ -1,0 +1,16 @@
+// CPulseCell_BaseValue
+// Size: 0xB364C64B (-1285241269 bytes)
+// Parent: CPulseCell_Base
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_BaseValue -> CPulseCell_Base
+//
+// Direct subclasses (4):
+//   CPulseCell_Value_Curve
+//   CPulseCell_Value_Gradient
+//   CPulseCell_Value_RandomFloat
+//   CPulseCell_Value_RandomInt
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CCSPlayer_CameraServices
+// Size: 0xB345A5C1 (-1287281215 bytes)
+// Parent: CCSPlayerBase_CameraServices
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayer_CameraServices -> CCSPlayerBase_CameraServices -> CPlayer_CameraServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

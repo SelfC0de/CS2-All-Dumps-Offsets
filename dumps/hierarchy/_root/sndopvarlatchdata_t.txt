@@ -1,0 +1,6 @@
+// sndopvarlatchdata_t
+// Size: 0xB3459ACE (-1287284018 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

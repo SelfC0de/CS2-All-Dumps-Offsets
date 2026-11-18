@@ -1,0 +1,10 @@
+// CLeanMatrixUpdateNode
+// Size: 0xB34508AA (-1287321430 bytes)
+// Parent: CLeafUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CLeanMatrixUpdateNode -> CLeafUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

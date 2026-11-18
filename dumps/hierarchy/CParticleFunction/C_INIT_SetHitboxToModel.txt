@@ -1,0 +1,10 @@
+// C_INIT_SetHitboxToModel
+// Size: 0xB3454FB0 (-1287303248 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_SetHitboxToModel -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_CreateParticleSystemRenderer
+// Size: 0xB3457CEE (-1287291666 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_CreateParticleSystemRenderer -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

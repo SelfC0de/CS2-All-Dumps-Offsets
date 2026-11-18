@@ -1,0 +1,15 @@
+// CEntitySubclassVDataBase
+// Size: 0xB34580B0 (-1287290704 bytes)
+// Parent: CMemZeroOnNew
+// Module: client.dll
+//
+// Inheritance:
+//   CEntitySubclassVDataBase -> CMemZeroOnNew
+//
+// Direct subclasses (3):
+//   CBasePlayerVData
+//   CBasePlayerWeaponVData
+//   CPrecipitationVData
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CVoiceContainerGranulator
+// Size: 0xB3453266 (-1287310746 bytes)
+// Parent: CVoiceContainerAsyncGenerator
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerGranulator -> CVoiceContainerAsyncGenerator -> CVoiceContainerGenerator -> CVoiceContainerBase
+//
+
+// (no own fields)

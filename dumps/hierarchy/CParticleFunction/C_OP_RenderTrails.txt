@@ -1,0 +1,10 @@
+// C_OP_RenderTrails
+// Size: 0xB3457978 (-1287292552 bytes)
+// Parent: CBaseTrailRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderTrails -> CBaseTrailRenderer -> CBaseRendererSource2 -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

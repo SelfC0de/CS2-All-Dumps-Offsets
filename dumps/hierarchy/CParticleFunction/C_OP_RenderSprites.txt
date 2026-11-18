@@ -1,0 +1,10 @@
+// C_OP_RenderSprites
+// Size: 0xB3454CC2 (-1287303998 bytes)
+// Parent: CBaseRendererSource2
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderSprites -> CBaseRendererSource2 -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_ConnectParentParticleToNearest
+// Size: 0xB3457242 (-1287294398 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ConnectParentParticleToNearest -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

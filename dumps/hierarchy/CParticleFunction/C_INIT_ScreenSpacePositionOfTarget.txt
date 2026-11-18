@@ -1,0 +1,10 @@
+// C_INIT_ScreenSpacePositionOfTarget
+// Size: 0xB3454F14 (-1287303404 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_ScreenSpacePositionOfTarget -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

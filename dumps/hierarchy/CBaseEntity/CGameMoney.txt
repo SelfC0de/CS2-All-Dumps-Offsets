@@ -1,0 +1,10 @@
+// CGameMoney
+// Size: 0xB345C131 (-1287274191 bytes)
+// Parent: CRulePointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CGameMoney -> CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

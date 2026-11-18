@@ -1,0 +1,10 @@
+// C_GlobalLight
+// Size: 0xB345EE51 (-1287262639 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_GlobalLight -> C_BaseEntity -> CEntityInstance -> CGlobalLightBase -> IToolObject
+//
+
+// (no own fields)

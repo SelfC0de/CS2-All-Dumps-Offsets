@@ -1,0 +1,10 @@
+// CGunTarget
+// Size: 0xB345C62D (-1287272915 bytes)
+// Parent: CBaseToggle
+// Module: server.dll
+//
+// Inheritance:
+//   CGunTarget -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

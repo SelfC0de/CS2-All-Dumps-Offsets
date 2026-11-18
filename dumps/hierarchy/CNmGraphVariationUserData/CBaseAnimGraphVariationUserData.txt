@@ -1,0 +1,10 @@
+// CBaseAnimGraphVariationUserData
+// Size: 0xB345818E (-1287290482 bytes)
+// Parent: CNmGraphVariationUserData
+// Module: client.dll
+//
+// Inheritance:
+//   CBaseAnimGraphVariationUserData -> CNmGraphVariationUserData
+//
+
+// (no own fields)

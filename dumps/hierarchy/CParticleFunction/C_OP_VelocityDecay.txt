@@ -1,0 +1,10 @@
+// C_OP_VelocityDecay
+// Size: 0xB3456407 (-1287298041 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_VelocityDecay -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

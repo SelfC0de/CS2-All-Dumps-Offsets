@@ -1,0 +1,10 @@
+// CEconItemView
+// Size: 0xB345BF67 (-1287274649 bytes)
+// Parent: IEconItemInterface
+// Module: server.dll
+//
+// Inheritance:
+//   CEconItemView -> IEconItemInterface
+//
+
+// (no own fields)

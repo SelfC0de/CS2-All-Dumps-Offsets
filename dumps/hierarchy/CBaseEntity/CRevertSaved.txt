@@ -1,0 +1,10 @@
+// CRevertSaved
+// Size: 0xB345B979 (-1287276167 bytes)
+// Parent: CModelPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CRevertSaved -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

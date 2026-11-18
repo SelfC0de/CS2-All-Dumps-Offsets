@@ -1,0 +1,10 @@
+// CConstraintAnchor
+// Size: 0xB345C720 (-1287272672 bytes)
+// Parent: CBaseAnimGraph
+// Module: server.dll
+//
+// Inheritance:
+//   CConstraintAnchor -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

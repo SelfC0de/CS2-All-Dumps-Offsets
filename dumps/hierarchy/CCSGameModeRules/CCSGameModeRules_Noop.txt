@@ -1,0 +1,10 @@
+// CCSGameModeRules_Noop
+// Size: 0xB345A04D (-1287282611 bytes)
+// Parent: CCSGameModeRules
+// Module: client.dll
+//
+// Inheritance:
+//   CCSGameModeRules_Noop -> CCSGameModeRules
+//
+
+// (no own fields)

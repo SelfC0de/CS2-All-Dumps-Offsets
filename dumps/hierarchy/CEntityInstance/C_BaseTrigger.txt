@@ -1,0 +1,23 @@
+// C_BaseTrigger
+// Size: 0xB345F9E1 (-1287259679 bytes)
+// Parent: C_BaseToggle
+// Module: client.dll
+//
+// Inheritance:
+//   C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (11):
+//   CCSMinimapVolume
+//   CHostageRescueZoneShim
+//   CTriggerFan
+//   C_ColorCorrectionVolume
+//   C_FootstepControl
+//   C_PostProcessingVolume
+//   C_Precipitation
+//   C_TriggerBuoyancy
+//   C_TriggerLerpObject
+//   C_TriggerMultiple
+//   C_TriggerPhysics
+//
+
+// (no own fields)

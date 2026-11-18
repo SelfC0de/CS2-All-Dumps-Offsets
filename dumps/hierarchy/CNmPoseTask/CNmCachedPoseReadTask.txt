@@ -1,0 +1,10 @@
+// CNmCachedPoseReadTask
+// Size: 0xB3450D73 (-1287320205 bytes)
+// Parent: CNmPoseTask
+// Module: client.dll
+//
+// Inheritance:
+//   CNmCachedPoseReadTask -> CNmPoseTask
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CPointProximitySensor
+// Size: 0xB345B8D4 (-1287276332 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointProximitySensor -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_RepeatedTriggerChildGroup
+// Size: 0xB34577F2 (-1287292942 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RepeatedTriggerChildGroup -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

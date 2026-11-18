@@ -1,0 +1,10 @@
+// C_INIT_InitSkinnedPositionFromCPSnapshot
+// Size: 0xB345584F (-1287301041 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_InitSkinnedPositionFromCPSnapshot -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

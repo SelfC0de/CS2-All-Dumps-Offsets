@@ -1,0 +1,10 @@
+// C_EconItemView
+// Size: 0xB345F836 (-1287260106 bytes)
+// Parent: IEconItemInterface
+// Module: client.dll
+//
+// Inheritance:
+//   C_EconItemView -> IEconItemInterface
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// ChickenPathCost
+// Size: 0xB345A9FD (-1287280131 bytes)
+// Parent: CNavPathCost
+// Module: client.dll
+//
+// Inheritance:
+//   ChickenPathCost -> CNavPathCost -> INavPathCost
+//
+
+// (no own fields)

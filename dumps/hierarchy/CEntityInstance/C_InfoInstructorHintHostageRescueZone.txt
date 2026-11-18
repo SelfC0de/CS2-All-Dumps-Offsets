@@ -1,0 +1,10 @@
+// C_InfoInstructorHintHostageRescueZone
+// Size: 0xB345F85C (-1287260068 bytes)
+// Parent: C_PointEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_InfoInstructorHintHostageRescueZone -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

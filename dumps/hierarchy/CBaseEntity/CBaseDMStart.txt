@@ -1,0 +1,10 @@
+// CBaseDMStart
+// Size: 0xB345BA0D (-1287276019 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CBaseDMStart -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

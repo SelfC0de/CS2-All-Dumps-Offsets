@@ -1,0 +1,10 @@
+// CFootPinningUpdateNode
+// Size: 0xB3451F3F (-1287315649 bytes)
+// Parent: CUnaryUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CFootPinningUpdateNode -> CUnaryUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> ITargetWarpInputNode
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_RenderClothForce
+// Size: 0xB3457B03 (-1287292157 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderClothForce -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

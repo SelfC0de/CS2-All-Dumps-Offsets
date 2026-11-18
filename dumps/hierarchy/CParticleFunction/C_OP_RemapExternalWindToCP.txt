@@ -1,0 +1,10 @@
+// C_OP_RemapExternalWindToCP
+// Size: 0xB34578F7 (-1287292681 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapExternalWindToCP -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

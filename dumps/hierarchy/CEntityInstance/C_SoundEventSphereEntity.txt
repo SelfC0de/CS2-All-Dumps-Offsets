@@ -1,0 +1,10 @@
+// C_SoundEventSphereEntity
+// Size: 0xB345F476 (-1287261066 bytes)
+// Parent: C_SoundEventEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_SoundEventSphereEntity -> C_SoundEventEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

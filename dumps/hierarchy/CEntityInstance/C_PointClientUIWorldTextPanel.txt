@@ -1,0 +1,10 @@
+// C_PointClientUIWorldTextPanel
+// Size: 0xB345F814 (-1287260140 bytes)
+// Parent: C_PointClientUIWorldPanel
+// Module: client.dll
+//
+// Inheritance:
+//   C_PointClientUIWorldTextPanel -> C_PointClientUIWorldPanel -> C_BaseClientUIEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IClientUIDialogListener
+//
+
+// (no own fields)

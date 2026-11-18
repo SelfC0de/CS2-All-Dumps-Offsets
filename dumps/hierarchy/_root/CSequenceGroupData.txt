@@ -1,0 +1,10 @@
+// CSequenceGroupData
+// Size: 0xB32C86F8 (-1288927496 bytes)
+// Parent: ?$CRefCounted@V?$CRefCountServiceBase@VCRefMT
+// Module: client.dll
+//
+// Inheritance:
+//   CSequenceGroupData -> ?$CRefCounted@V?$CRefCountServiceBase@VCRefMT -> ?$CRefCountServiceBase@VCRefMT
+//
+
+// (no own fields)

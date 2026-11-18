@@ -1,0 +1,10 @@
+// CPointClientUIWorldPanel
+// Size: 0xB345BF07 (-1287274745 bytes)
+// Parent: CBaseClientUIEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointClientUIWorldPanel -> CBaseClientUIEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

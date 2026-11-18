@@ -1,0 +1,10 @@
+// C_SoundEventBoxHelper
+// Size: 0xB345F50A (-1287260918 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_SoundEventBoxHelper -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

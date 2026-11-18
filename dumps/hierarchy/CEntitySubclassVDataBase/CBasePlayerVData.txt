@@ -1,0 +1,10 @@
+// CBasePlayerVData
+// Size: 0xB34581CE (-1287290418 bytes)
+// Parent: CEntitySubclassVDataBase
+// Module: client.dll
+//
+// Inheritance:
+//   CBasePlayerVData -> CEntitySubclassVDataBase -> CMemZeroOnNew
+//
+
+// (no own fields)

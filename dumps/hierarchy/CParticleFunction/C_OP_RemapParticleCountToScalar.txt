@@ -1,0 +1,10 @@
+// C_OP_RemapParticleCountToScalar
+// Size: 0xB34561AB (-1287298645 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapParticleCountToScalar -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

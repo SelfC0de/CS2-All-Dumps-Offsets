@@ -1,0 +1,10 @@
+// C_OP_MovementRotateParticleAroundAxis
+// Size: 0xB3456AE8 (-1287296280 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_MovementRotateParticleAroundAxis -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CSosGroupActionSoundeventCountSchema
+// Size: 0xB3452D3D (-1287312067 bytes)
+// Parent: CSosGroupActionSchema
+// Module: client.dll
+//
+// Inheritance:
+//   CSosGroupActionSoundeventCountSchema -> CSosGroupActionSchema
+//
+
+// (no own fields)

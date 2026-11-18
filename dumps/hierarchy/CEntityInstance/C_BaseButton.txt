@@ -1,0 +1,10 @@
+// C_BaseButton
+// Size: 0xB345F646 (-1287260602 bytes)
+// Parent: C_BaseToggle
+// Module: client.dll
+//
+// Inheritance:
+//   C_BaseButton -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_CycleScalar
+// Size: 0xB34571F3 (-1287294477 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_CycleScalar -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

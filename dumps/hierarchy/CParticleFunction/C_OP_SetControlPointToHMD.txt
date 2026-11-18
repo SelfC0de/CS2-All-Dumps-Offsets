@@ -1,0 +1,10 @@
+// C_OP_SetControlPointToHMD
+// Size: 0xB3457577 (-1287293577 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetControlPointToHMD -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

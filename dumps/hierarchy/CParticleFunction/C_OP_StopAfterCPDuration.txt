@@ -1,0 +1,10 @@
+// C_OP_StopAfterCPDuration
+// Size: 0xB345763C (-1287293380 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_StopAfterCPDuration -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

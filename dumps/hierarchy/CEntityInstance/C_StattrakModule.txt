@@ -1,0 +1,10 @@
+// C_StattrakModule
+// Size: 0xB345FD27 (-1287258841 bytes)
+// Parent: C_CS2WeaponModuleBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_StattrakModule -> C_CS2WeaponModuleBase -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IEntityListener
+//
+
+// (no own fields)

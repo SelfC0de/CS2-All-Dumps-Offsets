@@ -1,0 +1,10 @@
+// C_INIT_PositionPlaceOnGround
+// Size: 0xB34550A2 (-1287303006 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_PositionPlaceOnGround -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

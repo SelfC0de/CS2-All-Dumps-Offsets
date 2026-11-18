@@ -1,0 +1,10 @@
+// CEnvSoundscapeAlias_snd_soundscape
+// Size: 0xB345C31A (-1287273702 bytes)
+// Parent: CEnvSoundscape
+// Module: client.dll
+//
+// Inheritance:
+//   CEnvSoundscapeAlias_snd_soundscape -> CEnvSoundscape -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

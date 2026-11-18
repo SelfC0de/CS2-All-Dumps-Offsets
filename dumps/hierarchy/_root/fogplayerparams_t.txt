@@ -1,0 +1,6 @@
+// fogplayerparams_t
+// Size: 0xB3459AA6 (-1287284058 bytes)
+// Module: server.dll
+//
+
+// (no own fields)

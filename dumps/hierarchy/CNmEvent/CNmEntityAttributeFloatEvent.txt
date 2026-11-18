@@ -1,0 +1,10 @@
+// CNmEntityAttributeFloatEvent
+// Size: 0xB364FC91 (-1285227375 bytes)
+// Parent: CNmEntityAttributeEventBase
+// Module: client.dll
+//
+// Inheritance:
+//   CNmEntityAttributeFloatEvent -> CNmEntityAttributeEventBase -> CNmEvent
+//
+
+// (no own fields)

@@ -1,0 +1,13 @@
+// CFuncPlat
+// Size: 0xB345C7F3 (-1287272461 bytes)
+// Parent: CBasePlatTrain
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncPlat -> CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (1):
+//   CFuncPlatRot
+//
+
+// (no own fields)

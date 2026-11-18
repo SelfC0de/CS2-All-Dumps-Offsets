@@ -1,0 +1,10 @@
+// CFuncShatterglass
+// Size: 0xB345BEA0 (-1287274848 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncShatterglass -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

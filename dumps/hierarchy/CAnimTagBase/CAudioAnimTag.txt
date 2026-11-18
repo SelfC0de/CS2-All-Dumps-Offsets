@@ -1,0 +1,10 @@
+// CAudioAnimTag
+// Size: 0xB33DEB97 (-1287787625 bytes)
+// Parent: CAnimTagBase
+// Module: client.dll
+//
+// Inheritance:
+//   CAudioAnimTag -> CAnimTagBase -> IAnimTag -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IAudioAnimTag
+//
+
+// (no own fields)

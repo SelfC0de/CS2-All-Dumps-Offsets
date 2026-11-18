@@ -1,0 +1,15 @@
+// CMarkupVolumeTagged
+// Size: 0xB345BD3F (-1287275201 bytes)
+// Parent: CMarkupVolume
+// Module: server.dll
+//
+// Inheritance:
+//   CMarkupVolumeTagged -> CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (3):
+//   CMarkupVolumeTagged_Nav
+//   CMarkupVolumeWithRef
+//   CSimpleMarkupVolumeTagged
+//
+
+// (no own fields)

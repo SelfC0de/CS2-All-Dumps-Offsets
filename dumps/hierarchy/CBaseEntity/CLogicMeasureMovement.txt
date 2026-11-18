@@ -1,0 +1,10 @@
+// CLogicMeasureMovement
+// Size: 0xB345B49A (-1287277414 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicMeasureMovement -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

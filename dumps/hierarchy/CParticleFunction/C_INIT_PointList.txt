@@ -1,0 +1,10 @@
+// C_INIT_PointList
+// Size: 0xB3455A1C (-1287300580 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_PointList -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

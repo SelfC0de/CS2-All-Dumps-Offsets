@@ -1,0 +1,6 @@
+// VPhysicsCollisionAttribute_t
+// Size: 0xB3459979 (-1287284359 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

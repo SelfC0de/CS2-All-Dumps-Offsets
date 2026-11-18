@@ -1,0 +1,10 @@
+// CInfoFan
+// Size: 0xB345AF72 (-1287278734 bytes)
+// Parent: C_PointEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CInfoFan -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

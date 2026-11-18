@@ -1,0 +1,10 @@
+// CBoneConstraintPoseSpaceBone
+// Size: 0xB364F5F2 (-1285229070 bytes)
+// Parent: CBaseConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   CBoneConstraintPoseSpaceBone -> CBaseConstraint -> CBoneConstraintBase
+//
+
+// (no own fields)

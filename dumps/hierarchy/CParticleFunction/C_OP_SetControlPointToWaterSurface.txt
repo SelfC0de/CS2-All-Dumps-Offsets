@@ -1,0 +1,10 @@
+// C_OP_SetControlPointToWaterSurface
+// Size: 0xB34577CB (-1287292981 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetControlPointToWaterSurface -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

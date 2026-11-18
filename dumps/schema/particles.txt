@@ -1,0 +1,542 @@
+# Dezlock Schema Dump - particles
+# Generated: 2026-11-18T09:20:44
+#
+# Sections:
+#   CLASSES    - Each class with its own fields
+#   FLATTENED  - Full memory layout (own + inherited fields)
+#   ENUMS      - Enum definitions and values
+#
+
+# ================================================================
+# CLASSES — own fields per class
+# Format: class_name.field_name = 0xOFFSET (type, size) [metadata...]
+# ================================================================
+
+
+# ================================================================
+# FLATTENED — full memory layout (own + inherited fields)
+# Format: class_name.field_name = 0xOFFSET (type, size, defined_in)
+# ================================================================
+
+
+# ================================================================
+# ENUMS — 77 enum definitions
+# Format: enum_name::VALUE_NAME = value
+# ================================================================
+
+# --- BBoxVolumeType_t (size=4 bytes, 5 values)
+BBoxVolumeType_t::BBOX_VOLUME = 0
+BBoxVolumeType_t::BBOX_DIMENSIONS = 1
+BBoxVolumeType_t::BBOX_MINS_MAXS = 2
+BBoxVolumeType_t::BBOX_RADIUS = 3
+BBoxVolumeType_t::BBOX_SURFACE_AREA = 4
+
+# --- BlurFilterType_t (size=4 bytes, 2 values)
+BlurFilterType_t::BLURFILTER_GAUSSIAN = 0
+BlurFilterType_t::BLURFILTER_BOX = 1
+
+# --- ClosestPointTestType_t (size=4 bytes, 3 values)
+ClosestPointTestType_t::PARTICLE_CLOSEST_TYPE_BOX = 0
+ClosestPointTestType_t::PARTICLE_CLOSEST_TYPE_CAPSULE = 1
+ClosestPointTestType_t::PARTICLE_CLOSEST_TYPE_HYBRID = 2
+
+# --- Detail2Combo_t (size=4 bytes, 7 values)
+Detail2Combo_t::DETAIL_2_COMBO_UNINITIALIZED = -1
+Detail2Combo_t::DETAIL_2_COMBO_OFF = 0
+Detail2Combo_t::DETAIL_2_COMBO_ADD = 1
+Detail2Combo_t::DETAIL_2_COMBO_ADD_SELF_ILLUM = 2
+Detail2Combo_t::DETAIL_2_COMBO_MOD2X = 3
+Detail2Combo_t::DETAIL_2_COMBO_MUL = 4
+Detail2Combo_t::DETAIL_2_COMBO_CROSSFADE = 5
+
+# --- DetailCombo_t (size=4 bytes, 4 values)
+DetailCombo_t::DETAIL_COMBO_OFF = 0
+DetailCombo_t::DETAIL_COMBO_ADD = 1
+DetailCombo_t::DETAIL_COMBO_ADD_SELF_ILLUM = 2
+DetailCombo_t::DETAIL_COMBO_MOD2X = 3
+
+# --- EventTypeSelection_t (size=4 bytes, 13 values)
+EventTypeSelection_t::PARTICLE_EVENT_TYPE_MASK_NONE = 0
+EventTypeSelection_t::PARTICLE_EVENT_TYPE_MASK_SPAWNED = 1
+EventTypeSelection_t::PARTICLE_EVENT_TYPE_MASK_KILLED = 2
+EventTypeSelection_t::PARTICLE_EVENT_TYPE_MASK_COLLISION = 4
+EventTypeSelection_t::PARTICLE_EVENT_TYPE_MASK_FIRST_COLLISION = 8
+EventTypeSelection_t::PARTICLE_EVENT_TYPE_MASK_COLLISION_STOPPED = 16
+EventTypeSelection_t::PARTICLE_EVENT_TYPE_MASK_KILLED_ON_COLLISION = 32
+EventTypeSelection_t::PARTICLE_EVENT_TYPE_MASK_KILLED_ON_CULL = 1024
+EventTypeSelection_t::PARTICLE_EVENT_TYPE_MASK_CULLED_ON_SPAWN = 2048
+EventTypeSelection_t::PARTICLE_EVENT_TYPE_MASK_USER_1 = 64
+EventTypeSelection_t::PARTICLE_EVENT_TYPE_MASK_USER_2 = 128
+EventTypeSelection_t::PARTICLE_EVENT_TYPE_MASK_USER_3 = 256
+EventTypeSelection_t::PARTICLE_EVENT_TYPE_MASK_USER_4 = 512
+
+# --- HitboxLerpType_t (size=4 bytes, 2 values)
+HitboxLerpType_t::HITBOX_LERP_LIFETIME = 0
+HitboxLerpType_t::HITBOX_LERP_CONSTANT = 1
+
+# --- InheritableBoolType_t (size=4 bytes, 3 values)
+InheritableBoolType_t::INHERITABLE_BOOL_INHERIT = 0
+InheritableBoolType_t::INHERITABLE_BOOL_FALSE = 1
+InheritableBoolType_t::INHERITABLE_BOOL_TRUE = 2
+
+# --- MaterialProxyType_t (size=4 bytes, 2 values)
+MaterialProxyType_t::MATERIAL_PROXY_STATUS_EFFECT = 0
+MaterialProxyType_t::MATERIAL_PROXY_TINT = 1
+
+# --- MissingParentInheritBehavior_t (size=4 bytes, 4 values)
+MissingParentInheritBehavior_t::MISSING_PARENT_DO_NOTHING = -1
+MissingParentInheritBehavior_t::MISSING_PARENT_KILL = 0
+MissingParentInheritBehavior_t::MISSING_PARENT_FIND_NEW = 1
+MissingParentInheritBehavior_t::MISSING_PARENT_SAME_INDEX = 2
+
+# --- ModelHitboxType_t (size=4 bytes, 4 values)
+ModelHitboxType_t::MODEL_HITBOX_TYPE_STANDARD = 0
+ModelHitboxType_t::MODEL_HITBOX_TYPE_RAW_BONES = 1
+ModelHitboxType_t::MODEL_HITBOX_TYPE_RENDERBOUNDS = 2
+ModelHitboxType_t::MODEL_HITBOX_TYPE_SNAPSHOT = 3
+
+# --- PFuncVisualizationType_t (size=4 bytes, 7 values)
+PFuncVisualizationType_t::PFUNC_VISUALIZATION_SPHERE_WIREFRAME = 0
+PFuncVisualizationType_t::PFUNC_VISUALIZATION_SPHERE_SOLID = 1
+PFuncVisualizationType_t::PFUNC_VISUALIZATION_BOX = 2
+PFuncVisualizationType_t::PFUNC_VISUALIZATION_RING = 3
+PFuncVisualizationType_t::PFUNC_VISUALIZATION_PLANE = 4
+PFuncVisualizationType_t::PFUNC_VISUALIZATION_LINE = 5
+PFuncVisualizationType_t::PFUNC_VISUALIZATION_CYLINDER = 6
+
+# --- ParticleAlphaReferenceType_t (size=4 bytes, 4 values)
+ParticleAlphaReferenceType_t::PARTICLE_ALPHA_REFERENCE_ALPHA_ALPHA = 0
+ParticleAlphaReferenceType_t::PARTICLE_ALPHA_REFERENCE_OPAQUE_ALPHA = 1
+ParticleAlphaReferenceType_t::PARTICLE_ALPHA_REFERENCE_ALPHA_OPAQUE = 2
+ParticleAlphaReferenceType_t::PARTICLE_ALPHA_REFERENCE_OPAQUE_OPAQUE = 3
+
+# --- ParticleAttrBoxFlags_t (size=4 bytes, 11 values)
+ParticleAttrBoxFlags_t::PARTICLE_ATTR_BOX_FLAGS_NONE = 0
+ParticleAttrBoxFlags_t::PARTICLE_ATTR_BOX_FLAGS_WATER = 1
+ParticleAttrBoxFlags_t::PARTICLE_ATTR_BOX_FLAGS_ON_FIRE = 2
+ParticleAttrBoxFlags_t::PARTICLE_ATTR_BOX_FLAGS_ELECTRIFIED = 4
+ParticleAttrBoxFlags_t::PARTICLE_ATTR_BOX_FLAGS_ASLEEP = 8
+ParticleAttrBoxFlags_t::PARTICLE_ATTR_BOX_FLAGS_FROZEN = 16
+ParticleAttrBoxFlags_t::PARTICLE_ATTR_BOX_FLAGS_TIMED_DECAY = 32
+ParticleAttrBoxFlags_t::PARTICLE_ATTR_BOX_FLAGS_DISABLE_NONSTATIC_COLLISION = 64
+ParticleAttrBoxFlags_t::PARTICLE_ATTR_BOX_FLAGS_WAKE_DECAY = 128
+ParticleAttrBoxFlags_t::PARTICLE_ATTR_BOX_FLAGS_MOTION_DISABLED = 256
+ParticleAttrBoxFlags_t::PARTICLE_ATTR_BOX_FLAGS_ZERO_GRAVITY = 512
+
+# --- ParticleCollisionGroup_t (size=4 bytes, 7 values)
+ParticleCollisionGroup_t::PARTICLE_COLLISION_GROUP_DEFAULT = 4
+ParticleCollisionGroup_t::PARTICLE_COLLISION_GROUP_DEBRIS = 5
+ParticleCollisionGroup_t::PARTICLE_COLLISION_GROUP_INTERACTIVE = 7
+ParticleCollisionGroup_t::PARTICLE_COLLISION_GROUP_PLAYER = 8
+ParticleCollisionGroup_t::PARTICLE_COLLISION_GROUP_VEHICLE = 10
+ParticleCollisionGroup_t::PARTICLE_COLLISION_GROUP_NPC = 12
+ParticleCollisionGroup_t::PARTICLE_COLLISION_GROUP_PROPS = 24
+
+# --- ParticleCollisionMask_t (size=8 bytes, 10 values)
+ParticleCollisionMask_t::PARTICLE_MASK_ALL = -1
+ParticleCollisionMask_t::PARTICLE_MASK_SOLID = 798721
+ParticleCollisionMask_t::PARTICLE_MASK_WATER = 98304
+ParticleCollisionMask_t::PARTICLE_MASK_SOLID_WATER = 897025
+ParticleCollisionMask_t::PARTICLE_MASK_SHOT = 1839107
+ParticleCollisionMask_t::PARTICLE_MASK_SHOT_BRUSHONLY = 1052673
+ParticleCollisionMask_t::PARTICLE_MASK_SHOT_HULL = 1847297
+ParticleCollisionMask_t::PARTICLE_MASK_OPAQUE = 128
+ParticleCollisionMask_t::PARTICLE_MASK_DEFAULTPLAYERSOLID = 798737
+ParticleCollisionMask_t::PARTICLE_MASK_NPCSOLID = 798753
+
+# --- ParticleCollisionMode_t (size=4 bytes, 5 values)
+ParticleCollisionMode_t::COLLISION_MODE_PER_PARTICLE_TRACE = 3
+ParticleCollisionMode_t::COLLISION_MODE_USE_NEAREST_TRACE = 2
+ParticleCollisionMode_t::COLLISION_MODE_PER_FRAME_PLANESET = 1
+ParticleCollisionMode_t::COLLISION_MODE_INITIAL_TRACE_DOWN = 0
+ParticleCollisionMode_t::COLLISION_MODE_DISABLED = -1
+
+# --- ParticleControlPointAxis_t (size=4 bytes, 6 values)
+ParticleControlPointAxis_t::PARTICLE_CP_AXIS_X = 0
+ParticleControlPointAxis_t::PARTICLE_CP_AXIS_Y = 1
+ParticleControlPointAxis_t::PARTICLE_CP_AXIS_Z = 2
+ParticleControlPointAxis_t::PARTICLE_CP_AXIS_NEGATIVE_X = 3
+ParticleControlPointAxis_t::PARTICLE_CP_AXIS_NEGATIVE_Y = 4
+ParticleControlPointAxis_t::PARTICLE_CP_AXIS_NEGATIVE_Z = 5
+
+# --- ParticleDepthFeatheringMode_t (size=4 bytes, 3 values)
+ParticleDepthFeatheringMode_t::PARTICLE_DEPTH_FEATHERING_OFF = 0
+ParticleDepthFeatheringMode_t::PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL = 1
+ParticleDepthFeatheringMode_t::PARTICLE_DEPTH_FEATHERING_ON_REQUIRED = 2
+
+# --- ParticleDetailLevel_t (size=4 bytes, 4 values)
+ParticleDetailLevel_t::PARTICLEDETAIL_LOW = 0
+ParticleDetailLevel_t::PARTICLEDETAIL_MEDIUM = 1
+ParticleDetailLevel_t::PARTICLEDETAIL_HIGH = 2
+ParticleDetailLevel_t::PARTICLEDETAIL_ULTRA = 3
+
+# --- ParticleEndcapMode_t (size=4 bytes, 3 values)
+ParticleEndcapMode_t::PARTICLE_ENDCAP_ALWAYS_ON = -1
+ParticleEndcapMode_t::PARTICLE_ENDCAP_ENDCAP_OFF = 0
+ParticleEndcapMode_t::PARTICLE_ENDCAP_ENDCAP_ON = 1
+
+# --- ParticleEntityPos_t (size=4 bytes, 4 values)
+ParticleEntityPos_t::PARTICLE_ABS_ORIGIN = 0
+ParticleEntityPos_t::PARTICLE_WORLDSPACE_CENTER = 1
+ParticleEntityPos_t::PARTICLE_EYES = 2
+ParticleEntityPos_t::PARTICLE_FLASHLIGHT = 3
+
+# --- ParticleFalloffFunction_t (size=4 bytes, 3 values)
+ParticleFalloffFunction_t::PARTICLE_FALLOFF_CONSTANT = 0
+ParticleFalloffFunction_t::PARTICLE_FALLOFF_LINEAR = 1
+ParticleFalloffFunction_t::PARTICLE_FALLOFF_EXPONENTIAL = 2
+
+# --- ParticleFanType_t (size=4 bytes, 3 values)
+ParticleFanType_t::PARTICLE_FAN_TYPE_FAN = 0
+ParticleFanType_t::PARTICLE_FAN_TYPE_ROTOR_WASH = 1
+ParticleFanType_t::PARTICLE_FAN_TYPE_RADIAL = 2
+
+# --- ParticleFogType_t (size=4 bytes, 3 values)
+ParticleFogType_t::PARTICLE_FOG_GAME_DEFAULT = 0
+ParticleFogType_t::PARTICLE_FOG_ENABLED = 1
+ParticleFogType_t::PARTICLE_FOG_DISABLED = 2
+
+# --- ParticleHitboxBiasType_t (size=4 bytes, 2 values)
+ParticleHitboxBiasType_t::PARTICLE_HITBOX_BIAS_ENTITY = 0
+ParticleHitboxBiasType_t::PARTICLE_HITBOX_BIAS_HITBOX = 1
+
+# --- ParticleHitboxDataSelection_t (size=4 bytes, 2 values)
+ParticleHitboxDataSelection_t::PARTICLE_HITBOX_AVERAGE_SPEED = 0
+ParticleHitboxDataSelection_t::PARTICLE_HITBOX_COUNT = 1
+
+# --- ParticleImpulseType_t (size=4 bytes, 6 values)
+ParticleImpulseType_t::IMPULSE_TYPE_NONE = 0
+ParticleImpulseType_t::IMPULSE_TYPE_GENERIC = 1
+ParticleImpulseType_t::IMPULSE_TYPE_ROPE = 2
+ParticleImpulseType_t::IMPULSE_TYPE_EXPLOSION = 4
+ParticleImpulseType_t::IMPULSE_TYPE_EXPLOSION_UNDERWATER = 8
+ParticleImpulseType_t::IMPULSE_TYPE_PARTICLE_SYSTEM = 16
+
+# --- ParticleLightBehaviorChoiceList_t (size=4 bytes, 3 values)
+ParticleLightBehaviorChoiceList_t::PARTICLE_LIGHT_BEHAVIOR_FOLLOW_DIRECTION = 0
+ParticleLightBehaviorChoiceList_t::PARTICLE_LIGHT_BEHAVIOR_ROPE = 1
+ParticleLightBehaviorChoiceList_t::PARTICLE_LIGHT_BEHAVIOR_TRAILS = 2
+
+# --- ParticleLightFogLightingMode_t (size=4 bytes, 3 values)
+ParticleLightFogLightingMode_t::PARTICLE_LIGHT_FOG_LIGHTING_MODE_NONE = 0
+ParticleLightFogLightingMode_t::PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC = 2
+ParticleLightFogLightingMode_t::PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC_NOSHADOWS = 4
+
+# --- ParticleLightTypeChoiceList_t (size=4 bytes, 4 values)
+ParticleLightTypeChoiceList_t::PARTICLE_LIGHT_TYPE_POINT = 0
+ParticleLightTypeChoiceList_t::PARTICLE_LIGHT_TYPE_SPOT = 1
+ParticleLightTypeChoiceList_t::PARTICLE_LIGHT_TYPE_FX = 2
+ParticleLightTypeChoiceList_t::PARTICLE_LIGHT_TYPE_CAPSULE = 3
+
+# --- ParticleLightUnitChoiceList_t (size=4 bytes, 2 values)
+ParticleLightUnitChoiceList_t::PARTICLE_LIGHT_UNIT_CANDELAS = 0
+ParticleLightUnitChoiceList_t::PARTICLE_LIGHT_UNIT_LUMENS = 1
+
+# --- ParticleLightingQuality_t (size=4 bytes, 6 values)
+ParticleLightingQuality_t::PARTICLE_LIGHTING_PER_PARTICLE = 0
+ParticleLightingQuality_t::PARTICLE_LIGHTING_PER_VERTEX = 1
+ParticleLightingQuality_t::PARTICLE_LIGHTING_PER_PIXEL = -1
+ParticleLightingQuality_t::PARTICLE_LIGHTING_OVERRIDE_POSITION = 2
+ParticleLightingQuality_t::PARTICLE_LIGHTING_OVERRIDE_COLOR = 3
+ParticleLightingQuality_t::PARTICLE_LIGHTING_ADD_EXTRA_LIGHT = 4
+
+# --- ParticleLightnintBranchBehavior_t (size=4 bytes, 2 values)
+ParticleLightnintBranchBehavior_t::PARTICLE_LIGHTNING_BRANCH_CURRENT_DIR = 0
+ParticleLightnintBranchBehavior_t::PARTICLE_LIGHTNING_BRANCH_ENDPOINT_DIR = 1
+
+# --- ParticleLiquidContents_t (size=4 bytes, 3 values)
+ParticleLiquidContents_t::PARTICLE_LIQUID_NONE = 0
+ParticleLiquidContents_t::PARTICLE_LIQUID_OIL = 1
+ParticleLiquidContents_t::PARTICLE_LIQUID_WATER = 2
+
+# --- ParticleMassMode_t (size=4 bytes, 2 values)
+ParticleMassMode_t::PARTICLE_MASSMODE_RADIUS_CUBED = 0
+ParticleMassMode_t::PARTICLE_MASSMODE_RADIUS_SQUARED = 2
+
+# --- ParticleMultiSegmentCountSelection_t (size=4 bytes, 3 values)
+ParticleMultiSegmentCountSelection_t::PARTICLE_MULTISEGMENT_SEG_COUNT_7 = 7
+ParticleMultiSegmentCountSelection_t::PARTICLE_MULTISEGMENT_SEG_COUNT_14 = 14
+ParticleMultiSegmentCountSelection_t::PARTICLE_MULTISEGMENT_SEG_COUNT_16 = 16
+
+# --- ParticleMultiSegmentInputSelection_t (size=4 bytes, 2 values)
+ParticleMultiSegmentInputSelection_t::PARTICLE_MULTISEGMENT_SELECTION_FLOAT = 0
+ParticleMultiSegmentInputSelection_t::PARTICLE_MULTISEGMENT_SELECTION_STRING = 1
+
+# --- ParticleMultiSegmentSpecialCharacter_t (size=4 bytes, 4 values)
+ParticleMultiSegmentSpecialCharacter_t::PARTICLE_MULTISEGMENT_SPECIAL_NONE = -1
+ParticleMultiSegmentSpecialCharacter_t::PARTICLE_MULTISEGMENT_SPECIAL_DECIMAL = 0
+ParticleMultiSegmentSpecialCharacter_t::PARTICLE_MULTISEGMENT_SPECIAL_COLON = 1
+ParticleMultiSegmentSpecialCharacter_t::PARTICLE_MULTISEGMENT_SPECIAL_DEGREES = 2
+
+# --- ParticleOmni2LighOrientationChoiceList_t (size=4 bytes, 5 values)
+ParticleOmni2LighOrientationChoiceList_t::PARTICLE_OMNI2_LIGHT_ORIENTATION_ROTATIONS = 0
+ParticleOmni2LighOrientationChoiceList_t::PARTICLE_OMNI2_LIGHT_ORIENTATION_NORMAL = 1
+ParticleOmni2LighOrientationChoiceList_t::PARTICLE_OMNI2_LIGHT_ORIENTATION_NORMAL_ROLL = 2
+ParticleOmni2LighOrientationChoiceList_t::PARTICLE_OMNI2_LIGHT_ORIENTATION_TARGET = 3
+ParticleOmni2LighOrientationChoiceList_t::PARTICLE_OMNI2_LIGHT_ORIENTATION_TARGET_ROLL = 4
+
+# --- ParticleOmni2LightTypeChoiceList_t (size=4 bytes, 3 values)
+ParticleOmni2LightTypeChoiceList_t::PARTICLE_OMNI2_LIGHT_TYPE_POINT = 0
+ParticleOmni2LightTypeChoiceList_t::PARTICLE_OMNI2_LIGHT_TYPE_SPHERE = 1
+ParticleOmni2LightTypeChoiceList_t::PARTICLE_OMNI2_LIGHT_TYPE_BARN = 2
+
+# --- ParticleOrientationChoiceList_t (size=4 bytes, 6 values)
+ParticleOrientationChoiceList_t::PARTICLE_ORIENTATION_SCREEN_ALIGNED = 0
+ParticleOrientationChoiceList_t::PARTICLE_ORIENTATION_SCREEN_Z_ALIGNED = 1
+ParticleOrientationChoiceList_t::PARTICLE_ORIENTATION_WORLD_Z_ALIGNED = 2
+ParticleOrientationChoiceList_t::PARTICLE_ORIENTATION_ALIGN_TO_PARTICLE_NORMAL = 3
+ParticleOrientationChoiceList_t::PARTICLE_ORIENTATION_SCREENALIGN_TO_PARTICLE_NORMAL = 4
+ParticleOrientationChoiceList_t::PARTICLE_ORIENTATION_FULL_3AXIS_ROTATION = 5
+
+# --- ParticleOrientationSetMode_t (size=4 bytes, 4 values)
+ParticleOrientationSetMode_t::PARTICLE_ORIENTATION_SET_NONE = -1
+ParticleOrientationSetMode_t::PARTICLE_ORIENTATION_SET_FROM_VELOCITY = 0
+ParticleOrientationSetMode_t::PARTICLE_ORIENTATION_SET_FROM_NORMAL = 1
+ParticleOrientationSetMode_t::PARTICLE_ORIENTATION_SET_FROM_ROTATIONS = 2
+
+# --- ParticleOrientationType_t (size=4 bytes, 4 values)
+ParticleOrientationType_t::PARTICLE_ORIENTATION_NONE = 0
+ParticleOrientationType_t::PARTICLE_ORIENTATION_VELOCITY = 1
+ParticleOrientationType_t::PARTICLE_ORIENTATION_NORMAL = 2
+ParticleOrientationType_t::PARTICLE_ORIENTATION_ROTATION = 4
+
+# --- ParticleOutputBlendMode_t (size=4 bytes, 7 values)
+ParticleOutputBlendMode_t::PARTICLE_OUTPUT_BLEND_MODE_ALPHA = 0
+ParticleOutputBlendMode_t::PARTICLE_OUTPUT_BLEND_MODE_ADD = 1
+ParticleOutputBlendMode_t::PARTICLE_OUTPUT_BLEND_MODE_BLEND_ADD = 2
+ParticleOutputBlendMode_t::PARTICLE_OUTPUT_BLEND_MODE_HALF_BLEND_ADD = 3
+ParticleOutputBlendMode_t::PARTICLE_OUTPUT_BLEND_MODE_NEG_HALF_BLEND_ADD = 4
+ParticleOutputBlendMode_t::PARTICLE_OUTPUT_BLEND_MODE_MOD2X = 5
+ParticleOutputBlendMode_t::PARTICLE_OUTPUT_BLEND_MODE_LIGHTEN = 6
+
+# --- ParticleParentSetMode_t (size=4 bytes, 3 values)
+ParticleParentSetMode_t::PARTICLE_SET_PARENT_NO = 0
+ParticleParentSetMode_t::PARTICLE_SET_PARENT_IMMEDIATE = 1
+ParticleParentSetMode_t::PARTICLE_SET_PARENT_ROOT = 2
+
+# --- ParticlePinDistance_t (size=4 bytes, 12 values)
+ParticlePinDistance_t::PARTICLE_PIN_DISTANCE_NONE = -1
+ParticlePinDistance_t::PARTICLE_PIN_DISTANCE_NEIGHBOR = 0
+ParticlePinDistance_t::PARTICLE_PIN_DISTANCE_FARTHEST = 1
+ParticlePinDistance_t::PARTICLE_PIN_DISTANCE_FIRST = 2
+ParticlePinDistance_t::PARTICLE_PIN_DISTANCE_LAST = 3
+ParticlePinDistance_t::PARTICLE_PIN_DISTANCE_CENTER = 5
+ParticlePinDistance_t::PARTICLE_PIN_DISTANCE_CP = 6
+ParticlePinDistance_t::PARTICLE_PIN_DISTANCE_CP_PAIR_EITHER = 7
+ParticlePinDistance_t::PARTICLE_PIN_DISTANCE_CP_PAIR_BOTH = 8
+ParticlePinDistance_t::PARTICLE_PIN_SPEED = 9
+ParticlePinDistance_t::PARTICLE_PIN_COLLECTION_AGE = 10
+ParticlePinDistance_t::PARTICLE_PIN_FLOAT_VALUE = 11
+
+# --- ParticlePostProcessPriorityGroup_t (size=4 bytes, 6 values)
+ParticlePostProcessPriorityGroup_t::PARTICLE_POST_PROCESS_PRIORITY_LEVEL_VOLUME = 0
+ParticlePostProcessPriorityGroup_t::PARTICLE_POST_PROCESS_PRIORITY_LEVEL_OVERRIDE = 1
+ParticlePostProcessPriorityGroup_t::PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_EFFECT = 2
+ParticlePostProcessPriorityGroup_t::PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_STATE_LOW = 3
+ParticlePostProcessPriorityGroup_t::PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_STATE_HIGH = 4
+ParticlePostProcessPriorityGroup_t::PARTICLE_POST_PROCESS_PRIORITY_GLOBAL_UI = 5
+
+# --- ParticleRotationLockType_t (size=4 bytes, 3 values)
+ParticleRotationLockType_t::PARTICLE_ROTATION_LOCK_NONE = 0
+ParticleRotationLockType_t::PARTICLE_ROTATION_LOCK_ROTATIONS = 1
+ParticleRotationLockType_t::PARTICLE_ROTATION_LOCK_NORMAL = 2
+
+# --- ParticleSelection_t (size=4 bytes, 3 values)
+ParticleSelection_t::PARTICLE_SELECTION_FIRST = 0
+ParticleSelection_t::PARTICLE_SELECTION_LAST = 1
+ParticleSelection_t::PARTICLE_SELECTION_NUMBER = 2
+
+# --- ParticleSequenceCropOverride_t (size=4 bytes, 3 values)
+ParticleSequenceCropOverride_t::PARTICLE_SEQUENCE_CROP_OVERRIDE_DEFAULT = -1
+ParticleSequenceCropOverride_t::PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_OFF = 0
+ParticleSequenceCropOverride_t::PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_ON = 1
+
+# --- ParticleSortingChoiceList_t (size=4 bytes, 2 values)
+ParticleSortingChoiceList_t::PARTICLE_SORTING_NEAREST = 0
+ParticleSortingChoiceList_t::PARTICLE_SORTING_CREATION_TIME = 1
+
+# --- ParticleTextureLayerBlendType_t (size=4 bytes, 7 values)
+ParticleTextureLayerBlendType_t::SPRITECARD_TEXTURE_BLEND_MULTIPLY = 0
+ParticleTextureLayerBlendType_t::SPRITECARD_TEXTURE_BLEND_MOD2X = 1
+ParticleTextureLayerBlendType_t::SPRITECARD_TEXTURE_BLEND_REPLACE = 2
+ParticleTextureLayerBlendType_t::SPRITECARD_TEXTURE_BLEND_ADD = 3
+ParticleTextureLayerBlendType_t::SPRITECARD_TEXTURE_BLEND_SUBTRACT = 4
+ParticleTextureLayerBlendType_t::SPRITECARD_TEXTURE_BLEND_AVERAGE = 5
+ParticleTextureLayerBlendType_t::SPRITECARD_TEXTURE_BLEND_LUMINANCE = 6
+
+# --- ParticleToolsState_t (size=4 bytes, 3 values)
+ParticleToolsState_t::PARTICLE_TOOLS_STATE_ALWAYS_ON = -1
+ParticleToolsState_t::PARTICLE_TOOLS_STATE_TOOLS_ONLY = 0
+ParticleToolsState_t::PARTICLE_TOOLS_STATE_GAME_ONLY = 1
+
+# --- ParticleTopology_t (size=4 bytes, 5 values)
+ParticleTopology_t::PARTICLE_TOPOLOGY_POINTS = 0
+ParticleTopology_t::PARTICLE_TOPOLOGY_LINES = 1
+ParticleTopology_t::PARTICLE_TOPOLOGY_TRIS = 2
+ParticleTopology_t::PARTICLE_TOPOLOGY_QUADS = 3
+ParticleTopology_t::PARTICLE_TOPOLOGY_CUBES = 4
+
+# --- ParticleTraceMissBehavior_t (size=4 bytes, 3 values)
+ParticleTraceMissBehavior_t::PARTICLE_TRACE_MISS_BEHAVIOR_NONE = 0
+ParticleTraceMissBehavior_t::PARTICLE_TRACE_MISS_BEHAVIOR_KILL = 1
+ParticleTraceMissBehavior_t::PARTICLE_TRACE_MISS_BEHAVIOR_TRACE_END = 2
+
+# --- ParticleTraceSet_t (size=4 bytes, 4 values)
+ParticleTraceSet_t::PARTICLE_TRACE_SET_ALL = 0
+ParticleTraceSet_t::PARTICLE_TRACE_SET_STATIC = 1
+ParticleTraceSet_t::PARTICLE_TRACE_SET_STATIC_AND_KEYFRAMED = 2
+ParticleTraceSet_t::PARTICLE_TRACE_SET_DYNAMIC = 3
+
+# --- ParticleVRHandChoiceList_t (size=4 bytes, 4 values)
+ParticleVRHandChoiceList_t::PARTICLE_VRHAND_LEFT = 0
+ParticleVRHandChoiceList_t::PARTICLE_VRHAND_RIGHT = 1
+ParticleVRHandChoiceList_t::PARTICLE_VRHAND_CP = 2
+ParticleVRHandChoiceList_t::PARTICLE_VRHAND_CP_OBJECT = 3
+
+# --- ParticleVolumetricSmokeCreationType_t (size=4 bytes, 2 values)
+ParticleVolumetricSmokeCreationType_t::PARTICLE_VOLUMETRIC_SMOKE_TYPE_CONTINUOUS = 0
+ParticleVolumetricSmokeCreationType_t::PARTICLE_VOLUMETRIC_SMOKE_TYPE_IMPULSE = 1
+
+# --- ParticleVolumetricSmokeType_t (size=4 bytes, 4 values)
+ParticleVolumetricSmokeType_t::PARTICLE_VOLUMETRIC_SMOKE_TYPE_EMISSION = 0
+ParticleVolumetricSmokeType_t::PARTICLE_VOLUMETRIC_SMOKE_TYPE_SINK = 1
+ParticleVolumetricSmokeType_t::PARTICLE_VOLUMETRIC_SMOKE_TYPE_REPEL = 2
+ParticleVolumetricSmokeType_t::PARTICLE_VOLUMETRIC_SMOKE_TYPE_TRACE = 3
+
+# --- PetGroundType_t (size=4 bytes, 3 values)
+PetGroundType_t::PET_GROUND_NONE = 0
+PetGroundType_t::PET_GROUND_GRID = 1
+PetGroundType_t::PET_GROUND_PLANE = 2
+
+# --- PulseBestOutflowRules_t (size=4 bytes, 2 values)
+PulseBestOutflowRules_t::SORT_BY_NUMBER_OF_VALID_CRITERIA = 0
+PulseBestOutflowRules_t::SORT_BY_OUTFLOW_INDEX = 1
+
+# --- PulseCursorCancelPriority_t (size=4 bytes, 4 values)
+PulseCursorCancelPriority_t::None = 0
+PulseCursorCancelPriority_t::CancelOnSucceeded = 1
+PulseCursorCancelPriority_t::SoftCancel = 2
+PulseCursorCancelPriority_t::HardCancel = 3
+
+# --- PulseCursorWakePriority_t (size=4 bytes, 2 values)
+PulseCursorWakePriority_t::WakeElegantly = 0
+PulseCursorWakePriority_t::WakeImmediate = 1
+
+# --- PulseMethodCallMode_t (size=4 bytes, 2 values)
+PulseMethodCallMode_t::SYNC_WAIT_FOR_COMPLETION = 0
+PulseMethodCallMode_t::ASYNC_FIRE_AND_FORGET = 1
+
+# --- RenderModelSubModelFieldType_t (size=4 bytes, 4 values)
+RenderModelSubModelFieldType_t::SUBMODEL_AS_BODYGROUP_SUBMODEL = 0
+RenderModelSubModelFieldType_t::SUBMODEL_AS_MESHGROUP_INDEX = 1
+RenderModelSubModelFieldType_t::SUBMODEL_AS_MESHGROUP_MASK = 2
+RenderModelSubModelFieldType_t::SUBMODEL_IGNORED_USE_MODEL_DEFAULT_MESHGROUP_MASK = 3
+
+# --- ScalarExpressionType_t (size=4 bytes, 12 values)
+ScalarExpressionType_t::SCALAR_EXPRESSION_UNINITIALIZED = -1
+ScalarExpressionType_t::SCALAR_EXPRESSION_ADD = 0
+ScalarExpressionType_t::SCALAR_EXPRESSION_SUBTRACT = 1
+ScalarExpressionType_t::SCALAR_EXPRESSION_MUL = 2
+ScalarExpressionType_t::SCALAR_EXPRESSION_DIVIDE = 3
+ScalarExpressionType_t::SCALAR_EXPRESSION_INPUT_1 = 4
+ScalarExpressionType_t::SCALAR_EXPRESSION_MIN = 5
+ScalarExpressionType_t::SCALAR_EXPRESSION_MAX = 6
+ScalarExpressionType_t::SCALAR_EXPRESSION_MOD = 7
+ScalarExpressionType_t::SCALAR_EXPRESSION_EQUAL = 8
+ScalarExpressionType_t::SCALAR_EXPRESSION_GT = 9
+ScalarExpressionType_t::SCALAR_EXPRESSION_LT = 10
+
+# --- SetStatisticExpressionType_t (size=4 bytes, 8 values)
+SetStatisticExpressionType_t::SET_EXPRESSION_UNINITIALIZED = -1
+SetStatisticExpressionType_t::SET_EXPRESSION_SUM = 0
+SetStatisticExpressionType_t::SET_EXPRESSION_MEAN = 1
+SetStatisticExpressionType_t::SET_EXPRESSION_MEDIAN = 2
+SetStatisticExpressionType_t::SET_EXPRESSION_MODE = 3
+SetStatisticExpressionType_t::SET_EXPRESSION_STANDARD_DEVIATION = 4
+SetStatisticExpressionType_t::SET_EXPRESSION_MIN = 5
+SetStatisticExpressionType_t::SET_EXPRESSION_MAX = 6
+
+# --- SnapshotIndexType_t (size=4 bytes, 2 values)
+SnapshotIndexType_t::SNAPSHOT_INDEX_INCREMENT = 0
+SnapshotIndexType_t::SNAPSHOT_INDEX_DIRECT = 1
+
+# --- SpriteCardPerParticleScale_t (size=4 bytes, 14 values)
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_NONE = 0
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_PARTICLE_AGE = 1
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_ANIMATION_FRAME = 2
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_SHADER_EXTRA_DATA1 = 3
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_SHADER_EXTRA_DATA2 = 4
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_PARTICLE_ALPHA = 5
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_SHADER_RADIUS = 6
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_ROLL = 7
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_YAW = 8
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_PITCH = 9
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_RANDOM = 10
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_NEG_RANDOM = 11
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_RANDOM_TIME = 12
+SpriteCardPerParticleScale_t::SPRITECARD_TEXTURE_PP_SCALE_NEG_RANDOM_TIME = 13
+
+# --- SpriteCardShaderType_t (size=4 bytes, 2 values)
+SpriteCardShaderType_t::SPRITECARD_SHADER_BASE = 0
+SpriteCardShaderType_t::SPRITECARD_SHADER_CUSTOM = 1
+
+# --- SpriteCardTextureChannel_t (size=4 bytes, 15 values)
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_RGB = 0
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_RGBA = 1
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_A = 2
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_A = 3
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_ALPHAMASK = 4
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_RGBMASK = 5
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_RGBA_RGBALPHA = 6
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_A_RGBALPHA = 7
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_A_RGBALPHA = 8
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_R = 9
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_G = 10
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_B = 11
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_RALPHA = 12
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_GALPHA = 13
+SpriteCardTextureChannel_t::SPRITECARD_TEXTURE_CHANNEL_MIX_BALPHA = 14
+
+# --- SpriteCardTextureType_t (size=4 bytes, 12 values)
+SpriteCardTextureType_t::SPRITECARD_TEXTURE_DIFFUSE = 0
+SpriteCardTextureType_t::SPRITECARD_TEXTURE_ZOOM = 1
+SpriteCardTextureType_t::SPRITECARD_TEXTURE_1D_COLOR_LOOKUP = 2
+SpriteCardTextureType_t::SPRITECARD_TEXTURE_UVDISTORTION = 3
+SpriteCardTextureType_t::SPRITECARD_TEXTURE_UVDISTORTION_ZOOM = 4
+SpriteCardTextureType_t::SPRITECARD_TEXTURE_NORMALMAP = 5
+SpriteCardTextureType_t::SPRITECARD_TEXTURE_ANIMMOTIONVEC = 6
+SpriteCardTextureType_t::SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_A = 7
+SpriteCardTextureType_t::SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_B = 8
+SpriteCardTextureType_t::SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_C = 9
+SpriteCardTextureType_t::SPRITECARD_TEXTURE_DEPTH = 10
+SpriteCardTextureType_t::SPRITECARD_TEXTURE_ILLUMINATION_GRADIENT = 11
+
+# --- StandardLightingAttenuationStyle_t (size=4 bytes, 2 values)
+StandardLightingAttenuationStyle_t::LIGHT_STYLE_OLD = 0
+StandardLightingAttenuationStyle_t::LIGHT_STYLE_NEW = 1
+
+# --- TextureRepetitionMode_t (size=4 bytes, 2 values)
+TextureRepetitionMode_t::TEXTURE_REPETITION_PARTICLE = 0
+TextureRepetitionMode_t::TEXTURE_REPETITION_PATH = 1
+
+# --- VectorExpressionType_t (size=4 bytes, 10 values)
+VectorExpressionType_t::VECTOR_EXPRESSION_UNINITIALIZED = -1
+VectorExpressionType_t::VECTOR_EXPRESSION_ADD = 0
+VectorExpressionType_t::VECTOR_EXPRESSION_SUBTRACT = 1
+VectorExpressionType_t::VECTOR_EXPRESSION_MUL = 2
+VectorExpressionType_t::VECTOR_EXPRESSION_DIVIDE = 3
+VectorExpressionType_t::VECTOR_EXPRESSION_INPUT_1 = 4
+VectorExpressionType_t::VECTOR_EXPRESSION_MIN = 5
+VectorExpressionType_t::VECTOR_EXPRESSION_MAX = 6
+VectorExpressionType_t::VECTOR_EXPRESSION_CROSSPRODUCT = 7
+VectorExpressionType_t::VECTOR_EXPRESSION_LERP = 8
+
+# --- VectorFloatExpressionType_t (size=4 bytes, 7 values)
+VectorFloatExpressionType_t::VECTOR_FLOAT_EXPRESSION_UNINITIALIZED = -1
+VectorFloatExpressionType_t::VECTOR_FLOAT_EXPRESSION_DOTPRODUCT = 0
+VectorFloatExpressionType_t::VECTOR_FLOAT_EXPRESSION_DISTANCE = 1
+VectorFloatExpressionType_t::VECTOR_FLOAT_EXPRESSION_DISTANCESQR = 2
+VectorFloatExpressionType_t::VECTOR_FLOAT_EXPRESSION_INPUT1_LENGTH = 3
+VectorFloatExpressionType_t::VECTOR_FLOAT_EXPRESSION_INPUT1_LENGTHSQR = 4
+VectorFloatExpressionType_t::VECTOR_FLOAT_EXPRESSION_INPUT1_NOISE = 5
+

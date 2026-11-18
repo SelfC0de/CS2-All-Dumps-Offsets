@@ -1,0 +1,10 @@
+// C_IncendiaryGrenade
+// Size: 0x6FAF03E0 (1873740768 bytes)
+// Parent: C_MolotovGrenade
+// Module: client.dll
+//
+// Inheritance:
+//   C_IncendiaryGrenade -> C_MolotovGrenade -> C_BaseCSGrenade -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+
+// (no own fields)

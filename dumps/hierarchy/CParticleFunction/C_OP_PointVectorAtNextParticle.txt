@@ -1,0 +1,10 @@
+// C_OP_PointVectorAtNextParticle
+// Size: 0xB345604E (-1287298994 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_PointVectorAtNextParticle -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

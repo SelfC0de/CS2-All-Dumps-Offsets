@@ -1,0 +1,10 @@
+// CEnvExplosion
+// Size: 0xB345B411 (-1287277551 bytes)
+// Parent: CModelPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvExplosion -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_RemapDensityToVector
+// Size: 0xB34560F5 (-1287298827 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapDensityToVector -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

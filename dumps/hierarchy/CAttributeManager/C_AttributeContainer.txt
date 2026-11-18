@@ -1,0 +1,10 @@
+// C_AttributeContainer
+// Size: 0xB345EBA3 (-1287263325 bytes)
+// Parent: CAttributeManager
+// Module: client.dll
+//
+// Inheritance:
+//   C_AttributeContainer -> CAttributeManager
+//
+
+// (no own fields)

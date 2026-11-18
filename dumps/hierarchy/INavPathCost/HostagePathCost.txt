@@ -1,0 +1,10 @@
+// HostagePathCost
+// Size: 0xB345AA3F (-1287280065 bytes)
+// Parent: CNavPathCost
+// Module: client.dll
+//
+// Inheritance:
+//   HostagePathCost -> CNavPathCost -> INavPathCost
+//
+
+// (no own fields)

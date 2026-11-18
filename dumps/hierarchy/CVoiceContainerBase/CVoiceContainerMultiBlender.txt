@@ -1,0 +1,10 @@
+// CVoiceContainerMultiBlender
+// Size: 0xB3453188 (-1287310968 bytes)
+// Parent: CVoiceContainerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerMultiBlender -> CVoiceContainerBase
+//
+
+// (no own fields)

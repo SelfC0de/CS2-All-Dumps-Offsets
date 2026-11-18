@@ -1,0 +1,10 @@
+// C_OP_RemapAverageScalarValuetoCP
+// Size: 0xB34573AB (-1287294037 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapAverageScalarValuetoCP -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

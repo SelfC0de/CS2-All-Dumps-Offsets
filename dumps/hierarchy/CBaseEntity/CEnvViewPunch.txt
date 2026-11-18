@@ -1,0 +1,10 @@
+// CEnvViewPunch
+// Size: 0xB345B30B (-1287277813 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvViewPunch -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

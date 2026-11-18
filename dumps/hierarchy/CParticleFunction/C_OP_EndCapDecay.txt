@@ -1,0 +1,10 @@
+// C_OP_EndCapDecay
+// Size: 0xB34563F2 (-1287298062 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_EndCapDecay -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

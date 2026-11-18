@@ -1,0 +1,10 @@
+// C_DynamicPropAlias_cable_dynamic
+// Size: 0xB345FAA8 (-1287259480 bytes)
+// Parent: C_DynamicProp
+// Module: client.dll
+//
+// Inheritance:
+//   C_DynamicPropAlias_cable_dynamic -> C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CInstancedSceneEntity
+// Size: 0xB345C799 (-1287272551 bytes)
+// Parent: CSceneEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CInstancedSceneEntity -> CSceneEntity -> CPointEntity -> CBaseEntity -> CEntityInstance -> IChoreoEventCallback
+//
+
+// (no own fields)

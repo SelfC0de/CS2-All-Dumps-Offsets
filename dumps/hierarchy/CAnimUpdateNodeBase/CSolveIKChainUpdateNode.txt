@@ -1,0 +1,10 @@
+// CSolveIKChainUpdateNode
+// Size: 0xB34520AD (-1287315283 bytes)
+// Parent: CUnaryUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CSolveIKChainUpdateNode -> CUnaryUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> ITargetWarpInputNode
+//
+
+// (no own fields)

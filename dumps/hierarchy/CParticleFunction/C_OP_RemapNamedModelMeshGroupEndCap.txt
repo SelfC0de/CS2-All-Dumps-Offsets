@@ -1,0 +1,10 @@
+// C_OP_RemapNamedModelMeshGroupEndCap
+// Size: 0xB3456F36 (-1287295178 bytes)
+// Parent: C_OP_RemapNamedModelElementEndCap
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapNamedModelMeshGroupEndCap -> C_OP_RemapNamedModelElementEndCap -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

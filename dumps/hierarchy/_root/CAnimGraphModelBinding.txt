@@ -1,0 +1,10 @@
+// CAnimGraphModelBinding
+// Size: 0xB33DE940 (-1287788224 bytes)
+// Parent: IAnimGraphModelBinding
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimGraphModelBinding -> IAnimGraphModelBinding
+//
+
+// (no own fields)

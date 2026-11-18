@@ -1,0 +1,18 @@
+// C_DynamicProp
+// Size: 0xB345FA45 (-1287259579 bytes)
+// Parent: C_BreakableProp
+// Module: client.dll
+//
+// Inheritance:
+//   C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (6):
+//   CFuncRetakeBarrier
+//   C_BasePropDoor
+//   C_Chicken
+//   C_DynamicPropAlias_cable_dynamic
+//   C_DynamicPropAlias_dynamic_prop
+//   C_DynamicPropAlias_prop_dynamic_override
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CPhysThruster
+// Size: 0xB345B6E1 (-1287276831 bytes)
+// Parent: CPhysForce
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysThruster -> CPhysForce -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_ChladniWave
+// Size: 0xB345635D (-1287298211 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ChladniWave -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CNmTwoBoneIKTask
+// Size: 0xB3450E1C (-1287320036 bytes)
+// Parent: CNmPoseTask
+// Module: client.dll
+//
+// Inheritance:
+//   CNmTwoBoneIKTask -> CNmPoseTask
+//
+
+// (no own fields)

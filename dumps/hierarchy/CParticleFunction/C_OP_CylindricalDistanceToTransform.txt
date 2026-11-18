@@ -1,0 +1,10 @@
+// C_OP_CylindricalDistanceToTransform
+// Size: 0xB3456820 (-1287296992 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_CylindricalDistanceToTransform -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

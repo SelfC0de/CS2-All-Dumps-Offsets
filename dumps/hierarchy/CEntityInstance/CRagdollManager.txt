@@ -1,0 +1,10 @@
+// CRagdollManager
+// Size: 0xB345ADB7 (-1287279177 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CRagdollManager -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

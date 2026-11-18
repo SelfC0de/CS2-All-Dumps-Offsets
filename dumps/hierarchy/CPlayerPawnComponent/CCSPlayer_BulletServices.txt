@@ -1,0 +1,10 @@
+// CCSPlayer_BulletServices
+// Size: 0xB345A56E (-1287281298 bytes)
+// Parent: CPlayerPawnComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayer_BulletServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

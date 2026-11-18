@@ -1,0 +1,13 @@
+// C_BaseGrenade
+// Size: 0xB345FCB2 (-1287258958 bytes)
+// Parent: CBaseAnimGraph
+// Module: client.dll
+//
+// Inheritance:
+//   C_BaseGrenade -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (1):
+//   C_BaseCSGrenadeProjectile
+//
+
+// (no own fields)

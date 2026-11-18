@@ -1,0 +1,10 @@
+// CPhysicsSpring
+// Size: 0xB345B82E (-1287276498 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysicsSpring -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

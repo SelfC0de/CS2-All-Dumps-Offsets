@@ -1,0 +1,10 @@
+// CFuncTrainControls
+// Size: 0xB345BA89 (-1287275895 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncTrainControls -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

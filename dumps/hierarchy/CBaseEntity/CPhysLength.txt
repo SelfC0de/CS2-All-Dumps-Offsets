@@ -1,0 +1,10 @@
+// CPhysLength
+// Size: 0xB345B7A8 (-1287276632 bytes)
+// Parent: CPhysConstraint
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysLength -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

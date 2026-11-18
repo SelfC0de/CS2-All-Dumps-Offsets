@@ -1,0 +1,10 @@
+// C_SoundAreaEntitySphere
+// Size: 0xB345F3C1 (-1287261247 bytes)
+// Parent: C_SoundAreaEntityBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_SoundAreaEntitySphere -> C_SoundAreaEntityBase -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

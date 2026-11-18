@@ -1,0 +1,10 @@
+// C_INIT_CreateOnModelAtHeight
+// Size: 0xB3454F71 (-1287303311 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreateOnModelAtHeight -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,23 @@
+// CPulseCell_BaseYieldingInflow
+// Size: 0xB364C5EA (-1285241366 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+// Direct subclasses (11):
+//   CPulseCell_BaseLerp
+//   CPulseCell_FireCursors
+//   CPulseCell_Inflow_Wait
+//   CPulseCell_Inflow_Yield
+//   CPulseCell_IntervalTimer
+//   CPulseCell_PlaySequence
+//   CPulseCell_RaceCursors
+//   CPulseCell_Step_CallExternalMethod
+//   CPulseCell_Timeline
+//   CPulseCell_WaitForCursorsWithTagBase
+//   CPulseCell_WaitForObservable
+//
+
+// (no own fields)

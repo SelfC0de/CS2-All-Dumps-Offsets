@@ -1,0 +1,6 @@
+// CAnimStateMachineUpdater
+// Size: 0xB345061F (-1287322081 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

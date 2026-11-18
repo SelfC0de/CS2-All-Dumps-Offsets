@@ -1,0 +1,10 @@
+// C_INIT_PlaneCull
+// Size: 0xB345579C (-1287301220 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_PlaneCull -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

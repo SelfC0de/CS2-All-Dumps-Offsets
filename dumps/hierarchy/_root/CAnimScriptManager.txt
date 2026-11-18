@@ -1,0 +1,10 @@
+// CAnimScriptManager
+// Size: 0xB34505A3 (-1287322205 bytes)
+// Parent: ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimScriptManager -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

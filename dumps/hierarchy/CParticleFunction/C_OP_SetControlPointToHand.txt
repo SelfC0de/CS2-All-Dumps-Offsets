@@ -1,0 +1,10 @@
+// C_OP_SetControlPointToHand
+// Size: 0xB3457558 (-1287293608 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetControlPointToHand -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

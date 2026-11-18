@@ -1,0 +1,10 @@
+// CTonemapTrigger
+// Size: 0xB345CD25 (-1287271131 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTonemapTrigger -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

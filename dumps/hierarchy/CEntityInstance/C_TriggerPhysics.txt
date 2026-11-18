@@ -1,0 +1,10 @@
+// C_TriggerPhysics
+// Size: 0xB345FC38 (-1287259080 bytes)
+// Parent: C_BaseTrigger
+// Module: client.dll
+//
+// Inheritance:
+//   C_TriggerPhysics -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

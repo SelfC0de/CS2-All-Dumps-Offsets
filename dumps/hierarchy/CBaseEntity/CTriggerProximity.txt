@@ -1,0 +1,10 @@
+// CTriggerProximity
+// Size: 0xB345C8A9 (-1287272279 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerProximity -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

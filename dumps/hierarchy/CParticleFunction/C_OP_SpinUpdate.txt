@@ -1,0 +1,10 @@
+// C_OP_SpinUpdate
+// Size: 0xB34564DB (-1287297829 bytes)
+// Parent: CSpinUpdateBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SpinUpdate -> CSpinUpdateBase -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CLogicScript
+// Size: 0xB345B555 (-1287277227 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicScript -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_INIT_DistanceToCPInit
+// Size: 0xB3455713 (-1287301357 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_DistanceToCPInit -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

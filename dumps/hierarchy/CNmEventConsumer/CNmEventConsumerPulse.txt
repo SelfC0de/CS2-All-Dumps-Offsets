@@ -1,0 +1,10 @@
+// CNmEventConsumerPulse
+// Size: 0xB3458DA6 (-1287287386 bytes)
+// Parent: CNmEventConsumer
+// Module: client.dll
+//
+// Inheritance:
+//   CNmEventConsumerPulse -> CNmEventConsumer
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CVoiceContainerEnvelopeAnalyzer
+// Size: 0xB345312D (-1287311059 bytes)
+// Parent: CVoiceContainerAnalysisBase
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerEnvelopeAnalyzer -> CVoiceContainerAnalysisBase
+//
+
+// (no own fields)

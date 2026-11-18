@@ -1,0 +1,19 @@
+// CConcreteAnimParameter
+// Size: 0xB34504B2 (-1287322446 bytes)
+// Parent: CAnimParameterBase
+// Module: client.dll
+//
+// Inheritance:
+//   CConcreteAnimParameter -> CAnimParameterBase -> IAnimParameter -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+// Direct subclasses (7):
+//   CBoolAnimParameter
+//   CEnumAnimParameter
+//   CFloatAnimParameter
+//   CIntAnimParameter
+//   CQuaternionAnimParameter
+//   CSymbolAnimParameter
+//   CVectorAnimParameter
+//
+
+// (no own fields)

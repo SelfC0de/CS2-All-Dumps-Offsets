@@ -1,0 +1,10 @@
+// CGameChoreoServices
+// Size: 0xB3458F16 (-1287287018 bytes)
+// Parent: IChoreoServices
+// Module: client.dll
+//
+// Inheritance:
+//   CGameChoreoServices -> IChoreoServices
+//
+
+// (no own fields)

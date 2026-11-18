@@ -1,0 +1,10 @@
+// C_OP_RemapCrossProductOfTwoVectorsToVector
+// Size: 0xB3456CE7 (-1287295769 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapCrossProductOfTwoVectorsToVector -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

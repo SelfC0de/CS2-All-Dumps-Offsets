@@ -1,0 +1,10 @@
+// C_OP_DistanceBetweenVecs
+// Size: 0xB34567C3 (-1287297085 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_DistanceBetweenVecs -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

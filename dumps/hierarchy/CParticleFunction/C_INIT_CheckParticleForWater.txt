@@ -1,0 +1,10 @@
+// C_INIT_CheckParticleForWater
+// Size: 0xB34553CF (-1287302193 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CheckParticleForWater -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

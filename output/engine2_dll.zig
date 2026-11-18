@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-12 08:33:41.7308395 UTC
+// 2026-11-18 06:23:05.2221886 UTC
 
 pub const cs2_dumper = struct {
     pub const schemas = struct {
@@ -17,7 +17,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 4
             pub const EntityIOTargetType_t = enum(u32) {
-                ENTITY_IO_TARGET_INVALID = 0xFFFFFFFFFFFFFFFF,
+                ENTITY_IO_TARGET_INVALID = 0x-1,
                 ENTITY_IO_TARGET_ENTITYNAME = 0x2,
                 ENTITY_IO_TARGET_EHANDLE = 0x6,
                 ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME = 0x7

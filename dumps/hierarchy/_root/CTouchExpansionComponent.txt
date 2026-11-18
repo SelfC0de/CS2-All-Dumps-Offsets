@@ -1,0 +1,10 @@
+// CTouchExpansionComponent
+// Size: 0xB34594F1 (-1287285519 bytes)
+// Parent: CEntityComponent
+// Module: server.dll
+//
+// Inheritance:
+//   CTouchExpansionComponent -> CEntityComponent
+//
+
+// (no own fields)

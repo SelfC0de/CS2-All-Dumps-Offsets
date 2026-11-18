@@ -1,0 +1,10 @@
+// C_INIT_CreateSequentialPath
+// Size: 0xB34555F4 (-1287301644 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreateSequentialPath -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

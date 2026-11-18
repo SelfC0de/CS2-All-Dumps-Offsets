@@ -1,0 +1,10 @@
+// C_INIT_ScaleVelocity
+// Size: 0xB3455367 (-1287302297 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_ScaleVelocity -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CPathMoverEntitySpawner
+// Size: 0xB3459601 (-1287285247 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPathMoverEntitySpawner -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

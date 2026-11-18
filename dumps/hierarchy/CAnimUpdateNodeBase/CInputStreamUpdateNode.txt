@@ -1,0 +1,10 @@
+// CInputStreamUpdateNode
+// Size: 0xB3451F91 (-1287315567 bytes)
+// Parent: CLeafUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CInputStreamUpdateNode -> CLeafUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

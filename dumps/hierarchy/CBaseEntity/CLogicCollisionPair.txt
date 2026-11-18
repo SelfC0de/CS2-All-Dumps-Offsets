@@ -1,0 +1,10 @@
+// CLogicCollisionPair
+// Size: 0xB345B64A (-1287276982 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicCollisionPair -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

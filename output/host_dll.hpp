@@ -3,27 +3,19 @@
 // module:        host.dll
 // classes:       2
 // enums:         0
-// generated_at:  2026-11-12T08:33:43.130164300+00:00
+// generated_at:  2026-11-18T06:23:06.754083400+00:00
 //
 // Use:
 //   auto* pawn = reinterpret_cast<C_CSPlayerPawn*>(addr);
 //   pawn->m_iHealth() = 100;
 
 #pragma once
-#include "macros.hpp"
+#include "../macros.hpp"
 
 namespace host {
 
     class EmptyTestScript;
     class CAnimScriptBase;
-
-    // CAnimScriptBase
-    //   fields: 1
-    //   size: 0x10
-    class CAnimScriptBase {
-    public:
-        SCHEMA_FIELD(bool                            , m_bIsValid                                      , 0x8) // bool
-    };
 
     // EmptyTestScript
     //   fields: 1
@@ -31,6 +23,14 @@ namespace host {
     class EmptyTestScript {
     public:
         SCHEMA_FIELD(CAnimScriptParam<float32>       , m_hTest                                         , 0x10) // CAnimScriptParam<float32>
+    };
+
+    // CAnimScriptBase
+    //   fields: 1
+    //   size: 0x10
+    class CAnimScriptBase {
+    public:
+        SCHEMA_FIELD(bool                            , m_bIsValid                                      , 0x8) // bool
     };
 
 } // namespace host

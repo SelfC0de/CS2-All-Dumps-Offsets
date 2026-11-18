@@ -1,0 +1,10 @@
+// C_ItemDogtags
+// Size: 0x6FAF00A8 (1873739944 bytes)
+// Parent: C_Item
+// Module: client.dll
+//
+// Inheritance:
+//   C_ItemDogtags -> C_Item -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride
+//
+
+// (no own fields)

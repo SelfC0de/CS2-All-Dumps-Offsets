@@ -1,0 +1,13 @@
+// C_RagdollProp
+// Size: 0xB345FC66 (-1287259034 bytes)
+// Parent: CBaseAnimGraph
+// Module: client.dll
+//
+// Inheritance:
+//   C_RagdollProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (1):
+//   C_RagdollPropAttached
+//
+
+// (no own fields)

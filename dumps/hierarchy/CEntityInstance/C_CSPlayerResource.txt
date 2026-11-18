@@ -1,0 +1,10 @@
+// C_CSPlayerResource
+// Size: 0xB345EDF3 (-1287262733 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSPlayerResource -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

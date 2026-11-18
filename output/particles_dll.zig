@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-12 08:33:41.7308395 UTC
+// 2026-11-18 06:23:05.2221886 UTC
 
 pub const cs2_dumper = struct {
     pub const schemas = struct {
@@ -36,7 +36,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 7
             pub const Detail2Combo_t = enum(u32) {
-                DETAIL_2_COMBO_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF,
+                DETAIL_2_COMBO_UNINITIALIZED = 0x-1,
                 DETAIL_2_COMBO_OFF = 0x0,
                 DETAIL_2_COMBO_ADD = 0x1,
                 DETAIL_2_COMBO_ADD_SELF_ILLUM = 0x2,
@@ -47,7 +47,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 4
             pub const MissingParentInheritBehavior_t = enum(u32) {
-                MISSING_PARENT_DO_NOTHING = 0xFFFFFFFFFFFFFFFF,
+                MISSING_PARENT_DO_NOTHING = 0x-1,
                 MISSING_PARENT_KILL = 0x0,
                 MISSING_PARENT_FIND_NEW = 0x1,
                 MISSING_PARENT_SAME_INDEX = 0x2
@@ -139,7 +139,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 12
             pub const ScalarExpressionType_t = enum(u32) {
-                SCALAR_EXPRESSION_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF,
+                SCALAR_EXPRESSION_UNINITIALIZED = 0x-1,
                 SCALAR_EXPRESSION_ADD = 0x0,
                 SCALAR_EXPRESSION_SUBTRACT = 0x1,
                 SCALAR_EXPRESSION_MUL = 0x2,
@@ -194,7 +194,7 @@ pub const cs2_dumper = struct {
             pub const ParticleLightingQuality_t = enum(u32) {
                 PARTICLE_LIGHTING_PER_PARTICLE = 0x0,
                 PARTICLE_LIGHTING_PER_VERTEX = 0x1,
-                PARTICLE_LIGHTING_PER_PIXEL = 0xFFFFFFFFFFFFFFFF,
+                PARTICLE_LIGHTING_PER_PIXEL = 0x-1,
                 PARTICLE_LIGHTING_OVERRIDE_POSITION = 0x2,
                 PARTICLE_LIGHTING_OVERRIDE_COLOR = 0x3,
                 PARTICLE_LIGHTING_ADD_EXTRA_LIGHT = 0x4
@@ -208,7 +208,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 8
             pub const SetStatisticExpressionType_t = enum(u32) {
-                SET_EXPRESSION_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF,
+                SET_EXPRESSION_UNINITIALIZED = 0x-1,
                 SET_EXPRESSION_SUM = 0x0,
                 SET_EXPRESSION_MEAN = 0x1,
                 SET_EXPRESSION_MEDIAN = 0x2,
@@ -259,7 +259,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 12
             pub const ParticlePinDistance_t = enum(u32) {
-                PARTICLE_PIN_DISTANCE_NONE = 0xFFFFFFFFFFFFFFFF,
+                PARTICLE_PIN_DISTANCE_NONE = 0x-1,
                 PARTICLE_PIN_DISTANCE_NEIGHBOR = 0x0,
                 PARTICLE_PIN_DISTANCE_FARTHEST = 0x1,
                 PARTICLE_PIN_DISTANCE_FIRST = 0x2,
@@ -275,7 +275,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 7
             pub const VectorFloatExpressionType_t = enum(u32) {
-                VECTOR_FLOAT_EXPRESSION_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF,
+                VECTOR_FLOAT_EXPRESSION_UNINITIALIZED = 0x-1,
                 VECTOR_FLOAT_EXPRESSION_DOTPRODUCT = 0x0,
                 VECTOR_FLOAT_EXPRESSION_DISTANCE = 0x1,
                 VECTOR_FLOAT_EXPRESSION_DISTANCESQR = 0x2,
@@ -293,7 +293,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 10
             pub const VectorExpressionType_t = enum(u32) {
-                VECTOR_EXPRESSION_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF,
+                VECTOR_EXPRESSION_UNINITIALIZED = 0x-1,
                 VECTOR_EXPRESSION_ADD = 0x0,
                 VECTOR_EXPRESSION_SUBTRACT = 0x1,
                 VECTOR_EXPRESSION_MUL = 0x2,
@@ -406,7 +406,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 3
             pub const ParticleToolsState_t = enum(u32) {
-                PARTICLE_TOOLS_STATE_ALWAYS_ON = 0xFFFFFFFFFFFFFFFF,
+                PARTICLE_TOOLS_STATE_ALWAYS_ON = 0x-1,
                 PARTICLE_TOOLS_STATE_TOOLS_ONLY = 0x0,
                 PARTICLE_TOOLS_STATE_GAME_ONLY = 0x1
             };
@@ -455,7 +455,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 4
             pub const ParticleMultiSegmentSpecialCharacter_t = enum(u32) {
-                PARTICLE_MULTISEGMENT_SPECIAL_NONE = 0xFFFFFFFFFFFFFFFF,
+                PARTICLE_MULTISEGMENT_SPECIAL_NONE = 0x-1,
                 PARTICLE_MULTISEGMENT_SPECIAL_DECIMAL = 0x0,
                 PARTICLE_MULTISEGMENT_SPECIAL_COLON = 0x1,
                 PARTICLE_MULTISEGMENT_SPECIAL_DEGREES = 0x2
@@ -479,7 +479,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 3
             pub const ParticleSequenceCropOverride_t = enum(u32) {
-                PARTICLE_SEQUENCE_CROP_OVERRIDE_DEFAULT = 0xFFFFFFFFFFFFFFFF,
+                PARTICLE_SEQUENCE_CROP_OVERRIDE_DEFAULT = 0x-1,
                 PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_OFF = 0x0,
                 PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_ON = 0x1
             };
@@ -582,7 +582,7 @@ pub const cs2_dumper = struct {
                 COLLISION_MODE_USE_NEAREST_TRACE = 0x2,
                 COLLISION_MODE_PER_FRAME_PLANESET = 0x1,
                 COLLISION_MODE_INITIAL_TRACE_DOWN = 0x0,
-                COLLISION_MODE_DISABLED = 0xFFFFFFFFFFFFFFFF
+                COLLISION_MODE_DISABLED = 0x-1
             };
             // Alignment: 4
             // Member count: 2
@@ -593,7 +593,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 3
             pub const ParticleEndcapMode_t = enum(u32) {
-                PARTICLE_ENDCAP_ALWAYS_ON = 0xFFFFFFFFFFFFFFFF,
+                PARTICLE_ENDCAP_ALWAYS_ON = 0x-1,
                 PARTICLE_ENDCAP_ENDCAP_OFF = 0x0,
                 PARTICLE_ENDCAP_ENDCAP_ON = 0x1
             };
@@ -652,7 +652,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 4
             pub const ParticleOrientationSetMode_t = enum(u32) {
-                PARTICLE_ORIENTATION_SET_NONE = 0xFFFFFFFFFFFFFFFF,
+                PARTICLE_ORIENTATION_SET_NONE = 0x-1,
                 PARTICLE_ORIENTATION_SET_FROM_VELOCITY = 0x0,
                 PARTICLE_ORIENTATION_SET_FROM_NORMAL = 0x1,
                 PARTICLE_ORIENTATION_SET_FROM_ROTATIONS = 0x2
@@ -660,7 +660,7 @@ pub const cs2_dumper = struct {
             // Alignment: 8
             // Member count: 10
             pub const ParticleCollisionMask_t = enum(u32) {
-                PARTICLE_MASK_ALL = 0xFFFFFFFFFFFFFFFF,
+                PARTICLE_MASK_ALL = 0x-1,
                 PARTICLE_MASK_SOLID = 0xC3001,
                 PARTICLE_MASK_WATER = 0x18000,
                 PARTICLE_MASK_SOLID_WATER = 0xDB001,

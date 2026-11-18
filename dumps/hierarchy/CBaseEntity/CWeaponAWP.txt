@@ -1,0 +1,10 @@
+// CWeaponAWP
+// Size: 0xB345D03F (-1287270337 bytes)
+// Parent: CCSWeaponBaseGun
+// Module: server.dll
+//
+// Inheritance:
+//   CWeaponAWP -> CCSWeaponBaseGun -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+//
+
+// (no own fields)

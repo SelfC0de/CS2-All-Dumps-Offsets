@@ -1,0 +1,10 @@
+// CInfoPlayerCounterterrorist
+// Size: 0xB345BFD3 (-1287274541 bytes)
+// Parent: SpawnPoint
+// Module: server.dll
+//
+// Inheritance:
+//   CInfoPlayerCounterterrorist -> SpawnPoint -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

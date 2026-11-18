@@ -1,0 +1,10 @@
+// CCSPlayer_GlowServices
+// Size: 0xB345EEA7 (-1287262553 bytes)
+// Parent: CPlayerPawnComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayer_GlowServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

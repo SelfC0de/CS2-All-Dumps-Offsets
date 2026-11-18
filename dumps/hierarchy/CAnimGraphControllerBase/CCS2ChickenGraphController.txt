@@ -1,0 +1,10 @@
+// CCS2ChickenGraphController
+// Size: 0xB345A8ED (-1287280403 bytes)
+// Parent: CAnimGraphControllerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CCS2ChickenGraphController -> CAnimGraphControllerBase
+//
+
+// (no own fields)

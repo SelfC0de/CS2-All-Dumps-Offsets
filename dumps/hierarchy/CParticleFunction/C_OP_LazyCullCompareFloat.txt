@@ -1,0 +1,10 @@
+// C_OP_LazyCullCompareFloat
+// Size: 0xB345648A (-1287297910 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_LazyCullCompareFloat -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

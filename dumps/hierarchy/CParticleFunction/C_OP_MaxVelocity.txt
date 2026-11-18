@@ -1,0 +1,10 @@
+// C_OP_MaxVelocity
+// Size: 0xB3456B28 (-1287296216 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_MaxVelocity -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

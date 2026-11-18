@@ -1,0 +1,21 @@
+// CVoiceContainerBase
+// Size: 0xB3452FEE (-1287311378 bytes)
+// Module: client.dll
+//
+// Direct subclasses (13):
+//   CVoiceContainerBlender
+//   CVoiceContainerDefault
+//   CVoiceContainerEnum
+//   CVoiceContainerLoopTrigger
+//   CVoiceContainerLoopXFade
+//   CVoiceContainerMultiBlender
+//   CVoiceContainerParameterBlender
+//   CVoiceContainerSelector
+//   CVoiceContainerSet
+//   CVoiceContainerSwitch
+//   CVoiceContainerVMixSnd
+//   CVoiceContainerVsndRadioButton
+//   CVoiceContainerVsndTrigger
+//
+
+// (no own fields)

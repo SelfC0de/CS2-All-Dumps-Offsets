@@ -1,0 +1,10 @@
+// C_EnvVolumetricFogVolume
+// Size: 0xB345F336 (-1287261386 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_EnvVolumetricFogVolume -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

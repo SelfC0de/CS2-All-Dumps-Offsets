@@ -1,0 +1,10 @@
+// C_OP_ConstrainLineLength
+// Size: 0xB3454EA6 (-1287303514 bytes)
+// Parent: CParticleFunctionConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ConstrainLineLength -> CParticleFunctionConstraint -> CParticleFunction
+//
+
+// (no own fields)

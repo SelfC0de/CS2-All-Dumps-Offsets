@@ -1,0 +1,10 @@
+// CPointCommentaryNode
+// Size: 0xB345C54E (-1287273138 bytes)
+// Parent: CBaseAnimGraph
+// Module: server.dll
+//
+// Inheritance:
+//   CPointCommentaryNode -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

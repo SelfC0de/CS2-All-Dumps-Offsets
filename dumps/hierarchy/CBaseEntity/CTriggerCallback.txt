@@ -1,0 +1,10 @@
+// CTriggerCallback
+// Size: 0xB345CA4B (-1287271861 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerCallback -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-12 08:33:41.7308395 UTC
+// 2026-11-18 06:23:05.2221886 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: server.dll
@@ -188,7 +188,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 5
         public enum StanceType_t : uint {
-            STANCE_CURRENT = 0xFFFFFFFFFFFFFFFF,
+            STANCE_CURRENT = 0x-1,
             STANCE_DEFAULT = 0x0,
             STANCE_CROUCHING = 0x1,
             STANCE_PRONE = 0x2,
@@ -204,7 +204,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 14
         public enum PreviewCharacterMode : uint {
-            INVALID = 0xFFFFFFFFFFFFFFFF,
+            INVALID = 0x-1,
             DIORAMA = 0x0,
             MAIN_MENU = 0x1,
             BUY_MENU = 0x2,
@@ -405,7 +405,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 22
         public enum EDemoCommands : uint {
-            DEM_Error = 0xFFFFFFFFFFFFFFFF,
+            DEM_Error = 0x-1,
             DEM_Stop = 0x0,
             DEM_FileHeader = 0x1,
             DEM_FileInfo = 0x2,
@@ -588,7 +588,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 5
         public enum NPCFollowFormation_t : uint {
-            Default = 0xFFFFFFFFFFFFFFFF,
+            Default = 0x-1,
             CloseCircle = 0x0,
             WideCircle = 0x1,
             MediumCircle = 0x5,
@@ -755,7 +755,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 1
         // Member count: 6
         public enum AnimationAlgorithm_t : uint {
-            eInvalid = 0xFFFFFFFFFFFFFFFF,
+            eInvalid = 0x-1,
             eNone = 0x0,
             eSequence = 0x1,
             eAnimGraph2 = 0x2,
@@ -795,7 +795,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 9
         public enum BloodType : uint {
-            None = 0xFFFFFFFFFFFFFFFF,
+            None = 0x-1,
             ColorRed = 0x0,
             ColorYellow = 0x1,
             ColorGreen = 0x2,
@@ -825,7 +825,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 5
         public enum AnimLoopMode_t : uint {
-            ANIM_LOOP_MODE_INVALID = 0xFFFFFFFFFFFFFFFF,
+            ANIM_LOOP_MODE_INVALID = 0x-1,
             ANIM_LOOP_MODE_NOT_LOOPING = 0x0,
             ANIM_LOOP_MODE_LOOPING = 0x1,
             ANIM_LOOP_MODE_USE_SEQUENCE_SETTINGS = 0x2,
@@ -1363,8 +1363,8 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 75
         public enum loadout_slot_t : uint {
-            LOADOUT_SLOT_PROMOTED = 0xFFFFFFFFFFFFFFFE,
-            LOADOUT_SLOT_INVALID = 0xFFFFFFFFFFFFFFFF,
+            LOADOUT_SLOT_PROMOTED = 0x-2,
+            LOADOUT_SLOT_INVALID = 0x-1,
             LOADOUT_SLOT_MELEE = 0x0,
             LOADOUT_SLOT_C4 = 0x1,
             LOADOUT_SLOT_FIRST_AUTO_BUY_WEAPON = 0x0,
@@ -1608,7 +1608,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum WeaponAttackType_t : uint {
-            eInvalid = 0xFFFFFFFFFFFFFFFF,
+            eInvalid = 0x-1,
             ePrimary = 0x0,
             eSecondary = 0x1,
             eCount = 0x2
@@ -1710,7 +1710,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 5
         public enum eRollType : uint {
-            ROLL_NONE = 0xFFFFFFFFFFFFFFFF,
+            ROLL_NONE = 0x-1,
             ROLL_STATS = 0x0,
             ROLL_CREDITS = 0x1,
             ROLL_LATE_JOIN_LOGO = 0x2,
@@ -1719,7 +1719,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum ScriptedOnDeath_t : uint {
-            SS_ONDEATH_NOT_APPLICABLE = 0xFFFFFFFFFFFFFFFF,
+            SS_ONDEATH_NOT_APPLICABLE = 0x-1,
             SS_ONDEATH_UNDEFINED = 0x0,
             SS_ONDEATH_RAGDOLL = 0x1,
             SS_ONDEATH_ANIMATED_DEATH = 0x2
@@ -1797,7 +1797,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum ChoreoLookAtSpeed_t : uint {
-            eInvalid = 0xFFFFFFFFFFFFFFFF,
+            eInvalid = 0x-1,
             eSlow = 0x0,
             eMedium = 0x1,
             eFast = 0x2
@@ -1830,7 +1830,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 17
         public enum gear_slot_t : uint {
-            GEAR_SLOT_INVALID = 0xFFFFFFFFFFFFFFFF,
+            GEAR_SLOT_INVALID = 0x-1,
             GEAR_SLOT_RIFLE = 0x0,
             GEAR_SLOT_PISTOL = 0x1,
             GEAR_SLOT_KNIFE = 0x2,
@@ -1929,7 +1929,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum AmmoPosition_t : uint {
-            AMMO_POSITION_INVALID = 0xFFFFFFFFFFFFFFFF,
+            AMMO_POSITION_INVALID = 0x-1,
             AMMO_POSITION_PRIMARY = 0x0,
             AMMO_POSITION_SECONDARY = 0x1,
             AMMO_POSITION_COUNT = 0x2
@@ -1947,12 +1947,12 @@ namespace CS2Dumper.Schemas {
             AI_EVENT = 0x7,
             AI_PATHFINDING = 0x8,
             END_SIM_HISTORY_TYPES = 0x9,
-            COMBINED = 0xFFFFFFFFFFFFFFFF
+            COMBINED = 0x-1
         }
         // Alignment: 4
         // Member count: 24
         public enum PreviewEOMCelebration : uint {
-            INVALID = 0xFFFFFFFFFFFFFFFF,
+            INVALID = 0x-1,
             WALKUP = 0x0,
             PUNCHING = 0x1,
             SWAGGER = 0x2,
@@ -2019,7 +2019,7 @@ namespace CS2Dumper.Schemas {
         // Member count: 21
         public enum InputBitMask_t : uint {
             IN_NONE = 0x0,
-            IN_ALL = 0xFFFFFFFFFFFFFFFF,
+            IN_ALL = 0x-1,
             IN_ATTACK = 0x1,
             IN_JUMP = 0x2,
             IN_DUCK = 0x4,
@@ -2043,7 +2043,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 14
         public enum HitGroup_t : uint {
-            HITGROUP_INVALID = 0xFFFFFFFFFFFFFFFF,
+            HITGROUP_INVALID = 0x-1,
             HITGROUP_GENERIC = 0x0,
             HITGROUP_HEAD = 0x1,
             HITGROUP_CHEST = 0x2,
@@ -2281,7 +2281,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum EntitySubclassScope_t : uint {
-            SUBCLASS_SCOPE_NONE = 0xFFFFFFFFFFFFFFFF,
+            SUBCLASS_SCOPE_NONE = 0x-1,
             SUBCLASS_SCOPE_PRECIPITATION = 0x0,
             SUBCLASS_SCOPE_PLAYER_WEAPONS = 0x1,
             SUBCLASS_SCOPE_COUNT = 0x2
@@ -2374,7 +2374,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 3
         public enum EHudPanelClassStatus_t : uint {
-            k_eHudPanelClassStatus_Undefined = 0xFFFFFFFFFFFFFFFF,
+            k_eHudPanelClassStatus_Undefined = 0x-1,
             k_eHudPanelClassStatus_DoesNotHaveClass = 0x0,
             k_eHudPanelClassStatus_HasClass = 0x1
         }
@@ -2464,7 +2464,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 27
         public enum RumbleEffect_t : uint {
-            RUMBLE_INVALID = 0xFFFFFFFFFFFFFFFF,
+            RUMBLE_INVALID = 0x-1,
             RUMBLE_STOP_ALL = 0x0,
             RUMBLE_PISTOL = 0x1,
             RUMBLE_357 = 0x2,
@@ -2514,7 +2514,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum ChoreoLookAtMode_t : uint {
-            eInvalid = 0xFFFFFFFFFFFFFFFF,
+            eInvalid = 0x-1,
             eChest = 0x0,
             eHead = 0x1,
             eEyesOnly = 0x2
@@ -2529,7 +2529,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 7
         public enum PlayerConnectedState : uint {
-            NeverConnected = 0xFFFFFFFFFFFFFFFF,
+            NeverConnected = 0x-1,
             Connected = 0x0,
             Connecting = 0x1,
             Reconnecting = 0x2,
@@ -2540,7 +2540,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 30
         public enum PreviewCharacterBannerAnimation : uint {
-            INVALID = 0xFFFFFFFFFFFFFFFF,
+            INVALID = 0x-1,
             IDLE_OFFSCREEN = 0x0,
             BANNER_AWP_ACE_GUN = 0x1,
             BANNER_AWP_ACE_A = 0x2,
@@ -2574,7 +2574,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 5
         public enum EntityDissolveType_t : uint {
-            ENTITY_DISSOLVE_INVALID = 0xFFFFFFFFFFFFFFFF,
+            ENTITY_DISSOLVE_INVALID = 0x-1,
             ENTITY_DISSOLVE_NORMAL = 0x0,
             ENTITY_DISSOLVE_ELECTRICAL = 0x1,
             ENTITY_DISSOLVE_ELECTRICAL_LIGHT = 0x2,
@@ -2759,7 +2759,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 6
         public enum INavObstacle::NavObstacleType_t : uint {
-            NAV_OBSTACLE_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+            NAV_OBSTACLE_TYPE_INVALID = 0x-1,
             NAV_OBSTACLE_TYPE_NONE = 0x0,
             NAV_OBSTACLE_TYPE_AVOID = 0x1,
             NAV_OBSTACLE_TYPE_CONN = 0x2,

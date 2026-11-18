@@ -1,0 +1,12 @@
+// CBoneConstraintBase
+// Size: 0xB364F4E2 (-1285229342 bytes)
+// Module: client.dll
+//
+// Direct subclasses (4):
+//   CBaseConstraint
+//   CBoneConstraintDotToMorph
+//   CBoneConstraintPoseSpaceMorph
+//   CBoneConstraintRbf
+//
+
+// (no own fields)

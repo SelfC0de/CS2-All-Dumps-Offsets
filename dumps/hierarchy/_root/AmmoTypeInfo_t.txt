@@ -1,0 +1,9 @@
+// AmmoTypeInfo_t
+// Size: 0xB34583F2 (-1287289870 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   GameAmmoTypeInfo_t
+//
+
+// (no own fields)

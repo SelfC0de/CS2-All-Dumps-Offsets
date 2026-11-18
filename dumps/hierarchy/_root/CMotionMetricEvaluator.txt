@@ -1,0 +1,25 @@
+// CMotionMetricEvaluator
+// Size: 0xB3450070 (-1287323536 bytes)
+// Parent: ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT
+// Module: client.dll
+//
+// Inheritance:
+//   CMotionMetricEvaluator -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+// Direct subclasses (13):
+//   CBlockSelectionMetricEvaluator
+//   CBonePositionMetricEvaluator
+//   CBoneVelocityMetricEvaluator
+//   CCurrentRotationVelocityMetricEvaluator
+//   CCurrentVelocityMetricEvaluator
+//   CDistanceRemainingMetricEvaluator
+//   CFootCycleMetricEvaluator
+//   CFootPositionMetricEvaluator
+//   CFutureFacingMetricEvaluator
+//   CFutureVelocityMetricEvaluator
+//   CPathMetricEvaluator
+//   CStepsRemainingMetricEvaluator
+//   CTimeRemainingMetricEvaluator
+//
+
+// (no own fields)

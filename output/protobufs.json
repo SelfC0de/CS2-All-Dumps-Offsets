@@ -16122,6 +16122,67 @@
       "has_bits_offset": 16,
       "size": 88
     },
+    "CMsgVolatileContainerPricesheet": {
+      "fields": {
+        "entries": {
+          "has_bit": 1,
+          "label": 3,
+          "number": 2,
+          "offset": 32,
+          "type": 11
+        },
+        "version": {
+          "has_bit": 0,
+          "label": 1,
+          "number": 1,
+          "offset": 24,
+          "type": 13
+        }
+      },
+      "has_bits_offset": 16,
+      "size": 48
+    },
+    "CMsgVolatileContainerPricesheet_Entry": {
+      "fields": {
+        "cost": {
+          "has_bit": -1,
+          "label": 1,
+          "number": 2,
+          "offset": 24,
+          "type": 13
+        },
+        "high": {
+          "has_bit": -1,
+          "label": 1,
+          "number": 5,
+          "offset": 16,
+          "type": 13
+        },
+        "key": {
+          "has_bit": 0,
+          "label": 1,
+          "number": 1,
+          "offset": 48,
+          "type": 6
+        },
+        "low": {
+          "has_bit": 8,
+          "label": 1,
+          "number": 4,
+          "offset": 4294967295,
+          "type": 13
+        },
+        "trend": {
+          "has_bit": 16,
+          "label": 1,
+          "number": 3,
+          "offset": 0,
+          "type": 17
+        }
+      },
+      "has_bits_offset": 16,
+      "size": 56
+    },
     "CMsg_CVars": {
       "fields": {
         "cvars": {
@@ -26720,14 +26781,14 @@
           "has_bit": -1,
           "label": 1,
           "number": 3,
-          "offset": 1338510272,
+          "offset": 751254112,
           "type": 5
         },
         "end": {
           "has_bit": -1,
           "label": 1,
           "number": 4,
-          "offset": 32761,
+          "offset": 32762,
           "type": 5
         },
         "path": {
@@ -36032,14 +36093,14 @@
           "has_bit": -1,
           "label": 1,
           "number": 3,
-          "offset": 2061806688,
+          "offset": 2163716240,
           "type": 5
         },
         "end": {
           "has_bit": -1,
           "label": 1,
           "number": 4,
-          "offset": 32761,
+          "offset": 32762,
           "type": 5
         },
         "path": {
@@ -42171,14 +42232,14 @@
           "has_bit": -1,
           "label": 1,
           "number": 3,
-          "offset": 1601213056,
+          "offset": 1888916112,
           "type": 5
         },
         "end": {
           "has_bit": -1,
           "label": 1,
           "number": 4,
-          "offset": 32761,
+          "offset": 32762,
           "type": 5
         },
         "path": {
@@ -58724,6 +58785,67 @@
       "has_bits_offset": 16,
       "size": 88
     },
+    "CMsgVolatileContainerPricesheet": {
+      "fields": {
+        "entries": {
+          "has_bit": 1,
+          "label": 3,
+          "number": 2,
+          "offset": 32,
+          "type": 11
+        },
+        "version": {
+          "has_bit": 0,
+          "label": 1,
+          "number": 1,
+          "offset": 24,
+          "type": 13
+        }
+      },
+      "has_bits_offset": 16,
+      "size": 48
+    },
+    "CMsgVolatileContainerPricesheet_Entry": {
+      "fields": {
+        "cost": {
+          "has_bit": -1,
+          "label": 1,
+          "number": 2,
+          "offset": 24,
+          "type": 13
+        },
+        "high": {
+          "has_bit": -1,
+          "label": 1,
+          "number": 5,
+          "offset": 16,
+          "type": 13
+        },
+        "key": {
+          "has_bit": 0,
+          "label": 1,
+          "number": 1,
+          "offset": 48,
+          "type": 6
+        },
+        "low": {
+          "has_bit": 8,
+          "label": 1,
+          "number": 4,
+          "offset": 4294967295,
+          "type": 13
+        },
+        "trend": {
+          "has_bit": 16,
+          "label": 1,
+          "number": 3,
+          "offset": 0,
+          "type": 17
+        }
+      },
+      "has_bits_offset": 16,
+      "size": 56
+    },
     "CMsg_CVars": {
       "fields": {
         "cvars": {
@@ -67947,14 +68069,14 @@
           "has_bit": -1,
           "label": 1,
           "number": 3,
-          "offset": 1380927856,
+          "offset": 837638928,
           "type": 5
         },
         "end": {
           "has_bit": -1,
           "label": 1,
           "number": 4,
-          "offset": 32761,
+          "offset": 32762,
           "type": 5
         },
         "path": {

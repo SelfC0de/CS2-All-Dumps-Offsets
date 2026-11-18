@@ -1,0 +1,10 @@
+// CNmFrameSnapEvent
+// Size: 0xB364FBFC (-1285227524 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmFrameSnapEvent -> CNmEvent
+//
+
+// (no own fields)

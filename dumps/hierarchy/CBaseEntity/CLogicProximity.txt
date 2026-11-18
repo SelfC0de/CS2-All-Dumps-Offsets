@@ -1,0 +1,10 @@
+// CLogicProximity
+// Size: 0xB345BAE8 (-1287275800 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicProximity -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

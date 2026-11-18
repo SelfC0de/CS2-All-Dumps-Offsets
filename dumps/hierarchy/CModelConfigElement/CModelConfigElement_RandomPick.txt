@@ -1,0 +1,10 @@
+// CModelConfigElement_RandomPick
+// Size: 0xB364F198 (-1285230184 bytes)
+// Parent: CModelConfigElement
+// Module: client.dll
+//
+// Inheritance:
+//   CModelConfigElement_RandomPick -> CModelConfigElement
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CPulseCell_SoundEventStart
+// Size: 0xB34590D7 (-1287286569 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: server.dll
+//
+// Inheritance:
+//   CPulseCell_SoundEventStart -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

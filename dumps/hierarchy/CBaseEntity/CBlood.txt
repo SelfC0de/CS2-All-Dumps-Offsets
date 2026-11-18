@@ -1,0 +1,10 @@
+// CBlood
+// Size: 0xB345B294 (-1287277932 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CBlood -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

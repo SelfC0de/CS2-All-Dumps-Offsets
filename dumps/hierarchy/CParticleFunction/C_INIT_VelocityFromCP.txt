@@ -1,0 +1,10 @@
+// C_INIT_VelocityFromCP
+// Size: 0xB3455549 (-1287301815 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_VelocityFromCP -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

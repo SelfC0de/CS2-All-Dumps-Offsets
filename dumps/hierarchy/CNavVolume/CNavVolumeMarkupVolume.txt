@@ -1,0 +1,10 @@
+// CNavVolumeMarkupVolume
+// Size: 0xB345991E (-1287284450 bytes)
+// Parent: CNavVolume
+// Module: client.dll
+//
+// Inheritance:
+//   CNavVolumeMarkupVolume -> CNavVolume
+//
+
+// (no own fields)

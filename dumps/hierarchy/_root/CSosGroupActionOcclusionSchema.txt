@@ -1,0 +1,10 @@
+// CSosGroupActionOcclusionSchema
+// Size: 0xB3452D96 (-1287311978 bytes)
+// Parent: CSosGroupActionSchema
+// Module: client.dll
+//
+// Inheritance:
+//   CSosGroupActionOcclusionSchema -> CSosGroupActionSchema
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CLogicLineToEntity
+// Size: 0xB345B577 (-1287277193 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicLineToEntity -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

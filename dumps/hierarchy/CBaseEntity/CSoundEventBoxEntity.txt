@@ -1,0 +1,10 @@
+// CSoundEventBoxEntity
+// Size: 0xB345AF1D (-1287278819 bytes)
+// Parent: CSoundEventMultiPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CSoundEventBoxEntity -> CSoundEventMultiPointEntity -> CSoundEventEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

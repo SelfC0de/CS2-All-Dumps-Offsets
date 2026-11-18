@@ -1,0 +1,10 @@
+// CParticleTransformInput
+// Size: 0xB364EBF4 (-1285231628 bytes)
+// Parent: CParticleInput
+// Module: client.dll
+//
+// Inheritance:
+//   CParticleTransformInput -> CParticleInput
+//
+
+// (no own fields)

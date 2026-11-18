@@ -1,0 +1,16 @@
+// C_SoundOpvarSetPointEntity
+// Size: 0xB345EA8D (-1287263603 bytes)
+// Parent: C_SoundOpvarSetPointBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_SoundOpvarSetPointEntity -> C_SoundOpvarSetPointBase -> C_BaseEntity -> CEntityInstance
+//
+// Direct subclasses (4):
+//   CSoundOpvarSetBoxEntity
+//   C_SoundOpvarSetAutoRoomEntity
+//   C_SoundOpvarSetDomeEntity
+//   C_SoundOpvarSetPathCornerEntity
+//
+
+// (no own fields)

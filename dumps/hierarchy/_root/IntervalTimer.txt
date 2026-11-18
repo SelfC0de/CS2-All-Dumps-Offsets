@@ -1,0 +1,9 @@
+// IntervalTimer
+// Size: 0xB3458C66 (-1287287706 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   CTimeline
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_FadeAndKillForTracers
+// Size: 0xB3455F23 (-1287299293 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_FadeAndKillForTracers -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

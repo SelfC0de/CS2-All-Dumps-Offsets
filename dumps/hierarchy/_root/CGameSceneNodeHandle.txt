@@ -1,0 +1,6 @@
+// CGameSceneNodeHandle
+// Size: 0xB3458A94 (-1287288172 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

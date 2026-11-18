@@ -1,0 +1,10 @@
+// CPathKeyFrame
+// Size: 0xB345B6B0 (-1287276880 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPathKeyFrame -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

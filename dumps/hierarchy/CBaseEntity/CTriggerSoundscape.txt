@@ -1,0 +1,10 @@
+// CTriggerSoundscape
+// Size: 0xB345C37F (-1287273601 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerSoundscape -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

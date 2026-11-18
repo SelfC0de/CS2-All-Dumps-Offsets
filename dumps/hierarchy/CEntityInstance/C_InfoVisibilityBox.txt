@@ -1,0 +1,10 @@
+// C_InfoVisibilityBox
+// Size: 0xB345F367 (-1287261337 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_InfoVisibilityBox -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

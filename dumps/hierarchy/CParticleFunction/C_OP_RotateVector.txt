@@ -1,0 +1,10 @@
+// C_OP_RotateVector
+// Size: 0xB3456B12 (-1287296238 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RotateVector -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

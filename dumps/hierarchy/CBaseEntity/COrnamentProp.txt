@@ -1,0 +1,10 @@
+// COrnamentProp
+// Size: 0xB345C736 (-1287272650 bytes)
+// Parent: CDynamicProp
+// Module: server.dll
+//
+// Inheritance:
+//   COrnamentProp -> CDynamicProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+//
+
+// (no own fields)

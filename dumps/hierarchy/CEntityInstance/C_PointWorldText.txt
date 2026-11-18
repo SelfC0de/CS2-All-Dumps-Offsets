@@ -1,0 +1,10 @@
+// C_PointWorldText
+// Size: 0xB345F601 (-1287260671 bytes)
+// Parent: C_ModelPointEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_PointWorldText -> C_ModelPointEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

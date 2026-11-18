@@ -1,0 +1,39 @@
+// CVMixBaseProcessorDesc
+// Size: 0xB345354F (-1287310001 bytes)
+// Module: client.dll
+//
+// Direct subclasses (31):
+//   CVMixAutoFilterProcessorDesc
+//   CVMixBoxverb2ProcessorDesc
+//   CVMixBoxverbProcessorDesc
+//   CVMixConvolutionProcessorDesc
+//   CVMixDelayProcessorDesc
+//   CVMixDiffusorProcessorDesc
+//   CVMixDualCompressorProcessorDesc
+//   CVMixDynamics3BandProcessorDesc
+//   CVMixDynamicsCompressorProcessorDesc
+//   CVMixDynamicsProcessorDesc
+//   CVMixEQ8ProcessorDesc
+//   CVMixEffectChainProcessorDesc
+//   CVMixEnvelopeProcessorDesc
+//   CVMixFilterProcessorDesc
+//   CVMixFlangerProcessorDesc
+//   CVMixFreeverbProcessorDesc
+//   CVMixModDelayProcessorDesc
+//   CVMixOscProcessorDesc
+//   CVMixPannerProcessorDesc
+//   CVMixPitchShiftProcessorDesc
+//   CVMixPlateReverbProcessorDesc
+//   CVMixPresetDSPProcessorDesc
+//   CVMixShaperProcessorDesc
+//   CVMixSteamAudioDirectProcessorDesc
+//   CVMixSteamAudioHRTFProcessorDesc
+//   CVMixSteamAudioHybridReverbProcessorDesc
+//   CVMixSteamAudioPathingProcessorDesc
+//   CVMixStereoDelayProcessorDesc
+//   CVMixSubgraphSwitchProcessorDesc
+//   CVMixUtilityProcessorDesc
+//   CVMixVocoderProcessorDesc
+//
+
+// (no own fields)

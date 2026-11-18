@@ -1,0 +1,10 @@
+// EmptyTestScript
+// Size: 0x6FAF0452 (1873740882 bytes)
+// Parent: CAnimScriptBase
+// Module: client.dll
+//
+// Inheritance:
+//   EmptyTestScript -> CAnimScriptBase -> IAnimCPPScript
+//
+
+// (no own fields)

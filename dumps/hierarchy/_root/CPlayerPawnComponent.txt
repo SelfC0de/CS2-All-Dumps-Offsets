@@ -1,0 +1,23 @@
+// CPlayerPawnComponent
+// Size: 0xB345824F (-1287290289 bytes)
+// Module: client.dll
+//
+// Direct subclasses (15):
+//   CCSPlayer_ActionTrackingServices
+//   CCSPlayer_AimPunchServices
+//   CCSPlayer_BulletServices
+//   CCSPlayer_BuyServices
+//   CCSPlayer_DamageReactServices
+//   CCSPlayer_GlowServices
+//   CCSPlayer_HostageServices
+//   CCSPlayer_PingServices
+//   CPlayer_CameraServices
+//   CPlayer_ItemServices
+//   CPlayer_MovementServices
+//   CPlayer_ObserverServices
+//   CPlayer_UseServices
+//   CPlayer_WaterServices
+//   CPlayer_WeaponServices
+//
+
+// (no own fields)

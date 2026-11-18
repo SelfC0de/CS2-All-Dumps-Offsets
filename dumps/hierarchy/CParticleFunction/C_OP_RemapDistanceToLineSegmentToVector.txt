@@ -1,0 +1,10 @@
+// C_OP_RemapDistanceToLineSegmentToVector
+// Size: 0xB34571B1 (-1287294543 bytes)
+// Parent: C_OP_RemapDistanceToLineSegmentBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapDistanceToLineSegmentToVector -> C_OP_RemapDistanceToLineSegmentBase -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

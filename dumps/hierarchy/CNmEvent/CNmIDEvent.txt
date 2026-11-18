@@ -1,0 +1,10 @@
+// CNmIDEvent
+// Size: 0xB364FC12 (-1285227502 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmIDEvent -> CNmEvent
+//
+
+// (no own fields)

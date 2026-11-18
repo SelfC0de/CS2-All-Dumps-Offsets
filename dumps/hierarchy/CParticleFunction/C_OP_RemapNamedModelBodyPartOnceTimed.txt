@@ -1,0 +1,10 @@
+// C_OP_RemapNamedModelBodyPartOnceTimed
+// Size: 0xB3456E6D (-1287295379 bytes)
+// Parent: C_OP_RemapNamedModelElementOnceTimed
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapNamedModelBodyPartOnceTimed -> C_OP_RemapNamedModelElementOnceTimed -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

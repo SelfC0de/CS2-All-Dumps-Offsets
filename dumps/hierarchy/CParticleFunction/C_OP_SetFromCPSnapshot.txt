@@ -1,0 +1,10 @@
+// C_OP_SetFromCPSnapshot
+// Size: 0xB3456F5E (-1287295138 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetFromCPSnapshot -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

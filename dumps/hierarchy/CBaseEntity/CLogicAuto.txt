@@ -1,0 +1,10 @@
+// CLogicAuto
+// Size: 0xB345B546 (-1287277242 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicAuto -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

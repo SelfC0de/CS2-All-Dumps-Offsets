@@ -1,0 +1,10 @@
+// C_OP_NormalizeVector
+// Size: 0xB3456D16 (-1287295722 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_NormalizeVector -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

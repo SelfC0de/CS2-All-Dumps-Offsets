@@ -1,0 +1,10 @@
+// CHandleDummy
+// Size: 0xB345BA67 (-1287275929 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CHandleDummy -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

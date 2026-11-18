@@ -1,0 +1,10 @@
+// CFuncInteractionLayerClip
+// Size: 0xB345B1EF (-1287278097 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncInteractionLayerClip -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

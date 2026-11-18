@@ -1,0 +1,10 @@
+// C_DynamicPropAlias_prop_dynamic_override
+// Size: 0xB345FA7B (-1287259525 bytes)
+// Parent: C_DynamicProp
+// Module: client.dll
+//
+// Inheritance:
+//   C_DynamicPropAlias_prop_dynamic_override -> C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CTankTrainAI
+// Size: 0xB345BA46 (-1287275962 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CTankTrainAI -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

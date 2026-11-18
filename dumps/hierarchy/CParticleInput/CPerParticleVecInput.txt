@@ -1,0 +1,10 @@
+// CPerParticleVecInput
+// Size: 0xB364EC3E (-1285231554 bytes)
+// Parent: CParticleVecInput
+// Module: client.dll
+//
+// Inheritance:
+//   CPerParticleVecInput -> CParticleVecInput -> CParticleInput
+//
+
+// (no own fields)

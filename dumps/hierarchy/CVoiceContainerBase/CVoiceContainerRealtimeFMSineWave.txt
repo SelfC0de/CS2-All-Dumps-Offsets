@@ -1,0 +1,10 @@
+// CVoiceContainerRealtimeFMSineWave
+// Size: 0xB3453422 (-1287310302 bytes)
+// Parent: CVoiceContainerGenerator
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerRealtimeFMSineWave -> CVoiceContainerGenerator -> CVoiceContainerBase
+//
+
+// (no own fields)

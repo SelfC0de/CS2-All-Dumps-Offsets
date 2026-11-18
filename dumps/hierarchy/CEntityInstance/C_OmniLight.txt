@@ -1,0 +1,10 @@
+// C_OmniLight
+// Size: 0xB345F908 (-1287259896 bytes)
+// Parent: C_BarnLight
+// Module: client.dll
+//
+// Inheritance:
+//   C_OmniLight -> C_BarnLight -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

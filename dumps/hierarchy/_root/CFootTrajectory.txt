@@ -1,0 +1,10 @@
+// CFootTrajectory
+// Size: 0xB364F771 (-1285228687 bytes)
+// Parent: IFootTrajectory
+// Module: client.dll
+//
+// Inheritance:
+//   CFootTrajectory -> IFootTrajectory
+//
+
+// (no own fields)

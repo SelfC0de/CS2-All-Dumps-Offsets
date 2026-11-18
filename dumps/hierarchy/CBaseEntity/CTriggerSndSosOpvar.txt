@@ -1,0 +1,10 @@
+// CTriggerSndSosOpvar
+// Size: 0xB345CA22 (-1287271902 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerSndSosOpvar -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

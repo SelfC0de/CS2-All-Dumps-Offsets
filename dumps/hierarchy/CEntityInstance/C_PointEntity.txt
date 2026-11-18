@@ -1,0 +1,23 @@
+// C_PointEntity
+// Size: 0xB345F204 (-1287261692 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_PointEntity -> C_BaseEntity -> CEntityInstance
+//
+// Direct subclasses (11):
+//   CChoreoInfoTarget
+//   CInfoDynamicShadowHint
+//   CInfoFan
+//   CInfoOffscreenPanoramaTexture
+//   CInfoParticleTarget
+//   CInfoTarget
+//   CMapInfo
+//   CPathNode
+//   CPointChildModifier
+//   C_InfoInstructorHintHostageRescueZone
+//   C_SceneEntity
+//
+
+// (no own fields)

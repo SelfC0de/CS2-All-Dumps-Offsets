@@ -1,0 +1,10 @@
+// CPathMover
+// Size: 0xB345BC81 (-1287275391 bytes)
+// Parent: CPathWithDynamicNodes
+// Module: server.dll
+//
+// Inheritance:
+//   CPathMover -> CPathWithDynamicNodes -> CPathSimple -> CBaseEntity -> CEntityInstance -> IPhysicsSpline
+//
+
+// (no own fields)

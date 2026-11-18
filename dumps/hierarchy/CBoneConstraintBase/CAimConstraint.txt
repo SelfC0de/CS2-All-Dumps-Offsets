@@ -1,0 +1,10 @@
+// CAimConstraint
+// Size: 0xB364F539 (-1285229255 bytes)
+// Parent: CBaseConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   CAimConstraint -> CBaseConstraint -> CBoneConstraintBase
+//
+
+// (no own fields)

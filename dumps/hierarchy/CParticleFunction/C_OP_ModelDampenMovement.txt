@@ -1,0 +1,10 @@
+// C_OP_ModelDampenMovement
+// Size: 0xB345694A (-1287296694 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ModelDampenMovement -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

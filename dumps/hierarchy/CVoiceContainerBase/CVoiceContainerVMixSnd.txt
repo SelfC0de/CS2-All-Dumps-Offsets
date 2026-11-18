@@ -1,0 +1,10 @@
+// CVoiceContainerVMixSnd
+// Size: 0xB3453D86 (-1287307898 bytes)
+// Parent: CVoiceContainerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerVMixSnd -> CVoiceContainerBase
+//
+
+// (no own fields)

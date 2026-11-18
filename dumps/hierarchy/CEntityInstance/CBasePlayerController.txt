@@ -1,0 +1,13 @@
+// CBasePlayerController
+// Size: 0xB345AFBF (-1287278657 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CBasePlayerController -> C_BaseEntity -> CEntityInstance
+//
+// Direct subclasses (1):
+//   CCSPlayerController
+//
+
+// (no own fields)

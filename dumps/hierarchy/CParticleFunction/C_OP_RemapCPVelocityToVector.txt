@@ -1,0 +1,10 @@
+// C_OP_RemapCPVelocityToVector
+// Size: 0xB3456C7D (-1287295875 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapCPVelocityToVector -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

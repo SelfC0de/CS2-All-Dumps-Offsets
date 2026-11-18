@@ -1,0 +1,10 @@
+// C_OP_RenderMaterialProxy
+// Size: 0xB3457A60 (-1287292320 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderMaterialProxy -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

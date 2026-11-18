@@ -1,0 +1,10 @@
+// CEmitTagActionUpdater
+// Size: 0xB33DEADD (-1287787811 bytes)
+// Parent: CAnimActionUpdater
+// Module: client.dll
+//
+// Inheritance:
+//   CEmitTagActionUpdater -> CAnimActionUpdater -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

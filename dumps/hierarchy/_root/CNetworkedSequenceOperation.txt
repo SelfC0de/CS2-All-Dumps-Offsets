@@ -1,0 +1,6 @@
+// CNetworkedSequenceOperation
+// Size: 0xB3458BA8 (-1287287896 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

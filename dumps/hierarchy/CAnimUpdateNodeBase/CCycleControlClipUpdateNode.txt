@@ -1,0 +1,10 @@
+// CCycleControlClipUpdateNode
+// Size: 0xB3451E55 (-1287315883 bytes)
+// Parent: CLeafUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CCycleControlClipUpdateNode -> CLeafUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IAnimVarBindingAdditionalContextLabelHelper
+//
+
+// (no own fields)

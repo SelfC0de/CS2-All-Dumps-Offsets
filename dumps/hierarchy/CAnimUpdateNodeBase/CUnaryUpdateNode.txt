@@ -1,0 +1,42 @@
+// CUnaryUpdateNode
+// Size: 0xB3450AB9 (-1287320903 bytes)
+// Parent: CAnimUpdateNodeBase
+// Module: client.dll
+//
+// Inheritance:
+//   CUnaryUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> ITargetWarpInputNode
+//
+// Direct subclasses (30):
+//   CAimCameraUpdateNode
+//   CAimMatrixUpdateNode
+//   CChoreoUpdateNode
+//   CCycleControlUpdateNode
+//   CDirectPlaybackUpdateNode
+//   CFollowAttachmentUpdateNode
+//   CFollowPathUpdateNode
+//   CFollowTargetUpdateNode
+//   CFootAdjustmentUpdateNode
+//   CFootLockUpdateNode
+//   CFootPinningUpdateNode
+//   CFootStepTriggerUpdateNode
+//   CHitReactUpdateNode
+//   CJiggleBoneUpdateNode
+//   CLookAtUpdateNode
+//   CMoverUpdateNode
+//   COrientationWarpUpdateNode
+//   CPathHelperUpdateNode
+//   CRagdollUpdateNode
+//   CRootUpdateNode
+//   CSlowDownOnSlopesUpdateNode
+//   CSolveIKChainUpdateNode
+//   CSpeedScaleUpdateNode
+//   CStanceOverrideUpdateNode
+//   CStanceScaleUpdateNode
+//   CStopAtGoalUpdateNode
+//   CTargetWarpUpdateNode
+//   CTurnHelperUpdateNode
+//   CTwoBoneIKUpdateNode
+//   CWayPointHelperUpdateNode
+//
+
+// (no own fields)

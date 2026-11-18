@@ -1,0 +1,32 @@
+// CBaseAnimGraph
+// Size: 0xB345C47B (-1287273349 bytes)
+// Parent: C_BaseModelEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (20):
+//   CBaseAnimGraphAlias_baseanimating
+//   CBaseProp
+//   C_BaseCombatCharacter
+//   C_BaseGrenade
+//   C_BulletHitModel
+//   C_CS2WeaponModuleBase
+//   C_CSGO_PreviewModel
+//   C_ClientRagdoll
+//   C_EconEntity
+//   C_Fish
+//   C_HostageCarriableProp
+//   C_LateUpdatedAnimating
+//   C_LocalTempEntity
+//   C_Multimeter
+//   C_PhysMagnet
+//   C_PlantedC4
+//   C_PointCommentaryNode
+//   C_RagdollProp
+//   C_WaterBullet
+//   C_WorldModelGloves
+//
+
+// (no own fields)

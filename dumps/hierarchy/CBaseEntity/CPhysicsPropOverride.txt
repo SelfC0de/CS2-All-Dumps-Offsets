@@ -1,0 +1,10 @@
+// CPhysicsPropOverride
+// Size: 0xB345C9D8 (-1287271976 bytes)
+// Parent: CPhysicsProp
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysicsPropOverride -> CPhysicsProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> INavObstacle
+//
+
+// (no own fields)

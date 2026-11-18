@@ -1,0 +1,10 @@
+// C_INIT_RemapParticleCountToNamedModelSequenceScalar
+// Size: 0xB3455485 (-1287302011 bytes)
+// Parent: C_INIT_RemapParticleCountToNamedModelElementScalar
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RemapParticleCountToNamedModelSequenceScalar -> C_INIT_RemapParticleCountToNamedModelElementScalar -> C_INIT_RemapParticleCountToScalar -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

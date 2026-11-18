@@ -1,0 +1,10 @@
+// CInfoOffscreenPanoramaTexture
+// Size: 0xB345BF45 (-1287274683 bytes)
+// Parent: C_PointEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CInfoOffscreenPanoramaTexture -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

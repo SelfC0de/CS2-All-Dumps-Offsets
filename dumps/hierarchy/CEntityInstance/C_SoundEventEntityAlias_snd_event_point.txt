@@ -1,0 +1,10 @@
+// C_SoundEventEntityAlias_snd_event_point
+// Size: 0xB345F415 (-1287261163 bytes)
+// Parent: C_SoundEventEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_SoundEventEntityAlias_snd_event_point -> C_SoundEventEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

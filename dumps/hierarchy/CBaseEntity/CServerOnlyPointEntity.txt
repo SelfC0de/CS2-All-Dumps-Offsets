@@ -1,0 +1,16 @@
+// CServerOnlyPointEntity
+// Size: 0xB3459586 (-1287285370 bytes)
+// Parent: CServerOnlyEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (4):
+//   CInfoTargetServerOnly
+//   CPointPrefab
+//   CPointTeleport
+//   SpawnPoint
+//
+
+// (no own fields)

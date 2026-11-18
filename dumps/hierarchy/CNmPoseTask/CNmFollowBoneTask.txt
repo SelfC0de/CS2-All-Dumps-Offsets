@@ -1,0 +1,10 @@
+// CNmFollowBoneTask
+// Size: 0xB3450DD1 (-1287320111 bytes)
+// Parent: CNmPoseTask
+// Module: client.dll
+//
+// Inheritance:
+//   CNmFollowBoneTask -> CNmPoseTask
+//
+
+// (no own fields)

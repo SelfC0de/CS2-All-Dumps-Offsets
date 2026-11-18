@@ -1,0 +1,10 @@
+// C_OP_AlphaDecay
+// Size: 0xB345641E (-1287298018 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_AlphaDecay -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

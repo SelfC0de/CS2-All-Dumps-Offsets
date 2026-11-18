@@ -1,0 +1,10 @@
+// C_INIT_VelocityRandom
+// Size: 0xB34550E1 (-1287302943 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_VelocityRandom -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

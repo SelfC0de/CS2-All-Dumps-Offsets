@@ -1,0 +1,10 @@
+// C_INIT_NormalOffset
+// Size: 0xB3455819 (-1287301095 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_NormalOffset -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

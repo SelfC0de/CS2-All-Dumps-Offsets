@@ -1,0 +1,10 @@
+// CVMixPlateReverbProcessorDesc
+// Size: 0xB34537BA (-1287309382 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixPlateReverbProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

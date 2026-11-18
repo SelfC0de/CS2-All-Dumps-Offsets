@@ -1,0 +1,17 @@
+// CNmEventConsumer
+// Size: 0xB3458CB2 (-1287287630 bytes)
+// Module: client.dll
+//
+// Direct subclasses (9):
+//   CNmEventConsumerAttributes
+//   CNmEventConsumerBodyGroup
+//   CNmEventConsumerCamera
+//   CNmEventConsumerCloth
+//   CNmEventConsumerContact
+//   CNmEventConsumerLegacy
+//   CNmEventConsumerParticle
+//   CNmEventConsumerPulse
+//   CNmEventConsumerSound
+//
+
+// (no own fields)

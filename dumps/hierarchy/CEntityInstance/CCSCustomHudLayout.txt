@@ -1,0 +1,10 @@
+// CCSCustomHudLayout
+// Size: 0xB345A3D6 (-1287281706 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CCSCustomHudLayout -> C_BaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2 -> IToolsResourceListener
+//
+
+// (no own fields)

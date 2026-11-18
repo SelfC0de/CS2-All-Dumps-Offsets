@@ -1,0 +1,10 @@
+// CPulseCell_Step_EntFire
+// Size: 0xB345812B (-1287290581 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_Step_EntFire -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

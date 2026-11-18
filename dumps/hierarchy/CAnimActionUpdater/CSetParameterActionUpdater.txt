@@ -1,0 +1,10 @@
+// CSetParameterActionUpdater
+// Size: 0xB33DEAF7 (-1287787785 bytes)
+// Parent: CAnimActionUpdater
+// Module: client.dll
+//
+// Inheritance:
+//   CSetParameterActionUpdater -> CAnimActionUpdater -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

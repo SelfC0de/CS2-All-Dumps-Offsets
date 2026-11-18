@@ -1,0 +1,10 @@
+// C_VoteController
+// Size: 0xB345EEC2 (-1287262526 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_VoteController -> C_BaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+//
+
+// (no own fields)

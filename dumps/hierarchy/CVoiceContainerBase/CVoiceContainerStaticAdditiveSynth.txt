@@ -1,0 +1,10 @@
+// CVoiceContainerStaticAdditiveSynth
+// Size: 0xB34532A2 (-1287310686 bytes)
+// Parent: CVoiceContainerAsyncGenerator
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerStaticAdditiveSynth -> CVoiceContainerAsyncGenerator -> CVoiceContainerGenerator -> CVoiceContainerBase
+//
+
+// (no own fields)

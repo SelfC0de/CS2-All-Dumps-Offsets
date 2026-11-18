@@ -1,0 +1,10 @@
+// CMapVetoPickController
+// Size: 0xB345A9CA (-1287280182 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CMapVetoPickController -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

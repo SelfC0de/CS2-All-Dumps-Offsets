@@ -1,0 +1,10 @@
+// CBodyComponentPoint
+// Size: 0xB3457EAE (-1287291218 bytes)
+// Parent: CBodyComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CBodyComponentPoint -> CBodyComponent -> CEntityComponent
+//
+
+// (no own fields)

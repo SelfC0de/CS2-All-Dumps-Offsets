@@ -1,0 +1,10 @@
+// CRenderMesh
+// Size: 0xB364F4A7 (-1285229401 bytes)
+// Parent: ?$CRefCounted@V?$CRefCountServiceBase@VCRefMT
+// Module: client.dll
+//
+// Inheritance:
+//   CRenderMesh -> ?$CRefCounted@V?$CRefCountServiceBase@VCRefMT -> ?$CRefCountServiceBase@VCRefMT
+//
+
+// (no own fields)

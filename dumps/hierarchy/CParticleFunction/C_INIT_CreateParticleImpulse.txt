@@ -1,0 +1,10 @@
+// C_INIT_CreateParticleImpulse
+// Size: 0xB3455BBE (-1287300162 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreateParticleImpulse -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CBlendUpdateNode
+// Size: 0xB345069C (-1287321956 bytes)
+// Parent: CAnimUpdateNodeBase
+// Module: client.dll
+//
+// Inheritance:
+//   CBlendUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IAnimVarBindingAdditionalContextLabelHelper
+//
+
+// (no own fields)

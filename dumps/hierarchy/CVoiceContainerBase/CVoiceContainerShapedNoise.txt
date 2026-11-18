@@ -1,0 +1,10 @@
+// CVoiceContainerShapedNoise
+// Size: 0xB3453367 (-1287310489 bytes)
+// Parent: CVoiceContainerGenerator
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerShapedNoise -> CVoiceContainerGenerator -> CVoiceContainerBase
+//
+
+// (no own fields)

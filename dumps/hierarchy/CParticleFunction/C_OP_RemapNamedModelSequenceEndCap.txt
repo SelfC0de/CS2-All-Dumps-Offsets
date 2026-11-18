@@ -1,0 +1,10 @@
+// C_OP_RemapNamedModelSequenceEndCap
+// Size: 0xB3456EE8 (-1287295256 bytes)
+// Parent: C_OP_RemapNamedModelElementEndCap
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapNamedModelSequenceEndCap -> C_OP_RemapNamedModelElementEndCap -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

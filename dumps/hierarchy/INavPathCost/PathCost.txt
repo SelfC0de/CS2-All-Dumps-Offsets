@@ -1,0 +1,10 @@
+// PathCost
+// Size: 0xB345AA53 (-1287280045 bytes)
+// Parent: CNavPathCost
+// Module: client.dll
+//
+// Inheritance:
+//   PathCost -> CNavPathCost -> INavPathCost
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CVMixSteamAudioPathingProcessorDesc
+// Size: 0xB3453B31 (-1287308495 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixSteamAudioPathingProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

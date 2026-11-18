@@ -1,0 +1,10 @@
+// C_TintController
+// Size: 0xB345E947 (-1287263929 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_TintController -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

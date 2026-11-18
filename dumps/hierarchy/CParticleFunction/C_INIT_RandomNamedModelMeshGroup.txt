@@ -1,0 +1,10 @@
+// C_INIT_RandomNamedModelMeshGroup
+// Size: 0xB3455A9C (-1287300452 bytes)
+// Parent: C_INIT_RandomNamedModelElement
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RandomNamedModelMeshGroup -> C_INIT_RandomNamedModelElement -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

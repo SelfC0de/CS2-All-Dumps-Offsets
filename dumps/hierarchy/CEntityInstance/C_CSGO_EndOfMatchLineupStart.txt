@@ -1,0 +1,10 @@
+// C_CSGO_EndOfMatchLineupStart
+// Size: 0xB345ED62 (-1287262878 bytes)
+// Parent: C_CSGO_EndOfMatchLineupEndpoint
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSGO_EndOfMatchLineupStart -> C_CSGO_EndOfMatchLineupEndpoint -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

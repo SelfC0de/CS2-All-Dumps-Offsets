@@ -1,0 +1,10 @@
+// CNmClothEvent
+// Size: 0xB364FBBF (-1285227585 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmClothEvent -> CNmEvent
+//
+
+// (no own fields)

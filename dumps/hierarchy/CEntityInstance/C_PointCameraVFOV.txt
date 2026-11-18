@@ -1,0 +1,10 @@
+// C_PointCameraVFOV
+// Size: 0xB345F391 (-1287261295 bytes)
+// Parent: C_PointCamera
+// Module: client.dll
+//
+// Inheritance:
+//   C_PointCameraVFOV -> C_PointCamera -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

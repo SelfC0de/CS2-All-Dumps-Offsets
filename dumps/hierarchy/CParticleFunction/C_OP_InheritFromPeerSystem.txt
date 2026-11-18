@@ -1,0 +1,10 @@
+// C_OP_InheritFromPeerSystem
+// Size: 0xB3456A4F (-1287296433 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_InheritFromPeerSystem -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

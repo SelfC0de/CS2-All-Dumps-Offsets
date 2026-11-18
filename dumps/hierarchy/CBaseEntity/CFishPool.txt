@@ -1,0 +1,10 @@
+// CFishPool
+// Size: 0xB34595DA (-1287285286 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CFishPool -> CBaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+//
+
+// (no own fields)

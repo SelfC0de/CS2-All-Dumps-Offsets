@@ -1,0 +1,10 @@
+// CBtNodeDecorator
+// Size: 0xB345AA75 (-1287280011 bytes)
+// Parent: CBtNode
+// Module: client.dll
+//
+// Inheritance:
+//   CBtNodeDecorator -> CBtNode
+//
+
+// (no own fields)

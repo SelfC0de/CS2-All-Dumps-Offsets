@@ -1,0 +1,10 @@
+// C_OP_QuantizeCPComponent
+// Size: 0xB345792E (-1287292626 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_QuantizeCPComponent -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

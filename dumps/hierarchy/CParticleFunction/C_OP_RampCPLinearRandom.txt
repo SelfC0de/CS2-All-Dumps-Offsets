@@ -1,0 +1,10 @@
+// C_OP_RampCPLinearRandom
+// Size: 0xB34573D0 (-1287294000 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RampCPLinearRandom -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

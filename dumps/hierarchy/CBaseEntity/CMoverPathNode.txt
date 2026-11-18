@@ -1,0 +1,10 @@
+// CMoverPathNode
+// Size: 0xB345BC6E (-1287275410 bytes)
+// Parent: CPathNode
+// Module: server.dll
+//
+// Inheritance:
+//   CMoverPathNode -> CPathNode -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

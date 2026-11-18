@@ -1,0 +1,10 @@
+// C_OP_ConstrainDistanceToUserSpecifiedPath
+// Size: 0xB3454DA8 (-1287303768 bytes)
+// Parent: CParticleFunctionConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ConstrainDistanceToUserSpecifiedPath -> CParticleFunctionConstraint -> CParticleFunction
+//
+
+// (no own fields)

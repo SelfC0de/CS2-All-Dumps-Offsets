@@ -1,0 +1,10 @@
+// CScriptTriggerPush
+// Size: 0xB345C86D (-1287272339 bytes)
+// Parent: CTriggerPush
+// Module: server.dll
+//
+// Inheritance:
+//   CScriptTriggerPush -> CTriggerPush -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,15 @@
+// CLogicalEntity
+// Size: 0xB34595A1 (-1287285343 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CLogicalEntity -> C_BaseEntity -> CEntityInstance
+//
+// Direct subclasses (3):
+//   CBaseFilter
+//   CLogicRelay
+//   CPointTemplate
+//
+
+// (no own fields)

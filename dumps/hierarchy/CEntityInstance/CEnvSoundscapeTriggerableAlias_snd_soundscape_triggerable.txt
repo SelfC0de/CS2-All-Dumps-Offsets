@@ -1,0 +1,10 @@
+// CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable
+// Size: 0xB345C341 (-1287273663 bytes)
+// Parent: CEnvSoundscapeTriggerable
+// Module: client.dll
+//
+// Inheritance:
+//   CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable -> CEnvSoundscapeTriggerable -> CEnvSoundscape -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

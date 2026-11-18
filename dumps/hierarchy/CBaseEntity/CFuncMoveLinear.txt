@@ -1,0 +1,13 @@
+// CFuncMoveLinear
+// Size: 0xB345BC5A (-1287275430 bytes)
+// Parent: CBaseToggle
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncMoveLinear -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (1):
+//   CFuncMoveLinearAlias_momentary_door
+//
+
+// (no own fields)

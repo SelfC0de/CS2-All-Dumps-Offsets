@@ -1,0 +1,10 @@
+// CCS_PortraitWorldCallbackHandler
+// Size: 0xB345F1DF (-1287261729 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CCS_PortraitWorldCallbackHandler -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

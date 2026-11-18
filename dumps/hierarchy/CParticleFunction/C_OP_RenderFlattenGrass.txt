@@ -1,0 +1,10 @@
+// C_OP_RenderFlattenGrass
+// Size: 0xB3457C14 (-1287291884 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderFlattenGrass -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_CsmFovOverride
+// Size: 0xB345F0A5 (-1287262043 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_CsmFovOverride -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

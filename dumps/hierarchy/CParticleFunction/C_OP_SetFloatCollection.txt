@@ -1,0 +1,10 @@
+// C_OP_SetFloatCollection
+// Size: 0xB34570BF (-1287294785 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetFloatCollection -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

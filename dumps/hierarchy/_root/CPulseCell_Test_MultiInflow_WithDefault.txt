@@ -1,0 +1,10 @@
+// CPulseCell_Test_MultiInflow_WithDefault
+// Size: 0xB34547CC (-1287305268 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseCell_Test_MultiInflow_WithDefault -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

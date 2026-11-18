@@ -1,0 +1,10 @@
+// CVMixFlangerProcessorDesc
+// Size: 0xB34536C5 (-1287309627 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixFlangerProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

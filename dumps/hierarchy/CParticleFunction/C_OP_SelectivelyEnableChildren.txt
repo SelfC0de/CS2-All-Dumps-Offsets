@@ -1,0 +1,10 @@
+// C_OP_SelectivelyEnableChildren
+// Size: 0xB345771F (-1287293153 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SelectivelyEnableChildren -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

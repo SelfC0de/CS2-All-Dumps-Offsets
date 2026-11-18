@@ -1,0 +1,10 @@
+// C_NametagModule
+// Size: 0xB345FD3C (-1287258820 bytes)
+// Parent: C_CS2WeaponModuleBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_NametagModule -> C_CS2WeaponModuleBase -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IEntityListener
+//
+
+// (no own fields)

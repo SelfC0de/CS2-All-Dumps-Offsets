@@ -1,0 +1,6 @@
+// locksound_t
+// Size: 0xB3459680 (-1287285120 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

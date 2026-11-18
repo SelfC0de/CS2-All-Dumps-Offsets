@@ -1,0 +1,10 @@
+// CLogicDistanceCheck
+// Size: 0xB34596A1 (-1287285087 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicDistanceCheck -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

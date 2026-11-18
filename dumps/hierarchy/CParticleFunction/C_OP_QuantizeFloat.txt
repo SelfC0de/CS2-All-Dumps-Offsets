@@ -1,0 +1,10 @@
+// C_OP_QuantizeFloat
+// Size: 0xB3457092 (-1287294830 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_QuantizeFloat -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

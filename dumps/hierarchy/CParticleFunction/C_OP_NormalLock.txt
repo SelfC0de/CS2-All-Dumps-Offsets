@@ -1,0 +1,10 @@
+// C_OP_NormalLock
+// Size: 0xB3456BF8 (-1287296008 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_NormalLock -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,9 @@
+// INavPathCost
+// Size: 0xB3457DE7 (-1287291417 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   CNavPathCost
+//
+
+// (no own fields)

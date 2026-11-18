@@ -1,0 +1,10 @@
+// CEnvHudHint
+// Size: 0xB345C102 (-1287274238 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvHudHint -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

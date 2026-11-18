@@ -1,0 +1,14 @@
+// CPlayer_MovementServices
+// Size: 0xB3458308 (-1287290104 bytes)
+// Parent: CPlayerPawnComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CPlayer_MovementServices -> CPlayerPawnComponent
+//
+// Direct subclasses (2):
+//   CCSObserver_MovementServices
+//   CPlayer_MovementServices_Humanoid
+//
+
+// (no own fields)

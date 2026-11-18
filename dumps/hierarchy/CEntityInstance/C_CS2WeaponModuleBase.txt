@@ -1,0 +1,15 @@
+// C_CS2WeaponModuleBase
+// Size: 0xB345FD0D (-1287258867 bytes)
+// Parent: CBaseAnimGraph
+// Module: client.dll
+//
+// Inheritance:
+//   C_CS2WeaponModuleBase -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IEntityListener
+//
+// Direct subclasses (3):
+//   C_KeychainModule
+//   C_NametagModule
+//   C_StattrakModule
+//
+
+// (no own fields)

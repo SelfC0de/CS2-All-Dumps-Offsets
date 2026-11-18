@@ -1,0 +1,10 @@
+// C_OP_ClientPhysics
+// Size: 0xB3457C7A (-1287291782 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ClientPhysics -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

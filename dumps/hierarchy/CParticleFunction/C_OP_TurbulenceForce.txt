@@ -1,0 +1,10 @@
+// C_OP_TurbulenceForce
+// Size: 0xB3455E0A (-1287299574 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_TurbulenceForce -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

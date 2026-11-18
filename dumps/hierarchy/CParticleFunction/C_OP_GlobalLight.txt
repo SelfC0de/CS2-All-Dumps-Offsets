@@ -1,0 +1,10 @@
+// C_OP_GlobalLight
+// Size: 0xB3456586 (-1287297658 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_GlobalLight -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

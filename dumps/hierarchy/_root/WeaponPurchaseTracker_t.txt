@@ -1,0 +1,6 @@
+// WeaponPurchaseTracker_t
+// Size: 0xB345A50E (-1287281394 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

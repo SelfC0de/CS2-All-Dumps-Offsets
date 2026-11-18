@@ -1,0 +1,10 @@
+// CNmTargetWarpEvent
+// Size: 0xB364FD23 (-1285227229 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmTargetWarpEvent -> CNmEvent
+//
+
+// (no own fields)

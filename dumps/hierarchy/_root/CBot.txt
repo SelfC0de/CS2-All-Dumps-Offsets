@@ -1,0 +1,13 @@
+// CBot
+// Size: 0xB345AA60 (-1287280032 bytes)
+// Parent: CMemZeroOnNew
+// Module: server.dll
+//
+// Inheritance:
+//   CBot -> CMemZeroOnNew
+//
+// Direct subclasses (1):
+//   CCSBot
+//
+
+// (no own fields)

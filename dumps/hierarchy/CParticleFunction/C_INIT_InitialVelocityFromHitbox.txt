@@ -1,0 +1,10 @@
+// C_INIT_InitialVelocityFromHitbox
+// Size: 0xB345511B (-1287302885 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_InitialVelocityFromHitbox -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

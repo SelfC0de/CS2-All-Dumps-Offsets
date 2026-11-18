@@ -1,0 +1,10 @@
+// CPulseCell_Step_FollowEntity
+// Size: 0xB3459027 (-1287286745 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: server.dll
+//
+// Inheritance:
+//   CPulseCell_Step_FollowEntity -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

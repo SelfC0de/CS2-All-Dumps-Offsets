@@ -1,0 +1,10 @@
+// CCSPlayerController_ActionTrackingServices
+// Size: 0xB345A7C9 (-1287280695 bytes)
+// Parent: CPlayerControllerComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayerController_ActionTrackingServices -> CPlayerControllerComponent
+//
+
+// (no own fields)

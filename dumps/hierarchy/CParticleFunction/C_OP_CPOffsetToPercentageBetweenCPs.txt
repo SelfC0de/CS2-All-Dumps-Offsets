@@ -1,0 +1,10 @@
+// C_OP_CPOffsetToPercentageBetweenCPs
+// Size: 0xB34568E6 (-1287296794 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_CPOffsetToPercentageBetweenCPs -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

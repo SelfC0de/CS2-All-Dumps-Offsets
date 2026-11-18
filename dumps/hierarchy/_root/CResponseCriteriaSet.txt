@@ -1,0 +1,6 @@
+// CResponseCriteriaSet
+// Size: 0xB3458E1B (-1287287269 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

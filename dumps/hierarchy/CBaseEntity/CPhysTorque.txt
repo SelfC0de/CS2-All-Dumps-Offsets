@@ -1,0 +1,10 @@
+// CPhysTorque
+// Size: 0xB345B6F3 (-1287276813 bytes)
+// Parent: CPhysForce
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysTorque -> CPhysForce -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

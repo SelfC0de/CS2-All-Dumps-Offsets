@@ -1,0 +1,10 @@
+// CItemGeneric
+// Size: 0xB345CEBB (-1287270725 bytes)
+// Parent: CItem
+// Module: server.dll
+//
+// Inheritance:
+//   CItemGeneric -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+//
+
+// (no own fields)

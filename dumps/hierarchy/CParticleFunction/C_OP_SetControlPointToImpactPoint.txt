@@ -1,0 +1,10 @@
+// C_OP_SetControlPointToImpactPoint
+// Size: 0xB34576A5 (-1287293275 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetControlPointToImpactPoint -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

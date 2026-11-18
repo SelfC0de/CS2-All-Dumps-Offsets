@@ -1,0 +1,10 @@
+// C_INIT_InitFloat
+// Size: 0xB3455CA0 (-1287299936 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_InitFloat -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

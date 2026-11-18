@@ -1,0 +1,10 @@
+// C_MapVetoPickController
+// Size: 0xB345EED7 (-1287262505 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_MapVetoPickController -> C_BaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+//
+
+// (no own fields)

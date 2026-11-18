@@ -1,0 +1,10 @@
+// CMathCounter
+// Size: 0xB345B5D1 (-1287277103 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CMathCounter -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

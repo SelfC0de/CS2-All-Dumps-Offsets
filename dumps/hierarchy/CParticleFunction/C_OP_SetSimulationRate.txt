@@ -1,0 +1,10 @@
+// C_OP_SetSimulationRate
+// Size: 0xB345783A (-1287292870 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetSimulationRate -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

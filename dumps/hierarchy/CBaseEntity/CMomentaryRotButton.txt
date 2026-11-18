@@ -1,0 +1,10 @@
+// CMomentaryRotButton
+// Size: 0xB345BBD0 (-1287275568 bytes)
+// Parent: CRotButton
+// Module: server.dll
+//
+// Inheritance:
+//   CMomentaryRotButton -> CRotButton -> CBaseButton -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

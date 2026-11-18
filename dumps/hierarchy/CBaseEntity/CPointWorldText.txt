@@ -1,0 +1,10 @@
+// CPointWorldText
+// Size: 0xB345B8AA (-1287276374 bytes)
+// Parent: CModelPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointWorldText -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

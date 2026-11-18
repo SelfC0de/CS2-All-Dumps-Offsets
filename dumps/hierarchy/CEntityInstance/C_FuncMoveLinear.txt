@@ -1,0 +1,10 @@
+// C_FuncMoveLinear
+// Size: 0xB345FAFB (-1287259397 bytes)
+// Parent: C_BaseToggle
+// Module: client.dll
+//
+// Inheritance:
+//   C_FuncMoveLinear -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

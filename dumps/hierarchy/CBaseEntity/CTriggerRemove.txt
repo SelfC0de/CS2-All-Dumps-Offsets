@@ -1,0 +1,10 @@
+// CTriggerRemove
+// Size: 0xB345C849 (-1287272375 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerRemove -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CCommentaryViewPosition
+// Size: 0xB345C567 (-1287273113 bytes)
+// Parent: CSprite
+// Module: server.dll
+//
+// Inheritance:
+//   CCommentaryViewPosition -> CSprite -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CCS2UIPawnGraphController
+// Size: 0xB345F0E9 (-1287261975 bytes)
+// Parent: CAnimGraphControllerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CCS2UIPawnGraphController -> CAnimGraphControllerBase
+//
+
+// (no own fields)

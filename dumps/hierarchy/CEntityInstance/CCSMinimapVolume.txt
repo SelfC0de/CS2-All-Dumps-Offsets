@@ -1,0 +1,10 @@
+// CCSMinimapVolume
+// Size: 0xB345CB4F (-1287271601 bytes)
+// Parent: C_BaseTrigger
+// Module: client.dll
+//
+// Inheritance:
+//   CCSMinimapVolume -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> ?$CUtlAutoList@VCCSMinimapVolume
+//
+
+// (no own fields)

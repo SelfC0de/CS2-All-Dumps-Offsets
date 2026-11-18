@@ -1,0 +1,10 @@
+// C_EntityDissolve
+// Size: 0xB345F672 (-1287260558 bytes)
+// Parent: C_BaseModelEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_EntityDissolve -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IMotionEvent
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_MoveToHitbox
+// Size: 0xB345687D (-1287296899 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_MoveToHitbox -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

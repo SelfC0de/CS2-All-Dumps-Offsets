@@ -1,0 +1,10 @@
+// CClientAlphaProperty
+// Size: 0xB345F72C (-1287260372 bytes)
+// Parent: IClientAlphaProperty
+// Module: client.dll
+//
+// Inheritance:
+//   CClientAlphaProperty -> IClientAlphaProperty
+//
+
+// (no own fields)

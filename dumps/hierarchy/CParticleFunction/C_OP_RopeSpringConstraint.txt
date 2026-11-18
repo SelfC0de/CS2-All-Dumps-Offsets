@@ -1,0 +1,10 @@
+// C_OP_RopeSpringConstraint
+// Size: 0xB3454E66 (-1287303578 bytes)
+// Parent: CParticleFunctionConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RopeSpringConstraint -> CParticleFunctionConstraint -> CParticleFunction
+//
+
+// (no own fields)

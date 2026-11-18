@@ -1,0 +1,10 @@
+// CVoiceContainerSwitch
+// Size: 0xB3453386 (-1287310458 bytes)
+// Parent: CVoiceContainerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerSwitch -> CVoiceContainerBase
+//
+
+// (no own fields)

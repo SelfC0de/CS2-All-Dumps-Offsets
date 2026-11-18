@@ -1,0 +1,10 @@
+// CSosGroupActionSoundeventPrioritySchema
+// Size: 0xB3452CE4 (-1287312156 bytes)
+// Parent: CSosGroupActionSchema
+// Module: client.dll
+//
+// Inheritance:
+//   CSosGroupActionSoundeventPrioritySchema -> CSosGroupActionSchema
+//
+
+// (no own fields)

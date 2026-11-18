@@ -1,0 +1,10 @@
+// CTestEffect
+// Size: 0xB345B284 (-1287277948 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CTestEffect -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

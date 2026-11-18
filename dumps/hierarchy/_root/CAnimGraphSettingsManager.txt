@@ -1,0 +1,10 @@
+// CAnimGraphSettingsManager
+// Size: 0xB33DEA67 (-1287787929 bytes)
+// Parent: ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimGraphSettingsManager -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IAnimGraphSettingsManager
+//
+
+// (no own fields)

@@ -1,0 +1,17 @@
+// C_BaseCSGrenade
+// Size: 0x6FAF007F (1873739903 bytes)
+// Parent: C_CSWeaponBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_BaseCSGrenade -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+// Direct subclasses (5):
+//   C_DecoyGrenade
+//   C_Flashbang
+//   C_HEGrenade
+//   C_MolotovGrenade
+//   C_SmokeGrenade
+//
+
+// (no own fields)

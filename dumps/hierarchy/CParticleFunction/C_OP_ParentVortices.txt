@@ -1,0 +1,10 @@
+// C_OP_ParentVortices
+// Size: 0xB3455D7B (-1287299717 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ParentVortices -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

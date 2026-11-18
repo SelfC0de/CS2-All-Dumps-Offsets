@@ -1,0 +1,10 @@
+// CSMatchStats_t
+// Size: 0xB345A0E2 (-1287282462 bytes)
+// Parent: CSPerRoundStats_t
+// Module: client.dll
+//
+// Inheritance:
+//   CSMatchStats_t -> CSPerRoundStats_t
+//
+
+// (no own fields)

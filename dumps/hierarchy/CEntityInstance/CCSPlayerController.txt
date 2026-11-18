@@ -1,0 +1,10 @@
+// CCSPlayerController
+// Size: 0xB345C0CF (-1287274289 bytes)
+// Parent: CBasePlayerController
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayerController -> CBasePlayerController -> C_BaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2 -> IDecoratedPlayerNameProvider
+//
+
+// (no own fields)

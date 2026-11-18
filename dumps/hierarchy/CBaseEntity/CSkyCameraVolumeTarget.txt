@@ -1,0 +1,10 @@
+// CSkyCameraVolumeTarget
+// Size: 0xB345A378 (-1287281800 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CSkyCameraVolumeTarget -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

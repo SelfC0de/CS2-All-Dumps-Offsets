@@ -1,0 +1,10 @@
+// C_OP_RenderGpuImplicit
+// Size: 0xB34579E6 (-1287292442 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderGpuImplicit -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

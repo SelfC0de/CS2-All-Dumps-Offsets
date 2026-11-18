@@ -1,0 +1,10 @@
+// CRagdollMagnet
+// Size: 0xB345BBE8 (-1287275544 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CRagdollMagnet -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

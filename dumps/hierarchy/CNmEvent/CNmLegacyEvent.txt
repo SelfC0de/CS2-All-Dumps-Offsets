@@ -1,0 +1,10 @@
+// CNmLegacyEvent
+// Size: 0xB364FC21 (-1285227487 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmLegacyEvent -> CNmEvent
+//
+
+// (no own fields)

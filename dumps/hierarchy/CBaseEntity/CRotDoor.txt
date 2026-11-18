@@ -1,0 +1,10 @@
+// CRotDoor
+// Size: 0xB345C583 (-1287273085 bytes)
+// Parent: CBaseDoor
+// Module: server.dll
+//
+// Inheritance:
+//   CRotDoor -> CBaseDoor -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+//
+
+// (no own fields)

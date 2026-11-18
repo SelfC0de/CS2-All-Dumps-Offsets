@@ -1,0 +1,10 @@
+// CGamePlayerEquip
+// Size: 0xB345BD18 (-1287275240 bytes)
+// Parent: CRulePointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CGamePlayerEquip -> CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

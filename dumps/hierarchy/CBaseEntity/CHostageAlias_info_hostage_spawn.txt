@@ -1,0 +1,10 @@
+// CHostageAlias_info_hostage_spawn
+// Size: 0xB345CCCA (-1287271222 bytes)
+// Parent: CHostage
+// Module: server.dll
+//
+// Inheritance:
+//   CHostageAlias_info_hostage_spawn -> CHostage -> ?$CAI_ExpresserHost@VCHostageExpresserShim -> CHostageExpresserShim -> CBaseCombatCharacter -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CAI_ExpresserSink -> CImprovLocomotor
+//
+
+// (no own fields)

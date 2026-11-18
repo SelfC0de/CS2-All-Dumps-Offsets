@@ -1,0 +1,14 @@
+// CRuleEntity
+// Size: 0xB345BCF3 (-1287275277 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (2):
+//   CRuleBrushEntity
+//   CRulePointEntity
+//
+
+// (no own fields)

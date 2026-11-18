@@ -1,0 +1,10 @@
+// C_OP_RemapDotProductToScalar
+// Size: 0xB3456BBE (-1287296066 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapDotProductToScalar -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

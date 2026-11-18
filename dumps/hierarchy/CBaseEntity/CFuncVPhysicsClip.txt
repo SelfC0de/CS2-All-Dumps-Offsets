@@ -1,0 +1,10 @@
+// CFuncVPhysicsClip
+// Size: 0xB345B1D9 (-1287278119 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncVPhysicsClip -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

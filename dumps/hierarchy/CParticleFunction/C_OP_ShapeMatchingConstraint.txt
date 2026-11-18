@@ -1,0 +1,10 @@
+// C_OP_ShapeMatchingConstraint
+// Size: 0xB3454E45 (-1287303611 bytes)
+// Parent: CParticleFunctionConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ShapeMatchingConstraint -> CParticleFunctionConstraint -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CTriggerDetectExplosion
+// Size: 0xB345C929 (-1287272151 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerDetectExplosion -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CUtlSlot
+//
+
+// (no own fields)

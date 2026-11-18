@@ -1,0 +1,10 @@
+// CBtNodeConditionInactive
+// Size: 0xB345AB1A (-1287279846 bytes)
+// Parent: CBtNodeCondition
+// Module: server.dll
+//
+// Inheritance:
+//   CBtNodeConditionInactive -> CBtNodeCondition -> CBtNodeDecorator -> CBtNode
+//
+
+// (no own fields)

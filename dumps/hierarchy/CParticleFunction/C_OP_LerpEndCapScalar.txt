@@ -1,0 +1,10 @@
+// C_OP_LerpEndCapScalar
+// Size: 0xB3456256 (-1287298474 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_LerpEndCapScalar -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

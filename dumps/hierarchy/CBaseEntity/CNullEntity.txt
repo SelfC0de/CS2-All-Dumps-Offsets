@@ -1,0 +1,10 @@
+// CNullEntity
+// Size: 0xB345B9FD (-1287276035 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CNullEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

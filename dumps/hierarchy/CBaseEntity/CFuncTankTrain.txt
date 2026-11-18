@@ -1,0 +1,10 @@
+// CFuncTankTrain
+// Size: 0xB345C7CD (-1287272499 bytes)
+// Parent: CFuncTrackTrain
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncTankTrain -> CFuncTrackTrain -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

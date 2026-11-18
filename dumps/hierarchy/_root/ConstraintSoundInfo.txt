@@ -1,0 +1,6 @@
+// ConstraintSoundInfo
+// Size: 0xB3459829 (-1287284695 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

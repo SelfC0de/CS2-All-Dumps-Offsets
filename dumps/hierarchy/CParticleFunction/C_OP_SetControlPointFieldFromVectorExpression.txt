@@ -1,0 +1,10 @@
+// C_OP_SetControlPointFieldFromVectorExpression
+// Size: 0xB345730F (-1287294193 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetControlPointFieldFromVectorExpression -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

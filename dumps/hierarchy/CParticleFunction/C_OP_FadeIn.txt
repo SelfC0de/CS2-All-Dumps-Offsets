@@ -1,0 +1,10 @@
+// C_OP_FadeIn
+// Size: 0xB3455F42 (-1287299262 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_FadeIn -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

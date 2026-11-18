@@ -1,0 +1,10 @@
+// CAnimationGraphVisualizerText
+// Size: 0xB3450BD8 (-1287320616 bytes)
+// Parent: CAnimationGraphVisualizerPrimitiveBase
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimationGraphVisualizerText -> CAnimationGraphVisualizerPrimitiveBase
+//
+
+// (no own fields)

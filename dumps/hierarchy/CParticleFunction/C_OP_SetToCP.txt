@@ -1,0 +1,10 @@
+// C_OP_SetToCP
+// Size: 0xB3456693 (-1287297389 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetToCP -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

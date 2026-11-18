@@ -1,0 +1,10 @@
+// CNmMaterialAttributeEvent
+// Size: 0xB364FC34 (-1285227468 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmMaterialAttributeEvent -> CNmEvent
+//
+
+// (no own fields)

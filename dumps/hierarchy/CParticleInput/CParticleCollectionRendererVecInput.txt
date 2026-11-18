@@ -1,0 +1,10 @@
+// CParticleCollectionRendererVecInput
+// Size: 0xB364EC77 (-1285231497 bytes)
+// Parent: CParticleCollectionVecInput
+// Module: client.dll
+//
+// Inheritance:
+//   CParticleCollectionRendererVecInput -> CParticleCollectionVecInput -> CParticleVecInput -> CParticleInput
+//
+
+// (no own fields)

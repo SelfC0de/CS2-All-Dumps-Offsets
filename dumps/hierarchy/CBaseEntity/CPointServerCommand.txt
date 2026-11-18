@@ -1,0 +1,10 @@
+// CPointServerCommand
+// Size: 0xB345B225 (-1287278043 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointServerCommand -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

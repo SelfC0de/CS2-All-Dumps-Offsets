@@ -1,0 +1,9 @@
+// CNmGraphVariationUserData
+// Size: 0xB364FFB7 (-1285226569 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   CBaseAnimGraphVariationUserData
+//
+
+// (no own fields)

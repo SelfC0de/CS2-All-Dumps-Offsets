@@ -1,0 +1,10 @@
+// CBtActionAim
+// Size: 0xB345AA9F (-1287279969 bytes)
+// Parent: CBtNode
+// Module: server.dll
+//
+// Inheritance:
+//   CBtActionAim -> CBtNode
+//
+
+// (no own fields)

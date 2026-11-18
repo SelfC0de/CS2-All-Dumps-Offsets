@@ -1,0 +1,10 @@
+// C_OP_RandomForce
+// Size: 0xB3455D4D (-1287299763 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RandomForce -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

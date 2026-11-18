@@ -1,0 +1,13 @@
+// C_BasePlayerWeapon
+// Size: 0xB345FF26 (-1287258330 bytes)
+// Parent: C_EconEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride
+//
+// Direct subclasses (1):
+//   C_CSWeaponBase
+//
+
+// (no own fields)

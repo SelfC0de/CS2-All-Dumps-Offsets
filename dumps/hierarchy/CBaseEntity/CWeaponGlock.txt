@@ -1,0 +1,10 @@
+// CWeaponGlock
+// Size: 0xB345D0A9 (-1287270231 bytes)
+// Parent: CCSWeaponBaseGun
+// Module: server.dll
+//
+// Inheritance:
+//   CWeaponGlock -> CCSWeaponBaseGun -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+//
+
+// (no own fields)

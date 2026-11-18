@@ -1,0 +1,10 @@
+// C_Chicken
+// Size: 0xB345FEDE (-1287258402 bytes)
+// Parent: C_DynamicProp
+// Module: client.dll
+//
+// Inheritance:
+//   C_Chicken -> C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IPanoramaPanelEntityInputListener
+//
+
+// (no own fields)

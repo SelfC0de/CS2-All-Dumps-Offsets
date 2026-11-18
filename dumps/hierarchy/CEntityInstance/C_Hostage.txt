@@ -1,0 +1,10 @@
+// C_Hostage
+// Size: 0xB345FE55 (-1287258539 bytes)
+// Parent: C_BaseCombatCharacter
+// Module: client.dll
+//
+// Inheritance:
+//   C_Hostage -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

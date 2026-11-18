@@ -1,0 +1,10 @@
+// GameAmmoTypeInfo_t
+// Size: 0xB3459FD2 (-1287282734 bytes)
+// Parent: AmmoTypeInfo_t
+// Module: client.dll
+//
+// Inheritance:
+//   GameAmmoTypeInfo_t -> AmmoTypeInfo_t
+//
+
+// (no own fields)

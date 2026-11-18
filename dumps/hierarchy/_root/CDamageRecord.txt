@@ -1,0 +1,6 @@
+// CDamageRecord
+// Size: 0xB345A7F8 (-1287280648 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

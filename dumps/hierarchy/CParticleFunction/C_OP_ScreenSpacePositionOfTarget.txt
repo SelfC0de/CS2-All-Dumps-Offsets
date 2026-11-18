@@ -1,0 +1,10 @@
+// C_OP_ScreenSpacePositionOfTarget
+// Size: 0xB3456071 (-1287298959 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ScreenSpacePositionOfTarget -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

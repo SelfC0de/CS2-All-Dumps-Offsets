@@ -1,0 +1,10 @@
+// C_OP_Noise
+// Size: 0xB3456372 (-1287298190 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_Noise -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

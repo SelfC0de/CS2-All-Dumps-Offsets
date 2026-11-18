@@ -1,0 +1,13 @@
+// C_EnvCubemap
+// Size: 0xB345F280 (-1287261568 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_EnvCubemap -> C_BaseEntity -> CEntityInstance -> CBaseCubemap -> IToolObject
+//
+// Direct subclasses (1):
+//   C_EnvCubemapBox
+//
+
+// (no own fields)

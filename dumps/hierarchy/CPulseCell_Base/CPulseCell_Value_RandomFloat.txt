@@ -1,0 +1,10 @@
+// CPulseCell_Value_RandomFloat
+// Size: 0xB364C7B2 (-1285240910 bytes)
+// Parent: CPulseCell_BaseValue
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_Value_RandomFloat -> CPulseCell_BaseValue -> CPulseCell_Base
+//
+
+// (no own fields)

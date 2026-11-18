@@ -1,0 +1,13 @@
+// CLogicAutosave
+// Size: 0xB345B603 (-1287277053 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicAutosave -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (1):
+//   CLogicActiveAutosave
+//
+
+// (no own fields)

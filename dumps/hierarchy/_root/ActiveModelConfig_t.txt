@@ -1,0 +1,6 @@
+// ActiveModelConfig_t
+// Size: 0xB345852B (-1287289557 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

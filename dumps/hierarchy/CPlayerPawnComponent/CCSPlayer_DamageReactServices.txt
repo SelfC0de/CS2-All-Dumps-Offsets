@@ -1,0 +1,10 @@
+// CCSPlayer_DamageReactServices
+// Size: 0xB345A4B1 (-1287281487 bytes)
+// Parent: CPlayerPawnComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayer_DamageReactServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

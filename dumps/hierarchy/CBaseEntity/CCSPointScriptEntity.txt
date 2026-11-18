@@ -1,0 +1,10 @@
+// CCSPointScriptEntity
+// Size: 0xB345AA11 (-1287280111 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CCSPointScriptEntity -> CBaseEntity -> CEntityInstance -> IToolsResourceListener
+//
+
+// (no own fields)

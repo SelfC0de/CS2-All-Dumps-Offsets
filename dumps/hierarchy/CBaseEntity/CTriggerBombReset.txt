@@ -1,0 +1,10 @@
+// CTriggerBombReset
+// Size: 0xB345CC1B (-1287271397 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerBombReset -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

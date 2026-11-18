@@ -1,0 +1,10 @@
+// C_MultiplayRules
+// Size: 0xB345EA2D (-1287263699 bytes)
+// Parent: C_GameRules
+// Module: client.dll
+//
+// Inheritance:
+//   C_MultiplayRules -> C_GameRules -> CMemZeroOnNew
+//
+
+// (no own fields)

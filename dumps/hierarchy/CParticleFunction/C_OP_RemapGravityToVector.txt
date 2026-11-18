@@ -1,0 +1,10 @@
+// C_OP_RemapGravityToVector
+// Size: 0xB3457019 (-1287294951 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapGravityToVector -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

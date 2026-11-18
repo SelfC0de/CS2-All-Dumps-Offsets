@@ -1,0 +1,10 @@
+// CNmReferencePoseTask
+// Size: 0xB3450DA4 (-1287320156 bytes)
+// Parent: CNmPoseTask
+// Module: client.dll
+//
+// Inheritance:
+//   CNmReferencePoseTask -> CNmPoseTask
+//
+
+// (no own fields)

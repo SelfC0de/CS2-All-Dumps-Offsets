@@ -1,0 +1,10 @@
+// CFuncPropRespawnZone
+// Size: 0xB345B960 (-1287276192 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncPropRespawnZone -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

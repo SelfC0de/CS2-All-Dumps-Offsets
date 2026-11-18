@@ -1,0 +1,10 @@
+// CSpriteOriented
+// Size: 0xB345BEC2 (-1287274814 bytes)
+// Parent: C_Sprite
+// Module: client.dll
+//
+// Inheritance:
+//   CSpriteOriented -> C_Sprite -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

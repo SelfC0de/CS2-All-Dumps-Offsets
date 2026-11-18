@@ -1,0 +1,10 @@
+// CSceneEntityAlias_logic_choreographed_scene
+// Size: 0xB345C769 (-1287272599 bytes)
+// Parent: CSceneEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CSceneEntityAlias_logic_choreographed_scene -> CSceneEntity -> CPointEntity -> CBaseEntity -> CEntityInstance -> IChoreoEventCallback
+//
+
+// (no own fields)

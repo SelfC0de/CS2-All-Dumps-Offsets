@@ -1,0 +1,10 @@
+// CCSObserver_ObserverServices
+// Size: 0xB345A70F (-1287280881 bytes)
+// Parent: CPlayer_ObserverServices
+// Module: client.dll
+//
+// Inheritance:
+//   CCSObserver_ObserverServices -> CPlayer_ObserverServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

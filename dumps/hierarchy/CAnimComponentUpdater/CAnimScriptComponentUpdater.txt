@@ -1,0 +1,10 @@
+// CAnimScriptComponentUpdater
+// Size: 0xB33DED4D (-1287787187 bytes)
+// Parent: CAnimComponentUpdater
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimScriptComponentUpdater -> CAnimComponentUpdater -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

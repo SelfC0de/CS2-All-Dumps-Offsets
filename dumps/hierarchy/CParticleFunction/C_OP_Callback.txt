@@ -1,0 +1,10 @@
+// C_OP_Callback
+// Size: 0xB3457B1D (-1287292131 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_Callback -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

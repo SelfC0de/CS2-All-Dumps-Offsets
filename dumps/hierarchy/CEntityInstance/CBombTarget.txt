@@ -1,0 +1,10 @@
+// CBombTarget
+// Size: 0xB345CAF8 (-1287271688 bytes)
+// Parent: CBombTargetShim
+// Module: client.dll
+//
+// Inheritance:
+//   CBombTarget -> CBombTargetShim -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

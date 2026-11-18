@@ -1,0 +1,10 @@
+// C_OP_CPVelocityForce
+// Size: 0xB3455D62 (-1287299742 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_CPVelocityForce -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

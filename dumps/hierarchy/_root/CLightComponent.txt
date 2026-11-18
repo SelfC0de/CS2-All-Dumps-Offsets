@@ -1,0 +1,10 @@
+// CLightComponent
+// Size: 0xB3457F13 (-1287291117 bytes)
+// Parent: CEntityComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CLightComponent -> CEntityComponent -> CUtlSlot
+//
+
+// (no own fields)

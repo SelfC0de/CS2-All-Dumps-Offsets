@@ -1,0 +1,10 @@
+// CNmSampleTask
+// Size: 0xB3450DF9 (-1287320071 bytes)
+// Parent: CNmPoseTask
+// Module: client.dll
+//
+// Inheritance:
+//   CNmSampleTask -> CNmPoseTask
+//
+
+// (no own fields)

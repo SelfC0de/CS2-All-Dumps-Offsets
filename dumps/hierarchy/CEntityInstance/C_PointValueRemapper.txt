@@ -1,0 +1,10 @@
+// C_PointValueRemapper
+// Size: 0xB345F5E8 (-1287260696 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_PointValueRemapper -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

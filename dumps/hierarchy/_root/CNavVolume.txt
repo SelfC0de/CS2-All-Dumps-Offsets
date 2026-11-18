@@ -1,0 +1,9 @@
+// CNavVolume
+// Size: 0xB3457E09 (-1287291383 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   CNavVolumeMarkupVolume
+//
+
+// (no own fields)

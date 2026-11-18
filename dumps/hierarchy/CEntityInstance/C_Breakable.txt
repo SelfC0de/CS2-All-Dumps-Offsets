@@ -1,0 +1,13 @@
+// C_Breakable
+// Size: 0xB345F6D5 (-1287260459 bytes)
+// Parent: C_BaseModelEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_Breakable -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (1):
+//   C_PhysBox
+//
+
+// (no own fields)

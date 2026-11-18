@@ -1,0 +1,10 @@
+// CPulseCell_ExampleCriteria
+// Size: 0xB34544DB (-1287306021 bytes)
+// Parent: CPulseCell_BaseRequirement
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseCell_ExampleCriteria -> CPulseCell_BaseRequirement -> CPulseCell_Base
+//
+
+// (no own fields)

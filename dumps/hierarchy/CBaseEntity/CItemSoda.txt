@@ -1,0 +1,10 @@
+// CItemSoda
+// Size: 0xB345C590 (-1287273072 bytes)
+// Parent: CBaseAnimGraph
+// Module: server.dll
+//
+// Inheritance:
+//   CItemSoda -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,6 @@
+// EntityRenderAttribute_t
+// Size: 0xB34584F7 (-1287289609 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

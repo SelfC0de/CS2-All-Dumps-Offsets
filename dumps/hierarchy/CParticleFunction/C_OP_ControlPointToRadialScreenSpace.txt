@@ -1,0 +1,10 @@
+// C_OP_ControlPointToRadialScreenSpace
+// Size: 0xB3457855 (-1287292843 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ControlPointToRadialScreenSpace -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

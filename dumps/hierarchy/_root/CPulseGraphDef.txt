@@ -1,0 +1,10 @@
+// CPulseGraphDef
+// Size: 0xB364C0D3 (-1285242669 bytes)
+// Parent: IPulseGraphDef
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseGraphDef -> IPulseGraphDef
+//
+
+// (no own fields)

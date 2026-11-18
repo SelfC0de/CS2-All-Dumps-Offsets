@@ -1,0 +1,13 @@
+// C_WeaponBaseItem
+// Size: 0x6FAF0093 (1873739923 bytes)
+// Parent: C_CSWeaponBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_WeaponBaseItem -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+// Direct subclasses (1):
+//   C_Item_Healthshot
+//
+
+// (no own fields)

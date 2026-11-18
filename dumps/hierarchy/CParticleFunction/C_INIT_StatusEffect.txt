@@ -1,0 +1,10 @@
+// C_INIT_StatusEffect
+// Size: 0xB3455B6D (-1287300243 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_StatusEffect -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

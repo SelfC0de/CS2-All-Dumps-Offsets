@@ -1,0 +1,13 @@
+// CPathSimple
+// Size: 0xB345B10C (-1287278324 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CPathSimple -> C_BaseEntity -> CEntityInstance -> IPhysicsSpline
+//
+// Direct subclasses (1):
+//   CPathWithDynamicNodes
+//
+
+// (no own fields)

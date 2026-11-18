@@ -1,0 +1,10 @@
+// CMorphConstraint
+// Size: 0xB364F57A (-1285229190 bytes)
+// Parent: CBaseConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   CMorphConstraint -> CBaseConstraint -> CBoneConstraintBase
+//
+
+// (no own fields)

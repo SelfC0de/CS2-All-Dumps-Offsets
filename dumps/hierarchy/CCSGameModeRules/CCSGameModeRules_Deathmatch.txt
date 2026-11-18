@@ -1,0 +1,10 @@
+// CCSGameModeRules_Deathmatch
+// Size: 0xB345A085 (-1287282555 bytes)
+// Parent: CCSGameModeRules
+// Module: client.dll
+//
+// Inheritance:
+//   CCSGameModeRules_Deathmatch -> CCSGameModeRules
+//
+
+// (no own fields)

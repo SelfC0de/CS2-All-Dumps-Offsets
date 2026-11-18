@@ -1,0 +1,10 @@
+// CEnvBeverage
+// Size: 0xB345B29F (-1287277921 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvBeverage -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

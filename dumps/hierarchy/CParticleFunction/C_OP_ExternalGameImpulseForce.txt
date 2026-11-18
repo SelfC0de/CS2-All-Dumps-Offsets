@@ -1,0 +1,10 @@
+// C_OP_ExternalGameImpulseForce
+// Size: 0xB3455E83 (-1287299453 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ExternalGameImpulseForce -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

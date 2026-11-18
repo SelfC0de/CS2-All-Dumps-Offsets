@@ -1,0 +1,10 @@
+// CBuoyancyHelper
+// Size: 0xB3458011 (-1287290863 bytes)
+// Parent: IMotionEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CBuoyancyHelper -> IMotionEvent
+//
+
+// (no own fields)

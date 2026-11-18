@@ -1,0 +1,10 @@
+// CNmContactEvent
+// Size: 0xB364FBD1 (-1285227567 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmContactEvent -> CNmEvent
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CActionComponentUpdater
+// Size: 0xB3451DAA (-1287316054 bytes)
+// Parent: CAnimComponentUpdater
+// Module: client.dll
+//
+// Inheritance:
+//   CActionComponentUpdater -> CAnimComponentUpdater -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

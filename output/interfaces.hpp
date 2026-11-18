@@ -17,7 +17,7 @@
 #pragma once
 #include <cstdint>
 
-namespace ifc { inline constexpr std::uint32_t CS2_BUILD = 14197; }
+namespace ifc { inline constexpr std::uint32_t CS2_BUILD = 14198; }
 
 namespace ifc {
 
@@ -258,7 +258,7 @@ namespace ifc {
     } // namespace animationsystem
 
     namespace client {
-        // CCSGameConfiguration (iface: Source2ClientConfig001) | 130 methods
+        // CCSGameConfiguration (iface: Source2ClientConfig001) | 64 methods
         struct CCSGameConfiguration {
             virtual void method_0() = 0;
             virtual void method_1() = 0;
@@ -324,72 +324,6 @@ namespace ifc {
             virtual void method_61() = 0;
             virtual void method_62() = 0;
             virtual void method_63() = 0;
-            virtual void method_64() = 0;
-            virtual void method_65() = 0;
-            virtual void method_66() = 0;
-            virtual void method_67() = 0;
-            virtual void method_68() = 0;
-            virtual void method_69() = 0;
-            virtual void method_70() = 0;
-            virtual void method_71() = 0;
-            virtual void method_72() = 0;
-            virtual void method_73() = 0;
-            virtual void method_74() = 0;
-            virtual void method_75() = 0;
-            virtual void method_76() = 0;
-            virtual void method_77() = 0;
-            virtual void method_78() = 0;
-            virtual void method_79() = 0;
-            virtual void method_80() = 0;
-            virtual void method_81() = 0;
-            virtual void method_82() = 0;
-            virtual void method_83() = 0;
-            virtual void method_84() = 0;
-            virtual void method_85() = 0;
-            virtual void method_86() = 0;
-            virtual void method_87() = 0;
-            virtual void method_88() = 0;
-            virtual void method_89() = 0;
-            virtual void method_90() = 0;
-            virtual void method_91() = 0;
-            virtual void method_92() = 0;
-            virtual void method_93() = 0;
-            virtual void method_94() = 0;
-            virtual void method_95() = 0;
-            virtual void method_96() = 0;
-            virtual void method_97() = 0;
-            virtual void method_98() = 0;
-            virtual void method_99() = 0;
-            virtual void method_100() = 0;
-            virtual void method_101() = 0;
-            virtual void method_102() = 0;
-            virtual void method_103() = 0;
-            virtual void method_104() = 0;
-            virtual void method_105() = 0;
-            virtual void method_106() = 0;
-            virtual void method_107() = 0;
-            virtual void method_108() = 0;
-            virtual void method_109() = 0;
-            virtual void method_110() = 0;
-            virtual void method_111() = 0;
-            virtual void method_112() = 0;
-            virtual void method_113() = 0;
-            virtual void method_114() = 0;
-            virtual void method_115() = 0;
-            virtual void method_116() = 0;
-            virtual void method_117() = 0;
-            virtual void method_118() = 0;
-            virtual void method_119() = 0;
-            virtual void method_120() = 0;
-            virtual void method_121() = 0;
-            virtual void method_122() = 0;
-            virtual void method_123() = 0;
-            virtual void method_124() = 0;
-            virtual void method_125() = 0;
-            virtual void method_126() = 0;
-            virtual void method_127() = 0;
-            virtual void method_128() = 0;
-            virtual void method_129() = 0;
         };
         // CClientBugBugService (iface: ClientBugBugServic001_Client) | 23 methods
         struct CClientBugBugService {
@@ -1699,7 +1633,7 @@ namespace ifc {
             virtual void method_61() = 0;
             virtual void method_62() = 0;
         };
-        // CGameEventSystem (iface: GameEventSystemClientV001, GameEventSystemServerV001) | 151 methods
+        // CGameEventSystem (iface: GameEventSystemClientV001, GameEventSystemServerV001) | 92 methods
         struct CGameEventSystem {
             virtual void method_0() = 0;
             virtual void method_1() = 0;
@@ -1793,65 +1727,6 @@ namespace ifc {
             virtual void method_89() = 0;
             virtual void method_90() = 0;
             virtual void method_91() = 0;
-            virtual void method_92() = 0;
-            virtual void method_93() = 0;
-            virtual void method_94() = 0;
-            virtual void method_95() = 0;
-            virtual void method_96() = 0;
-            virtual void method_97() = 0;
-            virtual void method_98() = 0;
-            virtual void method_99() = 0;
-            virtual void method_100() = 0;
-            virtual void method_101() = 0;
-            virtual void method_102() = 0;
-            virtual void method_103() = 0;
-            virtual void method_104() = 0;
-            virtual void method_105() = 0;
-            virtual void method_106() = 0;
-            virtual void method_107() = 0;
-            virtual void method_108() = 0;
-            virtual void method_109() = 0;
-            virtual void method_110() = 0;
-            virtual void method_111() = 0;
-            virtual void method_112() = 0;
-            virtual void method_113() = 0;
-            virtual void method_114() = 0;
-            virtual void method_115() = 0;
-            virtual void method_116() = 0;
-            virtual void method_117() = 0;
-            virtual void method_118() = 0;
-            virtual void method_119() = 0;
-            virtual void method_120() = 0;
-            virtual void method_121() = 0;
-            virtual void method_122() = 0;
-            virtual void method_123() = 0;
-            virtual void method_124() = 0;
-            virtual void method_125() = 0;
-            virtual void method_126() = 0;
-            virtual void method_127() = 0;
-            virtual void method_128() = 0;
-            virtual void method_129() = 0;
-            virtual void method_130() = 0;
-            virtual void method_131() = 0;
-            virtual void method_132() = 0;
-            virtual void method_133() = 0;
-            virtual void method_134() = 0;
-            virtual void method_135() = 0;
-            virtual void method_136() = 0;
-            virtual void method_137() = 0;
-            virtual void method_138() = 0;
-            virtual void method_139() = 0;
-            virtual void method_140() = 0;
-            virtual void method_141() = 0;
-            virtual void method_142() = 0;
-            virtual void method_143() = 0;
-            virtual void method_144() = 0;
-            virtual void method_145() = 0;
-            virtual void method_146() = 0;
-            virtual void method_147() = 0;
-            virtual void method_148() = 0;
-            virtual void method_149() = 0;
-            virtual void method_150() = 0;
         };
         // CGameResourceService (iface: GameResourceServiceClientV001, GameResourceServiceServerV001) | 89 methods
         struct CGameResourceService {
@@ -2137,7 +2012,7 @@ namespace ifc {
             virtual void method_15() = 0;
             virtual void method_16() = 0;
         };
-        // CLoopTypeClientServerService (iface: ClientServerEngineLoopService_001) | 34 methods
+        // CLoopTypeClientServerService (iface: ClientServerEngineLoopService_001) | 28 methods
         struct CLoopTypeClientServerService {
             virtual void method_0() = 0;
             virtual void method_1() = 0;
@@ -2167,12 +2042,6 @@ namespace ifc {
             virtual void method_25() = 0;
             virtual void method_26() = 0;
             virtual void method_27() = 0;
-            virtual void method_28() = 0;
-            virtual void method_29() = 0;
-            virtual void method_30() = 0;
-            virtual void method_31() = 0;
-            virtual void method_32() = 0;
-            virtual void method_33() = 0;
         };
         // CLoopTypeSimpleService (iface: SimpleEngineLoopService_001) | 29 methods
         struct CLoopTypeSimpleService {
@@ -2638,7 +2507,7 @@ namespace ifc {
             virtual void method_86() = 0;
             virtual void method_87() = 0;
         };
-        // CNetworkService (iface: NetworkService_001) | 49 methods
+        // CNetworkService (iface: NetworkService_001) | 74 methods
         struct CNetworkService {
             virtual void method_0() = 0;
             virtual void method_1() = 0;
@@ -2689,6 +2558,31 @@ namespace ifc {
             virtual void method_46() = 0;
             virtual void method_47() = 0;
             virtual void method_48() = 0;
+            virtual void method_49() = 0;
+            virtual void method_50() = 0;
+            virtual void method_51() = 0;
+            virtual void method_52() = 0;
+            virtual void method_53() = 0;
+            virtual void method_54() = 0;
+            virtual void method_55() = 0;
+            virtual void method_56() = 0;
+            virtual void method_57() = 0;
+            virtual void method_58() = 0;
+            virtual void method_59() = 0;
+            virtual void method_60() = 0;
+            virtual void method_61() = 0;
+            virtual void method_62() = 0;
+            virtual void method_63() = 0;
+            virtual void method_64() = 0;
+            virtual void method_65() = 0;
+            virtual void method_66() = 0;
+            virtual void method_67() = 0;
+            virtual void method_68() = 0;
+            virtual void method_69() = 0;
+            virtual void method_70() = 0;
+            virtual void method_71() = 0;
+            virtual void method_72() = 0;
+            virtual void method_73() = 0;
         };
         // CNetworkStringTableContainer (iface: Source2EngineToClientStringTable001, Source2EngineToServerStringTable001) | 93 methods
         struct CNetworkStringTableContainer {
@@ -2786,8 +2680,114 @@ namespace ifc {
             virtual void method_91() = 0;
             virtual void method_92() = 0;
         };
-        // CRenderService (iface: RenderService_001) | 72 methods
+        // CRenderService (iface: RenderService_001) | 68 methods
         struct CRenderService {
+            virtual void method_0() = 0;
+            virtual void method_1() = 0;
+            virtual void method_2() = 0;
+            virtual void method_3() = 0;
+            virtual void method_4() = 0;
+            virtual void method_5() = 0;
+            virtual void method_6() = 0;
+            virtual void method_7() = 0;
+            virtual void method_8() = 0;
+            virtual void method_9() = 0;
+            virtual void method_10() = 0;
+            virtual void method_11() = 0;
+            virtual void method_12() = 0;
+            virtual void method_13() = 0;
+            virtual void method_14() = 0;
+            virtual void method_15() = 0;
+            virtual void method_16() = 0;
+            virtual void method_17() = 0;
+            virtual void method_18() = 0;
+            virtual void method_19() = 0;
+            virtual void method_20() = 0;
+            virtual void method_21() = 0;
+            virtual void method_22() = 0;
+            virtual void method_23() = 0;
+            virtual void method_24() = 0;
+            virtual void method_25() = 0;
+            virtual void method_26() = 0;
+            virtual void method_27() = 0;
+            virtual void method_28() = 0;
+            virtual void method_29() = 0;
+            virtual void method_30() = 0;
+            virtual void method_31() = 0;
+            virtual void method_32() = 0;
+            virtual void method_33() = 0;
+            virtual void method_34() = 0;
+            virtual void method_35() = 0;
+            virtual void method_36() = 0;
+            virtual void method_37() = 0;
+            virtual void method_38() = 0;
+            virtual void method_39() = 0;
+            virtual void method_40() = 0;
+            virtual void method_41() = 0;
+            virtual void method_42() = 0;
+            virtual void method_43() = 0;
+            virtual void method_44() = 0;
+            virtual void method_45() = 0;
+            virtual void method_46() = 0;
+            virtual void method_47() = 0;
+            virtual void method_48() = 0;
+            virtual void method_49() = 0;
+            virtual void method_50() = 0;
+            virtual void method_51() = 0;
+            virtual void method_52() = 0;
+            virtual void method_53() = 0;
+            virtual void method_54() = 0;
+            virtual void method_55() = 0;
+            virtual void method_56() = 0;
+            virtual void method_57() = 0;
+            virtual void method_58() = 0;
+            virtual void method_59() = 0;
+            virtual void method_60() = 0;
+            virtual void method_61() = 0;
+            virtual void method_62() = 0;
+            virtual void method_63() = 0;
+            virtual void method_64() = 0;
+            virtual void method_65() = 0;
+            virtual void method_66() = 0;
+            virtual void method_67() = 0;
+        };
+        // CScreenshotService (iface: ScreenshotService001) | 32 methods
+        struct CScreenshotService {
+            virtual void method_0() = 0;
+            virtual void method_1() = 0;
+            virtual void method_2() = 0;
+            virtual void method_3() = 0;
+            virtual void method_4() = 0;
+            virtual void method_5() = 0;
+            virtual void method_6() = 0;
+            virtual void method_7() = 0;
+            virtual void method_8() = 0;
+            virtual void method_9() = 0;
+            virtual void method_10() = 0;
+            virtual void method_11() = 0;
+            virtual void method_12() = 0;
+            virtual void method_13() = 0;
+            virtual void method_14() = 0;
+            virtual void method_15() = 0;
+            virtual void method_16() = 0;
+            virtual void method_17() = 0;
+            virtual void method_18() = 0;
+            virtual void method_19() = 0;
+            virtual void method_20() = 0;
+            virtual void method_21() = 0;
+            virtual void method_22() = 0;
+            virtual void method_23() = 0;
+            virtual void method_24() = 0;
+            virtual void method_25() = 0;
+            virtual void method_26() = 0;
+            virtual void method_27() = 0;
+            virtual void method_28() = 0;
+            virtual void method_29() = 0;
+            virtual void method_30() = 0;
+            virtual void method_31() = 0;
+        };
+        // CSoundService (iface: SoundService_001) | 154 methods
+        struct CSoundService {
             virtual void method_0() = 0;
             virtual void method_1() = 0;
             virtual void method_2() = 0;
@@ -2860,87 +2860,90 @@ namespace ifc {
             virtual void method_69() = 0;
             virtual void method_70() = 0;
             virtual void method_71() = 0;
+            virtual void method_72() = 0;
+            virtual void method_73() = 0;
+            virtual void method_74() = 0;
+            virtual void method_75() = 0;
+            virtual void method_76() = 0;
+            virtual void method_77() = 0;
+            virtual void method_78() = 0;
+            virtual void method_79() = 0;
+            virtual void method_80() = 0;
+            virtual void method_81() = 0;
+            virtual void method_82() = 0;
+            virtual void method_83() = 0;
+            virtual void method_84() = 0;
+            virtual void method_85() = 0;
+            virtual void method_86() = 0;
+            virtual void method_87() = 0;
+            virtual void method_88() = 0;
+            virtual void method_89() = 0;
+            virtual void method_90() = 0;
+            virtual void method_91() = 0;
+            virtual void method_92() = 0;
+            virtual void method_93() = 0;
+            virtual void method_94() = 0;
+            virtual void method_95() = 0;
+            virtual void method_96() = 0;
+            virtual void method_97() = 0;
+            virtual void method_98() = 0;
+            virtual void method_99() = 0;
+            virtual void method_100() = 0;
+            virtual void method_101() = 0;
+            virtual void method_102() = 0;
+            virtual void method_103() = 0;
+            virtual void method_104() = 0;
+            virtual void method_105() = 0;
+            virtual void method_106() = 0;
+            virtual void method_107() = 0;
+            virtual void method_108() = 0;
+            virtual void method_109() = 0;
+            virtual void method_110() = 0;
+            virtual void method_111() = 0;
+            virtual void method_112() = 0;
+            virtual void method_113() = 0;
+            virtual void method_114() = 0;
+            virtual void method_115() = 0;
+            virtual void method_116() = 0;
+            virtual void method_117() = 0;
+            virtual void method_118() = 0;
+            virtual void method_119() = 0;
+            virtual void method_120() = 0;
+            virtual void method_121() = 0;
+            virtual void method_122() = 0;
+            virtual void method_123() = 0;
+            virtual void method_124() = 0;
+            virtual void method_125() = 0;
+            virtual void method_126() = 0;
+            virtual void method_127() = 0;
+            virtual void method_128() = 0;
+            virtual void method_129() = 0;
+            virtual void method_130() = 0;
+            virtual void method_131() = 0;
+            virtual void method_132() = 0;
+            virtual void method_133() = 0;
+            virtual void method_134() = 0;
+            virtual void method_135() = 0;
+            virtual void method_136() = 0;
+            virtual void method_137() = 0;
+            virtual void method_138() = 0;
+            virtual void method_139() = 0;
+            virtual void method_140() = 0;
+            virtual void method_141() = 0;
+            virtual void method_142() = 0;
+            virtual void method_143() = 0;
+            virtual void method_144() = 0;
+            virtual void method_145() = 0;
+            virtual void method_146() = 0;
+            virtual void method_147() = 0;
+            virtual void method_148() = 0;
+            virtual void method_149() = 0;
+            virtual void method_150() = 0;
+            virtual void method_151() = 0;
+            virtual void method_152() = 0;
+            virtual void method_153() = 0;
         };
-        // CScreenshotService (iface: ScreenshotService001) | 36 methods
-        struct CScreenshotService {
-            virtual void method_0() = 0;
-            virtual void method_1() = 0;
-            virtual void method_2() = 0;
-            virtual void method_3() = 0;
-            virtual void method_4() = 0;
-            virtual void method_5() = 0;
-            virtual void method_6() = 0;
-            virtual void method_7() = 0;
-            virtual void method_8() = 0;
-            virtual void method_9() = 0;
-            virtual void method_10() = 0;
-            virtual void method_11() = 0;
-            virtual void method_12() = 0;
-            virtual void method_13() = 0;
-            virtual void method_14() = 0;
-            virtual void method_15() = 0;
-            virtual void method_16() = 0;
-            virtual void method_17() = 0;
-            virtual void method_18() = 0;
-            virtual void method_19() = 0;
-            virtual void method_20() = 0;
-            virtual void method_21() = 0;
-            virtual void method_22() = 0;
-            virtual void method_23() = 0;
-            virtual void method_24() = 0;
-            virtual void method_25() = 0;
-            virtual void method_26() = 0;
-            virtual void method_27() = 0;
-            virtual void method_28() = 0;
-            virtual void method_29() = 0;
-            virtual void method_30() = 0;
-            virtual void method_31() = 0;
-            virtual void method_32() = 0;
-            virtual void method_33() = 0;
-            virtual void method_34() = 0;
-            virtual void method_35() = 0;
-        };
-        // CSoundService (iface: SoundService_001) | 37 methods
-        struct CSoundService {
-            virtual void method_0() = 0;
-            virtual void method_1() = 0;
-            virtual void method_2() = 0;
-            virtual void method_3() = 0;
-            virtual void method_4() = 0;
-            virtual void method_5() = 0;
-            virtual void method_6() = 0;
-            virtual void method_7() = 0;
-            virtual void method_8() = 0;
-            virtual void method_9() = 0;
-            virtual void method_10() = 0;
-            virtual void method_11() = 0;
-            virtual void method_12() = 0;
-            virtual void method_13() = 0;
-            virtual void method_14() = 0;
-            virtual void method_15() = 0;
-            virtual void method_16() = 0;
-            virtual void method_17() = 0;
-            virtual void method_18() = 0;
-            virtual void method_19() = 0;
-            virtual void method_20() = 0;
-            virtual void method_21() = 0;
-            virtual void method_22() = 0;
-            virtual void method_23() = 0;
-            virtual void method_24() = 0;
-            virtual void method_25() = 0;
-            virtual void method_26() = 0;
-            virtual void method_27() = 0;
-            virtual void method_28() = 0;
-            virtual void method_29() = 0;
-            virtual void method_30() = 0;
-            virtual void method_31() = 0;
-            virtual void method_32() = 0;
-            virtual void method_33() = 0;
-            virtual void method_34() = 0;
-            virtual void method_35() = 0;
-            virtual void method_36() = 0;
-        };
-        // CSplitScreenService (iface: SplitScreenService_001) | 43 methods
+        // CSplitScreenService (iface: SplitScreenService_001) | 68 methods
         struct CSplitScreenService {
             virtual void method_0() = 0;
             virtual void method_1() = 0;
@@ -2985,6 +2988,31 @@ namespace ifc {
             virtual void method_40() = 0;
             virtual void method_41() = 0;
             virtual void method_42() = 0;
+            virtual void method_43() = 0;
+            virtual void method_44() = 0;
+            virtual void method_45() = 0;
+            virtual void method_46() = 0;
+            virtual void method_47() = 0;
+            virtual void method_48() = 0;
+            virtual void method_49() = 0;
+            virtual void method_50() = 0;
+            virtual void method_51() = 0;
+            virtual void method_52() = 0;
+            virtual void method_53() = 0;
+            virtual void method_54() = 0;
+            virtual void method_55() = 0;
+            virtual void method_56() = 0;
+            virtual void method_57() = 0;
+            virtual void method_58() = 0;
+            virtual void method_59() = 0;
+            virtual void method_60() = 0;
+            virtual void method_61() = 0;
+            virtual void method_62() = 0;
+            virtual void method_63() = 0;
+            virtual void method_64() = 0;
+            virtual void method_65() = 0;
+            virtual void method_66() = 0;
+            virtual void method_67() = 0;
         };
         // CStatsService (iface: StatsService_001) | 27 methods
         struct CStatsService {
@@ -5966,7 +5994,7 @@ namespace ifc {
             virtual void method_21() = 0;
             virtual void method_22() = 0;
         };
-        // CSource2Server (iface: Source2Server001) | 148 methods
+        // CSource2Server (iface: Source2Server001) | 129 methods
         struct CSource2Server {
             virtual void method_0() = 0;
             virtual void method_1() = 0;
@@ -6097,25 +6125,6 @@ namespace ifc {
             virtual void method_126() = 0;
             virtual void method_127() = 0;
             virtual void method_128() = 0;
-            virtual void method_129() = 0;
-            virtual void method_130() = 0;
-            virtual void method_131() = 0;
-            virtual void method_132() = 0;
-            virtual void method_133() = 0;
-            virtual void method_134() = 0;
-            virtual void method_135() = 0;
-            virtual void method_136() = 0;
-            virtual void method_137() = 0;
-            virtual void method_138() = 0;
-            virtual void method_139() = 0;
-            virtual void method_140() = 0;
-            virtual void method_141() = 0;
-            virtual void method_142() = 0;
-            virtual void method_143() = 0;
-            virtual void method_144() = 0;
-            virtual void method_145() = 0;
-            virtual void method_146() = 0;
-            virtual void method_147() = 0;
         };
     } // namespace server
 

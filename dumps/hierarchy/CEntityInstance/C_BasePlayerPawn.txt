@@ -1,0 +1,13 @@
+// C_BasePlayerPawn
+// Size: 0xB345FB86 (-1287259258 bytes)
+// Parent: C_BaseCombatCharacter
+// Module: client.dll
+//
+// Inheritance:
+//   C_BasePlayerPawn -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (1):
+//   C_CSPlayerPawnBase
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CPulseCell_Test_MultiOutflow_WithParams_Yielding
+// Size: 0xB345484E (-1287305138 bytes)
+// Parent: CPulseCell_BaseYieldingInflow
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseCell_Test_MultiOutflow_WithParams_Yielding -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

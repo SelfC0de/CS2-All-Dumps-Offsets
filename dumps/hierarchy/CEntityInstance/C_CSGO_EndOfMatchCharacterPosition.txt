@@ -1,0 +1,10 @@
+// C_CSGO_EndOfMatchCharacterPosition
+// Size: 0xB345F07E (-1287262082 bytes)
+// Parent: C_CSGO_TeamPreviewCharacterPosition
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSGO_EndOfMatchCharacterPosition -> C_CSGO_TeamPreviewCharacterPosition -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

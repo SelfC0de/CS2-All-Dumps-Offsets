@@ -1,0 +1,10 @@
+// CNavSpaceInfo
+// Size: 0xB345BE56 (-1287274922 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CNavSpaceInfo -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

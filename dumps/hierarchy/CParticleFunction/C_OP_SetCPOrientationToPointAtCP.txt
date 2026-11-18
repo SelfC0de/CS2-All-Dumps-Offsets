@@ -1,0 +1,10 @@
+// C_OP_SetCPOrientationToPointAtCP
+// Size: 0xB34576CB (-1287293237 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetCPOrientationToPointAtCP -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

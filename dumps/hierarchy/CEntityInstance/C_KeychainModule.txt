@@ -1,0 +1,10 @@
+// C_KeychainModule
+// Size: 0xB345FD50 (-1287258800 bytes)
+// Parent: C_CS2WeaponModuleBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_KeychainModule -> C_CS2WeaponModuleBase -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IEntityListener
+//
+
+// (no own fields)

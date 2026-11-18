@@ -1,0 +1,10 @@
+// C_PointClientUIDialog
+// Size: 0xB345F7A6 (-1287260250 bytes)
+// Parent: C_BaseClientUIEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_PointClientUIDialog -> C_BaseClientUIEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IClientUIDialogListener
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CExampleSchemaVData_PolymorphicDerivedA
+// Size: 0xB22D18E9 (-1305667351 bytes)
+// Parent: CExampleSchemaVData_PolymorphicBase
+// Module: client.dll
+//
+// Inheritance:
+//   CExampleSchemaVData_PolymorphicDerivedA -> CExampleSchemaVData_PolymorphicBase
+//
+
+// (no own fields)

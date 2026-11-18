@@ -10,7 +10,44 @@ Raw, machine-generated CS2 dumps: offsets, schema classes, interfaces, patterns,
 
 | | |
 |---|---|
-| **Game build** | `14197` |
-| **Dumped at** | 2026-11-12 11:33 (UTC+3) |
+| **Game build** | `14198` |
+| **Dumped at** | 2026-11-18 09:23 (UTC+3) |
 | **Signature recovery** | `415 / 505` |
 | **Modules** | 19 |
+
+## Layout
+
+Everything is dumped from a live `cs2.exe` process; nothing here is hand-written.
+
+```
+output/                 generated artifacts, per module where applicable
+  offsets.{hpp,json,cs,rs,zig}
+  buttons.{hpp,json,cs,rs,zig}
+  patterns.{hpp,json}
+  interfaces.{hpp,json,cs,rs,zig}
+  <module>_dll.{hpp,json,cs,rs,zig}   schema classes / enums
+  convars.{hpp,json}
+  protobufs.{hpp,json}
+  macros.hpp, cs2.hpp, entity_system.hpp
+  schemas.json          aggregate of every schema module
+  build.log             per-run pattern scan log
+  manifest.json, info.json, verified_features.json
+  flat/                 flat single-file SDK (classes, structs, types, sdk)
+dumps/                  readable raw extraction
+  schema/               per-module schema text lists
+  hierarchy/            class hierarchy, one file per class
+  internal-sdk/         internal-facing SDK view
+  sdk/                  full per-module SDK tree
+```
+
+Huge raw signature JSONs (`signatures/_all-signatures.json` ≈ 400 MB) and the
+`_all-modules.json` aggregate are not committed; the equivalent text lists live
+in `dumps/schema/`.
+
+## Notes
+
+- `offsets.json` stores RVAs as decimal numbers, the code outputs use hex.
+- Signature recovery is currently `415 / 505`; unresolved entries are listed at
+  the top of `output/build.log`.
+- Offsets and schemas are valid for the build above only — a game update
+  invalidates most of them.

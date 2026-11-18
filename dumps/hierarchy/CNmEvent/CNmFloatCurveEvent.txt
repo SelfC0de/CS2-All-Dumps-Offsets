@@ -1,0 +1,10 @@
+// CNmFloatCurveEvent
+// Size: 0xB364FBE5 (-1285227547 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmFloatCurveEvent -> CNmEvent
+//
+
+// (no own fields)

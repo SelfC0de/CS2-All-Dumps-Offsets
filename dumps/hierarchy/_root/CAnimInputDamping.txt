@@ -1,0 +1,6 @@
+// CAnimInputDamping
+// Size: 0xB33DE95B (-1287788197 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

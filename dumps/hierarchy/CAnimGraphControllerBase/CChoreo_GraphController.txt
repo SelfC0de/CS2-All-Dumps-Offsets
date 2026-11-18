@@ -1,0 +1,10 @@
+// CChoreo_GraphController
+// Size: 0xB345AB37 (-1287279817 bytes)
+// Parent: CAnimGraphControllerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CChoreo_GraphController -> CAnimGraphControllerBase
+//
+
+// (no own fields)

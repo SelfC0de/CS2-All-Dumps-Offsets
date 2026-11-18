@@ -1,0 +1,10 @@
+// C_OP_PositionLock
+// Size: 0xB3456555 (-1287297707 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_PositionLock -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

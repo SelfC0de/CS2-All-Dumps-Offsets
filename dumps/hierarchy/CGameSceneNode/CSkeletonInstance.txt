@@ -1,0 +1,10 @@
+// CSkeletonInstance
+// Size: 0xB3458BD8 (-1287287848 bytes)
+// Parent: CGameSceneNode
+// Module: client.dll
+//
+// Inheritance:
+//   CSkeletonInstance -> CGameSceneNode -> ISceneAnimatableProceduralBoneTransforms
+//
+
+// (no own fields)

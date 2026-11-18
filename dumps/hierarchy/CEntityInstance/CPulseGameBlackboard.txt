@@ -1,0 +1,10 @@
+// CPulseGameBlackboard
+// Size: 0xB345AFA6 (-1287278682 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseGameBlackboard -> C_BaseEntity -> CEntityInstance -> IPulseInstanceObservableListener
+//
+
+// (no own fields)

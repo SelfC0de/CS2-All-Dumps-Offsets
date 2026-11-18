@@ -1,0 +1,10 @@
+// CBoolAnimParameter
+// Size: 0xB34504E7 (-1287322393 bytes)
+// Parent: CConcreteAnimParameter
+// Module: client.dll
+//
+// Inheritance:
+//   CBoolAnimParameter -> CConcreteAnimParameter -> CAnimParameterBase -> IAnimParameter -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

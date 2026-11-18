@@ -1,0 +1,10 @@
+// C_OP_TeleportBeam
+// Size: 0xB34571DD (-1287294499 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_TeleportBeam -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

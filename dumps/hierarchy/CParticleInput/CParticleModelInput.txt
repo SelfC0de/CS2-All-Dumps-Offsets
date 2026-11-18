@@ -1,0 +1,10 @@
+// CParticleModelInput
+// Size: 0xB364EC10 (-1285231600 bytes)
+// Parent: CParticleInput
+// Module: client.dll
+//
+// Inheritance:
+//   CParticleModelInput -> CParticleInput
+//
+
+// (no own fields)

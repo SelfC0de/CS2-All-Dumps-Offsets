@@ -1,0 +1,13 @@
+// CSkeletonAnimationController
+// Size: 0xB3458B87 (-1287287929 bytes)
+// Parent: ISkeletonAnimationController
+// Module: client.dll
+//
+// Inheritance:
+//   CSkeletonAnimationController -> ISkeletonAnimationController
+//
+// Direct subclasses (1):
+//   CBaseAnimGraphController
+//
+
+// (no own fields)

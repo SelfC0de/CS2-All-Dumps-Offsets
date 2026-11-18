@@ -1,0 +1,10 @@
+// C_CSObserverPawn
+// Size: 0xB345FDE6 (-1287258650 bytes)
+// Parent: C_CSPlayerPawnBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSObserverPawn -> C_CSPlayerPawnBase -> C_BasePlayerPawn -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2
+//
+
+// (no own fields)

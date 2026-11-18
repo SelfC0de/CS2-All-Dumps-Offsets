@@ -1,0 +1,10 @@
+// C_INIT_SetVectorAttributeToVectorExpression
+// Size: 0xB3455C22 (-1287300062 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_SetVectorAttributeToVectorExpression -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CPulseCell_ApplyDynamicAttributeEHandle
+// Size: 0xB34591F9 (-1287286279 bytes)
+// Parent: CPulseCell_ApplyDynamicAttributeBase
+// Module: server.dll
+//
+// Inheritance:
+//   CPulseCell_ApplyDynamicAttributeEHandle -> CPulseCell_ApplyDynamicAttributeBase -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

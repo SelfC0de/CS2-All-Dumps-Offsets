@@ -1,0 +1,10 @@
+// CRagdollPropAttached
+// Size: 0xB345CDEF (-1287270929 bytes)
+// Parent: CRagdollProp
+// Module: server.dll
+//
+// Inheritance:
+//   CRagdollPropAttached -> CRagdollProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> IBoneTransformOverride
+//
+
+// (no own fields)

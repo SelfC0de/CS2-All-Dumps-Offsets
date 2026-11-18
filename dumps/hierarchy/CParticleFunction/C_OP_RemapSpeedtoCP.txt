@@ -1,0 +1,10 @@
+// C_OP_RemapSpeedtoCP
+// Size: 0xB3457285 (-1287294331 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapSpeedtoCP -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

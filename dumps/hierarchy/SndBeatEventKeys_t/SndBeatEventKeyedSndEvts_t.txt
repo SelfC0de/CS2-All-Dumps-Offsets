@@ -1,0 +1,10 @@
+// SndBeatEventKeyedSndEvts_t
+// Size: 0xB3452EAD (-1287311699 bytes)
+// Parent: SndBeatEventKeys_t
+// Module: client.dll
+//
+// Inheritance:
+//   SndBeatEventKeyedSndEvts_t -> SndBeatEventKeys_t
+//
+
+// (no own fields)

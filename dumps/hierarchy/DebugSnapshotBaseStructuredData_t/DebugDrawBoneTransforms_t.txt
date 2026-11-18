@@ -1,0 +1,10 @@
+// DebugDrawBoneTransforms_t
+// Size: 0xB3458723 (-1287289053 bytes)
+// Parent: DebugSnapshotBaseStructuredData_t
+// Module: client.dll
+//
+// Inheritance:
+//   DebugDrawBoneTransforms_t -> DebugSnapshotBaseStructuredData_t
+//
+
+// (no own fields)

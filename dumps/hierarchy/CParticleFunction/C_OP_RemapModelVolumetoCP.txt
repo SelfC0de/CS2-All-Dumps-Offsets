@@ -1,0 +1,10 @@
+// C_OP_RemapModelVolumetoCP
+// Size: 0xB345736C (-1287294100 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapModelVolumetoCP -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

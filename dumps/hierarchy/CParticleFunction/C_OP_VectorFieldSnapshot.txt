@@ -1,0 +1,10 @@
+// C_OP_VectorFieldSnapshot
+// Size: 0xB3456F79 (-1287295111 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_VectorFieldSnapshot -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

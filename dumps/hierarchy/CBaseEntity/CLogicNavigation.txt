@@ -1,0 +1,10 @@
+// CLogicNavigation
+// Size: 0xB345B4B4 (-1287277388 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicNavigation -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IEntityListener
+//
+
+// (no own fields)

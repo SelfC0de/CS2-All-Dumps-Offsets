@@ -1,0 +1,18 @@
+// CModelConfigElement
+// Size: 0xB364F139 (-1285230279 bytes)
+// Module: client.dll
+//
+// Direct subclasses (10):
+//   CModelConfigElement_AttachedModel
+//   CModelConfigElement_Command
+//   CModelConfigElement_RandomColor
+//   CModelConfigElement_RandomPick
+//   CModelConfigElement_SetBodygroup
+//   CModelConfigElement_SetBodygroupOnAttachedModels
+//   CModelConfigElement_SetMaterialGroup
+//   CModelConfigElement_SetMaterialGroupOnAttachedModels
+//   CModelConfigElement_SetRenderColor
+//   CModelConfigElement_UserPick
+//
+
+// (no own fields)

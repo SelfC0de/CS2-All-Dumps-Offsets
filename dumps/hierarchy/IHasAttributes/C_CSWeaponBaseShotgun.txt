@@ -1,0 +1,15 @@
+// C_CSWeaponBaseShotgun
+// Size: 0xB345FFB7 (-1287258185 bytes)
+// Parent: C_CSWeaponBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSWeaponBaseShotgun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+// Direct subclasses (3):
+//   C_WeaponNOVA
+//   C_WeaponSawedoff
+//   C_WeaponXM1014
+//
+
+// (no own fields)

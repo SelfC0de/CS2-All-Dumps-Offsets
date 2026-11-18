@@ -1,0 +1,10 @@
+// C_INIT_RemapNamedModelBodyPartToScalar
+// Size: 0xB3455B16 (-1287300330 bytes)
+// Parent: C_INIT_RemapNamedModelElementToScalar
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RemapNamedModelBodyPartToScalar -> C_INIT_RemapNamedModelElementToScalar -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

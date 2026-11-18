@@ -1,0 +1,6 @@
+// fogparams_t
+// Size: 0xB3459A96 (-1287284074 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

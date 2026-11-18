@@ -1,0 +1,10 @@
+// C_OP_LockToBone
+// Size: 0xB3456893 (-1287296877 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_LockToBone -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

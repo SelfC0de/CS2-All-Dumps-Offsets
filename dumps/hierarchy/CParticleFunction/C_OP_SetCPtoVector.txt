@@ -1,0 +1,10 @@
+// C_OP_SetCPtoVector
+// Size: 0xB3456C25 (-1287295963 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetCPtoVector -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CNmAimCSTask
+// Size: 0xB3459FAB (-1287282773 bytes)
+// Parent: CNmPoseTask
+// Module: client.dll
+//
+// Inheritance:
+//   CNmAimCSTask -> CNmPoseTask
+//
+
+// (no own fields)

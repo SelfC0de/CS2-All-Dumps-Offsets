@@ -1,0 +1,10 @@
+// C_PointClientUIHUD
+// Size: 0xB345F7C0 (-1287260224 bytes)
+// Parent: C_BaseClientUIEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_PointClientUIHUD -> C_BaseClientUIEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IClientUIDialogListener
+//
+
+// (no own fields)

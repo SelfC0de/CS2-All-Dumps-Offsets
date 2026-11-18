@@ -1,0 +1,10 @@
+// CCSBot
+// Size: 0xB345C1BF (-1287274049 bytes)
+// Parent: CBot
+// Module: server.dll
+//
+// Inheritance:
+//   CCSBot -> CBot -> CMemZeroOnNew
+//
+
+// (no own fields)

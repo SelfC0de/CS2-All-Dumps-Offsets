@@ -1,0 +1,10 @@
+// C_INIT_ColorLitPerParticle
+// Size: 0xB34552D8 (-1287302440 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_ColorLitPerParticle -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

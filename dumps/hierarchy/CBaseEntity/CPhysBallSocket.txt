@@ -1,0 +1,10 @@
+// CPhysBallSocket
+// Size: 0xB345B75C (-1287276708 bytes)
+// Parent: CPhysConstraint
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysBallSocket -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

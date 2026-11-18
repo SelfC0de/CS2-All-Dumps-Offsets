@@ -1,0 +1,10 @@
+// CMathRemap
+// Size: 0xB345B58E (-1287277170 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CMathRemap -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

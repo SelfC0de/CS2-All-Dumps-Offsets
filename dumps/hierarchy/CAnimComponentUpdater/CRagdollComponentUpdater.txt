@@ -1,0 +1,10 @@
+// CRagdollComponentUpdater
+// Size: 0xB33DEEB8 (-1287786824 bytes)
+// Parent: CAnimComponentUpdater
+// Module: client.dll
+//
+// Inheritance:
+//   CRagdollComponentUpdater -> CAnimComponentUpdater -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

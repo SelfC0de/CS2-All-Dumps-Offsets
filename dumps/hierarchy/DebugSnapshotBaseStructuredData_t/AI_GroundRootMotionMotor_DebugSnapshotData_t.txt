@@ -1,0 +1,10 @@
+// AI_GroundRootMotionMotor_DebugSnapshotData_t
+// Size: 0xB34588D0 (-1287288624 bytes)
+// Parent: DebugSnapshotBaseStructuredData_t
+// Module: client.dll
+//
+// Inheritance:
+//   AI_GroundRootMotionMotor_DebugSnapshotData_t -> DebugSnapshotBaseStructuredData_t
+//
+
+// (no own fields)

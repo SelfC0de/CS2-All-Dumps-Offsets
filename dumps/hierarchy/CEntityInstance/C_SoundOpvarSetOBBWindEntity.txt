@@ -1,0 +1,10 @@
+// C_SoundOpvarSetOBBWindEntity
+// Size: 0xB345EB4B (-1287263413 bytes)
+// Parent: C_SoundOpvarSetPointBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_SoundOpvarSetOBBWindEntity -> C_SoundOpvarSetPointBase -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

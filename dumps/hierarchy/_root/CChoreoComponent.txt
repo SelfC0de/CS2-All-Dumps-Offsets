@@ -1,0 +1,6 @@
+// CChoreoComponent
+// Size: 0xB3457EE9 (-1287291159 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

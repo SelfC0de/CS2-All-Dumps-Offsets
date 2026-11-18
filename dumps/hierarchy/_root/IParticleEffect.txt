@@ -1,0 +1,9 @@
+// IParticleEffect
+// Size: 0xB364ECD3 (-1285231405 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   CNewParticleEffect
+//
+
+// (no own fields)

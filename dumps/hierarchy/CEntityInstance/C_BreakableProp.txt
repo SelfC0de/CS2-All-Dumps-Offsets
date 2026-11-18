@@ -1,0 +1,15 @@
+// C_BreakableProp
+// Size: 0xB345FA31 (-1287259599 bytes)
+// Parent: CBaseProp
+// Module: client.dll
+//
+// Inheritance:
+//   C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (3):
+//   C_DynamicProp
+//   C_PhysPropClientside
+//   C_PhysicsProp
+//
+
+// (no own fields)

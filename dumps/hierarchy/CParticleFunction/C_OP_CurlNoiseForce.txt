@@ -1,0 +1,10 @@
+// C_OP_CurlNoiseForce
+// Size: 0xB3455E23 (-1287299549 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_CurlNoiseForce -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

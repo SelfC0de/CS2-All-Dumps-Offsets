@@ -1,0 +1,10 @@
+// C_OP_RenderStandardLight
+// Size: 0xB3457AB3 (-1287292237 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderStandardLight -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

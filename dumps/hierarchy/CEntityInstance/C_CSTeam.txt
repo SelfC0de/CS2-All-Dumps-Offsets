@@ -1,0 +1,10 @@
+// C_CSTeam
+// Size: 0xB345F918 (-1287259880 bytes)
+// Parent: C_Team
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSTeam -> C_Team -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

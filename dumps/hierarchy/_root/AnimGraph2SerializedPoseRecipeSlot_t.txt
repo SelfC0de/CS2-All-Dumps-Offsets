@@ -1,0 +1,6 @@
+// AnimGraph2SerializedPoseRecipeSlot_t
+// Size: 0xB3458478 (-1287289736 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

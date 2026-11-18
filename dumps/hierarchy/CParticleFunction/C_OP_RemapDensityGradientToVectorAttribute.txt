@@ -1,0 +1,10 @@
+// C_OP_RemapDensityGradientToVectorAttribute
+// Size: 0xB345711A (-1287294694 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapDensityGradientToVectorAttribute -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

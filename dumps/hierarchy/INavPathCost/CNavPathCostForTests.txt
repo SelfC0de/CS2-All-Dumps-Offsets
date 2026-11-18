@@ -1,0 +1,10 @@
+// CNavPathCostForTests
+// Size: 0xB34594D8 (-1287285544 bytes)
+// Parent: CNavPathCost
+// Module: client.dll
+//
+// Inheritance:
+//   CNavPathCostForTests -> CNavPathCost -> INavPathCost
+//
+
+// (no own fields)

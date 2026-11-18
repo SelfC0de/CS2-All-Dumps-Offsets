@@ -1,0 +1,10 @@
+// C_OP_LerpToOtherAttribute
+// Size: 0xB345629E (-1287298402 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_LerpToOtherAttribute -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

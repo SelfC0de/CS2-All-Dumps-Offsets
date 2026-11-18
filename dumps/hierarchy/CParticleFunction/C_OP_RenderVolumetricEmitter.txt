@@ -1,0 +1,10 @@
+// C_OP_RenderVolumetricEmitter
+// Size: 0xB3457B96 (-1287292010 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderVolumetricEmitter -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

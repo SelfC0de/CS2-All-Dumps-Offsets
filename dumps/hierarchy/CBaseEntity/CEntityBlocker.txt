@@ -1,0 +1,10 @@
+// CEntityBlocker
+// Size: 0xB345BC09 (-1287275511 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEntityBlocker -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

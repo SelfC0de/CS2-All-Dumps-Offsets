@@ -1,0 +1,6 @@
+// IParticleCollection
+// Size: 0xB3454A51 (-1287304623 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

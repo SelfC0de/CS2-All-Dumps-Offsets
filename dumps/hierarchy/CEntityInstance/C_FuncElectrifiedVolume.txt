@@ -1,0 +1,10 @@
+// C_FuncElectrifiedVolume
+// Size: 0xB345F6A6 (-1287260506 bytes)
+// Parent: C_FuncBrush
+// Module: client.dll
+//
+// Inheritance:
+//   C_FuncElectrifiedVolume -> C_FuncBrush -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CPulseCell_Step_TestDomainTracepoint
+// Size: 0xB34545FB (-1287305733 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseCell_Step_TestDomainTracepoint -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

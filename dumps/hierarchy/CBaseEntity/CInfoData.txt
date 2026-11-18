@@ -1,0 +1,10 @@
+// CInfoData
+// Size: 0xB3459672 (-1287285134 bytes)
+// Parent: CServerOnlyEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CInfoData -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

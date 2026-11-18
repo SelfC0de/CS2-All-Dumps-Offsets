@@ -1,0 +1,10 @@
+// CCSPlayer_UseServices
+// Size: 0xB345A666 (-1287281050 bytes)
+// Parent: CPlayer_UseServices
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayer_UseServices -> CPlayer_UseServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

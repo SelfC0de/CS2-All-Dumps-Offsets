@@ -1,0 +1,10 @@
+// CPulseCell_TestEnums
+// Size: 0xB3454519 (-1287305959 bytes)
+// Parent: CPulseCell_BaseValue
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseCell_TestEnums -> CPulseCell_BaseValue -> CPulseCell_Base
+//
+
+// (no own fields)

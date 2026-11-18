@@ -1,0 +1,16 @@
+// CAnimActionUpdater
+// Size: 0xB33DEAC6 (-1287787834 bytes)
+// Parent: ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimActionUpdater -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+// Direct subclasses (4):
+//   CEmitTagActionUpdater
+//   CExpressionActionUpdater
+//   CSetParameterActionUpdater
+//   CToggleComponentActionUpdater
+//
+
+// (no own fields)

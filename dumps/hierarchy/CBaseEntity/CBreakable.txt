@@ -1,0 +1,13 @@
+// CBreakable
+// Size: 0xB345BC4B (-1287275445 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CBreakable -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+//
+// Direct subclasses (1):
+//   CPushable
+//
+
+// (no own fields)

@@ -1,0 +1,73 @@
+// C_BaseEntity
+// Size: 0xB345E8C7 (-1287264057 bytes)
+// Parent: CEntityInstance
+// Module: client.dll
+//
+// Inheritance:
+//   C_BaseEntity -> CEntityInstance
+//
+// Direct subclasses (61):
+//   CBasePlayerController
+//   CCSCustomHudLayout
+//   CCSCustomPlayerCamera
+//   CCSObservableElement
+//   CCSRadarElement
+//   CCS_PortraitWorldCallbackHandler
+//   CCitadelSoundOpvarSetOBB
+//   CEnvSoundscape
+//   CInfoWorldLayer
+//   CLogicalEntity
+//   CPathSimple
+//   CPointOrient
+//   CPulseGameBlackboard
+//   CRagdollManager
+//   CSkyboxReference
+//   C_BaseModelEntity
+//   C_CSGO_MapPreviewCameraPath
+//   C_CSGO_MapPreviewCameraPathNode
+//   C_CSGO_TeamPreviewCharacterPosition
+//   C_CSMinimapBoundary
+//   C_CSPetPlacement
+//   C_CSPlayerResource
+//   C_ColorCorrection
+//   C_CsmFovOverride
+//   C_EntityFlame
+//   C_EnvCombinedLightProbeVolume
+//   C_EnvCubemap
+//   C_EnvCubemapFog
+//   C_EnvDetailController
+//   C_EnvLightProbeVolume
+//   C_EnvShakeVolume
+//   C_EnvVolumetricFogController
+//   C_EnvVolumetricFogVolume
+//   C_EnvWind
+//   C_EnvWindClientside
+//   C_FogController
+//   C_GameRulesProxy
+//   C_GlobalLight
+//   C_GradientFog
+//   C_HandleTest
+//   C_InfoLadderDismount
+//   C_InfoVisibilityBox
+//   C_MapVetoPickController
+//   C_PathParticleRope
+//   C_PlayerPing
+//   C_PlayerVisibility
+//   C_PointCamera
+//   C_PointDeathcamBounds
+//   C_PointEntity
+//   C_PointValueRemapper
+//   C_PortraitWorldCallbackHandler
+//   C_SkyCamera
+//   C_SkyCameraVolume
+//   C_SkyCameraVolumeTarget
+//   C_SoundEventBoxHelper
+//   C_SoundEventEntity
+//   C_SoundOpvarSetPointBase
+//   C_Team
+//   C_TintController
+//   C_TonemapController2
+//   C_VoteController
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CNmFootIKTask
+// Size: 0xB3450DE7 (-1287320089 bytes)
+// Parent: CNmPoseTask
+// Module: client.dll
+//
+// Inheritance:
+//   CNmFootIKTask -> CNmPoseTask
+//
+
+// (no own fields)

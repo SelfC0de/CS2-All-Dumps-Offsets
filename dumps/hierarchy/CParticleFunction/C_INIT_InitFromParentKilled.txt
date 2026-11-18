@@ -1,0 +1,10 @@
+// C_INIT_InitFromParentKilled
+// Size: 0xB345587C (-1287300996 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_InitFromParentKilled -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

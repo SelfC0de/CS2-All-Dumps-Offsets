@@ -1,0 +1,10 @@
+// C_ColorCorrection
+// Size: 0xB345E8D8 (-1287264040 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_ColorCorrection -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

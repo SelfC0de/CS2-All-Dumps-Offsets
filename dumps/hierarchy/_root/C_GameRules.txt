@@ -1,0 +1,10 @@
+// C_GameRules
+// Size: 0xB345EA1D (-1287263715 bytes)
+// Module: client.dll
+//
+// Direct subclasses (2):
+//   C_MultiplayRules
+//   C_SingleplayRules
+//
+
+// (no own fields)

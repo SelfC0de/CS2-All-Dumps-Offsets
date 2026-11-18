@@ -1,0 +1,6 @@
+// CMotorController
+// Size: 0xB34597D0 (-1287284784 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

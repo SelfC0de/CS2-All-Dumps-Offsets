@@ -1,0 +1,10 @@
+// CNavWalkable
+// Size: 0xB345BDF6 (-1287275018 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CNavWalkable -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

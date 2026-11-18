@@ -1,0 +1,6 @@
+// CCSPlayerLegacyJump
+// Size: 0xB345A617 (-1287281129 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CBtActionCombatPositioning
+// Size: 0xB345AAB0 (-1287279952 bytes)
+// Parent: CBtNode
+// Module: server.dll
+//
+// Inheritance:
+//   CBtActionCombatPositioning -> CBtNode
+//
+
+// (no own fields)

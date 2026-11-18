@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-12 08:33:41.7308395 UTC
+// 2026-11-18 06:23:05.2221886 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -73,7 +73,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum BoneTransformSpace_t : uint {
-            BoneTransformSpace_Invalid = 0xFFFFFFFFFFFFFFFF,
+            BoneTransformSpace_Invalid = 0x-1,
             BoneTransformSpace_Parent = 0x0,
             BoneTransformSpace_Model = 0x1,
             BoneTransformSpace_World = 0x2
@@ -128,7 +128,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 5
         public enum ParticleFloatBiasType_t : uint {
-            PF_BIAS_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+            PF_BIAS_TYPE_INVALID = 0x-1,
             PF_BIAS_TYPE_STANDARD = 0x0,
             PF_BIAS_TYPE_GAIN = 0x1,
             PF_BIAS_TYPE_EXPONENTIAL = 0x2,
@@ -145,7 +145,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 1
         // Member count: 6
         public enum SharedMovementGait_t : uint {
-            eInvalid = 0xFFFFFFFFFFFFFFFF,
+            eInvalid = 0x-1,
             eSlow = 0x0,
             eMedium = 0x1,
             eFast = 0x2,
@@ -180,7 +180,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 34
         public enum ParticleFloatType_t : uint {
-            PF_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+            PF_TYPE_INVALID = 0x-1,
             PF_TYPE_LITERAL = 0x0,
             PF_TYPE_NAMED_VALUE = 0x1,
             PF_TYPE_RANDOM_UNIFORM = 0x2,
@@ -537,7 +537,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 5
         public enum ParticleFloatRoundType_t : uint {
-            PF_ROUND_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+            PF_ROUND_TYPE_INVALID = 0x-1,
             PF_ROUND_TYPE_NEAREST = 0x0,
             PF_ROUND_TYPE_FLOOR = 0x1,
             PF_ROUND_TYPE_CEIL = 0x2,
@@ -600,7 +600,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum ModelBoneFlexComponent_t : uint {
-            MODEL_BONE_FLEX_INVALID = 0xFFFFFFFFFFFFFFFF,
+            MODEL_BONE_FLEX_INVALID = 0x-1,
             MODEL_BONE_FLEX_TX = 0x0,
             MODEL_BONE_FLEX_TY = 0x1,
             MODEL_BONE_FLEX_TZ = 0x2
@@ -770,7 +770,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 12
         public enum ParticleFloatMapType_t : uint {
-            PF_MAP_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+            PF_MAP_TYPE_INVALID = 0x-1,
             PF_MAP_TYPE_DIRECT = 0x0,
             PF_MAP_TYPE_MULT = 0x1,
             PF_MAP_TYPE_REMAP = 0x2,
@@ -898,7 +898,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum ParticleFloatInputMode_t : uint {
-            PF_INPUT_MODE_INVALID = 0xFFFFFFFFFFFFFFFF,
+            PF_INPUT_MODE_INVALID = 0x-1,
             PF_INPUT_MODE_CLAMPED = 0x0,
             PF_INPUT_MODE_LOOPED = 0x1,
             PF_INPUT_MODE_COUNT = 0x2
@@ -953,7 +953,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum ParticleFloatRandomMode_t : uint {
-            PF_RANDOM_MODE_INVALID = 0xFFFFFFFFFFFFFFFF,
+            PF_RANDOM_MODE_INVALID = 0x-1,
             PF_RANDOM_MODE_CONSTANT = 0x0,
             PF_RANDOM_MODE_VARYING = 0x1,
             PF_RANDOM_MODE_COUNT = 0x2
@@ -961,7 +961,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 35
         public enum PulseValueType_t : uint {
-            PVAL_VOID = 0xFFFFFFFFFFFFFFFF,
+            PVAL_VOID = 0x-1,
             PVAL_BOOL = 0x0,
             PVAL_INT = 0x1,
             PVAL_FLOAT = 0x2,
@@ -1008,7 +1008,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 21
         public enum ParticleVecType_t : uint {
-            PVEC_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+            PVEC_TYPE_INVALID = 0x-1,
             PVEC_TYPE_LITERAL = 0x0,
             PVEC_TYPE_LITERAL_COLOR = 0x1,
             PVEC_TYPE_NAMED_VALUE = 0x2,
@@ -1144,7 +1144,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 2
         // Member count: 3
         public enum AnimScriptType : uint {
-            ANIMSCRIPT_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+            ANIMSCRIPT_TYPE_INVALID = 0x-1,
             ANIMSCRIPT_FUSE_GENERAL = 0x0,
             ANIMSCRIPT_FUSE_STATEMACHINE = 0x1
         }
@@ -1190,7 +1190,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum HandshakeTagType_t : uint {
-            eInvalid = 0xFFFFFFFFFFFFFFFF,
+            eInvalid = 0x-1,
             eTask = 0x0,
             eMovement = 0x1,
             eCount = 0x2
@@ -1356,7 +1356,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 18
         public enum ParticleAttachment_t : uint {
-            PATTACH_INVALID = 0xFFFFFFFFFFFFFFFF,
+            PATTACH_INVALID = 0x-1,
             PATTACH_ABSORIGIN = 0x0,
             PATTACH_ABSORIGIN_FOLLOW = 0x1,
             PATTACH_CUSTOMORIGIN = 0x2,
@@ -1433,7 +1433,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum ScriptedHeldWeaponBehavior_t : uint {
-            eInvalid = 0xFFFFFFFFFFFFFFFF,
+            eInvalid = 0x-1,
             eHolster = 0x0,
             eDeploy = 0x1,
             eDrop = 0x2
@@ -1538,7 +1538,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 1
         // Member count: 3
         public enum RenderMeshSlotType_t : uint {
-            RENDERMESH_SLOT_INVALID = 0xFFFFFFFFFFFFFFFF,
+            RENDERMESH_SLOT_INVALID = 0x-1,
             RENDERMESH_SLOT_PER_VERTEX = 0x0,
             RENDERMESH_SLOT_PER_INSTANCE = 0x1
         }
@@ -1568,7 +1568,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 5
         public enum ModelConfigAttachmentType_t : uint {
-            MODEL_CONFIG_ATTACHMENT_INVALID = 0xFFFFFFFFFFFFFFFF,
+            MODEL_CONFIG_ATTACHMENT_INVALID = 0x-1,
             MODEL_CONFIG_ATTACHMENT_BONE_OR_ATTACHMENT = 0x0,
             MODEL_CONFIG_ATTACHMENT_ROOT_RELATIVE = 0x1,
             MODEL_CONFIG_ATTACHMENT_BONEMERGE = 0x2,
@@ -1594,7 +1594,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum PulseDomainValueType_t : uint {
-            INVALID = 0xFFFFFFFFFFFFFFFF,
+            INVALID = 0x-1,
             ENTITY_NAME = 0x0,
             PANEL_ID = 0x1,
             COUNT = 0x2

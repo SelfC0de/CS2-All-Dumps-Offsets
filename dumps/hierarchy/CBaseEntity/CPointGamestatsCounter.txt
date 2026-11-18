@@ -1,0 +1,10 @@
+// CPointGamestatsCounter
+// Size: 0xB345C0E7 (-1287274265 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointGamestatsCounter -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

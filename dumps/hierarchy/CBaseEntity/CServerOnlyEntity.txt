@@ -1,0 +1,14 @@
+// CServerOnlyEntity
+// Size: 0xB3459570 (-1287285392 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (2):
+//   CInfoData
+//   CServerOnlyPointEntity
+//
+
+// (no own fields)

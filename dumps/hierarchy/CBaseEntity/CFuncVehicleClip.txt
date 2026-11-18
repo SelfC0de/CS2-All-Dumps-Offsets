@@ -1,0 +1,10 @@
+// CFuncVehicleClip
+// Size: 0xB345B1AF (-1287278161 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncVehicleClip -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

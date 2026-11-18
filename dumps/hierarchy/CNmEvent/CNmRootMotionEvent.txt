@@ -1,0 +1,10 @@
+// CNmRootMotionEvent
+// Size: 0xB364FCC7 (-1285227321 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmRootMotionEvent -> CNmEvent
+//
+
+// (no own fields)

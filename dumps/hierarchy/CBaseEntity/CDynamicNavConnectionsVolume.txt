@@ -1,0 +1,10 @@
+// CDynamicNavConnectionsVolume
+// Size: 0xB345CECC (-1287270708 bytes)
+// Parent: CTriggerMultiple
+// Module: server.dll
+//
+// Inheritance:
+//   CDynamicNavConnectionsVolume -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

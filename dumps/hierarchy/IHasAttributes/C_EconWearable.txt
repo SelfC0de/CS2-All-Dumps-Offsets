@@ -1,0 +1,10 @@
+// C_EconWearable
+// Size: 0xB345FC9F (-1287258977 bytes)
+// Parent: C_EconEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_EconWearable -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride
+//
+
+// (no own fields)

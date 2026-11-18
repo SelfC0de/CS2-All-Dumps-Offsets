@@ -1,0 +1,10 @@
+// CEnvCombinedLightProbeVolume
+// Size: 0xB345AB64 (-1287279772 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvCombinedLightProbeVolume -> CBaseEntity -> CEntityInstance -> CBaseCubemap -> IToolObject -> CBaseLightProbeVolume -> IToolObject
+//
+
+// (no own fields)

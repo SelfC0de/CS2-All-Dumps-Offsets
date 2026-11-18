@@ -1,0 +1,10 @@
+// CModelConfigElement_SetBodygroup
+// Size: 0xB364F268 (-1285229976 bytes)
+// Parent: CModelConfigElement
+// Module: client.dll
+//
+// Inheritance:
+//   CModelConfigElement_SetBodygroup -> CModelConfigElement
+//
+
+// (no own fields)

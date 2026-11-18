@@ -1,0 +1,10 @@
+// CScriptComponent
+// Size: 0xB32C80C2 (-1288929086 bytes)
+// Parent: CEntityComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CScriptComponent -> CEntityComponent -> ?$CScriptScopeT@VCDefScriptAccessorBase -> ?$CScriptAccessorT@VCDefScriptAccessorBase -> CDefScriptAccessorBase
+//
+
+// (no own fields)

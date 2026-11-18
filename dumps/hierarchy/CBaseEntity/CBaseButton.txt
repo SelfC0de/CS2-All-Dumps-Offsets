@@ -1,0 +1,14 @@
+// CBaseButton
+// Size: 0xB345BB9D (-1287275619 bytes)
+// Parent: CBaseToggle
+// Module: server.dll
+//
+// Inheritance:
+//   CBaseButton -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (2):
+//   CPhysicalButton
+//   CRotButton
+//
+
+// (no own fields)

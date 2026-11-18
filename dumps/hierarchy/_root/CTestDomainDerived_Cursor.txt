@@ -1,0 +1,10 @@
+// CTestDomainDerived_Cursor
+// Size: 0xB3454729 (-1287305431 bytes)
+// Parent: CPulseExecCursor
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CTestDomainDerived_Cursor -> CPulseExecCursor -> IPulseExecLog -> IPulseHost_Unknown -> IPulseHost_YieldingCursor -> IPulseHost_Cursor -> IPulseHost_BaseObservable
+//
+
+// (no own fields)

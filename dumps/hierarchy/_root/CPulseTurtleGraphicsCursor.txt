@@ -1,0 +1,10 @@
+// CPulseTurtleGraphicsCursor
+// Size: 0xB34548F4 (-1287304972 bytes)
+// Parent: CPulseExecCursor
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseTurtleGraphicsCursor -> CPulseExecCursor -> IPulseExecLog -> IPulseHost_Unknown -> IPulseHost_YieldingCursor -> IPulseHost_Cursor -> IPulseHost_BaseObservable
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_SoundAreaEntityOrientedBox
+// Size: 0xB345F3DD (-1287261219 bytes)
+// Parent: C_SoundAreaEntityBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_SoundAreaEntityOrientedBox -> C_SoundAreaEntityBase -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

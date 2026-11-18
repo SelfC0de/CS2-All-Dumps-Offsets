@@ -1,0 +1,10 @@
+// C_INIT_InitFromCPSnapshot
+// Size: 0xB3455831 (-1287301071 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_InitFromCPSnapshot -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

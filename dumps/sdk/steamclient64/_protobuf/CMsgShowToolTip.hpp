@@ -1,0 +1,21 @@
+// Auto-generated protobuf field constants — DO NOT EDIT
+// Message: CMsgShowToolTip
+// Module: steamclient64.dll
+// Proto file: htmlmessages.proto
+#pragma once
+#ifndef SDK_PROTO_CMSGSHOWTOOLTIP_HPP
+#define SDK_PROTO_CMSGSHOWTOOLTIP_HPP
+
+namespace sdk::proto {
+
+namespace CMsgShowToolTip_fields {
+
+    constexpr int browser_handle = 1;
+    constexpr int text = 2;
+
+} // namespace CMsgShowToolTip_fields
+
+} // namespace sdk::proto
+
+#endif // SDK_PROTO_CMSGSHOWTOOLTIP_HPP
+

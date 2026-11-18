@@ -1,0 +1,10 @@
+// CPulseCell_ExampleSelector
+// Size: 0xB34544FA (-1287305990 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseCell_ExampleSelector -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

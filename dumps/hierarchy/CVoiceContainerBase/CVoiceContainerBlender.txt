@@ -1,0 +1,10 @@
+// CVoiceContainerBlender
+// Size: 0xB345316D (-1287310995 bytes)
+// Parent: CVoiceContainerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerBlender -> CVoiceContainerBase
+//
+
+// (no own fields)

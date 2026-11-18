@@ -1,0 +1,10 @@
+// CEnvEntityMaker
+// Size: 0xB345B345 (-1287277755 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvEntityMaker -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,6 @@
+// SimpleConstraintSoundProfile
+// Size: 0xB3459808 (-1287284728 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

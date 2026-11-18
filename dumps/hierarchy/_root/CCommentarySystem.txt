@@ -1,0 +1,10 @@
+// CCommentarySystem
+// Size: 0xB3458EB9 (-1287287111 bytes)
+// Parent: CAutoGameSystem
+// Module: client.dll
+//
+// Inheritance:
+//   CCommentarySystem -> CAutoGameSystem -> IGameSystem
+//
+
+// (no own fields)

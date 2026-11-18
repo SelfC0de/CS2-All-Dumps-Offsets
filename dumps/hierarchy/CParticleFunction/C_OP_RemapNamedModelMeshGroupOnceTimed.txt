@@ -1,0 +1,10 @@
+// C_OP_RemapNamedModelMeshGroupOnceTimed
+// Size: 0xB3456E97 (-1287295337 bytes)
+// Parent: C_OP_RemapNamedModelElementOnceTimed
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapNamedModelMeshGroupOnceTimed -> C_OP_RemapNamedModelElementOnceTimed -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

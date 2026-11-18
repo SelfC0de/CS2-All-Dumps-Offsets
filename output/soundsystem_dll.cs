@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-12 08:33:41.7308395 UTC
+// 2026-11-18 06:23:05.2221886 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -39,7 +39,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 34
         public enum VMixGraphCommandID_t : uint {
-            CMD_INVALID = 0xFFFFFFFFFFFFFFFF,
+            CMD_INVALID = 0x-1,
             CMD_CONTROL_CONVERT_DB_TO_GAIN = 0x1,
             CMD_CONTROL_TRANSIENT_INPUT_STORE = 0x2,
             CMD_CONTROL_TRANSIENT_INPUT_RESET = 0x3,
@@ -131,7 +131,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 1
         // Member count: 10
         public enum VMixFilterType_t : uint {
-            FILTER_UNKNOWN = 0xFFFFFFFFFFFFFFFF,
+            FILTER_UNKNOWN = 0x-1,
             FILTER_LOWPASS = 0x0,
             FILTER_HIGHPASS = 0x1,
             FILTER_BANDPASS = 0x2,
@@ -151,7 +151,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 2
         // Member count: 10
         public enum VMixSendOperator_t : uint {
-            NO_VOICES = 0xFFFFFFFFFFFFFFFF,
+            NO_VOICES = 0x-1,
             ALL_VOICES = 0x0,
             ROOM_VOICES = 0x1,
             FACING_VOICES = 0x2,

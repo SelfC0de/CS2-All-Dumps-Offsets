@@ -1,0 +1,6 @@
+// CEffectData
+// Size: 0xB34599B1 (-1287284303 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

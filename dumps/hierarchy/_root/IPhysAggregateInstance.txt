@@ -1,0 +1,10 @@
+// IPhysAggregateInstance
+// Size: 0xB3452B7E (-1287312514 bytes)
+// Parent: IPhysicsBodyList
+// Module: client.dll
+//
+// Inheritance:
+//   IPhysAggregateInstance -> IPhysicsBodyList
+//
+
+// (no own fields)

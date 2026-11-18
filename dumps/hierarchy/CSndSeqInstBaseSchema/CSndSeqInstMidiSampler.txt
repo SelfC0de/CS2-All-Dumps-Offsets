@@ -1,0 +1,10 @@
+// CSndSeqInstMidiSampler
+// Size: 0xB3452E42 (-1287311806 bytes)
+// Parent: CSndSeqInstBaseSchema
+// Module: client.dll
+//
+// Inheritance:
+//   CSndSeqInstMidiSampler -> CSndSeqInstBaseSchema
+//
+
+// (no own fields)

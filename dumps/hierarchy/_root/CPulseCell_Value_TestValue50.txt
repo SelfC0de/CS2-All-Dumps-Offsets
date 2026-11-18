@@ -1,0 +1,10 @@
+// CPulseCell_Value_TestValue50
+// Size: 0xB3454883 (-1287305085 bytes)
+// Parent: CPulseCell_BaseValue
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseCell_Value_TestValue50 -> CPulseCell_BaseValue -> CPulseCell_Base
+//
+
+// (no own fields)

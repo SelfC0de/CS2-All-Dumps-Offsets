@@ -1,0 +1,10 @@
+// C_INIT_RandomSequence
+// Size: 0xB3455314 (-1287302380 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RandomSequence -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

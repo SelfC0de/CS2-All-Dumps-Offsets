@@ -1,0 +1,10 @@
+// CGenericConstraint
+// Size: 0xB345B7CF (-1287276593 bytes)
+// Parent: CPhysConstraint
+// Module: server.dll
+//
+// Inheritance:
+//   CGenericConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IVPhysicsWatcher -> IWatcherCallback
+//
+
+// (no own fields)

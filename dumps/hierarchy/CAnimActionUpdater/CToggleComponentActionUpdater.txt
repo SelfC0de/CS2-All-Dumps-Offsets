@@ -1,0 +1,10 @@
+// CToggleComponentActionUpdater
+// Size: 0xB33DEB16 (-1287787754 bytes)
+// Parent: CAnimActionUpdater
+// Module: client.dll
+//
+// Inheritance:
+//   CToggleComponentActionUpdater -> CAnimActionUpdater -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

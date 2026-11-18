@@ -1,0 +1,10 @@
+// CVMixVocoderProcessorDesc
+// Size: 0xB34539B7 (-1287308873 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixVocoderProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

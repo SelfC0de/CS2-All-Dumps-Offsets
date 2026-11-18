@@ -1,0 +1,10 @@
+// CTeam
+// Size: 0xB345AF68 (-1287278744 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CTeam -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

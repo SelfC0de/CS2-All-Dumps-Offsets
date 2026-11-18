@@ -1,0 +1,10 @@
+// C_OP_RenderSound
+// Size: 0xB3457B81 (-1287292031 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderSound -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

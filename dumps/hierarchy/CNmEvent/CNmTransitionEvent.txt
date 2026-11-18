@@ -1,0 +1,10 @@
+// CNmTransitionEvent
+// Size: 0xB364FCF0 (-1285227280 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmTransitionEvent -> CNmEvent
+//
+
+// (no own fields)

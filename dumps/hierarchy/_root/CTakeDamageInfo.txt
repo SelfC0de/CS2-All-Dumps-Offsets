@@ -1,0 +1,6 @@
+// CTakeDamageInfo
+// Size: 0xB3459E7F (-1287283073 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

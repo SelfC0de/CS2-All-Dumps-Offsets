@@ -1,0 +1,10 @@
+// CNmEventConsumerBodyGroup
+// Size: 0xB3458CE6 (-1287287578 bytes)
+// Parent: CNmEventConsumer
+// Module: client.dll
+//
+// Inheritance:
+//   CNmEventConsumerBodyGroup -> CNmEventConsumer
+//
+
+// (no own fields)

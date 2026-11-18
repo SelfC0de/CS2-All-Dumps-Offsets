@@ -1,0 +1,10 @@
+// CSndSeqInstruments
+// Size: 0xB3453D4E (-1287307954 bytes)
+// Parent: ISndSeqInstruments
+// Module: client.dll
+//
+// Inheritance:
+//   CSndSeqInstruments -> ISndSeqInstruments
+//
+
+// (no own fields)

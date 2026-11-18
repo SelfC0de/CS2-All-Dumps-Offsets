@@ -1,0 +1,10 @@
+// CVoiceContainerTapePlayer
+// Size: 0xB3453284 (-1287310716 bytes)
+// Parent: CVoiceContainerAsyncGenerator
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerTapePlayer -> CVoiceContainerAsyncGenerator -> CVoiceContainerGenerator -> CVoiceContainerBase
+//
+
+// (no own fields)

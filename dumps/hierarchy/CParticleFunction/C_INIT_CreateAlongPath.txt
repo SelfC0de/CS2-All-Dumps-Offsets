@@ -1,0 +1,10 @@
+// C_INIT_CreateAlongPath
+// Size: 0xB34553F0 (-1287302160 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreateAlongPath -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

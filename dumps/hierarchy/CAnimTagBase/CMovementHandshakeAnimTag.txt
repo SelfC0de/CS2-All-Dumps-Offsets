@@ -1,0 +1,10 @@
+// CMovementHandshakeAnimTag
+// Size: 0xB33DEC53 (-1287787437 bytes)
+// Parent: CHandshakeAnimTagBase
+// Module: client.dll
+//
+// Inheritance:
+//   CMovementHandshakeAnimTag -> CHandshakeAnimTagBase -> CAnimTagBase -> IAnimTag -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

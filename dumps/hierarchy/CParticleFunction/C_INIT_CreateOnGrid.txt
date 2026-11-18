@@ -1,0 +1,10 @@
+// C_INIT_CreateOnGrid
+// Size: 0xB3455052 (-1287303086 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreateOnGrid -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

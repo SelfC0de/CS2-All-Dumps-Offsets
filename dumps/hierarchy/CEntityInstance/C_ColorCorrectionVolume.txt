@@ -1,0 +1,10 @@
+// C_ColorCorrectionVolume
+// Size: 0xB345FACD (-1287259443 bytes)
+// Parent: C_BaseTrigger
+// Module: client.dll
+//
+// Inheritance:
+//   C_ColorCorrectionVolume -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CVoiceContainerNull
+// Size: 0xB3453060 (-1287311264 bytes)
+// Parent: CVoiceContainerGenerator
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerNull -> CVoiceContainerGenerator -> CVoiceContainerBase
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CModelConfigElement_AttachedModel
+// Size: 0xB364F151 (-1285230255 bytes)
+// Parent: CModelConfigElement
+// Module: client.dll
+//
+// Inheritance:
+//   CModelConfigElement_AttachedModel -> CModelConfigElement
+//
+
+// (no own fields)

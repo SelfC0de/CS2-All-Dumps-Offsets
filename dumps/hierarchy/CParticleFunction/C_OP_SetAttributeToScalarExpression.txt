@@ -1,0 +1,10 @@
+// C_OP_SetAttributeToScalarExpression
+// Size: 0xB3456F96 (-1287295082 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetAttributeToScalarExpression -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

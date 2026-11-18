@@ -1,0 +1,13 @@
+// C_TonemapController2
+// Size: 0xB345F2FC (-1287261444 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_TonemapController2 -> C_BaseEntity -> CEntityInstance
+//
+// Direct subclasses (1):
+//   C_TonemapController2Alias_env_tonemap_controller2
+//
+
+// (no own fields)

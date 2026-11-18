@@ -1,0 +1,10 @@
+// CAnimationGraphInstance
+// Size: 0xB33DE89E (-1287788386 bytes)
+// Parent: IAnimationGraphInstance
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimationGraphInstance -> IAnimationGraphInstance -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

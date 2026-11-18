@@ -1,0 +1,10 @@
+// AI_BaseNPC_DebugSnapshotData_t
+// Size: 0xB3458854 (-1287288748 bytes)
+// Parent: DebugSnapshotBaseStructuredData_t
+// Module: client.dll
+//
+// Inheritance:
+//   AI_BaseNPC_DebugSnapshotData_t -> DebugSnapshotBaseStructuredData_t
+//
+
+// (no own fields)

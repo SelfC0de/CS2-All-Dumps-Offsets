@@ -1,0 +1,6 @@
+// IPhysicsMotionController
+// Size: 0xB3452281 (-1287314815 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

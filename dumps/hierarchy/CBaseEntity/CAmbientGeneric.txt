@@ -1,0 +1,10 @@
+// CAmbientGeneric
+// Size: 0xB345BB5E (-1287275682 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CAmbientGeneric -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

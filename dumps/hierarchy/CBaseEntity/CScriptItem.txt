@@ -1,0 +1,10 @@
+// CScriptItem
+// Size: 0xB345CDB4 (-1287270988 bytes)
+// Parent: CItem
+// Module: server.dll
+//
+// Inheritance:
+//   CScriptItem -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+//
+
+// (no own fields)

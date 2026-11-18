@@ -1,0 +1,10 @@
+// CPulseCell_TestWaitWithAutoTracepoints
+// Size: 0xB3454532 (-1287305934 bytes)
+// Parent: CPulseCell_BaseYieldingInflow
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseCell_TestWaitWithAutoTracepoints -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

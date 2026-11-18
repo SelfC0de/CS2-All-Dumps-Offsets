@@ -1,0 +1,10 @@
+// C_OP_PlanarConstraint
+// Size: 0xB3454DD6 (-1287303722 bytes)
+// Parent: CParticleFunctionConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_PlanarConstraint -> CParticleFunctionConstraint -> CParticleFunction
+//
+
+// (no own fields)

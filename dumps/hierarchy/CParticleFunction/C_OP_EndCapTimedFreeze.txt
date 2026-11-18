@@ -1,0 +1,10 @@
+// C_OP_EndCapTimedFreeze
+// Size: 0xB34563BD (-1287298115 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_EndCapTimedFreeze -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

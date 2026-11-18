@@ -1,0 +1,10 @@
+// C_PhysicsPropMultiplayer
+// Size: 0xB345FCDA (-1287258918 bytes)
+// Parent: C_PhysicsProp
+// Module: client.dll
+//
+// Inheritance:
+//   C_PhysicsPropMultiplayer -> C_PhysicsProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

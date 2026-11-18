@@ -1,0 +1,10 @@
+// CChoiceUpdateNode
+// Size: 0xB3450721 (-1287321823 bytes)
+// Parent: CAnimUpdateNodeBase
+// Module: client.dll
+//
+// Inheritance:
+//   CChoiceUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> ITargetWarpInputNode
+//
+
+// (no own fields)

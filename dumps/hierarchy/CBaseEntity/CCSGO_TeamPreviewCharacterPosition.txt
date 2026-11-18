@@ -1,0 +1,10 @@
+// CCSGO_TeamPreviewCharacterPosition
+// Size: 0xB345A0F5 (-1287282443 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CCSGO_TeamPreviewCharacterPosition -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,6 @@
+// EntityKeyValueData_t
+// Size: 0xB34540C8 (-1287307064 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CPointPrefab
+// Size: 0xB3459869 (-1287284631 bytes)
+// Parent: CServerOnlyPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointPrefab -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

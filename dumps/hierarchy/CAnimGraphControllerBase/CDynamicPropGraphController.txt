@@ -1,0 +1,10 @@
+// CDynamicPropGraphController
+// Size: 0xB345893B (-1287288517 bytes)
+// Parent: CAnimGraphControllerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CDynamicPropGraphController -> CAnimGraphControllerBase
+//
+
+// (no own fields)

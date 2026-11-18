@@ -1,0 +1,10 @@
+// C_OP_WorldTraceConstraint
+// Size: 0xB3454E10 (-1287303664 bytes)
+// Parent: CParticleFunctionConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_WorldTraceConstraint -> CParticleFunctionConstraint -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// SndBeatEventKeyedMidiNotes_t
+// Size: 0xB3452ECC (-1287311668 bytes)
+// Parent: SndBeatEventKeys_t
+// Module: client.dll
+//
+// Inheritance:
+//   SndBeatEventKeyedMidiNotes_t -> SndBeatEventKeys_t
+//
+
+// (no own fields)

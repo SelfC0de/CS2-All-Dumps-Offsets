@@ -1,0 +1,10 @@
+// CModelConfigElement_RandomColor
+// Size: 0xB364F244 (-1285230012 bytes)
+// Parent: CModelConfigElement
+// Module: client.dll
+//
+// Inheritance:
+//   CModelConfigElement_RandomColor -> CModelConfigElement
+//
+
+// (no own fields)

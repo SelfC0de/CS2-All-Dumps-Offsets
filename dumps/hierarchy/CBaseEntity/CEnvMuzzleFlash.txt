@@ -1,0 +1,10 @@
+// CEnvMuzzleFlash
+// Size: 0xB345B2E8 (-1287277848 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvMuzzleFlash -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

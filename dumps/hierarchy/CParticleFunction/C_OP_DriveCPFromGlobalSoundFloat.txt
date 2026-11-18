@@ -1,0 +1,10 @@
+// C_OP_DriveCPFromGlobalSoundFloat
+// Size: 0xB3457781 (-1287293055 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_DriveCPFromGlobalSoundFloat -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

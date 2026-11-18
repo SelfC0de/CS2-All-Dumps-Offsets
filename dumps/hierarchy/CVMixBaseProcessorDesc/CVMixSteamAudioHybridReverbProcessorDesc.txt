@@ -1,0 +1,10 @@
+// CVMixSteamAudioHybridReverbProcessorDesc
+// Size: 0xB3453B04 (-1287308540 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixSteamAudioHybridReverbProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

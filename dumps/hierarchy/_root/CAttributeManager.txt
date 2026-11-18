@@ -1,0 +1,9 @@
+// CAttributeManager
+// Size: 0xB3459F3A (-1287282886 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   C_AttributeContainer
+//
+
+// (no own fields)

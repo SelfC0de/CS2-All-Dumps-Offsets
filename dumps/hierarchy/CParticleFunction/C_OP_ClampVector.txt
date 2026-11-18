@@ -1,0 +1,10 @@
+// C_OP_ClampVector
+// Size: 0xB3455FA5 (-1287299163 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ClampVector -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// COrientConstraint
+// Size: 0xB364F523 (-1285229277 bytes)
+// Parent: CBaseConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   COrientConstraint -> CBaseConstraint -> CBoneConstraintBase
+//
+
+// (no own fields)

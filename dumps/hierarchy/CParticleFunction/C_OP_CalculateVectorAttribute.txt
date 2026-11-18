@@ -1,0 +1,10 @@
+// C_OP_CalculateVectorAttribute
+// Size: 0xB3457208 (-1287294456 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_CalculateVectorAttribute -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_INIT_StatusEffectCitadel
+// Size: 0xB3455B85 (-1287300219 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_StatusEffectCitadel -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

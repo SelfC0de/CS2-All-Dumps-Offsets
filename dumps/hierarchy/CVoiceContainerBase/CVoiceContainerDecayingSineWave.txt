@@ -1,0 +1,13 @@
+// CVoiceContainerDecayingSineWave
+// Size: 0xB34533D5 (-1287310379 bytes)
+// Parent: CVoiceContainerGenerator
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerDecayingSineWave -> CVoiceContainerGenerator -> CVoiceContainerBase
+//
+// Direct subclasses (1):
+//   CVoiceContainerAmpedDecayingSineWave
+//
+
+// (no own fields)

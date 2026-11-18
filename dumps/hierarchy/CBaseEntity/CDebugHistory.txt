@@ -1,0 +1,10 @@
+// CDebugHistory
+// Size: 0xB345B333 (-1287277773 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CDebugHistory -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

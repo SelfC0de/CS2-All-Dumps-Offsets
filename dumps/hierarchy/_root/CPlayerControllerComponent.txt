@@ -1,0 +1,12 @@
+// CPlayerControllerComponent
+// Size: 0xB3458268 (-1287290264 bytes)
+// Module: client.dll
+//
+// Direct subclasses (4):
+//   CCSPlayerController_ActionTrackingServices
+//   CCSPlayerController_DamageServices
+//   CCSPlayerController_InGameMoneyServices
+//   CCSPlayerController_InventoryServices
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CNmEventConsumerCamera
+// Size: 0xB3458D04 (-1287287548 bytes)
+// Parent: CNmEventConsumer
+// Module: client.dll
+//
+// Inheritance:
+//   CNmEventConsumerCamera -> CNmEventConsumer
+//
+
+// (no own fields)

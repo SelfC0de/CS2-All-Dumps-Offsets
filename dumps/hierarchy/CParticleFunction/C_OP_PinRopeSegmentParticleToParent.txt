@@ -1,0 +1,10 @@
+// C_OP_PinRopeSegmentParticleToParent
+// Size: 0xB34566BD (-1287297347 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_PinRopeSegmentParticleToParent -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

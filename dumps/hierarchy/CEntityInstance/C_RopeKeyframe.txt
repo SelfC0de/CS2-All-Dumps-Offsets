@@ -1,0 +1,10 @@
+// C_RopeKeyframe
+// Size: 0xB345F6F3 (-1287260429 bytes)
+// Parent: C_BaseModelEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_RopeKeyframe -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IAttachmentOverride
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_TwistAroundAxis
+// Size: 0xB3455D93 (-1287299693 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_TwistAroundAxis -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

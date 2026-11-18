@@ -1,0 +1,10 @@
+// CShower
+// Size: 0xB345B405 (-1287277563 bytes)
+// Parent: CModelPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CShower -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

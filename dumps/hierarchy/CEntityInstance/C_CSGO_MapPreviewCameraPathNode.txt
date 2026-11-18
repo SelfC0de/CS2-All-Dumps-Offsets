@@ -1,0 +1,10 @@
+// C_CSGO_MapPreviewCameraPathNode
+// Size: 0xB345EE63 (-1287262621 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSGO_MapPreviewCameraPathNode -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

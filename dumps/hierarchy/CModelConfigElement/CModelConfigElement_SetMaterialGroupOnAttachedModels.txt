@@ -1,0 +1,10 @@
+// CModelConfigElement_SetMaterialGroupOnAttachedModels
+// Size: 0xB364F1E4 (-1285230108 bytes)
+// Parent: CModelConfigElement
+// Module: client.dll
+//
+// Inheritance:
+//   CModelConfigElement_SetMaterialGroupOnAttachedModels -> CModelConfigElement
+//
+
+// (no own fields)

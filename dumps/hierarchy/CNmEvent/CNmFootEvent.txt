@@ -1,0 +1,10 @@
+// CNmFootEvent
+// Size: 0xB364FB6C (-1285227668 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmFootEvent -> CNmEvent
+//
+
+// (no own fields)

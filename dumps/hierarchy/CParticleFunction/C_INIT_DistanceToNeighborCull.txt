@@ -1,0 +1,10 @@
+// C_INIT_DistanceToNeighborCull
+// Size: 0xB34557B1 (-1287301199 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_DistanceToNeighborCull -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

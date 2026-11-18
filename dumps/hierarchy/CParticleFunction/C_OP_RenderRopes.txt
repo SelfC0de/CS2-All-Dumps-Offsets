@@ -1,0 +1,10 @@
+// C_OP_RenderRopes
+// Size: 0xB345798E (-1287292530 bytes)
+// Parent: CBaseRendererSource2
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderRopes -> CBaseRendererSource2 -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

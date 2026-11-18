@@ -1,0 +1,10 @@
+// CItemDefuserAlias_item_defuser
+// Size: 0xB345D003 (-1287270397 bytes)
+// Parent: CItemDefuser
+// Module: server.dll
+//
+// Inheritance:
+//   CItemDefuserAlias_item_defuser -> CItemDefuser -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+//
+
+// (no own fields)

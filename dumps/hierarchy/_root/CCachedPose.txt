@@ -1,0 +1,6 @@
+// CCachedPose
+// Size: 0xB33DEA85 (-1287787899 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

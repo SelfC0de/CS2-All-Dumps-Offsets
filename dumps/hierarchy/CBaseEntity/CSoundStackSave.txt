@@ -1,0 +1,10 @@
+// CSoundStackSave
+// Size: 0xB345AE1F (-1287279073 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CSoundStackSave -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_VectorNoise
+// Size: 0xB3456381 (-1287298175 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_VectorNoise -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

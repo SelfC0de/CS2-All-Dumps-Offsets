@@ -1,0 +1,10 @@
+// CLogicCase
+// Size: 0xB345B5E2 (-1287277086 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicCase -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

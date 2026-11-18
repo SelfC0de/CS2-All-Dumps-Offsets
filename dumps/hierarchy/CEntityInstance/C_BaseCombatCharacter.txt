@@ -1,0 +1,15 @@
+// C_BaseCombatCharacter
+// Size: 0xB345FB5D (-1287259299 bytes)
+// Parent: CBaseAnimGraph
+// Module: client.dll
+//
+// Inheritance:
+//   C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (3):
+//   C_BasePlayerPawn
+//   C_Hostage
+//   C_NetTestBaseCombatCharacter
+//
+
+// (no own fields)

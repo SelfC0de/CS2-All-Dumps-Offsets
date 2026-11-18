@@ -1,0 +1,10 @@
+// C_OP_RestartAfterDuration
+// Size: 0xB3456AB1 (-1287296335 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RestartAfterDuration -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

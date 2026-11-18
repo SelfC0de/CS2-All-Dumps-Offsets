@@ -1,0 +1,10 @@
+// C_OP_SnapshotSkinToBones
+// Size: 0xB34568C9 (-1287296823 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SnapshotSkinToBones -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

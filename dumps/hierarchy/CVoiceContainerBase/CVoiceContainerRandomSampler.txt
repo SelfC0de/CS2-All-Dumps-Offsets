@@ -1,0 +1,10 @@
+// CVoiceContainerRandomSampler
+// Size: 0xB3453245 (-1287310779 bytes)
+// Parent: CVoiceContainerAsyncGenerator
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerRandomSampler -> CVoiceContainerAsyncGenerator -> CVoiceContainerGenerator -> CVoiceContainerBase
+//
+
+// (no own fields)

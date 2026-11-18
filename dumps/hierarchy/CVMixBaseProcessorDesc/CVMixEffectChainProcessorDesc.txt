@@ -1,0 +1,10 @@
+// CVMixEffectChainProcessorDesc
+// Size: 0xB3453ABB (-1287308613 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixEffectChainProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

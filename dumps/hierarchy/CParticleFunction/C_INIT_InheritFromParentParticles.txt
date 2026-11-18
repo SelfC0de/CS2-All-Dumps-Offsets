@@ -1,0 +1,10 @@
+// C_INIT_InheritFromParentParticles
+// Size: 0xB34556D4 (-1287301420 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_InheritFromParentParticles -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

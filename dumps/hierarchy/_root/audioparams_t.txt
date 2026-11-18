@@ -1,0 +1,6 @@
+// audioparams_t
+// Size: 0xB34582A3 (-1287290205 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

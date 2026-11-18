@@ -1,0 +1,10 @@
+// C_EnvWind
+// Size: 0xB345F627 (-1287260633 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_EnvWind -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

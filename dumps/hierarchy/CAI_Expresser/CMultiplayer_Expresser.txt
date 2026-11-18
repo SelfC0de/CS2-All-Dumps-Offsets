@@ -1,0 +1,10 @@
+// CMultiplayer_Expresser
+// Size: 0xB3458E88 (-1287287160 bytes)
+// Parent: CAI_ExpresserWithFollowup
+// Module: client.dll
+//
+// Inheritance:
+//   CMultiplayer_Expresser -> CAI_ExpresserWithFollowup -> CAI_Expresser -> IResponseFilter
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CStateMachineUpdateNode
+// Size: 0xB3450A12 (-1287321070 bytes)
+// Parent: CAnimUpdateNodeBase
+// Module: client.dll
+//
+// Inheritance:
+//   CStateMachineUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IStateChangeListener -> IAnimVarBindingAdditionalContextLabelHelper -> ITargetWarpInputNode
+//
+
+// (no own fields)

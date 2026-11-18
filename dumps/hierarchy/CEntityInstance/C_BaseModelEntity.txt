@@ -1,0 +1,45 @@
+// C_BaseModelEntity
+// Size: 0xB345F52F (-1287260881 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (33):
+//   CBaseAnimGraph
+//   CBrokenGlassTrap
+//   CCashStack
+//   CFuncWater
+//   CGrenadeTracer
+//   CServerOnlyModelEntity
+//   CWaterSplasher
+//   C_BarnLight
+//   C_BaseClientUIEntity
+//   C_BaseToggle
+//   C_Beam
+//   C_Breakable
+//   C_DynamicLight
+//   C_EntityDissolve
+//   C_EnvDecal
+//   C_EnvSky
+//   C_FuncBrush
+//   C_FuncConveyor
+//   C_FuncLadder
+//   C_FuncRotating
+//   C_FuncTrackTrain
+//   C_Inferno
+//   C_LightEntity
+//   C_ModelPointEntity
+//   C_ParticleSystem
+//   C_PrecipitationBlocker
+//   C_RopeKeyframe
+//   C_ShatterGlassShardPhysics
+//   C_SpotlightEnd
+//   C_Sprite
+//   C_TextureBasedAnimatable
+//   C_TriggerVolume
+//   C_World
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CBaseAnimGraphAlias_baseanimating
+// Size: 0xB345CD63 (-1287271069 bytes)
+// Parent: CBaseAnimGraph
+// Module: client.dll
+//
+// Inheritance:
+//   CBaseAnimGraphAlias_baseanimating -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

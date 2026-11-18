@@ -1,0 +1,10 @@
+// CCSPlayer_PingServices
+// Size: 0xB345A480 (-1287281536 bytes)
+// Parent: CPlayerPawnComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayer_PingServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

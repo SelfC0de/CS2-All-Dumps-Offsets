@@ -1,0 +1,10 @@
+// CPropDoorRotatingBreakable
+// Size: 0xB345CE1E (-1287270882 bytes)
+// Parent: CPropDoorRotating
+// Module: server.dll
+//
+// Inheritance:
+//   CPropDoorRotatingBreakable -> CPropDoorRotating -> CBasePropDoor -> CDynamicProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> CGameEventListener -> IGameEventListener2
+//
+
+// (no own fields)

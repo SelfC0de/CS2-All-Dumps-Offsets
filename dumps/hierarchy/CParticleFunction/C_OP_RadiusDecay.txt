@@ -1,0 +1,10 @@
+// C_OP_RadiusDecay
+// Size: 0xB3456432 (-1287297998 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RadiusDecay -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CParentConstraint
+// Size: 0xB364F58F (-1285229169 bytes)
+// Parent: CBaseConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   CParentConstraint -> CBaseConstraint -> CBoneConstraintBase
+//
+
+// (no own fields)

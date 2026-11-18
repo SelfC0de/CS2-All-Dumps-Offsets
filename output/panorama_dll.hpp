@@ -3,14 +3,14 @@
 // module:        panorama.dll
 // classes:       0
 // enums:         2
-// generated_at:  2026-11-12T08:33:43.130164300+00:00
+// generated_at:  2026-11-18T06:23:06.754083400+00:00
 //
 // Use:
 //   auto* pawn = reinterpret_cast<C_CSPlayerPawn*>(addr);
 //   pawn->m_iHealth() = 100;
 
 #pragma once
-#include "macros.hpp"
+#include "../macros.hpp"
 
 namespace panorama {
 

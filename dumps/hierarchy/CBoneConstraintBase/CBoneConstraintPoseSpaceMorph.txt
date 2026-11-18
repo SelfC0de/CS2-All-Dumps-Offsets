@@ -1,0 +1,10 @@
+// CBoneConstraintPoseSpaceMorph
+// Size: 0xB364F5A5 (-1285229147 bytes)
+// Parent: CBoneConstraintBase
+// Module: client.dll
+//
+// Inheritance:
+//   CBoneConstraintPoseSpaceMorph -> CBoneConstraintBase
+//
+
+// (no own fields)

@@ -1,0 +1,15 @@
+// SpawnPoint
+// Size: 0xB345A002 (-1287282686 bytes)
+// Parent: CServerOnlyPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   SpawnPoint -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (3):
+//   CInfoDeathmatchSpawn
+//   CInfoPlayerCounterterrorist
+//   CInfoPlayerTerrorist
+//
+
+// (no own fields)

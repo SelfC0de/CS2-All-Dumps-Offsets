@@ -1,0 +1,10 @@
+// CBtNode
+// Size: 0xB345AA69 (-1287280023 bytes)
+// Module: client.dll
+//
+// Direct subclasses (2):
+//   CBtNodeComposite
+//   CBtNodeDecorator
+//
+
+// (no own fields)

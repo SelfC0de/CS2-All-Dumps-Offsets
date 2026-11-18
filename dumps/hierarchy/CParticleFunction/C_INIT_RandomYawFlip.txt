@@ -1,0 +1,10 @@
+// C_INIT_RandomYawFlip
+// Size: 0xB3455638 (-1287301576 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RandomYawFlip -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

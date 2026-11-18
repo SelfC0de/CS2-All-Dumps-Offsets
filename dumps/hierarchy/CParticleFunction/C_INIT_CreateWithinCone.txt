@@ -1,0 +1,10 @@
+// C_INIT_CreateWithinCone
+// Size: 0xB345501B (-1287303141 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreateWithinCone -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

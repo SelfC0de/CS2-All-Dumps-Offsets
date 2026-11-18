@@ -1,0 +1,10 @@
+// C_OP_ModelSurfaceSnapshotGenerator
+// Size: 0xB34578A2 (-1287292766 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ModelSurfaceSnapshotGenerator -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

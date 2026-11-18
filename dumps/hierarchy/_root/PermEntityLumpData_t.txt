@@ -1,0 +1,6 @@
+// PermEntityLumpData_t
+// Size: 0xB34540E1 (-1287307039 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

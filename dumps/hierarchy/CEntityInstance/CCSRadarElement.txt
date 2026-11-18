@@ -1,0 +1,10 @@
+// CCSRadarElement
+// Size: 0xB345A3ED (-1287281683 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CCSRadarElement -> C_BaseEntity -> CEntityInstance -> ?$CUtlAutoList@VCCSRadarElement
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CInfoSpawnGroupLandmark
+// Size: 0xB345BAFC (-1287275780 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CInfoSpawnGroupLandmark -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

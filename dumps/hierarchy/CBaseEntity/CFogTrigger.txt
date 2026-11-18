@@ -1,0 +1,10 @@
+// CFogTrigger
+// Size: 0xB345CD39 (-1287271111 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CFogTrigger -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

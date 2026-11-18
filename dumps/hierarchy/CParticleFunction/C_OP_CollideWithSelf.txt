@@ -1,0 +1,10 @@
+// C_OP_CollideWithSelf
+// Size: 0xB3454D4A (-1287303862 bytes)
+// Parent: CParticleFunctionConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_CollideWithSelf -> CParticleFunctionConstraint -> CParticleFunction
+//
+
+// (no own fields)

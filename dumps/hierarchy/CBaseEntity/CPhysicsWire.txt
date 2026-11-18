@@ -1,0 +1,10 @@
+// CPhysicsWire
+// Size: 0xB345B2D7 (-1287277865 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysicsWire -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

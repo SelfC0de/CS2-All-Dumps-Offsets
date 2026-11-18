@@ -1,0 +1,10 @@
+// CSceneListManager
+// Size: 0xB345B98A (-1287276150 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CSceneListManager -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

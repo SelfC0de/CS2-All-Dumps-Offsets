@@ -1,0 +1,10 @@
+// CMorphSetData
+// Size: 0xB364F6E5 (-1285228827 bytes)
+// Parent: ?$CRefCounted@V?$CRefCountServiceBase@VCRefMT
+// Module: client.dll
+//
+// Inheritance:
+//   CMorphSetData -> ?$CRefCounted@V?$CRefCountServiceBase@VCRefMT -> ?$CRefCountServiceBase@VCRefMT
+//
+
+// (no own fields)

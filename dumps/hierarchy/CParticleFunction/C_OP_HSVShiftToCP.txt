@@ -1,0 +1,10 @@
+// C_OP_HSVShiftToCP
+// Size: 0xB345768F (-1287293297 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_HSVShiftToCP -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

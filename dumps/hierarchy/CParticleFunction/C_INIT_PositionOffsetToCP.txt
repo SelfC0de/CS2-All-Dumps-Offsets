@@ -1,0 +1,10 @@
+// C_INIT_PositionOffsetToCP
+// Size: 0xB3455084 (-1287303036 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_PositionOffsetToCP -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_INIT_PositionWarp
+// Size: 0xB3455380 (-1287302272 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_PositionWarp -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_FlashbangProjectile
+// Size: 0xB345FEC4 (-1287258428 bytes)
+// Parent: C_BaseCSGrenadeProjectile
+// Module: client.dll
+//
+// Inheritance:
+//   C_FlashbangProjectile -> C_BaseCSGrenadeProjectile -> C_BaseGrenade -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

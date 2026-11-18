@@ -1,0 +1,10 @@
+// C_OP_RenderOmni2Light
+// Size: 0xB3457AD0 (-1287292208 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderOmni2Light -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

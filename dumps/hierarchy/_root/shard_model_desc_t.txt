@@ -1,0 +1,6 @@
+// shard_model_desc_t
+// Size: 0xB3459A05 (-1287284219 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

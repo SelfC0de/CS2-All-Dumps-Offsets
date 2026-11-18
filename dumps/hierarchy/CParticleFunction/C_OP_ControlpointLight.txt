@@ -1,0 +1,10 @@
+// C_OP_ControlpointLight
+// Size: 0xB345656B (-1287297685 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ControlpointLight -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

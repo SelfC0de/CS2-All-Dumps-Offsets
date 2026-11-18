@@ -1,0 +1,10 @@
+// CLogicActivityEvent
+// Size: 0xB345B44C (-1287277492 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicActivityEvent -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

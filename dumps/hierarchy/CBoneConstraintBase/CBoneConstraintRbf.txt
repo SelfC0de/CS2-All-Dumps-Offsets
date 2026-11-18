@@ -1,0 +1,10 @@
+// CBoneConstraintRbf
+// Size: 0xB364F65B (-1285228965 bytes)
+// Parent: CBoneConstraintBase
+// Module: client.dll
+//
+// Inheritance:
+//   CBoneConstraintRbf -> CBoneConstraintBase
+//
+
+// (no own fields)

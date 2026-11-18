@@ -1,0 +1,10 @@
+// CPhysicsPropRespawnable
+// Size: 0xB345C9F1 (-1287271951 bytes)
+// Parent: CPhysicsProp
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysicsPropRespawnable -> CPhysicsProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> INavObstacle
+//
+
+// (no own fields)

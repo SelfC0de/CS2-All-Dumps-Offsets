@@ -1,0 +1,10 @@
+// CNmZeroPoseTask
+// Size: 0xB3450DBD (-1287320131 bytes)
+// Parent: CNmPoseTask
+// Module: client.dll
+//
+// Inheritance:
+//   CNmZeroPoseTask -> CNmPoseTask
+//
+
+// (no own fields)

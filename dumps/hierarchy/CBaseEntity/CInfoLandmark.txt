@@ -1,0 +1,10 @@
+// CInfoLandmark
+// Size: 0xB345BA1E (-1287276002 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CInfoLandmark -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

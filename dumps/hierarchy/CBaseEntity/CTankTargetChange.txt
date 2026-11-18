@@ -1,0 +1,10 @@
+// CTankTargetChange
+// Size: 0xB345BA30 (-1287275984 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CTankTargetChange -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

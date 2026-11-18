@@ -1,0 +1,6 @@
+// CEntityIOOutput
+// Size: 0xB32C80AE (-1288929106 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

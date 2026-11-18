@@ -1,0 +1,10 @@
+// CCSPlayer_ActionTrackingServices
+// Size: 0xB345A52A (-1287281366 bytes)
+// Parent: CPlayerPawnComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayer_ActionTrackingServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

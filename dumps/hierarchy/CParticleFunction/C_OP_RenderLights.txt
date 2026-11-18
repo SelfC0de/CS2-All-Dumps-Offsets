@@ -1,0 +1,10 @@
+// C_OP_RenderLights
+// Size: 0xB34579BB (-1287292485 bytes)
+// Parent: C_OP_RenderPoints
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderLights -> C_OP_RenderPoints -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

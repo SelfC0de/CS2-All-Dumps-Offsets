@@ -1,0 +1,9 @@
+// CGameSceneNode
+// Size: 0xB3458AAD (-1287288147 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   CSkeletonInstance
+//
+
+// (no own fields)

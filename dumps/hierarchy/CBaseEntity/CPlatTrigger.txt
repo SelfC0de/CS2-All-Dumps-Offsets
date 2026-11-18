@@ -1,0 +1,10 @@
+// CPlatTrigger
+// Size: 0xB345BA78 (-1287275912 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPlatTrigger -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

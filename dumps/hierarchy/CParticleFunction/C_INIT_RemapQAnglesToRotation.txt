@@ -1,0 +1,10 @@
+// C_INIT_RemapQAnglesToRotation
+// Size: 0xB345592B (-1287300821 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RemapQAnglesToRotation -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CNmBodyGroupEvent
+// Size: 0xB364FB7D (-1285227651 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmBodyGroupEvent -> CNmEvent
+//
+
+// (no own fields)

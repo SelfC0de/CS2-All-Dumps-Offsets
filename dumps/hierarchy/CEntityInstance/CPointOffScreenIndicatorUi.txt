@@ -1,0 +1,10 @@
+// CPointOffScreenIndicatorUi
+// Size: 0xB345F7F5 (-1287260171 bytes)
+// Parent: C_PointClientUIWorldPanel
+// Module: client.dll
+//
+// Inheritance:
+//   CPointOffScreenIndicatorUi -> C_PointClientUIWorldPanel -> C_BaseClientUIEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IClientUIDialogListener
+//
+
+// (no own fields)

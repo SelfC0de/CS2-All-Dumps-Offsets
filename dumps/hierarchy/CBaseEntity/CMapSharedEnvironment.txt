@@ -1,0 +1,10 @@
+// CMapSharedEnvironment
+// Size: 0xB345979F (-1287284833 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CMapSharedEnvironment -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

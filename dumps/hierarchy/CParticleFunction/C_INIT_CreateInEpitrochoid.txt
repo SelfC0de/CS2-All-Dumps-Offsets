@@ -1,0 +1,10 @@
+// C_INIT_CreateInEpitrochoid
+// Size: 0xB3454EF5 (-1287303435 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreateInEpitrochoid -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

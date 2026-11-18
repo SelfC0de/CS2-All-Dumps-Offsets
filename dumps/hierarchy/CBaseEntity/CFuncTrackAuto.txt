@@ -1,0 +1,10 @@
+// CFuncTrackAuto
+// Size: 0xB345C836 (-1287272394 bytes)
+// Parent: CFuncTrackChange
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncTrackAuto -> CFuncTrackChange -> CFuncPlatRot -> CFuncPlat -> CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

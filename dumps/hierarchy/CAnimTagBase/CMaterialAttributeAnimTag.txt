@@ -1,0 +1,10 @@
+// CMaterialAttributeAnimTag
+// Size: 0xB33DEC71 (-1287787407 bytes)
+// Parent: CAnimTagBase
+// Module: client.dll
+//
+// Inheritance:
+//   CMaterialAttributeAnimTag -> CAnimTagBase -> IAnimTag -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IMaterialAttributeAnimTag
+//
+
+// (no own fields)

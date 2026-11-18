@@ -1,0 +1,10 @@
+// C_INIT_RandomTrailLength
+// Size: 0xB34552F7 (-1287302409 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RandomTrailLength -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

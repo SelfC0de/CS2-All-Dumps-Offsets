@@ -1,0 +1,10 @@
+// C_INIT_CreatePhyllotaxis
+// Size: 0xB3454F3B (-1287303365 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreatePhyllotaxis -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

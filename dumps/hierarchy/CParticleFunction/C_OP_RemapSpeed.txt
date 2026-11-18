@@ -1,0 +1,10 @@
+// C_OP_RemapSpeed
+// Size: 0xB34562BC (-1287298372 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapSpeed -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

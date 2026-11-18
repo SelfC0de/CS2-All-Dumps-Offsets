@@ -1,0 +1,10 @@
+// C_OP_SetControlPointFieldToScalarExpression
+// Size: 0xB34572DF (-1287294241 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetControlPointFieldToScalarExpression -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,13 @@
+// CRuleBrushEntity
+// Size: 0xB345C652 (-1287272878 bytes)
+// Parent: CRuleEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CRuleBrushEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (1):
+//   CGamePlayerZone
+//
+
+// (no own fields)

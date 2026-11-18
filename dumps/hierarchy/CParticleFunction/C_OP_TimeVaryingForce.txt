@@ -1,0 +1,10 @@
+// C_OP_TimeVaryingForce
+// Size: 0xB3455DF0 (-1287299600 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_TimeVaryingForce -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

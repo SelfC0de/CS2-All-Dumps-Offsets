@@ -1,0 +1,10 @@
+// CPairedSequenceUpdateNode
+// Size: 0xB345200B (-1287315445 bytes)
+// Parent: CSequenceUpdateNodeBase
+// Module: client.dll
+//
+// Inheritance:
+//   CPairedSequenceUpdateNode -> CSequenceUpdateNodeBase -> CLeafUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IAnimVarBindingAdditionalContextLabelHelper -> ITargetWarpInputNode
+//
+
+// (no own fields)

@@ -1,0 +1,147 @@
+# Dezlock Schema Dump - pulse_system
+# Generated: 2026-11-18T09:20:44
+#
+# Sections:
+#   CLASSES    - Each class with its own fields
+#   FLATTENED  - Full memory layout (own + inherited fields)
+#   ENUMS      - Enum definitions and values
+#
+
+# ================================================================
+# CLASSES — own fields per class
+# Format: class_name.field_name = 0xOFFSET (type, size) [metadata...]
+# ================================================================
+
+# --- CPulseCell_ExampleCriteria (size=0xB34544DB, parent=CPulseCell_BaseRequirement)
+#     chain: CPulseCell_ExampleCriteria -> CPulseCell_BaseRequirement -> CPulseCell_Base
+
+# --- CPulseCell_ExampleSelector (size=0xB34544FA, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_ExampleSelector -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Outflow_TestExplicitYesNo (size=0xB34548CB, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_Outflow_TestExplicitYesNo -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Outflow_TestRandomYesNo (size=0xB34548A4, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_Outflow_TestRandomYesNo -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Step_TestDomainCreateFakeEntity (size=0xB3454624, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_Step_TestDomainCreateFakeEntity -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Step_TestDomainDestroyFakeEntity (size=0xB3454653, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_Step_TestDomainDestroyFakeEntity -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Step_TestDomainEntFire (size=0xB3454683, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_Step_TestDomainEntFire -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Step_TestDomainTracepoint (size=0xB34545FB, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_Step_TestDomainTracepoint -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_TestEnums (size=0xB3454519, parent=CPulseCell_BaseValue)
+#     chain: CPulseCell_TestEnums -> CPulseCell_BaseValue -> CPulseCell_Base
+
+# --- CPulseCell_TestWaitWithAutoTracepoints (size=0xB3454532, parent=CPulseCell_BaseYieldingInflow)
+#     chain: CPulseCell_TestWaitWithAutoTracepoints -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_TestWaitWithCursorState (size=0xB3454702, parent=CPulseCell_BaseYieldingInflow)
+#     chain: CPulseCell_TestWaitWithCursorState -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_TestYieldForever (size=0xB345455D, parent=CPulseCell_BaseYieldingInflow)
+#     chain: CPulseCell_TestYieldForever -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_TestYieldWithObservables (size=0xB345457D, parent=CPulseCell_BaseYieldingInflow)
+#     chain: CPulseCell_TestYieldWithObservables -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Test_MultiInflow_NoDefault (size=0xB34547F8, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_Test_MultiInflow_NoDefault -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Test_MultiInflow_WithDefault (size=0xB34547CC, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_Test_MultiInflow_WithDefault -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Test_MultiOutflow_WithParams (size=0xB3454822, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_Test_MultiOutflow_WithParams -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Test_MultiOutflow_WithParams_Yielding (size=0xB345484E, parent=CPulseCell_BaseYieldingInflow)
+#     chain: CPulseCell_Test_MultiOutflow_WithParams_Yielding -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Test_NoInflow (size=0xB34547AF, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_Test_NoInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Val_TestDomainFindEntityByName (size=0xB34546D4, parent=CPulseCell_BaseValue)
+#     chain: CPulseCell_Val_TestDomainFindEntityByName -> CPulseCell_BaseValue -> CPulseCell_Base
+
+# --- CPulseCell_Val_TestDomainGetEntityName (size=0xB34546A9, parent=CPulseCell_BaseValue)
+#     chain: CPulseCell_Val_TestDomainGetEntityName -> CPulseCell_BaseValue -> CPulseCell_Base
+
+# --- CPulseCell_Value_TestValue50 (size=0xB3454883, parent=CPulseCell_BaseValue)
+#     chain: CPulseCell_Value_TestValue50 -> CPulseCell_BaseValue -> CPulseCell_Base
+
+# --- CPulseGraphInstance_TestDomain (size=0xB34545D8, parent=CBasePulseGraphInstance)
+#     chain: CPulseGraphInstance_TestDomain -> CBasePulseGraphInstance -> IPulseHost_Unknown -> IPulseGraphInstance_TestDomain -> CPulseBlackboardViewFromGraphInstance -> IPulseBlackboardView
+
+# --- CPulseGraphInstance_TestDomain_Derived (size=0xB3454747, parent=CPulseGraphInstance_TestDomain)
+#     chain: CPulseGraphInstance_TestDomain_Derived -> CPulseGraphInstance_TestDomain -> CBasePulseGraphInstance -> IPulseHost_Unknown -> IPulseGraphInstance_TestDomain -> CPulseBlackboardViewFromGraphInstance -> IPulseBlackboardView
+
+# --- CPulseGraphInstance_TestDomain_UseReadOnlyBlackboardView (size=0xB3454772, parent=CPulseGraphInstance_TestDomain)
+#     chain: CPulseGraphInstance_TestDomain_UseReadOnlyBlackboardView -> CPulseGraphInstance_TestDomain -> CBasePulseGraphInstance -> IPulseHost_Unknown -> IPulseGraphInstance_TestDomain -> CPulseBlackboardViewFromGraphInstance -> IPulseBlackboardView
+
+# --- CPulseGraphInstance_TurtleGraphics (size=0xB3454913, parent=CBasePulseGraphInstance)
+#     chain: CPulseGraphInstance_TurtleGraphics -> CBasePulseGraphInstance -> IPulseHost_Unknown -> IPulseGraphInstance_TurtleGraphics
+
+# --- CPulseTurtleGraphicsCursor (size=0xB34548F4, parent=CPulseExecCursor)
+#     chain: CPulseTurtleGraphicsCursor -> CPulseExecCursor -> IPulseExecLog -> IPulseHost_Unknown -> IPulseHost_YieldingCursor -> IPulseHost_Cursor -> IPulseHost_BaseObservable
+
+# --- CTestDomainDerived_Cursor (size=0xB3454729, parent=CPulseExecCursor)
+#     chain: CTestDomainDerived_Cursor -> CPulseExecCursor -> IPulseExecLog -> IPulseHost_Unknown -> IPulseHost_YieldingCursor -> IPulseHost_Cursor -> IPulseHost_BaseObservable
+
+
+# ================================================================
+# FLATTENED — full memory layout (own + inherited fields)
+# Format: class_name.field_name = 0xOFFSET (type, size, defined_in)
+# ================================================================
+
+
+# ================================================================
+# ENUMS — 8 enum definitions
+# Format: enum_name::VALUE_NAME = value
+# ================================================================
+
+# --- PulseBestOutflowRules_t (size=4 bytes, 2 values)
+PulseBestOutflowRules_t::SORT_BY_NUMBER_OF_VALID_CRITERIA = 0
+PulseBestOutflowRules_t::SORT_BY_OUTFLOW_INDEX = 1
+
+# --- PulseCursorCancelPriority_t (size=4 bytes, 4 values)
+PulseCursorCancelPriority_t::None = 0
+PulseCursorCancelPriority_t::CancelOnSucceeded = 1
+PulseCursorCancelPriority_t::SoftCancel = 2
+PulseCursorCancelPriority_t::HardCancel = 3
+
+# --- PulseCursorWakePriority_t (size=4 bytes, 2 values)
+PulseCursorWakePriority_t::WakeElegantly = 0
+PulseCursorWakePriority_t::WakeImmediate = 1
+
+# --- PulseMethodCallMode_t (size=4 bytes, 2 values)
+PulseMethodCallMode_t::SYNC_WAIT_FOR_COMPLETION = 0
+PulseMethodCallMode_t::ASYNC_FIRE_AND_FORGET = 1
+
+# --- PulseTestEnumColor_t (size=4 bytes, 5 values)
+PulseTestEnumColor_t::BLACK = 0
+PulseTestEnumColor_t::WHITE = 1
+PulseTestEnumColor_t::RED = 2
+PulseTestEnumColor_t::GREEN = 3
+PulseTestEnumColor_t::BLUE = 4
+
+# --- PulseTestEnumFlagsAlt_t (size=4 bytes, 2 values)
+PulseTestEnumFlagsAlt_t::NONE = 0
+PulseTestEnumFlagsAlt_t::FIRST = 1
+
+# --- PulseTestEnumFlags_t (size=4 bytes, 4 values)
+PulseTestEnumFlags_t::NONE = 0
+PulseTestEnumFlags_t::FIRST = 1
+PulseTestEnumFlags_t::SECOND = 2
+PulseTestEnumFlags_t::THIRD = 4
+
+# --- PulseTestEnumShape_t (size=4 bytes, 3 values)
+PulseTestEnumShape_t::CIRCLE = 100
+PulseTestEnumShape_t::SQUARE = 200
+PulseTestEnumShape_t::TRIANGLE = 300
+

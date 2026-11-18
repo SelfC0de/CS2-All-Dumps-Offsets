@@ -1,0 +1,6 @@
+// CInButtonState
+// Size: 0xB3458B12 (-1287288046 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

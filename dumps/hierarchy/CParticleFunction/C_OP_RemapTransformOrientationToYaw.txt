@@ -1,0 +1,10 @@
+// C_OP_RemapTransformOrientationToYaw
+// Size: 0xB3456657 (-1287297449 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapTransformOrientationToYaw -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,6 @@
+// C_EnvWindShared
+// Size: 0xB345E9DB (-1287263781 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

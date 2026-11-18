@@ -1,0 +1,10 @@
+// CFilterContext
+// Size: 0xB345C3B7 (-1287273545 bytes)
+// Parent: CBaseFilter
+// Module: server.dll
+//
+// Inheritance:
+//   CFilterContext -> CBaseFilter -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_WeaponXM1014
+// Size: 0x6FAF03B8 (1873740728 bytes)
+// Parent: C_CSWeaponBaseShotgun
+// Module: client.dll
+//
+// Inheritance:
+//   C_WeaponXM1014 -> C_CSWeaponBaseShotgun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+
+// (no own fields)

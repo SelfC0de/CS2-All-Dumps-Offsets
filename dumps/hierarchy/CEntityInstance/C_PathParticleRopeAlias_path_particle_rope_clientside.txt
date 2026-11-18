@@ -1,0 +1,10 @@
+// C_PathParticleRopeAlias_path_particle_rope_clientside
+// Size: 0xB345F573 (-1287260813 bytes)
+// Parent: C_PathParticleRope
+// Module: client.dll
+//
+// Inheritance:
+//   C_PathParticleRopeAlias_path_particle_rope_clientside -> C_PathParticleRope -> C_BaseEntity -> CEntityInstance -> IPhysicsSpline
+//
+
+// (no own fields)

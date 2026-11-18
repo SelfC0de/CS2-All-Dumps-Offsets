@@ -1,0 +1,6 @@
+// CShatterGlassShard
+// Size: 0xB3459A1C (-1287284196 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

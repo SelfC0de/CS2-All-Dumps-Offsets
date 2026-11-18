@@ -1,0 +1,10 @@
+// C_OP_LightningSnapshotGenerator
+// Size: 0xB345787E (-1287292802 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_LightningSnapshotGenerator -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

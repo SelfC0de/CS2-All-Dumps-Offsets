@@ -1,0 +1,10 @@
+// CItemGenericTriggerHelper
+// Size: 0xB345BCD5 (-1287275307 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CItemGenericTriggerHelper -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

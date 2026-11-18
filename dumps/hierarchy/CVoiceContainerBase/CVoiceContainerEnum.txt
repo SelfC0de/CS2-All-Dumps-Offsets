@@ -1,0 +1,10 @@
+// CVoiceContainerEnum
+// Size: 0xB34531A8 (-1287310936 bytes)
+// Parent: CVoiceContainerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerEnum -> CVoiceContainerBase
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_INIT_RemapInitialVisibilityScalar
+// Size: 0xB345599B (-1287300709 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RemapInitialVisibilityScalar -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

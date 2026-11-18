@@ -1,0 +1,10 @@
+// CFuncRotator
+// Size: 0xB345BCB2 (-1287275342 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncRotator -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

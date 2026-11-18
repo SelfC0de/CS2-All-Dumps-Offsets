@@ -1,0 +1,10 @@
+// CLogicRelay
+// Size: 0xB345B0AD (-1287278419 bytes)
+// Parent: CLogicalEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CLogicRelay -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

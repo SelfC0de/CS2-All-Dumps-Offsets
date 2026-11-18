@@ -1,0 +1,10 @@
+// C_OP_IntraParticleForce
+// Size: 0xB3455EDB (-1287299365 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_IntraParticleForce -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

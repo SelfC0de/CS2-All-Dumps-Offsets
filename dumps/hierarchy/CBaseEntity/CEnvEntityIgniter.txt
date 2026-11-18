@@ -1,0 +1,10 @@
+// CEnvEntityIgniter
+// Size: 0xB345B31D (-1287277795 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvEntityIgniter -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,9 @@
+// IEconItemInterface
+// Size: 0xB3459F23 (-1287282909 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   C_EconItemView
+//
+
+// (no own fields)

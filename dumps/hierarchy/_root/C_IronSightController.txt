@@ -1,0 +1,6 @@
+// C_IronSightController
+// Size: 0xB345EE0A (-1287262710 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

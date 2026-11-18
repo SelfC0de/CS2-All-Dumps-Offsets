@@ -1,0 +1,10 @@
+// C_FogController
+// Size: 0xB345F353 (-1287261357 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_FogController -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

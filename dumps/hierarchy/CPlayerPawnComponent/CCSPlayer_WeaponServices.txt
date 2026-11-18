@@ -1,0 +1,10 @@
+// CCSPlayer_WeaponServices
+// Size: 0xB345A69C (-1287280996 bytes)
+// Parent: CPlayer_WeaponServices
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayer_WeaponServices -> CPlayer_WeaponServices -> CPlayerPawnComponent -> IToolsResourcePreReloadListener -> IToolsResourceListener
+//
+
+// (no own fields)

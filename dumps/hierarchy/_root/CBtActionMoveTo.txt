@@ -1,0 +1,10 @@
+// CBtActionMoveTo
+// Size: 0xB345AACF (-1287279921 bytes)
+// Parent: CBtNode
+// Module: server.dll
+//
+// Inheritance:
+//   CBtActionMoveTo -> CBtNode
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_SpinYaw
+// Size: 0xB34564EF (-1287297809 bytes)
+// Parent: CGeneralSpin
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SpinYaw -> CGeneralSpin -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

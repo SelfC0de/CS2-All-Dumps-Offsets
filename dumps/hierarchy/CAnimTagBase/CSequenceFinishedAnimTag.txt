@@ -1,0 +1,10 @@
+// CSequenceFinishedAnimTag
+// Size: 0xB33DECB8 (-1287787336 bytes)
+// Parent: CAnimTagBase
+// Module: client.dll
+//
+// Inheritance:
+//   CSequenceFinishedAnimTag -> CAnimTagBase -> IAnimTag -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> ISequenceFinishedAnimTag
+//
+
+// (no own fields)

@@ -1,0 +1,14 @@
+// C_FuncBrush
+// Size: 0xB345F696 (-1287260522 bytes)
+// Parent: C_BaseModelEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_FuncBrush -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (2):
+//   C_FuncElectrifiedVolume
+//   C_FuncMonitor
+//
+
+// (no own fields)

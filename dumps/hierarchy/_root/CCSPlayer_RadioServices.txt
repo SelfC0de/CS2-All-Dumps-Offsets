@@ -1,0 +1,10 @@
+// CCSPlayer_RadioServices
+// Size: 0xB345A98B (-1287280245 bytes)
+// Parent: CPlayerPawnComponent
+// Module: server.dll
+//
+// Inheritance:
+//   CCSPlayer_RadioServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

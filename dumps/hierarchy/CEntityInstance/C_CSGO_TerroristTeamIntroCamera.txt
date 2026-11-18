@@ -1,0 +1,10 @@
+// C_CSGO_TerroristTeamIntroCamera
+// Size: 0xB345EF4E (-1287262386 bytes)
+// Parent: C_CSGO_TeamPreviewCamera
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSGO_TerroristTeamIntroCamera -> C_CSGO_TeamPreviewCamera -> C_CSGO_MapPreviewCameraPath -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

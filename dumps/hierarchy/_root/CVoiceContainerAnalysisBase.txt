@@ -1,0 +1,9 @@
+// CVoiceContainerAnalysisBase
+// Size: 0xB3452FCE (-1287311410 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   CVoiceContainerEnvelopeAnalyzer
+//
+
+// (no own fields)

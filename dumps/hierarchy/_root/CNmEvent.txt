@@ -1,0 +1,26 @@
+// CNmEvent
+// Size: 0xB364F9DD (-1285228067 bytes)
+// Module: client.dll
+//
+// Direct subclasses (18):
+//   CNmBodyGroupEvent
+//   CNmCameraDOFEvent
+//   CNmCameraFOVEvent
+//   CNmClothEvent
+//   CNmContactEvent
+//   CNmEntityAttributeEventBase
+//   CNmFloatCurveEvent
+//   CNmFootEvent
+//   CNmFrameSnapEvent
+//   CNmIDEvent
+//   CNmLegacyEvent
+//   CNmMaterialAttributeEvent
+//   CNmOrientationWarpEvent
+//   CNmParticleEvent
+//   CNmRootMotionEvent
+//   CNmSoundEvent
+//   CNmTargetWarpEvent
+//   CNmTransitionEvent
+//
+
+// (no own fields)

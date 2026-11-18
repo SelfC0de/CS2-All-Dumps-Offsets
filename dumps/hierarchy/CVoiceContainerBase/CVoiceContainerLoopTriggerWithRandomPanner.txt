@@ -1,0 +1,10 @@
+// CVoiceContainerLoopTriggerWithRandomPanner
+// Size: 0xB34531F9 (-1287310855 bytes)
+// Parent: CVoiceContainerLoopTrigger
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerLoopTriggerWithRandomPanner -> CVoiceContainerLoopTrigger -> CVoiceContainerBase
+//
+
+// (no own fields)

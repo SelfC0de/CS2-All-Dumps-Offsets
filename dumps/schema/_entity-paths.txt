@@ -1,0 +1,1798 @@
+# Dezlock Entity Paths — Full Field Trees for Entity Classes
+# Every class inheriting CEntityInstance / C_BaseEntity, fully expanded.
+#
+# Legend:
+#   ->  pointer dereference (follow pointer, then read field)
+#   [embedded X, +0xN]  inline struct at that offset (add offsets)
+#   [handle -> X]  CHandle entity reference (resolve via entity list)
+#   (type, ClassName)  which parent class defines the field
+#
+# Example: grep C_CitadelPlayerPawn _entity-paths.txt
+#          grep m_iHealth _entity-paths.txt
+#          grep m_vecAbilities _entity-paths.txt
+#
+
+# ================================================================
+# client.dll
+# ================================================================
+
+# CBaseAnimGraph (size=0xB345C47B)
+# chain: CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# CBaseAnimGraphAlias_baseanimating (size=0xB345CD63)
+# chain: CBaseAnimGraphAlias_baseanimating -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# CBaseFilter (size=0xB345AFD9)
+# chain: CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# CBasePlayerController (size=0xB345AFBF)
+# chain: CBasePlayerController -> C_BaseEntity -> CEntityInstance
+
+# CBaseProp (size=0xB345C48E)
+# chain: CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# CBombTarget (size=0xB345CAF8)
+# chain: CBombTarget -> CBombTargetShim -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# CBrokenGlassTrap (size=0xB345C0BA)
+# chain: CBrokenGlassTrap -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# CCSCustomHudLayout (size=0xB345A3D6)
+# chain: CCSCustomHudLayout -> C_BaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2 -> IToolsResourceListener
+
+# CCSCustomPlayerCamera (size=0xB345A3BC)
+# chain: CCSCustomPlayerCamera -> C_BaseEntity -> CEntityInstance
+
+# CCSGO_EndOfMatchLineupEnd (size=0xB345A343)
+# chain: CCSGO_EndOfMatchLineupEnd -> C_CSGO_EndOfMatchLineupEndpoint -> C_BaseEntity -> CEntityInstance
+
+# CCSGO_RushIntroCounterTerroristPosition (size=0xB345A2D4)
+# chain: CCSGO_RushIntroCounterTerroristPosition -> CCSGO_RushIntroCharacterPosition -> C_CSGO_TeamIntroCharacterPosition -> C_CSGO_TeamPreviewCharacterPosition -> C_BaseEntity -> CEntityInstance
+
+# CCSGO_RushIntroTerroristPosition (size=0xB345A2AF)
+# chain: CCSGO_RushIntroTerroristPosition -> CCSGO_RushIntroCharacterPosition -> C_CSGO_TeamIntroCharacterPosition -> C_CSGO_TeamPreviewCharacterPosition -> C_BaseEntity -> CEntityInstance
+
+# CCSGO_WingmanIntroCounterTerroristPosition (size=0xB345A25B)
+# chain: CCSGO_WingmanIntroCounterTerroristPosition -> CCSGO_WingmanIntroCharacterPosition -> C_CSGO_TeamIntroCharacterPosition -> C_CSGO_TeamPreviewCharacterPosition -> C_BaseEntity -> CEntityInstance
+
+# CCSGO_WingmanIntroTerroristPosition (size=0xB345A233)
+# chain: CCSGO_WingmanIntroTerroristPosition -> CCSGO_WingmanIntroCharacterPosition -> C_CSGO_TeamIntroCharacterPosition -> C_CSGO_TeamPreviewCharacterPosition -> C_BaseEntity -> CEntityInstance
+
+# CCSMinimapVolume (size=0xB345CB4F)
+# chain: CCSMinimapVolume -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> ?$CUtlAutoList@VCCSMinimapVolume
+
+# CCSObservableElement (size=0xB345A401)
+# chain: CCSObservableElement -> C_BaseEntity -> CEntityInstance -> ?$CUtlAutoList@VCCSObservableElement
+
+# CCSPlayerController (size=0xB345C0CF)
+# chain: CCSPlayerController -> CBasePlayerController -> C_BaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2 -> IDecoratedPlayerNameProvider
+
+# CCSRadarElement (size=0xB345A3ED)
+# chain: CCSRadarElement -> C_BaseEntity -> CEntityInstance -> ?$CUtlAutoList@VCCSRadarElement
+
+# CCS_PortraitWorldCallbackHandler (size=0xB345F1DF)
+# chain: CCS_PortraitWorldCallbackHandler -> C_BaseEntity -> CEntityInstance
+
+# CCashStack (size=0xB345C0AB)
+# chain: CCashStack -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# CChoreoInfoTarget (size=0xB345ACEB)
+# chain: CChoreoInfoTarget -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+
+# CCitadelSoundOpvarSetOBB (size=0xB345B9E0)
+# chain: CCitadelSoundOpvarSetOBB -> C_BaseEntity -> CEntityInstance
+
+# CEnvSoundscape (size=0xB345B144)
+# chain: CEnvSoundscape -> C_BaseEntity -> CEntityInstance
+
+# CEnvSoundscapeAlias_snd_soundscape (size=0xB345C31A)
+# chain: CEnvSoundscapeAlias_snd_soundscape -> CEnvSoundscape -> C_BaseEntity -> CEntityInstance
+
+# CEnvSoundscapeProxy (size=0xB345B157)
+# chain: CEnvSoundscapeProxy -> CEnvSoundscape -> C_BaseEntity -> CEntityInstance
+
+# CEnvSoundscapeProxyAlias_snd_soundscape_proxy (size=0xB345C2E8)
+# chain: CEnvSoundscapeProxyAlias_snd_soundscape_proxy -> CEnvSoundscapeProxy -> CEnvSoundscape -> C_BaseEntity -> CEntityInstance
+
+# CEnvSoundscapeTriggerable (size=0xB345B16F)
+# chain: CEnvSoundscapeTriggerable -> CEnvSoundscape -> C_BaseEntity -> CEntityInstance
+
+# CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable (size=0xB345C341)
+# chain: CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable -> CEnvSoundscapeTriggerable -> CEnvSoundscape -> C_BaseEntity -> CEntityInstance
+
+# CFilterAttributeInt (size=0xB345C428)
+# chain: CFilterAttributeInt -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# CFilterClass (size=0xB345B021)
+# chain: CFilterClass -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# CFilterLOS (size=0xB345B012)
+# chain: CFilterLOS -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# CFilterMassGreater (size=0xB345C3DA)
+# chain: CFilterMassGreater -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# CFilterModel (size=0xB345C3A6)
+# chain: CFilterModel -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# CFilterMultiple (size=0xB345AFE9)
+# chain: CFilterMultiple -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# CFilterName (size=0xB345C396)
+# chain: CFilterName -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# CFilterProximity (size=0xB345AFFD)
+# chain: CFilterProximity -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# CFilterTeam (size=0xB345C3CA)
+# chain: CFilterTeam -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# CFuncRetakeBarrier (size=0xB345CAE1)
+# chain: CFuncRetakeBarrier -> C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> ?$CUtlAutoList@VCFuncRetakeBarrier
+
+# CFuncWater (size=0xB345C08E)
+# chain: CFuncWater -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# CGrenadeTracer (size=0xB345F8B0)
+# chain: CGrenadeTracer -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# CHostageRescueZone (size=0xB345CB23)
+# chain: CHostageRescueZone -> CHostageRescueZoneShim -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> ?$CUtlAutoList@VCHostageRescueZone
+
+# CHostageRescueZoneShim (size=0xB345CB08)
+# chain: CHostageRescueZoneShim -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# CInfoDynamicShadowHint (size=0xB345C1D9)
+# chain: CInfoDynamicShadowHint -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+
+# CInfoDynamicShadowHintBox (size=0xB345C1F4)
+# chain: CInfoDynamicShadowHintBox -> CInfoDynamicShadowHint -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+
+# CInfoFan (size=0xB345AF72)
+# chain: CInfoFan -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+
+# CInfoOffscreenPanoramaTexture (size=0xB345BF45)
+# chain: CInfoOffscreenPanoramaTexture -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+
+# CInfoParticleTarget (size=0xB345ACD3)
+# chain: CInfoParticleTarget -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+
+# CInfoTarget (size=0xB345ACA9)
+# chain: CInfoTarget -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+
+# CInfoWorldLayer (size=0xB345AD18)
+# chain: CInfoWorldLayer -> C_BaseEntity -> CEntityInstance
+
+# CLogicRelay (size=0xB345B0AD)
+# chain: CLogicRelay -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# CLogicalEntity (size=0xB34595A1)
+# chain: CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# CMapInfo (size=0xB345C1B2)
+# chain: CMapInfo -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+
+# CPathNode (size=0xB345B11C)
+# chain: CPathNode -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+
+# CPathSimple (size=0xB345B10C)
+# chain: CPathSimple -> C_BaseEntity -> CEntityInstance -> IPhysicsSpline
+
+# CPathWithDynamicNodes (size=0xB345B12A)
+# chain: CPathWithDynamicNodes -> CPathSimple -> C_BaseEntity -> CEntityInstance -> IPhysicsSpline
+
+# CPointChildModifier (size=0xB345AD41)
+# chain: CPointChildModifier -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+
+# CPointOffScreenIndicatorUi (size=0xB345F7F5)
+# chain: CPointOffScreenIndicatorUi -> C_PointClientUIWorldPanel -> C_BaseClientUIEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IClientUIDialogListener
+
+# CPointOrient (size=0xB345AD7F)
+# chain: CPointOrient -> C_BaseEntity -> CEntityInstance
+
+# CPointTemplate (size=0xB345AD90)
+# chain: CPointTemplate -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# CPulseGameBlackboard (size=0xB345AFA6)
+# chain: CPulseGameBlackboard -> C_BaseEntity -> CEntityInstance -> IPulseInstanceObservableListener
+
+# CRagdollManager (size=0xB345ADB7)
+# chain: CRagdollManager -> C_BaseEntity -> CEntityInstance
+
+# CServerOnlyModelEntity (size=0xB345B07C)
+# chain: CServerOnlyModelEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# CSkyboxReference (size=0xB345987A)
+# chain: CSkyboxReference -> C_BaseEntity -> CEntityInstance
+
+# CSoundOpvarSetBoxEntity (size=0xB3459D72)
+# chain: CSoundOpvarSetBoxEntity -> C_SoundOpvarSetPointEntity -> C_SoundOpvarSetPointBase -> C_BaseEntity -> CEntityInstance
+
+# CSpriteOriented (size=0xB345BEC2)
+# chain: CSpriteOriented -> C_Sprite -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# CTriggerFan (size=0xB345C2D8)
+# chain: CTriggerFan -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# CWaterSplasher (size=0xB345F849)
+# chain: CWaterSplasher -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_AK47 (size=0x6FAF0197)
+# chain: C_AK47 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_BarnLight (size=0xB345F8E8)
+# chain: C_BarnLight -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_BaseButton (size=0xB345F646)
+# chain: C_BaseButton -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_BaseCSGrenade (size=0x6FAF007F)
+# chain: C_BaseCSGrenade -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_BaseCSGrenadeProjectile (size=0xB345FD65)
+# chain: C_BaseCSGrenadeProjectile -> C_BaseGrenade -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_BaseClientUIEntity (size=0xB345F78D)
+# chain: C_BaseClientUIEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IClientUIDialogListener
+
+# C_BaseCombatCharacter (size=0xB345FB5D)
+# chain: C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_BaseDoor (size=0xB345FB77)
+# chain: C_BaseDoor -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_BaseEntity (size=0xB345E8C7)
+# chain: C_BaseEntity -> CEntityInstance
+
+# C_BaseGrenade (size=0xB345FCB2)
+# chain: C_BaseGrenade -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_BaseModelEntity (size=0xB345F52F)
+# chain: C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_BasePlayerPawn (size=0xB345FB86)
+# chain: C_BasePlayerPawn -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_BasePlayerWeapon (size=0xB345FF26)
+# chain: C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride
+
+# C_BasePropDoor (size=0xB345FBE0)
+# chain: C_BasePropDoor -> C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2
+
+# C_BaseToggle (size=0xB345F635)
+# chain: C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_BaseTrigger (size=0xB345F9E1)
+# chain: C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_Beam (size=0xB345F745)
+# chain: C_Beam -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_Breakable (size=0xB345F6D5)
+# chain: C_Breakable -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_BreakableProp (size=0xB345FA31)
+# chain: C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_BulletHitModel (size=0xB345FE12)
+# chain: C_BulletHitModel -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_C4 (size=0xB345FFD1)
+# chain: C_C4 -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_CS2HudModelAddon (size=0x6FAF013C)
+# chain: C_CS2HudModelAddon -> C_LateUpdatedAnimating -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IBoneTransformModifier
+
+# C_CS2HudModelArms (size=0x6FAF0181)
+# chain: C_CS2HudModelArms -> C_CS2HudModelBase -> C_LateUpdatedAnimating -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IBoneTransformModifier
+
+# C_CS2HudModelWeapon (size=0x6FAF0169)
+# chain: C_CS2HudModelWeapon -> C_CS2HudModelBase -> C_LateUpdatedAnimating -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IBoneTransformModifier -> IAttachmentOverride
+
+# C_CS2WeaponModuleBase (size=0xB345FD0D)
+# chain: C_CS2WeaponModuleBase -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IEntityListener
+
+# C_CSGO_CounterTerroristRushIntroCamera (size=0xB345F053)
+# chain: C_CSGO_CounterTerroristRushIntroCamera -> C_CSGO_TeamPreviewCameraBone -> C_CSGO_TeamPreviewCamera -> C_CSGO_MapPreviewCameraPath -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_CounterTerroristTeamIntroCamera (size=0xB345EF99)
+# chain: C_CSGO_CounterTerroristTeamIntroCamera -> C_CSGO_TeamPreviewCamera -> C_CSGO_MapPreviewCameraPath -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_CounterTerroristWingmanIntroCamera (size=0xB345EFC4)
+# chain: C_CSGO_CounterTerroristWingmanIntroCamera -> C_CSGO_TeamPreviewCamera -> C_CSGO_MapPreviewCameraPath -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_EndOfMatchCamera (size=0xB345EFF2)
+# chain: C_CSGO_EndOfMatchCamera -> C_CSGO_TeamPreviewCamera -> C_CSGO_MapPreviewCameraPath -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_EndOfMatchCharacterPosition (size=0xB345F07E)
+# chain: C_CSGO_EndOfMatchCharacterPosition -> C_CSGO_TeamPreviewCharacterPosition -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_EndOfMatchLineupStart (size=0xB345ED62)
+# chain: C_CSGO_EndOfMatchLineupStart -> C_CSGO_EndOfMatchLineupEndpoint -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_MapPreviewCameraPath (size=0xB345EE87)
+# chain: C_CSGO_MapPreviewCameraPath -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_MapPreviewCameraPathNode (size=0xB345EE63)
+# chain: C_CSGO_MapPreviewCameraPathNode -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_PreviewModel (size=0xB345FD83)
+# chain: C_CSGO_PreviewModel -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_CSGO_PreviewModelAlias_csgo_item_previewmodel (size=0xB345FD9B)
+# chain: C_CSGO_PreviewModelAlias_csgo_item_previewmodel -> C_CSGO_PreviewModel -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_CSGO_PreviewPlayer (size=0x6FAF00D0)
+# chain: C_CSGO_PreviewPlayer -> C_CSPlayerPawn -> C_CSPlayerPawnBase -> C_BasePlayerPawn -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_CSGO_PreviewPlayerAlias_csgo_player_previewmodel (size=0x6FAF00E9)
+# chain: C_CSGO_PreviewPlayerAlias_csgo_player_previewmodel -> C_CSGO_PreviewPlayer -> C_CSPlayerPawn -> C_CSPlayerPawnBase -> C_BasePlayerPawn -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_CSGO_TeamIntroCounterTerroristPosition (size=0xB345ED11)
+# chain: C_CSGO_TeamIntroCounterTerroristPosition -> C_CSGO_TeamIntroCharacterPosition -> C_CSGO_TeamPreviewCharacterPosition -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_TeamIntroTerroristPosition (size=0xB345ECEB)
+# chain: C_CSGO_TeamIntroTerroristPosition -> C_CSGO_TeamIntroCharacterPosition -> C_CSGO_TeamPreviewCharacterPosition -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_TeamPreviewCharacterPosition (size=0xB345EC21)
+# chain: C_CSGO_TeamPreviewCharacterPosition -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_TeamPreviewModel (size=0x6FAF0120)
+# chain: C_CSGO_TeamPreviewModel -> C_CSGO_PreviewPlayer -> C_CSPlayerPawn -> C_CSPlayerPawnBase -> C_BasePlayerPawn -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_CSGO_TeamSelectCamera (size=0xB345EF32)
+# chain: C_CSGO_TeamSelectCamera -> C_CSGO_TeamPreviewCamera -> C_CSGO_MapPreviewCameraPath -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_TeamSelectCounterTerroristPosition (size=0xB345EC97)
+# chain: C_CSGO_TeamSelectCounterTerroristPosition -> C_CSGO_TeamSelectCharacterPosition -> C_CSGO_TeamPreviewCharacterPosition -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_TeamSelectTerroristPosition (size=0xB345EC70)
+# chain: C_CSGO_TeamSelectTerroristPosition -> C_CSGO_TeamSelectCharacterPosition -> C_CSGO_TeamPreviewCharacterPosition -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_TerroristRushIntroCamera (size=0xB345F02F)
+# chain: C_CSGO_TerroristRushIntroCamera -> C_CSGO_TeamPreviewCameraBone -> C_CSGO_TeamPreviewCamera -> C_CSGO_MapPreviewCameraPath -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_TerroristTeamIntroCamera (size=0xB345EF4E)
+# chain: C_CSGO_TerroristTeamIntroCamera -> C_CSGO_TeamPreviewCamera -> C_CSGO_MapPreviewCameraPath -> C_BaseEntity -> CEntityInstance
+
+# C_CSGO_TerroristWingmanIntroCamera (size=0xB345EF72)
+# chain: C_CSGO_TerroristWingmanIntroCamera -> C_CSGO_TeamPreviewCamera -> C_CSGO_MapPreviewCameraPath -> C_BaseEntity -> CEntityInstance
+
+# C_CSGameRulesProxy (size=0xB345EBE2)
+# chain: C_CSGameRulesProxy -> C_GameRulesProxy -> C_BaseEntity -> CEntityInstance
+
+# C_CSMinimapBoundary (size=0xB345ED83)
+# chain: C_CSMinimapBoundary -> C_BaseEntity -> CEntityInstance
+
+# C_CSObserverPawn (size=0xB345FDE6)
+# chain: C_CSObserverPawn -> C_CSPlayerPawnBase -> C_BasePlayerPawn -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2
+
+# C_CSPetPlacement (size=0xB345EDCD)
+# chain: C_CSPetPlacement -> C_BaseEntity -> CEntityInstance
+
+# C_CSPlayerPawn (size=0xB345FE27)
+# chain: C_CSPlayerPawn -> C_CSPlayerPawnBase -> C_BasePlayerPawn -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_CSPlayerPawnBase (size=0xB345FDCF)
+# chain: C_CSPlayerPawnBase -> C_BasePlayerPawn -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2
+
+# C_CSPlayerResource (size=0xB345EDF3)
+# chain: C_CSPlayerResource -> C_BaseEntity -> CEntityInstance
+
+# C_CSTeam (size=0xB345F918)
+# chain: C_CSTeam -> C_Team -> C_BaseEntity -> CEntityInstance
+
+# C_CSWeaponBase (size=0xB345FF8E)
+# chain: C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_CSWeaponBaseGun (size=0xB345FFA1)
+# chain: C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_CSWeaponBaseShotgun (size=0xB345FFB7)
+# chain: C_CSWeaponBaseShotgun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_Chicken (size=0xB345FEDE)
+# chain: C_Chicken -> C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IPanoramaPanelEntityInputListener
+
+# C_ClientRagdoll (size=0xB345FB9B)
+# chain: C_ClientRagdoll -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_ColorCorrection (size=0xB345E8D8)
+# chain: C_ColorCorrection -> C_BaseEntity -> CEntityInstance
+
+# C_ColorCorrectionVolume (size=0xB345FACD)
+# chain: C_ColorCorrectionVolume -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_CsmFovOverride (size=0xB345F0A5)
+# chain: C_CsmFovOverride -> C_BaseEntity -> CEntityInstance
+
+# C_DEagle (size=0xB345FFEC)
+# chain: C_DEagle -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_DecoyGrenade (size=0x6FAF03F8)
+# chain: C_DecoyGrenade -> C_BaseCSGrenade -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_DecoyProjectile (size=0x6FAF004C)
+# chain: C_DecoyProjectile -> C_BaseCSGrenadeProjectile -> C_BaseGrenade -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_DynamicLight (size=0xB345F5AD)
+# chain: C_DynamicLight -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_DynamicProp (size=0xB345FA45)
+# chain: C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_DynamicPropAlias_cable_dynamic (size=0xB345FAA8)
+# chain: C_DynamicPropAlias_cable_dynamic -> C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_DynamicPropAlias_dynamic_prop (size=0xB345FA57)
+# chain: C_DynamicPropAlias_dynamic_prop -> C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_DynamicPropAlias_prop_dynamic_override (size=0xB345FA7B)
+# chain: C_DynamicPropAlias_prop_dynamic_override -> C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_EconEntity (size=0xB345FC8E)
+# chain: C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride
+
+# C_EconWearable (size=0xB345FC9F)
+# chain: C_EconWearable -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride
+
+# C_EntityDissolve (size=0xB345F672)
+# chain: C_EntityDissolve -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IMotionEvent
+
+# C_EntityFlame (size=0xB345E8EE)
+# chain: C_EntityFlame -> C_BaseEntity -> CEntityInstance
+
+# C_EnvCombinedLightProbeVolume (size=0xB345F216)
+# chain: C_EnvCombinedLightProbeVolume -> C_BaseEntity -> CEntityInstance -> CBaseCubemap -> IToolObject -> CBaseLightProbeVolume -> IToolObject
+
+# C_EnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume (size=0xB345F238)
+# chain: C_EnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume -> C_EnvCombinedLightProbeVolume -> C_BaseEntity -> CEntityInstance -> CBaseCubemap -> IToolObject -> CBaseLightProbeVolume -> IToolObject
+
+# C_EnvCubemap (size=0xB345F280)
+# chain: C_EnvCubemap -> C_BaseEntity -> CEntityInstance -> CBaseCubemap -> IToolObject
+
+# C_EnvCubemapBox (size=0xB345F291)
+# chain: C_EnvCubemapBox -> C_EnvCubemap -> C_BaseEntity -> CEntityInstance -> CBaseCubemap -> IToolObject
+
+# C_EnvCubemapFog (size=0xB345F2A5)
+# chain: C_EnvCubemapFog -> C_BaseEntity -> CEntityInstance
+
+# C_EnvDecal (size=0xB345F687)
+# chain: C_EnvDecal -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_EnvDetailController (size=0xB345E9C1)
+# chain: C_EnvDetailController -> C_BaseEntity -> CEntityInstance
+
+# C_EnvLightProbeVolume (size=0xB345F2CB)
+# chain: C_EnvLightProbeVolume -> C_BaseEntity -> CEntityInstance -> CBaseLightProbeVolume -> IToolObject
+
+# C_EnvParticleGlow (size=0xB345FF3D)
+# chain: C_EnvParticleGlow -> C_ParticleSystem -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_EnvShakeVolume (size=0xB345F0D4)
+# chain: C_EnvShakeVolume -> C_BaseEntity -> CEntityInstance -> ?$CUtlAutoList@VC_EnvShakeVolume
+
+# C_EnvSky (size=0xB345F925)
+# chain: C_EnvSky -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_EnvVolumetricFogController (size=0xB345F315)
+# chain: C_EnvVolumetricFogController -> C_BaseEntity -> CEntityInstance
+
+# C_EnvVolumetricFogVolume (size=0xB345F336)
+# chain: C_EnvVolumetricFogVolume -> C_BaseEntity -> CEntityInstance
+
+# C_EnvWind (size=0xB345F627)
+# chain: C_EnvWind -> C_BaseEntity -> CEntityInstance
+
+# C_EnvWindClientside (size=0xB345EE24)
+# chain: C_EnvWindClientside -> C_BaseEntity -> CEntityInstance
+
+# C_FireCrackerBlast (size=0xB345F8D1)
+# chain: C_FireCrackerBlast -> C_Inferno -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_Fish (size=0xB345FBC3)
+# chain: C_Fish -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_Flashbang (size=0x6FAF040B)
+# chain: C_Flashbang -> C_BaseCSGrenade -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_FlashbangProjectile (size=0xB345FEC4)
+# chain: C_FlashbangProjectile -> C_BaseCSGrenadeProjectile -> C_BaseGrenade -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_FogController (size=0xB345F353)
+# chain: C_FogController -> C_BaseEntity -> CEntityInstance
+
+# C_FootstepControl (size=0xB345FCF7)
+# chain: C_FootstepControl -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_FuncBrush (size=0xB345F696)
+# chain: C_FuncBrush -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_FuncConveyor (size=0xB345F89D)
+# chain: C_FuncConveyor -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> ISceneObjectController
+
+# C_FuncElectrifiedVolume (size=0xB345F6A6)
+# chain: C_FuncElectrifiedVolume -> C_FuncBrush -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_FuncLadder (size=0xB345F750)
+# chain: C_FuncLadder -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_FuncMonitor (size=0xB345FAE9)
+# chain: C_FuncMonitor -> C_FuncBrush -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_FuncMoveLinear (size=0xB345FAFB)
+# chain: C_FuncMoveLinear -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_FuncMover (size=0xB345FB10)
+# chain: C_FuncMover -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_FuncRotating (size=0xB345F6C2)
+# chain: C_FuncRotating -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_FuncTrackTrain (size=0xB345F5C0)
+# chain: C_FuncTrackTrain -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_GameRulesProxy (size=0xB345EA08)
+# chain: C_GameRulesProxy -> C_BaseEntity -> CEntityInstance
+
+# C_GlobalLight (size=0xB345EE51)
+# chain: C_GlobalLight -> C_BaseEntity -> CEntityInstance -> CGlobalLightBase -> IToolObject
+
+# C_GradientFog (size=0xB345F2B9)
+# chain: C_GradientFog -> C_BaseEntity -> CEntityInstance
+
+# C_HEGrenade (size=0x6FAF041B)
+# chain: C_HEGrenade -> C_BaseCSGrenade -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_HEGrenadeProjectile (size=0xB345FEAA)
+# chain: C_HEGrenadeProjectile -> C_BaseCSGrenadeProjectile -> C_BaseGrenade -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_HandleTest (size=0xB345F616)
+# chain: C_HandleTest -> C_BaseEntity -> CEntityInstance
+
+# C_Hostage (size=0xB345FE55)
+# chain: C_Hostage -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_HostageCarriableProp (size=0xB345FE3A)
+# chain: C_HostageCarriableProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_IncendiaryGrenade (size=0x6FAF03E0)
+# chain: C_IncendiaryGrenade -> C_MolotovGrenade -> C_BaseCSGrenade -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_Inferno (size=0xB345F8C3)
+# chain: C_Inferno -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_InfoInstructorHintHostageRescueZone (size=0xB345F85C)
+# chain: C_InfoInstructorHintHostageRescueZone -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+
+# C_InfoLadderDismount (size=0xB345E9EF)
+# chain: C_InfoLadderDismount -> C_BaseEntity -> CEntityInstance
+
+# C_InfoVisibilityBox (size=0xB345F367)
+# chain: C_InfoVisibilityBox -> C_BaseEntity -> CEntityInstance
+
+# C_Item (size=0xB345FE84)
+# chain: C_Item -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride
+
+# C_ItemDogtags (size=0x6FAF00A8)
+# chain: C_ItemDogtags -> C_Item -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride
+
+# C_Item_Healthshot (size=0x6FAF00BA)
+# chain: C_Item_Healthshot -> C_WeaponBaseItem -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_KeychainModule (size=0xB345FD50)
+# chain: C_KeychainModule -> C_CS2WeaponModuleBase -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IEntityListener
+
+# C_Knife (size=0x6FAF0028)
+# chain: C_Knife -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_LateUpdatedAnimating (size=0xB345FE8F)
+# chain: C_LateUpdatedAnimating -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_LightDirectionalEntity (size=0xB345F9A7)
+# chain: C_LightDirectionalEntity -> C_LightEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_LightEntity (size=0xB345F968)
+# chain: C_LightEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_LightEnvironmentEntity (size=0xB345F9C4)
+# chain: C_LightEnvironmentEntity -> C_LightDirectionalEntity -> C_LightEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_LightOrthoEntity (size=0xB345F990)
+# chain: C_LightOrthoEntity -> C_LightEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_LightSpotEntity (size=0xB345F97A)
+# chain: C_LightSpotEntity -> C_LightEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_LocalTempEntity (size=0xB345FC78)
+# chain: C_LocalTempEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_MapPreviewParticleSystem (size=0xB345FEEC)
+# chain: C_MapPreviewParticleSystem -> C_ParticleSystem -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_MapVetoPickController (size=0xB345EED7)
+# chain: C_MapVetoPickController -> C_BaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+
+# C_ModelPointEntity (size=0xB345F545)
+# chain: C_ModelPointEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_MolotovGrenade (size=0x6FAF03CB)
+# chain: C_MolotovGrenade -> C_BaseCSGrenade -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_MolotovProjectile (size=0x6FAF0034)
+# chain: C_MolotovProjectile -> C_BaseCSGrenadeProjectile -> C_BaseGrenade -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_Multimeter (size=0xB345FE63)
+# chain: C_Multimeter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_NametagModule (size=0xB345FD3C)
+# chain: C_NametagModule -> C_CS2WeaponModuleBase -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IEntityListener
+
+# C_NetTestBaseCombatCharacter (size=0xB345FF53)
+# chain: C_NetTestBaseCombatCharacter -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_OmniLight (size=0xB345F908)
+# chain: C_OmniLight -> C_BarnLight -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_ParticleSystem (size=0xB345F9F3)
+# chain: C_ParticleSystem -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_PathParticleRope (size=0xB345F55C)
+# chain: C_PathParticleRope -> C_BaseEntity -> CEntityInstance -> IPhysicsSpline
+
+# C_PathParticleRopeAlias_path_particle_rope_clientside (size=0xB345F573)
+# chain: C_PathParticleRopeAlias_path_particle_rope_clientside -> C_PathParticleRope -> C_BaseEntity -> CEntityInstance -> IPhysicsSpline
+
+# C_PhysBox (size=0xB345F6E5)
+# chain: C_PhysBox -> C_Breakable -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_PhysMagnet (size=0xB345FB20)
+# chain: C_PhysMagnet -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_PhysPropClientside (size=0xB345FC4D)
+# chain: C_PhysPropClientside -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_PhysicsProp (size=0xB345FBCE)
+# chain: C_PhysicsProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_PhysicsPropMultiplayer (size=0xB345FCDA)
+# chain: C_PhysicsPropMultiplayer -> C_PhysicsProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_PlantedC4 (size=0xB345FE74)
+# chain: C_PlantedC4 -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> ?$CUtlAutoList@VC_PlantedC4
+
+# C_PlayerPing (size=0xB345EDE2)
+# chain: C_PlayerPing -> C_BaseEntity -> CEntityInstance
+
+# C_PlayerSprayDecal (size=0xB345F886)
+# chain: C_PlayerSprayDecal -> C_ModelPointEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_PlayerVisibility (size=0xB345F2E5)
+# chain: C_PlayerVisibility -> C_BaseEntity -> CEntityInstance
+
+# C_PointCamera (size=0xB345F37F)
+# chain: C_PointCamera -> C_BaseEntity -> CEntityInstance
+
+# C_PointCameraVFOV (size=0xB345F391)
+# chain: C_PointCameraVFOV -> C_PointCamera -> C_BaseEntity -> CEntityInstance
+
+# C_PointClientUIDialog (size=0xB345F7A6)
+# chain: C_PointClientUIDialog -> C_BaseClientUIEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IClientUIDialogListener
+
+# C_PointClientUIHUD (size=0xB345F7C0)
+# chain: C_PointClientUIHUD -> C_BaseClientUIEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IClientUIDialogListener
+
+# C_PointClientUIWorldPanel (size=0xB345F7D7)
+# chain: C_PointClientUIWorldPanel -> C_BaseClientUIEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IClientUIDialogListener
+
+# C_PointClientUIWorldTextPanel (size=0xB345F814)
+# chain: C_PointClientUIWorldTextPanel -> C_PointClientUIWorldPanel -> C_BaseClientUIEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IClientUIDialogListener
+
+# C_PointCommentaryNode (size=0xB345FB31)
+# chain: C_PointCommentaryNode -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> ?$CUtlAutoList@VC_PointCommentaryNode
+
+# C_PointDeathcamBounds (size=0xB345F0BA)
+# chain: C_PointDeathcamBounds -> C_BaseEntity -> CEntityInstance
+
+# C_PointEntity (size=0xB345F204)
+# chain: C_PointEntity -> C_BaseEntity -> CEntityInstance
+
+# C_PointValueRemapper (size=0xB345F5E8)
+# chain: C_PointValueRemapper -> C_BaseEntity -> CEntityInstance
+
+# C_PointWorldText (size=0xB345F601)
+# chain: C_PointWorldText -> C_ModelPointEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_PortraitWorldCallbackHandler (size=0xB345EB80)
+# chain: C_PortraitWorldCallbackHandler -> C_BaseEntity -> CEntityInstance
+
+# C_PostProcessingVolume (size=0xB345FF0B)
+# chain: C_PostProcessingVolume -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2
+
+# C_Precipitation (size=0xB345FBAF)
+# chain: C_Precipitation -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_PrecipitationBlocker (size=0xB345F657)
+# chain: C_PrecipitationBlocker -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_PropDoorRotating (size=0xB345FBF3)
+# chain: C_PropDoorRotating -> C_BasePropDoor -> C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2
+
+# C_RagdollProp (size=0xB345FC66)
+# chain: C_RagdollProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_RagdollPropAttached (size=0xB345FF74)
+# chain: C_RagdollPropAttached -> C_RagdollProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_RectLight (size=0xB345F8F8)
+# chain: C_RectLight -> C_BarnLight -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_RopeKeyframe (size=0xB345F6F3)
+# chain: C_RopeKeyframe -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IAttachmentOverride
+
+# C_SceneEntity (size=0xB345F706)
+# chain: C_SceneEntity -> C_PointEntity -> C_BaseEntity -> CEntityInstance -> IChoreoEventCallback
+
+# C_ShatterGlassShardPhysics (size=0xB345F761)
+# chain: C_ShatterGlassShardPhysics -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_SkyCamera (size=0xB345E9A2)
+# chain: C_SkyCamera -> C_BaseEntity -> CEntityInstance
+
+# C_SkyCameraVolume (size=0xB345EDB7)
+# chain: C_SkyCameraVolume -> C_BaseEntity -> CEntityInstance -> ?$CUtlAutoList@VC_SkyCameraVolume
+
+# C_SkyCameraVolumeTarget (size=0xB345ED9B)
+# chain: C_SkyCameraVolumeTarget -> C_BaseEntity -> CEntityInstance
+
+# C_SmokeGrenade (size=0x6FAF042B)
+# chain: C_SmokeGrenade -> C_BaseCSGrenade -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_SmokeGrenadeProjectile (size=0x6FAF0062)
+# chain: C_SmokeGrenadeProjectile -> C_BaseCSGrenadeProjectile -> C_BaseGrenade -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> ?$CUtlAutoList@VC_SmokeGrenadeProjectile
+
+# C_SoundAreaEntityOrientedBox (size=0xB345F3DD)
+# chain: C_SoundAreaEntityOrientedBox -> C_SoundAreaEntityBase -> C_BaseEntity -> CEntityInstance
+
+# C_SoundAreaEntitySphere (size=0xB345F3C1)
+# chain: C_SoundAreaEntitySphere -> C_SoundAreaEntityBase -> C_BaseEntity -> CEntityInstance
+
+# C_SoundEventAABBEntity (size=0xB345F441)
+# chain: C_SoundEventAABBEntity -> C_SoundEventEntity -> C_BaseEntity -> CEntityInstance
+
+# C_SoundEventBoxEntity (size=0xB345F4F0)
+# chain: C_SoundEventBoxEntity -> C_SoundEventMultiPointEntity -> C_SoundEventEntity -> C_BaseEntity -> CEntityInstance
+
+# C_SoundEventBoxHelper (size=0xB345F50A)
+# chain: C_SoundEventBoxHelper -> C_BaseEntity -> CEntityInstance
+
+# C_SoundEventConeEntity (size=0xB345F493)
+# chain: C_SoundEventConeEntity -> C_SoundEventEntity -> C_BaseEntity -> CEntityInstance
+
+# C_SoundEventEntity (size=0xB345F3FE)
+# chain: C_SoundEventEntity -> C_BaseEntity -> CEntityInstance
+
+# C_SoundEventEntityAlias_snd_event_point (size=0xB345F415)
+# chain: C_SoundEventEntityAlias_snd_event_point -> C_SoundEventEntity -> C_BaseEntity -> CEntityInstance
+
+# C_SoundEventOBBEntity (size=0xB345F45C)
+# chain: C_SoundEventOBBEntity -> C_SoundEventEntity -> C_BaseEntity -> CEntityInstance
+
+# C_SoundEventPathCornerEntity (size=0xB345F4CF)
+# chain: C_SoundEventPathCornerEntity -> C_SoundEventMultiPointEntity -> C_SoundEventEntity -> C_BaseEntity -> CEntityInstance
+
+# C_SoundEventSphereEntity (size=0xB345F476)
+# chain: C_SoundEventSphereEntity -> C_SoundEventEntity -> C_BaseEntity -> CEntityInstance
+
+# C_SoundOpvarSetAABBEntity (size=0xB345EAAC)
+# chain: C_SoundOpvarSetAABBEntity -> CSoundOpvarSetBoxEntity -> C_SoundOpvarSetPointEntity -> C_SoundOpvarSetPointBase -> C_BaseEntity -> CEntityInstance
+
+# C_SoundOpvarSetAutoRoomEntity (size=0xB345EB0B)
+# chain: C_SoundOpvarSetAutoRoomEntity -> C_SoundOpvarSetPointEntity -> C_SoundOpvarSetPointBase -> C_BaseEntity -> CEntityInstance
+
+# C_SoundOpvarSetDomeEntity (size=0xB345EB2D)
+# chain: C_SoundOpvarSetDomeEntity -> C_SoundOpvarSetPointEntity -> C_SoundOpvarSetPointBase -> C_BaseEntity -> CEntityInstance
+
+# C_SoundOpvarSetOBBEntity (size=0xB345EACA)
+# chain: C_SoundOpvarSetOBBEntity -> C_SoundOpvarSetAABBEntity -> CSoundOpvarSetBoxEntity -> C_SoundOpvarSetPointEntity -> C_SoundOpvarSetPointBase -> C_BaseEntity -> CEntityInstance
+
+# C_SoundOpvarSetOBBWindEntity (size=0xB345EB4B)
+# chain: C_SoundOpvarSetOBBWindEntity -> C_SoundOpvarSetPointBase -> C_BaseEntity -> CEntityInstance
+
+# C_SoundOpvarSetPathCornerEntity (size=0xB345EAE7)
+# chain: C_SoundOpvarSetPathCornerEntity -> C_SoundOpvarSetPointEntity -> C_SoundOpvarSetPointBase -> C_BaseEntity -> CEntityInstance
+
+# C_SoundOpvarSetPointBase (size=0xB345EA70)
+# chain: C_SoundOpvarSetPointBase -> C_BaseEntity -> CEntityInstance
+
+# C_SoundOpvarSetPointEntity (size=0xB345EA8D)
+# chain: C_SoundOpvarSetPointEntity -> C_SoundOpvarSetPointBase -> C_BaseEntity -> CEntityInstance
+
+# C_SpotlightEnd (size=0xB345F5D5)
+# chain: C_SpotlightEnd -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_Sprite (size=0xB345F780)
+# chain: C_Sprite -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_StattrakModule (size=0xB345FD27)
+# chain: C_StattrakModule -> C_CS2WeaponModuleBase -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IEntityListener
+
+# C_Team (size=0xB345F524)
+# chain: C_Team -> C_BaseEntity -> CEntityInstance
+
+# C_TextureBasedAnimatable (size=0xB345FA08)
+# chain: C_TextureBasedAnimatable -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_TintController (size=0xB345E947)
+# chain: C_TintController -> C_BaseEntity -> CEntityInstance
+
+# C_TonemapController2 (size=0xB345F2FC)
+# chain: C_TonemapController2 -> C_BaseEntity -> CEntityInstance
+
+# C_TonemapController2Alias_env_tonemap_controller2 (size=0xB345F932)
+# chain: C_TonemapController2Alias_env_tonemap_controller2 -> C_TonemapController2 -> C_BaseEntity -> CEntityInstance
+
+# C_TriggerBuoyancy (size=0xB345FCC4)
+# chain: C_TriggerBuoyancy -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_TriggerLerpObject (size=0xB345FC20)
+# chain: C_TriggerLerpObject -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_TriggerMultiple (size=0xB345FC0A)
+# chain: C_TriggerMultiple -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_TriggerPhysics (size=0xB345FC38)
+# chain: C_TriggerPhysics -> C_BaseTrigger -> C_BaseToggle -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_TriggerVolume (size=0xB345F718)
+# chain: C_TriggerVolume -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_VoteController (size=0xB345EEC2)
+# chain: C_VoteController -> C_BaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+
+# C_WaterBullet (size=0xB345FB4B)
+# chain: C_WaterBullet -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_WeaponAWP (size=0x6FAF01B2)
+# chain: C_WeaponAWP -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponAug (size=0x6FAF01A2)
+# chain: C_WeaponAug -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponBaseItem (size=0x6FAF0093)
+# chain: C_WeaponBaseItem -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponBizon (size=0x6FAF01C2)
+# chain: C_WeaponBizon -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponCZ75a (size=0xB345FFDA)
+# chain: C_WeaponCZ75a -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponElite (size=0x6FAF0004)
+# chain: C_WeaponElite -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponFamas (size=0x6FAF01D4)
+# chain: C_WeaponFamas -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponFiveSeven (size=0x6FAF01E6)
+# chain: C_WeaponFiveSeven -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponG3SG1 (size=0x6FAF01FC)
+# chain: C_WeaponG3SG1 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponGalilAR (size=0x6FAF020E)
+# chain: C_WeaponGalilAR -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponGlock (size=0x6FAF0222)
+# chain: C_WeaponGlock -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponHKP2000 (size=0x6FAF0234)
+# chain: C_WeaponHKP2000 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponM249 (size=0x6FAF036C)
+# chain: C_WeaponM249 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponM4A1 (size=0x6FAF0260)
+# chain: C_WeaponM4A1 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponM4A1Silencer (size=0x6FAF0271)
+# chain: C_WeaponM4A1Silencer -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponMAC10 (size=0x6FAF028A)
+# chain: C_WeaponMAC10 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponMP5SD (size=0x6FAF02AD)
+# chain: C_WeaponMP5SD -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponMP7 (size=0x6FAF02BF)
+# chain: C_WeaponMP7 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponMP9 (size=0x6FAF02CF)
+# chain: C_WeaponMP9 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponMag7 (size=0x6FAF029C)
+# chain: C_WeaponMag7 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponNOVA (size=0x6FAF0392)
+# chain: C_WeaponNOVA -> C_CSWeaponBaseShotgun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponNegev (size=0x6FAF02DF)
+# chain: C_WeaponNegev -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponP250 (size=0x6FAF02F1)
+# chain: C_WeaponP250 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponP90 (size=0x6FAF0302)
+# chain: C_WeaponP90 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponRevolver (size=0x6FAF037D)
+# chain: C_WeaponRevolver -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponSCAR20 (size=0x6FAF0312)
+# chain: C_WeaponSCAR20 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponSG556 (size=0x6FAF0325)
+# chain: C_WeaponSG556 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponSSG08 (size=0x6FAF0337)
+# chain: C_WeaponSSG08 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponSawedoff (size=0x6FAF03A3)
+# chain: C_WeaponSawedoff -> C_CSWeaponBaseShotgun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponTaser (size=0x6FAF0016)
+# chain: C_WeaponTaser -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponTec9 (size=0x6FAF0349)
+# chain: C_WeaponTec9 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponUMP45 (size=0x6FAF035A)
+# chain: C_WeaponUMP45 -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponUSPSilencer (size=0x6FAF0248)
+# chain: C_WeaponUSPSilencer -> C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_WeaponXM1014 (size=0x6FAF03B8)
+# chain: C_WeaponXM1014 -> C_CSWeaponBaseShotgun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_World (size=0xB345FA25)
+# chain: C_World -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_WorldModelGloves (size=0xB345FDFB)
+# chain: C_WorldModelGloves -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# FilterDamageType (size=0xB345C3F1)
+# chain: FilterDamageType -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# FilterHealth (size=0xB345C406)
+# chain: FilterHealth -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+
+# ================================================================
+# server.dll
+# ================================================================
+
+# CAI_ChangeHintGroup (size=0xB345BAD0)
+# chain: CAI_ChangeHintGroup -> CBaseEntity -> CEntityInstance
+
+# CAmbientGeneric (size=0xB345BB5E)
+# chain: CAmbientGeneric -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CBaseButton (size=0xB345BB9D)
+# chain: CBaseButton -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CBaseDMStart (size=0xB345BA0D)
+# chain: CBaseDMStart -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CBaseEntity (size=0xB3459560)
+# chain: CBaseEntity -> CEntityInstance
+
+# CBasePlatTrain (size=0xB345C7E0)
+# chain: CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CBaseToggle (size=0xB345BB8D)
+# chain: CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CBlood (size=0xB345B294)
+# chain: CBlood -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CBreakable (size=0xB345BC4B)
+# chain: CBreakable -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# CBuyZone (size=0xB345CC0E)
+# chain: CBuyZone -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CCSGO_TeamIntroTerroristPosition (size=0xB345A1BA)
+# chain: CCSGO_TeamIntroTerroristPosition -> CCSGO_TeamIntroCharacterPosition -> CCSGO_TeamPreviewCharacterPosition -> CBaseEntity -> CEntityInstance
+
+# CCSGO_TeamPreviewCharacterPosition (size=0xB345A0F5)
+# chain: CCSGO_TeamPreviewCharacterPosition -> CBaseEntity -> CEntityInstance
+
+# CCSPlace (size=0xB345C124)
+# chain: CCSPlace -> CServerOnlyModelEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> ?$CUtlAutoList@VCCSPlace
+
+# CCSPointScriptEntity (size=0xB345AA11)
+# chain: CCSPointScriptEntity -> CBaseEntity -> CEntityInstance -> IToolsResourceListener
+
+# CCSSprite (size=0xB345C09D)
+# chain: CCSSprite -> CSprite -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CChangeLevel (size=0xB345CA77)
+# chain: CChangeLevel -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CCommentaryAuto (size=0xB345B25E)
+# chain: CCommentaryAuto -> CBaseEntity -> CEntityInstance
+
+# CCommentaryViewPosition (size=0xB345C567)
+# chain: CCommentaryViewPosition -> CSprite -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CConstraintAnchor (size=0xB345C720)
+# chain: CConstraintAnchor -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CCredits (size=0xB345B3CF)
+# chain: CCredits -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CDebugHistory (size=0xB345B333)
+# chain: CDebugHistory -> CBaseEntity -> CEntityInstance
+
+# CDynamicNavConnectionsVolume (size=0xB345CECC)
+# chain: CDynamicNavConnectionsVolume -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CDynamicPropAlias_dynamic_prop (size=0xB345C4C0)
+# chain: CDynamicPropAlias_dynamic_prop -> CDynamicProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# CEnableMotionFixup (size=0xB345B949)
+# chain: CEnableMotionFixup -> CBaseEntity -> CEntityInstance
+
+# CEntityBlocker (size=0xB345BC09)
+# chain: CEntityBlocker -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvBeam (size=0xB345C5B1)
+# chain: CEnvBeam -> CBeam -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvBeverage (size=0xB345B29F)
+# chain: CEnvBeverage -> CBaseEntity -> CEntityInstance
+
+# CEnvCombinedLightProbeVolume (size=0xB345AB64)
+# chain: CEnvCombinedLightProbeVolume -> CBaseEntity -> CEntityInstance -> CBaseCubemap -> IToolObject -> CBaseLightProbeVolume -> IToolObject
+
+# CEnvEntityIgniter (size=0xB345B31D)
+# chain: CEnvEntityIgniter -> CBaseEntity -> CEntityInstance
+
+# CEnvEntityMaker (size=0xB345B345)
+# chain: CEnvEntityMaker -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvExplosion (size=0xB345B411)
+# chain: CEnvExplosion -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvFade (size=0xB345B3C2)
+# chain: CEnvFade -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvGlobal (size=0xB345B5B1)
+# chain: CEnvGlobal -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvHudHint (size=0xB345C102)
+# chain: CEnvHudHint -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvInstructorHint (size=0xB345B377)
+# chain: CEnvInstructorHint -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvInstructorVRHint (size=0xB345B38E)
+# chain: CEnvInstructorVRHint -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvLaser (size=0xB345C970)
+# chain: CEnvLaser -> CBeam -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvMuzzleFlash (size=0xB345B2E8)
+# chain: CEnvMuzzleFlash -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvShake (size=0xB345B3DC)
+# chain: CEnvShake -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvSpark (size=0xB345B3F7)
+# chain: CEnvSpark -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvSplash (size=0xB345B2FC)
+# chain: CEnvSplash -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvTilt (size=0xB345B3EA)
+# chain: CEnvTilt -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvViewPunch (size=0xB345B30B)
+# chain: CEnvViewPunch -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CEnvWind (size=0xB345B2CA)
+# chain: CEnvWind -> CBaseEntity -> CEntityInstance
+
+# CFilterContext (size=0xB345C3B7)
+# chain: CFilterContext -> CBaseFilter -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CFilterEnemy (size=0xB345C417)
+# chain: CFilterEnemy -> CBaseFilter -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CFishPool (size=0xB34595DA)
+# chain: CFishPool -> CBaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+
+# CFogTrigger (size=0xB345CD39)
+# chain: CFogTrigger -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFogVolume (size=0xB345C1CA)
+# chain: CFogVolume -> CServerOnlyModelEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncIllusionary (size=0xB345B1C4)
+# chain: CFuncIllusionary -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncInteractionLayerClip (size=0xB345B1EF)
+# chain: CFuncInteractionLayerClip -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncLadder (size=0xB345BE72)
+# chain: CFuncLadder -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncLadderAlias_func_useableladder (size=0xB345C5CC)
+# chain: CFuncLadderAlias_func_useableladder -> CFuncLadder -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncMoveLinear (size=0xB345BC5A)
+# chain: CFuncMoveLinear -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncMoveLinearAlias_momentary_door (size=0xB345C605)
+# chain: CFuncMoveLinearAlias_momentary_door -> CFuncMoveLinear -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncMoverRouter (size=0xB345961D)
+# chain: CFuncMoverRouter -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncNavBlocker (size=0xB345BE07)
+# chain: CFuncNavBlocker -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# CFuncNavObstruction (size=0xB345BB46)
+# chain: CFuncNavObstruction -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> INavObstacle -> IPositionWatcher -> IWatcherCallback
+
+# CFuncPlat (size=0xB345C7F3)
+# chain: CFuncPlat -> CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncPlatRot (size=0xB345C801)
+# chain: CFuncPlatRot -> CFuncPlat -> CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncPropRespawnZone (size=0xB345B960)
+# chain: CFuncPropRespawnZone -> CBaseEntity -> CEntityInstance
+
+# CFuncRotator (size=0xB345BCB2)
+# chain: CFuncRotator -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncShatterglass (size=0xB345BEA0)
+# chain: CFuncShatterglass -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncTankTrain (size=0xB345C7CD)
+# chain: CFuncTankTrain -> CFuncTrackTrain -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncTimescale (size=0xB345B423)
+# chain: CFuncTimescale -> CBaseEntity -> CEntityInstance
+
+# CFuncTrackAuto (size=0xB345C836)
+# chain: CFuncTrackAuto -> CFuncTrackChange -> CFuncPlatRot -> CFuncPlat -> CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncTrackChange (size=0xB345C821)
+# chain: CFuncTrackChange -> CFuncPlatRot -> CFuncPlat -> CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncTrain (size=0xB345C812)
+# chain: CFuncTrain -> CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncTrainControls (size=0xB345BA89)
+# chain: CFuncTrainControls -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncVPhysicsClip (size=0xB345B1D9)
+# chain: CFuncVPhysicsClip -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncVehicleClip (size=0xB345B1AF)
+# chain: CFuncVehicleClip -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncWall (size=0xB345B18D)
+# chain: CFuncWall -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CFuncWallToggle (size=0xB345B19B)
+# chain: CFuncWallToggle -> CFuncWall -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CGameEnd (size=0xB345C667)
+# chain: CGameEnd -> CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CGameGibManager (size=0xB345ADA3)
+# chain: CGameGibManager -> CBaseEntity -> CEntityInstance
+
+# CGameMoney (size=0xB345C131)
+# chain: CGameMoney -> CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CGamePlayerEquip (size=0xB345BD18)
+# chain: CGamePlayerEquip -> CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CGamePlayerZone (size=0xB345C682)
+# chain: CGamePlayerZone -> CRuleBrushEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CGameText (size=0xB345C674)
+# chain: CGameText -> CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CGenericConstraint (size=0xB345B7CF)
+# chain: CGenericConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IVPhysicsWatcher -> IWatcherCallback
+
+# CGenericLogicPlayerProxy (size=0xB345B529)
+# chain: CGenericLogicPlayerProxy -> CLogicPlayerProxyBase -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CGunTarget (size=0xB345C62D)
+# chain: CGunTarget -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CHandleDummy (size=0xB345BA67)
+# chain: CHandleDummy -> CBaseEntity -> CEntityInstance
+
+# CHostageAlias_info_hostage_spawn (size=0xB345CCCA)
+# chain: CHostageAlias_info_hostage_spawn -> CHostage -> ?$CAI_ExpresserHost@VCHostageExpresserShim -> CHostageExpresserShim -> CBaseCombatCharacter -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CAI_ExpresserSink -> CImprovLocomotor
+
+# CHostageExpresserShim (size=0xB345CC89)
+# chain: CHostageExpresserShim -> CBaseCombatCharacter -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoChoreoAnchor (size=0xB345B850)
+# chain: CInfoChoreoAnchor -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoData (size=0xB3459672)
+# chain: CInfoData -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoDeathmatchSpawn (size=0xB345BFF3)
+# chain: CInfoDeathmatchSpawn -> SpawnPoint -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoGameEventProxy (size=0xB345B032)
+# chain: CInfoGameEventProxy -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoInstructorHintBombTargetA (size=0xB345C01F)
+# chain: CInfoInstructorHintBombTargetA -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoInstructorHintBombTargetB (size=0xB345C042)
+# chain: CInfoInstructorHintBombTargetB -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoInstructorHintTarget (size=0xB345B359)
+# chain: CInfoInstructorHintTarget -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoLandmark (size=0xB345BA1E)
+# chain: CInfoLandmark -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoPlayerCounterterrorist (size=0xB345BFD3)
+# chain: CInfoPlayerCounterterrorist -> SpawnPoint -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoPlayerStart (size=0xB345B866)
+# chain: CInfoPlayerStart -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoPlayerTerrorist (size=0xB345BFBA)
+# chain: CInfoPlayerTerrorist -> SpawnPoint -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoSpawnGroupLandmark (size=0xB345BAFC)
+# chain: CInfoSpawnGroupLandmark -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoSpawnGroupLoadUnload (size=0xB345BB18)
+# chain: CInfoSpawnGroupLoadUnload -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoTargetServerOnly (size=0xB345ACB9)
+# chain: CInfoTargetServerOnly -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CInfoTeleportDestination (size=0xB345BAB3)
+# chain: CInfoTeleportDestination -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CInstancedSceneEntity (size=0xB345C799)
+# chain: CInstancedSceneEntity -> CSceneEntity -> CPointEntity -> CBaseEntity -> CEntityInstance -> IChoreoEventCallback
+
+# CInstructorEventEntity (size=0xB345B3A7)
+# chain: CInstructorEventEntity -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CItemAssaultSuit (size=0xB345CCEF)
+# chain: CItemAssaultSuit -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# CItemDefuser (size=0xB345CD14)
+# chain: CItemDefuser -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# CItemDefuserAlias_item_defuser (size=0xB345D003)
+# chain: CItemDefuserAlias_item_defuser -> CItemDefuser -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# CItemGeneric (size=0xB345CEBB)
+# chain: CItemGeneric -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# CItemGenericTriggerHelper (size=0xB345BCD5)
+# chain: CItemGenericTriggerHelper -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CItemKevlar (size=0xB345CD04)
+# chain: CItemKevlar -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# CItemSoda (size=0xB345C590)
+# chain: CItemSoda -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CItem_Healthshot (size=0xB345CFEE)
+# chain: CItem_Healthshot -> CWeaponBaseItem -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+
+# CKeepUpright (size=0xB345B703)
+# chain: CKeepUpright -> CPointEntity -> CBaseEntity -> CEntityInstance -> IMotionEvent
+
+# CKnife (size=0xB345CF74)
+# chain: CKnife -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+
+# CLogicAchievement (size=0xB345B436)
+# chain: CLogicAchievement -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicActiveAutosave (size=0xB345B616)
+# chain: CLogicActiveAutosave -> CLogicAutosave -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicActivityEvent (size=0xB345B44C)
+# chain: CLogicActivityEvent -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicAuto (size=0xB345B546)
+# chain: CLogicAuto -> CBaseEntity -> CEntityInstance
+
+# CLogicAutosave (size=0xB345B603)
+# chain: CLogicAutosave -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicBranch (size=0xB3459690)
+# chain: CLogicBranch -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicBranchList (size=0xB345B662)
+# chain: CLogicBranchList -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicCase (size=0xB345B5E2)
+# chain: CLogicCase -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicCollisionPair (size=0xB345B64A)
+# chain: CLogicCollisionPair -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicCompare (size=0xB345B5F1)
+# chain: CLogicCompare -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicDistanceAutosave (size=0xB345B62F)
+# chain: CLogicDistanceAutosave -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicDistanceCheck (size=0xB34596A1)
+# chain: CLogicDistanceCheck -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicEventListener (size=0xB345A9E5)
+# chain: CLogicEventListener -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+
+# CLogicGameEvent (size=0xB345B677)
+# chain: CLogicGameEvent -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicGameEventListener (size=0xB345B47E)
+# chain: CLogicGameEventListener -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+
+# CLogicGameStateReport (size=0xB345B464)
+# chain: CLogicGameStateReport -> CBaseEntity -> CEntityInstance
+
+# CLogicLineToEntity (size=0xB345B577)
+# chain: CLogicLineToEntity -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicMeasureMovement (size=0xB345B49A)
+# chain: CLogicMeasureMovement -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicNPCCounter (size=0xB345B4C9)
+# chain: CLogicNPCCounter -> CBaseEntity -> CEntityInstance
+
+# CLogicNPCCounterAABB (size=0xB345B4DE)
+# chain: CLogicNPCCounterAABB -> CLogicNPCCounter -> CBaseEntity -> CEntityInstance
+
+# CLogicNPCCounterOBB (size=0xB345B4F7)
+# chain: CLogicNPCCounterOBB -> CLogicNPCCounterAABB -> CLogicNPCCounter -> CBaseEntity -> CEntityInstance
+
+# CLogicNavigation (size=0xB345B4B4)
+# chain: CLogicNavigation -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IEntityListener
+
+# CLogicPlayerProxyBase (size=0xB345B50F)
+# chain: CLogicPlayerProxyBase -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicProximity (size=0xB345BAE8)
+# chain: CLogicProximity -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CLogicScript (size=0xB345B555)
+# chain: CLogicScript -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CMapSharedEnvironment (size=0xB345979F)
+# chain: CMapSharedEnvironment -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CMapVetoPickController (size=0xB345A9CA)
+# chain: CMapVetoPickController -> CBaseEntity -> CEntityInstance
+
+# CMarkupVolume (size=0xB345BD2D)
+# chain: CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CMarkupVolumeTagged (size=0xB345BD3F)
+# chain: CMarkupVolumeTagged -> CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CMarkupVolumeTagged_Nav (size=0xB345C6B4)
+# chain: CMarkupVolumeTagged_Nav -> CMarkupVolumeTagged -> CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CMarkupVolumeTagged_NavGame (size=0xB345C6D0)
+# chain: CMarkupVolumeTagged_NavGame -> CMarkupVolumeWithRef -> CMarkupVolumeTagged -> CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# CMarkupVolumeWithRef (size=0xB345BD57)
+# chain: CMarkupVolumeWithRef -> CMarkupVolumeTagged -> CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# CMathColorBlend (size=0xB345B59D)
+# chain: CMathColorBlend -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CMathCounter (size=0xB345B5D1)
+# chain: CMathCounter -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CMathRemap (size=0xB345B58E)
+# chain: CMathRemap -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CMessage (size=0xB345BC3E)
+# chain: CMessage -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CMessageEntity (size=0xB345B68B)
+# chain: CMessageEntity -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CMomentaryRotButton (size=0xB345BBD0)
+# chain: CMomentaryRotButton -> CRotButton -> CBaseButton -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CMoverPathNode (size=0xB345BC6E)
+# chain: CMoverPathNode -> CPathNode -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CMultiLightProxy (size=0xB345AD2C)
+# chain: CMultiLightProxy -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CMultiSource (size=0xB345B5C0)
+# chain: CMultiSource -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CNavSpaceInfo (size=0xB345BE56)
+# chain: CNavSpaceInfo -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CNavWalkable (size=0xB345BDF6)
+# chain: CNavWalkable -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CNullEntity (size=0xB345B9FD)
+# chain: CNullEntity -> CBaseEntity -> CEntityInstance
+
+# COrnamentProp (size=0xB345C736)
+# chain: COrnamentProp -> CDynamicProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# CPathCorner (size=0xB345B6C2)
+# chain: CPathCorner -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPathCornerCrash (size=0xB345C70B)
+# chain: CPathCornerCrash -> CPathCorner -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPathKeyFrame (size=0xB345B6B0)
+# chain: CPathKeyFrame -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CPathMover (size=0xB345BC81)
+# chain: CPathMover -> CPathWithDynamicNodes -> CPathSimple -> CBaseEntity -> CEntityInstance -> IPhysicsSpline
+
+# CPathMoverEntitySpawner (size=0xB3459601)
+# chain: CPathMoverEntitySpawner -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CPathTrack (size=0xB345BD7F)
+# chain: CPathTrack -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysBallSocket (size=0xB345B75C)
+# chain: CPhysBallSocket -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysConstraint (size=0xB345B714)
+# chain: CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysExplosion (size=0xB345BD9B)
+# chain: CPhysExplosion -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysFixed (size=0xB345B789)
+# chain: CPhysFixed -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysForce (size=0xB345B6D2)
+# chain: CPhysForce -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysHinge (size=0xB345B728)
+# chain: CPhysHinge -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IVPhysicsWatcher -> IWatcherCallback
+
+# CPhysHingeAlias_phys_hinge_local (size=0xB345B737)
+# chain: CPhysHingeAlias_phys_hinge_local -> CPhysHinge -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IVPhysicsWatcher -> IWatcherCallback
+
+# CPhysImpact (size=0xB345BDAE)
+# chain: CPhysImpact -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysLength (size=0xB345B7A8)
+# chain: CPhysLength -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysMotor (size=0xB34597E5)
+# chain: CPhysMotor -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysPulley (size=0xB345B798)
+# chain: CPhysPulley -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysSlideConstraint (size=0xB345B770)
+# chain: CPhysSlideConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IVPhysicsWatcher -> IWatcherCallback
+
+# CPhysThruster (size=0xB345B6E1)
+# chain: CPhysThruster -> CPhysForce -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysTorque (size=0xB345B6F3)
+# chain: CPhysTorque -> CPhysForce -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysWheelConstraint (size=0xB345B7FC)
+# chain: CPhysWheelConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysicalButton (size=0xB345BBAD)
+# chain: CPhysicalButton -> CBaseButton -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CPhysicsEntitySolver (size=0xB345B815)
+# chain: CPhysicsEntitySolver -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> ?$CUtlAutoList@VCPhysicsEntitySolver
+
+# CPhysicsPropOverride (size=0xB345C9D8)
+# chain: CPhysicsPropOverride -> CPhysicsProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> INavObstacle
+
+# CPhysicsPropRespawnable (size=0xB345C9F1)
+# chain: CPhysicsPropRespawnable -> CPhysicsProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> INavObstacle
+
+# CPhysicsSpring (size=0xB345B82E)
+# chain: CPhysicsSpring -> CBaseEntity -> CEntityInstance
+
+# CPhysicsWire (size=0xB345B2D7)
+# chain: CPhysicsWire -> CBaseEntity -> CEntityInstance
+
+# CPlatTrigger (size=0xB345BA78)
+# chain: CPlatTrigger -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CPlayerSprayDecal (size=0xB345C140)
+# chain: CPlayerSprayDecal -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CPointAngleSensor (size=0xB345B8BE)
+# chain: CPointAngleSensor -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPointAngularVelocitySensor (size=0xB345B8EE)
+# chain: CPointAngularVelocitySensor -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPointBroadcastClientCommand (size=0xB345B23D)
+# chain: CPointBroadcastClientCommand -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPointClientCommand (size=0xB345B20D)
+# chain: CPointClientCommand -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPointClientUIWorldPanel (size=0xB345BF07)
+# chain: CPointClientUIWorldPanel -> CBaseClientUIEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CPointCommentaryNode (size=0xB345C54E)
+# chain: CPointCommentaryNode -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CPointEntityFinder (size=0xB345B87B)
+# chain: CPointEntityFinder -> CBaseEntity -> CEntityInstance
+
+# CPointGamestatsCounter (size=0xB345C0E7)
+# chain: CPointGamestatsCounter -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPointGiveAmmo (size=0xB345C00C)
+# chain: CPointGiveAmmo -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPointHurt (size=0xB345B927)
+# chain: CPointHurt -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPointPrefab (size=0xB3459869)
+# chain: CPointPrefab -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CPointProximitySensor (size=0xB345B8D4)
+# chain: CPointProximitySensor -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPointPulse (size=0xB345BB36)
+# chain: CPointPulse -> CBaseEntity -> CEntityInstance
+
+# CPointPush (size=0xB345B841)
+# chain: CPointPush -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPointServerCommand (size=0xB345B225)
+# chain: CPointServerCommand -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPointTeleport (size=0xB345B936)
+# chain: CPointTeleport -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CPointVelocitySensor (size=0xB345B90E)
+# chain: CPointVelocitySensor -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CPointWorldText (size=0xB345B8AA)
+# chain: CPointWorldText -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CPropDoorRotatingBreakable (size=0xB345CE1E)
+# chain: CPropDoorRotatingBreakable -> CPropDoorRotating -> CBasePropDoor -> CDynamicProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> CGameEventListener -> IGameEventListener2
+
+# CPushable (size=0xB345C5BE)
+# chain: CPushable -> CBreakable -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# CRagdollConstraint (size=0xB345B7B8)
+# chain: CRagdollConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CRagdollMagnet (size=0xB345BBE8)
+# chain: CRagdollMagnet -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CRagdollProp (size=0xB345C992)
+# chain: CRagdollProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> IBoneTransformOverride
+
+# CRagdollPropAlias_physics_prop_ragdoll (size=0xB345CDC4)
+# chain: CRagdollPropAlias_physics_prop_ragdoll -> CRagdollProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> IBoneTransformOverride
+
+# CRagdollPropAttached (size=0xB345CDEF)
+# chain: CRagdollPropAttached -> CRagdollProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> IBoneTransformOverride
+
+# CRevertSaved (size=0xB345B979)
+# chain: CRevertSaved -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CRopeKeyframe (size=0xB345BDBE)
+# chain: CRopeKeyframe -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# CRopeKeyframeAlias_move_rope (size=0xB345C748)
+# chain: CRopeKeyframeAlias_move_rope -> CRopeKeyframe -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# CRotButton (size=0xB345BBC1)
+# chain: CRotButton -> CBaseButton -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CRotDoor (size=0xB345C583)
+# chain: CRotDoor -> CBaseDoor -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+
+# CRotatorTarget (size=0xB345BC9F)
+# chain: CRotatorTarget -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CRuleBrushEntity (size=0xB345C652)
+# chain: CRuleBrushEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CRuleEntity (size=0xB345BCF3)
+# chain: CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CRulePointEntity (size=0xB345BD03)
+# chain: CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CSceneEntity (size=0xB345B9A0)
+# chain: CSceneEntity -> CPointEntity -> CBaseEntity -> CEntityInstance -> IChoreoEventCallback
+
+# CSceneEntityAlias_logic_choreographed_scene (size=0xB345C769)
+# chain: CSceneEntityAlias_logic_choreographed_scene -> CSceneEntity -> CPointEntity -> CBaseEntity -> CEntityInstance -> IChoreoEventCallback
+
+# CSceneListManager (size=0xB345B98A)
+# chain: CSceneListManager -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CScriptItem (size=0xB345CDB4)
+# chain: CScriptItem -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# CScriptNavBlocker (size=0xB345BE1B)
+# chain: CScriptNavBlocker -> CFuncNavBlocker -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# CScriptTriggerHurt (size=0xB345CE3D)
+# chain: CScriptTriggerHurt -> CTriggerHurt -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CScriptTriggerMultiple (size=0xB345CE54)
+# chain: CScriptTriggerMultiple -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CScriptTriggerOnce (size=0xB345CE80)
+# chain: CScriptTriggerOnce -> CTriggerOnce -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CScriptTriggerPush (size=0xB345C86D)
+# chain: CScriptTriggerPush -> CTriggerPush -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CScriptedSequence (size=0xB345B9B1)
+# chain: CScriptedSequence -> CBaseEntity -> CEntityInstance
+
+# CServerOnlyEntity (size=0xB3459570)
+# chain: CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CServerOnlyPointEntity (size=0xB3459586)
+# chain: CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CServerRagdollTrigger (size=0xB345C8BF)
+# chain: CServerRagdollTrigger -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CShower (size=0xB345B405)
+# chain: CShower -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CSimpleMarkupVolumeTagged (size=0xB345C696)
+# chain: CSimpleMarkupVolumeTagged -> CMarkupVolumeTagged -> CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CSkyCameraVolumeTarget (size=0xB345A378)
+# chain: CSkyCameraVolumeTarget -> CBaseEntity -> CEntityInstance
+
+# CSoundEventBoxEntity (size=0xB345AF1D)
+# chain: CSoundEventBoxEntity -> CSoundEventMultiPointEntity -> CSoundEventEntity -> CBaseEntity -> CEntityInstance
+
+# CSoundEventParameter (size=0xB345AF4F)
+# chain: CSoundEventParameter -> CBaseEntity -> CEntityInstance
+
+# CSoundOpvarSetAutoRoomEntity (size=0xB3459E21)
+# chain: CSoundOpvarSetAutoRoomEntity -> CSoundOpvarSetPointEntity -> CSoundOpvarSetPointBase -> CBaseEntity -> CEntityInstance
+
+# CSoundOpvarSetEntity (size=0xB345B9C7)
+# chain: CSoundOpvarSetEntity -> CBaseEntity -> CEntityInstance
+
+# CSoundStackSave (size=0xB345AE1F)
+# chain: CSoundStackSave -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CSplineConstraint (size=0xB345B7E6)
+# chain: CSplineConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# CSpriteAlias_env_glow (size=0xB345C7B3)
+# chain: CSpriteAlias_env_glow -> CSprite -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTankTargetChange (size=0xB345BA30)
+# chain: CTankTargetChange -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CTankTrainAI (size=0xB345BA46)
+# chain: CTankTrainAI -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# CTeam (size=0xB345AF68)
+# chain: CTeam -> CBaseEntity -> CEntityInstance
+
+# CTestEffect (size=0xB345B284)
+# chain: CTestEffect -> CBaseEntity -> CEntityInstance
+
+# CTestPulseIO (size=0xB34596F5)
+# chain: CTestPulseIO -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CTimerEntity (size=0xB345B566)
+# chain: CTimerEntity -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# CTonemapTrigger (size=0xB345CD25)
+# chain: CTonemapTrigger -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerActiveWeaponDetect (size=0xB345C8D9)
+# chain: CTriggerActiveWeaponDetect -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerBombReset (size=0xB345CC1B)
+# chain: CTriggerBombReset -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerBrush (size=0xB345B69E)
+# chain: CTriggerBrush -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerCallback (size=0xB345CA4B)
+# chain: CTriggerCallback -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerDetectBulletFire (size=0xB345C90C)
+# chain: CTriggerDetectBulletFire -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerDetectExplosion (size=0xB345C929)
+# chain: CTriggerDetectExplosion -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CUtlSlot
+
+# CTriggerGameEvent (size=0xB345C63C)
+# chain: CTriggerGameEvent -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerGravity (size=0xB345C895)
+# chain: CTriggerGravity -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerHostageReset (size=0xB345CC31)
+# chain: CTriggerHostageReset -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerHurt (size=0xB345CA3A)
+# chain: CTriggerHurt -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerImpact (size=0xB345CEA8)
+# chain: CTriggerImpact -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerLook (size=0xB345CE97)
+# chain: CTriggerLook -> CTriggerOnce -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerOnce (size=0xB345CE6F)
+# chain: CTriggerOnce -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerProximity (size=0xB345C8A9)
+# chain: CTriggerProximity -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerPush (size=0xB345C85C)
+# chain: CTriggerPush -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerRemove (size=0xB345C849)
+# chain: CTriggerRemove -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerSave (size=0xB345C884)
+# chain: CTriggerSave -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerSndSosOpvar (size=0xB345CA22)
+# chain: CTriggerSndSosOpvar -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerSoundscape (size=0xB345C37F)
+# chain: CTriggerSoundscape -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CTriggerTeleport (size=0xB345CA88)
+# chain: CTriggerTeleport -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# CWeaponAWP (size=0xB345D03F)
+# chain: CWeaponAWP -> CCSWeaponBaseGun -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+
+# CWeaponGlock (size=0xB345D0A9)
+# chain: CWeaponGlock -> CCSWeaponBaseGun -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+
+# CWeaponM249 (size=0xB345D1E1)
+# chain: CWeaponM249 -> CCSWeaponBaseGun -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+
+# CWeaponNegev (size=0xB345D15C)
+# chain: CWeaponNegev -> CCSWeaponBaseGun -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+
+# SpawnPoint (size=0xB345A002)
+# chain: SpawnPoint -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+

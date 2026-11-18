@@ -1,0 +1,10 @@
+// CFuncRetakeBarrier
+// Size: 0xB345CAE1 (-1287271711 bytes)
+// Parent: C_DynamicProp
+// Module: client.dll
+//
+// Inheritance:
+//   CFuncRetakeBarrier -> C_DynamicProp -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> ?$CUtlAutoList@VCFuncRetakeBarrier
+//
+
+// (no own fields)

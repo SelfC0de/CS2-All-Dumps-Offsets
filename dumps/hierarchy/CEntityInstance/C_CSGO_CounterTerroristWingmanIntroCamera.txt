@@ -1,0 +1,10 @@
+// C_CSGO_CounterTerroristWingmanIntroCamera
+// Size: 0xB345EFC4 (-1287262268 bytes)
+// Parent: C_CSGO_TeamPreviewCamera
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSGO_CounterTerroristWingmanIntroCamera -> C_CSGO_TeamPreviewCamera -> C_CSGO_MapPreviewCameraPath -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

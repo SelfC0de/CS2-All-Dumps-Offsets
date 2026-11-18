@@ -1,0 +1,10 @@
+// CPropDataComponent
+// Size: 0xB3457FC7 (-1287290937 bytes)
+// Parent: CEntityComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CPropDataComponent -> CEntityComponent
+//
+
+// (no own fields)

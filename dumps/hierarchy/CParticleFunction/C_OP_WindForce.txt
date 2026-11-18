@@ -1,0 +1,10 @@
+// C_OP_WindForce
+// Size: 0xB3455E55 (-1287299499 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_WindForce -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

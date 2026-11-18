@@ -1,0 +1,10 @@
+// C_PlayerSprayDecal
+// Size: 0xB345F886 (-1287260026 bytes)
+// Parent: C_ModelPointEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_PlayerSprayDecal -> C_ModelPointEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

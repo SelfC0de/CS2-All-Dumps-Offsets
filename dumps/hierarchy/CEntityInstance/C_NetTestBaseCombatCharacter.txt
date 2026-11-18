@@ -1,0 +1,10 @@
+// C_NetTestBaseCombatCharacter
+// Size: 0xB345FF53 (-1287258285 bytes)
+// Parent: C_BaseCombatCharacter
+// Module: client.dll
+//
+// Inheritance:
+//   C_NetTestBaseCombatCharacter -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

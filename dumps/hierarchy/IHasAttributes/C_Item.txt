@@ -1,0 +1,13 @@
+// C_Item
+// Size: 0xB345FE84 (-1287258492 bytes)
+// Parent: C_EconEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_Item -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride
+//
+// Direct subclasses (1):
+//   C_ItemDogtags
+//
+
+// (no own fields)

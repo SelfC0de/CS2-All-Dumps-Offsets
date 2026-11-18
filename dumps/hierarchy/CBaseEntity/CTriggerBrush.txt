@@ -1,0 +1,10 @@
+// CTriggerBrush
+// Size: 0xB345B69E (-1287276898 bytes)
+// Parent: CBaseModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerBrush -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_ForceControlPointStub
+// Size: 0xB3457762 (-1287293086 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ForceControlPointStub -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

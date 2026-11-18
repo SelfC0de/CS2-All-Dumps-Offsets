@@ -1,0 +1,10 @@
+// C_INIT_RadiusFromCPObject
+// Size: 0xB34559C3 (-1287300669 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RadiusFromCPObject -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

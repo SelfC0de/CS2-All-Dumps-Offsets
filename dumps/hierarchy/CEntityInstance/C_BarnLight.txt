@@ -1,0 +1,14 @@
+// C_BarnLight
+// Size: 0xB345F8E8 (-1287259928 bytes)
+// Parent: C_BaseModelEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_BarnLight -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (2):
+//   C_OmniLight
+//   C_RectLight
+//
+
+// (no own fields)

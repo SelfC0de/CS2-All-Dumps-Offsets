@@ -1,0 +1,10 @@
+// C_OP_MovementPlaceOnGround
+// Size: 0xB34569C1 (-1287296575 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_MovementPlaceOnGround -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CTaskStatusAnimTag
+// Size: 0xB33DECE8 (-1287787288 bytes)
+// Parent: CAnimTagBase
+// Module: client.dll
+//
+// Inheritance:
+//   CTaskStatusAnimTag -> CAnimTagBase -> IAnimTag -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IStatusAnimTag
+//
+
+// (no own fields)

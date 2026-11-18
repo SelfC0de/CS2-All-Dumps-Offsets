@@ -1,0 +1,10 @@
+// C_OP_LockToPointList
+// Size: 0xB3456E01 (-1287295487 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_LockToPointList -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

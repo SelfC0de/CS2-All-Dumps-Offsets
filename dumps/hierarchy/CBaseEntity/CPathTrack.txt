@@ -1,0 +1,10 @@
+// CPathTrack
+// Size: 0xB345BD7F (-1287275137 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPathTrack -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CInfoTarget
+// Size: 0xB345ACA9 (-1287279447 bytes)
+// Parent: C_PointEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CInfoTarget -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

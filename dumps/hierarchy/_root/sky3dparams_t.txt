@@ -1,0 +1,6 @@
+// sky3dparams_t
+// Size: 0xB3459ABC (-1287284036 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

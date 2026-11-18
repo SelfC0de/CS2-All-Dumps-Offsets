@@ -1,0 +1,10 @@
+// C_OP_RenderSimpleModelCollection
+// Size: 0xB3457A3B (-1287292357 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderSimpleModelCollection -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

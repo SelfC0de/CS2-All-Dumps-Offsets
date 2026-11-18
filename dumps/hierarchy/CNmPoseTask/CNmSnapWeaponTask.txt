@@ -1,0 +1,10 @@
+// CNmSnapWeaponTask
+// Size: 0xB3459FBC (-1287282756 bytes)
+// Parent: CNmPoseTask
+// Module: client.dll
+//
+// Inheritance:
+//   CNmSnapWeaponTask -> CNmPoseTask
+//
+
+// (no own fields)

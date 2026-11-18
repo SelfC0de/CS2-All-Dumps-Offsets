@@ -1,0 +1,10 @@
+// C_PlayerVisibility
+// Size: 0xB345F2E5 (-1287261467 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_PlayerVisibility -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

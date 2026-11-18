@@ -1,0 +1,10 @@
+// C_OP_SetCPOrientationToGroundNormal
+// Size: 0xB3456D5B (-1287295653 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetCPOrientationToGroundNormal -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,20 @@
+// CAnimUpdateNodeBase
+// Size: 0xB3450653 (-1287322029 bytes)
+// Parent: Object@Reflection
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+// Direct subclasses (8):
+//   CBinaryUpdateNode
+//   CBlend2DUpdateNode
+//   CBlendUpdateNode
+//   CChoiceUpdateNode
+//   CSelectorUpdateNode
+//   CStateMachineUpdateNode
+//   CTargetSelectorUpdateNode
+//   CUnaryUpdateNode
+//
+
+// (no own fields)

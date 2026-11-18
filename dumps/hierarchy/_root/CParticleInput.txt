@@ -1,0 +1,12 @@
+// CParticleInput
+// Size: 0xB364EB45 (-1285231803 bytes)
+// Module: client.dll
+//
+// Direct subclasses (4):
+//   CParticleFloatInput
+//   CParticleModelInput
+//   CParticleTransformInput
+//   CParticleVecInput
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CSndSeqInstBaseSchema
+// Size: 0xB3452DD7 (-1287311913 bytes)
+// Module: client.dll
+//
+// Direct subclasses (2):
+//   CSndSeqInstMidiSampler
+//   CSndSeqInstSndEvtSchema
+//
+
+// (no own fields)

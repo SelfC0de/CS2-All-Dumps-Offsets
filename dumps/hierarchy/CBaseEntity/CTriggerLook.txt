@@ -1,0 +1,10 @@
+// CTriggerLook
+// Size: 0xB345CE97 (-1287270761 bytes)
+// Parent: CTriggerOnce
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerLook -> CTriggerOnce -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CJumpHelperUpdateNode
+// Size: 0xB3451FC6 (-1287315514 bytes)
+// Parent: CSequenceUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CJumpHelperUpdateNode -> CSequenceUpdateNode -> CSequenceUpdateNodeBase -> CLeafUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IAnimVarBindingAdditionalContextLabelHelper -> ITargetWarpInputNode
+//
+
+// (no own fields)

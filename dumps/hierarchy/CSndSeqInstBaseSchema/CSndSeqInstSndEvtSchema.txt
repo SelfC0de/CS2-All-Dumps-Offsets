@@ -1,0 +1,10 @@
+// CSndSeqInstSndEvtSchema
+// Size: 0xB3452DF1 (-1287311887 bytes)
+// Parent: CSndSeqInstBaseSchema
+// Module: client.dll
+//
+// Inheritance:
+//   CSndSeqInstSndEvtSchema -> CSndSeqInstBaseSchema
+//
+
+// (no own fields)

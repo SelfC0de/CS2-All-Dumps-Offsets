@@ -1,0 +1,10 @@
+// CPulseCell_LimitCount
+// Size: 0xB364E937 (-1285232329 bytes)
+// Parent: CPulseCell_BaseRequirement
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_LimitCount -> CPulseCell_BaseRequirement -> CPulseCell_Base
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CBodyGroupAnimTag
+// Size: 0xB33DEBBF (-1287787585 bytes)
+// Parent: CAnimTagBase
+// Module: client.dll
+//
+// Inheritance:
+//   CBodyGroupAnimTag -> CAnimTagBase -> IAnimTag -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IBodyGroupAnimTag
+//
+
+// (no own fields)

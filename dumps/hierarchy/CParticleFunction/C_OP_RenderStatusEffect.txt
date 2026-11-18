@@ -1,0 +1,10 @@
+// C_OP_RenderStatusEffect
+// Size: 0xB3457BB7 (-1287291977 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderStatusEffect -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

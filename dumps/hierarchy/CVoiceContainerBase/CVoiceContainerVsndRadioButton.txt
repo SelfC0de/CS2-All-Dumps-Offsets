@@ -1,0 +1,10 @@
+// CVoiceContainerVsndRadioButton
+// Size: 0xB3453485 (-1287310203 bytes)
+// Parent: CVoiceContainerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerVsndRadioButton -> CVoiceContainerBase
+//
+
+// (no own fields)

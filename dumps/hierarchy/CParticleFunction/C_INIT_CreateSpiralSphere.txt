@@ -1,0 +1,10 @@
+// C_INIT_CreateSpiralSphere
+// Size: 0xB3454ED7 (-1287303465 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreateSpiralSphere -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

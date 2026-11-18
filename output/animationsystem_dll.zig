@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-12 08:33:41.7308395 UTC
+// 2026-11-18 06:23:05.2221886 UTC
 
 pub const cs2_dumper = struct {
     pub const schemas = struct {
@@ -74,7 +74,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 4
             pub const BoneTransformSpace_t = enum(u32) {
-                BoneTransformSpace_Invalid = 0xFFFFFFFFFFFFFFFF,
+                BoneTransformSpace_Invalid = 0x-1,
                 BoneTransformSpace_Parent = 0x0,
                 BoneTransformSpace_Model = 0x1,
                 BoneTransformSpace_World = 0x2
@@ -129,7 +129,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 5
             pub const ParticleFloatBiasType_t = enum(u32) {
-                PF_BIAS_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PF_BIAS_TYPE_INVALID = 0x-1,
                 PF_BIAS_TYPE_STANDARD = 0x0,
                 PF_BIAS_TYPE_GAIN = 0x1,
                 PF_BIAS_TYPE_EXPONENTIAL = 0x2,
@@ -146,7 +146,7 @@ pub const cs2_dumper = struct {
             // Alignment: 1
             // Member count: 6
             pub const SharedMovementGait_t = enum(u32) {
-                eInvalid = 0xFFFFFFFFFFFFFFFF,
+                eInvalid = 0x-1,
                 eSlow = 0x0,
                 eMedium = 0x1,
                 eFast = 0x2,
@@ -181,7 +181,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 34
             pub const ParticleFloatType_t = enum(u32) {
-                PF_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PF_TYPE_INVALID = 0x-1,
                 PF_TYPE_LITERAL = 0x0,
                 PF_TYPE_NAMED_VALUE = 0x1,
                 PF_TYPE_RANDOM_UNIFORM = 0x2,
@@ -538,7 +538,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 5
             pub const ParticleFloatRoundType_t = enum(u32) {
-                PF_ROUND_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PF_ROUND_TYPE_INVALID = 0x-1,
                 PF_ROUND_TYPE_NEAREST = 0x0,
                 PF_ROUND_TYPE_FLOOR = 0x1,
                 PF_ROUND_TYPE_CEIL = 0x2,
@@ -601,7 +601,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 4
             pub const ModelBoneFlexComponent_t = enum(u32) {
-                MODEL_BONE_FLEX_INVALID = 0xFFFFFFFFFFFFFFFF,
+                MODEL_BONE_FLEX_INVALID = 0x-1,
                 MODEL_BONE_FLEX_TX = 0x0,
                 MODEL_BONE_FLEX_TY = 0x1,
                 MODEL_BONE_FLEX_TZ = 0x2
@@ -771,7 +771,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 12
             pub const ParticleFloatMapType_t = enum(u32) {
-                PF_MAP_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PF_MAP_TYPE_INVALID = 0x-1,
                 PF_MAP_TYPE_DIRECT = 0x0,
                 PF_MAP_TYPE_MULT = 0x1,
                 PF_MAP_TYPE_REMAP = 0x2,
@@ -899,7 +899,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 4
             pub const ParticleFloatInputMode_t = enum(u32) {
-                PF_INPUT_MODE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PF_INPUT_MODE_INVALID = 0x-1,
                 PF_INPUT_MODE_CLAMPED = 0x0,
                 PF_INPUT_MODE_LOOPED = 0x1,
                 PF_INPUT_MODE_COUNT = 0x2
@@ -954,7 +954,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 4
             pub const ParticleFloatRandomMode_t = enum(u32) {
-                PF_RANDOM_MODE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PF_RANDOM_MODE_INVALID = 0x-1,
                 PF_RANDOM_MODE_CONSTANT = 0x0,
                 PF_RANDOM_MODE_VARYING = 0x1,
                 PF_RANDOM_MODE_COUNT = 0x2
@@ -962,7 +962,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 35
             pub const PulseValueType_t = enum(u32) {
-                PVAL_VOID = 0xFFFFFFFFFFFFFFFF,
+                PVAL_VOID = 0x-1,
                 PVAL_BOOL = 0x0,
                 PVAL_INT = 0x1,
                 PVAL_FLOAT = 0x2,
@@ -1009,7 +1009,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 21
             pub const ParticleVecType_t = enum(u32) {
-                PVEC_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PVEC_TYPE_INVALID = 0x-1,
                 PVEC_TYPE_LITERAL = 0x0,
                 PVEC_TYPE_LITERAL_COLOR = 0x1,
                 PVEC_TYPE_NAMED_VALUE = 0x2,
@@ -1145,7 +1145,7 @@ pub const cs2_dumper = struct {
             // Alignment: 2
             // Member count: 3
             pub const AnimScriptType = enum(u32) {
-                ANIMSCRIPT_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                ANIMSCRIPT_TYPE_INVALID = 0x-1,
                 ANIMSCRIPT_FUSE_GENERAL = 0x0,
                 ANIMSCRIPT_FUSE_STATEMACHINE = 0x1
             };
@@ -1191,7 +1191,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 4
             pub const HandshakeTagType_t = enum(u32) {
-                eInvalid = 0xFFFFFFFFFFFFFFFF,
+                eInvalid = 0x-1,
                 eTask = 0x0,
                 eMovement = 0x1,
                 eCount = 0x2
@@ -1357,7 +1357,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 18
             pub const ParticleAttachment_t = enum(u32) {
-                PATTACH_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PATTACH_INVALID = 0x-1,
                 PATTACH_ABSORIGIN = 0x0,
                 PATTACH_ABSORIGIN_FOLLOW = 0x1,
                 PATTACH_CUSTOMORIGIN = 0x2,
@@ -1434,7 +1434,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 4
             pub const ScriptedHeldWeaponBehavior_t = enum(u32) {
-                eInvalid = 0xFFFFFFFFFFFFFFFF,
+                eInvalid = 0x-1,
                 eHolster = 0x0,
                 eDeploy = 0x1,
                 eDrop = 0x2
@@ -1539,7 +1539,7 @@ pub const cs2_dumper = struct {
             // Alignment: 1
             // Member count: 3
             pub const RenderMeshSlotType_t = enum(u32) {
-                RENDERMESH_SLOT_INVALID = 0xFFFFFFFFFFFFFFFF,
+                RENDERMESH_SLOT_INVALID = 0x-1,
                 RENDERMESH_SLOT_PER_VERTEX = 0x0,
                 RENDERMESH_SLOT_PER_INSTANCE = 0x1
             };
@@ -1569,7 +1569,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 5
             pub const ModelConfigAttachmentType_t = enum(u32) {
-                MODEL_CONFIG_ATTACHMENT_INVALID = 0xFFFFFFFFFFFFFFFF,
+                MODEL_CONFIG_ATTACHMENT_INVALID = 0x-1,
                 MODEL_CONFIG_ATTACHMENT_BONE_OR_ATTACHMENT = 0x0,
                 MODEL_CONFIG_ATTACHMENT_ROOT_RELATIVE = 0x1,
                 MODEL_CONFIG_ATTACHMENT_BONEMERGE = 0x2,
@@ -1595,7 +1595,7 @@ pub const cs2_dumper = struct {
             // Alignment: 4
             // Member count: 4
             pub const PulseDomainValueType_t = enum(u32) {
-                INVALID = 0xFFFFFFFFFFFFFFFF,
+                INVALID = 0x-1,
                 ENTITY_NAME = 0x0,
                 PANEL_ID = 0x1,
                 COUNT = 0x2

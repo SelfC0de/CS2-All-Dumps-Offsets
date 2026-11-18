@@ -1,0 +1,10 @@
+// CPulseCell_LerpCameraSettings
+// Size: 0xB3457F74 (-1287291020 bytes)
+// Parent: CPulseCell_BaseLerp
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_LerpCameraSettings -> CPulseCell_BaseLerp -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

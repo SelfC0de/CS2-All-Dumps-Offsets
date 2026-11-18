@@ -1,0 +1,11 @@
+// CCSGameModeRules
+// Size: 0xB345A038 (-1287282632 bytes)
+// Module: client.dll
+//
+// Direct subclasses (3):
+//   CCSGameModeRules_ArmsRace
+//   CCSGameModeRules_Deathmatch
+//   CCSGameModeRules_Noop
+//
+
+// (no own fields)

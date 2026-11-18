@@ -1,0 +1,13 @@
+// C_INIT_RemapParticleCountToScalar
+// Size: 0xB3455428 (-1287302104 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RemapParticleCountToScalar -> CParticleFunctionInitializer -> CParticleFunction
+//
+// Direct subclasses (1):
+//   C_INIT_RemapParticleCountToNamedModelElementScalar
+//
+
+// (no own fields)

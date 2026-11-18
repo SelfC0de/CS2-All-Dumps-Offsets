@@ -1,0 +1,10 @@
+// C_OP_ScreenSpaceRotateTowardTarget
+// Size: 0xB34560B9 (-1287298887 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ScreenSpaceRotateTowardTarget -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

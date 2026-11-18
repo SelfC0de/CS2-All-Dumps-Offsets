@@ -1,0 +1,10 @@
+// CQuaternionAnimParameter
+// Size: 0xB345055C (-1287322276 bytes)
+// Parent: CConcreteAnimParameter
+// Module: client.dll
+//
+// Inheritance:
+//   CQuaternionAnimParameter -> CConcreteAnimParameter -> CAnimParameterBase -> IAnimParameter -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CVMixEQ8ProcessorDesc
+// Size: 0xB34535C5 (-1287309883 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixEQ8ProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

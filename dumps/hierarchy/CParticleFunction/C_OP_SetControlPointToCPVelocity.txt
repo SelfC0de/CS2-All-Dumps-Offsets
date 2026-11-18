@@ -1,0 +1,10 @@
+// C_OP_SetControlPointToCPVelocity
+// Size: 0xB34575E7 (-1287293465 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetControlPointToCPVelocity -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

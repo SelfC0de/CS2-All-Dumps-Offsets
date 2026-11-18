@@ -1,0 +1,22 @@
+// CPhysConstraint
+// Size: 0xB345B714 (-1287276780 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (10):
+//   CGenericConstraint
+//   CPhysBallSocket
+//   CPhysFixed
+//   CPhysHinge
+//   CPhysLength
+//   CPhysPulley
+//   CPhysSlideConstraint
+//   CPhysWheelConstraint
+//   CRagdollConstraint
+//   CSplineConstraint
+//
+
+// (no own fields)

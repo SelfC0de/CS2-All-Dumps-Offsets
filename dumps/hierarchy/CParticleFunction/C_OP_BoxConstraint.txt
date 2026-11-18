@@ -1,0 +1,10 @@
+// C_OP_BoxConstraint
+// Size: 0xB3454E2E (-1287303634 bytes)
+// Parent: CParticleFunctionConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_BoxConstraint -> CParticleFunctionConstraint -> CParticleFunction
+//
+
+// (no own fields)

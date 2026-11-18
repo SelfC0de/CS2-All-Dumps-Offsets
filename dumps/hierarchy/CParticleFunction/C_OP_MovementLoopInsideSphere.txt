@@ -1,0 +1,10 @@
+// C_OP_MovementLoopInsideSphere
+// Size: 0xB345685B (-1287296933 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_MovementLoopInsideSphere -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

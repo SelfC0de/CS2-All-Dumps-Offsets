@@ -1,0 +1,10 @@
+// C_OP_SetControlPointsToModelParticles
+// Size: 0xB34565DE (-1287297570 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetControlPointsToModelParticles -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

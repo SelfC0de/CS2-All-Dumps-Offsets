@@ -1,0 +1,10 @@
+// CNewParticleEffect
+// Size: 0xB364EDA0 (-1285231200 bytes)
+// Parent: IParticleEffect
+// Module: client.dll
+//
+// Inheritance:
+//   CNewParticleEffect -> IParticleEffect
+//
+
+// (no own fields)

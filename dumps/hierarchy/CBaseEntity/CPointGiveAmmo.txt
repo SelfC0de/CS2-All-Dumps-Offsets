@@ -1,0 +1,10 @@
+// CPointGiveAmmo
+// Size: 0xB345C00C (-1287274484 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointGiveAmmo -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

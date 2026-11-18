@@ -1,0 +1,10 @@
+// C_INIT_RandomColor
+// Size: 0xB34552C1 (-1287302463 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RandomColor -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

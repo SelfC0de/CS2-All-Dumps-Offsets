@@ -1,0 +1,10 @@
+// C_OP_SetCPOrientationToDirection
+// Size: 0xB3456C9E (-1287295842 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SetCPOrientationToDirection -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

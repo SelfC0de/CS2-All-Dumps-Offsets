@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-12 08:33:41.7308395 UTC
+// 2026-11-18 06:23:05.2221886 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -84,7 +84,7 @@ pub mod cs2_dumper {
             // Member count: 4
             #[repr(u32)]
             pub enum BoneTransformSpace_t {
-                BoneTransformSpace_Invalid = 0xFFFFFFFFFFFFFFFF,
+                BoneTransformSpace_Invalid = 0x-1,
                 BoneTransformSpace_Parent = 0x0,
                 BoneTransformSpace_Model = 0x1,
                 BoneTransformSpace_World = 0x2
@@ -146,7 +146,7 @@ pub mod cs2_dumper {
             // Member count: 5
             #[repr(u32)]
             pub enum ParticleFloatBiasType_t {
-                PF_BIAS_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PF_BIAS_TYPE_INVALID = 0x-1,
                 PF_BIAS_TYPE_STANDARD = 0x0,
                 PF_BIAS_TYPE_GAIN = 0x1,
                 PF_BIAS_TYPE_EXPONENTIAL = 0x2,
@@ -165,7 +165,7 @@ pub mod cs2_dumper {
             // Member count: 6
             #[repr(u32)]
             pub enum SharedMovementGait_t {
-                eInvalid = 0xFFFFFFFFFFFFFFFF,
+                eInvalid = 0x-1,
                 eSlow = 0x0,
                 eMedium = 0x1,
                 eFast = 0x2,
@@ -204,7 +204,7 @@ pub mod cs2_dumper {
             // Member count: 34
             #[repr(u32)]
             pub enum ParticleFloatType_t {
-                PF_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PF_TYPE_INVALID = 0x-1,
                 PF_TYPE_LITERAL = 0x0,
                 PF_TYPE_NAMED_VALUE = 0x1,
                 PF_TYPE_RANDOM_UNIFORM = 0x2,
@@ -592,7 +592,7 @@ pub mod cs2_dumper {
             // Member count: 5
             #[repr(u32)]
             pub enum ParticleFloatRoundType_t {
-                PF_ROUND_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PF_ROUND_TYPE_INVALID = 0x-1,
                 PF_ROUND_TYPE_NEAREST = 0x0,
                 PF_ROUND_TYPE_FLOOR = 0x1,
                 PF_ROUND_TYPE_CEIL = 0x2,
@@ -663,7 +663,7 @@ pub mod cs2_dumper {
             // Member count: 4
             #[repr(u32)]
             pub enum ModelBoneFlexComponent_t {
-                MODEL_BONE_FLEX_INVALID = 0xFFFFFFFFFFFFFFFF,
+                MODEL_BONE_FLEX_INVALID = 0x-1,
                 MODEL_BONE_FLEX_TX = 0x0,
                 MODEL_BONE_FLEX_TY = 0x1,
                 MODEL_BONE_FLEX_TZ = 0x2
@@ -852,7 +852,7 @@ pub mod cs2_dumper {
             // Member count: 12
             #[repr(u32)]
             pub enum ParticleFloatMapType_t {
-                PF_MAP_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PF_MAP_TYPE_INVALID = 0x-1,
                 PF_MAP_TYPE_DIRECT = 0x0,
                 PF_MAP_TYPE_MULT = 0x1,
                 PF_MAP_TYPE_REMAP = 0x2,
@@ -993,7 +993,7 @@ pub mod cs2_dumper {
             // Member count: 4
             #[repr(u32)]
             pub enum ParticleFloatInputMode_t {
-                PF_INPUT_MODE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PF_INPUT_MODE_INVALID = 0x-1,
                 PF_INPUT_MODE_CLAMPED = 0x0,
                 PF_INPUT_MODE_LOOPED = 0x1,
                 PF_INPUT_MODE_COUNT = 0x2
@@ -1054,7 +1054,7 @@ pub mod cs2_dumper {
             // Member count: 4
             #[repr(u32)]
             pub enum ParticleFloatRandomMode_t {
-                PF_RANDOM_MODE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PF_RANDOM_MODE_INVALID = 0x-1,
                 PF_RANDOM_MODE_CONSTANT = 0x0,
                 PF_RANDOM_MODE_VARYING = 0x1,
                 PF_RANDOM_MODE_COUNT = 0x2
@@ -1063,7 +1063,7 @@ pub mod cs2_dumper {
             // Member count: 35
             #[repr(u32)]
             pub enum PulseValueType_t {
-                PVAL_VOID = 0xFFFFFFFFFFFFFFFF,
+                PVAL_VOID = 0x-1,
                 PVAL_BOOL = 0x0,
                 PVAL_INT = 0x1,
                 PVAL_FLOAT = 0x2,
@@ -1112,7 +1112,7 @@ pub mod cs2_dumper {
             // Member count: 21
             #[repr(u32)]
             pub enum ParticleVecType_t {
-                PVEC_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PVEC_TYPE_INVALID = 0x-1,
                 PVEC_TYPE_LITERAL = 0x0,
                 PVEC_TYPE_LITERAL_COLOR = 0x1,
                 PVEC_TYPE_NAMED_VALUE = 0x2,
@@ -1263,7 +1263,7 @@ pub mod cs2_dumper {
             // Member count: 3
             #[repr(u32)]
             pub enum AnimScriptType {
-                ANIMSCRIPT_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+                ANIMSCRIPT_TYPE_INVALID = 0x-1,
                 ANIMSCRIPT_FUSE_GENERAL = 0x0,
                 ANIMSCRIPT_FUSE_STATEMACHINE = 0x1
             }
@@ -1314,7 +1314,7 @@ pub mod cs2_dumper {
             // Member count: 4
             #[repr(u32)]
             pub enum HandshakeTagType_t {
-                eInvalid = 0xFFFFFFFFFFFFFFFF,
+                eInvalid = 0x-1,
                 eTask = 0x0,
                 eMovement = 0x1,
                 eCount = 0x2
@@ -1485,7 +1485,7 @@ pub mod cs2_dumper {
             // Member count: 18
             #[repr(u32)]
             pub enum ParticleAttachment_t {
-                PATTACH_INVALID = 0xFFFFFFFFFFFFFFFF,
+                PATTACH_INVALID = 0x-1,
                 PATTACH_ABSORIGIN = 0x0,
                 PATTACH_ABSORIGIN_FOLLOW = 0x1,
                 PATTACH_CUSTOMORIGIN = 0x2,
@@ -1569,7 +1569,7 @@ pub mod cs2_dumper {
             // Member count: 4
             #[repr(u32)]
             pub enum ScriptedHeldWeaponBehavior_t {
-                eInvalid = 0xFFFFFFFFFFFFFFFF,
+                eInvalid = 0x-1,
                 eHolster = 0x0,
                 eDeploy = 0x1,
                 eDrop = 0x2
@@ -1685,7 +1685,7 @@ pub mod cs2_dumper {
             // Member count: 3
             #[repr(u32)]
             pub enum RenderMeshSlotType_t {
-                RENDERMESH_SLOT_INVALID = 0xFFFFFFFFFFFFFFFF,
+                RENDERMESH_SLOT_INVALID = 0x-1,
                 RENDERMESH_SLOT_PER_VERTEX = 0x0,
                 RENDERMESH_SLOT_PER_INSTANCE = 0x1
             }
@@ -1718,7 +1718,7 @@ pub mod cs2_dumper {
             // Member count: 5
             #[repr(u32)]
             pub enum ModelConfigAttachmentType_t {
-                MODEL_CONFIG_ATTACHMENT_INVALID = 0xFFFFFFFFFFFFFFFF,
+                MODEL_CONFIG_ATTACHMENT_INVALID = 0x-1,
                 MODEL_CONFIG_ATTACHMENT_BONE_OR_ATTACHMENT = 0x0,
                 MODEL_CONFIG_ATTACHMENT_ROOT_RELATIVE = 0x1,
                 MODEL_CONFIG_ATTACHMENT_BONEMERGE = 0x2,
@@ -1747,7 +1747,7 @@ pub mod cs2_dumper {
             // Member count: 4
             #[repr(u32)]
             pub enum PulseDomainValueType_t {
-                INVALID = 0xFFFFFFFFFFFFFFFF,
+                INVALID = 0x-1,
                 ENTITY_NAME = 0x0,
                 PANEL_ID = 0x1,
                 COUNT = 0x2

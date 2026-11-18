@@ -1,0 +1,10 @@
+// CFootstepLandedAnimTag
+// Size: 0xB33DEC04 (-1287787516 bytes)
+// Parent: CAnimTagBase
+// Module: client.dll
+//
+// Inheritance:
+//   CFootstepLandedAnimTag -> CAnimTagBase -> IAnimTag -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IFootstepLandedAnimTag
+//
+
+// (no own fields)

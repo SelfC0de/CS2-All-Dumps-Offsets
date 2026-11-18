@@ -1,0 +1,10 @@
+// CBodyComponentBaseModelEntity
+// Size: 0xB3458543 (-1287289533 bytes)
+// Parent: CBodyComponentSkeletonInstance
+// Module: client.dll
+//
+// Inheritance:
+//   CBodyComponentBaseModelEntity -> CBodyComponentSkeletonInstance -> CBodyComponent -> CEntityComponent
+//
+
+// (no own fields)

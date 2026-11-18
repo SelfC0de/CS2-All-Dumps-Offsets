@@ -1,0 +1,10 @@
+// CPulseCell_Step_DebugLog
+// Size: 0xB364C7D3 (-1285240877 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_Step_DebugLog -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

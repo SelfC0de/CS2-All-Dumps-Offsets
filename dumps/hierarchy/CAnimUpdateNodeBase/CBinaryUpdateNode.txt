@@ -1,0 +1,15 @@
+// CBinaryUpdateNode
+// Size: 0xB345066B (-1287322005 bytes)
+// Parent: CAnimUpdateNodeBase
+// Module: client.dll
+//
+// Inheritance:
+//   CBinaryUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> ITargetWarpInputNode
+//
+// Direct subclasses (3):
+//   CAddUpdateNode
+//   CBoneMaskUpdateNode
+//   CSubtractUpdateNode
+//
+
+// (no own fields)

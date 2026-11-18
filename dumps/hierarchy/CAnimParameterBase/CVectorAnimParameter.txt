@@ -1,0 +1,10 @@
+// CVectorAnimParameter
+// Size: 0xB3450543 (-1287322301 bytes)
+// Parent: CConcreteAnimParameter
+// Module: client.dll
+//
+// Inheritance:
+//   CVectorAnimParameter -> CConcreteAnimParameter -> CAnimParameterBase -> IAnimParameter -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

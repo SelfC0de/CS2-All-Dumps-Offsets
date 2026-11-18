@@ -1,0 +1,10 @@
+// CPointBroadcastClientCommand
+// Size: 0xB345B23D (-1287278019 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointBroadcastClientCommand -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

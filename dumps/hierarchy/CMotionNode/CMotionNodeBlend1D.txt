@@ -1,0 +1,10 @@
+// CMotionNodeBlend1D
+// Size: 0xB3450059 (-1287323559 bytes)
+// Parent: CMotionNode
+// Module: client.dll
+//
+// Inheritance:
+//   CMotionNodeBlend1D -> CMotionNode -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

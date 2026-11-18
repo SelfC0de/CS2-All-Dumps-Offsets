@@ -1,0 +1,10 @@
+// CStaticPoseCacheBuilder
+// Size: 0xB33DEAAA (-1287787862 bytes)
+// Parent: CStaticPoseCache
+// Module: client.dll
+//
+// Inheritance:
+//   CStaticPoseCacheBuilder -> CStaticPoseCache -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+
+// (no own fields)

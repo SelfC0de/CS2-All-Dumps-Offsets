@@ -1,0 +1,10 @@
+// C_OP_OscillateVector
+// Size: 0xB3455FF2 (-1287299086 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_OscillateVector -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

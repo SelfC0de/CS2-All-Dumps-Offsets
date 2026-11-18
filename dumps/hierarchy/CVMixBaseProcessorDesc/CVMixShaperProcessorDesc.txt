@@ -1,0 +1,10 @@
+// CVMixShaperProcessorDesc
+// Size: 0xB34539EA (-1287308822 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixShaperProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

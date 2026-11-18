@@ -1,0 +1,19 @@
+// Auto-generated protobuf field constants — DO NOT EDIT
+// Message: CAudio_SetMonoDownmixEnabled_Response
+// Module: steamclient64.dll
+// Proto file: webuimessages_audio.proto
+#pragma once
+#ifndef SDK_PROTO_CAUDIO_SETMONODOWNMIXENABLED_RESPONSE_HPP
+#define SDK_PROTO_CAUDIO_SETMONODOWNMIXENABLED_RESPONSE_HPP
+
+namespace sdk::proto {
+
+namespace CAudio_SetMonoDownmixEnabled_Response_fields {
+
+
+} // namespace CAudio_SetMonoDownmixEnabled_Response_fields
+
+} // namespace sdk::proto
+
+#endif // SDK_PROTO_CAUDIO_SETMONODOWNMIXENABLED_RESPONSE_HPP
+

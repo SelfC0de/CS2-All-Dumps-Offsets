@@ -1,0 +1,15 @@
+// C_EconEntity
+// Size: 0xB345FC8E (-1287258994 bytes)
+// Parent: CBaseAnimGraph
+// Module: client.dll
+//
+// Inheritance:
+//   C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride
+//
+// Direct subclasses (3):
+//   C_BasePlayerWeapon
+//   C_EconWearable
+//   C_Item
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_SoundEventPathCornerEntity
+// Size: 0xB345F4CF (-1287260977 bytes)
+// Parent: C_SoundEventMultiPointEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_SoundEventPathCornerEntity -> C_SoundEventMultiPointEntity -> C_SoundEventEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

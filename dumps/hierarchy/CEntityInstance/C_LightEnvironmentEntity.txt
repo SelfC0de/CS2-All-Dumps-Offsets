@@ -1,0 +1,10 @@
+// C_LightEnvironmentEntity
+// Size: 0xB345F9C4 (-1287259708 bytes)
+// Parent: C_LightDirectionalEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_LightEnvironmentEntity -> C_LightDirectionalEntity -> C_LightEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

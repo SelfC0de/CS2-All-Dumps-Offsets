@@ -1,0 +1,10 @@
+// CEmptyGraphController
+// Size: 0xB3458422 (-1287289822 bytes)
+// Parent: CAnimGraphControllerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CEmptyGraphController -> CAnimGraphControllerBase
+//
+
+// (no own fields)

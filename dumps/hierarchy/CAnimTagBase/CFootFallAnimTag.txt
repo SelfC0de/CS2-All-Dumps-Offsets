@@ -1,0 +1,10 @@
+// CFootFallAnimTag
+// Size: 0xB33DEBEF (-1287787537 bytes)
+// Parent: CAnimTagBase
+// Module: client.dll
+//
+// Inheritance:
+//   CFootFallAnimTag -> CAnimTagBase -> IAnimTag -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IFootFallAnimTag
+//
+
+// (no own fields)

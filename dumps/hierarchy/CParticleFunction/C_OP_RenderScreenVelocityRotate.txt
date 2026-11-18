@@ -1,0 +1,10 @@
+// C_OP_RenderScreenVelocityRotate
+// Size: 0xB3457A01 (-1287292415 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderScreenVelocityRotate -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

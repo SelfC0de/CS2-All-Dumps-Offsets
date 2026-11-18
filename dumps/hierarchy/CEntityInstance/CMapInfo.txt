@@ -1,0 +1,10 @@
+// CMapInfo
+// Size: 0xB345C1B2 (-1287274062 bytes)
+// Parent: C_PointEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CMapInfo -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,118 @@
+# Dezlock Access Paths — Schema Global Offset Guide
+# Only globals with known schema classes, fully expanded.
+#
+# Legend:
+#   ->  pointer dereference (follow pointer, then read field)
+#   [embedded X, +0xN]  inline struct at that offset (add offsets)
+#   [handle -> X]  CHandle entity reference (resolve via entity list)
+#   (type, ClassName)  which parent class defines the field
+#
+# Quick grep examples:
+#   grep m_iHealth access-paths.txt
+#   grep m_vecAbsOrigin access-paths.txt
+#   grep "CGameSceneNode" access-paths.txt
+#
+
+# ================================================================
+# animationsystem.dll
+# ================================================================
+
+# CFootTrajectory @ animationsystem.dll+0x818750 (static)
+# chain: CFootTrajectory -> IFootTrajectory
+
+# ================================================================
+# client.dll
+# ================================================================
+
+# C_CSTeam @ client.dll+0x21BF9B0 (pointer)
+# chain: C_CSTeam -> C_Team -> C_BaseEntity -> CEntityInstance
+
+# CCSPlayerController @ client.dll+0x21C6E60 (pointer)
+# chain: CCSPlayerController -> CBasePlayerController -> C_BaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2 -> IDecoratedPlayerNameProvider
+
+# CInButtonState @ client.dll+0x221CA88 (static)
+
+# C_CSPlayerPawn @ client.dll+0x222DE78 (pointer)
+# chain: C_CSPlayerPawn -> C_CSPlayerPawnBase -> C_BasePlayerPawn -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+
+# C_CSObserverPawn @ client.dll+0x222DE80 (pointer)
+# chain: C_CSObserverPawn -> C_CSPlayerPawnBase -> C_BasePlayerPawn -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2
+
+# GameAmmoTypeInfo_t @ client.dll+0x24A77F8 (pointer)
+# chain: GameAmmoTypeInfo_t -> AmmoTypeInfo_t
+
+# CBasePlayerWeaponVData @ client.dll+0x24B9A90 (static)
+# chain: CBasePlayerWeaponVData -> CEntitySubclassVDataBase -> CMemZeroOnNew
+
+# C_EconItemView @ client.dll+0x24CA780 (static)
+# chain: C_EconItemView -> IEconItemInterface
+
+# C_CSPlayerResource @ client.dll+0x2523F60 (pointer)
+# chain: C_CSPlayerResource -> C_BaseEntity -> CEntityInstance
+
+# C_World @ client.dll+0x254B388 (pointer)
+# chain: C_World -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+
+# C_CSGameRules @ client.dll+0x2556E78 (pointer)
+# chain: C_CSGameRules -> C_TeamplayRules -> C_MultiplayRules -> C_GameRules -> CMemZeroOnNew
+
+# CNewParticleEffect @ client.dll+0x2557050 (pointer)
+# chain: CNewParticleEffect -> IParticleEffect
+
+# CTakeDamageInfo @ client.dll+0x255C610 (static)
+
+# CTakeDamageInfo @ client.dll+0x255C850 (pointer)
+
+# ================================================================
+# meshsystem.dll
+# ================================================================
+
+# CRenderMesh @ meshsystem.dll+0x207A40 (pointer)
+# chain: CRenderMesh -> ?$CRefCounted@V?$CRefCountServiceBase@VCRefMT -> ?$CRefCountServiceBase@VCRefMT
+
+# ================================================================
+# resourcesystem.dll
+# ================================================================
+
+# CRenderMesh @ resourcesystem.dll+0x89C78 (pointer)
+# chain: CRenderMesh -> ?$CRefCounted@V?$CRefCountServiceBase@VCRefMT -> ?$CRefCountServiceBase@VCRefMT
+
+# CParticleSystemDefinition @ resourcesystem.dll+0x8A458 (pointer)
+# chain: CParticleSystemDefinition -> IParticleSystemDefinition
+
+# ================================================================
+# server.dll
+# ================================================================
+
+# IntervalTimer @ server.dll+0x1D8E958 (static)
+
+# CountdownTimer @ server.dll+0x1D90788 (static)
+
+# CInButtonState @ server.dll+0x1E07DE8 (static)
+
+# CCSPlayerController @ server.dll+0x1FD9D48 (pointer)
+# chain: CCSPlayerController -> CBasePlayerController -> C_BaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2 -> IDecoratedPlayerNameProvider
+
+# GameAmmoTypeInfo_t @ server.dll+0x20F7008 (pointer)
+# chain: GameAmmoTypeInfo_t -> AmmoTypeInfo_t
+
+# CEconItemView @ server.dll+0x211CE90 (static)
+# chain: CEconItemView -> IEconItemInterface
+
+# CCommentarySystem @ server.dll+0x2188C80 (pointer)
+# chain: CCommentarySystem -> CAutoGameSystem -> IGameSystem
+
+# CTakeDamageInfo @ server.dll+0x2200130 (static)
+
+# CTakeDamageInfo @ server.dll+0x2200370 (pointer)
+
+# ================================================================
+# soundsystem.dll
+# ================================================================
+
+# CSndBeatPatternManager @ soundsystem.dll+0x5329E0 (static)
+# chain: CSndBeatPatternManager -> ISndBeatPatternManager -> IVDataResourceListener
+
+# CSndSeqInstruments @ soundsystem.dll+0x532C60 (static)
+# chain: CSndSeqInstruments -> ISndSeqInstruments
+

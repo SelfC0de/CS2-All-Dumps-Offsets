@@ -1,0 +1,10 @@
+// CTriggerTeleport
+// Size: 0xB345CA88 (-1287271800 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerTeleport -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

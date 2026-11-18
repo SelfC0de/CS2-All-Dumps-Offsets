@@ -1,0 +1,10 @@
+// CParticleCollectionBindingInstance
+// Size: 0xB364ECE7 (-1285231385 bytes)
+// Parent: CBasePulseGraphInstance
+// Module: animationsystem.dll
+//
+// Inheritance:
+//   CParticleCollectionBindingInstance -> CBasePulseGraphInstance -> IPulseHost_Unknown
+//
+
+// (no own fields)

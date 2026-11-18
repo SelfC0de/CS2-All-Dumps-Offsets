@@ -1,0 +1,44 @@
+// C_CSWeaponBaseGun
+// Size: 0xB345FFA1 (-1287258207 bytes)
+// Parent: C_CSWeaponBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSWeaponBaseGun -> C_CSWeaponBase -> C_BasePlayerWeapon -> C_EconEntity -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IHasAttributes -> IAttachmentOverride -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+// Direct subclasses (32):
+//   C_AK47
+//   C_DEagle
+//   C_WeaponAWP
+//   C_WeaponAug
+//   C_WeaponBizon
+//   C_WeaponCZ75a
+//   C_WeaponElite
+//   C_WeaponFamas
+//   C_WeaponFiveSeven
+//   C_WeaponG3SG1
+//   C_WeaponGalilAR
+//   C_WeaponGlock
+//   C_WeaponHKP2000
+//   C_WeaponM249
+//   C_WeaponM4A1
+//   C_WeaponM4A1Silencer
+//   C_WeaponMAC10
+//   C_WeaponMP5SD
+//   C_WeaponMP7
+//   C_WeaponMP9
+//   C_WeaponMag7
+//   C_WeaponNegev
+//   C_WeaponP250
+//   C_WeaponP90
+//   C_WeaponRevolver
+//   C_WeaponSCAR20
+//   C_WeaponSG556
+//   C_WeaponSSG08
+//   C_WeaponTaser
+//   C_WeaponTec9
+//   C_WeaponUMP45
+//   C_WeaponUSPSilencer
+//
+
+// (no own fields)

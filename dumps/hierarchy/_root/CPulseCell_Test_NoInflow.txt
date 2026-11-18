@@ -1,0 +1,10 @@
+// CPulseCell_Test_NoInflow
+// Size: 0xB34547AF (-1287305297 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseCell_Test_NoInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

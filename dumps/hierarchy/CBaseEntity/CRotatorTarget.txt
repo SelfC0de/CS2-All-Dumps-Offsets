@@ -1,0 +1,10 @@
+// CRotatorTarget
+// Size: 0xB345BC9F (-1287275361 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CRotatorTarget -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

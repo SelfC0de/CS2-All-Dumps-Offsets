@@ -1,0 +1,10 @@
+// CItemKevlar
+// Size: 0xB345CD04 (-1287271164 bytes)
+// Parent: CItem
+// Module: server.dll
+//
+// Inheritance:
+//   CItemKevlar -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CVMixPresetDSPProcessorDesc
+// Size: 0xB34535F7 (-1287309833 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixPresetDSPProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

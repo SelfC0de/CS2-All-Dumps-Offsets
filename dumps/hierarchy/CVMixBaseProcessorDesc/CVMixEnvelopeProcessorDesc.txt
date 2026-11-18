@@ -1,0 +1,10 @@
+// CVMixEnvelopeProcessorDesc
+// Size: 0xB345390C (-1287309044 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixEnvelopeProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

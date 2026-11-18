@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-12 08:33:41.7308395 UTC
+// 2026-11-18 06:23:05.2221886 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -47,7 +47,7 @@ pub mod cs2_dumper {
             // Member count: 34
             #[repr(u32)]
             pub enum VMixGraphCommandID_t {
-                CMD_INVALID = 0xFFFFFFFFFFFFFFFF,
+                CMD_INVALID = 0x-1,
                 CMD_CONTROL_CONVERT_DB_TO_GAIN = 0x1,
                 CMD_CONTROL_TRANSIENT_INPUT_STORE = 0x2,
                 CMD_CONTROL_TRANSIENT_INPUT_RESET = 0x3,
@@ -145,7 +145,7 @@ pub mod cs2_dumper {
             // Member count: 10
             #[repr(u32)]
             pub enum VMixFilterType_t {
-                FILTER_UNKNOWN = 0xFFFFFFFFFFFFFFFF,
+                FILTER_UNKNOWN = 0x-1,
                 FILTER_LOWPASS = 0x0,
                 FILTER_HIGHPASS = 0x1,
                 FILTER_BANDPASS = 0x2,
@@ -167,7 +167,7 @@ pub mod cs2_dumper {
             // Member count: 10
             #[repr(u32)]
             pub enum VMixSendOperator_t {
-                NO_VOICES = 0xFFFFFFFFFFFFFFFF,
+                NO_VOICES = 0x-1,
                 ALL_VOICES = 0x0,
                 ROOM_VOICES = 0x1,
                 FACING_VOICES = 0x2,

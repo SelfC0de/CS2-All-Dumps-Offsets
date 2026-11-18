@@ -1,0 +1,10 @@
+// C_OP_RemapVisibilityScalar
+// Size: 0xB34561CF (-1287298609 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapVisibilityScalar -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

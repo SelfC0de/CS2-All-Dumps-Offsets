@@ -1,0 +1,10 @@
+// C_CS2HudModelArms
+// Size: 0x6FAF0181 (1873740161 bytes)
+// Parent: C_CS2HudModelBase
+// Module: client.dll
+//
+// Inheritance:
+//   C_CS2HudModelArms -> C_CS2HudModelBase -> C_LateUpdatedAnimating -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> IBoneTransformModifier
+//
+
+// (no own fields)

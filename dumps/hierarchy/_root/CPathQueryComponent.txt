@@ -1,0 +1,10 @@
+// CPathQueryComponent
+// Size: 0xB3458B38 (-1287288008 bytes)
+// Parent: CEntityComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CPathQueryComponent -> CEntityComponent -> CPathQueryUtil
+//
+
+// (no own fields)

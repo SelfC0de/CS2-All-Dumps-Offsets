@@ -1,0 +1,43 @@
+// CBaseEntity
+// Size: 0xB3459560 (-1287285408 bytes)
+// Parent: CEntityInstance
+// Module: server.dll
+//
+// Inheritance:
+//   CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (31):
+//   CAI_ChangeHintGroup
+//   CCSGO_TeamPreviewCharacterPosition
+//   CCSPointScriptEntity
+//   CCommentaryAuto
+//   CDebugHistory
+//   CEnableMotionFixup
+//   CEnvBeverage
+//   CEnvCombinedLightProbeVolume
+//   CEnvEntityIgniter
+//   CEnvWind
+//   CFishPool
+//   CFuncPropRespawnZone
+//   CFuncTimescale
+//   CGameGibManager
+//   CHandleDummy
+//   CLogicAuto
+//   CLogicGameStateReport
+//   CLogicNPCCounter
+//   CMapVetoPickController
+//   CNullEntity
+//   CPhysicsSpring
+//   CPhysicsWire
+//   CPointEntityFinder
+//   CPointPulse
+//   CScriptedSequence
+//   CServerOnlyEntity
+//   CSkyCameraVolumeTarget
+//   CSoundEventParameter
+//   CSoundOpvarSetEntity
+//   CTeam
+//   CTestEffect
+//
+
+// (no own fields)

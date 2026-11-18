@@ -1,0 +1,10 @@
+// CNmEventConsumerContact
+// Size: 0xB3458D39 (-1287287495 bytes)
+// Parent: CNmEventConsumer
+// Module: client.dll
+//
+// Inheritance:
+//   CNmEventConsumerContact -> CNmEventConsumer
+//
+
+// (no own fields)

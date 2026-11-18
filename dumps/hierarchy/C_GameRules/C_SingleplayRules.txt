@@ -1,0 +1,10 @@
+// C_SingleplayRules
+// Size: 0xB345EA5A (-1287263654 bytes)
+// Parent: C_GameRules
+// Module: client.dll
+//
+// Inheritance:
+//   C_SingleplayRules -> C_GameRules -> CMemZeroOnNew
+//
+
+// (no own fields)

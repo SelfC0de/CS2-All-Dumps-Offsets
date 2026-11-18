@@ -1,0 +1,10 @@
+// C_OP_NoiseEmitter
+// Size: 0xB3455D1E (-1287299810 bytes)
+// Parent: CParticleFunctionEmitter
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_NoiseEmitter -> CParticleFunctionEmitter -> CParticleFunction
+//
+
+// (no own fields)

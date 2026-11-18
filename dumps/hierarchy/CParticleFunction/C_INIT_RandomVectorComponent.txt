@@ -1,0 +1,10 @@
+// C_INIT_RandomVectorComponent
+// Size: 0xB34551AA (-1287302742 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RandomVectorComponent -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

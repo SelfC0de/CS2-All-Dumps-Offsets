@@ -1,0 +1,10 @@
+// C_PlayerPing
+// Size: 0xB345EDE2 (-1287262750 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_PlayerPing -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

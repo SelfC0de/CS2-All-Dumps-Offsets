@@ -1,0 +1,10 @@
+// CServerRagdollTrigger
+// Size: 0xB345C8BF (-1287272257 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CServerRagdollTrigger -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_OrientTo2dDirection
+// Size: 0xB3456A94 (-1287296364 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_OrientTo2dDirection -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

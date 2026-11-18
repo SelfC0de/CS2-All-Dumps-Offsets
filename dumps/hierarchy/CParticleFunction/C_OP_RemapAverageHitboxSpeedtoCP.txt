@@ -1,0 +1,10 @@
+// C_OP_RemapAverageHitboxSpeedtoCP
+// Size: 0xB345729D (-1287294307 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapAverageHitboxSpeedtoCP -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CFuncMoverRouter
+// Size: 0xB345961D (-1287285219 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncMoverRouter -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

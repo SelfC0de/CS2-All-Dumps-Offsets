@@ -1,0 +1,10 @@
+// CLogicDistanceAutosave
+// Size: 0xB345B62F (-1287277009 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicDistanceAutosave -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

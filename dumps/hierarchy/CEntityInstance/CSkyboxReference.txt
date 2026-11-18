@@ -1,0 +1,10 @@
+// CSkyboxReference
+// Size: 0xB345987A (-1287284614 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CSkyboxReference -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_ReinitializeScalarEndCap
+// Size: 0xB3456141 (-1287298751 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ReinitializeScalarEndCap -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_INIT_RandomRadius
+// Size: 0xB345520E (-1287302642 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RandomRadius -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_PercentageBetweenTransformsVector
+// Size: 0xB345676D (-1287297171 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_PercentageBetweenTransformsVector -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

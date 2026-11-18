@@ -1,0 +1,14 @@
+// CBodyComponent
+// Size: 0xB3457E9B (-1287291237 bytes)
+// Parent: CEntityComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CBodyComponent -> CEntityComponent
+//
+// Direct subclasses (2):
+//   CBodyComponentPoint
+//   CBodyComponentSkeletonInstance
+//
+
+// (no own fields)

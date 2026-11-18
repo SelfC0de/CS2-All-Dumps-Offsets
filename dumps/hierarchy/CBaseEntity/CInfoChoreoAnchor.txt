@@ -1,0 +1,10 @@
+// CInfoChoreoAnchor
+// Size: 0xB345B850 (-1287276464 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CInfoChoreoAnchor -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

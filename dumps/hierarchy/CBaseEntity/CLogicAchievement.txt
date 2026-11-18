@@ -1,0 +1,10 @@
+// CLogicAchievement
+// Size: 0xB345B436 (-1287277514 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicAchievement -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

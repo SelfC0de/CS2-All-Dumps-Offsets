@@ -8,7 +8,7 @@
 #include <cstddef>
 #include <cstdint>
 
-namespace pb { inline constexpr std::uint32_t CS2_BUILD = 14197; }
+namespace pb { inline constexpr std::uint32_t CS2_BUILD = 14198; }
 
 namespace pb {
     // std::string the message owns (ArenaStringPtr points at one). Opaque.
@@ -25,6 +25,18 @@ namespace pb::client {
     struct CBaseUserCmdExecutionNotes;
     struct CBaseUserCmdPB;
     struct CUserCmdBasePB;
+    struct CMsgTEPlayerAnimEvent;
+    struct CMsgTERadioIcon;
+    struct CMsgTEFireBullets;
+    struct CMsgTEFireBullets_Extra;
+    struct CMsgPlayerBulletHit;
+    struct CP2P_TextMessage;
+    struct CSteam_Voice_Encoding;
+    struct CP2P_Voice;
+    struct CP2P_Ping;
+    struct CP2P_VRAvatarPosition;
+    struct CP2P_VRAvatarPosition_COrientation;
+    struct CP2P_WatchSynchronization;
     struct CGCStorePurchaseInit_LineItem;
     struct CMsgGCStorePurchaseInit;
     struct CMsgGCStorePurchaseInitResponse;
@@ -57,6 +69,8 @@ namespace pb::client {
     struct CSOEconClaimCode;
     struct CMsgStoreGetUserData;
     struct CMsgStoreGetUserDataResponse;
+    struct CMsgVolatileContainerPricesheet;
+    struct CMsgVolatileContainerPricesheet_Entry;
     struct CMsgUpdateItemSchema;
     struct CMsgGCError;
     struct CMsgRequestInventoryRefresh;
@@ -382,23 +396,6 @@ namespace pb::client {
     struct CMsgRequestRecurringMissionSchedule;
     struct CMsgRecurringMissionSchema;
     struct CMsgRecurringMissionSchema_MissionTemplateList;
-    struct CMsgTEPlayerAnimEvent;
-    struct CMsgTERadioIcon;
-    struct CMsgTEFireBullets;
-    struct CMsgTEFireBullets_Extra;
-    struct CMsgPlayerBulletHit;
-    struct CP2P_TextMessage;
-    struct CSteam_Voice_Encoding;
-    struct CP2P_Voice;
-    struct CP2P_Ping;
-    struct CP2P_VRAvatarPosition;
-    struct CP2P_VRAvatarPosition_COrientation;
-    struct CP2P_WatchSynchronization;
-    struct CMsgGCGiftedItems;
-    struct CMsgGCDev_SchemaReservationRequest;
-    struct CMsgCasketItem;
-    struct CMsgGCUserTrackTimePlayedConsecutively;
-    struct CMsgGCItemCustomizationNotification;
     struct CMsgGCHVacVerificationChange;
     struct CMsgGCHAccountPhoneNumberChange;
     struct CMsgGCHInviteUserToLobby;
@@ -413,6 +410,29 @@ namespace pb::client {
     struct CCommunity_GetGamePersonalDataEntries_Response;
     struct CCommunity_TerminateGamePersonalDataEntries_Request;
     struct CCommunity_TerminateGamePersonalDataEntries_Response;
+    struct CMsgGCGiftedItems;
+    struct CMsgGCDev_SchemaReservationRequest;
+    struct CMsgCasketItem;
+    struct CMsgGCUserTrackTimePlayedConsecutively;
+    struct CMsgGCItemCustomizationNotification;
+    struct CMsgVDebugGameSessionIDEvent;
+    struct CMsgPlaceDecalEvent;
+    struct CMsgClearWorldDecalsEvent;
+    struct CMsgClearEntityDecalsEvent;
+    struct CMsgClearDecalsForEntityEvent;
+    struct CMsgSource1LegacyGameEventList;
+    struct CMsgSource1LegacyGameEventList_key_t;
+    struct CMsgSource1LegacyGameEventList_descriptor_t;
+    struct CMsgSource1LegacyListenEvents;
+    struct CMsgSource1LegacyGameEvent;
+    struct CMsgSource1LegacyGameEvent_key_t;
+    struct CMsgSosStartSoundEvent;
+    struct CMsgSosStopSoundEvent;
+    struct CMsgSosStopSoundEventHash;
+    struct CMsgSosSetSoundEventParams;
+    struct CMsgSosSetLibraryStackFields;
+    struct CMsgClothStiffenAnimEvent;
+    struct CMsgClothEffectAnimEvent;
     struct CDemoFileHeader;
     struct CGameInfo;
     struct CGameInfo_CDotaGameInfo;
@@ -441,34 +461,6 @@ namespace pb::client {
     struct CDemoSpawnGroupsHLTVBroadcast;
     struct CDemoRecovery;
     struct CDemoRecovery_DemoInitialSpawnGroupEntry;
-    struct CMsgVDebugGameSessionIDEvent;
-    struct CMsgPlaceDecalEvent;
-    struct CMsgClearWorldDecalsEvent;
-    struct CMsgClearEntityDecalsEvent;
-    struct CMsgClearDecalsForEntityEvent;
-    struct CMsgSource1LegacyGameEventList;
-    struct CMsgSource1LegacyGameEventList_key_t;
-    struct CMsgSource1LegacyGameEventList_descriptor_t;
-    struct CMsgSource1LegacyListenEvents;
-    struct CMsgSource1LegacyGameEvent;
-    struct CMsgSource1LegacyGameEvent_key_t;
-    struct CMsgSosStartSoundEvent;
-    struct CMsgSosStopSoundEvent;
-    struct CMsgSosStopSoundEventHash;
-    struct CMsgSosSetSoundEventParams;
-    struct CMsgSosSetLibraryStackFields;
-    struct CMsgClothStiffenAnimEvent;
-    struct CMsgClothEffectAnimEvent;
-    struct MLDict;
-    struct MLEvent;
-    struct MLMatchState;
-    struct MLRoundState;
-    struct MLWeaponState;
-    struct MLPlayerState;
-    struct MLGameState;
-    struct MLDemoHeader;
-    struct MLTick;
-    struct VacNetShot;
     struct CEngineGotvSyncPacket;
     struct CMsgSOIDOwner;
     struct CMsgSOSingleObject;
@@ -520,6 +512,16 @@ namespace pb::client {
     struct CMsgSerializedSOCache_TypeCache;
     struct CMsgSerializedSOCache_Cache;
     struct CMsgSerializedSOCache_Cache_Version;
+    struct MLDict;
+    struct MLEvent;
+    struct MLMatchState;
+    struct MLRoundState;
+    struct MLWeaponState;
+    struct MLPlayerState;
+    struct MLGameState;
+    struct MLDemoHeader;
+    struct MLTick;
+    struct VacNetShot;
     struct CMsgVector;
     struct CMsgVector2D;
     struct CMsgQAngle;
@@ -565,9 +567,6 @@ namespace pb::client {
     struct CSource2Metrics_FetchMapData_Response_MapData;
     struct CUserMessage_UserSentBugBug;
     struct CMsgAckPetEvent;
-    struct CPredictionEvent_Teleport;
-    struct CPredictionEvent_StringCommand;
-    struct CPredictionEvent_Diagnostic;
     struct CCLCMsg_ClientInfo;
     struct CCLCMsg_Move;
     struct CMsgVoiceAudio;
@@ -645,11 +644,14 @@ namespace pb::client {
     struct CMsgServerUserCmd;
     struct CSVCMsg_UserCommands;
     struct CSVCMsg_NextMsgPredicted;
-    struct COAuthToken_ImplicitGrantNoPrompt_Request;
-    struct COAuthToken_ImplicitGrantNoPrompt_Response;
+    struct CPredictionEvent_Teleport;
+    struct CPredictionEvent_StringCommand;
+    struct CPredictionEvent_Diagnostic;
     struct CMsgProtoBufHeader;
     struct CChinaAgreementSessions_StartAgreementSessionInGame_Request;
     struct CChinaAgreementSessions_StartAgreementSessionInGame_Response;
+    struct COAuthToken_ImplicitGrantNoPrompt_Request;
+    struct COAuthToken_ImplicitGrantNoPrompt_Response;
     struct CPlayer_GetMutualFriendsForIncomingInvites_Request;
     struct CPlayer_IncomingInviteMutualFriendList;
     struct CPlayer_GetMutualFriendsForIncomingInvites_Response;
@@ -1237,13 +1239,14 @@ namespace pb::server {
     struct CBaseUserCmdExecutionNotes;
     struct CBaseUserCmdPB;
     struct CUserCmdBasePB;
+    struct CClientMsg_CustomGameEvent;
+    struct CClientMsg_CustomGameEventBounce;
+    struct CClientMsg_ClientUIEvent;
+    struct CClientMsg_DevPaletteVisibilityChangedEvent;
+    struct CClientMsg_WorldUIControllerHasPanelChangedEvent;
+    struct CClientMsg_RotateAnchor;
     struct CCSPredictionEvent_DamageTag;
     struct CCSPredictionEvent_PlayerTeleport;
-    struct CMsgTEPlayerAnimEvent;
-    struct CMsgTERadioIcon;
-    struct CMsgTEFireBullets;
-    struct CMsgTEFireBullets_Extra;
-    struct CMsgPlayerBulletHit;
     struct CCSUsrMsg_VGUIMenu;
     struct CCSUsrMsg_VGUIMenu_Keys;
     struct CCSUsrMsg_Geiger;
@@ -1338,6 +1341,11 @@ namespace pb::server {
     struct CVacNet_GetReviewerInfo_Request;
     struct CVacnetReviewerInfo;
     struct CVacNet_GetReviewerInfo_Response;
+    struct CMsgTEPlayerAnimEvent;
+    struct CMsgTERadioIcon;
+    struct CMsgTEFireBullets;
+    struct CMsgTEFireBullets_Extra;
+    struct CMsgPlayerBulletHit;
     struct GameServerPing;
     struct DataCenterPing;
     struct DetailedSearchStatistic;
@@ -1547,6 +1555,8 @@ namespace pb::server {
     struct CSOEconClaimCode;
     struct CMsgStoreGetUserData;
     struct CMsgStoreGetUserDataResponse;
+    struct CMsgVolatileContainerPricesheet;
+    struct CMsgVolatileContainerPricesheet_Entry;
     struct CMsgUpdateItemSchema;
     struct CMsgGCError;
     struct CMsgRequestInventoryRefresh;
@@ -1593,12 +1603,6 @@ namespace pb::server {
     struct CMsgOpenCrate;
     struct CSOEconRentalHistory;
     struct CMsgAcknowledgeRentalExpiration;
-    struct CClientMsg_CustomGameEvent;
-    struct CClientMsg_CustomGameEventBounce;
-    struct CClientMsg_ClientUIEvent;
-    struct CClientMsg_DevPaletteVisibilityChangedEvent;
-    struct CClientMsg_WorldUIControllerHasPanelChangedEvent;
-    struct CClientMsg_RotateAnchor;
     struct MLDict;
     struct MLEvent;
     struct MLMatchState;
@@ -1609,24 +1613,6 @@ namespace pb::server {
     struct MLDemoHeader;
     struct MLTick;
     struct VacNetShot;
-    struct CMsgVDebugGameSessionIDEvent;
-    struct CMsgPlaceDecalEvent;
-    struct CMsgClearWorldDecalsEvent;
-    struct CMsgClearEntityDecalsEvent;
-    struct CMsgClearDecalsForEntityEvent;
-    struct CMsgSource1LegacyGameEventList;
-    struct CMsgSource1LegacyGameEventList_key_t;
-    struct CMsgSource1LegacyGameEventList_descriptor_t;
-    struct CMsgSource1LegacyListenEvents;
-    struct CMsgSource1LegacyGameEvent;
-    struct CMsgSource1LegacyGameEvent_key_t;
-    struct CMsgSosStartSoundEvent;
-    struct CMsgSosStopSoundEvent;
-    struct CMsgSosStopSoundEventHash;
-    struct CMsgSosSetSoundEventParams;
-    struct CMsgSosSetLibraryStackFields;
-    struct CMsgClothStiffenAnimEvent;
-    struct CMsgClothEffectAnimEvent;
     struct CMsgSOIDOwner;
     struct CMsgSOSingleObject;
     struct CMsgSOMultipleObjects;
@@ -1677,6 +1663,24 @@ namespace pb::server {
     struct CMsgSerializedSOCache_TypeCache;
     struct CMsgSerializedSOCache_Cache;
     struct CMsgSerializedSOCache_Cache_Version;
+    struct CMsgVDebugGameSessionIDEvent;
+    struct CMsgPlaceDecalEvent;
+    struct CMsgClearWorldDecalsEvent;
+    struct CMsgClearEntityDecalsEvent;
+    struct CMsgClearDecalsForEntityEvent;
+    struct CMsgSource1LegacyGameEventList;
+    struct CMsgSource1LegacyGameEventList_key_t;
+    struct CMsgSource1LegacyGameEventList_descriptor_t;
+    struct CMsgSource1LegacyListenEvents;
+    struct CMsgSource1LegacyGameEvent;
+    struct CMsgSource1LegacyGameEvent_key_t;
+    struct CMsgSosStartSoundEvent;
+    struct CMsgSosStopSoundEvent;
+    struct CMsgSosStopSoundEventHash;
+    struct CMsgSosSetSoundEventParams;
+    struct CMsgSosSetLibraryStackFields;
+    struct CMsgClothStiffenAnimEvent;
+    struct CMsgClothEffectAnimEvent;
     struct CDemoFileHeader;
     struct CGameInfo;
     struct CGameInfo_CDotaGameInfo;
@@ -1705,12 +1709,12 @@ namespace pb::server {
     struct CDemoSpawnGroupsHLTVBroadcast;
     struct CDemoRecovery;
     struct CDemoRecovery_DemoInitialSpawnGroupEntry;
+    struct CEngineGotvSyncPacket;
     struct CMsgGCGiftedItems;
     struct CMsgGCDev_SchemaReservationRequest;
     struct CMsgCasketItem;
     struct CMsgGCUserTrackTimePlayedConsecutively;
     struct CMsgGCItemCustomizationNotification;
-    struct CEngineGotvSyncPacket;
     struct CMsgVector;
     struct CMsgVector2D;
     struct CMsgQAngle;
@@ -1817,9 +1821,6 @@ namespace pb::server {
     struct CSVCMsg_UserCommands;
     struct CSVCMsg_NextMsgPredicted;
     struct CMsgAckPetEvent;
-    struct CPredictionEvent_Teleport;
-    struct CPredictionEvent_StringCommand;
-    struct CPredictionEvent_Diagnostic;
     struct CMsgGCHVacVerificationChange;
     struct CMsgGCHAccountPhoneNumberChange;
     struct CMsgGCHInviteUserToLobby;
@@ -1834,6 +1835,9 @@ namespace pb::server {
     struct CCommunity_GetGamePersonalDataEntries_Response;
     struct CCommunity_TerminateGamePersonalDataEntries_Request;
     struct CCommunity_TerminateGamePersonalDataEntries_Response;
+    struct CPredictionEvent_Teleport;
+    struct CPredictionEvent_StringCommand;
+    struct CPredictionEvent_Diagnostic;
     struct CMsgSource2SystemSpecs;
     struct CMsgSource2VProfLiteReportItem;
     struct CMsgSource2VProfLiteReport;
@@ -2129,6 +2133,243 @@ struct CUserCmdBasePB { // sizeof 0x20, _has_bits_ @ 0x10
 #pragma pack(pop)
 static_assert(sizeof(CUserCmdBasePB) == 0x20);
 static_assert(offsetof(CUserCmdBasePB, base) == 0x18);
+
+#pragma pack(push, 1)
+struct CMsgTEPlayerAnimEvent { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t event; // #2 uint32, has-bit 0
+    int32_t data; // #3 int32, has-bit 1
+    uint32_t player; // #1 fixed32, has-bit 2
+    uint8_t _pad_24[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgTEPlayerAnimEvent) == 0x28);
+static_assert(offsetof(CMsgTEPlayerAnimEvent, event) == 0x18);
+static_assert(offsetof(CMsgTEPlayerAnimEvent, data) == 0x1c);
+static_assert(offsetof(CMsgTEPlayerAnimEvent, player) == 0x20);
+
+#pragma pack(push, 1)
+struct CMsgTERadioIcon { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t player; // #1 fixed32, has-bit 0
+    uint8_t _pad_1c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgTERadioIcon) == 0x20);
+static_assert(offsetof(CMsgTERadioIcon, player) == 0x18);
+
+#pragma pack(push, 1)
+struct CMsgTEFireBullets { // sizeof 0x40, _has_bits_ @ 0x10
+    uint8_t spread[0x1]; // #9 float, has-bit 16
+    uint8_t sound_type[0x1]; // #10 int32, has-bit 8
+    uint8_t item_def_index[0x1]; // #11 uint32, no has-bit
+    uint8_t sound_dsp_effect[0x1]; // #12 fixed32, no has-bit
+    uint8_t ent_origin[0x1]; // #13 message CMsgVector, no has-bit
+    uint8_t num_bullets_remaining[0x1]; // #14 uint32, no has-bit
+    uint8_t attack_type[0x1]; // #15 uint32, has-bit 24
+    uint8_t extra[0x1]; // #16 message CMsgTEFireBullets.Extra, has-bit 32
+    bool player_scoped; // #18 bool, has-bit 56
+    uint8_t _pad_9[0x7];
+    bool player_inair; // #17 bool, has-bit 104
+    uint8_t _pad_11[0x7];
+    pb::client::CMsgVector* origin; // #1 message CMsgVector, has-bit 0
+    uint8_t angles[0x4]; // #2 message CMsgQAngle, has-bit 1
+    uint32_t weapon_id; // #3 uint32, has-bit 2
+    uint32_t mode; // #4 uint32, has-bit 3
+    uint32_t seed; // #5 uint32, has-bit 4
+    uint32_t player; // #6 fixed32, has-bit 5
+    float inaccuracy; // #7 float, has-bit 6
+    float recoil_index; // #8 float, has-bit 7
+    uint8_t _pad_3c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x40;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgTEFireBullets) == 0x40);
+static_assert(offsetof(CMsgTEFireBullets, spread) == 0x0);
+static_assert(offsetof(CMsgTEFireBullets, sound_type) == 0x1);
+static_assert(offsetof(CMsgTEFireBullets, item_def_index) == 0x2);
+static_assert(offsetof(CMsgTEFireBullets, sound_dsp_effect) == 0x3);
+static_assert(offsetof(CMsgTEFireBullets, ent_origin) == 0x4);
+static_assert(offsetof(CMsgTEFireBullets, num_bullets_remaining) == 0x5);
+static_assert(offsetof(CMsgTEFireBullets, attack_type) == 0x6);
+static_assert(offsetof(CMsgTEFireBullets, extra) == 0x7);
+static_assert(offsetof(CMsgTEFireBullets, player_scoped) == 0x8);
+static_assert(offsetof(CMsgTEFireBullets, player_inair) == 0x10);
+static_assert(offsetof(CMsgTEFireBullets, origin) == 0x18);
+static_assert(offsetof(CMsgTEFireBullets, angles) == 0x20);
+static_assert(offsetof(CMsgTEFireBullets, weapon_id) == 0x24);
+static_assert(offsetof(CMsgTEFireBullets, mode) == 0x28);
+static_assert(offsetof(CMsgTEFireBullets, seed) == 0x2c);
+static_assert(offsetof(CMsgTEFireBullets, player) == 0x30);
+static_assert(offsetof(CMsgTEFireBullets, inaccuracy) == 0x34);
+static_assert(offsetof(CMsgTEFireBullets, recoil_index) == 0x38);
+
+#pragma pack(push, 1)
+struct CMsgTEFireBullets_Extra { // sizeof 0x70, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::client::CMsgQAngle* aim_punch; // #1 message CMsgQAngle, has-bit 0
+    int32_t attack_tick_count; // #2 int32, has-bit 1
+    uint8_t _pad_24[0x14];
+    int32_t render_tick_count; // #4 int32, has-bit 4
+    float render_tick_frac; // #5 float, has-bit 5
+    float inaccuracy_air; // #7 float, has-bit 6
+    int32_t type; // #8 int32, has-bit 7
+    uint8_t _pad_48[0x20];
+    float attack_tick_frac; // #3 float, has-bit 17
+    float inaccuracy_move; // #6 float, has-bit 18
+    static constexpr std::ptrdiff_t kSizeOf = 0x70;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgTEFireBullets_Extra) == 0x70);
+static_assert(offsetof(CMsgTEFireBullets_Extra, aim_punch) == 0x18);
+static_assert(offsetof(CMsgTEFireBullets_Extra, attack_tick_count) == 0x20);
+static_assert(offsetof(CMsgTEFireBullets_Extra, render_tick_count) == 0x38);
+static_assert(offsetof(CMsgTEFireBullets_Extra, render_tick_frac) == 0x3c);
+static_assert(offsetof(CMsgTEFireBullets_Extra, inaccuracy_air) == 0x40);
+static_assert(offsetof(CMsgTEFireBullets_Extra, type) == 0x44);
+static_assert(offsetof(CMsgTEFireBullets_Extra, attack_tick_frac) == 0x68);
+static_assert(offsetof(CMsgTEFireBullets_Extra, inaccuracy_move) == 0x6c);
+
+#pragma pack(push, 1)
+struct CMsgPlayerBulletHit { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::client::CMsgVector* victim_pos; // #3 message CMsgVector, has-bit 0
+    int32_t hit_group; // #4 int32, has-bit 1
+    int32_t damage; // #5 int32, has-bit 2
+    int32_t penetration_count; // #6 int32, has-bit 3
+    bool is_kill; // #7 bool, has-bit 4
+    bool through_smoke; // #8 bool, has-bit 5
+    uint8_t _pad_2e[0x2];
+    int32_t attacker_slot; // #1 int32, has-bit 6
+    int32_t victim_slot; // #2 int32, has-bit 7
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgPlayerBulletHit) == 0x38);
+static_assert(offsetof(CMsgPlayerBulletHit, victim_pos) == 0x18);
+static_assert(offsetof(CMsgPlayerBulletHit, hit_group) == 0x20);
+static_assert(offsetof(CMsgPlayerBulletHit, damage) == 0x24);
+static_assert(offsetof(CMsgPlayerBulletHit, penetration_count) == 0x28);
+static_assert(offsetof(CMsgPlayerBulletHit, is_kill) == 0x2c);
+static_assert(offsetof(CMsgPlayerBulletHit, through_smoke) == 0x2d);
+static_assert(offsetof(CMsgPlayerBulletHit, attacker_slot) == 0x30);
+static_assert(offsetof(CMsgPlayerBulletHit, victim_slot) == 0x34);
+
+#pragma pack(push, 1)
+struct CP2P_TextMessage { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* text; // #1 bytes, has-bit 0
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CP2P_TextMessage) == 0x20);
+static_assert(offsetof(CP2P_TextMessage, text) == 0x18);
+
+#pragma pack(push, 1)
+struct CSteam_Voice_Encoding { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* voice_data; // #1 bytes, has-bit 0
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CSteam_Voice_Encoding) == 0x20);
+static_assert(offsetof(CSteam_Voice_Encoding, voice_data) == 0x18);
+
+#pragma pack(push, 1)
+struct CP2P_Voice { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::client::CMsgVoiceAudio* audio; // #1 message CMsgVoiceAudio, has-bit 0
+    uint32_t broadcast_group; // #2 uint32, has-bit 1
+    uint8_t _pad_24[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CP2P_Voice) == 0x28);
+static_assert(offsetof(CP2P_Voice, audio) == 0x18);
+static_assert(offsetof(CP2P_Voice, broadcast_group) == 0x20);
+
+#pragma pack(push, 1)
+struct CP2P_Ping { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint64_t send_time; // #1 uint64, has-bit 0
+    bool is_reply; // #2 bool, has-bit 1
+    uint8_t _pad_21[0x7];
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CP2P_Ping) == 0x28);
+static_assert(offsetof(CP2P_Ping, send_time) == 0x18);
+static_assert(offsetof(CP2P_Ping, is_reply) == 0x20);
+
+#pragma pack(push, 1)
+struct CP2P_VRAvatarPosition { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t scene_id[0x1]; // #3 int32, has-bit 16
+    int32_t world_scale; // #4 int32, has-bit 8
+    uint8_t _pad_5[0x13];
+    uint8_t body_parts[0x8]; // #1 repeated message CP2P_VRAvatarPosition.COrientation, has-bit 0
+    int32_t hat_id; // #2 int32, has-bit 1
+    uint8_t _pad_24[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CP2P_VRAvatarPosition) == 0x28);
+static_assert(offsetof(CP2P_VRAvatarPosition, scene_id) == 0x0);
+static_assert(offsetof(CP2P_VRAvatarPosition, world_scale) == 0x1);
+static_assert(offsetof(CP2P_VRAvatarPosition, body_parts) == 0x18);
+static_assert(offsetof(CP2P_VRAvatarPosition, hat_id) == 0x20);
+
+#pragma pack(push, 1)
+struct CP2P_VRAvatarPosition_COrientation { // sizeof 0x40, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::client::CMsgVector* pos; // #1 message CMsgVector, no has-bit
+    uint8_t _pad_20[0x10];
+    pb::client::CMsgQAngle* ang; // #2 message CMsgQAngle, has-bit 0
+    uint8_t _pad_38[0x8];
+    static constexpr std::ptrdiff_t kSizeOf = 0x40;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CP2P_VRAvatarPosition_COrientation) == 0x40);
+static_assert(offsetof(CP2P_VRAvatarPosition_COrientation, pos) == 0x18);
+static_assert(offsetof(CP2P_VRAvatarPosition_COrientation, ang) == 0x30);
+
+#pragma pack(push, 1)
+struct CP2P_WatchSynchronization { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    int32_t demo_tick; // #1 int32, has-bit 0
+    bool paused; // #2 bool, has-bit 1
+    bool dota_spectator_watching_broadcaster; // #5 bool, has-bit 2
+    uint8_t _pad_1e[0x2];
+    uint64_t tv_listen_voice_indices; // #3 uint64, has-bit 3
+    int32_t dota_spectator_mode; // #4 int32, has-bit 4
+    int32_t dota_spectator_hero_index; // #6 int32, has-bit 5
+    int32_t dota_spectator_autospeed; // #7 int32, has-bit 6
+    int32_t dota_replay_speed; // #8 int32, has-bit 7
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CP2P_WatchSynchronization) == 0x38);
+static_assert(offsetof(CP2P_WatchSynchronization, demo_tick) == 0x18);
+static_assert(offsetof(CP2P_WatchSynchronization, paused) == 0x1c);
+static_assert(offsetof(CP2P_WatchSynchronization, dota_spectator_watching_broadcaster) == 0x1d);
+static_assert(offsetof(CP2P_WatchSynchronization, tv_listen_voice_indices) == 0x20);
+static_assert(offsetof(CP2P_WatchSynchronization, dota_spectator_mode) == 0x28);
+static_assert(offsetof(CP2P_WatchSynchronization, dota_spectator_hero_index) == 0x2c);
+static_assert(offsetof(CP2P_WatchSynchronization, dota_spectator_autospeed) == 0x30);
+static_assert(offsetof(CP2P_WatchSynchronization, dota_replay_speed) == 0x34);
 
 #pragma pack(push, 1)
 struct CGCStorePurchaseInit_LineItem { // sizeof 0x38, _has_bits_ @ 0x10
@@ -2708,6 +2949,39 @@ static_assert(offsetof(CMsgStoreGetUserDataResponse, price_sheet) == 0x20);
 static_assert(offsetof(CMsgStoreGetUserDataResponse, result) == 0x28);
 static_assert(offsetof(CMsgStoreGetUserDataResponse, currency_deprecated) == 0x2c);
 static_assert(offsetof(CMsgStoreGetUserDataResponse, price_sheet_version) == 0x30);
+
+#pragma pack(push, 1)
+struct CMsgVolatileContainerPricesheet { // sizeof 0x30, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t version; // #1 uint32, has-bit 0
+    uint8_t _pad_1c[0x4];
+    uint8_t entries[0x10]; // #2 repeated message CMsgVolatileContainerPricesheet.Entry, has-bit 1
+    static constexpr std::ptrdiff_t kSizeOf = 0x30;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgVolatileContainerPricesheet) == 0x30);
+static_assert(offsetof(CMsgVolatileContainerPricesheet, version) == 0x18);
+static_assert(offsetof(CMsgVolatileContainerPricesheet, entries) == 0x20);
+
+#pragma pack(push, 1)
+struct CMsgVolatileContainerPricesheet_Entry { // sizeof 0x38, _has_bits_ @ 0x10
+    int32_t trend; // #3 sint32, has-bit 16
+    uint8_t _pad_4[0xc];
+    uint32_t high; // #5 uint32, no has-bit
+    uint8_t _pad_14[0x4];
+    uint32_t cost; // #2 uint32, no has-bit
+    uint8_t _pad_1c[0x14];
+    uint64_t key; // #1 fixed64, has-bit 0
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgVolatileContainerPricesheet_Entry) == 0x38);
+static_assert(offsetof(CMsgVolatileContainerPricesheet_Entry, trend) == 0x0);
+static_assert(offsetof(CMsgVolatileContainerPricesheet_Entry, high) == 0x10);
+static_assert(offsetof(CMsgVolatileContainerPricesheet_Entry, cost) == 0x18);
+static_assert(offsetof(CMsgVolatileContainerPricesheet_Entry, key) == 0x30);
 
 #pragma pack(push, 1)
 struct CMsgUpdateItemSchema { // sizeof 0x30, _has_bits_ @ 0x10
@@ -8187,320 +8461,6 @@ static_assert(offsetof(CMsgRecurringMissionSchema_MissionTemplateList, mission_t
 static_assert(offsetof(CMsgRecurringMissionSchema_MissionTemplateList, period) == 0x10);
 
 #pragma pack(push, 1)
-struct CMsgTEPlayerAnimEvent { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint32_t event; // #2 uint32, has-bit 0
-    int32_t data; // #3 int32, has-bit 1
-    uint32_t player; // #1 fixed32, has-bit 2
-    uint8_t _pad_24[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgTEPlayerAnimEvent) == 0x28);
-static_assert(offsetof(CMsgTEPlayerAnimEvent, event) == 0x18);
-static_assert(offsetof(CMsgTEPlayerAnimEvent, data) == 0x1c);
-static_assert(offsetof(CMsgTEPlayerAnimEvent, player) == 0x20);
-
-#pragma pack(push, 1)
-struct CMsgTERadioIcon { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint32_t player; // #1 fixed32, has-bit 0
-    uint8_t _pad_1c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgTERadioIcon) == 0x20);
-static_assert(offsetof(CMsgTERadioIcon, player) == 0x18);
-
-#pragma pack(push, 1)
-struct CMsgTEFireBullets { // sizeof 0x40, _has_bits_ @ 0x10
-    uint8_t spread[0x1]; // #9 float, has-bit 16
-    uint8_t sound_type[0x1]; // #10 int32, has-bit 8
-    uint8_t item_def_index[0x1]; // #11 uint32, no has-bit
-    uint8_t sound_dsp_effect[0x1]; // #12 fixed32, no has-bit
-    uint8_t ent_origin[0x1]; // #13 message CMsgVector, no has-bit
-    uint8_t num_bullets_remaining[0x1]; // #14 uint32, no has-bit
-    uint8_t attack_type[0x1]; // #15 uint32, has-bit 24
-    uint8_t extra[0x1]; // #16 message CMsgTEFireBullets.Extra, has-bit 32
-    bool player_scoped; // #18 bool, has-bit 56
-    uint8_t _pad_9[0x7];
-    bool player_inair; // #17 bool, has-bit 104
-    uint8_t _pad_11[0x7];
-    pb::client::CMsgVector* origin; // #1 message CMsgVector, has-bit 0
-    uint8_t angles[0x4]; // #2 message CMsgQAngle, has-bit 1
-    uint32_t weapon_id; // #3 uint32, has-bit 2
-    uint32_t mode; // #4 uint32, has-bit 3
-    uint32_t seed; // #5 uint32, has-bit 4
-    uint32_t player; // #6 fixed32, has-bit 5
-    float inaccuracy; // #7 float, has-bit 6
-    float recoil_index; // #8 float, has-bit 7
-    uint8_t _pad_3c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x40;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgTEFireBullets) == 0x40);
-static_assert(offsetof(CMsgTEFireBullets, spread) == 0x0);
-static_assert(offsetof(CMsgTEFireBullets, sound_type) == 0x1);
-static_assert(offsetof(CMsgTEFireBullets, item_def_index) == 0x2);
-static_assert(offsetof(CMsgTEFireBullets, sound_dsp_effect) == 0x3);
-static_assert(offsetof(CMsgTEFireBullets, ent_origin) == 0x4);
-static_assert(offsetof(CMsgTEFireBullets, num_bullets_remaining) == 0x5);
-static_assert(offsetof(CMsgTEFireBullets, attack_type) == 0x6);
-static_assert(offsetof(CMsgTEFireBullets, extra) == 0x7);
-static_assert(offsetof(CMsgTEFireBullets, player_scoped) == 0x8);
-static_assert(offsetof(CMsgTEFireBullets, player_inair) == 0x10);
-static_assert(offsetof(CMsgTEFireBullets, origin) == 0x18);
-static_assert(offsetof(CMsgTEFireBullets, angles) == 0x20);
-static_assert(offsetof(CMsgTEFireBullets, weapon_id) == 0x24);
-static_assert(offsetof(CMsgTEFireBullets, mode) == 0x28);
-static_assert(offsetof(CMsgTEFireBullets, seed) == 0x2c);
-static_assert(offsetof(CMsgTEFireBullets, player) == 0x30);
-static_assert(offsetof(CMsgTEFireBullets, inaccuracy) == 0x34);
-static_assert(offsetof(CMsgTEFireBullets, recoil_index) == 0x38);
-
-#pragma pack(push, 1)
-struct CMsgTEFireBullets_Extra { // sizeof 0x70, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::client::CMsgQAngle* aim_punch; // #1 message CMsgQAngle, has-bit 0
-    int32_t attack_tick_count; // #2 int32, has-bit 1
-    uint8_t _pad_24[0x14];
-    int32_t render_tick_count; // #4 int32, has-bit 4
-    float render_tick_frac; // #5 float, has-bit 5
-    float inaccuracy_air; // #7 float, has-bit 6
-    int32_t type; // #8 int32, has-bit 7
-    uint8_t _pad_48[0x20];
-    float attack_tick_frac; // #3 float, has-bit 17
-    float inaccuracy_move; // #6 float, has-bit 18
-    static constexpr std::ptrdiff_t kSizeOf = 0x70;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgTEFireBullets_Extra) == 0x70);
-static_assert(offsetof(CMsgTEFireBullets_Extra, aim_punch) == 0x18);
-static_assert(offsetof(CMsgTEFireBullets_Extra, attack_tick_count) == 0x20);
-static_assert(offsetof(CMsgTEFireBullets_Extra, render_tick_count) == 0x38);
-static_assert(offsetof(CMsgTEFireBullets_Extra, render_tick_frac) == 0x3c);
-static_assert(offsetof(CMsgTEFireBullets_Extra, inaccuracy_air) == 0x40);
-static_assert(offsetof(CMsgTEFireBullets_Extra, type) == 0x44);
-static_assert(offsetof(CMsgTEFireBullets_Extra, attack_tick_frac) == 0x68);
-static_assert(offsetof(CMsgTEFireBullets_Extra, inaccuracy_move) == 0x6c);
-
-#pragma pack(push, 1)
-struct CMsgPlayerBulletHit { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::client::CMsgVector* victim_pos; // #3 message CMsgVector, has-bit 0
-    int32_t hit_group; // #4 int32, has-bit 1
-    int32_t damage; // #5 int32, has-bit 2
-    int32_t penetration_count; // #6 int32, has-bit 3
-    bool is_kill; // #7 bool, has-bit 4
-    bool through_smoke; // #8 bool, has-bit 5
-    uint8_t _pad_2e[0x2];
-    int32_t attacker_slot; // #1 int32, has-bit 6
-    int32_t victim_slot; // #2 int32, has-bit 7
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgPlayerBulletHit) == 0x38);
-static_assert(offsetof(CMsgPlayerBulletHit, victim_pos) == 0x18);
-static_assert(offsetof(CMsgPlayerBulletHit, hit_group) == 0x20);
-static_assert(offsetof(CMsgPlayerBulletHit, damage) == 0x24);
-static_assert(offsetof(CMsgPlayerBulletHit, penetration_count) == 0x28);
-static_assert(offsetof(CMsgPlayerBulletHit, is_kill) == 0x2c);
-static_assert(offsetof(CMsgPlayerBulletHit, through_smoke) == 0x2d);
-static_assert(offsetof(CMsgPlayerBulletHit, attacker_slot) == 0x30);
-static_assert(offsetof(CMsgPlayerBulletHit, victim_slot) == 0x34);
-
-#pragma pack(push, 1)
-struct CP2P_TextMessage { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* text; // #1 bytes, has-bit 0
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CP2P_TextMessage) == 0x20);
-static_assert(offsetof(CP2P_TextMessage, text) == 0x18);
-
-#pragma pack(push, 1)
-struct CSteam_Voice_Encoding { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* voice_data; // #1 bytes, has-bit 0
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CSteam_Voice_Encoding) == 0x20);
-static_assert(offsetof(CSteam_Voice_Encoding, voice_data) == 0x18);
-
-#pragma pack(push, 1)
-struct CP2P_Voice { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::client::CMsgVoiceAudio* audio; // #1 message CMsgVoiceAudio, has-bit 0
-    uint32_t broadcast_group; // #2 uint32, has-bit 1
-    uint8_t _pad_24[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CP2P_Voice) == 0x28);
-static_assert(offsetof(CP2P_Voice, audio) == 0x18);
-static_assert(offsetof(CP2P_Voice, broadcast_group) == 0x20);
-
-#pragma pack(push, 1)
-struct CP2P_Ping { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint64_t send_time; // #1 uint64, has-bit 0
-    bool is_reply; // #2 bool, has-bit 1
-    uint8_t _pad_21[0x7];
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CP2P_Ping) == 0x28);
-static_assert(offsetof(CP2P_Ping, send_time) == 0x18);
-static_assert(offsetof(CP2P_Ping, is_reply) == 0x20);
-
-#pragma pack(push, 1)
-struct CP2P_VRAvatarPosition { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t scene_id[0x1]; // #3 int32, has-bit 16
-    int32_t world_scale; // #4 int32, has-bit 8
-    uint8_t _pad_5[0x13];
-    uint8_t body_parts[0x8]; // #1 repeated message CP2P_VRAvatarPosition.COrientation, has-bit 0
-    int32_t hat_id; // #2 int32, has-bit 1
-    uint8_t _pad_24[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CP2P_VRAvatarPosition) == 0x28);
-static_assert(offsetof(CP2P_VRAvatarPosition, scene_id) == 0x0);
-static_assert(offsetof(CP2P_VRAvatarPosition, world_scale) == 0x1);
-static_assert(offsetof(CP2P_VRAvatarPosition, body_parts) == 0x18);
-static_assert(offsetof(CP2P_VRAvatarPosition, hat_id) == 0x20);
-
-#pragma pack(push, 1)
-struct CP2P_VRAvatarPosition_COrientation { // sizeof 0x40, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::client::CMsgVector* pos; // #1 message CMsgVector, no has-bit
-    uint8_t _pad_20[0x10];
-    pb::client::CMsgQAngle* ang; // #2 message CMsgQAngle, has-bit 0
-    uint8_t _pad_38[0x8];
-    static constexpr std::ptrdiff_t kSizeOf = 0x40;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CP2P_VRAvatarPosition_COrientation) == 0x40);
-static_assert(offsetof(CP2P_VRAvatarPosition_COrientation, pos) == 0x18);
-static_assert(offsetof(CP2P_VRAvatarPosition_COrientation, ang) == 0x30);
-
-#pragma pack(push, 1)
-struct CP2P_WatchSynchronization { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    int32_t demo_tick; // #1 int32, has-bit 0
-    bool paused; // #2 bool, has-bit 1
-    bool dota_spectator_watching_broadcaster; // #5 bool, has-bit 2
-    uint8_t _pad_1e[0x2];
-    uint64_t tv_listen_voice_indices; // #3 uint64, has-bit 3
-    int32_t dota_spectator_mode; // #4 int32, has-bit 4
-    int32_t dota_spectator_hero_index; // #6 int32, has-bit 5
-    int32_t dota_spectator_autospeed; // #7 int32, has-bit 6
-    int32_t dota_replay_speed; // #8 int32, has-bit 7
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CP2P_WatchSynchronization) == 0x38);
-static_assert(offsetof(CP2P_WatchSynchronization, demo_tick) == 0x18);
-static_assert(offsetof(CP2P_WatchSynchronization, paused) == 0x1c);
-static_assert(offsetof(CP2P_WatchSynchronization, dota_spectator_watching_broadcaster) == 0x1d);
-static_assert(offsetof(CP2P_WatchSynchronization, tv_listen_voice_indices) == 0x20);
-static_assert(offsetof(CP2P_WatchSynchronization, dota_spectator_mode) == 0x28);
-static_assert(offsetof(CP2P_WatchSynchronization, dota_spectator_hero_index) == 0x2c);
-static_assert(offsetof(CP2P_WatchSynchronization, dota_spectator_autospeed) == 0x30);
-static_assert(offsetof(CP2P_WatchSynchronization, dota_replay_speed) == 0x34);
-
-#pragma pack(push, 1)
-struct CMsgGCGiftedItems { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint8_t recipients_accountids[0x10]; // #5 repeated uint32, no has-bit
-    uint32_t accountid; // #1 uint32, has-bit 0
-    uint32_t giftdefindex; // #2 uint32, has-bit 1
-    uint32_t max_gifts_possible; // #3 uint32, has-bit 2
-    uint32_t num_eligible_recipients; // #4 uint32, has-bit 3
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgGCGiftedItems) == 0x38);
-static_assert(offsetof(CMsgGCGiftedItems, recipients_accountids) == 0x18);
-static_assert(offsetof(CMsgGCGiftedItems, accountid) == 0x28);
-static_assert(offsetof(CMsgGCGiftedItems, giftdefindex) == 0x2c);
-static_assert(offsetof(CMsgGCGiftedItems, max_gifts_possible) == 0x30);
-static_assert(offsetof(CMsgGCGiftedItems, num_eligible_recipients) == 0x34);
-
-#pragma pack(push, 1)
-struct CMsgGCDev_SchemaReservationRequest { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* schema_typename; // #1 string, has-bit 0
-    pb::string_t* instance_name; // #2 string, has-bit 1
-    uint64_t context; // #3 uint64, has-bit 2
-    uint64_t id; // #4 uint64, has-bit 3
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgGCDev_SchemaReservationRequest) == 0x38);
-static_assert(offsetof(CMsgGCDev_SchemaReservationRequest, schema_typename) == 0x18);
-static_assert(offsetof(CMsgGCDev_SchemaReservationRequest, instance_name) == 0x20);
-static_assert(offsetof(CMsgGCDev_SchemaReservationRequest, context) == 0x28);
-static_assert(offsetof(CMsgGCDev_SchemaReservationRequest, id) == 0x30);
-
-#pragma pack(push, 1)
-struct CMsgCasketItem { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint64_t casket_item_id; // #1 uint64, has-bit 0
-    uint64_t item_item_id; // #2 uint64, has-bit 1
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgCasketItem) == 0x28);
-static_assert(offsetof(CMsgCasketItem, casket_item_id) == 0x18);
-static_assert(offsetof(CMsgCasketItem, item_item_id) == 0x20);
-
-#pragma pack(push, 1)
-struct CMsgGCUserTrackTimePlayedConsecutively { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint32_t state; // #1 uint32, has-bit 0
-    uint8_t _pad_1c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgGCUserTrackTimePlayedConsecutively) == 0x20);
-static_assert(offsetof(CMsgGCUserTrackTimePlayedConsecutively, state) == 0x18);
-
-#pragma pack(push, 1)
-struct CMsgGCItemCustomizationNotification { // sizeof 0x40, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint8_t item_id[0x10]; // #1 repeated uint64, no has-bit
-    uint8_t extra_data[0x10]; // #3 repeated uint64, no has-bit
-    uint32_t request; // #2 uint32, has-bit 0
-    uint8_t _pad_3c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x40;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgGCItemCustomizationNotification) == 0x40);
-static_assert(offsetof(CMsgGCItemCustomizationNotification, item_id) == 0x18);
-static_assert(offsetof(CMsgGCItemCustomizationNotification, extra_data) == 0x28);
-static_assert(offsetof(CMsgGCItemCustomizationNotification, request) == 0x38);
-
-#pragma pack(push, 1)
 struct CMsgGCHVacVerificationChange { // sizeof 0x28, _has_bits_ @ 0x10
     uint8_t _pad_0[0x18];
     uint64_t steamid; // #1 fixed64, has-bit 0
@@ -8723,6 +8683,390 @@ struct CCommunity_TerminateGamePersonalDataEntries_Response { // sizeof 0x20, _h
 #pragma pack(pop)
 static_assert(sizeof(CCommunity_TerminateGamePersonalDataEntries_Response) == 0x20);
 static_assert(offsetof(CCommunity_TerminateGamePersonalDataEntries_Response, gceresult) == 0x18);
+
+#pragma pack(push, 1)
+struct CMsgGCGiftedItems { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint8_t recipients_accountids[0x10]; // #5 repeated uint32, no has-bit
+    uint32_t accountid; // #1 uint32, has-bit 0
+    uint32_t giftdefindex; // #2 uint32, has-bit 1
+    uint32_t max_gifts_possible; // #3 uint32, has-bit 2
+    uint32_t num_eligible_recipients; // #4 uint32, has-bit 3
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgGCGiftedItems) == 0x38);
+static_assert(offsetof(CMsgGCGiftedItems, recipients_accountids) == 0x18);
+static_assert(offsetof(CMsgGCGiftedItems, accountid) == 0x28);
+static_assert(offsetof(CMsgGCGiftedItems, giftdefindex) == 0x2c);
+static_assert(offsetof(CMsgGCGiftedItems, max_gifts_possible) == 0x30);
+static_assert(offsetof(CMsgGCGiftedItems, num_eligible_recipients) == 0x34);
+
+#pragma pack(push, 1)
+struct CMsgGCDev_SchemaReservationRequest { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* schema_typename; // #1 string, has-bit 0
+    pb::string_t* instance_name; // #2 string, has-bit 1
+    uint64_t context; // #3 uint64, has-bit 2
+    uint64_t id; // #4 uint64, has-bit 3
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgGCDev_SchemaReservationRequest) == 0x38);
+static_assert(offsetof(CMsgGCDev_SchemaReservationRequest, schema_typename) == 0x18);
+static_assert(offsetof(CMsgGCDev_SchemaReservationRequest, instance_name) == 0x20);
+static_assert(offsetof(CMsgGCDev_SchemaReservationRequest, context) == 0x28);
+static_assert(offsetof(CMsgGCDev_SchemaReservationRequest, id) == 0x30);
+
+#pragma pack(push, 1)
+struct CMsgCasketItem { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint64_t casket_item_id; // #1 uint64, has-bit 0
+    uint64_t item_item_id; // #2 uint64, has-bit 1
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgCasketItem) == 0x28);
+static_assert(offsetof(CMsgCasketItem, casket_item_id) == 0x18);
+static_assert(offsetof(CMsgCasketItem, item_item_id) == 0x20);
+
+#pragma pack(push, 1)
+struct CMsgGCUserTrackTimePlayedConsecutively { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t state; // #1 uint32, has-bit 0
+    uint8_t _pad_1c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgGCUserTrackTimePlayedConsecutively) == 0x20);
+static_assert(offsetof(CMsgGCUserTrackTimePlayedConsecutively, state) == 0x18);
+
+#pragma pack(push, 1)
+struct CMsgGCItemCustomizationNotification { // sizeof 0x40, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint8_t item_id[0x10]; // #1 repeated uint64, no has-bit
+    uint8_t extra_data[0x10]; // #3 repeated uint64, no has-bit
+    uint32_t request; // #2 uint32, has-bit 0
+    uint8_t _pad_3c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x40;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgGCItemCustomizationNotification) == 0x40);
+static_assert(offsetof(CMsgGCItemCustomizationNotification, item_id) == 0x18);
+static_assert(offsetof(CMsgGCItemCustomizationNotification, extra_data) == 0x28);
+static_assert(offsetof(CMsgGCItemCustomizationNotification, request) == 0x38);
+
+#pragma pack(push, 1)
+struct CMsgVDebugGameSessionIDEvent { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* gamesessionid; // #2 string, has-bit 0
+    int32_t clientid; // #1 int32, has-bit 1
+    uint8_t _pad_24[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgVDebugGameSessionIDEvent) == 0x28);
+static_assert(offsetof(CMsgVDebugGameSessionIDEvent, gamesessionid) == 0x18);
+static_assert(offsetof(CMsgVDebugGameSessionIDEvent, clientid) == 0x20);
+
+#pragma pack(push, 1)
+struct CMsgPlaceDecalEvent { // sizeof 0x70, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::client::CMsgVector* position; // #1 message CMsgVector, has-bit 0
+    pb::client::CMsgVector* normal; // #2 message CMsgVector, has-bit 1
+    pb::client::CMsgVector* saxis; // #3 message CMsgVector, has-bit 2
+    pb::client::CMsgVector* position_objectspace; // #14 message CMsgVector, has-bit 3
+    pb::client::CMsgVector* normal_objectspace; // #15 message CMsgVector, has-bit 4
+    int32_t boneindex; // #4 int32, has-bit 5
+    uint32_t color; // #6 fixed32, has-bit 6
+    int32_t random_seed; // #7 int32, has-bit 7
+    uint32_t decal_group_name; // #8 uint32, has-bit 8
+    float size_override; // #9 float, has-bit 9
+    uint32_t entityhandle; // #10 uint32, has-bit 10
+    uint32_t sequence_name; // #12 uint32, has-bit 11
+    uint8_t _pad_5c[0x4];
+    int32_t triangleindex; // #13 int32, has-bit 12
+    uint32_t flags; // #5 uint32, has-bit 13
+    uint64_t material_id; // #11 uint64, has-bit 14
+    static constexpr std::ptrdiff_t kSizeOf = 0x70;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgPlaceDecalEvent) == 0x70);
+static_assert(offsetof(CMsgPlaceDecalEvent, position) == 0x18);
+static_assert(offsetof(CMsgPlaceDecalEvent, normal) == 0x20);
+static_assert(offsetof(CMsgPlaceDecalEvent, saxis) == 0x28);
+static_assert(offsetof(CMsgPlaceDecalEvent, position_objectspace) == 0x30);
+static_assert(offsetof(CMsgPlaceDecalEvent, normal_objectspace) == 0x38);
+static_assert(offsetof(CMsgPlaceDecalEvent, boneindex) == 0x40);
+static_assert(offsetof(CMsgPlaceDecalEvent, color) == 0x44);
+static_assert(offsetof(CMsgPlaceDecalEvent, random_seed) == 0x48);
+static_assert(offsetof(CMsgPlaceDecalEvent, decal_group_name) == 0x4c);
+static_assert(offsetof(CMsgPlaceDecalEvent, size_override) == 0x50);
+static_assert(offsetof(CMsgPlaceDecalEvent, entityhandle) == 0x54);
+static_assert(offsetof(CMsgPlaceDecalEvent, sequence_name) == 0x58);
+static_assert(offsetof(CMsgPlaceDecalEvent, triangleindex) == 0x60);
+static_assert(offsetof(CMsgPlaceDecalEvent, flags) == 0x64);
+static_assert(offsetof(CMsgPlaceDecalEvent, material_id) == 0x68);
+
+#pragma pack(push, 1)
+struct CMsgClearWorldDecalsEvent { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t flagstoclear; // #1 uint32, has-bit 0
+    uint8_t _pad_1c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgClearWorldDecalsEvent) == 0x20);
+static_assert(offsetof(CMsgClearWorldDecalsEvent, flagstoclear) == 0x18);
+
+#pragma pack(push, 1)
+struct CMsgClearEntityDecalsEvent { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t flagstoclear; // #1 uint32, has-bit 0
+    uint8_t _pad_1c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgClearEntityDecalsEvent) == 0x20);
+static_assert(offsetof(CMsgClearEntityDecalsEvent, flagstoclear) == 0x18);
+
+#pragma pack(push, 1)
+struct CMsgClearDecalsForEntityEvent { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t flagstoclear; // #1 uint32, has-bit 0
+    uint32_t entityhandle; // #2 uint32, has-bit 1
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgClearDecalsForEntityEvent) == 0x20);
+static_assert(offsetof(CMsgClearDecalsForEntityEvent, flagstoclear) == 0x18);
+static_assert(offsetof(CMsgClearDecalsForEntityEvent, entityhandle) == 0x1c);
+
+#pragma pack(push, 1)
+struct CMsgSource1LegacyGameEventList { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x20];
+    uint8_t descriptors[0x8]; // #1 repeated message CMsgSource1LegacyGameEventList.descriptor_t, has-bit 1
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSource1LegacyGameEventList) == 0x28);
+static_assert(offsetof(CMsgSource1LegacyGameEventList, descriptors) == 0x20);
+
+#pragma pack(push, 1)
+struct CMsgSource1LegacyGameEventList_key_t { // sizeof 0x40, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x30];
+    pb::string_t* name; // #2 string, has-bit 0
+    int32_t type; // #1 int32, has-bit 1
+    uint8_t _pad_3c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x40;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSource1LegacyGameEventList_key_t) == 0x40);
+static_assert(offsetof(CMsgSource1LegacyGameEventList_key_t, name) == 0x30);
+static_assert(offsetof(CMsgSource1LegacyGameEventList_key_t, type) == 0x38);
+
+#pragma pack(push, 1)
+struct CMsgSource1LegacyGameEventList_descriptor_t { // sizeof 0x30, no _has_bits_
+    uint8_t _pad_0[0x8];
+    uint8_t keys[0x8]; // #3 repeated message CMsgSource1LegacyGameEventList.key_t, no has-bit
+    int32_t eventid; // #1 int32, no has-bit
+    uint8_t _pad_14[0x1c];
+    static constexpr std::ptrdiff_t kSizeOf = 0x30;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSource1LegacyGameEventList_descriptor_t) == 0x30);
+static_assert(offsetof(CMsgSource1LegacyGameEventList_descriptor_t, keys) == 0x8);
+static_assert(offsetof(CMsgSource1LegacyGameEventList_descriptor_t, eventid) == 0x10);
+
+#pragma pack(push, 1)
+struct CMsgSource1LegacyListenEvents { // sizeof 0x30, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint8_t eventarraybits[0x10]; // #2 repeated uint32, no has-bit
+    int32_t playerslot; // #1 int32, has-bit 0
+    uint8_t _pad_2c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x30;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSource1LegacyListenEvents) == 0x30);
+static_assert(offsetof(CMsgSource1LegacyListenEvents, eventarraybits) == 0x18);
+static_assert(offsetof(CMsgSource1LegacyListenEvents, playerslot) == 0x28);
+
+#pragma pack(push, 1)
+struct CMsgSource1LegacyGameEvent { // sizeof 0x40, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    int32_t eventid; // #2 int32, has-bit 0
+    uint8_t _pad_1c[0x4];
+    uint8_t event_name[0x4]; // #1 string, has-bit 1
+    uint8_t keys[0x4]; // #3 repeated message CMsgSource1LegacyGameEvent.key_t, has-bit 2
+    int32_t server_tick; // #4 int32, has-bit 3
+    int32_t passthrough; // #5 int32, has-bit 4
+    uint8_t _pad_30[0x10];
+    static constexpr std::ptrdiff_t kSizeOf = 0x40;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSource1LegacyGameEvent) == 0x40);
+static_assert(offsetof(CMsgSource1LegacyGameEvent, eventid) == 0x18);
+static_assert(offsetof(CMsgSource1LegacyGameEvent, event_name) == 0x20);
+static_assert(offsetof(CMsgSource1LegacyGameEvent, keys) == 0x24);
+static_assert(offsetof(CMsgSource1LegacyGameEvent, server_tick) == 0x28);
+static_assert(offsetof(CMsgSource1LegacyGameEvent, passthrough) == 0x2c);
+
+#pragma pack(push, 1)
+struct CMsgSource1LegacyGameEvent_key_t { // sizeof 0x48, _has_bits_ @ 0x10
+    uint8_t val_byte[0x1]; // #6 int32, has-bit 16
+    bool val_bool; // #7 bool, has-bit 8
+    uint8_t _pad_2[0x16];
+    float val_float; // #3 float, no has-bit
+    uint8_t _pad_1c[0x14];
+    int32_t type; // #1 int32, has-bit 0
+    uint8_t _pad_34[0x4];
+    uint8_t val_string[0x4]; // #2 string, has-bit 1
+    int32_t val_long; // #4 int32, has-bit 2
+    int32_t val_short; // #5 int32, has-bit 3
+    uint8_t _pad_44[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x48;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSource1LegacyGameEvent_key_t) == 0x48);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_byte) == 0x0);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_bool) == 0x1);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_float) == 0x18);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, type) == 0x30);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_string) == 0x38);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_long) == 0x3c);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_short) == 0x40);
+
+#pragma pack(push, 1)
+struct CMsgSosStartSoundEvent { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* packed_params; // #5 bytes, has-bit 0
+    int32_t soundevent_guid; // #1 int32, has-bit 1
+    uint32_t soundevent_hash; // #2 fixed32, has-bit 2
+    int32_t seed; // #4 int32, has-bit 3
+    float start_time; // #6 float, has-bit 4
+    int32_t source_entity_index; // #3 int32, has-bit 5
+    uint8_t _pad_34[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSosStartSoundEvent) == 0x38);
+static_assert(offsetof(CMsgSosStartSoundEvent, packed_params) == 0x18);
+static_assert(offsetof(CMsgSosStartSoundEvent, soundevent_guid) == 0x20);
+static_assert(offsetof(CMsgSosStartSoundEvent, soundevent_hash) == 0x24);
+static_assert(offsetof(CMsgSosStartSoundEvent, seed) == 0x28);
+static_assert(offsetof(CMsgSosStartSoundEvent, start_time) == 0x2c);
+static_assert(offsetof(CMsgSosStartSoundEvent, source_entity_index) == 0x30);
+
+#pragma pack(push, 1)
+struct CMsgSosStopSoundEvent { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    int32_t soundevent_guid; // #1 int32, has-bit 0
+    uint8_t _pad_1c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSosStopSoundEvent) == 0x20);
+static_assert(offsetof(CMsgSosStopSoundEvent, soundevent_guid) == 0x18);
+
+#pragma pack(push, 1)
+struct CMsgSosStopSoundEventHash { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t soundevent_hash; // #1 fixed32, has-bit 0
+    int32_t source_entity_index; // #2 int32, has-bit 1
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSosStopSoundEventHash) == 0x20);
+static_assert(offsetof(CMsgSosStopSoundEventHash, soundevent_hash) == 0x18);
+static_assert(offsetof(CMsgSosStopSoundEventHash, source_entity_index) == 0x1c);
+
+#pragma pack(push, 1)
+struct CMsgSosSetSoundEventParams { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* packed_params; // #5 bytes, has-bit 0
+    int32_t soundevent_guid; // #1 int32, has-bit 1
+    uint8_t _pad_24[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSosSetSoundEventParams) == 0x28);
+static_assert(offsetof(CMsgSosSetSoundEventParams, packed_params) == 0x18);
+static_assert(offsetof(CMsgSosSetSoundEventParams, soundevent_guid) == 0x20);
+
+#pragma pack(push, 1)
+struct CMsgSosSetLibraryStackFields { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* packed_fields; // #5 bytes, has-bit 0
+    uint32_t stack_hash; // #1 fixed32, has-bit 1
+    uint8_t _pad_24[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSosSetLibraryStackFields) == 0x28);
+static_assert(offsetof(CMsgSosSetLibraryStackFields, packed_fields) == 0x18);
+static_assert(offsetof(CMsgSosSetLibraryStackFields, stack_hash) == 0x20);
+
+#pragma pack(push, 1)
+struct CMsgClothStiffenAnimEvent { // sizeof 0x30, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    int32_t vertex_set_hash; // #2 int32, has-bit 0
+    float intensity; // #3 float, has-bit 1
+    float length; // #4 float, has-bit 2
+    float speed_in; // #5 float, has-bit 3
+    float speed_out; // #6 float, has-bit 4
+    int32_t source_entity_index; // #1 int32, has-bit 5
+    static constexpr std::ptrdiff_t kSizeOf = 0x30;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgClothStiffenAnimEvent) == 0x30);
+static_assert(offsetof(CMsgClothStiffenAnimEvent, vertex_set_hash) == 0x18);
+static_assert(offsetof(CMsgClothStiffenAnimEvent, intensity) == 0x1c);
+static_assert(offsetof(CMsgClothStiffenAnimEvent, length) == 0x20);
+static_assert(offsetof(CMsgClothStiffenAnimEvent, speed_in) == 0x24);
+static_assert(offsetof(CMsgClothStiffenAnimEvent, speed_out) == 0x28);
+static_assert(offsetof(CMsgClothStiffenAnimEvent, source_entity_index) == 0x2c);
+
+#pragma pack(push, 1)
+struct CMsgClothEffectAnimEvent { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* tags; // #5 string, has-bit 0
+    pb::client::CMsgVector* pte; // #6 message CMsgVector, has-bit 1
+    int32_t effect_name_hash; // #2 int32, has-bit 2
+    int32_t operation; // #3 int32, has-bit 3
+    int32_t flags; // #4 int32, has-bit 4
+    int32_t source_entity_index; // #1 int32, has-bit 5
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgClothEffectAnimEvent) == 0x38);
+static_assert(offsetof(CMsgClothEffectAnimEvent, tags) == 0x18);
+static_assert(offsetof(CMsgClothEffectAnimEvent, pte) == 0x20);
+static_assert(offsetof(CMsgClothEffectAnimEvent, effect_name_hash) == 0x28);
+static_assert(offsetof(CMsgClothEffectAnimEvent, operation) == 0x2c);
+static_assert(offsetof(CMsgClothEffectAnimEvent, flags) == 0x30);
+static_assert(offsetof(CMsgClothEffectAnimEvent, source_entity_index) == 0x34);
 
 #pragma pack(push, 1)
 struct CDemoFileHeader { // sizeof 0x78, _has_bits_ @ 0x10
@@ -9137,527 +9481,6 @@ struct CDemoRecovery_DemoInitialSpawnGroupEntry { // sizeof 0x28, _has_bits_ @ 0
 static_assert(sizeof(CDemoRecovery_DemoInitialSpawnGroupEntry) == 0x28);
 static_assert(offsetof(CDemoRecovery_DemoInitialSpawnGroupEntry, was_created) == 0x18);
 static_assert(offsetof(CDemoRecovery_DemoInitialSpawnGroupEntry, spawngrouphandle) == 0x20);
-
-#pragma pack(push, 1)
-struct CMsgVDebugGameSessionIDEvent { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* gamesessionid; // #2 string, has-bit 0
-    int32_t clientid; // #1 int32, has-bit 1
-    uint8_t _pad_24[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgVDebugGameSessionIDEvent) == 0x28);
-static_assert(offsetof(CMsgVDebugGameSessionIDEvent, gamesessionid) == 0x18);
-static_assert(offsetof(CMsgVDebugGameSessionIDEvent, clientid) == 0x20);
-
-#pragma pack(push, 1)
-struct CMsgPlaceDecalEvent { // sizeof 0x70, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::client::CMsgVector* position; // #1 message CMsgVector, has-bit 0
-    pb::client::CMsgVector* normal; // #2 message CMsgVector, has-bit 1
-    pb::client::CMsgVector* saxis; // #3 message CMsgVector, has-bit 2
-    pb::client::CMsgVector* position_objectspace; // #14 message CMsgVector, has-bit 3
-    pb::client::CMsgVector* normal_objectspace; // #15 message CMsgVector, has-bit 4
-    int32_t boneindex; // #4 int32, has-bit 5
-    uint32_t color; // #6 fixed32, has-bit 6
-    int32_t random_seed; // #7 int32, has-bit 7
-    uint32_t decal_group_name; // #8 uint32, has-bit 8
-    float size_override; // #9 float, has-bit 9
-    uint32_t entityhandle; // #10 uint32, has-bit 10
-    uint32_t sequence_name; // #12 uint32, has-bit 11
-    uint8_t _pad_5c[0x4];
-    int32_t triangleindex; // #13 int32, has-bit 12
-    uint32_t flags; // #5 uint32, has-bit 13
-    uint64_t material_id; // #11 uint64, has-bit 14
-    static constexpr std::ptrdiff_t kSizeOf = 0x70;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgPlaceDecalEvent) == 0x70);
-static_assert(offsetof(CMsgPlaceDecalEvent, position) == 0x18);
-static_assert(offsetof(CMsgPlaceDecalEvent, normal) == 0x20);
-static_assert(offsetof(CMsgPlaceDecalEvent, saxis) == 0x28);
-static_assert(offsetof(CMsgPlaceDecalEvent, position_objectspace) == 0x30);
-static_assert(offsetof(CMsgPlaceDecalEvent, normal_objectspace) == 0x38);
-static_assert(offsetof(CMsgPlaceDecalEvent, boneindex) == 0x40);
-static_assert(offsetof(CMsgPlaceDecalEvent, color) == 0x44);
-static_assert(offsetof(CMsgPlaceDecalEvent, random_seed) == 0x48);
-static_assert(offsetof(CMsgPlaceDecalEvent, decal_group_name) == 0x4c);
-static_assert(offsetof(CMsgPlaceDecalEvent, size_override) == 0x50);
-static_assert(offsetof(CMsgPlaceDecalEvent, entityhandle) == 0x54);
-static_assert(offsetof(CMsgPlaceDecalEvent, sequence_name) == 0x58);
-static_assert(offsetof(CMsgPlaceDecalEvent, triangleindex) == 0x60);
-static_assert(offsetof(CMsgPlaceDecalEvent, flags) == 0x64);
-static_assert(offsetof(CMsgPlaceDecalEvent, material_id) == 0x68);
-
-#pragma pack(push, 1)
-struct CMsgClearWorldDecalsEvent { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint32_t flagstoclear; // #1 uint32, has-bit 0
-    uint8_t _pad_1c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgClearWorldDecalsEvent) == 0x20);
-static_assert(offsetof(CMsgClearWorldDecalsEvent, flagstoclear) == 0x18);
-
-#pragma pack(push, 1)
-struct CMsgClearEntityDecalsEvent { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint32_t flagstoclear; // #1 uint32, has-bit 0
-    uint8_t _pad_1c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgClearEntityDecalsEvent) == 0x20);
-static_assert(offsetof(CMsgClearEntityDecalsEvent, flagstoclear) == 0x18);
-
-#pragma pack(push, 1)
-struct CMsgClearDecalsForEntityEvent { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint32_t flagstoclear; // #1 uint32, has-bit 0
-    uint32_t entityhandle; // #2 uint32, has-bit 1
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgClearDecalsForEntityEvent) == 0x20);
-static_assert(offsetof(CMsgClearDecalsForEntityEvent, flagstoclear) == 0x18);
-static_assert(offsetof(CMsgClearDecalsForEntityEvent, entityhandle) == 0x1c);
-
-#pragma pack(push, 1)
-struct CMsgSource1LegacyGameEventList { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x20];
-    uint8_t descriptors[0x8]; // #1 repeated message CMsgSource1LegacyGameEventList.descriptor_t, has-bit 1
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSource1LegacyGameEventList) == 0x28);
-static_assert(offsetof(CMsgSource1LegacyGameEventList, descriptors) == 0x20);
-
-#pragma pack(push, 1)
-struct CMsgSource1LegacyGameEventList_key_t { // sizeof 0x40, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x30];
-    pb::string_t* name; // #2 string, has-bit 0
-    int32_t type; // #1 int32, has-bit 1
-    uint8_t _pad_3c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x40;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSource1LegacyGameEventList_key_t) == 0x40);
-static_assert(offsetof(CMsgSource1LegacyGameEventList_key_t, name) == 0x30);
-static_assert(offsetof(CMsgSource1LegacyGameEventList_key_t, type) == 0x38);
-
-#pragma pack(push, 1)
-struct CMsgSource1LegacyGameEventList_descriptor_t { // sizeof 0x30, no _has_bits_
-    uint8_t _pad_0[0x8];
-    uint8_t keys[0x8]; // #3 repeated message CMsgSource1LegacyGameEventList.key_t, no has-bit
-    int32_t eventid; // #1 int32, no has-bit
-    uint8_t _pad_14[0x1c];
-    static constexpr std::ptrdiff_t kSizeOf = 0x30;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSource1LegacyGameEventList_descriptor_t) == 0x30);
-static_assert(offsetof(CMsgSource1LegacyGameEventList_descriptor_t, keys) == 0x8);
-static_assert(offsetof(CMsgSource1LegacyGameEventList_descriptor_t, eventid) == 0x10);
-
-#pragma pack(push, 1)
-struct CMsgSource1LegacyListenEvents { // sizeof 0x30, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint8_t eventarraybits[0x10]; // #2 repeated uint32, no has-bit
-    int32_t playerslot; // #1 int32, has-bit 0
-    uint8_t _pad_2c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x30;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSource1LegacyListenEvents) == 0x30);
-static_assert(offsetof(CMsgSource1LegacyListenEvents, eventarraybits) == 0x18);
-static_assert(offsetof(CMsgSource1LegacyListenEvents, playerslot) == 0x28);
-
-#pragma pack(push, 1)
-struct CMsgSource1LegacyGameEvent { // sizeof 0x40, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    int32_t eventid; // #2 int32, has-bit 0
-    uint8_t _pad_1c[0x4];
-    uint8_t event_name[0x4]; // #1 string, has-bit 1
-    uint8_t keys[0x4]; // #3 repeated message CMsgSource1LegacyGameEvent.key_t, has-bit 2
-    int32_t server_tick; // #4 int32, has-bit 3
-    int32_t passthrough; // #5 int32, has-bit 4
-    uint8_t _pad_30[0x10];
-    static constexpr std::ptrdiff_t kSizeOf = 0x40;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSource1LegacyGameEvent) == 0x40);
-static_assert(offsetof(CMsgSource1LegacyGameEvent, eventid) == 0x18);
-static_assert(offsetof(CMsgSource1LegacyGameEvent, event_name) == 0x20);
-static_assert(offsetof(CMsgSource1LegacyGameEvent, keys) == 0x24);
-static_assert(offsetof(CMsgSource1LegacyGameEvent, server_tick) == 0x28);
-static_assert(offsetof(CMsgSource1LegacyGameEvent, passthrough) == 0x2c);
-
-#pragma pack(push, 1)
-struct CMsgSource1LegacyGameEvent_key_t { // sizeof 0x48, _has_bits_ @ 0x10
-    uint8_t val_byte[0x1]; // #6 int32, has-bit 16
-    bool val_bool; // #7 bool, has-bit 8
-    uint8_t _pad_2[0x16];
-    float val_float; // #3 float, no has-bit
-    uint8_t _pad_1c[0x14];
-    int32_t type; // #1 int32, has-bit 0
-    uint8_t _pad_34[0x4];
-    uint8_t val_string[0x4]; // #2 string, has-bit 1
-    int32_t val_long; // #4 int32, has-bit 2
-    int32_t val_short; // #5 int32, has-bit 3
-    uint8_t _pad_44[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x48;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSource1LegacyGameEvent_key_t) == 0x48);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_byte) == 0x0);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_bool) == 0x1);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_float) == 0x18);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, type) == 0x30);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_string) == 0x38);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_long) == 0x3c);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_short) == 0x40);
-
-#pragma pack(push, 1)
-struct CMsgSosStartSoundEvent { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* packed_params; // #5 bytes, has-bit 0
-    int32_t soundevent_guid; // #1 int32, has-bit 1
-    uint32_t soundevent_hash; // #2 fixed32, has-bit 2
-    int32_t seed; // #4 int32, has-bit 3
-    float start_time; // #6 float, has-bit 4
-    int32_t source_entity_index; // #3 int32, has-bit 5
-    uint8_t _pad_34[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSosStartSoundEvent) == 0x38);
-static_assert(offsetof(CMsgSosStartSoundEvent, packed_params) == 0x18);
-static_assert(offsetof(CMsgSosStartSoundEvent, soundevent_guid) == 0x20);
-static_assert(offsetof(CMsgSosStartSoundEvent, soundevent_hash) == 0x24);
-static_assert(offsetof(CMsgSosStartSoundEvent, seed) == 0x28);
-static_assert(offsetof(CMsgSosStartSoundEvent, start_time) == 0x2c);
-static_assert(offsetof(CMsgSosStartSoundEvent, source_entity_index) == 0x30);
-
-#pragma pack(push, 1)
-struct CMsgSosStopSoundEvent { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    int32_t soundevent_guid; // #1 int32, has-bit 0
-    uint8_t _pad_1c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSosStopSoundEvent) == 0x20);
-static_assert(offsetof(CMsgSosStopSoundEvent, soundevent_guid) == 0x18);
-
-#pragma pack(push, 1)
-struct CMsgSosStopSoundEventHash { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint32_t soundevent_hash; // #1 fixed32, has-bit 0
-    int32_t source_entity_index; // #2 int32, has-bit 1
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSosStopSoundEventHash) == 0x20);
-static_assert(offsetof(CMsgSosStopSoundEventHash, soundevent_hash) == 0x18);
-static_assert(offsetof(CMsgSosStopSoundEventHash, source_entity_index) == 0x1c);
-
-#pragma pack(push, 1)
-struct CMsgSosSetSoundEventParams { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* packed_params; // #5 bytes, has-bit 0
-    int32_t soundevent_guid; // #1 int32, has-bit 1
-    uint8_t _pad_24[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSosSetSoundEventParams) == 0x28);
-static_assert(offsetof(CMsgSosSetSoundEventParams, packed_params) == 0x18);
-static_assert(offsetof(CMsgSosSetSoundEventParams, soundevent_guid) == 0x20);
-
-#pragma pack(push, 1)
-struct CMsgSosSetLibraryStackFields { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* packed_fields; // #5 bytes, has-bit 0
-    uint32_t stack_hash; // #1 fixed32, has-bit 1
-    uint8_t _pad_24[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSosSetLibraryStackFields) == 0x28);
-static_assert(offsetof(CMsgSosSetLibraryStackFields, packed_fields) == 0x18);
-static_assert(offsetof(CMsgSosSetLibraryStackFields, stack_hash) == 0x20);
-
-#pragma pack(push, 1)
-struct CMsgClothStiffenAnimEvent { // sizeof 0x30, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    int32_t vertex_set_hash; // #2 int32, has-bit 0
-    float intensity; // #3 float, has-bit 1
-    float length; // #4 float, has-bit 2
-    float speed_in; // #5 float, has-bit 3
-    float speed_out; // #6 float, has-bit 4
-    int32_t source_entity_index; // #1 int32, has-bit 5
-    static constexpr std::ptrdiff_t kSizeOf = 0x30;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgClothStiffenAnimEvent) == 0x30);
-static_assert(offsetof(CMsgClothStiffenAnimEvent, vertex_set_hash) == 0x18);
-static_assert(offsetof(CMsgClothStiffenAnimEvent, intensity) == 0x1c);
-static_assert(offsetof(CMsgClothStiffenAnimEvent, length) == 0x20);
-static_assert(offsetof(CMsgClothStiffenAnimEvent, speed_in) == 0x24);
-static_assert(offsetof(CMsgClothStiffenAnimEvent, speed_out) == 0x28);
-static_assert(offsetof(CMsgClothStiffenAnimEvent, source_entity_index) == 0x2c);
-
-#pragma pack(push, 1)
-struct CMsgClothEffectAnimEvent { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* tags; // #5 string, has-bit 0
-    pb::client::CMsgVector* pte; // #6 message CMsgVector, has-bit 1
-    int32_t effect_name_hash; // #2 int32, has-bit 2
-    int32_t operation; // #3 int32, has-bit 3
-    int32_t flags; // #4 int32, has-bit 4
-    int32_t source_entity_index; // #1 int32, has-bit 5
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgClothEffectAnimEvent) == 0x38);
-static_assert(offsetof(CMsgClothEffectAnimEvent, tags) == 0x18);
-static_assert(offsetof(CMsgClothEffectAnimEvent, pte) == 0x20);
-static_assert(offsetof(CMsgClothEffectAnimEvent, effect_name_hash) == 0x28);
-static_assert(offsetof(CMsgClothEffectAnimEvent, operation) == 0x2c);
-static_assert(offsetof(CMsgClothEffectAnimEvent, flags) == 0x30);
-static_assert(offsetof(CMsgClothEffectAnimEvent, source_entity_index) == 0x34);
-
-#pragma pack(push, 1)
-struct MLDict { // sizeof 0x30, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* key; // #1 string, has-bit 0
-    pb::string_t* val_string; // #2 string, has-bit 1
-    int32_t val_int; // #3 int32, has-bit 2
-    float val_float; // #4 float, has-bit 3
-    static constexpr std::ptrdiff_t kSizeOf = 0x30;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(MLDict) == 0x30);
-static_assert(offsetof(MLDict, key) == 0x18);
-static_assert(offsetof(MLDict, val_string) == 0x20);
-static_assert(offsetof(MLDict, val_int) == 0x28);
-static_assert(offsetof(MLDict, val_float) == 0x2c);
-
-#pragma pack(push, 1)
-struct MLEvent { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::RepeatedPtrField<pb::client::MLDict> data; // #2 repeated message MLDict, no has-bit
-    pb::string_t* event_name; // #1 string, has-bit 0
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(MLEvent) == 0x38);
-static_assert(offsetof(MLEvent, data) == 0x18);
-static_assert(offsetof(MLEvent, event_name) == 0x30);
-
-#pragma pack(push, 1)
-struct MLMatchState { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* game_mode; // #1 string, has-bit 0
-    pb::string_t* phase; // #2 string, has-bit 1
-    int32_t round; // #3 int32, has-bit 2
-    int32_t score_ct; // #4 int32, has-bit 3
-    int32_t score_t; // #5 int32, has-bit 4
-    uint8_t _pad_34[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(MLMatchState) == 0x38);
-static_assert(offsetof(MLMatchState, game_mode) == 0x18);
-static_assert(offsetof(MLMatchState, phase) == 0x20);
-static_assert(offsetof(MLMatchState, round) == 0x28);
-static_assert(offsetof(MLMatchState, score_ct) == 0x2c);
-static_assert(offsetof(MLMatchState, score_t) == 0x30);
-
-#pragma pack(push, 1)
-struct MLRoundState { // sizeof 0x30, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* phase; // #1 string, has-bit 0
-    pb::string_t* bomb_state; // #3 string, has-bit 1
-    int32_t win_team; // #2 enum ETeam, has-bit 2
-    uint8_t _pad_2c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x30;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(MLRoundState) == 0x30);
-static_assert(offsetof(MLRoundState, phase) == 0x18);
-static_assert(offsetof(MLRoundState, bomb_state) == 0x20);
-static_assert(offsetof(MLRoundState, win_team) == 0x28);
-
-#pragma pack(push, 1)
-struct MLWeaponState { // sizeof 0x40, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* name; // #2 string, has-bit 0
-    pb::string_t* state; // #7 string, has-bit 1
-    int32_t index; // #1 int32, has-bit 2
-    int32_t type; // #3 enum EWeaponType, has-bit 3
-    int32_t ammo_clip; // #4 int32, has-bit 4
-    int32_t ammo_clip_max; // #5 int32, has-bit 5
-    int32_t ammo_reserve; // #6 int32, has-bit 6
-    float recoil_index; // #8 float, has-bit 7
-    static constexpr std::ptrdiff_t kSizeOf = 0x40;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(MLWeaponState) == 0x40);
-static_assert(offsetof(MLWeaponState, name) == 0x18);
-static_assert(offsetof(MLWeaponState, state) == 0x20);
-static_assert(offsetof(MLWeaponState, index) == 0x28);
-static_assert(offsetof(MLWeaponState, type) == 0x2c);
-static_assert(offsetof(MLWeaponState, ammo_clip) == 0x30);
-static_assert(offsetof(MLWeaponState, ammo_clip_max) == 0x34);
-static_assert(offsetof(MLWeaponState, ammo_reserve) == 0x38);
-static_assert(offsetof(MLWeaponState, recoil_index) == 0x3c);
-
-#pragma pack(push, 1)
-struct MLPlayerState { // sizeof 0x90, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::RepeatedPtrField<pb::client::MLWeaponState> weapons; // #20 repeated message MLWeaponState, no has-bit
-    pb::string_t* name; // #4 string, has-bit 0
-    pb::string_t* clan; // #5 string, has-bit 1
-    pb::client::CMsgVector* abspos; // #7 message CMsgVector, has-bit 2
-    pb::client::CMsgQAngle* eyeangle; // #8 message CMsgQAngle, has-bit 3
-    pb::client::CMsgVector* eyeangle_fwd; // #9 message CMsgVector, has-bit 4
-    int32_t account_id; // #1 int32, has-bit 5
-    int32_t entindex; // #3 int32, has-bit 6
-    int32_t team; // #6 enum ETeam, has-bit 7
-    int32_t health; // #10 int32, has-bit 8
-    int32_t armor; // #11 int32, has-bit 9
-    float flashed; // #12 float, has-bit 10
-    float smoked; // #13 float, has-bit 11
-    int32_t money; // #14 int32, has-bit 12
-    int32_t round_kills; // #15 int32, has-bit 13
-    int32_t round_killhs; // #16 int32, has-bit 14
-    float burning; // #17 float, has-bit 15
-    bool helmet; // #18 bool, has-bit 16
-    bool defuse_kit; // #19 bool, has-bit 17
-    uint8_t _pad_86[0x2];
-    int32_t player_slot; // #2 int32, has-bit 18
-    uint8_t _pad_8c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x90;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(MLPlayerState) == 0x90);
-static_assert(offsetof(MLPlayerState, weapons) == 0x18);
-static_assert(offsetof(MLPlayerState, name) == 0x30);
-static_assert(offsetof(MLPlayerState, clan) == 0x38);
-static_assert(offsetof(MLPlayerState, abspos) == 0x40);
-static_assert(offsetof(MLPlayerState, eyeangle) == 0x48);
-static_assert(offsetof(MLPlayerState, eyeangle_fwd) == 0x50);
-static_assert(offsetof(MLPlayerState, account_id) == 0x58);
-static_assert(offsetof(MLPlayerState, entindex) == 0x5c);
-static_assert(offsetof(MLPlayerState, team) == 0x60);
-static_assert(offsetof(MLPlayerState, health) == 0x64);
-static_assert(offsetof(MLPlayerState, armor) == 0x68);
-static_assert(offsetof(MLPlayerState, flashed) == 0x6c);
-static_assert(offsetof(MLPlayerState, smoked) == 0x70);
-static_assert(offsetof(MLPlayerState, money) == 0x74);
-static_assert(offsetof(MLPlayerState, round_kills) == 0x78);
-static_assert(offsetof(MLPlayerState, round_killhs) == 0x7c);
-static_assert(offsetof(MLPlayerState, burning) == 0x80);
-static_assert(offsetof(MLPlayerState, helmet) == 0x84);
-static_assert(offsetof(MLPlayerState, defuse_kit) == 0x85);
-static_assert(offsetof(MLPlayerState, player_slot) == 0x88);
-
-#pragma pack(push, 1)
-struct MLGameState { // sizeof 0x40, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::RepeatedPtrField<pb::client::MLPlayerState> players; // #3 repeated message MLPlayerState, no has-bit
-    pb::client::MLMatchState* match; // #1 message MLMatchState, has-bit 0
-    pb::client::MLRoundState* round; // #2 message MLRoundState, has-bit 1
-    static constexpr std::ptrdiff_t kSizeOf = 0x40;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(MLGameState) == 0x40);
-static_assert(offsetof(MLGameState, players) == 0x18);
-static_assert(offsetof(MLGameState, match) == 0x30);
-static_assert(offsetof(MLGameState, round) == 0x38);
-
-#pragma pack(push, 1)
-struct MLDemoHeader { // sizeof 0x30, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* map_name; // #1 string, has-bit 0
-    int32_t tick_rate; // #2 int32, has-bit 1
-    uint32_t version; // #3 uint32, has-bit 2
-    uint32_t steam_universe; // #4 uint32, has-bit 3
-    uint8_t _pad_2c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x30;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(MLDemoHeader) == 0x30);
-static_assert(offsetof(MLDemoHeader, map_name) == 0x18);
-static_assert(offsetof(MLDemoHeader, tick_rate) == 0x20);
-static_assert(offsetof(MLDemoHeader, version) == 0x24);
-static_assert(offsetof(MLDemoHeader, steam_universe) == 0x28);
-
-#pragma pack(push, 1)
-struct MLTick { // sizeof 0x40, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::RepeatedPtrField<pb::client::MLEvent> events; // #3 repeated message MLEvent, no has-bit
-    pb::client::MLGameState* state; // #2 message MLGameState, has-bit 0
-    int32_t tick_count; // #1 int32, has-bit 1
-    uint8_t _pad_3c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x40;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(MLTick) == 0x40);
-static_assert(offsetof(MLTick, events) == 0x18);
-static_assert(offsetof(MLTick, state) == 0x30);
-static_assert(offsetof(MLTick, tick_count) == 0x38);
-
-#pragma pack(push, 1)
-struct VacNetShot { // sizeof 0x50, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint8_t delta_yaw_window[0x10]; // #6 repeated float, no has-bit
-    uint8_t delta_pitch_window[0x10]; // #7 repeated float, no has-bit
-    uint64_t steamid_player; // #1 fixed64, has-bit 0
-    int32_t round_number; // #2 int32, has-bit 1
-    int32_t hit_type; // #3 int32, has-bit 2
-    int32_t weapon_type; // #4 int32, has-bit 3
-    float distance_to_hurt_target; // #5 float, has-bit 4
-    static constexpr std::ptrdiff_t kSizeOf = 0x50;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(VacNetShot) == 0x50);
-static_assert(offsetof(VacNetShot, delta_yaw_window) == 0x18);
-static_assert(offsetof(VacNetShot, delta_pitch_window) == 0x28);
-static_assert(offsetof(VacNetShot, steamid_player) == 0x38);
-static_assert(offsetof(VacNetShot, round_number) == 0x40);
-static_assert(offsetof(VacNetShot, hit_type) == 0x44);
-static_assert(offsetof(VacNetShot, weapon_type) == 0x48);
-static_assert(offsetof(VacNetShot, distance_to_hurt_target) == 0x4c);
 
 #pragma pack(push, 1)
 struct CEngineGotvSyncPacket { // sizeof 0x48, _has_bits_ @ 0x10
@@ -10464,6 +10287,220 @@ struct CMsgSerializedSOCache_Cache_Version { // sizeof 0x38, _has_bits_ @ 0x10
 static_assert(sizeof(CMsgSerializedSOCache_Cache_Version) == 0x38);
 static_assert(offsetof(CMsgSerializedSOCache_Cache_Version, version) == 0x18);
 static_assert(offsetof(CMsgSerializedSOCache_Cache_Version, service) == 0x30);
+
+#pragma pack(push, 1)
+struct MLDict { // sizeof 0x30, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* key; // #1 string, has-bit 0
+    pb::string_t* val_string; // #2 string, has-bit 1
+    int32_t val_int; // #3 int32, has-bit 2
+    float val_float; // #4 float, has-bit 3
+    static constexpr std::ptrdiff_t kSizeOf = 0x30;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(MLDict) == 0x30);
+static_assert(offsetof(MLDict, key) == 0x18);
+static_assert(offsetof(MLDict, val_string) == 0x20);
+static_assert(offsetof(MLDict, val_int) == 0x28);
+static_assert(offsetof(MLDict, val_float) == 0x2c);
+
+#pragma pack(push, 1)
+struct MLEvent { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::RepeatedPtrField<pb::client::MLDict> data; // #2 repeated message MLDict, no has-bit
+    pb::string_t* event_name; // #1 string, has-bit 0
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(MLEvent) == 0x38);
+static_assert(offsetof(MLEvent, data) == 0x18);
+static_assert(offsetof(MLEvent, event_name) == 0x30);
+
+#pragma pack(push, 1)
+struct MLMatchState { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* game_mode; // #1 string, has-bit 0
+    pb::string_t* phase; // #2 string, has-bit 1
+    int32_t round; // #3 int32, has-bit 2
+    int32_t score_ct; // #4 int32, has-bit 3
+    int32_t score_t; // #5 int32, has-bit 4
+    uint8_t _pad_34[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(MLMatchState) == 0x38);
+static_assert(offsetof(MLMatchState, game_mode) == 0x18);
+static_assert(offsetof(MLMatchState, phase) == 0x20);
+static_assert(offsetof(MLMatchState, round) == 0x28);
+static_assert(offsetof(MLMatchState, score_ct) == 0x2c);
+static_assert(offsetof(MLMatchState, score_t) == 0x30);
+
+#pragma pack(push, 1)
+struct MLRoundState { // sizeof 0x30, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* phase; // #1 string, has-bit 0
+    pb::string_t* bomb_state; // #3 string, has-bit 1
+    int32_t win_team; // #2 enum ETeam, has-bit 2
+    uint8_t _pad_2c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x30;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(MLRoundState) == 0x30);
+static_assert(offsetof(MLRoundState, phase) == 0x18);
+static_assert(offsetof(MLRoundState, bomb_state) == 0x20);
+static_assert(offsetof(MLRoundState, win_team) == 0x28);
+
+#pragma pack(push, 1)
+struct MLWeaponState { // sizeof 0x40, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* name; // #2 string, has-bit 0
+    pb::string_t* state; // #7 string, has-bit 1
+    int32_t index; // #1 int32, has-bit 2
+    int32_t type; // #3 enum EWeaponType, has-bit 3
+    int32_t ammo_clip; // #4 int32, has-bit 4
+    int32_t ammo_clip_max; // #5 int32, has-bit 5
+    int32_t ammo_reserve; // #6 int32, has-bit 6
+    float recoil_index; // #8 float, has-bit 7
+    static constexpr std::ptrdiff_t kSizeOf = 0x40;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(MLWeaponState) == 0x40);
+static_assert(offsetof(MLWeaponState, name) == 0x18);
+static_assert(offsetof(MLWeaponState, state) == 0x20);
+static_assert(offsetof(MLWeaponState, index) == 0x28);
+static_assert(offsetof(MLWeaponState, type) == 0x2c);
+static_assert(offsetof(MLWeaponState, ammo_clip) == 0x30);
+static_assert(offsetof(MLWeaponState, ammo_clip_max) == 0x34);
+static_assert(offsetof(MLWeaponState, ammo_reserve) == 0x38);
+static_assert(offsetof(MLWeaponState, recoil_index) == 0x3c);
+
+#pragma pack(push, 1)
+struct MLPlayerState { // sizeof 0x90, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::RepeatedPtrField<pb::client::MLWeaponState> weapons; // #20 repeated message MLWeaponState, no has-bit
+    pb::string_t* name; // #4 string, has-bit 0
+    pb::string_t* clan; // #5 string, has-bit 1
+    pb::client::CMsgVector* abspos; // #7 message CMsgVector, has-bit 2
+    pb::client::CMsgQAngle* eyeangle; // #8 message CMsgQAngle, has-bit 3
+    pb::client::CMsgVector* eyeangle_fwd; // #9 message CMsgVector, has-bit 4
+    int32_t account_id; // #1 int32, has-bit 5
+    int32_t entindex; // #3 int32, has-bit 6
+    int32_t team; // #6 enum ETeam, has-bit 7
+    int32_t health; // #10 int32, has-bit 8
+    int32_t armor; // #11 int32, has-bit 9
+    float flashed; // #12 float, has-bit 10
+    float smoked; // #13 float, has-bit 11
+    int32_t money; // #14 int32, has-bit 12
+    int32_t round_kills; // #15 int32, has-bit 13
+    int32_t round_killhs; // #16 int32, has-bit 14
+    float burning; // #17 float, has-bit 15
+    bool helmet; // #18 bool, has-bit 16
+    bool defuse_kit; // #19 bool, has-bit 17
+    uint8_t _pad_86[0x2];
+    int32_t player_slot; // #2 int32, has-bit 18
+    uint8_t _pad_8c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x90;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(MLPlayerState) == 0x90);
+static_assert(offsetof(MLPlayerState, weapons) == 0x18);
+static_assert(offsetof(MLPlayerState, name) == 0x30);
+static_assert(offsetof(MLPlayerState, clan) == 0x38);
+static_assert(offsetof(MLPlayerState, abspos) == 0x40);
+static_assert(offsetof(MLPlayerState, eyeangle) == 0x48);
+static_assert(offsetof(MLPlayerState, eyeangle_fwd) == 0x50);
+static_assert(offsetof(MLPlayerState, account_id) == 0x58);
+static_assert(offsetof(MLPlayerState, entindex) == 0x5c);
+static_assert(offsetof(MLPlayerState, team) == 0x60);
+static_assert(offsetof(MLPlayerState, health) == 0x64);
+static_assert(offsetof(MLPlayerState, armor) == 0x68);
+static_assert(offsetof(MLPlayerState, flashed) == 0x6c);
+static_assert(offsetof(MLPlayerState, smoked) == 0x70);
+static_assert(offsetof(MLPlayerState, money) == 0x74);
+static_assert(offsetof(MLPlayerState, round_kills) == 0x78);
+static_assert(offsetof(MLPlayerState, round_killhs) == 0x7c);
+static_assert(offsetof(MLPlayerState, burning) == 0x80);
+static_assert(offsetof(MLPlayerState, helmet) == 0x84);
+static_assert(offsetof(MLPlayerState, defuse_kit) == 0x85);
+static_assert(offsetof(MLPlayerState, player_slot) == 0x88);
+
+#pragma pack(push, 1)
+struct MLGameState { // sizeof 0x40, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::RepeatedPtrField<pb::client::MLPlayerState> players; // #3 repeated message MLPlayerState, no has-bit
+    pb::client::MLMatchState* match; // #1 message MLMatchState, has-bit 0
+    pb::client::MLRoundState* round; // #2 message MLRoundState, has-bit 1
+    static constexpr std::ptrdiff_t kSizeOf = 0x40;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(MLGameState) == 0x40);
+static_assert(offsetof(MLGameState, players) == 0x18);
+static_assert(offsetof(MLGameState, match) == 0x30);
+static_assert(offsetof(MLGameState, round) == 0x38);
+
+#pragma pack(push, 1)
+struct MLDemoHeader { // sizeof 0x30, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* map_name; // #1 string, has-bit 0
+    int32_t tick_rate; // #2 int32, has-bit 1
+    uint32_t version; // #3 uint32, has-bit 2
+    uint32_t steam_universe; // #4 uint32, has-bit 3
+    uint8_t _pad_2c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x30;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(MLDemoHeader) == 0x30);
+static_assert(offsetof(MLDemoHeader, map_name) == 0x18);
+static_assert(offsetof(MLDemoHeader, tick_rate) == 0x20);
+static_assert(offsetof(MLDemoHeader, version) == 0x24);
+static_assert(offsetof(MLDemoHeader, steam_universe) == 0x28);
+
+#pragma pack(push, 1)
+struct MLTick { // sizeof 0x40, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::RepeatedPtrField<pb::client::MLEvent> events; // #3 repeated message MLEvent, no has-bit
+    pb::client::MLGameState* state; // #2 message MLGameState, has-bit 0
+    int32_t tick_count; // #1 int32, has-bit 1
+    uint8_t _pad_3c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x40;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(MLTick) == 0x40);
+static_assert(offsetof(MLTick, events) == 0x18);
+static_assert(offsetof(MLTick, state) == 0x30);
+static_assert(offsetof(MLTick, tick_count) == 0x38);
+
+#pragma pack(push, 1)
+struct VacNetShot { // sizeof 0x50, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint8_t delta_yaw_window[0x10]; // #6 repeated float, no has-bit
+    uint8_t delta_pitch_window[0x10]; // #7 repeated float, no has-bit
+    uint64_t steamid_player; // #1 fixed64, has-bit 0
+    int32_t round_number; // #2 int32, has-bit 1
+    int32_t hit_type; // #3 int32, has-bit 2
+    int32_t weapon_type; // #4 int32, has-bit 3
+    float distance_to_hurt_target; // #5 float, has-bit 4
+    static constexpr std::ptrdiff_t kSizeOf = 0x50;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(VacNetShot) == 0x50);
+static_assert(offsetof(VacNetShot, delta_yaw_window) == 0x18);
+static_assert(offsetof(VacNetShot, delta_pitch_window) == 0x28);
+static_assert(offsetof(VacNetShot, steamid_player) == 0x38);
+static_assert(offsetof(VacNetShot, round_number) == 0x40);
+static_assert(offsetof(VacNetShot, hit_type) == 0x44);
+static_assert(offsetof(VacNetShot, weapon_type) == 0x48);
+static_assert(offsetof(VacNetShot, distance_to_hurt_target) == 0x4c);
 
 #pragma pack(push, 1)
 struct CMsgVector { // sizeof 0x28, _has_bits_ @ 0x10
@@ -11463,53 +11500,6 @@ struct CMsgAckPetEvent { // sizeof 0x20, _has_bits_ @ 0x10
 #pragma pack(pop)
 static_assert(sizeof(CMsgAckPetEvent) == 0x20);
 static_assert(offsetof(CMsgAckPetEvent, pet_item_id) == 0x18);
-
-#pragma pack(push, 1)
-struct CPredictionEvent_Teleport { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::client::CMsgVector* origin; // #1 message CMsgVector, has-bit 0
-    pb::client::CMsgQAngle* angles; // #2 message CMsgQAngle, has-bit 1
-    pb::client::CMsgVector* velocity; // #4 message CMsgVector, has-bit 2
-    float drop_to_ground_range; // #3 float, has-bit 3
-    uint8_t _pad_34[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CPredictionEvent_Teleport) == 0x38);
-static_assert(offsetof(CPredictionEvent_Teleport, origin) == 0x18);
-static_assert(offsetof(CPredictionEvent_Teleport, angles) == 0x20);
-static_assert(offsetof(CPredictionEvent_Teleport, velocity) == 0x28);
-static_assert(offsetof(CPredictionEvent_Teleport, drop_to_ground_range) == 0x30);
-
-#pragma pack(push, 1)
-struct CPredictionEvent_StringCommand { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* command; // #1 string, has-bit 0
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CPredictionEvent_StringCommand) == 0x20);
-static_assert(offsetof(CPredictionEvent_StringCommand, command) == 0x18);
-
-#pragma pack(push, 1)
-struct CPredictionEvent_Diagnostic { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint8_t execution_sync[0x10]; // #4 repeated uint32, no has-bit
-    uint32_t id; // #1 uint32, has-bit 0
-    uint32_t requested_sync; // #2 uint32, has-bit 1
-    uint32_t requested_player_index; // #3 uint32, has-bit 2
-    uint8_t _pad_34[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CPredictionEvent_Diagnostic) == 0x38);
-static_assert(offsetof(CPredictionEvent_Diagnostic, execution_sync) == 0x18);
-static_assert(offsetof(CPredictionEvent_Diagnostic, id) == 0x28);
-static_assert(offsetof(CPredictionEvent_Diagnostic, requested_sync) == 0x2c);
-static_assert(offsetof(CPredictionEvent_Diagnostic, requested_player_index) == 0x30);
 
 #pragma pack(push, 1)
 struct CCLCMsg_ClientInfo { // sizeof 0x30, _has_bits_ @ 0x10
@@ -12796,28 +12786,51 @@ static_assert(offsetof(CSVCMsg_NextMsgPredicted, message_type_id) == 0x18);
 static_assert(offsetof(CSVCMsg_NextMsgPredicted, predicted_by_player_slot) == 0x1c);
 
 #pragma pack(push, 1)
-struct COAuthToken_ImplicitGrantNoPrompt_Request { // sizeof 0x20, _has_bits_ @ 0x10
+struct CPredictionEvent_Teleport { // sizeof 0x38, _has_bits_ @ 0x10
     uint8_t _pad_0[0x18];
-    pb::string_t* clientid; // #1 string, has-bit 0
+    pb::client::CMsgVector* origin; // #1 message CMsgVector, has-bit 0
+    pb::client::CMsgQAngle* angles; // #2 message CMsgQAngle, has-bit 1
+    pb::client::CMsgVector* velocity; // #4 message CMsgVector, has-bit 2
+    float drop_to_ground_range; // #3 float, has-bit 3
+    uint8_t _pad_34[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CPredictionEvent_Teleport) == 0x38);
+static_assert(offsetof(CPredictionEvent_Teleport, origin) == 0x18);
+static_assert(offsetof(CPredictionEvent_Teleport, angles) == 0x20);
+static_assert(offsetof(CPredictionEvent_Teleport, velocity) == 0x28);
+static_assert(offsetof(CPredictionEvent_Teleport, drop_to_ground_range) == 0x30);
+
+#pragma pack(push, 1)
+struct CPredictionEvent_StringCommand { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* command; // #1 string, has-bit 0
     static constexpr std::ptrdiff_t kSizeOf = 0x20;
     static constexpr std::ptrdiff_t kHasBits = 0x10;
 };
 #pragma pack(pop)
-static_assert(sizeof(COAuthToken_ImplicitGrantNoPrompt_Request) == 0x20);
-static_assert(offsetof(COAuthToken_ImplicitGrantNoPrompt_Request, clientid) == 0x18);
+static_assert(sizeof(CPredictionEvent_StringCommand) == 0x20);
+static_assert(offsetof(CPredictionEvent_StringCommand, command) == 0x18);
 
 #pragma pack(push, 1)
-struct COAuthToken_ImplicitGrantNoPrompt_Response { // sizeof 0x28, _has_bits_ @ 0x10
+struct CPredictionEvent_Diagnostic { // sizeof 0x38, _has_bits_ @ 0x10
     uint8_t _pad_0[0x18];
-    pb::string_t* access_token; // #1 string, has-bit 0
-    pb::string_t* redirect_uri; // #2 string, has-bit 1
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    uint8_t execution_sync[0x10]; // #4 repeated uint32, no has-bit
+    uint32_t id; // #1 uint32, has-bit 0
+    uint32_t requested_sync; // #2 uint32, has-bit 1
+    uint32_t requested_player_index; // #3 uint32, has-bit 2
+    uint8_t _pad_34[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
     static constexpr std::ptrdiff_t kHasBits = 0x10;
 };
 #pragma pack(pop)
-static_assert(sizeof(COAuthToken_ImplicitGrantNoPrompt_Response) == 0x28);
-static_assert(offsetof(COAuthToken_ImplicitGrantNoPrompt_Response, access_token) == 0x18);
-static_assert(offsetof(COAuthToken_ImplicitGrantNoPrompt_Response, redirect_uri) == 0x20);
+static_assert(sizeof(CPredictionEvent_Diagnostic) == 0x38);
+static_assert(offsetof(CPredictionEvent_Diagnostic, execution_sync) == 0x18);
+static_assert(offsetof(CPredictionEvent_Diagnostic, id) == 0x28);
+static_assert(offsetof(CPredictionEvent_Diagnostic, requested_sync) == 0x2c);
+static_assert(offsetof(CPredictionEvent_Diagnostic, requested_player_index) == 0x30);
 
 #pragma pack(push, 1)
 struct CMsgProtoBufHeader { // sizeof 0x58, _has_bits_ @ 0x10
@@ -12876,6 +12889,30 @@ struct CChinaAgreementSessions_StartAgreementSessionInGame_Response { // sizeof 
 #pragma pack(pop)
 static_assert(sizeof(CChinaAgreementSessions_StartAgreementSessionInGame_Response) == 0x20);
 static_assert(offsetof(CChinaAgreementSessions_StartAgreementSessionInGame_Response, agreement_url) == 0x18);
+
+#pragma pack(push, 1)
+struct COAuthToken_ImplicitGrantNoPrompt_Request { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* clientid; // #1 string, has-bit 0
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(COAuthToken_ImplicitGrantNoPrompt_Request) == 0x20);
+static_assert(offsetof(COAuthToken_ImplicitGrantNoPrompt_Request, clientid) == 0x18);
+
+#pragma pack(push, 1)
+struct COAuthToken_ImplicitGrantNoPrompt_Response { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* access_token; // #1 string, has-bit 0
+    pb::string_t* redirect_uri; // #2 string, has-bit 1
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(COAuthToken_ImplicitGrantNoPrompt_Response) == 0x28);
+static_assert(offsetof(COAuthToken_ImplicitGrantNoPrompt_Response, access_token) == 0x18);
+static_assert(offsetof(COAuthToken_ImplicitGrantNoPrompt_Response, redirect_uri) == 0x20);
 
 #pragma pack(push, 1)
 struct CPlayer_GetMutualFriendsForIncomingInvites_Request { // sizeof 0x18, no _has_bits_
@@ -23074,6 +23111,96 @@ static_assert(sizeof(CUserCmdBasePB) == 0x20);
 static_assert(offsetof(CUserCmdBasePB, base) == 0x18);
 
 #pragma pack(push, 1)
+struct CClientMsg_CustomGameEvent { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* event_name; // #1 string, has-bit 0
+    pb::string_t* data; // #2 bytes, has-bit 1
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CClientMsg_CustomGameEvent) == 0x28);
+static_assert(offsetof(CClientMsg_CustomGameEvent, event_name) == 0x18);
+static_assert(offsetof(CClientMsg_CustomGameEvent, data) == 0x20);
+
+#pragma pack(push, 1)
+struct CClientMsg_CustomGameEventBounce { // sizeof 0x30, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* event_name; // #1 string, has-bit 0
+    pb::string_t* data; // #2 bytes, has-bit 1
+    int32_t player_slot; // #3 int32, has-bit 2
+    uint8_t _pad_2c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x30;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CClientMsg_CustomGameEventBounce) == 0x30);
+static_assert(offsetof(CClientMsg_CustomGameEventBounce, event_name) == 0x18);
+static_assert(offsetof(CClientMsg_CustomGameEventBounce, data) == 0x20);
+static_assert(offsetof(CClientMsg_CustomGameEventBounce, player_slot) == 0x28);
+
+#pragma pack(push, 1)
+struct CClientMsg_ClientUIEvent { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* data1; // #4 string, has-bit 0
+    pb::string_t* data2; // #5 string, has-bit 1
+    int32_t event; // #1 enum EClientUIEvent, has-bit 2
+    uint32_t ent_ehandle; // #2 uint32, has-bit 3
+    uint32_t client_ehandle; // #3 uint32, has-bit 4
+    uint8_t _pad_34[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CClientMsg_ClientUIEvent) == 0x38);
+static_assert(offsetof(CClientMsg_ClientUIEvent, data1) == 0x18);
+static_assert(offsetof(CClientMsg_ClientUIEvent, data2) == 0x20);
+static_assert(offsetof(CClientMsg_ClientUIEvent, event) == 0x28);
+static_assert(offsetof(CClientMsg_ClientUIEvent, ent_ehandle) == 0x2c);
+static_assert(offsetof(CClientMsg_ClientUIEvent, client_ehandle) == 0x30);
+
+#pragma pack(push, 1)
+struct CClientMsg_DevPaletteVisibilityChangedEvent { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    bool visible; // #1 bool, has-bit 0
+    uint8_t _pad_19[0x7];
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CClientMsg_DevPaletteVisibilityChangedEvent) == 0x20);
+static_assert(offsetof(CClientMsg_DevPaletteVisibilityChangedEvent, visible) == 0x18);
+
+#pragma pack(push, 1)
+struct CClientMsg_WorldUIControllerHasPanelChangedEvent { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    bool has_panel; // #1 bool, has-bit 0
+    uint8_t _pad_19[0x3];
+    uint32_t client_ehandle; // #2 uint32, has-bit 1
+    uint32_t literal_hand_type; // #3 uint32, has-bit 2
+    uint8_t _pad_24[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CClientMsg_WorldUIControllerHasPanelChangedEvent) == 0x28);
+static_assert(offsetof(CClientMsg_WorldUIControllerHasPanelChangedEvent, has_panel) == 0x18);
+static_assert(offsetof(CClientMsg_WorldUIControllerHasPanelChangedEvent, client_ehandle) == 0x1c);
+static_assert(offsetof(CClientMsg_WorldUIControllerHasPanelChangedEvent, literal_hand_type) == 0x20);
+
+#pragma pack(push, 1)
+struct CClientMsg_RotateAnchor { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    float angle; // #1 float, has-bit 0
+    uint8_t _pad_1c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CClientMsg_RotateAnchor) == 0x20);
+static_assert(offsetof(CClientMsg_RotateAnchor, angle) == 0x18);
+
+#pragma pack(push, 1)
 struct CCSPredictionEvent_DamageTag { // sizeof 0x28, _has_bits_ @ 0x10
     uint8_t _pad_0[0x18];
     float flinch_mod_small; // #1 float, has-bit 0
@@ -23106,134 +23233,6 @@ static_assert(offsetof(CCSPredictionEvent_PlayerTeleport, origin) == 0x18);
 static_assert(offsetof(CCSPredictionEvent_PlayerTeleport, angles) == 0x20);
 static_assert(offsetof(CCSPredictionEvent_PlayerTeleport, velocity) == 0x28);
 static_assert(offsetof(CCSPredictionEvent_PlayerTeleport, relative) == 0x30);
-
-#pragma pack(push, 1)
-struct CMsgTEPlayerAnimEvent { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint32_t event; // #2 uint32, has-bit 0
-    int32_t data; // #3 int32, has-bit 1
-    uint32_t player; // #1 fixed32, has-bit 2
-    uint8_t _pad_24[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgTEPlayerAnimEvent) == 0x28);
-static_assert(offsetof(CMsgTEPlayerAnimEvent, event) == 0x18);
-static_assert(offsetof(CMsgTEPlayerAnimEvent, data) == 0x1c);
-static_assert(offsetof(CMsgTEPlayerAnimEvent, player) == 0x20);
-
-#pragma pack(push, 1)
-struct CMsgTERadioIcon { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint32_t player; // #1 fixed32, has-bit 0
-    uint8_t _pad_1c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgTERadioIcon) == 0x20);
-static_assert(offsetof(CMsgTERadioIcon, player) == 0x18);
-
-#pragma pack(push, 1)
-struct CMsgTEFireBullets { // sizeof 0x40, _has_bits_ @ 0x10
-    uint8_t spread[0x1]; // #9 float, has-bit 16
-    uint8_t sound_type[0x1]; // #10 int32, has-bit 8
-    uint8_t item_def_index[0x1]; // #11 uint32, no has-bit
-    uint8_t sound_dsp_effect[0x1]; // #12 fixed32, no has-bit
-    uint8_t ent_origin[0x1]; // #13 message CMsgVector, no has-bit
-    uint8_t num_bullets_remaining[0x1]; // #14 uint32, no has-bit
-    uint8_t attack_type[0x1]; // #15 uint32, has-bit 24
-    uint8_t extra[0x1]; // #16 message CMsgTEFireBullets.Extra, has-bit 32
-    bool player_scoped; // #18 bool, has-bit 56
-    uint8_t _pad_9[0x7];
-    bool player_inair; // #17 bool, has-bit 104
-    uint8_t _pad_11[0x7];
-    pb::server::CMsgVector* origin; // #1 message CMsgVector, has-bit 0
-    uint8_t angles[0x4]; // #2 message CMsgQAngle, has-bit 1
-    uint32_t weapon_id; // #3 uint32, has-bit 2
-    uint32_t mode; // #4 uint32, has-bit 3
-    uint32_t seed; // #5 uint32, has-bit 4
-    uint32_t player; // #6 fixed32, has-bit 5
-    float inaccuracy; // #7 float, has-bit 6
-    float recoil_index; // #8 float, has-bit 7
-    uint8_t _pad_3c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x40;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgTEFireBullets) == 0x40);
-static_assert(offsetof(CMsgTEFireBullets, spread) == 0x0);
-static_assert(offsetof(CMsgTEFireBullets, sound_type) == 0x1);
-static_assert(offsetof(CMsgTEFireBullets, item_def_index) == 0x2);
-static_assert(offsetof(CMsgTEFireBullets, sound_dsp_effect) == 0x3);
-static_assert(offsetof(CMsgTEFireBullets, ent_origin) == 0x4);
-static_assert(offsetof(CMsgTEFireBullets, num_bullets_remaining) == 0x5);
-static_assert(offsetof(CMsgTEFireBullets, attack_type) == 0x6);
-static_assert(offsetof(CMsgTEFireBullets, extra) == 0x7);
-static_assert(offsetof(CMsgTEFireBullets, player_scoped) == 0x8);
-static_assert(offsetof(CMsgTEFireBullets, player_inair) == 0x10);
-static_assert(offsetof(CMsgTEFireBullets, origin) == 0x18);
-static_assert(offsetof(CMsgTEFireBullets, angles) == 0x20);
-static_assert(offsetof(CMsgTEFireBullets, weapon_id) == 0x24);
-static_assert(offsetof(CMsgTEFireBullets, mode) == 0x28);
-static_assert(offsetof(CMsgTEFireBullets, seed) == 0x2c);
-static_assert(offsetof(CMsgTEFireBullets, player) == 0x30);
-static_assert(offsetof(CMsgTEFireBullets, inaccuracy) == 0x34);
-static_assert(offsetof(CMsgTEFireBullets, recoil_index) == 0x38);
-
-#pragma pack(push, 1)
-struct CMsgTEFireBullets_Extra { // sizeof 0x70, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::server::CMsgQAngle* aim_punch; // #1 message CMsgQAngle, has-bit 0
-    int32_t attack_tick_count; // #2 int32, has-bit 1
-    uint8_t _pad_24[0x14];
-    int32_t render_tick_count; // #4 int32, has-bit 4
-    float render_tick_frac; // #5 float, has-bit 5
-    float inaccuracy_air; // #7 float, has-bit 6
-    int32_t type; // #8 int32, has-bit 7
-    uint8_t _pad_48[0x20];
-    float attack_tick_frac; // #3 float, has-bit 17
-    float inaccuracy_move; // #6 float, has-bit 18
-    static constexpr std::ptrdiff_t kSizeOf = 0x70;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgTEFireBullets_Extra) == 0x70);
-static_assert(offsetof(CMsgTEFireBullets_Extra, aim_punch) == 0x18);
-static_assert(offsetof(CMsgTEFireBullets_Extra, attack_tick_count) == 0x20);
-static_assert(offsetof(CMsgTEFireBullets_Extra, render_tick_count) == 0x38);
-static_assert(offsetof(CMsgTEFireBullets_Extra, render_tick_frac) == 0x3c);
-static_assert(offsetof(CMsgTEFireBullets_Extra, inaccuracy_air) == 0x40);
-static_assert(offsetof(CMsgTEFireBullets_Extra, type) == 0x44);
-static_assert(offsetof(CMsgTEFireBullets_Extra, attack_tick_frac) == 0x68);
-static_assert(offsetof(CMsgTEFireBullets_Extra, inaccuracy_move) == 0x6c);
-
-#pragma pack(push, 1)
-struct CMsgPlayerBulletHit { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::server::CMsgVector* victim_pos; // #3 message CMsgVector, has-bit 0
-    int32_t hit_group; // #4 int32, has-bit 1
-    int32_t damage; // #5 int32, has-bit 2
-    int32_t penetration_count; // #6 int32, has-bit 3
-    bool is_kill; // #7 bool, has-bit 4
-    bool through_smoke; // #8 bool, has-bit 5
-    uint8_t _pad_2e[0x2];
-    int32_t attacker_slot; // #1 int32, has-bit 6
-    int32_t victim_slot; // #2 int32, has-bit 7
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgPlayerBulletHit) == 0x38);
-static_assert(offsetof(CMsgPlayerBulletHit, victim_pos) == 0x18);
-static_assert(offsetof(CMsgPlayerBulletHit, hit_group) == 0x20);
-static_assert(offsetof(CMsgPlayerBulletHit, damage) == 0x24);
-static_assert(offsetof(CMsgPlayerBulletHit, penetration_count) == 0x28);
-static_assert(offsetof(CMsgPlayerBulletHit, is_kill) == 0x2c);
-static_assert(offsetof(CMsgPlayerBulletHit, through_smoke) == 0x2d);
-static_assert(offsetof(CMsgPlayerBulletHit, attacker_slot) == 0x30);
-static_assert(offsetof(CMsgPlayerBulletHit, victim_slot) == 0x34);
 
 #pragma pack(push, 1)
 struct CCSUsrMsg_VGUIMenu { // sizeof 0x28, _has_bits_ @ 0x10
@@ -24670,6 +24669,134 @@ struct CVacNet_GetReviewerInfo_Response { // sizeof 0x20, _has_bits_ @ 0x10
 #pragma pack(pop)
 static_assert(sizeof(CVacNet_GetReviewerInfo_Response) == 0x20);
 static_assert(offsetof(CVacNet_GetReviewerInfo_Response, reviewer_info) == 0x18);
+
+#pragma pack(push, 1)
+struct CMsgTEPlayerAnimEvent { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t event; // #2 uint32, has-bit 0
+    int32_t data; // #3 int32, has-bit 1
+    uint32_t player; // #1 fixed32, has-bit 2
+    uint8_t _pad_24[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgTEPlayerAnimEvent) == 0x28);
+static_assert(offsetof(CMsgTEPlayerAnimEvent, event) == 0x18);
+static_assert(offsetof(CMsgTEPlayerAnimEvent, data) == 0x1c);
+static_assert(offsetof(CMsgTEPlayerAnimEvent, player) == 0x20);
+
+#pragma pack(push, 1)
+struct CMsgTERadioIcon { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t player; // #1 fixed32, has-bit 0
+    uint8_t _pad_1c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgTERadioIcon) == 0x20);
+static_assert(offsetof(CMsgTERadioIcon, player) == 0x18);
+
+#pragma pack(push, 1)
+struct CMsgTEFireBullets { // sizeof 0x40, _has_bits_ @ 0x10
+    uint8_t spread[0x1]; // #9 float, has-bit 16
+    uint8_t sound_type[0x1]; // #10 int32, has-bit 8
+    uint8_t item_def_index[0x1]; // #11 uint32, no has-bit
+    uint8_t sound_dsp_effect[0x1]; // #12 fixed32, no has-bit
+    uint8_t ent_origin[0x1]; // #13 message CMsgVector, no has-bit
+    uint8_t num_bullets_remaining[0x1]; // #14 uint32, no has-bit
+    uint8_t attack_type[0x1]; // #15 uint32, has-bit 24
+    uint8_t extra[0x1]; // #16 message CMsgTEFireBullets.Extra, has-bit 32
+    bool player_scoped; // #18 bool, has-bit 56
+    uint8_t _pad_9[0x7];
+    bool player_inair; // #17 bool, has-bit 104
+    uint8_t _pad_11[0x7];
+    pb::server::CMsgVector* origin; // #1 message CMsgVector, has-bit 0
+    uint8_t angles[0x4]; // #2 message CMsgQAngle, has-bit 1
+    uint32_t weapon_id; // #3 uint32, has-bit 2
+    uint32_t mode; // #4 uint32, has-bit 3
+    uint32_t seed; // #5 uint32, has-bit 4
+    uint32_t player; // #6 fixed32, has-bit 5
+    float inaccuracy; // #7 float, has-bit 6
+    float recoil_index; // #8 float, has-bit 7
+    uint8_t _pad_3c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x40;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgTEFireBullets) == 0x40);
+static_assert(offsetof(CMsgTEFireBullets, spread) == 0x0);
+static_assert(offsetof(CMsgTEFireBullets, sound_type) == 0x1);
+static_assert(offsetof(CMsgTEFireBullets, item_def_index) == 0x2);
+static_assert(offsetof(CMsgTEFireBullets, sound_dsp_effect) == 0x3);
+static_assert(offsetof(CMsgTEFireBullets, ent_origin) == 0x4);
+static_assert(offsetof(CMsgTEFireBullets, num_bullets_remaining) == 0x5);
+static_assert(offsetof(CMsgTEFireBullets, attack_type) == 0x6);
+static_assert(offsetof(CMsgTEFireBullets, extra) == 0x7);
+static_assert(offsetof(CMsgTEFireBullets, player_scoped) == 0x8);
+static_assert(offsetof(CMsgTEFireBullets, player_inair) == 0x10);
+static_assert(offsetof(CMsgTEFireBullets, origin) == 0x18);
+static_assert(offsetof(CMsgTEFireBullets, angles) == 0x20);
+static_assert(offsetof(CMsgTEFireBullets, weapon_id) == 0x24);
+static_assert(offsetof(CMsgTEFireBullets, mode) == 0x28);
+static_assert(offsetof(CMsgTEFireBullets, seed) == 0x2c);
+static_assert(offsetof(CMsgTEFireBullets, player) == 0x30);
+static_assert(offsetof(CMsgTEFireBullets, inaccuracy) == 0x34);
+static_assert(offsetof(CMsgTEFireBullets, recoil_index) == 0x38);
+
+#pragma pack(push, 1)
+struct CMsgTEFireBullets_Extra { // sizeof 0x70, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::server::CMsgQAngle* aim_punch; // #1 message CMsgQAngle, has-bit 0
+    int32_t attack_tick_count; // #2 int32, has-bit 1
+    uint8_t _pad_24[0x14];
+    int32_t render_tick_count; // #4 int32, has-bit 4
+    float render_tick_frac; // #5 float, has-bit 5
+    float inaccuracy_air; // #7 float, has-bit 6
+    int32_t type; // #8 int32, has-bit 7
+    uint8_t _pad_48[0x20];
+    float attack_tick_frac; // #3 float, has-bit 17
+    float inaccuracy_move; // #6 float, has-bit 18
+    static constexpr std::ptrdiff_t kSizeOf = 0x70;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgTEFireBullets_Extra) == 0x70);
+static_assert(offsetof(CMsgTEFireBullets_Extra, aim_punch) == 0x18);
+static_assert(offsetof(CMsgTEFireBullets_Extra, attack_tick_count) == 0x20);
+static_assert(offsetof(CMsgTEFireBullets_Extra, render_tick_count) == 0x38);
+static_assert(offsetof(CMsgTEFireBullets_Extra, render_tick_frac) == 0x3c);
+static_assert(offsetof(CMsgTEFireBullets_Extra, inaccuracy_air) == 0x40);
+static_assert(offsetof(CMsgTEFireBullets_Extra, type) == 0x44);
+static_assert(offsetof(CMsgTEFireBullets_Extra, attack_tick_frac) == 0x68);
+static_assert(offsetof(CMsgTEFireBullets_Extra, inaccuracy_move) == 0x6c);
+
+#pragma pack(push, 1)
+struct CMsgPlayerBulletHit { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::server::CMsgVector* victim_pos; // #3 message CMsgVector, has-bit 0
+    int32_t hit_group; // #4 int32, has-bit 1
+    int32_t damage; // #5 int32, has-bit 2
+    int32_t penetration_count; // #6 int32, has-bit 3
+    bool is_kill; // #7 bool, has-bit 4
+    bool through_smoke; // #8 bool, has-bit 5
+    uint8_t _pad_2e[0x2];
+    int32_t attacker_slot; // #1 int32, has-bit 6
+    int32_t victim_slot; // #2 int32, has-bit 7
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgPlayerBulletHit) == 0x38);
+static_assert(offsetof(CMsgPlayerBulletHit, victim_pos) == 0x18);
+static_assert(offsetof(CMsgPlayerBulletHit, hit_group) == 0x20);
+static_assert(offsetof(CMsgPlayerBulletHit, damage) == 0x24);
+static_assert(offsetof(CMsgPlayerBulletHit, penetration_count) == 0x28);
+static_assert(offsetof(CMsgPlayerBulletHit, is_kill) == 0x2c);
+static_assert(offsetof(CMsgPlayerBulletHit, through_smoke) == 0x2d);
+static_assert(offsetof(CMsgPlayerBulletHit, attacker_slot) == 0x30);
+static_assert(offsetof(CMsgPlayerBulletHit, victim_slot) == 0x34);
 
 #pragma pack(push, 1)
 struct GameServerPing { // sizeof 0x28, _has_bits_ @ 0x10
@@ -28492,6 +28619,39 @@ static_assert(offsetof(CMsgStoreGetUserDataResponse, currency_deprecated) == 0x2
 static_assert(offsetof(CMsgStoreGetUserDataResponse, price_sheet_version) == 0x30);
 
 #pragma pack(push, 1)
+struct CMsgVolatileContainerPricesheet { // sizeof 0x30, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t version; // #1 uint32, has-bit 0
+    uint8_t _pad_1c[0x4];
+    uint8_t entries[0x10]; // #2 repeated message CMsgVolatileContainerPricesheet.Entry, has-bit 1
+    static constexpr std::ptrdiff_t kSizeOf = 0x30;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgVolatileContainerPricesheet) == 0x30);
+static_assert(offsetof(CMsgVolatileContainerPricesheet, version) == 0x18);
+static_assert(offsetof(CMsgVolatileContainerPricesheet, entries) == 0x20);
+
+#pragma pack(push, 1)
+struct CMsgVolatileContainerPricesheet_Entry { // sizeof 0x38, _has_bits_ @ 0x10
+    int32_t trend; // #3 sint32, has-bit 16
+    uint8_t _pad_4[0xc];
+    uint32_t high; // #5 uint32, no has-bit
+    uint8_t _pad_14[0x4];
+    uint32_t cost; // #2 uint32, no has-bit
+    uint8_t _pad_1c[0x14];
+    uint64_t key; // #1 fixed64, has-bit 0
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgVolatileContainerPricesheet_Entry) == 0x38);
+static_assert(offsetof(CMsgVolatileContainerPricesheet_Entry, trend) == 0x0);
+static_assert(offsetof(CMsgVolatileContainerPricesheet_Entry, high) == 0x10);
+static_assert(offsetof(CMsgVolatileContainerPricesheet_Entry, cost) == 0x18);
+static_assert(offsetof(CMsgVolatileContainerPricesheet_Entry, key) == 0x30);
+
+#pragma pack(push, 1)
 struct CMsgUpdateItemSchema { // sizeof 0x30, _has_bits_ @ 0x10
     uint8_t _pad_0[0x18];
     pb::string_t* items_game; // #1 bytes, has-bit 0
@@ -29168,96 +29328,6 @@ static_assert(sizeof(CMsgAcknowledgeRentalExpiration) == 0x20);
 static_assert(offsetof(CMsgAcknowledgeRentalExpiration, crate_item_id) == 0x18);
 
 #pragma pack(push, 1)
-struct CClientMsg_CustomGameEvent { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* event_name; // #1 string, has-bit 0
-    pb::string_t* data; // #2 bytes, has-bit 1
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CClientMsg_CustomGameEvent) == 0x28);
-static_assert(offsetof(CClientMsg_CustomGameEvent, event_name) == 0x18);
-static_assert(offsetof(CClientMsg_CustomGameEvent, data) == 0x20);
-
-#pragma pack(push, 1)
-struct CClientMsg_CustomGameEventBounce { // sizeof 0x30, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* event_name; // #1 string, has-bit 0
-    pb::string_t* data; // #2 bytes, has-bit 1
-    int32_t player_slot; // #3 int32, has-bit 2
-    uint8_t _pad_2c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x30;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CClientMsg_CustomGameEventBounce) == 0x30);
-static_assert(offsetof(CClientMsg_CustomGameEventBounce, event_name) == 0x18);
-static_assert(offsetof(CClientMsg_CustomGameEventBounce, data) == 0x20);
-static_assert(offsetof(CClientMsg_CustomGameEventBounce, player_slot) == 0x28);
-
-#pragma pack(push, 1)
-struct CClientMsg_ClientUIEvent { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* data1; // #4 string, has-bit 0
-    pb::string_t* data2; // #5 string, has-bit 1
-    int32_t event; // #1 enum EClientUIEvent, has-bit 2
-    uint32_t ent_ehandle; // #2 uint32, has-bit 3
-    uint32_t client_ehandle; // #3 uint32, has-bit 4
-    uint8_t _pad_34[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CClientMsg_ClientUIEvent) == 0x38);
-static_assert(offsetof(CClientMsg_ClientUIEvent, data1) == 0x18);
-static_assert(offsetof(CClientMsg_ClientUIEvent, data2) == 0x20);
-static_assert(offsetof(CClientMsg_ClientUIEvent, event) == 0x28);
-static_assert(offsetof(CClientMsg_ClientUIEvent, ent_ehandle) == 0x2c);
-static_assert(offsetof(CClientMsg_ClientUIEvent, client_ehandle) == 0x30);
-
-#pragma pack(push, 1)
-struct CClientMsg_DevPaletteVisibilityChangedEvent { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    bool visible; // #1 bool, has-bit 0
-    uint8_t _pad_19[0x7];
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CClientMsg_DevPaletteVisibilityChangedEvent) == 0x20);
-static_assert(offsetof(CClientMsg_DevPaletteVisibilityChangedEvent, visible) == 0x18);
-
-#pragma pack(push, 1)
-struct CClientMsg_WorldUIControllerHasPanelChangedEvent { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    bool has_panel; // #1 bool, has-bit 0
-    uint8_t _pad_19[0x3];
-    uint32_t client_ehandle; // #2 uint32, has-bit 1
-    uint32_t literal_hand_type; // #3 uint32, has-bit 2
-    uint8_t _pad_24[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CClientMsg_WorldUIControllerHasPanelChangedEvent) == 0x28);
-static_assert(offsetof(CClientMsg_WorldUIControllerHasPanelChangedEvent, has_panel) == 0x18);
-static_assert(offsetof(CClientMsg_WorldUIControllerHasPanelChangedEvent, client_ehandle) == 0x1c);
-static_assert(offsetof(CClientMsg_WorldUIControllerHasPanelChangedEvent, literal_hand_type) == 0x20);
-
-#pragma pack(push, 1)
-struct CClientMsg_RotateAnchor { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    float angle; // #1 float, has-bit 0
-    uint8_t _pad_1c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CClientMsg_RotateAnchor) == 0x20);
-static_assert(offsetof(CClientMsg_RotateAnchor, angle) == 0x18);
-
-#pragma pack(push, 1)
 struct MLDict { // sizeof 0x30, _has_bits_ @ 0x10
     uint8_t _pad_0[0x18];
     pb::string_t* key; // #1 string, has-bit 0
@@ -29470,313 +29540,6 @@ static_assert(offsetof(VacNetShot, round_number) == 0x40);
 static_assert(offsetof(VacNetShot, hit_type) == 0x44);
 static_assert(offsetof(VacNetShot, weapon_type) == 0x48);
 static_assert(offsetof(VacNetShot, distance_to_hurt_target) == 0x4c);
-
-#pragma pack(push, 1)
-struct CMsgVDebugGameSessionIDEvent { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* gamesessionid; // #2 string, has-bit 0
-    int32_t clientid; // #1 int32, has-bit 1
-    uint8_t _pad_24[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgVDebugGameSessionIDEvent) == 0x28);
-static_assert(offsetof(CMsgVDebugGameSessionIDEvent, gamesessionid) == 0x18);
-static_assert(offsetof(CMsgVDebugGameSessionIDEvent, clientid) == 0x20);
-
-#pragma pack(push, 1)
-struct CMsgPlaceDecalEvent { // sizeof 0x70, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::server::CMsgVector* position; // #1 message CMsgVector, has-bit 0
-    pb::server::CMsgVector* normal; // #2 message CMsgVector, has-bit 1
-    pb::server::CMsgVector* saxis; // #3 message CMsgVector, has-bit 2
-    pb::server::CMsgVector* position_objectspace; // #14 message CMsgVector, has-bit 3
-    pb::server::CMsgVector* normal_objectspace; // #15 message CMsgVector, has-bit 4
-    int32_t boneindex; // #4 int32, has-bit 5
-    uint32_t color; // #6 fixed32, has-bit 6
-    int32_t random_seed; // #7 int32, has-bit 7
-    uint32_t decal_group_name; // #8 uint32, has-bit 8
-    float size_override; // #9 float, has-bit 9
-    uint32_t entityhandle; // #10 uint32, has-bit 10
-    uint32_t sequence_name; // #12 uint32, has-bit 11
-    uint8_t _pad_5c[0x4];
-    int32_t triangleindex; // #13 int32, has-bit 12
-    uint32_t flags; // #5 uint32, has-bit 13
-    uint64_t material_id; // #11 uint64, has-bit 14
-    static constexpr std::ptrdiff_t kSizeOf = 0x70;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgPlaceDecalEvent) == 0x70);
-static_assert(offsetof(CMsgPlaceDecalEvent, position) == 0x18);
-static_assert(offsetof(CMsgPlaceDecalEvent, normal) == 0x20);
-static_assert(offsetof(CMsgPlaceDecalEvent, saxis) == 0x28);
-static_assert(offsetof(CMsgPlaceDecalEvent, position_objectspace) == 0x30);
-static_assert(offsetof(CMsgPlaceDecalEvent, normal_objectspace) == 0x38);
-static_assert(offsetof(CMsgPlaceDecalEvent, boneindex) == 0x40);
-static_assert(offsetof(CMsgPlaceDecalEvent, color) == 0x44);
-static_assert(offsetof(CMsgPlaceDecalEvent, random_seed) == 0x48);
-static_assert(offsetof(CMsgPlaceDecalEvent, decal_group_name) == 0x4c);
-static_assert(offsetof(CMsgPlaceDecalEvent, size_override) == 0x50);
-static_assert(offsetof(CMsgPlaceDecalEvent, entityhandle) == 0x54);
-static_assert(offsetof(CMsgPlaceDecalEvent, sequence_name) == 0x58);
-static_assert(offsetof(CMsgPlaceDecalEvent, triangleindex) == 0x60);
-static_assert(offsetof(CMsgPlaceDecalEvent, flags) == 0x64);
-static_assert(offsetof(CMsgPlaceDecalEvent, material_id) == 0x68);
-
-#pragma pack(push, 1)
-struct CMsgClearWorldDecalsEvent { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint32_t flagstoclear; // #1 uint32, has-bit 0
-    uint8_t _pad_1c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgClearWorldDecalsEvent) == 0x20);
-static_assert(offsetof(CMsgClearWorldDecalsEvent, flagstoclear) == 0x18);
-
-#pragma pack(push, 1)
-struct CMsgClearEntityDecalsEvent { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint32_t flagstoclear; // #1 uint32, has-bit 0
-    uint8_t _pad_1c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgClearEntityDecalsEvent) == 0x20);
-static_assert(offsetof(CMsgClearEntityDecalsEvent, flagstoclear) == 0x18);
-
-#pragma pack(push, 1)
-struct CMsgClearDecalsForEntityEvent { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint32_t flagstoclear; // #1 uint32, has-bit 0
-    uint32_t entityhandle; // #2 uint32, has-bit 1
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgClearDecalsForEntityEvent) == 0x20);
-static_assert(offsetof(CMsgClearDecalsForEntityEvent, flagstoclear) == 0x18);
-static_assert(offsetof(CMsgClearDecalsForEntityEvent, entityhandle) == 0x1c);
-
-#pragma pack(push, 1)
-struct CMsgSource1LegacyGameEventList { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x20];
-    uint8_t descriptors[0x8]; // #1 repeated message CMsgSource1LegacyGameEventList.descriptor_t, has-bit 1
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSource1LegacyGameEventList) == 0x28);
-static_assert(offsetof(CMsgSource1LegacyGameEventList, descriptors) == 0x20);
-
-#pragma pack(push, 1)
-struct CMsgSource1LegacyGameEventList_key_t { // sizeof 0x40, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x30];
-    pb::string_t* name; // #2 string, has-bit 0
-    int32_t type; // #1 int32, has-bit 1
-    uint8_t _pad_3c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x40;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSource1LegacyGameEventList_key_t) == 0x40);
-static_assert(offsetof(CMsgSource1LegacyGameEventList_key_t, name) == 0x30);
-static_assert(offsetof(CMsgSource1LegacyGameEventList_key_t, type) == 0x38);
-
-#pragma pack(push, 1)
-struct CMsgSource1LegacyGameEventList_descriptor_t { // sizeof 0x30, no _has_bits_
-    uint8_t _pad_0[0x8];
-    uint8_t keys[0x8]; // #3 repeated message CMsgSource1LegacyGameEventList.key_t, no has-bit
-    int32_t eventid; // #1 int32, no has-bit
-    uint8_t _pad_14[0x1c];
-    static constexpr std::ptrdiff_t kSizeOf = 0x30;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSource1LegacyGameEventList_descriptor_t) == 0x30);
-static_assert(offsetof(CMsgSource1LegacyGameEventList_descriptor_t, keys) == 0x8);
-static_assert(offsetof(CMsgSource1LegacyGameEventList_descriptor_t, eventid) == 0x10);
-
-#pragma pack(push, 1)
-struct CMsgSource1LegacyListenEvents { // sizeof 0x30, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint8_t eventarraybits[0x10]; // #2 repeated uint32, no has-bit
-    int32_t playerslot; // #1 int32, has-bit 0
-    uint8_t _pad_2c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x30;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSource1LegacyListenEvents) == 0x30);
-static_assert(offsetof(CMsgSource1LegacyListenEvents, eventarraybits) == 0x18);
-static_assert(offsetof(CMsgSource1LegacyListenEvents, playerslot) == 0x28);
-
-#pragma pack(push, 1)
-struct CMsgSource1LegacyGameEvent { // sizeof 0x40, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    int32_t eventid; // #2 int32, has-bit 0
-    uint8_t _pad_1c[0x4];
-    uint8_t event_name[0x4]; // #1 string, has-bit 1
-    uint8_t keys[0x4]; // #3 repeated message CMsgSource1LegacyGameEvent.key_t, has-bit 2
-    int32_t server_tick; // #4 int32, has-bit 3
-    int32_t passthrough; // #5 int32, has-bit 4
-    uint8_t _pad_30[0x10];
-    static constexpr std::ptrdiff_t kSizeOf = 0x40;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSource1LegacyGameEvent) == 0x40);
-static_assert(offsetof(CMsgSource1LegacyGameEvent, eventid) == 0x18);
-static_assert(offsetof(CMsgSource1LegacyGameEvent, event_name) == 0x20);
-static_assert(offsetof(CMsgSource1LegacyGameEvent, keys) == 0x24);
-static_assert(offsetof(CMsgSource1LegacyGameEvent, server_tick) == 0x28);
-static_assert(offsetof(CMsgSource1LegacyGameEvent, passthrough) == 0x2c);
-
-#pragma pack(push, 1)
-struct CMsgSource1LegacyGameEvent_key_t { // sizeof 0x48, _has_bits_ @ 0x10
-    uint8_t val_byte[0x1]; // #6 int32, has-bit 16
-    bool val_bool; // #7 bool, has-bit 8
-    uint8_t _pad_2[0x16];
-    float val_float; // #3 float, no has-bit
-    uint8_t _pad_1c[0x14];
-    int32_t type; // #1 int32, has-bit 0
-    uint8_t _pad_34[0x4];
-    uint8_t val_string[0x4]; // #2 string, has-bit 1
-    int32_t val_long; // #4 int32, has-bit 2
-    int32_t val_short; // #5 int32, has-bit 3
-    uint8_t _pad_44[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x48;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSource1LegacyGameEvent_key_t) == 0x48);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_byte) == 0x0);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_bool) == 0x1);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_float) == 0x18);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, type) == 0x30);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_string) == 0x38);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_long) == 0x3c);
-static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_short) == 0x40);
-
-#pragma pack(push, 1)
-struct CMsgSosStartSoundEvent { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* packed_params; // #5 bytes, has-bit 0
-    int32_t soundevent_guid; // #1 int32, has-bit 1
-    uint32_t soundevent_hash; // #2 fixed32, has-bit 2
-    int32_t seed; // #4 int32, has-bit 3
-    float start_time; // #6 float, has-bit 4
-    int32_t source_entity_index; // #3 int32, has-bit 5
-    uint8_t _pad_34[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSosStartSoundEvent) == 0x38);
-static_assert(offsetof(CMsgSosStartSoundEvent, packed_params) == 0x18);
-static_assert(offsetof(CMsgSosStartSoundEvent, soundevent_guid) == 0x20);
-static_assert(offsetof(CMsgSosStartSoundEvent, soundevent_hash) == 0x24);
-static_assert(offsetof(CMsgSosStartSoundEvent, seed) == 0x28);
-static_assert(offsetof(CMsgSosStartSoundEvent, start_time) == 0x2c);
-static_assert(offsetof(CMsgSosStartSoundEvent, source_entity_index) == 0x30);
-
-#pragma pack(push, 1)
-struct CMsgSosStopSoundEvent { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    int32_t soundevent_guid; // #1 int32, has-bit 0
-    uint8_t _pad_1c[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSosStopSoundEvent) == 0x20);
-static_assert(offsetof(CMsgSosStopSoundEvent, soundevent_guid) == 0x18);
-
-#pragma pack(push, 1)
-struct CMsgSosStopSoundEventHash { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint32_t soundevent_hash; // #1 fixed32, has-bit 0
-    int32_t source_entity_index; // #2 int32, has-bit 1
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSosStopSoundEventHash) == 0x20);
-static_assert(offsetof(CMsgSosStopSoundEventHash, soundevent_hash) == 0x18);
-static_assert(offsetof(CMsgSosStopSoundEventHash, source_entity_index) == 0x1c);
-
-#pragma pack(push, 1)
-struct CMsgSosSetSoundEventParams { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* packed_params; // #5 bytes, has-bit 0
-    int32_t soundevent_guid; // #1 int32, has-bit 1
-    uint8_t _pad_24[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSosSetSoundEventParams) == 0x28);
-static_assert(offsetof(CMsgSosSetSoundEventParams, packed_params) == 0x18);
-static_assert(offsetof(CMsgSosSetSoundEventParams, soundevent_guid) == 0x20);
-
-#pragma pack(push, 1)
-struct CMsgSosSetLibraryStackFields { // sizeof 0x28, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* packed_fields; // #5 bytes, has-bit 0
-    uint32_t stack_hash; // #1 fixed32, has-bit 1
-    uint8_t _pad_24[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x28;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgSosSetLibraryStackFields) == 0x28);
-static_assert(offsetof(CMsgSosSetLibraryStackFields, packed_fields) == 0x18);
-static_assert(offsetof(CMsgSosSetLibraryStackFields, stack_hash) == 0x20);
-
-#pragma pack(push, 1)
-struct CMsgClothStiffenAnimEvent { // sizeof 0x30, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    int32_t vertex_set_hash; // #2 int32, has-bit 0
-    float intensity; // #3 float, has-bit 1
-    float length; // #4 float, has-bit 2
-    float speed_in; // #5 float, has-bit 3
-    float speed_out; // #6 float, has-bit 4
-    int32_t source_entity_index; // #1 int32, has-bit 5
-    static constexpr std::ptrdiff_t kSizeOf = 0x30;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgClothStiffenAnimEvent) == 0x30);
-static_assert(offsetof(CMsgClothStiffenAnimEvent, vertex_set_hash) == 0x18);
-static_assert(offsetof(CMsgClothStiffenAnimEvent, intensity) == 0x1c);
-static_assert(offsetof(CMsgClothStiffenAnimEvent, length) == 0x20);
-static_assert(offsetof(CMsgClothStiffenAnimEvent, speed_in) == 0x24);
-static_assert(offsetof(CMsgClothStiffenAnimEvent, speed_out) == 0x28);
-static_assert(offsetof(CMsgClothStiffenAnimEvent, source_entity_index) == 0x2c);
-
-#pragma pack(push, 1)
-struct CMsgClothEffectAnimEvent { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* tags; // #5 string, has-bit 0
-    pb::server::CMsgVector* pte; // #6 message CMsgVector, has-bit 1
-    int32_t effect_name_hash; // #2 int32, has-bit 2
-    int32_t operation; // #3 int32, has-bit 3
-    int32_t flags; // #4 int32, has-bit 4
-    int32_t source_entity_index; // #1 int32, has-bit 5
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CMsgClothEffectAnimEvent) == 0x38);
-static_assert(offsetof(CMsgClothEffectAnimEvent, tags) == 0x18);
-static_assert(offsetof(CMsgClothEffectAnimEvent, pte) == 0x20);
-static_assert(offsetof(CMsgClothEffectAnimEvent, effect_name_hash) == 0x28);
-static_assert(offsetof(CMsgClothEffectAnimEvent, operation) == 0x2c);
-static_assert(offsetof(CMsgClothEffectAnimEvent, flags) == 0x30);
-static_assert(offsetof(CMsgClothEffectAnimEvent, source_entity_index) == 0x34);
 
 #pragma pack(push, 1)
 struct CMsgSOIDOwner { // sizeof 0x28, _has_bits_ @ 0x10
@@ -30555,6 +30318,313 @@ static_assert(offsetof(CMsgSerializedSOCache_Cache_Version, version) == 0x18);
 static_assert(offsetof(CMsgSerializedSOCache_Cache_Version, service) == 0x30);
 
 #pragma pack(push, 1)
+struct CMsgVDebugGameSessionIDEvent { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* gamesessionid; // #2 string, has-bit 0
+    int32_t clientid; // #1 int32, has-bit 1
+    uint8_t _pad_24[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgVDebugGameSessionIDEvent) == 0x28);
+static_assert(offsetof(CMsgVDebugGameSessionIDEvent, gamesessionid) == 0x18);
+static_assert(offsetof(CMsgVDebugGameSessionIDEvent, clientid) == 0x20);
+
+#pragma pack(push, 1)
+struct CMsgPlaceDecalEvent { // sizeof 0x70, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::server::CMsgVector* position; // #1 message CMsgVector, has-bit 0
+    pb::server::CMsgVector* normal; // #2 message CMsgVector, has-bit 1
+    pb::server::CMsgVector* saxis; // #3 message CMsgVector, has-bit 2
+    pb::server::CMsgVector* position_objectspace; // #14 message CMsgVector, has-bit 3
+    pb::server::CMsgVector* normal_objectspace; // #15 message CMsgVector, has-bit 4
+    int32_t boneindex; // #4 int32, has-bit 5
+    uint32_t color; // #6 fixed32, has-bit 6
+    int32_t random_seed; // #7 int32, has-bit 7
+    uint32_t decal_group_name; // #8 uint32, has-bit 8
+    float size_override; // #9 float, has-bit 9
+    uint32_t entityhandle; // #10 uint32, has-bit 10
+    uint32_t sequence_name; // #12 uint32, has-bit 11
+    uint8_t _pad_5c[0x4];
+    int32_t triangleindex; // #13 int32, has-bit 12
+    uint32_t flags; // #5 uint32, has-bit 13
+    uint64_t material_id; // #11 uint64, has-bit 14
+    static constexpr std::ptrdiff_t kSizeOf = 0x70;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgPlaceDecalEvent) == 0x70);
+static_assert(offsetof(CMsgPlaceDecalEvent, position) == 0x18);
+static_assert(offsetof(CMsgPlaceDecalEvent, normal) == 0x20);
+static_assert(offsetof(CMsgPlaceDecalEvent, saxis) == 0x28);
+static_assert(offsetof(CMsgPlaceDecalEvent, position_objectspace) == 0x30);
+static_assert(offsetof(CMsgPlaceDecalEvent, normal_objectspace) == 0x38);
+static_assert(offsetof(CMsgPlaceDecalEvent, boneindex) == 0x40);
+static_assert(offsetof(CMsgPlaceDecalEvent, color) == 0x44);
+static_assert(offsetof(CMsgPlaceDecalEvent, random_seed) == 0x48);
+static_assert(offsetof(CMsgPlaceDecalEvent, decal_group_name) == 0x4c);
+static_assert(offsetof(CMsgPlaceDecalEvent, size_override) == 0x50);
+static_assert(offsetof(CMsgPlaceDecalEvent, entityhandle) == 0x54);
+static_assert(offsetof(CMsgPlaceDecalEvent, sequence_name) == 0x58);
+static_assert(offsetof(CMsgPlaceDecalEvent, triangleindex) == 0x60);
+static_assert(offsetof(CMsgPlaceDecalEvent, flags) == 0x64);
+static_assert(offsetof(CMsgPlaceDecalEvent, material_id) == 0x68);
+
+#pragma pack(push, 1)
+struct CMsgClearWorldDecalsEvent { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t flagstoclear; // #1 uint32, has-bit 0
+    uint8_t _pad_1c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgClearWorldDecalsEvent) == 0x20);
+static_assert(offsetof(CMsgClearWorldDecalsEvent, flagstoclear) == 0x18);
+
+#pragma pack(push, 1)
+struct CMsgClearEntityDecalsEvent { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t flagstoclear; // #1 uint32, has-bit 0
+    uint8_t _pad_1c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgClearEntityDecalsEvent) == 0x20);
+static_assert(offsetof(CMsgClearEntityDecalsEvent, flagstoclear) == 0x18);
+
+#pragma pack(push, 1)
+struct CMsgClearDecalsForEntityEvent { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t flagstoclear; // #1 uint32, has-bit 0
+    uint32_t entityhandle; // #2 uint32, has-bit 1
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgClearDecalsForEntityEvent) == 0x20);
+static_assert(offsetof(CMsgClearDecalsForEntityEvent, flagstoclear) == 0x18);
+static_assert(offsetof(CMsgClearDecalsForEntityEvent, entityhandle) == 0x1c);
+
+#pragma pack(push, 1)
+struct CMsgSource1LegacyGameEventList { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x20];
+    uint8_t descriptors[0x8]; // #1 repeated message CMsgSource1LegacyGameEventList.descriptor_t, has-bit 1
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSource1LegacyGameEventList) == 0x28);
+static_assert(offsetof(CMsgSource1LegacyGameEventList, descriptors) == 0x20);
+
+#pragma pack(push, 1)
+struct CMsgSource1LegacyGameEventList_key_t { // sizeof 0x40, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x30];
+    pb::string_t* name; // #2 string, has-bit 0
+    int32_t type; // #1 int32, has-bit 1
+    uint8_t _pad_3c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x40;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSource1LegacyGameEventList_key_t) == 0x40);
+static_assert(offsetof(CMsgSource1LegacyGameEventList_key_t, name) == 0x30);
+static_assert(offsetof(CMsgSource1LegacyGameEventList_key_t, type) == 0x38);
+
+#pragma pack(push, 1)
+struct CMsgSource1LegacyGameEventList_descriptor_t { // sizeof 0x30, no _has_bits_
+    uint8_t _pad_0[0x8];
+    uint8_t keys[0x8]; // #3 repeated message CMsgSource1LegacyGameEventList.key_t, no has-bit
+    int32_t eventid; // #1 int32, no has-bit
+    uint8_t _pad_14[0x1c];
+    static constexpr std::ptrdiff_t kSizeOf = 0x30;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSource1LegacyGameEventList_descriptor_t) == 0x30);
+static_assert(offsetof(CMsgSource1LegacyGameEventList_descriptor_t, keys) == 0x8);
+static_assert(offsetof(CMsgSource1LegacyGameEventList_descriptor_t, eventid) == 0x10);
+
+#pragma pack(push, 1)
+struct CMsgSource1LegacyListenEvents { // sizeof 0x30, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint8_t eventarraybits[0x10]; // #2 repeated uint32, no has-bit
+    int32_t playerslot; // #1 int32, has-bit 0
+    uint8_t _pad_2c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x30;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSource1LegacyListenEvents) == 0x30);
+static_assert(offsetof(CMsgSource1LegacyListenEvents, eventarraybits) == 0x18);
+static_assert(offsetof(CMsgSource1LegacyListenEvents, playerslot) == 0x28);
+
+#pragma pack(push, 1)
+struct CMsgSource1LegacyGameEvent { // sizeof 0x40, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    int32_t eventid; // #2 int32, has-bit 0
+    uint8_t _pad_1c[0x4];
+    uint8_t event_name[0x4]; // #1 string, has-bit 1
+    uint8_t keys[0x4]; // #3 repeated message CMsgSource1LegacyGameEvent.key_t, has-bit 2
+    int32_t server_tick; // #4 int32, has-bit 3
+    int32_t passthrough; // #5 int32, has-bit 4
+    uint8_t _pad_30[0x10];
+    static constexpr std::ptrdiff_t kSizeOf = 0x40;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSource1LegacyGameEvent) == 0x40);
+static_assert(offsetof(CMsgSource1LegacyGameEvent, eventid) == 0x18);
+static_assert(offsetof(CMsgSource1LegacyGameEvent, event_name) == 0x20);
+static_assert(offsetof(CMsgSource1LegacyGameEvent, keys) == 0x24);
+static_assert(offsetof(CMsgSource1LegacyGameEvent, server_tick) == 0x28);
+static_assert(offsetof(CMsgSource1LegacyGameEvent, passthrough) == 0x2c);
+
+#pragma pack(push, 1)
+struct CMsgSource1LegacyGameEvent_key_t { // sizeof 0x48, _has_bits_ @ 0x10
+    uint8_t val_byte[0x1]; // #6 int32, has-bit 16
+    bool val_bool; // #7 bool, has-bit 8
+    uint8_t _pad_2[0x16];
+    float val_float; // #3 float, no has-bit
+    uint8_t _pad_1c[0x14];
+    int32_t type; // #1 int32, has-bit 0
+    uint8_t _pad_34[0x4];
+    uint8_t val_string[0x4]; // #2 string, has-bit 1
+    int32_t val_long; // #4 int32, has-bit 2
+    int32_t val_short; // #5 int32, has-bit 3
+    uint8_t _pad_44[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x48;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSource1LegacyGameEvent_key_t) == 0x48);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_byte) == 0x0);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_bool) == 0x1);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_float) == 0x18);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, type) == 0x30);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_string) == 0x38);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_long) == 0x3c);
+static_assert(offsetof(CMsgSource1LegacyGameEvent_key_t, val_short) == 0x40);
+
+#pragma pack(push, 1)
+struct CMsgSosStartSoundEvent { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* packed_params; // #5 bytes, has-bit 0
+    int32_t soundevent_guid; // #1 int32, has-bit 1
+    uint32_t soundevent_hash; // #2 fixed32, has-bit 2
+    int32_t seed; // #4 int32, has-bit 3
+    float start_time; // #6 float, has-bit 4
+    int32_t source_entity_index; // #3 int32, has-bit 5
+    uint8_t _pad_34[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSosStartSoundEvent) == 0x38);
+static_assert(offsetof(CMsgSosStartSoundEvent, packed_params) == 0x18);
+static_assert(offsetof(CMsgSosStartSoundEvent, soundevent_guid) == 0x20);
+static_assert(offsetof(CMsgSosStartSoundEvent, soundevent_hash) == 0x24);
+static_assert(offsetof(CMsgSosStartSoundEvent, seed) == 0x28);
+static_assert(offsetof(CMsgSosStartSoundEvent, start_time) == 0x2c);
+static_assert(offsetof(CMsgSosStartSoundEvent, source_entity_index) == 0x30);
+
+#pragma pack(push, 1)
+struct CMsgSosStopSoundEvent { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    int32_t soundevent_guid; // #1 int32, has-bit 0
+    uint8_t _pad_1c[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSosStopSoundEvent) == 0x20);
+static_assert(offsetof(CMsgSosStopSoundEvent, soundevent_guid) == 0x18);
+
+#pragma pack(push, 1)
+struct CMsgSosStopSoundEventHash { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint32_t soundevent_hash; // #1 fixed32, has-bit 0
+    int32_t source_entity_index; // #2 int32, has-bit 1
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSosStopSoundEventHash) == 0x20);
+static_assert(offsetof(CMsgSosStopSoundEventHash, soundevent_hash) == 0x18);
+static_assert(offsetof(CMsgSosStopSoundEventHash, source_entity_index) == 0x1c);
+
+#pragma pack(push, 1)
+struct CMsgSosSetSoundEventParams { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* packed_params; // #5 bytes, has-bit 0
+    int32_t soundevent_guid; // #1 int32, has-bit 1
+    uint8_t _pad_24[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSosSetSoundEventParams) == 0x28);
+static_assert(offsetof(CMsgSosSetSoundEventParams, packed_params) == 0x18);
+static_assert(offsetof(CMsgSosSetSoundEventParams, soundevent_guid) == 0x20);
+
+#pragma pack(push, 1)
+struct CMsgSosSetLibraryStackFields { // sizeof 0x28, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* packed_fields; // #5 bytes, has-bit 0
+    uint32_t stack_hash; // #1 fixed32, has-bit 1
+    uint8_t _pad_24[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x28;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgSosSetLibraryStackFields) == 0x28);
+static_assert(offsetof(CMsgSosSetLibraryStackFields, packed_fields) == 0x18);
+static_assert(offsetof(CMsgSosSetLibraryStackFields, stack_hash) == 0x20);
+
+#pragma pack(push, 1)
+struct CMsgClothStiffenAnimEvent { // sizeof 0x30, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    int32_t vertex_set_hash; // #2 int32, has-bit 0
+    float intensity; // #3 float, has-bit 1
+    float length; // #4 float, has-bit 2
+    float speed_in; // #5 float, has-bit 3
+    float speed_out; // #6 float, has-bit 4
+    int32_t source_entity_index; // #1 int32, has-bit 5
+    static constexpr std::ptrdiff_t kSizeOf = 0x30;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgClothStiffenAnimEvent) == 0x30);
+static_assert(offsetof(CMsgClothStiffenAnimEvent, vertex_set_hash) == 0x18);
+static_assert(offsetof(CMsgClothStiffenAnimEvent, intensity) == 0x1c);
+static_assert(offsetof(CMsgClothStiffenAnimEvent, length) == 0x20);
+static_assert(offsetof(CMsgClothStiffenAnimEvent, speed_in) == 0x24);
+static_assert(offsetof(CMsgClothStiffenAnimEvent, speed_out) == 0x28);
+static_assert(offsetof(CMsgClothStiffenAnimEvent, source_entity_index) == 0x2c);
+
+#pragma pack(push, 1)
+struct CMsgClothEffectAnimEvent { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* tags; // #5 string, has-bit 0
+    pb::server::CMsgVector* pte; // #6 message CMsgVector, has-bit 1
+    int32_t effect_name_hash; // #2 int32, has-bit 2
+    int32_t operation; // #3 int32, has-bit 3
+    int32_t flags; // #4 int32, has-bit 4
+    int32_t source_entity_index; // #1 int32, has-bit 5
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CMsgClothEffectAnimEvent) == 0x38);
+static_assert(offsetof(CMsgClothEffectAnimEvent, tags) == 0x18);
+static_assert(offsetof(CMsgClothEffectAnimEvent, pte) == 0x20);
+static_assert(offsetof(CMsgClothEffectAnimEvent, effect_name_hash) == 0x28);
+static_assert(offsetof(CMsgClothEffectAnimEvent, operation) == 0x2c);
+static_assert(offsetof(CMsgClothEffectAnimEvent, flags) == 0x30);
+static_assert(offsetof(CMsgClothEffectAnimEvent, source_entity_index) == 0x34);
+
+#pragma pack(push, 1)
 struct CDemoFileHeader { // sizeof 0x78, _has_bits_ @ 0x10
     uint8_t _pad_0[0x18];
     pb::string_t* demo_file_stamp; // #1 string, has-bit 0
@@ -30969,6 +31039,36 @@ static_assert(offsetof(CDemoRecovery_DemoInitialSpawnGroupEntry, was_created) ==
 static_assert(offsetof(CDemoRecovery_DemoInitialSpawnGroupEntry, spawngrouphandle) == 0x20);
 
 #pragma pack(push, 1)
+struct CEngineGotvSyncPacket { // sizeof 0x48, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint64_t match_id; // #1 uint64, has-bit 0
+    uint32_t instance_id; // #2 uint32, has-bit 1
+    uint32_t signupfragment; // #3 uint32, has-bit 2
+    uint32_t currentfragment; // #4 uint32, has-bit 3
+    float tickrate; // #5 float, has-bit 4
+    uint32_t tick; // #6 uint32, has-bit 5
+    float rtdelay; // #8 float, has-bit 6
+    float rcvage; // #9 float, has-bit 7
+    float keyframe_interval; // #10 float, has-bit 8
+    uint32_t cdndelay; // #11 uint32, has-bit 9
+    uint8_t _pad_44[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x48;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CEngineGotvSyncPacket) == 0x48);
+static_assert(offsetof(CEngineGotvSyncPacket, match_id) == 0x18);
+static_assert(offsetof(CEngineGotvSyncPacket, instance_id) == 0x20);
+static_assert(offsetof(CEngineGotvSyncPacket, signupfragment) == 0x24);
+static_assert(offsetof(CEngineGotvSyncPacket, currentfragment) == 0x28);
+static_assert(offsetof(CEngineGotvSyncPacket, tickrate) == 0x2c);
+static_assert(offsetof(CEngineGotvSyncPacket, tick) == 0x30);
+static_assert(offsetof(CEngineGotvSyncPacket, rtdelay) == 0x34);
+static_assert(offsetof(CEngineGotvSyncPacket, rcvage) == 0x38);
+static_assert(offsetof(CEngineGotvSyncPacket, keyframe_interval) == 0x3c);
+static_assert(offsetof(CEngineGotvSyncPacket, cdndelay) == 0x40);
+
+#pragma pack(push, 1)
 struct CMsgGCGiftedItems { // sizeof 0x38, _has_bits_ @ 0x10
     uint8_t _pad_0[0x18];
     uint8_t recipients_accountids[0x10]; // #5 repeated uint32, no has-bit
@@ -31044,36 +31144,6 @@ static_assert(sizeof(CMsgGCItemCustomizationNotification) == 0x40);
 static_assert(offsetof(CMsgGCItemCustomizationNotification, item_id) == 0x18);
 static_assert(offsetof(CMsgGCItemCustomizationNotification, extra_data) == 0x28);
 static_assert(offsetof(CMsgGCItemCustomizationNotification, request) == 0x38);
-
-#pragma pack(push, 1)
-struct CEngineGotvSyncPacket { // sizeof 0x48, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint64_t match_id; // #1 uint64, has-bit 0
-    uint32_t instance_id; // #2 uint32, has-bit 1
-    uint32_t signupfragment; // #3 uint32, has-bit 2
-    uint32_t currentfragment; // #4 uint32, has-bit 3
-    float tickrate; // #5 float, has-bit 4
-    uint32_t tick; // #6 uint32, has-bit 5
-    float rtdelay; // #8 float, has-bit 6
-    float rcvage; // #9 float, has-bit 7
-    float keyframe_interval; // #10 float, has-bit 8
-    uint32_t cdndelay; // #11 uint32, has-bit 9
-    uint8_t _pad_44[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x48;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CEngineGotvSyncPacket) == 0x48);
-static_assert(offsetof(CEngineGotvSyncPacket, match_id) == 0x18);
-static_assert(offsetof(CEngineGotvSyncPacket, instance_id) == 0x20);
-static_assert(offsetof(CEngineGotvSyncPacket, signupfragment) == 0x24);
-static_assert(offsetof(CEngineGotvSyncPacket, currentfragment) == 0x28);
-static_assert(offsetof(CEngineGotvSyncPacket, tickrate) == 0x2c);
-static_assert(offsetof(CEngineGotvSyncPacket, tick) == 0x30);
-static_assert(offsetof(CEngineGotvSyncPacket, rtdelay) == 0x34);
-static_assert(offsetof(CEngineGotvSyncPacket, rcvage) == 0x38);
-static_assert(offsetof(CEngineGotvSyncPacket, keyframe_interval) == 0x3c);
-static_assert(offsetof(CEngineGotvSyncPacket, cdndelay) == 0x40);
 
 #pragma pack(push, 1)
 struct CMsgVector { // sizeof 0x28, _has_bits_ @ 0x10
@@ -32900,53 +32970,6 @@ static_assert(sizeof(CMsgAckPetEvent) == 0x20);
 static_assert(offsetof(CMsgAckPetEvent, pet_item_id) == 0x18);
 
 #pragma pack(push, 1)
-struct CPredictionEvent_Teleport { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::server::CMsgVector* origin; // #1 message CMsgVector, has-bit 0
-    pb::server::CMsgQAngle* angles; // #2 message CMsgQAngle, has-bit 1
-    pb::server::CMsgVector* velocity; // #4 message CMsgVector, has-bit 2
-    float drop_to_ground_range; // #3 float, has-bit 3
-    uint8_t _pad_34[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CPredictionEvent_Teleport) == 0x38);
-static_assert(offsetof(CPredictionEvent_Teleport, origin) == 0x18);
-static_assert(offsetof(CPredictionEvent_Teleport, angles) == 0x20);
-static_assert(offsetof(CPredictionEvent_Teleport, velocity) == 0x28);
-static_assert(offsetof(CPredictionEvent_Teleport, drop_to_ground_range) == 0x30);
-
-#pragma pack(push, 1)
-struct CPredictionEvent_StringCommand { // sizeof 0x20, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    pb::string_t* command; // #1 string, has-bit 0
-    static constexpr std::ptrdiff_t kSizeOf = 0x20;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CPredictionEvent_StringCommand) == 0x20);
-static_assert(offsetof(CPredictionEvent_StringCommand, command) == 0x18);
-
-#pragma pack(push, 1)
-struct CPredictionEvent_Diagnostic { // sizeof 0x38, _has_bits_ @ 0x10
-    uint8_t _pad_0[0x18];
-    uint8_t execution_sync[0x10]; // #4 repeated uint32, no has-bit
-    uint32_t id; // #1 uint32, has-bit 0
-    uint32_t requested_sync; // #2 uint32, has-bit 1
-    uint32_t requested_player_index; // #3 uint32, has-bit 2
-    uint8_t _pad_34[0x4];
-    static constexpr std::ptrdiff_t kSizeOf = 0x38;
-    static constexpr std::ptrdiff_t kHasBits = 0x10;
-};
-#pragma pack(pop)
-static_assert(sizeof(CPredictionEvent_Diagnostic) == 0x38);
-static_assert(offsetof(CPredictionEvent_Diagnostic, execution_sync) == 0x18);
-static_assert(offsetof(CPredictionEvent_Diagnostic, id) == 0x28);
-static_assert(offsetof(CPredictionEvent_Diagnostic, requested_sync) == 0x2c);
-static_assert(offsetof(CPredictionEvent_Diagnostic, requested_player_index) == 0x30);
-
-#pragma pack(push, 1)
 struct CMsgGCHVacVerificationChange { // sizeof 0x28, _has_bits_ @ 0x10
     uint8_t _pad_0[0x18];
     uint64_t steamid; // #1 fixed64, has-bit 0
@@ -33169,6 +33192,53 @@ struct CCommunity_TerminateGamePersonalDataEntries_Response { // sizeof 0x20, _h
 #pragma pack(pop)
 static_assert(sizeof(CCommunity_TerminateGamePersonalDataEntries_Response) == 0x20);
 static_assert(offsetof(CCommunity_TerminateGamePersonalDataEntries_Response, gceresult) == 0x18);
+
+#pragma pack(push, 1)
+struct CPredictionEvent_Teleport { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::server::CMsgVector* origin; // #1 message CMsgVector, has-bit 0
+    pb::server::CMsgQAngle* angles; // #2 message CMsgQAngle, has-bit 1
+    pb::server::CMsgVector* velocity; // #4 message CMsgVector, has-bit 2
+    float drop_to_ground_range; // #3 float, has-bit 3
+    uint8_t _pad_34[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CPredictionEvent_Teleport) == 0x38);
+static_assert(offsetof(CPredictionEvent_Teleport, origin) == 0x18);
+static_assert(offsetof(CPredictionEvent_Teleport, angles) == 0x20);
+static_assert(offsetof(CPredictionEvent_Teleport, velocity) == 0x28);
+static_assert(offsetof(CPredictionEvent_Teleport, drop_to_ground_range) == 0x30);
+
+#pragma pack(push, 1)
+struct CPredictionEvent_StringCommand { // sizeof 0x20, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    pb::string_t* command; // #1 string, has-bit 0
+    static constexpr std::ptrdiff_t kSizeOf = 0x20;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CPredictionEvent_StringCommand) == 0x20);
+static_assert(offsetof(CPredictionEvent_StringCommand, command) == 0x18);
+
+#pragma pack(push, 1)
+struct CPredictionEvent_Diagnostic { // sizeof 0x38, _has_bits_ @ 0x10
+    uint8_t _pad_0[0x18];
+    uint8_t execution_sync[0x10]; // #4 repeated uint32, no has-bit
+    uint32_t id; // #1 uint32, has-bit 0
+    uint32_t requested_sync; // #2 uint32, has-bit 1
+    uint32_t requested_player_index; // #3 uint32, has-bit 2
+    uint8_t _pad_34[0x4];
+    static constexpr std::ptrdiff_t kSizeOf = 0x38;
+    static constexpr std::ptrdiff_t kHasBits = 0x10;
+};
+#pragma pack(pop)
+static_assert(sizeof(CPredictionEvent_Diagnostic) == 0x38);
+static_assert(offsetof(CPredictionEvent_Diagnostic, execution_sync) == 0x18);
+static_assert(offsetof(CPredictionEvent_Diagnostic, id) == 0x28);
+static_assert(offsetof(CPredictionEvent_Diagnostic, requested_sync) == 0x2c);
+static_assert(offsetof(CPredictionEvent_Diagnostic, requested_player_index) == 0x30);
 
 #pragma pack(push, 1)
 struct CMsgSource2SystemSpecs { // sizeof 0x70, _has_bits_ @ 0x10

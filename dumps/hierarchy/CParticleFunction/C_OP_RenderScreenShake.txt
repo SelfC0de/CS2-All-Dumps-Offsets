@@ -1,0 +1,10 @@
+// C_OP_RenderScreenShake
+// Size: 0xB3457B48 (-1287292088 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderScreenShake -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,21 @@
+// CNmPoseTask
+// Size: 0xB364FB5C (-1285227684 bytes)
+// Module: client.dll
+//
+// Direct subclasses (13):
+//   CNmAimCSTask
+//   CNmBlendTaskBase
+//   CNmCachedPoseReadTask
+//   CNmCachedPoseWriteTask
+//   CNmChainLookatTask
+//   CNmFollowBoneTask
+//   CNmFootIKTask
+//   CNmReferencePoseTask
+//   CNmSampleTask
+//   CNmScaleTask
+//   CNmSnapWeaponTask
+//   CNmTwoBoneIKTask
+//   CNmZeroPoseTask
+//
+
+// (no own fields)

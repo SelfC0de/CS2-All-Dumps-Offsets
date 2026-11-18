@@ -1,0 +1,10 @@
+// C_INIT_SetFloatAttributeToVectorExpression
+// Size: 0xB3455C52 (-1287300014 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_SetFloatAttributeToVectorExpression -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

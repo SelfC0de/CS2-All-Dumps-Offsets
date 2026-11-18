@@ -1,0 +1,13 @@
+// CPlayer_ItemServices
+// Size: 0xB34582EF (-1287290129 bytes)
+// Parent: CPlayerPawnComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CPlayer_ItemServices -> CPlayerPawnComponent
+//
+// Direct subclasses (1):
+//   CCSPlayer_ItemServices
+//
+
+// (no own fields)

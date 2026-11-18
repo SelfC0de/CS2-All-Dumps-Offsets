@@ -1,0 +1,10 @@
+// C_OP_SequenceFromModel
+// Size: 0xB3456967 (-1287296665 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_SequenceFromModel -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CModelConfigElement_SetRenderColor
+// Size: 0xB364F21D (-1285230051 bytes)
+// Parent: CModelConfigElement
+// Module: client.dll
+//
+// Inheritance:
+//   CModelConfigElement_SetRenderColor -> CModelConfigElement
+//
+
+// (no own fields)

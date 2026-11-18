@@ -1,0 +1,13 @@
+// CAnimationGraphVisualizerPrimitiveBase
+// Size: 0xB3450BAD (-1287320659 bytes)
+// Module: client.dll
+//
+// Direct subclasses (5):
+//   CAnimationGraphVisualizerAxis
+//   CAnimationGraphVisualizerLine
+//   CAnimationGraphVisualizerPie
+//   CAnimationGraphVisualizerSphere
+//   CAnimationGraphVisualizerText
+//
+
+// (no own fields)

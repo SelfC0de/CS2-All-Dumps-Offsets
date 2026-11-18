@@ -1,0 +1,10 @@
+// C_OP_PinParticleToCP
+// Size: 0xB34566A4 (-1287297372 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_PinParticleToCP -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

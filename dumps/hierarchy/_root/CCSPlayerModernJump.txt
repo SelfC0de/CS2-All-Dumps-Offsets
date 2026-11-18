@@ -1,0 +1,6 @@
+// CCSPlayerModernJump
+// Size: 0xB345A64E (-1287281074 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

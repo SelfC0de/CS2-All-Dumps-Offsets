@@ -1,0 +1,10 @@
+// C_OP_PlaneCull
+// Size: 0xB345690E (-1287296754 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_PlaneCull -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_RenderCables
+// Size: 0xB3454D19 (-1287303911 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderCables -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

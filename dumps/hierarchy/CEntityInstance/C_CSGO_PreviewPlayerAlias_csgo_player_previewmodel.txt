@@ -1,0 +1,10 @@
+// C_CSGO_PreviewPlayerAlias_csgo_player_previewmodel
+// Size: 0x6FAF00E9 (1873740009 bytes)
+// Parent: C_CSGO_PreviewPlayer
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSGO_PreviewPlayerAlias_csgo_player_previewmodel -> C_CSGO_PreviewPlayer -> C_CSPlayerPawn -> C_CSPlayerPawnBase -> C_BasePlayerPawn -> C_BaseCombatCharacter -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier -> CGameEventListener -> IGameEventListener2 -> IBoneTransformModifier
+//
+
+// (no own fields)

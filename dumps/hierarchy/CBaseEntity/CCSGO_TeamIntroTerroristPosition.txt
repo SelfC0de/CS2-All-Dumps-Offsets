@@ -1,0 +1,10 @@
+// CCSGO_TeamIntroTerroristPosition
+// Size: 0xB345A1BA (-1287282246 bytes)
+// Parent: CCSGO_TeamIntroCharacterPosition
+// Module: server.dll
+//
+// Inheritance:
+//   CCSGO_TeamIntroTerroristPosition -> CCSGO_TeamIntroCharacterPosition -> CCSGO_TeamPreviewCharacterPosition -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CLogicEventListener
+// Size: 0xB345A9E5 (-1287280155 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicEventListener -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+//
+
+// (no own fields)

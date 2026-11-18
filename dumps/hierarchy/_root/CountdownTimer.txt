@@ -1,0 +1,6 @@
+// CountdownTimer
+// Size: 0xB3458C78 (-1287287688 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

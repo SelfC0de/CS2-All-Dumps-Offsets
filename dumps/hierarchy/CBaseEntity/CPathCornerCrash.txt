@@ -1,0 +1,10 @@
+// CPathCornerCrash
+// Size: 0xB345C70B (-1287272693 bytes)
+// Parent: CPathCorner
+// Module: server.dll
+//
+// Inheritance:
+//   CPathCornerCrash -> CPathCorner -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

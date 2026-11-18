@@ -1,0 +1,10 @@
+// C_OP_ForceBasedOnDistanceToPlane
+// Size: 0xB3455DCB (-1287299637 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_ForceBasedOnDistanceToPlane -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

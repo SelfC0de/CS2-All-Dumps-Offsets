@@ -1,0 +1,10 @@
+// CGlobalLightBase
+// Size: 0xB345EE3C (-1287262660 bytes)
+// Parent: IToolObject
+// Module: client.dll
+//
+// Inheritance:
+//   CGlobalLightBase -> IToolObject
+//
+
+// (no own fields)

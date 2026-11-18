@@ -1,0 +1,10 @@
+// CPulseCell_Outflow_ListenForEntityOutput
+// Size: 0xB345906E (-1287286674 bytes)
+// Parent: CPulseCell_BaseYieldingInflow
+// Module: server.dll
+//
+// Inheritance:
+//   CPulseCell_Outflow_ListenForEntityOutput -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

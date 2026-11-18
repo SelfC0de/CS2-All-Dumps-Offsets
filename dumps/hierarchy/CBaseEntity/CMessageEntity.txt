@@ -1,0 +1,10 @@
+// CMessageEntity
+// Size: 0xB345B68B (-1287276917 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CMessageEntity -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

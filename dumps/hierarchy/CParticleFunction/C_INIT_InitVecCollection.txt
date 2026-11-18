@@ -1,0 +1,10 @@
+// C_INIT_InitVecCollection
+// Size: 0xB3455CB5 (-1287299915 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_InitVecCollection -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

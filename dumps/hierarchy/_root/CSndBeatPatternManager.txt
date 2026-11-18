@@ -1,0 +1,10 @@
+// CSndBeatPatternManager
+// Size: 0xB3452F13 (-1287311597 bytes)
+// Parent: ISndBeatPatternManager
+// Module: client.dll
+//
+// Inheritance:
+//   CSndBeatPatternManager -> ISndBeatPatternManager -> IVDataResourceListener
+//
+
+// (no own fields)

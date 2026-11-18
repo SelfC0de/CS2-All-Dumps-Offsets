@@ -1,0 +1,10 @@
+// C_INIT_AddVectorToVector
+// Size: 0xB34551CB (-1287302709 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_AddVectorToVector -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

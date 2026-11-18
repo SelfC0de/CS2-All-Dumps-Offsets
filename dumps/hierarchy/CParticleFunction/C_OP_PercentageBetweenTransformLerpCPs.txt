@@ -1,0 +1,10 @@
+// C_OP_PercentageBetweenTransformLerpCPs
+// Size: 0xB3456798 (-1287297128 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_PercentageBetweenTransformLerpCPs -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

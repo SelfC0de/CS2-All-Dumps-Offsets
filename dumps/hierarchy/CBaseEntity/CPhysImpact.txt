@@ -1,0 +1,10 @@
+// CPhysImpact
+// Size: 0xB345BDAE (-1287275090 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysImpact -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

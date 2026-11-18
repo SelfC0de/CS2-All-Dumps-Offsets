@@ -1,0 +1,10 @@
+// CInfoDeathmatchSpawn
+// Size: 0xB345BFF3 (-1287274509 bytes)
+// Parent: SpawnPoint
+// Module: server.dll
+//
+// Inheritance:
+//   CInfoDeathmatchSpawn -> SpawnPoint -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

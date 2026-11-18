@@ -1,0 +1,10 @@
+// C_OP_UpdateLightSource
+// Size: 0xB345726A (-1287294358 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_UpdateLightSource -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

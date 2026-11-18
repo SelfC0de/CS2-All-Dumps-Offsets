@@ -1,0 +1,10 @@
+// C_INIT_CreateWithinBox
+// Size: 0xB3455037 (-1287303113 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_CreateWithinBox -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

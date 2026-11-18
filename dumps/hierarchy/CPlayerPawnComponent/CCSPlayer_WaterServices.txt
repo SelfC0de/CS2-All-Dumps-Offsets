@@ -1,0 +1,10 @@
+// CCSPlayer_WaterServices
+// Size: 0xB345A680 (-1287281024 bytes)
+// Parent: CPlayer_WaterServices
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayer_WaterServices -> CPlayer_WaterServices -> CPlayerPawnComponent
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CRenderComponent
+// Size: 0xB3457F45 (-1287291067 bytes)
+// Parent: CEntityComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CRenderComponent -> CEntityComponent
+//
+
+// (no own fields)

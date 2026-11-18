@@ -1,0 +1,3849 @@
+# Dezlock Schema Dump - server
+# Generated: 2026-11-18T09:20:44
+#
+# Sections:
+#   CLASSES    - Each class with its own fields
+#   FLATTENED  - Full memory layout (own + inherited fields)
+#   ENUMS      - Enum definitions and values
+#
+
+# ================================================================
+# CLASSES — own fields per class
+# Format: class_name.field_name = 0xOFFSET (type, size) [metadata...]
+# ================================================================
+
+# --- CAI_ChangeHintGroup (size=0xB345BAD0, parent=CBaseEntity)
+#     chain: CAI_ChangeHintGroup -> CBaseEntity -> CEntityInstance
+
+# --- CAmbientGeneric (size=0xB345BB5E, parent=CPointEntity)
+#     chain: CAmbientGeneric -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CBaseButton (size=0xB345BB9D, parent=CBaseToggle)
+#     chain: CBaseButton -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CBaseDMStart (size=0xB345BA0D, parent=CPointEntity)
+#     chain: CBaseDMStart -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CBaseEntity (size=0xB3459560, parent=CEntityInstance)
+#     chain: CBaseEntity -> CEntityInstance
+
+# --- CBasePlatTrain (size=0xB345C7E0, parent=CBaseToggle)
+#     chain: CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CBaseToggle (size=0xB345BB8D, parent=CBaseModelEntity)
+#     chain: CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CBlood (size=0xB345B294, parent=CPointEntity)
+#     chain: CBlood -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CBot (size=0xB345AA60, parent=CMemZeroOnNew)
+#     chain: CBot -> CMemZeroOnNew
+
+# --- CBreakable (size=0xB345BC4B, parent=CBaseModelEntity)
+#     chain: CBreakable -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# --- CBtActionAim (size=0xB345AA9F, parent=CBtNode)
+#     chain: CBtActionAim -> CBtNode
+
+# --- CBtActionCombatPositioning (size=0xB345AAB0, parent=CBtNode)
+#     chain: CBtActionCombatPositioning -> CBtNode
+
+# --- CBtActionMoveTo (size=0xB345AACF, parent=CBtNode)
+#     chain: CBtActionMoveTo -> CBtNode
+
+# --- CBtActionParachutePositioning (size=0xB345AAE3, parent=CBtNode)
+#     chain: CBtActionParachutePositioning -> CBtNode
+
+# --- CBtNodeCondition (size=0xB345AB05, parent=CBtNodeDecorator)
+#     chain: CBtNodeCondition -> CBtNodeDecorator -> CBtNode
+
+# --- CBtNodeConditionInactive (size=0xB345AB1A, parent=CBtNodeCondition)
+#     chain: CBtNodeConditionInactive -> CBtNodeCondition -> CBtNodeDecorator -> CBtNode
+
+# --- CBuyZone (size=0xB345CC0E, parent=CBaseTrigger)
+#     chain: CBuyZone -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CCSBot (size=0xB345C1BF, parent=CBot)
+#     chain: CCSBot -> CBot -> CMemZeroOnNew
+
+# --- CCSGO_TeamIntroTerroristPosition (size=0xB345A1BA, parent=CCSGO_TeamIntroCharacterPosition)
+#     chain: CCSGO_TeamIntroTerroristPosition -> CCSGO_TeamIntroCharacterPosition -> CCSGO_TeamPreviewCharacterPosition -> CBaseEntity -> CEntityInstance
+
+# --- CCSGO_TeamPreviewCharacterPosition (size=0xB345A0F5, parent=CBaseEntity)
+#     chain: CCSGO_TeamPreviewCharacterPosition -> CBaseEntity -> CEntityInstance
+
+# --- CCSPlace (size=0xB345C124, parent=CServerOnlyModelEntity)
+#     chain: CCSPlace -> CServerOnlyModelEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> ?$CUtlAutoList@VCCSPlace
+
+# --- CCSPlayer_RadioServices (size=0xB345A98B, parent=CPlayerPawnComponent)
+#     chain: CCSPlayer_RadioServices -> CPlayerPawnComponent
+
+# --- CCSPointScriptEntity (size=0xB345AA11, parent=CBaseEntity)
+#     chain: CCSPointScriptEntity -> CBaseEntity -> CEntityInstance -> IToolsResourceListener
+
+# --- CCSSprite (size=0xB345C09D, parent=CSprite)
+#     chain: CCSSprite -> CSprite -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CChangeLevel (size=0xB345CA77, parent=CBaseTrigger)
+#     chain: CChangeLevel -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CCommentaryAuto (size=0xB345B25E, parent=CBaseEntity)
+#     chain: CCommentaryAuto -> CBaseEntity -> CEntityInstance
+
+# --- CCommentaryViewPosition (size=0xB345C567, parent=CSprite)
+#     chain: CCommentaryViewPosition -> CSprite -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CConstraintAnchor (size=0xB345C720, parent=CBaseAnimGraph)
+#     chain: CConstraintAnchor -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CCredits (size=0xB345B3CF, parent=CPointEntity)
+#     chain: CCredits -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CDebugHistory (size=0xB345B333, parent=CBaseEntity)
+#     chain: CDebugHistory -> CBaseEntity -> CEntityInstance
+
+# --- CDynamicNavConnectionsVolume (size=0xB345CECC, parent=CTriggerMultiple)
+#     chain: CDynamicNavConnectionsVolume -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CDynamicPropAlias_dynamic_prop (size=0xB345C4C0, parent=CDynamicProp)
+#     chain: CDynamicPropAlias_dynamic_prop -> CDynamicProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# --- CEconItemView (size=0xB345BF67, parent=IEconItemInterface)
+#     chain: CEconItemView -> IEconItemInterface
+
+# --- CEnableMotionFixup (size=0xB345B949, parent=CBaseEntity)
+#     chain: CEnableMotionFixup -> CBaseEntity -> CEntityInstance
+
+# --- CEntityBlocker (size=0xB345BC09, parent=CBaseModelEntity)
+#     chain: CEntityBlocker -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvBeam (size=0xB345C5B1, parent=CBeam)
+#     chain: CEnvBeam -> CBeam -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvBeverage (size=0xB345B29F, parent=CBaseEntity)
+#     chain: CEnvBeverage -> CBaseEntity -> CEntityInstance
+
+# --- CEnvCombinedLightProbeVolume (size=0xB345AB64, parent=CBaseEntity)
+#     chain: CEnvCombinedLightProbeVolume -> CBaseEntity -> CEntityInstance -> CBaseCubemap -> IToolObject -> CBaseLightProbeVolume -> IToolObject
+
+# --- CEnvEntityIgniter (size=0xB345B31D, parent=CBaseEntity)
+#     chain: CEnvEntityIgniter -> CBaseEntity -> CEntityInstance
+
+# --- CEnvEntityMaker (size=0xB345B345, parent=CPointEntity)
+#     chain: CEnvEntityMaker -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvExplosion (size=0xB345B411, parent=CModelPointEntity)
+#     chain: CEnvExplosion -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvFade (size=0xB345B3C2, parent=CLogicalEntity)
+#     chain: CEnvFade -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvGlobal (size=0xB345B5B1, parent=CLogicalEntity)
+#     chain: CEnvGlobal -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvHudHint (size=0xB345C102, parent=CPointEntity)
+#     chain: CEnvHudHint -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvInstructorHint (size=0xB345B377, parent=CPointEntity)
+#     chain: CEnvInstructorHint -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvInstructorVRHint (size=0xB345B38E, parent=CPointEntity)
+#     chain: CEnvInstructorVRHint -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvLaser (size=0xB345C970, parent=CBeam)
+#     chain: CEnvLaser -> CBeam -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvMuzzleFlash (size=0xB345B2E8, parent=CPointEntity)
+#     chain: CEnvMuzzleFlash -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvShake (size=0xB345B3DC, parent=CPointEntity)
+#     chain: CEnvShake -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvSpark (size=0xB345B3F7, parent=CPointEntity)
+#     chain: CEnvSpark -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvSplash (size=0xB345B2FC, parent=CPointEntity)
+#     chain: CEnvSplash -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvTilt (size=0xB345B3EA, parent=CPointEntity)
+#     chain: CEnvTilt -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvViewPunch (size=0xB345B30B, parent=CPointEntity)
+#     chain: CEnvViewPunch -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CEnvWind (size=0xB345B2CA, parent=CBaseEntity)
+#     chain: CEnvWind -> CBaseEntity -> CEntityInstance
+
+# --- CFilterContext (size=0xB345C3B7, parent=CBaseFilter)
+#     chain: CFilterContext -> CBaseFilter -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFilterEnemy (size=0xB345C417, parent=CBaseFilter)
+#     chain: CFilterEnemy -> CBaseFilter -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFishPool (size=0xB34595DA, parent=CBaseEntity)
+#     chain: CFishPool -> CBaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+
+# --- CFogTrigger (size=0xB345CD39, parent=CBaseTrigger)
+#     chain: CFogTrigger -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFogVolume (size=0xB345C1CA, parent=CServerOnlyModelEntity)
+#     chain: CFogVolume -> CServerOnlyModelEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncIllusionary (size=0xB345B1C4, parent=CBaseModelEntity)
+#     chain: CFuncIllusionary -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncInteractionLayerClip (size=0xB345B1EF, parent=CBaseModelEntity)
+#     chain: CFuncInteractionLayerClip -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncLadder (size=0xB345BE72, parent=CBaseModelEntity)
+#     chain: CFuncLadder -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncLadderAlias_func_useableladder (size=0xB345C5CC, parent=CFuncLadder)
+#     chain: CFuncLadderAlias_func_useableladder -> CFuncLadder -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncMoveLinear (size=0xB345BC5A, parent=CBaseToggle)
+#     chain: CFuncMoveLinear -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncMoveLinearAlias_momentary_door (size=0xB345C605, parent=CFuncMoveLinear)
+#     chain: CFuncMoveLinearAlias_momentary_door -> CFuncMoveLinear -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncMoverRouter (size=0xB345961D, parent=CLogicalEntity)
+#     chain: CFuncMoverRouter -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncNavBlocker (size=0xB345BE07, parent=CBaseModelEntity)
+#     chain: CFuncNavBlocker -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# --- CFuncNavObstruction (size=0xB345BB46, parent=CBaseModelEntity)
+#     chain: CFuncNavObstruction -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> INavObstacle -> IPositionWatcher -> IWatcherCallback
+
+# --- CFuncPlat (size=0xB345C7F3, parent=CBasePlatTrain)
+#     chain: CFuncPlat -> CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncPlatRot (size=0xB345C801, parent=CFuncPlat)
+#     chain: CFuncPlatRot -> CFuncPlat -> CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncPropRespawnZone (size=0xB345B960, parent=CBaseEntity)
+#     chain: CFuncPropRespawnZone -> CBaseEntity -> CEntityInstance
+
+# --- CFuncRotator (size=0xB345BCB2, parent=CBaseModelEntity)
+#     chain: CFuncRotator -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncShatterglass (size=0xB345BEA0, parent=CBaseModelEntity)
+#     chain: CFuncShatterglass -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncTankTrain (size=0xB345C7CD, parent=CFuncTrackTrain)
+#     chain: CFuncTankTrain -> CFuncTrackTrain -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncTimescale (size=0xB345B423, parent=CBaseEntity)
+#     chain: CFuncTimescale -> CBaseEntity -> CEntityInstance
+
+# --- CFuncTrackAuto (size=0xB345C836, parent=CFuncTrackChange)
+#     chain: CFuncTrackAuto -> CFuncTrackChange -> CFuncPlatRot -> CFuncPlat -> CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncTrackChange (size=0xB345C821, parent=CFuncPlatRot)
+#     chain: CFuncTrackChange -> CFuncPlatRot -> CFuncPlat -> CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncTrain (size=0xB345C812, parent=CBasePlatTrain)
+#     chain: CFuncTrain -> CBasePlatTrain -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncTrainControls (size=0xB345BA89, parent=CBaseModelEntity)
+#     chain: CFuncTrainControls -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncVPhysicsClip (size=0xB345B1D9, parent=CBaseModelEntity)
+#     chain: CFuncVPhysicsClip -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncVehicleClip (size=0xB345B1AF, parent=CBaseModelEntity)
+#     chain: CFuncVehicleClip -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncWall (size=0xB345B18D, parent=CBaseModelEntity)
+#     chain: CFuncWall -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CFuncWallToggle (size=0xB345B19B, parent=CFuncWall)
+#     chain: CFuncWallToggle -> CFuncWall -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CGameEnd (size=0xB345C667, parent=CRulePointEntity)
+#     chain: CGameEnd -> CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CGameGibManager (size=0xB345ADA3, parent=CBaseEntity)
+#     chain: CGameGibManager -> CBaseEntity -> CEntityInstance
+
+# --- CGameMoney (size=0xB345C131, parent=CRulePointEntity)
+#     chain: CGameMoney -> CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CGamePlayerEquip (size=0xB345BD18, parent=CRulePointEntity)
+#     chain: CGamePlayerEquip -> CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CGamePlayerZone (size=0xB345C682, parent=CRuleBrushEntity)
+#     chain: CGamePlayerZone -> CRuleBrushEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CGameText (size=0xB345C674, parent=CRulePointEntity)
+#     chain: CGameText -> CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CGenericConstraint (size=0xB345B7CF, parent=CPhysConstraint)
+#     chain: CGenericConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IVPhysicsWatcher -> IWatcherCallback
+
+# --- CGenericLogicPlayerProxy (size=0xB345B529, parent=CLogicPlayerProxyBase)
+#     chain: CGenericLogicPlayerProxy -> CLogicPlayerProxyBase -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CGunTarget (size=0xB345C62D, parent=CBaseToggle)
+#     chain: CGunTarget -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CHandleDummy (size=0xB345BA67, parent=CBaseEntity)
+#     chain: CHandleDummy -> CBaseEntity -> CEntityInstance
+
+# --- CHostageAlias_info_hostage_spawn (size=0xB345CCCA, parent=CHostage)
+#     chain: CHostageAlias_info_hostage_spawn -> CHostage -> ?$CAI_ExpresserHost@VCHostageExpresserShim -> CHostageExpresserShim -> CBaseCombatCharacter -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CAI_ExpresserSink -> CImprovLocomotor
+
+# --- CHostageExpresserShim (size=0xB345CC89, parent=CBaseCombatCharacter)
+#     chain: CHostageExpresserShim -> CBaseCombatCharacter -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoChoreoAnchor (size=0xB345B850, parent=CPointEntity)
+#     chain: CInfoChoreoAnchor -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoData (size=0xB3459672, parent=CServerOnlyEntity)
+#     chain: CInfoData -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoDeathmatchSpawn (size=0xB345BFF3, parent=SpawnPoint)
+#     chain: CInfoDeathmatchSpawn -> SpawnPoint -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoGameEventProxy (size=0xB345B032, parent=CPointEntity)
+#     chain: CInfoGameEventProxy -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoInstructorHintBombTargetA (size=0xB345C01F, parent=CPointEntity)
+#     chain: CInfoInstructorHintBombTargetA -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoInstructorHintBombTargetB (size=0xB345C042, parent=CPointEntity)
+#     chain: CInfoInstructorHintBombTargetB -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoInstructorHintTarget (size=0xB345B359, parent=CPointEntity)
+#     chain: CInfoInstructorHintTarget -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoLandmark (size=0xB345BA1E, parent=CPointEntity)
+#     chain: CInfoLandmark -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoPlayerCounterterrorist (size=0xB345BFD3, parent=SpawnPoint)
+#     chain: CInfoPlayerCounterterrorist -> SpawnPoint -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoPlayerStart (size=0xB345B866, parent=CPointEntity)
+#     chain: CInfoPlayerStart -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoPlayerTerrorist (size=0xB345BFBA, parent=SpawnPoint)
+#     chain: CInfoPlayerTerrorist -> SpawnPoint -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoSpawnGroupLandmark (size=0xB345BAFC, parent=CPointEntity)
+#     chain: CInfoSpawnGroupLandmark -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoSpawnGroupLoadUnload (size=0xB345BB18, parent=CLogicalEntity)
+#     chain: CInfoSpawnGroupLoadUnload -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoTargetServerOnly (size=0xB345ACB9, parent=CServerOnlyPointEntity)
+#     chain: CInfoTargetServerOnly -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInfoTeleportDestination (size=0xB345BAB3, parent=CPointEntity)
+#     chain: CInfoTeleportDestination -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CInstancedSceneEntity (size=0xB345C799, parent=CSceneEntity)
+#     chain: CInstancedSceneEntity -> CSceneEntity -> CPointEntity -> CBaseEntity -> CEntityInstance -> IChoreoEventCallback
+
+# --- CInstructorEventEntity (size=0xB345B3A7, parent=CPointEntity)
+#     chain: CInstructorEventEntity -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CItemAssaultSuit (size=0xB345CCEF, parent=CItem)
+#     chain: CItemAssaultSuit -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# --- CItemDefuser (size=0xB345CD14, parent=CItem)
+#     chain: CItemDefuser -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# --- CItemDefuserAlias_item_defuser (size=0xB345D003, parent=CItemDefuser)
+#     chain: CItemDefuserAlias_item_defuser -> CItemDefuser -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# --- CItemGeneric (size=0xB345CEBB, parent=CItem)
+#     chain: CItemGeneric -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# --- CItemGenericTriggerHelper (size=0xB345BCD5, parent=CBaseModelEntity)
+#     chain: CItemGenericTriggerHelper -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CItemKevlar (size=0xB345CD04, parent=CItem)
+#     chain: CItemKevlar -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# --- CItemSoda (size=0xB345C590, parent=CBaseAnimGraph)
+#     chain: CItemSoda -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CItem_Healthshot (size=0xB345CFEE, parent=CWeaponBaseItem)
+#     chain: CItem_Healthshot -> CWeaponBaseItem -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+
+# --- CKeepUpright (size=0xB345B703, parent=CPointEntity)
+#     chain: CKeepUpright -> CPointEntity -> CBaseEntity -> CEntityInstance -> IMotionEvent
+
+# --- CKnife (size=0xB345CF74, parent=CCSWeaponBase)
+#     chain: CKnife -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+
+# --- CLogicAchievement (size=0xB345B436, parent=CLogicalEntity)
+#     chain: CLogicAchievement -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicActiveAutosave (size=0xB345B616, parent=CLogicAutosave)
+#     chain: CLogicActiveAutosave -> CLogicAutosave -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicActivityEvent (size=0xB345B44C, parent=CLogicalEntity)
+#     chain: CLogicActivityEvent -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicAuto (size=0xB345B546, parent=CBaseEntity)
+#     chain: CLogicAuto -> CBaseEntity -> CEntityInstance
+
+# --- CLogicAutosave (size=0xB345B603, parent=CLogicalEntity)
+#     chain: CLogicAutosave -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicBranch (size=0xB3459690, parent=CLogicalEntity)
+#     chain: CLogicBranch -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicBranchList (size=0xB345B662, parent=CLogicalEntity)
+#     chain: CLogicBranchList -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicCase (size=0xB345B5E2, parent=CLogicalEntity)
+#     chain: CLogicCase -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicCollisionPair (size=0xB345B64A, parent=CLogicalEntity)
+#     chain: CLogicCollisionPair -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicCompare (size=0xB345B5F1, parent=CLogicalEntity)
+#     chain: CLogicCompare -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicDistanceAutosave (size=0xB345B62F, parent=CLogicalEntity)
+#     chain: CLogicDistanceAutosave -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicDistanceCheck (size=0xB34596A1, parent=CLogicalEntity)
+#     chain: CLogicDistanceCheck -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicEventListener (size=0xB345A9E5, parent=CLogicalEntity)
+#     chain: CLogicEventListener -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+
+# --- CLogicGameEvent (size=0xB345B677, parent=CLogicalEntity)
+#     chain: CLogicGameEvent -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicGameEventListener (size=0xB345B47E, parent=CLogicalEntity)
+#     chain: CLogicGameEventListener -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+
+# --- CLogicGameStateReport (size=0xB345B464, parent=CBaseEntity)
+#     chain: CLogicGameStateReport -> CBaseEntity -> CEntityInstance
+
+# --- CLogicLineToEntity (size=0xB345B577, parent=CLogicalEntity)
+#     chain: CLogicLineToEntity -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicMeasureMovement (size=0xB345B49A, parent=CLogicalEntity)
+#     chain: CLogicMeasureMovement -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicNPCCounter (size=0xB345B4C9, parent=CBaseEntity)
+#     chain: CLogicNPCCounter -> CBaseEntity -> CEntityInstance
+
+# --- CLogicNPCCounterAABB (size=0xB345B4DE, parent=CLogicNPCCounter)
+#     chain: CLogicNPCCounterAABB -> CLogicNPCCounter -> CBaseEntity -> CEntityInstance
+
+# --- CLogicNPCCounterOBB (size=0xB345B4F7, parent=CLogicNPCCounterAABB)
+#     chain: CLogicNPCCounterOBB -> CLogicNPCCounterAABB -> CLogicNPCCounter -> CBaseEntity -> CEntityInstance
+
+# --- CLogicNavigation (size=0xB345B4B4, parent=CLogicalEntity)
+#     chain: CLogicNavigation -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IEntityListener
+
+# --- CLogicPlayerProxyBase (size=0xB345B50F, parent=CLogicalEntity)
+#     chain: CLogicPlayerProxyBase -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicProximity (size=0xB345BAE8, parent=CPointEntity)
+#     chain: CLogicProximity -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CLogicScript (size=0xB345B555, parent=CPointEntity)
+#     chain: CLogicScript -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMapSharedEnvironment (size=0xB345979F, parent=CLogicalEntity)
+#     chain: CMapSharedEnvironment -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMapVetoPickController (size=0xB345A9CA, parent=CBaseEntity)
+#     chain: CMapVetoPickController -> CBaseEntity -> CEntityInstance
+
+# --- CMarkupVolume (size=0xB345BD2D, parent=CBaseModelEntity)
+#     chain: CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMarkupVolumeTagged (size=0xB345BD3F, parent=CMarkupVolume)
+#     chain: CMarkupVolumeTagged -> CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMarkupVolumeTagged_Nav (size=0xB345C6B4, parent=CMarkupVolumeTagged)
+#     chain: CMarkupVolumeTagged_Nav -> CMarkupVolumeTagged -> CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMarkupVolumeTagged_NavGame (size=0xB345C6D0, parent=CMarkupVolumeWithRef)
+#     chain: CMarkupVolumeTagged_NavGame -> CMarkupVolumeWithRef -> CMarkupVolumeTagged -> CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# --- CMarkupVolumeWithRef (size=0xB345BD57, parent=CMarkupVolumeTagged)
+#     chain: CMarkupVolumeWithRef -> CMarkupVolumeTagged -> CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# --- CMathColorBlend (size=0xB345B59D, parent=CLogicalEntity)
+#     chain: CMathColorBlend -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMathCounter (size=0xB345B5D1, parent=CLogicalEntity)
+#     chain: CMathCounter -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMathRemap (size=0xB345B58E, parent=CLogicalEntity)
+#     chain: CMathRemap -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMessage (size=0xB345BC3E, parent=CPointEntity)
+#     chain: CMessage -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMessageEntity (size=0xB345B68B, parent=CPointEntity)
+#     chain: CMessageEntity -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMomentaryRotButton (size=0xB345BBD0, parent=CRotButton)
+#     chain: CMomentaryRotButton -> CRotButton -> CBaseButton -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMoverPathNode (size=0xB345BC6E, parent=CPathNode)
+#     chain: CMoverPathNode -> CPathNode -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMultiLightProxy (size=0xB345AD2C, parent=CLogicalEntity)
+#     chain: CMultiLightProxy -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMultiSource (size=0xB345B5C0, parent=CLogicalEntity)
+#     chain: CMultiSource -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CMultiplayRules (size=0xB3459A68, parent=CGameRules)
+#     chain: CMultiplayRules -> CGameRules -> CMemZeroOnNew
+
+# --- CNavSpaceInfo (size=0xB345BE56, parent=CPointEntity)
+#     chain: CNavSpaceInfo -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CNavWalkable (size=0xB345BDF6, parent=CPointEntity)
+#     chain: CNavWalkable -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CNullEntity (size=0xB345B9FD, parent=CBaseEntity)
+#     chain: CNullEntity -> CBaseEntity -> CEntityInstance
+
+# --- COrnamentProp (size=0xB345C736, parent=CDynamicProp)
+#     chain: COrnamentProp -> CDynamicProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# --- CPathCorner (size=0xB345B6C2, parent=CPointEntity)
+#     chain: CPathCorner -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPathCornerCrash (size=0xB345C70B, parent=CPathCorner)
+#     chain: CPathCornerCrash -> CPathCorner -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPathKeyFrame (size=0xB345B6B0, parent=CLogicalEntity)
+#     chain: CPathKeyFrame -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPathMover (size=0xB345BC81, parent=CPathWithDynamicNodes)
+#     chain: CPathMover -> CPathWithDynamicNodes -> CPathSimple -> CBaseEntity -> CEntityInstance -> IPhysicsSpline
+
+# --- CPathMoverEntitySpawner (size=0xB3459601, parent=CLogicalEntity)
+#     chain: CPathMoverEntitySpawner -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPathTrack (size=0xB345BD7F, parent=CPointEntity)
+#     chain: CPathTrack -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysBallSocket (size=0xB345B75C, parent=CPhysConstraint)
+#     chain: CPhysBallSocket -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysConstraint (size=0xB345B714, parent=CLogicalEntity)
+#     chain: CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysExplosion (size=0xB345BD9B, parent=CPointEntity)
+#     chain: CPhysExplosion -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysFixed (size=0xB345B789, parent=CPhysConstraint)
+#     chain: CPhysFixed -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysForce (size=0xB345B6D2, parent=CPointEntity)
+#     chain: CPhysForce -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysHinge (size=0xB345B728, parent=CPhysConstraint)
+#     chain: CPhysHinge -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IVPhysicsWatcher -> IWatcherCallback
+
+# --- CPhysHingeAlias_phys_hinge_local (size=0xB345B737, parent=CPhysHinge)
+#     chain: CPhysHingeAlias_phys_hinge_local -> CPhysHinge -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IVPhysicsWatcher -> IWatcherCallback
+
+# --- CPhysImpact (size=0xB345BDAE, parent=CPointEntity)
+#     chain: CPhysImpact -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysLength (size=0xB345B7A8, parent=CPhysConstraint)
+#     chain: CPhysLength -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysMotor (size=0xB34597E5, parent=CLogicalEntity)
+#     chain: CPhysMotor -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysPulley (size=0xB345B798, parent=CPhysConstraint)
+#     chain: CPhysPulley -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysSlideConstraint (size=0xB345B770, parent=CPhysConstraint)
+#     chain: CPhysSlideConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IVPhysicsWatcher -> IWatcherCallback
+
+# --- CPhysThruster (size=0xB345B6E1, parent=CPhysForce)
+#     chain: CPhysThruster -> CPhysForce -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysTorque (size=0xB345B6F3, parent=CPhysForce)
+#     chain: CPhysTorque -> CPhysForce -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysWheelConstraint (size=0xB345B7FC, parent=CPhysConstraint)
+#     chain: CPhysWheelConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysicalButton (size=0xB345BBAD, parent=CBaseButton)
+#     chain: CPhysicalButton -> CBaseButton -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPhysicsEntitySolver (size=0xB345B815, parent=CLogicalEntity)
+#     chain: CPhysicsEntitySolver -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> ?$CUtlAutoList@VCPhysicsEntitySolver
+
+# --- CPhysicsPropOverride (size=0xB345C9D8, parent=CPhysicsProp)
+#     chain: CPhysicsPropOverride -> CPhysicsProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> INavObstacle
+
+# --- CPhysicsPropRespawnable (size=0xB345C9F1, parent=CPhysicsProp)
+#     chain: CPhysicsPropRespawnable -> CPhysicsProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> INavObstacle
+
+# --- CPhysicsSpring (size=0xB345B82E, parent=CBaseEntity)
+#     chain: CPhysicsSpring -> CBaseEntity -> CEntityInstance
+
+# --- CPhysicsWire (size=0xB345B2D7, parent=CBaseEntity)
+#     chain: CPhysicsWire -> CBaseEntity -> CEntityInstance
+
+# --- CPlatTrigger (size=0xB345BA78, parent=CBaseModelEntity)
+#     chain: CPlatTrigger -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPlayerSprayDecal (size=0xB345C140, parent=CModelPointEntity)
+#     chain: CPlayerSprayDecal -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointAngleSensor (size=0xB345B8BE, parent=CPointEntity)
+#     chain: CPointAngleSensor -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointAngularVelocitySensor (size=0xB345B8EE, parent=CPointEntity)
+#     chain: CPointAngularVelocitySensor -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointBroadcastClientCommand (size=0xB345B23D, parent=CPointEntity)
+#     chain: CPointBroadcastClientCommand -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointClientCommand (size=0xB345B20D, parent=CPointEntity)
+#     chain: CPointClientCommand -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointClientUIWorldPanel (size=0xB345BF07, parent=CBaseClientUIEntity)
+#     chain: CPointClientUIWorldPanel -> CBaseClientUIEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointCommentaryNode (size=0xB345C54E, parent=CBaseAnimGraph)
+#     chain: CPointCommentaryNode -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointEntityFinder (size=0xB345B87B, parent=CBaseEntity)
+#     chain: CPointEntityFinder -> CBaseEntity -> CEntityInstance
+
+# --- CPointGamestatsCounter (size=0xB345C0E7, parent=CPointEntity)
+#     chain: CPointGamestatsCounter -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointGiveAmmo (size=0xB345C00C, parent=CPointEntity)
+#     chain: CPointGiveAmmo -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointHurt (size=0xB345B927, parent=CPointEntity)
+#     chain: CPointHurt -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointPrefab (size=0xB3459869, parent=CServerOnlyPointEntity)
+#     chain: CPointPrefab -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointProximitySensor (size=0xB345B8D4, parent=CPointEntity)
+#     chain: CPointProximitySensor -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointPulse (size=0xB345BB36, parent=CBaseEntity)
+#     chain: CPointPulse -> CBaseEntity -> CEntityInstance
+
+# --- CPointPush (size=0xB345B841, parent=CPointEntity)
+#     chain: CPointPush -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointServerCommand (size=0xB345B225, parent=CPointEntity)
+#     chain: CPointServerCommand -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointTeleport (size=0xB345B936, parent=CServerOnlyPointEntity)
+#     chain: CPointTeleport -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointVelocitySensor (size=0xB345B90E, parent=CPointEntity)
+#     chain: CPointVelocitySensor -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPointWorldText (size=0xB345B8AA, parent=CModelPointEntity)
+#     chain: CPointWorldText -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CPropDoorRotatingBreakable (size=0xB345CE1E, parent=CPropDoorRotating)
+#     chain: CPropDoorRotatingBreakable -> CPropDoorRotating -> CBasePropDoor -> CDynamicProp -> CBreakableProp -> CBaseProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> CGameEventListener -> IGameEventListener2
+
+# --- CPulseCell_ApplyAnimGraphParam (size=0xB345926A, parent=CPulseCell_BaseYieldingInflow)
+#     chain: CPulseCell_ApplyAnimGraphParam -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_ApplyDynamicAttributeEHandle (size=0xB34591F9, parent=CPulseCell_ApplyDynamicAttributeBase)
+#     chain: CPulseCell_ApplyDynamicAttributeEHandle -> CPulseCell_ApplyDynamicAttributeBase -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_ApplyDynamicAttributeInt (size=0xB34591A6, parent=CPulseCell_ApplyDynamicAttributeBase)
+#     chain: CPulseCell_ApplyDynamicAttributeInt -> CPulseCell_ApplyDynamicAttributeBase -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_ApplyDynamicAttributeString (size=0xB34591CE, parent=CPulseCell_ApplyDynamicAttributeBase)
+#     chain: CPulseCell_ApplyDynamicAttributeString -> CPulseCell_ApplyDynamicAttributeBase -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_ApplyEntityFlags (size=0xB34590F6, parent=CPulseCell_BaseYieldingInflow)
+#     chain: CPulseCell_ApplyEntityFlags -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_ApplyParent (size=0xB3459225, parent=CPulseCell_BaseYieldingInflow)
+#     chain: CPulseCell_ApplyParent -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Outflow_ListenForAnimgraphTag (size=0xB34594AB, parent=CPulseCell_BaseYieldingInflow)
+#     chain: CPulseCell_Outflow_ListenForAnimgraphTag -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Outflow_ListenForEntityOutput (size=0xB345906E, parent=CPulseCell_BaseYieldingInflow)
+#     chain: CPulseCell_Outflow_ListenForEntityOutput -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Outflow_PlayDynamicVCD (size=0xB345933B, parent=CPulseCell_Outflow_PlayVCDBase)
+#     chain: CPulseCell_Outflow_PlayDynamicVCD -> CPulseCell_Outflow_PlayVCDBase -> CPulseCell_Outflow_PlaySceneBase -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Outflow_PlaySceneBase (size=0xB34592BF, parent=CPulseCell_BaseYieldingInflow)
+#     chain: CPulseCell_Outflow_PlaySceneBase -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Outflow_PlaySequence (size=0xB34593B5, parent=CPulseCell_Outflow_PlaySceneBase)
+#     chain: CPulseCell_Outflow_PlaySequence -> CPulseCell_Outflow_PlaySceneBase -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Outflow_PlayVCD (size=0xB3459361, parent=CPulseCell_Outflow_PlayVCDBase)
+#     chain: CPulseCell_Outflow_PlayVCD -> CPulseCell_Outflow_PlayVCDBase -> CPulseCell_Outflow_PlaySceneBase -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Outflow_PlayVCDBase (size=0xB3459318, parent=CPulseCell_Outflow_PlaySceneBase)
+#     chain: CPulseCell_Outflow_PlayVCDBase -> CPulseCell_Outflow_PlaySceneBase -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Outflow_PlayVOLine (size=0xB3459458, parent=CPulseCell_BaseYieldingInflow)
+#     chain: CPulseCell_Outflow_PlayVOLine -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Outflow_ScriptedSequence (size=0xB34593F9, parent=CPulseCell_BaseYieldingInflow)
+#     chain: CPulseCell_Outflow_ScriptedSequence -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_SoundEventStart (size=0xB34590D7, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_SoundEventStart -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Step_FollowEntity (size=0xB3459027, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_Step_FollowEntity -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseCell_Step_SetAnimGraphParam (size=0xB3459048, parent=CPulseCell_BaseFlow)
+#     chain: CPulseCell_Step_SetAnimGraphParam -> CPulseCell_BaseFlow -> CPulseCell_Base
+
+# --- CPulseGraphInstance_GameBlackboard (size=0xB345AF7F, parent=CPulseGraphInstance_ServerEntity)
+#     chain: CPulseGraphInstance_GameBlackboard -> CPulseGraphInstance_ServerEntity -> CBasePulseGraphInstance -> IPulseHost_Unknown -> IPulseHost_GameEntity -> CPulseBlackboardViewFromGraphInstance -> IPulseBlackboardView
+
+# --- CPulseGraphInstance_ServerEntity (size=0xB3459002, parent=CBasePulseGraphInstance)
+#     chain: CPulseGraphInstance_ServerEntity -> CBasePulseGraphInstance -> IPulseHost_Unknown -> IPulseHost_GameEntity
+
+# --- CPulseServerCursor (size=0xB3458FEB, parent=CPulseExecCursor)
+#     chain: CPulseServerCursor -> CPulseExecCursor -> IPulseExecLog -> IPulseHost_Unknown -> IPulseHost_YieldingCursor -> IPulseHost_Cursor -> IPulseHost_BaseObservable -> IPulseHost_Input -> IPulseHost_EntityObservable
+
+# --- CPushable (size=0xB345C5BE, parent=CBreakable)
+#     chain: CPushable -> CBreakable -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# --- CRagdollConstraint (size=0xB345B7B8, parent=CPhysConstraint)
+#     chain: CRagdollConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CRagdollMagnet (size=0xB345BBE8, parent=CPointEntity)
+#     chain: CRagdollMagnet -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CRagdollProp (size=0xB345C992, parent=CBaseAnimGraph)
+#     chain: CRagdollProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> IBoneTransformOverride
+
+# --- CRagdollPropAlias_physics_prop_ragdoll (size=0xB345CDC4, parent=CRagdollProp)
+#     chain: CRagdollPropAlias_physics_prop_ragdoll -> CRagdollProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> IBoneTransformOverride
+
+# --- CRagdollPropAttached (size=0xB345CDEF, parent=CRagdollProp)
+#     chain: CRagdollPropAttached -> CRagdollProp -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics -> IBoneTransformOverride
+
+# --- CRevertSaved (size=0xB345B979, parent=CModelPointEntity)
+#     chain: CRevertSaved -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CRopeKeyframe (size=0xB345BDBE, parent=CBaseModelEntity)
+#     chain: CRopeKeyframe -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# --- CRopeKeyframeAlias_move_rope (size=0xB345C748, parent=CRopeKeyframe)
+#     chain: CRopeKeyframeAlias_move_rope -> CRopeKeyframe -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# --- CRotButton (size=0xB345BBC1, parent=CBaseButton)
+#     chain: CRotButton -> CBaseButton -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CRotDoor (size=0xB345C583, parent=CBaseDoor)
+#     chain: CRotDoor -> CBaseDoor -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CGameEventListener -> IGameEventListener2
+
+# --- CRotatorTarget (size=0xB345BC9F, parent=CPointEntity)
+#     chain: CRotatorTarget -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CRuleBrushEntity (size=0xB345C652, parent=CRuleEntity)
+#     chain: CRuleBrushEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CRuleEntity (size=0xB345BCF3, parent=CBaseModelEntity)
+#     chain: CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CRulePointEntity (size=0xB345BD03, parent=CRuleEntity)
+#     chain: CRulePointEntity -> CRuleEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CSceneEntity (size=0xB345B9A0, parent=CPointEntity)
+#     chain: CSceneEntity -> CPointEntity -> CBaseEntity -> CEntityInstance -> IChoreoEventCallback
+
+# --- CSceneEntityAlias_logic_choreographed_scene (size=0xB345C769, parent=CSceneEntity)
+#     chain: CSceneEntityAlias_logic_choreographed_scene -> CSceneEntity -> CPointEntity -> CBaseEntity -> CEntityInstance -> IChoreoEventCallback
+
+# --- CSceneListManager (size=0xB345B98A, parent=CLogicalEntity)
+#     chain: CSceneListManager -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CScriptItem (size=0xB345CDB4, parent=CItem)
+#     chain: CScriptItem -> CItem -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CDefaultPlayerPickupVPhysics -> IPlayerPickupVPhysics
+
+# --- CScriptNavBlocker (size=0xB345BE1B, parent=CFuncNavBlocker)
+#     chain: CScriptNavBlocker -> CFuncNavBlocker -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# --- CScriptTriggerHurt (size=0xB345CE3D, parent=CTriggerHurt)
+#     chain: CScriptTriggerHurt -> CTriggerHurt -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CScriptTriggerMultiple (size=0xB345CE54, parent=CTriggerMultiple)
+#     chain: CScriptTriggerMultiple -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CScriptTriggerOnce (size=0xB345CE80, parent=CTriggerOnce)
+#     chain: CScriptTriggerOnce -> CTriggerOnce -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CScriptTriggerPush (size=0xB345C86D, parent=CTriggerPush)
+#     chain: CScriptTriggerPush -> CTriggerPush -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CScriptedSequence (size=0xB345B9B1, parent=CBaseEntity)
+#     chain: CScriptedSequence -> CBaseEntity -> CEntityInstance
+
+# --- CServerOnlyEntity (size=0xB3459570, parent=CBaseEntity)
+#     chain: CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CServerOnlyPointEntity (size=0xB3459586, parent=CServerOnlyEntity)
+#     chain: CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CServerRagdollTrigger (size=0xB345C8BF, parent=CBaseTrigger)
+#     chain: CServerRagdollTrigger -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CShower (size=0xB345B405, parent=CModelPointEntity)
+#     chain: CShower -> CModelPointEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CSimpleMarkupVolumeTagged (size=0xB345C696, parent=CMarkupVolumeTagged)
+#     chain: CSimpleMarkupVolumeTagged -> CMarkupVolumeTagged -> CMarkupVolume -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CSingleplayRules (size=0xB3459CE7, parent=CGameRules)
+#     chain: CSingleplayRules -> CGameRules -> CMemZeroOnNew
+
+# --- CSkyCameraVolumeTarget (size=0xB345A378, parent=CBaseEntity)
+#     chain: CSkyCameraVolumeTarget -> CBaseEntity -> CEntityInstance
+
+# --- CSoundEventBoxEntity (size=0xB345AF1D, parent=CSoundEventMultiPointEntity)
+#     chain: CSoundEventBoxEntity -> CSoundEventMultiPointEntity -> CSoundEventEntity -> CBaseEntity -> CEntityInstance
+
+# --- CSoundEventParameter (size=0xB345AF4F, parent=CBaseEntity)
+#     chain: CSoundEventParameter -> CBaseEntity -> CEntityInstance
+
+# --- CSoundOpvarSetAutoRoomEntity (size=0xB3459E21, parent=CSoundOpvarSetPointEntity)
+#     chain: CSoundOpvarSetAutoRoomEntity -> CSoundOpvarSetPointEntity -> CSoundOpvarSetPointBase -> CBaseEntity -> CEntityInstance
+
+# --- CSoundOpvarSetEntity (size=0xB345B9C7, parent=CBaseEntity)
+#     chain: CSoundOpvarSetEntity -> CBaseEntity -> CEntityInstance
+
+# --- CSoundStackSave (size=0xB345AE1F, parent=CLogicalEntity)
+#     chain: CSoundStackSave -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CSplineConstraint (size=0xB345B7E6, parent=CPhysConstraint)
+#     chain: CSplineConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance -> IPositionWatcher -> IWatcherCallback
+
+# --- CSpriteAlias_env_glow (size=0xB345C7B3, parent=CSprite)
+#     chain: CSpriteAlias_env_glow -> CSprite -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTankTargetChange (size=0xB345BA30, parent=CPointEntity)
+#     chain: CTankTargetChange -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTankTrainAI (size=0xB345BA46, parent=CPointEntity)
+#     chain: CTankTrainAI -> CPointEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTeam (size=0xB345AF68, parent=CBaseEntity)
+#     chain: CTeam -> CBaseEntity -> CEntityInstance
+
+# --- CTestEffect (size=0xB345B284, parent=CBaseEntity)
+#     chain: CTestEffect -> CBaseEntity -> CEntityInstance
+
+# --- CTestPulseIO (size=0xB34596F5, parent=CLogicalEntity)
+#     chain: CTestPulseIO -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTimerEntity (size=0xB345B566, parent=CLogicalEntity)
+#     chain: CTimerEntity -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTonemapTrigger (size=0xB345CD25, parent=CBaseTrigger)
+#     chain: CTonemapTrigger -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTouchExpansionComponent (size=0xB34594F1, parent=CEntityComponent)
+#     chain: CTouchExpansionComponent -> CEntityComponent
+
+# --- CTriggerActiveWeaponDetect (size=0xB345C8D9, parent=CBaseTrigger)
+#     chain: CTriggerActiveWeaponDetect -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerBombReset (size=0xB345CC1B, parent=CBaseTrigger)
+#     chain: CTriggerBombReset -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerBrush (size=0xB345B69E, parent=CBaseModelEntity)
+#     chain: CTriggerBrush -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerCallback (size=0xB345CA4B, parent=CBaseTrigger)
+#     chain: CTriggerCallback -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerDetectBulletFire (size=0xB345C90C, parent=CBaseTrigger)
+#     chain: CTriggerDetectBulletFire -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerDetectExplosion (size=0xB345C929, parent=CBaseTrigger)
+#     chain: CTriggerDetectExplosion -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> CUtlSlot
+
+# --- CTriggerGameEvent (size=0xB345C63C, parent=CBaseTrigger)
+#     chain: CTriggerGameEvent -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerGravity (size=0xB345C895, parent=CBaseTrigger)
+#     chain: CTriggerGravity -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerHostageReset (size=0xB345CC31, parent=CBaseTrigger)
+#     chain: CTriggerHostageReset -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerHurt (size=0xB345CA3A, parent=CBaseTrigger)
+#     chain: CTriggerHurt -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerImpact (size=0xB345CEA8, parent=CTriggerMultiple)
+#     chain: CTriggerImpact -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerLook (size=0xB345CE97, parent=CTriggerOnce)
+#     chain: CTriggerLook -> CTriggerOnce -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerOnce (size=0xB345CE6F, parent=CTriggerMultiple)
+#     chain: CTriggerOnce -> CTriggerMultiple -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerProximity (size=0xB345C8A9, parent=CBaseTrigger)
+#     chain: CTriggerProximity -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerPush (size=0xB345C85C, parent=CBaseTrigger)
+#     chain: CTriggerPush -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerRemove (size=0xB345C849, parent=CBaseTrigger)
+#     chain: CTriggerRemove -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerSave (size=0xB345C884, parent=CBaseTrigger)
+#     chain: CTriggerSave -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerSndSosOpvar (size=0xB345CA22, parent=CBaseTrigger)
+#     chain: CTriggerSndSosOpvar -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerSoundscape (size=0xB345C37F, parent=CBaseTrigger)
+#     chain: CTriggerSoundscape -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CTriggerTeleport (size=0xB345CA88, parent=CBaseTrigger)
+#     chain: CTriggerTeleport -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+
+# --- CWeaponAWP (size=0xB345D03F, parent=CCSWeaponBaseGun)
+#     chain: CWeaponAWP -> CCSWeaponBaseGun -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+
+# --- CWeaponGlock (size=0xB345D0A9, parent=CCSWeaponBaseGun)
+#     chain: CWeaponGlock -> CCSWeaponBaseGun -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+
+# --- CWeaponM249 (size=0xB345D1E1, parent=CCSWeaponBaseGun)
+#     chain: CWeaponM249 -> CCSWeaponBaseGun -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+
+# --- CWeaponNegev (size=0xB345D15C, parent=CCSWeaponBaseGun)
+#     chain: CWeaponNegev -> CCSWeaponBaseGun -> CCSWeaponBase -> CBasePlayerWeapon -> CEconEntity -> CBaseAnimGraph -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> IHasAttributes -> IAttachmentOverride -> IBoneTransformOverride -> IBoneTransformModifier
+
+# --- SpawnPoint (size=0xB345A002, parent=CServerOnlyPointEntity)
+#     chain: SpawnPoint -> CServerOnlyPointEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+
+# --- fogplayerparams_t (size=0xB3459AA6)
+
+
+# ================================================================
+# FLATTENED — full memory layout (own + inherited fields)
+# Format: class_name.field_name = 0xOFFSET (type, size, defined_in)
+# ================================================================
+
+
+# ================================================================
+# ENUMS — 243 enum definitions
+# Format: enum_name::VALUE_NAME = value
+# ================================================================
+
+# --- AmmoFlags_t (size=4 bytes, 3 values)
+AmmoFlags_t::AMMO_FORCE_DROP_IF_CARRIED = 1
+AmmoFlags_t::AMMO_RESERVE_STAYS_WITH_WEAPON = 2
+AmmoFlags_t::AMMO_FLAG_MAX = 2
+
+# --- AmmoPosition_t (size=4 bytes, 4 values)
+AmmoPosition_t::AMMO_POSITION_INVALID = -1
+AmmoPosition_t::AMMO_POSITION_PRIMARY = 0
+AmmoPosition_t::AMMO_POSITION_SECONDARY = 1
+AmmoPosition_t::AMMO_POSITION_COUNT = 2
+
+# --- AnimGraphDebugDrawType_t (size=4 bytes, 5 values)
+AnimGraphDebugDrawType_t::None = 0
+AnimGraphDebugDrawType_t::WsPosition = 1
+AnimGraphDebugDrawType_t::MsPosition = 2
+AnimGraphDebugDrawType_t::WsDirection = 3
+AnimGraphDebugDrawType_t::MsDirection = 4
+
+# --- AnimLoopMode_t (size=4 bytes, 5 values)
+AnimLoopMode_t::ANIM_LOOP_MODE_INVALID = -1
+AnimLoopMode_t::ANIM_LOOP_MODE_NOT_LOOPING = 0
+AnimLoopMode_t::ANIM_LOOP_MODE_LOOPING = 1
+AnimLoopMode_t::ANIM_LOOP_MODE_USE_SEQUENCE_SETTINGS = 2
+AnimLoopMode_t::ANIM_LOOP_MODE_COUNT = 3
+
+# --- AnimationAlgorithm_t (size=1 byte, 6 values)
+AnimationAlgorithm_t::eInvalid = -1
+AnimationAlgorithm_t::eNone = 0
+AnimationAlgorithm_t::eSequence = 1
+AnimationAlgorithm_t::eAnimGraph2 = 2
+AnimationAlgorithm_t::eAnimGraph2Secondary = 3
+AnimationAlgorithm_t::eCount = 4
+
+# --- BeamType_t (size=4 bytes, 7 values)
+BeamType_t::BEAM_INVALID = 0
+BeamType_t::BEAM_POINTS = 1
+BeamType_t::BEAM_ENTPOINT = 2
+BeamType_t::BEAM_ENTS = 3
+BeamType_t::xxBEAM_HOSExxunused = 4
+BeamType_t::BEAM_SPLINE = 5
+BeamType_t::BEAM_LASER = 6
+
+# --- BeginDeathLifeStateTransition_t (size=1 byte, 2 values)
+BeginDeathLifeStateTransition_t::TRANSITION_TO_LIFESTATE_DYING = 0
+BeginDeathLifeStateTransition_t::TRANSITION_TO_LIFESTATE_DEAD = 1
+
+# --- Bidirectional_Messages (size=4 bytes, 4 values)
+Bidirectional_Messages::bi_RebroadcastGameEvent = 16
+Bidirectional_Messages::bi_RebroadcastSource = 17
+Bidirectional_Messages::bi_GameEvent_DEPRECATED = 18
+Bidirectional_Messages::bi_PredictionEvent = 19
+
+# --- BloodType (size=4 bytes, 9 values)
+BloodType::None = -1
+BloodType::ColorRed = 0
+BloodType::ColorYellow = 1
+BloodType::ColorGreen = 2
+BloodType::ColorRedLVL2 = 3
+BloodType::ColorRedLVL3 = 4
+BloodType::ColorRedLVL4 = 5
+BloodType::ColorRedLVL5 = 6
+BloodType::ColorRedLVL6 = 7
+
+# --- BodySectionMutex_t (size=4 bytes, 4 values)
+BodySectionMutex_t::eNone = 0
+BodySectionMutex_t::eLowerBody = 1
+BodySectionMutex_t::eUpperBody = 2
+BodySectionMutex_t::eFullBody = 3
+
+# --- BreakableContentsType_t (size=4 bytes, 4 values)
+BreakableContentsType_t::BC_DEFAULT = 0
+BreakableContentsType_t::BC_EMPTY = 1
+BreakableContentsType_t::BC_PROP_GROUP_OVERRIDE = 2
+BreakableContentsType_t::BC_PARTICLE_SYSTEM_OVERRIDE = 3
+
+# --- BrushSolidities_e (size=4 bytes, 3 values)
+BrushSolidities_e::BRUSHSOLID_TOGGLE = 0
+BrushSolidities_e::BRUSHSOLID_NEVER = 1
+BrushSolidities_e::BRUSHSOLID_ALWAYS = 2
+
+# --- C4LightEffect_t (size=4 bytes, 3 values)
+C4LightEffect_t::eLightEffectNone = 0
+C4LightEffect_t::eLightEffectDropped = 1
+C4LightEffect_t::eLightEffectThirdPersonHeld = 2
+
+# --- CCSPlayerAnimationState::AirAction_t (size=1 byte, 4 values)
+CCSPlayerAnimationState::AirAction_t::None = 0
+CCSPlayerAnimationState::AirAction_t::Jump = 1
+CCSPlayerAnimationState::AirAction_t::StartFall = 2
+CCSPlayerAnimationState::AirAction_t::Land = 3
+
+# --- CCSPlayerAnimationState::Direction_t (size=1 byte, 9 values)
+CCSPlayerAnimationState::Direction_t::None = 0
+CCSPlayerAnimationState::Direction_t::N = 1
+CCSPlayerAnimationState::Direction_t::NE = 2
+CCSPlayerAnimationState::Direction_t::E = 3
+CCSPlayerAnimationState::Direction_t::SE = 4
+CCSPlayerAnimationState::Direction_t::S = 5
+CCSPlayerAnimationState::Direction_t::SW = 6
+CCSPlayerAnimationState::Direction_t::W = 7
+CCSPlayerAnimationState::Direction_t::NW = 8
+
+# --- CCSPlayerAnimationState::GroundMoveState_t (size=1 byte, 7 values)
+CCSPlayerAnimationState::GroundMoveState_t::None = 0
+CCSPlayerAnimationState::GroundMoveState_t::Idle = 1
+CCSPlayerAnimationState::GroundMoveState_t::Start = 2
+CCSPlayerAnimationState::GroundMoveState_t::Move = 3
+CCSPlayerAnimationState::GroundMoveState_t::TurnOnSpot = 4
+CCSPlayerAnimationState::GroundMoveState_t::TurnOnSpotLoop = 5
+CCSPlayerAnimationState::GroundMoveState_t::PlantAndTurn = 6
+
+# --- CCSPlayerAnimationState::MoveType_t (size=1 byte, 4 values)
+CCSPlayerAnimationState::MoveType_t::None = 0
+CCSPlayerAnimationState::MoveType_t::Ground = 1
+CCSPlayerAnimationState::MoveType_t::Air = 2
+CCSPlayerAnimationState::MoveType_t::Ladder = 3
+
+# --- CDebugOverlayCombinedTypes_t (size=4 bytes, 3 values)
+CDebugOverlayCombinedTypes_t::ALL = 0
+CDebugOverlayCombinedTypes_t::ANY = 1
+CDebugOverlayCombinedTypes_t::COUNT = 2
+
+# --- CDebugOverlayFilterTextType_t (size=4 bytes, 4 values)
+CDebugOverlayFilterTextType_t::FILTER_TEXT_NONE = 0
+CDebugOverlayFilterTextType_t::MATCH = 1
+CDebugOverlayFilterTextType_t::HIERARCHY = 2
+CDebugOverlayFilterTextType_t::COUNT = 3
+
+# --- CDebugOverlayFilterType_t (size=4 bytes, 11 values)
+CDebugOverlayFilterType_t::NONE = 0
+CDebugOverlayFilterType_t::TEXT = 1
+CDebugOverlayFilterType_t::ENTITY = 2
+CDebugOverlayFilterType_t::COUNT = 3
+CDebugOverlayFilterType_t::TACTICAL_SEARCH = 4
+CDebugOverlayFilterType_t::AI_SCHEDULE = 5
+CDebugOverlayFilterType_t::AI_TASK = 6
+CDebugOverlayFilterType_t::AI_EVENT = 7
+CDebugOverlayFilterType_t::AI_PATHFINDING = 8
+CDebugOverlayFilterType_t::END_SIM_HISTORY_TYPES = 9
+CDebugOverlayFilterType_t::COMBINED = -1
+
+# --- CFuncMover::FindFollowMoverStrategy_t (size=4 bytes, 3 values)
+CFuncMover::FindFollowMoverStrategy_t::FIND_FOLLOW_MOVER_FORWARD_CLOSEST = 0
+CFuncMover::FindFollowMoverStrategy_t::FIND_FOLLOW_MOVER_REVERSE_CLOSEST = 1
+CFuncMover::FindFollowMoverStrategy_t::FIND_FOLLOW_MOVER_BIDIRECTIONAL_CLOSEST = 2
+
+# --- CFuncMover::FollowConstraint_t (size=4 bytes, 4 values)
+CFuncMover::FollowConstraint_t::FOLLOW_CONSTRAINT_DISTANCE = 0
+CFuncMover::FollowConstraint_t::FOLLOW_CONSTRAINT_SPRING = 1
+CFuncMover::FollowConstraint_t::FOLLOW_CONSTRAINT_RATIO = 2
+CFuncMover::FollowConstraint_t::FOLLOW_CONSTRAINT_COUPLER = 3
+
+# --- CFuncMover::FollowEntityDirection_t (size=4 bytes, 3 values)
+CFuncMover::FollowEntityDirection_t::FOLLOW_ENTITY_BIDIRECTIONAL = 0
+CFuncMover::FollowEntityDirection_t::FOLLOW_ENTITY_FORWARD = 1
+CFuncMover::FollowEntityDirection_t::FOLLOW_ENTITY_REVERSE = 2
+
+# --- CFuncMover::Move_t (size=4 bytes, 3 values)
+CFuncMover::Move_t::MOVE_LOOP = 0
+CFuncMover::Move_t::MOVE_OSCILLATE = 1
+CFuncMover::Move_t::MOVE_STOP_AT_END = 2
+
+# --- CFuncMover::OrientationUpdate_t (size=4 bytes, 9 values)
+CFuncMover::OrientationUpdate_t::ORIENTATION_FORWARD_PATH = 0
+CFuncMover::OrientationUpdate_t::ORIENTATION_FORWARD_PATH_AND_FIXED_PITCH = 1
+CFuncMover::OrientationUpdate_t::ORIENTATION_FORWARD_PATH_AND_UP_CONTROL_POINT = 2
+CFuncMover::OrientationUpdate_t::ORIENTATION_MATCH_CONTROL_POINT = 3
+CFuncMover::OrientationUpdate_t::ORIENTATION_FIXED = 4
+CFuncMover::OrientationUpdate_t::ORIENTATION_FACE_PLAYER = 5
+CFuncMover::OrientationUpdate_t::ORIENTATION_FORWARD_MOVEMENT_DIRECTION = 6
+CFuncMover::OrientationUpdate_t::ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT = 7
+CFuncMover::OrientationUpdate_t::ORIENTATION_FACE_ENTITY = 8
+
+# --- CFuncMover::PathRebuildStrategy_t (size=4 bytes, 3 values)
+CFuncMover::PathRebuildStrategy_t::PATH_REBUILD_DONT_MOVE = 0
+CFuncMover::PathRebuildStrategy_t::PATH_REBUILD_MAINTAIN_T = 1
+CFuncMover::PathRebuildStrategy_t::PATH_REBUILD_USE_CURRENT_NODE_T = 2
+
+# --- CFuncMover::TransitionToPathNodeAction_t (size=4 bytes, 4 values)
+CFuncMover::TransitionToPathNodeAction_t::TRANSITION_TO_PATH_NODE_ACTION_NONE = 0
+CFuncMover::TransitionToPathNodeAction_t::TRANSITION_TO_PATH_NODE_ACTION_START_FORWARD = 1
+CFuncMover::TransitionToPathNodeAction_t::TRANSITION_TO_PATH_NODE_ACTION_START_REVERSE = 2
+CFuncMover::TransitionToPathNodeAction_t::TRANSITION_TO_PATH_NODE_TRANSITIONING = 3
+
+# --- CFuncRotator::Rotate_t (size=4 bytes, 7 values)
+CFuncRotator::Rotate_t::ROTATE_LOOP = 0
+CFuncRotator::Rotate_t::ROTATE_OSCILLATE = 1
+CFuncRotator::Rotate_t::ROTATE_STOP_AT_END = 2
+CFuncRotator::Rotate_t::ROTATE_LOOK_AT_TARGET = 3
+CFuncRotator::Rotate_t::ROTATE_LOOK_AT_TARGET_ONLY_YAW = 4
+CFuncRotator::Rotate_t::ROTATE_LOOK_AT_TARGET_ONLY_PITCH = 5
+CFuncRotator::Rotate_t::ROTATE_RETURN_TO_INITIAL_ORIENTATION = 6
+
+# --- CFuncRotator::RotationAxis_t (size=4 bytes, 4 values)
+CFuncRotator::RotationAxis_t::ROTATION_AXIS_UNDEFINED = 0
+CFuncRotator::RotationAxis_t::ROTATION_AXIS_YAW = 1
+CFuncRotator::RotationAxis_t::ROTATION_AXIS_PITCH = 2
+CFuncRotator::RotationAxis_t::ROTATION_AXIS_ROLL = 3
+
+# --- CInfoChoreoLocatorShapeType_t (size=4 bytes, 5 values)
+CInfoChoreoLocatorShapeType_t::POINT = 0
+CInfoChoreoLocatorShapeType_t::LINE = 1
+CInfoChoreoLocatorShapeType_t::RADIUS = 2
+CInfoChoreoLocatorShapeType_t::COUNT = 3
+CInfoChoreoLocatorShapeType_t::NONE = 4
+
+# --- CLC_Messages (size=4 bytes, 14 values)
+CLC_Messages::clc_ClientInfo = 20
+CLC_Messages::clc_Move = 21
+CLC_Messages::clc_VoiceData = 22
+CLC_Messages::clc_BaselineAck = 23
+CLC_Messages::clc_RespondCvarValue = 25
+CLC_Messages::clc_LoadingProgress = 27
+CLC_Messages::clc_SplitPlayerConnect = 28
+CLC_Messages::clc_SplitPlayerDisconnect = 30
+CLC_Messages::clc_ServerStatus = 31
+CLC_Messages::clc_RequestPause = 33
+CLC_Messages::clc_CmdKeyValues = 34
+CLC_Messages::clc_RconServerDetails = 35
+CLC_Messages::clc_HltvReplay = 36
+CLC_Messages::clc_Diagnostic = 37
+
+# --- CLogicBranchList::LogicBranchListenerLastState_t (size=4 bytes, 4 values)
+CLogicBranchList::LogicBranchListenerLastState_t::LOGIC_BRANCH_LISTENER_NOT_INIT = 0
+CLogicBranchList::LogicBranchListenerLastState_t::LOGIC_BRANCH_LISTENER_ALL_TRUE = 1
+CLogicBranchList::LogicBranchListenerLastState_t::LOGIC_BRANCH_LISTENER_ALL_FALSE = 2
+CLogicBranchList::LogicBranchListenerLastState_t::LOGIC_BRANCH_LISTENER_MIXED = 3
+
+# --- CPathMoverEntitySpawner::TemplateChoiceStrategy_t (size=4 bytes, 3 values)
+CPathMoverEntitySpawner::TemplateChoiceStrategy_t::TEMPLATE_CHOICE_COUNT_SEQUENTIAL = 0
+CPathMoverEntitySpawner::TemplateChoiceStrategy_t::TEMPLATE_CHOICE_WEIGHTED_RANDOM = 1
+CPathMoverEntitySpawner::TemplateChoiceStrategy_t::TEMPLATE_CHOICE_COUNT_RANDOM = 2
+
+# --- CPhysicsProp::CrateType_t (size=4 bytes, 2 values)
+CPhysicsProp::CrateType_t::CRATE_SPECIFIC_ITEM = 0
+CPhysicsProp::CrateType_t::CRATE_TYPE_COUNT = 1
+
+# --- CRR_Response::ResponseEnum_t (size=4 bytes, 2 values)
+CRR_Response::ResponseEnum_t::MAX_RESPONSE_NAME = 192
+CRR_Response::ResponseEnum_t::MAX_RULE_NAME = 128
+
+# --- CSPlayerBlockingUseAction_t (size=4 bytes, 8 values)
+CSPlayerBlockingUseAction_t::k_CSPlayerBlockingUseAction_None = 0
+CSPlayerBlockingUseAction_t::k_CSPlayerBlockingUseAction_DefusingDefault = 1
+CSPlayerBlockingUseAction_t::k_CSPlayerBlockingUseAction_DefusingWithKit = 2
+CSPlayerBlockingUseAction_t::k_CSPlayerBlockingUseAction_HostageGrabbing = 3
+CSPlayerBlockingUseAction_t::k_CSPlayerBlockingUseAction_HostageDropping = 4
+CSPlayerBlockingUseAction_t::k_CSPlayerBlockingUseAction_MapLongUseEntity_Pickup = 5
+CSPlayerBlockingUseAction_t::k_CSPlayerBlockingUseAction_MapLongUseEntity_Place = 6
+CSPlayerBlockingUseAction_t::k_CSPlayerBlockingUseAction_MaxCount = 7
+
+# --- CSPlayerState (size=4 bytes, 10 values)
+CSPlayerState::STATE_ACTIVE = 0
+CSPlayerState::STATE_WELCOME = 1
+CSPlayerState::STATE_PICKINGTEAM = 2
+CSPlayerState::STATE_PICKINGCLASS = 3
+CSPlayerState::STATE_DEATH_ANIM = 4
+CSPlayerState::STATE_DEATH_WAIT_FOR_KEY = 5
+CSPlayerState::STATE_OBSERVER_MODE = 6
+CSPlayerState::STATE_GUNGAME_RESPAWN = 7
+CSPlayerState::STATE_DORMANT = 8
+CSPlayerState::NUM_PLAYER_STATES = 9
+
+# --- CSWeaponCategory (size=4 bytes, 7 values)
+CSWeaponCategory::WEAPONCATEGORY_OTHER = 0
+CSWeaponCategory::WEAPONCATEGORY_MELEE = 1
+CSWeaponCategory::WEAPONCATEGORY_SECONDARY = 2
+CSWeaponCategory::WEAPONCATEGORY_SMG = 3
+CSWeaponCategory::WEAPONCATEGORY_RIFLE = 4
+CSWeaponCategory::WEAPONCATEGORY_HEAVY = 5
+CSWeaponCategory::WEAPONCATEGORY_COUNT = 6
+
+# --- CSWeaponMode (size=4 bytes, 3 values)
+CSWeaponMode::Primary_Mode = 0
+CSWeaponMode::Secondary_Mode = 1
+CSWeaponMode::WeaponMode_MAX = 2
+
+# --- CSWeaponNameID (size=4 bytes, 66 values)
+CSWeaponNameID::WEAPONID_GLOCK = 0
+CSWeaponNameID::WEAPONID_HKP2000 = 1
+CSWeaponNameID::WEAPONID_CZ75A = 2
+CSWeaponNameID::WEAPONID_ELITE = 3
+CSWeaponNameID::WEAPONID_DEAGLE = 4
+CSWeaponNameID::WEAPONID_FIVESEVEN = 5
+CSWeaponNameID::WEAPONID_P250 = 6
+CSWeaponNameID::WEAPONID_REVOLVER = 7
+CSWeaponNameID::WEAPONID_TEC9 = 8
+CSWeaponNameID::WEAPONID_USP_SILENCER = 9
+CSWeaponNameID::WEAPONID_AK47 = 10
+CSWeaponNameID::WEAPONID_M4A1 = 11
+CSWeaponNameID::WEAPONID_M4A1_SILENCER = 12
+CSWeaponNameID::WEAPONID_FAMAS = 13
+CSWeaponNameID::WEAPONID_GALILAR = 14
+CSWeaponNameID::WEAPONID_AUG = 15
+CSWeaponNameID::WEAPONID_SG556 = 16
+CSWeaponNameID::WEAPONID_BIZON = 17
+CSWeaponNameID::WEAPONID_MAC10 = 18
+CSWeaponNameID::WEAPONID_MP5SD = 19
+CSWeaponNameID::WEAPONID_MP7 = 20
+CSWeaponNameID::WEAPONID_MP9 = 21
+CSWeaponNameID::WEAPONID_P90 = 22
+CSWeaponNameID::WEAPONID_UMP45 = 23
+CSWeaponNameID::WEAPONID_MAG7 = 24
+CSWeaponNameID::WEAPONID_NOVA = 25
+CSWeaponNameID::WEAPONID_SAWEDOFF = 26
+CSWeaponNameID::WEAPONID_XM1014 = 27
+CSWeaponNameID::WEAPONID_AWP = 28
+CSWeaponNameID::WEAPONID_SSG08 = 29
+CSWeaponNameID::WEAPONID_G3SG1 = 30
+CSWeaponNameID::WEAPONID_SCAR20 = 31
+CSWeaponNameID::WEAPONID_M249 = 32
+CSWeaponNameID::WEAPONID_NEGEV = 33
+CSWeaponNameID::WEAPONID_TASER = 34
+CSWeaponNameID::WEAPONID_DECOY = 35
+CSWeaponNameID::WEAPONID_FLASHBANG = 36
+CSWeaponNameID::WEAPONID_HEGRENADE = 37
+CSWeaponNameID::WEAPONID_INCGRENADE = 38
+CSWeaponNameID::WEAPONID_MOLOTOV = 39
+CSWeaponNameID::WEAPONID_SMOKEGRENADE = 40
+CSWeaponNameID::WEAPONID_C4 = 41
+CSWeaponNameID::WEAPONID_HEALTHSHOT = 42
+CSWeaponNameID::WEAPONID_KNIFE = 43
+CSWeaponNameID::WEAPONID_KNIFE_T = 44
+CSWeaponNameID::WEAPONID_KNIFE_CSS = 45
+CSWeaponNameID::WEAPONID_KNIFE_FLIP = 46
+CSWeaponNameID::WEAPONID_KNIFE_GUT = 47
+CSWeaponNameID::WEAPONID_KNIFE_KARAMBIT = 48
+CSWeaponNameID::WEAPONID_BAYONET = 49
+CSWeaponNameID::WEAPONID_KNIFE_M9_BAYONET = 50
+CSWeaponNameID::WEAPONID_KNIFE_TACTICAL = 51
+CSWeaponNameID::WEAPONID_KNIFE_FALCHION = 52
+CSWeaponNameID::WEAPONID_KNIFE_SURVIVAL_BOWIE = 53
+CSWeaponNameID::WEAPONID_KNIFE_BUTTERFLY = 54
+CSWeaponNameID::WEAPONID_KNIFE_PUSH = 55
+CSWeaponNameID::WEAPONID_KNIFE_CORD = 56
+CSWeaponNameID::WEAPONID_KNIFE_CANIS = 57
+CSWeaponNameID::WEAPONID_KNIFE_URSUS = 58
+CSWeaponNameID::WEAPONID_KNIFE_GYPSY_JACKKNIFE = 59
+CSWeaponNameID::WEAPONID_KNIFE_OUTDOOR = 60
+CSWeaponNameID::WEAPONID_KNIFE_STILETTO = 61
+CSWeaponNameID::WEAPONID_KNIFE_WIDOWMAKER = 62
+CSWeaponNameID::WEAPONID_KNIFE_SKELETON = 63
+CSWeaponNameID::WEAPONID_KNIFE_KUKRI = 64
+CSWeaponNameID::WEAPONID_UNKNOWN = 65
+
+# --- CSWeaponSilencerType (size=4 bytes, 3 values)
+CSWeaponSilencerType::WEAPONSILENCER_NONE = 0
+CSWeaponSilencerType::WEAPONSILENCER_DETACHABLE = 1
+CSWeaponSilencerType::WEAPONSILENCER_INTEGRATED = 2
+
+# --- CSWeaponType (size=4 bytes, 13 values)
+CSWeaponType::WEAPONTYPE_KNIFE = 0
+CSWeaponType::WEAPONTYPE_PISTOL = 1
+CSWeaponType::WEAPONTYPE_SUBMACHINEGUN = 2
+CSWeaponType::WEAPONTYPE_RIFLE = 3
+CSWeaponType::WEAPONTYPE_SHOTGUN = 4
+CSWeaponType::WEAPONTYPE_SNIPER_RIFLE = 5
+CSWeaponType::WEAPONTYPE_MACHINEGUN = 6
+CSWeaponType::WEAPONTYPE_C4 = 7
+CSWeaponType::WEAPONTYPE_TASER = 8
+CSWeaponType::WEAPONTYPE_GRENADE = 9
+CSWeaponType::WEAPONTYPE_EQUIPMENT = 10
+CSWeaponType::WEAPONTYPE_STACKABLEITEM = 11
+CSWeaponType::WEAPONTYPE_UNKNOWN = 12
+
+# --- CanPlaySequence_t (size=4 bytes, 3 values)
+CanPlaySequence_t::CANNOT_PLAY = 0
+CanPlaySequence_t::CAN_PLAY_NOW = 1
+CanPlaySequence_t::CAN_PLAY_ENQUEUED = 2
+
+# --- ChatIgnoreType_t (size=4 bytes, 3 values)
+ChatIgnoreType_t::CHAT_IGNORE_NONE = 0
+ChatIgnoreType_t::CHAT_IGNORE_ALL = 1
+ChatIgnoreType_t::CHAT_IGNORE_TEAM = 2
+
+# --- ChoreoExternalAnimgraphControlState_t (size=4 bytes, 10 values)
+ChoreoExternalAnimgraphControlState_t::eNone = 0
+ChoreoExternalAnimgraphControlState_t::eExit = 1
+ChoreoExternalAnimgraphControlState_t::eFallbackExit = 2
+ChoreoExternalAnimgraphControlState_t::eState01 = 3
+ChoreoExternalAnimgraphControlState_t::eState02 = 4
+ChoreoExternalAnimgraphControlState_t::eState03 = 5
+ChoreoExternalAnimgraphControlState_t::eState04 = 6
+ChoreoExternalAnimgraphControlState_t::eState05 = 7
+ChoreoExternalAnimgraphControlState_t::eLooping = 8
+ChoreoExternalAnimgraphControlState_t::eCount = 9
+
+# --- ChoreoLookAtConditions_t (size=4 bytes, 3 values)
+ChoreoLookAtConditions_t::WHILE_MOVING = 1
+ChoreoLookAtConditions_t::WHILE_ANIMATING = 2
+ChoreoLookAtConditions_t::DURING_OUTRO = 4
+
+# --- ChoreoLookAtMode_t (size=4 bytes, 4 values)
+ChoreoLookAtMode_t::eInvalid = -1
+ChoreoLookAtMode_t::eChest = 0
+ChoreoLookAtMode_t::eHead = 1
+ChoreoLookAtMode_t::eEyesOnly = 2
+
+# --- ChoreoLookAtSpeed_t (size=4 bytes, 4 values)
+ChoreoLookAtSpeed_t::eInvalid = -1
+ChoreoLookAtSpeed_t::eSlow = 0
+ChoreoLookAtSpeed_t::eMedium = 1
+ChoreoLookAtSpeed_t::eFast = 2
+
+# --- ChoreoScriptedMoveTo_t (size=4 bytes, 4 values)
+ChoreoScriptedMoveTo_t::eWait = 0
+ChoreoScriptedMoveTo_t::eMoveWithGait = 1
+ChoreoScriptedMoveTo_t::eTeleport = 2
+ChoreoScriptedMoveTo_t::eWaitFacing = 3
+
+# --- ChoreoStrafeMode_t (size=4 bytes, 3 values)
+ChoreoStrafeMode_t::DEFAULT = 0
+ChoreoStrafeMode_t::ENABLE = 1
+ChoreoStrafeMode_t::DISABLE = 2
+
+# --- Class_T (size=4 bytes, 14 values)
+Class_T::CLASS_NONE = 0
+Class_T::CLASS_PLAYER = 1
+Class_T::CLASS_PLAYER_ALLY = 2
+Class_T::CLASS_C4_FOR_RADAR = 3
+Class_T::CLASS_FOOT_CONTACT_SHADOW = 4
+Class_T::CLASS_WEAPON = 5
+Class_T::CLASS_WATER_SPLASHER = 6
+Class_T::CLASS_HUDMODEL_WEAPON = 7
+Class_T::CLASS_HUDMODEL_ARMS = 8
+Class_T::CLASS_HUDMODEL_ADDON = 9
+Class_T::CLASS_WORLDMODEL_GLOVES = 10
+Class_T::CLASS_DOOR = 11
+Class_T::CLASS_PLANTED_C4 = 12
+Class_T::NUM_CLASSIFY_CLASSES = 13
+
+# --- CustomCameraMode_t (size=1 byte, 4 values)
+CustomCameraMode_t::CUSTOM_CAMERA_MODE_DISABLED = 0
+CustomCameraMode_t::CUSTOM_CAMERA_MODE_CONTROLLED = 1
+CustomCameraMode_t::CUSTOM_CAMERA_MODE_CONTROLLED_POSITION = 2
+CustomCameraMode_t::CUSTOM_CAMERA_MODE_FOLLOW_POSITION = 3
+
+# --- DIALOG_TYPE (size=4 bytes, 5 values)
+DIALOG_TYPE::DIALOG_MSG = 0
+DIALOG_TYPE::DIALOG_MENU = 1
+DIALOG_TYPE::DIALOG_TEXT = 2
+DIALOG_TYPE::DIALOG_ENTRY = 3
+DIALOG_TYPE::DIALOG_ASKCONNECT = 4
+
+# --- DamageTypes_t (size=4 bytes, 22 values)
+DamageTypes_t::DMG_GENERIC = 0
+DamageTypes_t::DMG_CRUSH = 1
+DamageTypes_t::DMG_BULLET = 2
+DamageTypes_t::DMG_SLASH = 4
+DamageTypes_t::DMG_BURN = 8
+DamageTypes_t::DMG_VEHICLE = 16
+DamageTypes_t::DMG_FALL = 32
+DamageTypes_t::DMG_BLAST = 64
+DamageTypes_t::DMG_CLUB = 128
+DamageTypes_t::DMG_SHOCK = 256
+DamageTypes_t::DMG_SONIC = 512
+DamageTypes_t::DMG_ENERGYBEAM = 1024
+DamageTypes_t::DMG_BUCKSHOT = 2048
+DamageTypes_t::DMG_BLAST_SURFACE = 4096
+DamageTypes_t::DMG_DISSOLVE = 8192
+DamageTypes_t::DMG_DROWN = 16384
+DamageTypes_t::DMG_POISON = 32768
+DamageTypes_t::DMG_RADIATION = 65536
+DamageTypes_t::DMG_DROWNRECOVER = 131072
+DamageTypes_t::DMG_ACID = 262144
+DamageTypes_t::DMG_LASTGENERICFLAG = 262144
+DamageTypes_t::DMG_HEADSHOT = 524288
+
+# --- DebugOverlayBits_t (size=8 bytes, 43 values)
+DebugOverlayBits_t::OVERLAY_TEXT_BIT = 1
+DebugOverlayBits_t::OVERLAY_NAME_BIT = 2
+DebugOverlayBits_t::OVERLAY_BBOX_BIT = 4
+DebugOverlayBits_t::OVERLAY_PIVOT_BIT = 8
+DebugOverlayBits_t::OVERLAY_MESSAGE_BIT = 16
+DebugOverlayBits_t::OVERLAY_ABSBOX_BIT = 32
+DebugOverlayBits_t::OVERLAY_RBOX_BIT = 64
+DebugOverlayBits_t::OVERLAY_SHOW_BLOCKSLOS = 128
+DebugOverlayBits_t::OVERLAY_ATTACHMENTS_BIT = 256
+DebugOverlayBits_t::OVERLAY_INTERPOLATED_ATTACHMENTS_BIT = 512
+DebugOverlayBits_t::OVERLAY_INTERPOLATED_PIVOT_BIT = 1024
+DebugOverlayBits_t::OVERLAY_SKELETON_BIT = 2048
+DebugOverlayBits_t::OVERLAY_INTERPOLATED_SKELETON_BIT = 4096
+DebugOverlayBits_t::OVERLAY_TRIGGER_BOUNDS_BIT = 8192
+DebugOverlayBits_t::OVERLAY_HITBOX_BIT = 16384
+DebugOverlayBits_t::OVERLAY_INTERPOLATED_HITBOX_BIT = 32768
+DebugOverlayBits_t::OVERLAY_AUTOAIM_BIT = 65536
+DebugOverlayBits_t::OVERLAY_NPC_SELECTED_BIT = 131072
+DebugOverlayBits_t::OVERLAY_JOINT_INFO_BIT = 262144
+DebugOverlayBits_t::OVERLAY_NPC_ROUTE_BIT = 524288
+DebugOverlayBits_t::OVERLAY_VISIBILITY_TRACES_BIT = 1048576
+DebugOverlayBits_t::OVERLAY_NPC_ENEMIES_BIT = 4194304
+DebugOverlayBits_t::OVERLAY_NPC_CONDITIONS_BIT = 8388608
+DebugOverlayBits_t::OVERLAY_NPC_COMBAT_BIT = 16777216
+DebugOverlayBits_t::OVERLAY_NPC_TASK_BIT = 33554432
+DebugOverlayBits_t::OVERLAY_NPC_BODYLOCATIONS = 67108864
+DebugOverlayBits_t::OVERLAY_NPC_VIEWCONE_BIT = 134217728
+DebugOverlayBits_t::OVERLAY_NPC_KILL_BIT = 268435456
+DebugOverlayBits_t::OVERLAY_BUDDHA_MODE = 1073741824
+DebugOverlayBits_t::OVERLAY_NPC_STEERING_REGULATIONS = 2147483648
+DebugOverlayBits_t::OVERLAY_NPC_TASK_TEXT_BIT = 4294967296
+DebugOverlayBits_t::OVERLAY_PROP_DEBUG = 8589934592
+DebugOverlayBits_t::OVERLAY_NPC_RELATION_BIT = 17179869184
+DebugOverlayBits_t::OVERLAY_VIEWOFFSET = 34359738368
+DebugOverlayBits_t::OVERLAY_VCOLLIDE_WIREFRAME_BIT = 68719476736
+DebugOverlayBits_t::OVERLAY_NPC_SCRIPTED_COMMANDS_BIT = 137438953472
+DebugOverlayBits_t::OVERLAY_ACTORNAME_BIT = 274877906944
+DebugOverlayBits_t::OVERLAY_NPC_CONDITIONS_TEXT_BIT = 549755813888
+DebugOverlayBits_t::OVERLAY_NPC_ABILITY_RANGE_DEBUG_BIT = 1099511627776
+DebugOverlayBits_t::OVERLAY_MINIMAL_TEXT = 2199023255552
+DebugOverlayBits_t::OVERLAY_NPC_GOD_MODE = 4398046511104
+DebugOverlayBits_t::OVERLAY_NPC_ANIM_AI_HANDSHAKES_BIT = 8796093022208
+DebugOverlayBits_t::OVERLAY_NPC_PATH_QUERIES_BIT = 17592186044416
+
+# --- DecalFlags_t (size=4 bytes, 5 values)
+DecalFlags_t::eNone = 0
+DecalFlags_t::eCannotClear = 1
+DecalFlags_t::eDecalProjectToBackfaces = 2
+DecalFlags_t::eAll = 4294967295
+DecalFlags_t::eAllButCannotClear = 4294967294
+
+# --- DestructiblePartDestructionDeathBehavior_t (size=4 bytes, 4 values)
+DestructiblePartDestructionDeathBehavior_t::eDoNotKill = 0
+DestructiblePartDestructionDeathBehavior_t::eKill = 1
+DestructiblePartDestructionDeathBehavior_t::eGib = 2
+DestructiblePartDestructionDeathBehavior_t::eRemove = 3
+
+# --- DirectionAlongSimplePath_t (size=4 bytes, 3 values)
+DirectionAlongSimplePath_t::None = 0
+DirectionAlongSimplePath_t::TGoesUp = 1
+DirectionAlongSimplePath_t::TGoesDown = 2
+
+# --- Disposition_t (size=4 bytes, 10 values)
+Disposition_t::D_ER = 0
+Disposition_t::D_HT = 1
+Disposition_t::D_FR = 2
+Disposition_t::D_LI = 3
+Disposition_t::D_NU = 4
+Disposition_t::D_ERROR = 0
+Disposition_t::D_HATE = 1
+Disposition_t::D_FEAR = 2
+Disposition_t::D_LIKE = 3
+Disposition_t::D_NEUTRAL = 4
+
+# --- DoorState_t (size=4 bytes, 5 values)
+DoorState_t::DOOR_STATE_CLOSED = 0
+DoorState_t::DOOR_STATE_OPENING = 1
+DoorState_t::DOOR_STATE_OPEN = 2
+DoorState_t::DOOR_STATE_CLOSING = 3
+DoorState_t::DOOR_STATE_AJAR = 4
+
+# --- EBaseClientMessages (size=4 bytes, 7 values)
+EBaseClientMessages::CM_CustomGameEvent = 280
+EBaseClientMessages::CM_CustomGameEventBounce = 281
+EBaseClientMessages::CM_ClientUIEvent = 282
+EBaseClientMessages::CM_DevPaletteVisibilityChanged = 283
+EBaseClientMessages::CM_WorldUIControllerHasPanelChanged = 284
+EBaseClientMessages::CM_RotateAnchor = 285
+EBaseClientMessages::CM_MAX_BASE = 300
+
+# --- EBaseEntityMessages (size=4 bytes, 5 values)
+EBaseEntityMessages::EM_PlayJingle = 136
+EBaseEntityMessages::EM_ScreenOverlay = 137
+EBaseEntityMessages::EM_PropagateForce = 139
+EBaseEntityMessages::EM_DoSpark = 140
+EBaseEntityMessages::EM_FixAngle = 141
+
+# --- EBaseGameEvents (size=4 bytes, 15 values)
+EBaseGameEvents::GE_VDebugGameSessionIDEvent = 200
+EBaseGameEvents::GE_PlaceDecalEvent = 201
+EBaseGameEvents::GE_ClearWorldDecalsEvent = 202
+EBaseGameEvents::GE_ClearEntityDecalsEvent = 203
+EBaseGameEvents::GE_ClearDecalsForEntityEvent = 204
+EBaseGameEvents::GE_Source1LegacyGameEventList = 205
+EBaseGameEvents::GE_Source1LegacyListenEvents = 206
+EBaseGameEvents::GE_Source1LegacyGameEvent = 207
+EBaseGameEvents::GE_SosStartSoundEvent = 208
+EBaseGameEvents::GE_SosStopSoundEvent = 209
+EBaseGameEvents::GE_SosSetSoundEventParams = 210
+EBaseGameEvents::GE_SosSetLibraryStackFields = 211
+EBaseGameEvents::GE_SosStopSoundEventHash = 212
+EBaseGameEvents::GE_ClothStiffenAnimEvent = 213
+EBaseGameEvents::GE_ClothEffectAnimEvent = 214
+
+# --- EBasePredictionEvents (size=4 bytes, 3 values)
+EBasePredictionEvents::BPE_StringCommand = 128
+EBasePredictionEvents::BPE_Teleport = 130
+EBasePredictionEvents::BPE_Diagnostic = 16384
+
+# --- EBaseUserMessages (size=4 bytes, 53 values)
+EBaseUserMessages::UM_AchievementEvent = 101
+EBaseUserMessages::UM_CurrentTimescale = 104
+EBaseUserMessages::UM_DesiredTimescale = 105
+EBaseUserMessages::UM_Fade = 106
+EBaseUserMessages::UM_GameTitle = 107
+EBaseUserMessages::UM_HudMsg = 110
+EBaseUserMessages::UM_HudText = 111
+EBaseUserMessages::UM_ColoredText = 113
+EBaseUserMessages::UM_RequestState = 114
+EBaseUserMessages::UM_ResetHUD = 115
+EBaseUserMessages::UM_Rumble = 116
+EBaseUserMessages::UM_SayText = 117
+EBaseUserMessages::UM_SayText2 = 118
+EBaseUserMessages::UM_SayTextChannel = 119
+EBaseUserMessages::UM_Shake = 120
+EBaseUserMessages::UM_ShakeDir = 121
+EBaseUserMessages::UM_WaterShake = 122
+EBaseUserMessages::UM_TextMsg = 124
+EBaseUserMessages::UM_ScreenTilt = 125
+EBaseUserMessages::UM_VoiceMask = 128
+EBaseUserMessages::UM_SendAudio = 130
+EBaseUserMessages::UM_ItemPickup = 131
+EBaseUserMessages::UM_AmmoDenied = 132
+EBaseUserMessages::UM_ShowMenu = 134
+EBaseUserMessages::UM_CreditsMsg = 135
+EBaseUserMessages::UM_CloseCaptionPlaceholder = 142
+EBaseUserMessages::UM_CameraTransition = 143
+EBaseUserMessages::UM_AudioParameter = 144
+EBaseUserMessages::UM_ParticleManager = 145
+EBaseUserMessages::UM_HudError = 146
+EBaseUserMessages::UM_CustomGameEvent = 148
+EBaseUserMessages::UM_AnimGraphUpdate = 149
+EBaseUserMessages::UM_HapticsManagerPulse = 150
+EBaseUserMessages::UM_HapticsManagerEffect = 151
+EBaseUserMessages::UM_UpdateCssClasses = 153
+EBaseUserMessages::UM_ServerFrameTime = 154
+EBaseUserMessages::UM_LagCompensationError = 155
+EBaseUserMessages::UM_RequestDllStatus = 156
+EBaseUserMessages::UM_RequestUtilAction = 157
+EBaseUserMessages::UM_UtilActionResponse = 158
+EBaseUserMessages::UM_DllStatusResponse = 159
+EBaseUserMessages::UM_RequestInventory = 160
+EBaseUserMessages::UM_InventoryResponse = 161
+EBaseUserMessages::UM_RequestDiagnostic = 162
+EBaseUserMessages::UM_DiagnosticResponse = 163
+EBaseUserMessages::UM_ExtraUserData = 164
+EBaseUserMessages::UM_NotifyResponseFound = 165
+EBaseUserMessages::UM_PlayResponseConditional = 166
+EBaseUserMessages::UM_UserSentBugBug = 167
+EBaseUserMessages::UM_UsageReport = 168
+EBaseUserMessages::UM_RemoteServerCommand = 169
+EBaseUserMessages::UM_RemoteServerResponse = 170
+EBaseUserMessages::UM_MAX_BASE = 200
+
+# --- ECSPredictionEvents (size=4 bytes, 2 values)
+ECSPredictionEvents::CSPE_DamageTag = 1
+ECSPredictionEvents::CSPE_PlayerTeleport = 3
+
+# --- ECSUsrMsg_DisconnectToLobby_Action (size=4 bytes, 2 values)
+ECSUsrMsg_DisconnectToLobby_Action::k_ECSUsrMsg_DisconnectToLobby_Action_Default = 0
+ECSUsrMsg_DisconnectToLobby_Action::k_ECSUsrMsg_DisconnectToLobby_Action_GoQueue = 1
+
+# --- EChickenActivity (size=4 bytes, 13 values)
+EChickenActivity::Idle = 0
+EChickenActivity::Squat = 1
+EChickenActivity::Walk = 2
+EChickenActivity::Run = 3
+EChickenActivity::Glide = 4
+EChickenActivity::Land = 5
+EChickenActivity::Panic = 6
+EChickenActivity::Trick = 7
+EChickenActivity::TurnInPlace = 8
+EChickenActivity::Feed = 9
+EChickenActivity::Sleep = 10
+EChickenActivity::Shoulder = 11
+EChickenActivity::LowOnFood = 12
+
+# --- EClientReportingVersion (size=4 bytes, 3 values)
+EClientReportingVersion::k_EClientReportingVersion_OldVersion = 0
+EClientReportingVersion::k_EClientReportingVersion_BetaVersion = 1
+EClientReportingVersion::k_EClientReportingVersion_SupportsTrustedMode = 2
+
+# --- EClientUIEvent (size=4 bytes, 3 values)
+EClientUIEvent::EClientUIEvent_Invalid = 0
+EClientUIEvent::EClientUIEvent_DialogFinished = 1
+EClientUIEvent::EClientUIEvent_FireOutput = 2
+
+# --- ECommunityItemAttribute (size=4 bytes, 10 values)
+ECommunityItemAttribute::k_ECommunityItemAttribute_Invalid = 0
+ECommunityItemAttribute::k_ECommunityItemAttribute_CardBorder = 1
+ECommunityItemAttribute::k_ECommunityItemAttribute_Level = 2
+ECommunityItemAttribute::k_ECommunityItemAttribute_IssueNumber = 3
+ECommunityItemAttribute::k_ECommunityItemAttribute_TradableTime = 4
+ECommunityItemAttribute::k_ECommunityItemAttribute_StorePackageID = 5
+ECommunityItemAttribute::k_ECommunityItemAttribute_CommunityItemAppID = 6
+ECommunityItemAttribute::k_ECommunityItemAttribute_CommunityItemType = 7
+ECommunityItemAttribute::k_ECommunityItemAttribute_ProfileModiferEnabled = 8
+ECommunityItemAttribute::k_ECommunityItemAttribute_ExpiryTime = 9
+
+# --- ECommunityItemClass (size=4 bytes, 11 values)
+ECommunityItemClass::k_ECommunityItemClass_Invalid = 0
+ECommunityItemClass::k_ECommunityItemClass_Badge = 1
+ECommunityItemClass::k_ECommunityItemClass_GameCard = 2
+ECommunityItemClass::k_ECommunityItemClass_ProfileBackground = 3
+ECommunityItemClass::k_ECommunityItemClass_Emoticon = 4
+ECommunityItemClass::k_ECommunityItemClass_BoosterPack = 5
+ECommunityItemClass::k_ECommunityItemClass_Consumable = 6
+ECommunityItemClass::k_ECommunityItemClass_GameGoo = 7
+ECommunityItemClass::k_ECommunityItemClass_ProfileModifier = 8
+ECommunityItemClass::k_ECommunityItemClass_Scene = 9
+ECommunityItemClass::k_ECommunityItemClass_SalienItem = 10
+
+# --- EContributionScoreFlag_t (size=1 byte, 3 values)
+EContributionScoreFlag_t::k_EContributionScoreFlag_Default = 0
+EContributionScoreFlag_t::k_EContributionScoreFlag_Objective = 1
+EContributionScoreFlag_t::k_EContributionScoreFlag_Bullets = 2
+
+# --- ECsgoGCMsg (size=4 bytes, 105 values)
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_Base = 9100
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchmakingStart = 9101
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchmakingStop = 9102
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchmakingClient2ServerPing = 9103
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate = 9104
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchmakingServerReservationResponse = 9106
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchmakingGC2ClientReserve = 9107
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchmakingClient2GCHello = 9109
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchmakingGC2ClientHello = 9110
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchmakingGC2ClientAbandon = 9112
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate = 9117
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ServerNotificationForUserPenalty = 9118
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientReportPlayer = 9119
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientReportServer = 9120
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientCommendPlayer = 9121
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientReportResponse = 9122
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientCommendPlayerQuery = 9123
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientCommendPlayerQueryResponse = 9124
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_WatchInfoUsers = 9126
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientRequestPlayersProfile = 9127
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_PlayersProfile = 9128
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_PlayerOverwatchCaseUpdate = 9131
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment = 9132
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_PlayerOverwatchCaseStatus = 9133
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GC2ClientTextMsg = 9134
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_Client2GCTextMsg = 9135
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchEndRunRewardDrops = 9136
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchEndRewardDropsNotification = 9137
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientRequestWatchInfoFriends2 = 9138
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchList = 9139
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchListRequestCurrentLiveGames = 9140
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchListRequestRecentUserGames = 9141
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GC2ServerReservationUpdate = 9142
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientVarValueNotificationInfo = 9144
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchListRequestTournamentGames = 9146
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchListRequestFullGameInfo = 9147
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GiftsLeaderboardRequest = 9148
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GiftsLeaderboardResponse = 9149
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ServerVarValueNotificationInfo = 9150
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientSubmitSurveyVote = 9152
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_Server2GCClientValidate = 9153
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchListRequestLiveGameForUser = 9154
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest = 9156
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockResponse = 9157
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_AccountPrivacySettings = 9158
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_SetMyActivityInfo = 9159
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchListRequestTournamentPredictions = 9160
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchListUploadTournamentPredictions = 9161
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_DraftSummary = 9162
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientRequestJoinFriendData = 9163
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientRequestJoinServerData = 9164
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GC2ClientTournamentInfo = 9167
+ECsgoGCMsg::k_EMsgGC_GlobalGame_Subscribe = 9168
+ECsgoGCMsg::k_EMsgGC_GlobalGame_Unsubscribe = 9169
+ECsgoGCMsg::k_EMsgGC_GlobalGame_Play = 9170
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_AcknowledgePenalty = 9171
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_Client2GCRequestPrestigeCoin = 9172
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GC2ClientGlobalStats = 9173
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_Client2GCStreamUnlock = 9174
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_FantasyRequestClientData = 9175
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_FantasyUpdateClientData = 9176
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GCToClientSteamdatagramTicket = 9177
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientToGCRequestTicket = 9178
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientToGCRequestElevate = 9179
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GlobalChat = 9180
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GlobalChat_Subscribe = 9181
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GlobalChat_Unsubscribe = 9182
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientAuthKeyCode = 9183
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GotvSyncPacket = 9184
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientPlayerDecalSign = 9185
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientLogonFatalError = 9187
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientPollState = 9188
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_Party_Register = 9189
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_Party_Unregister = 9190
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_Party_Search = 9191
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_Party_Invite = 9192
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_Account_RequestCoPlays = 9193
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientGCRankUpdate = 9194
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientRequestOffers = 9195
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientAccountBalance = 9196
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientPartyJoinRelay = 9197
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientPartyWarning = 9198
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_SetEventFavorite = 9200
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GetEventFavorites_Request = 9201
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientPerfReport = 9202
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GetEventFavorites_Response = 9203
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientRequestSouvenir = 9204
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientRedeemMissionReward = 9209
+ECsgoGCMsg::k_EMsgGCCStrike15_ClientDeepStats = 9210
+ECsgoGCMsg::k_EMsgGCCStrike15_StartAgreementSessionInGame = 9211
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_PrivateQueues = 9214
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchListTournamentOperatorMgmt = 9215
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_BetaEnrollment = 9217
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_SetPlayerLeaderboardSafeName = 9218
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientRedeemFreeReward = 9219
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_ClientNetworkConfig = 9220
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_GC2ClientNotifyXPShop = 9221
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_Client2GcAckXPShopTracks = 9222
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_MatchmakingGC2ClientSearchStats = 9223
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_PremierSeasonSummary = 9224
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_RequestRecurringMissionSchedule = 9225
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_RecurringMissionSchema = 9226
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_VolatileItemClaimReward = 9227
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_VolatileShopSubscribe = 9228
+ECsgoGCMsg::k_EMsgGCCStrike15_v2_SetClanId = 9229
+
+# --- ECsgoGameEvents (size=4 bytes, 4 values)
+ECsgoGameEvents::GE_PlayerAnimEventId = 450
+ECsgoGameEvents::GE_RadioIconEventId = 451
+ECsgoGameEvents::GE_FireBulletsId = 452
+ECsgoGameEvents::GE_PlayerBulletHitId = 453
+
+# --- ECsgoSteamUserStat (size=4 bytes, 3 values)
+ECsgoSteamUserStat::k_ECsgoSteamUserStat_XpEarnedGames = 1
+ECsgoSteamUserStat::k_ECsgoSteamUserStat_MatchWinsCompetitive = 2
+ECsgoSteamUserStat::k_ECsgoSteamUserStat_SurvivedDangerZone = 3
+
+# --- ECstrike15UserMessages (size=4 bytes, 79 values)
+ECstrike15UserMessages::CS_UM_VGUIMenu = 301
+ECstrike15UserMessages::CS_UM_Geiger = 302
+ECstrike15UserMessages::CS_UM_Train = 303
+ECstrike15UserMessages::CS_UM_HudText = 304
+ECstrike15UserMessages::CS_UM_SayText_CSGOLegacy = 305
+ECstrike15UserMessages::CS_UM_SayText2_CSGOLegacy = 306
+ECstrike15UserMessages::CS_UM_TextMsg_CSGOLegacy = 307
+ECstrike15UserMessages::CS_UM_HudMsg = 308
+ECstrike15UserMessages::CS_UM_ResetHud = 309
+ECstrike15UserMessages::CS_UM_GameTitle = 310
+ECstrike15UserMessages::CS_UM_Shake = 312
+ECstrike15UserMessages::CS_UM_Fade = 313
+ECstrike15UserMessages::CS_UM_Rumble = 314
+ECstrike15UserMessages::CS_UM_CloseCaption = 315
+ECstrike15UserMessages::CS_UM_CloseCaptionDirect = 316
+ECstrike15UserMessages::CS_UM_SendAudio = 317
+ECstrike15UserMessages::CS_UM_RawAudio = 318
+ECstrike15UserMessages::CS_UM_VoiceMask = 319
+ECstrike15UserMessages::CS_UM_RequestState = 320
+ECstrike15UserMessages::CS_UM_Damage = 321
+ECstrike15UserMessages::CS_UM_RadioText = 322
+ECstrike15UserMessages::CS_UM_HintText = 323
+ECstrike15UserMessages::CS_UM_KeyHintText = 324
+ECstrike15UserMessages::CS_UM_ProcessSpottedEntityUpdate = 325
+ECstrike15UserMessages::CS_UM_ReloadEffect = 326
+ECstrike15UserMessages::CS_UM_AdjustMoney = 327
+ECstrike15UserMessages::CS_UM_UpdateTeamMoney_CSGOLegacy = 328
+ECstrike15UserMessages::CS_UM_StopSpectatorMode = 329
+ECstrike15UserMessages::CS_UM_KillCam = 330
+ECstrike15UserMessages::CS_UM_DesiredTimescale = 331
+ECstrike15UserMessages::CS_UM_CurrentTimescale = 332
+ECstrike15UserMessages::CS_UM_AchievementEvent = 333
+ECstrike15UserMessages::CS_UM_MatchEndConditions = 334
+ECstrike15UserMessages::CS_UM_DisconnectToLobby = 335
+ECstrike15UserMessages::CS_UM_PlayerStatsUpdate = 336
+ECstrike15UserMessages::CS_UM_ClientInfo = 339
+ECstrike15UserMessages::CS_UM_XRankGet = 340
+ECstrike15UserMessages::CS_UM_XRankUpd = 341
+ECstrike15UserMessages::CS_UM_CallVoteFailed = 345
+ECstrike15UserMessages::CS_UM_VoteStart = 346
+ECstrike15UserMessages::CS_UM_VotePass = 347
+ECstrike15UserMessages::CS_UM_VoteFailed = 348
+ECstrike15UserMessages::CS_UM_VoteSetup = 349
+ECstrike15UserMessages::CS_UM_ServerRankRevealAll = 350
+ECstrike15UserMessages::CS_UM_SendLastKillerDamageToClient = 351
+ECstrike15UserMessages::CS_UM_ServerRankUpdate = 352
+ECstrike15UserMessages::CS_UM_ItemPickup = 353
+ECstrike15UserMessages::CS_UM_ShowMenu = 354
+ECstrike15UserMessages::CS_UM_BarTime = 355
+ECstrike15UserMessages::CS_UM_AmmoDenied = 356
+ECstrike15UserMessages::CS_UM_MarkAchievement = 357
+ECstrike15UserMessages::CS_UM_MatchStatsUpdate = 358
+ECstrike15UserMessages::CS_UM_ItemDrop = 359
+ECstrike15UserMessages::CS_UM_SendPlayerItemDrops = 361
+ECstrike15UserMessages::CS_UM_RoundBackupFilenames = 362
+ECstrike15UserMessages::CS_UM_SendPlayerItemFound = 363
+ECstrike15UserMessages::CS_UM_ReportHit = 364
+ECstrike15UserMessages::CS_UM_XpUpdate = 365
+ECstrike15UserMessages::CS_UM_QuestProgress = 366
+ECstrike15UserMessages::CS_UM_ScoreLeaderboardData = 367
+ECstrike15UserMessages::CS_UM_PlayerDecalDigitalSignature = 368
+ECstrike15UserMessages::CS_UM_WeaponSound = 369
+ECstrike15UserMessages::CS_UM_UpdateScreenHealthBar = 370
+ECstrike15UserMessages::CS_UM_EntityOutlineHighlight = 371
+ECstrike15UserMessages::CS_UM_SSUI = 372
+ECstrike15UserMessages::CS_UM_SurvivalStats = 373
+ECstrike15UserMessages::CS_UM_DisconnectToLobby2 = 374
+ECstrike15UserMessages::CS_UM_EndOfMatchAllPlayersData = 375
+ECstrike15UserMessages::CS_UM_PostRoundDamageReport = 376
+ECstrike15UserMessages::CS_UM_RoundEndReportData = 379
+ECstrike15UserMessages::CS_UM_CurrentRoundOdds = 380
+ECstrike15UserMessages::CS_UM_DeepStats = 381
+ECstrike15UserMessages::CS_UM_ShootInfo = 383
+ECstrike15UserMessages::CS_UM_CounterStrafe = 385
+ECstrike15UserMessages::CS_UM_DamagePrediction = 386
+ECstrike15UserMessages::CS_UM_RecurringMissionSchema = 387
+ECstrike15UserMessages::CS_UM_SendPlayerLoadout = 388
+ECstrike15UserMessages::CS_UM_WeaponMagDrop = 389
+ECstrike15UserMessages::CS_UM_CustomHudClicked = 390
+
+# --- EDemoCommands (size=4 bytes, 22 values)
+EDemoCommands::DEM_Error = -1
+EDemoCommands::DEM_Stop = 0
+EDemoCommands::DEM_FileHeader = 1
+EDemoCommands::DEM_FileInfo = 2
+EDemoCommands::DEM_SyncTick = 3
+EDemoCommands::DEM_SendTables = 4
+EDemoCommands::DEM_ClassInfo = 5
+EDemoCommands::DEM_StringTables = 6
+EDemoCommands::DEM_Packet = 7
+EDemoCommands::DEM_SignonPacket = 8
+EDemoCommands::DEM_ConsoleCmd = 9
+EDemoCommands::DEM_CustomData = 10
+EDemoCommands::DEM_CustomDataCallbacks = 11
+EDemoCommands::DEM_UserCmd = 12
+EDemoCommands::DEM_FullPacket = 13
+EDemoCommands::DEM_SaveGame = 14
+EDemoCommands::DEM_SpawnGroups = 15
+EDemoCommands::DEM_AnimationData = 16
+EDemoCommands::DEM_AnimationHeader = 17
+EDemoCommands::DEM_Recovery = 18
+EDemoCommands::DEM_Max = 19
+EDemoCommands::DEM_IsCompressed = 64
+
+# --- EDestructiblePartDamagePassThroughType (size=4 bytes, 4 values)
+EDestructiblePartDamagePassThroughType::Normal = 0
+EDestructiblePartDamagePassThroughType::Absorb = 1
+EDestructiblePartDamagePassThroughType::InvincibleAbsorb = 2
+EDestructiblePartDamagePassThroughType::InvinciblePassthrough = 3
+
+# --- EDestructiblePartRadiusDamageApplyType (size=4 bytes, 2 values)
+EDestructiblePartRadiusDamageApplyType::ScaleByExplosionRadius = 0
+EDestructiblePartRadiusDamageApplyType::PrioritizeClosestPart = 1
+
+# --- EDestructibleParts_DestroyParameterFlags (size=4 bytes, 9 values)
+EDestructibleParts_DestroyParameterFlags::None = 0
+EDestructibleParts_DestroyParameterFlags::GenerateBreakpieces = 1
+EDestructibleParts_DestroyParameterFlags::SetBodyGroupAndCollisionState = 2
+EDestructibleParts_DestroyParameterFlags::EnableFlinches = 4
+EDestructibleParts_DestroyParameterFlags::ForceDamageApply = 8
+EDestructibleParts_DestroyParameterFlags::IgnoreKillEntityFlag = 16
+EDestructibleParts_DestroyParameterFlags::IgnoreHealthCheck = 32
+EDestructibleParts_DestroyParameterFlags::ApplyPhysicsForce = 64
+EDestructibleParts_DestroyParameterFlags::Default = 7
+
+# --- EGCBaseClientMsg (size=4 bytes, 11 values)
+EGCBaseClientMsg::k_EMsgGCClientWelcome = 4004
+EGCBaseClientMsg::k_EMsgGCServerWelcome = 4005
+EGCBaseClientMsg::k_EMsgGCClientHello = 4006
+EGCBaseClientMsg::k_EMsgGCServerHello = 4007
+EGCBaseClientMsg::k_EMsgGCClientConnectionStatus = 4009
+EGCBaseClientMsg::k_EMsgGCServerConnectionStatus = 4010
+EGCBaseClientMsg::k_EMsgGCClientHelloPartner = 4011
+EGCBaseClientMsg::k_EMsgGCClientHelloPW = 4012
+EGCBaseClientMsg::k_EMsgGCClientHelloR2 = 4013
+EGCBaseClientMsg::k_EMsgGCClientHelloR3 = 4014
+EGCBaseClientMsg::k_EMsgGCClientHelloR4 = 4015
+
+# --- EGCBaseMsg (size=4 bytes, 15 values)
+EGCBaseMsg::k_EMsgGCSystemMessage = 4001
+EGCBaseMsg::k_EMsgGCReplicateConVars = 4002
+EGCBaseMsg::k_EMsgGCConVarUpdated = 4003
+EGCBaseMsg::k_EMsgGCInQueue = 4008
+EGCBaseMsg::k_EMsgGCInviteToParty = 4501
+EGCBaseMsg::k_EMsgGCInvitationCreated = 4502
+EGCBaseMsg::k_EMsgGCPartyInviteResponse = 4503
+EGCBaseMsg::k_EMsgGCKickFromParty = 4504
+EGCBaseMsg::k_EMsgGCLeaveParty = 4505
+EGCBaseMsg::k_EMsgGCServerAvailable = 4506
+EGCBaseMsg::k_EMsgGCClientConnectToServer = 4507
+EGCBaseMsg::k_EMsgGCGameServerInfo = 4508
+EGCBaseMsg::k_EMsgGCError = 4509
+EGCBaseMsg::k_EMsgGCReplay_UploadedToYouTube = 4510
+EGCBaseMsg::k_EMsgGCLANServerAvailable = 4511
+
+# --- EGCBaseProtoObjectTypes (size=4 bytes, 2 values)
+EGCBaseProtoObjectTypes::k_EProtoObjectPartyInvite = 1001
+EGCBaseProtoObjectTypes::k_EProtoObjectLobbyInvite = 1002
+
+# --- EGCItemCustomizationNotification (size=4 bytes, 28 values)
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_NameItem = 1006
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_UnlockCrate = 1007
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_XRayItemReveal = 1008
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_XRayItemClaim = 1009
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_CasketTooFull = 1011
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_CasketContents = 1012
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_CasketAdded = 1013
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_CasketRemoved = 1014
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_CasketInvFull = 1015
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_NameBaseItem = 1019
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_RemoveItemName = 1030
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_RemoveSticker = 1053
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_ExtractSticker = 1054
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_EncapsulateSticker = 1055
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_ApplySticker = 1086
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_StatTrakSwap = 1088
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_RemovePatch = 1089
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_ApplyPatch = 1090
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_ApplyKeychain = 1091
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_RemoveKeychain = 1092
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_ActivateFanToken = 9178
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_ActivateOperationCoin = 9179
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_GraffitiUnseal = 9185
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_GenerateSouvenir = 9204
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_ClientRedeemMissionReward = 9209
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_ClientRedeemFreeReward = 9219
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_XpShopUseTicket = 9221
+EGCItemCustomizationNotification::k_EGCItemCustomizationNotification_XpShopAckTracks = 9222
+
+# --- EGCItemMsg (size=4 bytes, 133 values)
+EGCItemMsg::k_EMsgGCBase = 1000
+EGCItemMsg::k_EMsgGCSetItemPosition = 1001
+EGCItemMsg::k_EMsgGCCraft = 1002
+EGCItemMsg::k_EMsgGCCraftResponse = 1003
+EGCItemMsg::k_EMsgGCDelete = 1004
+EGCItemMsg::k_EMsgGCVerifyCacheSubscription_DEPRECATED = 1005
+EGCItemMsg::k_EMsgGCNameItem = 1006
+EGCItemMsg::k_EMsgGCUnlockCrate_DEPRECATED = 1007
+EGCItemMsg::k_EMsgGCUnlockCrateResponse = 1008
+EGCItemMsg::k_EMsgGCPaintItem_DEPRECATED = 1009
+EGCItemMsg::k_EMsgGCPaintItemResponse_DEPRECATED = 1010
+EGCItemMsg::k_EMsgGCGoldenWrenchBroadcast_DEPRECATED = 1011
+EGCItemMsg::k_EMsgGCMOTDRequest_DEPRECATED = 1012
+EGCItemMsg::k_EMsgGCMOTDRequestResponse_DEPRECATED = 1013
+EGCItemMsg::k_EMsgGCAddItemToSocket_DEPRECATED = 1014
+EGCItemMsg::k_EMsgGCAddItemToSocketResponse_DEPRECATED = 1015
+EGCItemMsg::k_EMsgGCAddSocketToBaseItem_DEPRECATED = 1016
+EGCItemMsg::k_EMsgGCAddSocketToItem_DEPRECATED = 1017
+EGCItemMsg::k_EMsgGCAddSocketToItemResponse_DEPRECATED = 1018
+EGCItemMsg::k_EMsgGCNameBaseItem = 1019
+EGCItemMsg::k_EMsgGCNameBaseItemResponse = 1020
+EGCItemMsg::k_EMsgGCRemoveSocketItem_DEPRECATED = 1021
+EGCItemMsg::k_EMsgGCRemoveSocketItemResponse_DEPRECATED = 1022
+EGCItemMsg::k_EMsgGCCustomizeItemTexture_DEPRECATED = 1023
+EGCItemMsg::k_EMsgGCCustomizeItemTextureResponse_DEPRECATED = 1024
+EGCItemMsg::k_EMsgGCUseItemRequest = 1025
+EGCItemMsg::k_EMsgGCUseItemResponse = 1026
+EGCItemMsg::k_EMsgGCGiftedItems_DEPRECATED = 1027
+EGCItemMsg::k_EMsgGCRemoveItemName = 1030
+EGCItemMsg::k_EMsgGCRemoveItemPaint_DEPRECATED = 1031
+EGCItemMsg::k_EMsgGCGiftWrapItem_DEPRECATED = 1032
+EGCItemMsg::k_EMsgGCGiftWrapItemResponse_DEPRECATED = 1033
+EGCItemMsg::k_EMsgGCDeliverGift_DEPRECATED = 1034
+EGCItemMsg::k_EMsgGCDeliverGiftResponseGiver_DEPRECATED = 1035
+EGCItemMsg::k_EMsgGCDeliverGiftResponseReceiver_DEPRECATED = 1036
+EGCItemMsg::k_EMsgGCUnwrapGiftRequest_DEPRECATED = 1037
+EGCItemMsg::k_EMsgGCUnwrapGiftResponse_DEPRECATED = 1038
+EGCItemMsg::k_EMsgGCSetItemStyle_DEPRECATED = 1039
+EGCItemMsg::k_EMsgGCUsedClaimCodeItem_DEPRECATED = 1040
+EGCItemMsg::k_EMsgGCSortItems = 1041
+EGCItemMsg::k_EMsgGC_RevolvingLootList_DEPRECATED = 1042
+EGCItemMsg::k_EMsgGCLookupAccount_DEPRECATED = 1043
+EGCItemMsg::k_EMsgGCLookupAccountResponse_DEPRECATED = 1044
+EGCItemMsg::k_EMsgGCLookupAccountName_DEPRECATED = 1045
+EGCItemMsg::k_EMsgGCLookupAccountNameResponse_DEPRECATED = 1046
+EGCItemMsg::k_EMsgGCUpdateItemSchema = 1049
+EGCItemMsg::k_EMsgGCRemoveCustomTexture_DEPRECATED = 1051
+EGCItemMsg::k_EMsgGCRemoveCustomTextureResponse_DEPRECATED = 1052
+EGCItemMsg::k_EMsgGCRemoveMakersMark_DEPRECATED = 1053
+EGCItemMsg::k_EMsgGCRemoveMakersMarkResponse_DEPRECATED = 1054
+EGCItemMsg::k_EMsgGCRemoveUniqueCraftIndex_DEPRECATED = 1055
+EGCItemMsg::k_EMsgGCRemoveUniqueCraftIndexResponse_DEPRECATED = 1056
+EGCItemMsg::k_EMsgGCSaxxyBroadcast = 1057
+EGCItemMsg::k_EMsgGCBackpackSortFinished = 1058
+EGCItemMsg::k_EMsgGCCollectItem_DEPRECATED = 1061
+EGCItemMsg::k_EMsgGCItemAcknowledged__DEPRECATED = 1062
+EGCItemMsg::k_EMsgGC_ReportAbuse = 1065
+EGCItemMsg::k_EMsgGC_ReportAbuseResponse = 1066
+EGCItemMsg::k_EMsgGCNameItemNotification = 1068
+EGCItemMsg::k_EMsgGCApplyConsumableEffects_DEPRECATED = 1069
+EGCItemMsg::k_EMsgGCConsumableExhausted = 1070
+EGCItemMsg::k_EMsgGCShowItemsPickedUp = 1071
+EGCItemMsg::k_EMsgGCClientDisplayNotification_DEPRECATED = 1072
+EGCItemMsg::k_EMsgGCApplyStrangePart_DEPRECATED = 1073
+EGCItemMsg::k_EMsgGC_IncrementKillCountAttribute = 1074
+EGCItemMsg::k_EMsgGC_IncrementKillCountResponse = 1075
+EGCItemMsg::k_EMsgGCApplyPennantUpgrade_DEPRECATED = 1076
+EGCItemMsg::k_EMsgGCSetItemPositions = 1077
+EGCItemMsg::k_EMsgGCApplyEggEssence_DEPRECATED = 1078
+EGCItemMsg::k_EMsgGCNameEggEssenceResponse_DEPRECATED = 1079
+EGCItemMsg::k_EMsgGCPaintKitItem_DEPRECATED = 1080
+EGCItemMsg::k_EMsgGCPaintKitBaseItem_DEPRECATED = 1081
+EGCItemMsg::k_EMsgGCPaintKitItemResponse_DEPRECATED = 1082
+EGCItemMsg::k_EMsgGCGiftedItems = 1083
+EGCItemMsg::k_EMsgGCUnlockItemStyle_DEPRECATED = 1084
+EGCItemMsg::k_EMsgGCUnlockItemStyleResponse_DEPRECATED = 1085
+EGCItemMsg::k_EMsgGCApplySticker = 1086
+EGCItemMsg::k_EMsgGCItemAcknowledged = 1087
+EGCItemMsg::k_EMsgGCStatTrakSwap = 1088
+EGCItemMsg::k_EMsgGCUserTrackTimePlayedConsecutively = 1089
+EGCItemMsg::k_EMsgGCItemCustomizationNotification = 1090
+EGCItemMsg::k_EMsgGCModifyItemAttribute = 1091
+EGCItemMsg::k_EMsgGCCasketItemAdd = 1092
+EGCItemMsg::k_EMsgGCCasketItemExtract = 1093
+EGCItemMsg::k_EMsgGCCasketItemLoadContents = 1094
+EGCItemMsg::k_EMsgGCServerBrowser_FavoriteServer_DEPRECATED = 1601
+EGCItemMsg::k_EMsgGCServerBrowser_BlacklistServer_DEPRECATED = 1602
+EGCItemMsg::k_EMsgGCServerRentalsBase_DEPRECATED = 1700
+EGCItemMsg::k_EMsgGCItemPreviewCheckStatus_DEPRECATED = 1701
+EGCItemMsg::k_EMsgGCItemPreviewStatusResponse_DEPRECATED = 1702
+EGCItemMsg::k_EMsgGCItemPreviewRequest_DEPRECATED = 1703
+EGCItemMsg::k_EMsgGCItemPreviewRequestResponse_DEPRECATED = 1704
+EGCItemMsg::k_EMsgGCItemPreviewExpire_DEPRECATED = 1705
+EGCItemMsg::k_EMsgGCItemPreviewExpireNotification_DEPRECATED = 1706
+EGCItemMsg::k_EMsgGCItemPreviewItemBoughtNotification_DEPRECATED = 1707
+EGCItemMsg::k_EMsgGCDev_NewItemRequest = 2001
+EGCItemMsg::k_EMsgGCDev_NewItemRequestResponse = 2002
+EGCItemMsg::k_EMsgGCDev_PaintKitDropItem_DEPRECATED = 2003
+EGCItemMsg::k_EMsgGCDev_SchemaReservationRequest = 2004
+EGCItemMsg::k_EMsgGCStoreGetUserData = 2500
+EGCItemMsg::k_EMsgGCStoreGetUserDataResponse = 2501
+EGCItemMsg::k_EMsgGCStorePurchaseInit_DEPRECATED = 2502
+EGCItemMsg::k_EMsgGCStorePurchaseInitResponse_DEPRECATED = 2503
+EGCItemMsg::k_EMsgGCStorePurchaseFinalize = 2504
+EGCItemMsg::k_EMsgGCStorePurchaseFinalizeResponse = 2505
+EGCItemMsg::k_EMsgGCStorePurchaseCancel = 2506
+EGCItemMsg::k_EMsgGCStorePurchaseCancelResponse = 2507
+EGCItemMsg::k_EMsgGCStorePurchaseQueryTxn_DEPRECATED = 2508
+EGCItemMsg::k_EMsgGCStorePurchaseQueryTxnResponse_DEPRECATED = 2509
+EGCItemMsg::k_EMsgGCStorePurchaseInit = 2510
+EGCItemMsg::k_EMsgGCStorePurchaseInitResponse = 2511
+EGCItemMsg::k_EMsgGCBannedWordListRequest = 2512
+EGCItemMsg::k_EMsgGCBannedWordListResponse = 2513
+EGCItemMsg::k_EMsgGCToGCBannedWordListBroadcast = 2514
+EGCItemMsg::k_EMsgGCToGCBannedWordListUpdated = 2515
+EGCItemMsg::k_EMsgGCToGCDirtySDOCache = 2516
+EGCItemMsg::k_EMsgGCToGCDirtyMultipleSDOCache = 2517
+EGCItemMsg::k_EMsgGCToGCUpdateSQLKeyValue = 2518
+EGCItemMsg::k_EMsgGCToGCIsTrustedServer = 2519
+EGCItemMsg::k_EMsgGCToGCIsTrustedServerResponse = 2520
+EGCItemMsg::k_EMsgGCToGCBroadcastConsoleCommand = 2521
+EGCItemMsg::k_EMsgGCServerVersionUpdated = 2522
+EGCItemMsg::k_EMsgGCToGCWebAPIAccountChanged = 2524
+EGCItemMsg::k_EMsgGCRequestAnnouncements = 2525
+EGCItemMsg::k_EMsgGCRequestAnnouncementsResponse = 2526
+EGCItemMsg::k_EMsgGCRequestPassportItemGrant = 2527
+EGCItemMsg::k_EMsgGCClientVersionUpdated = 2528
+EGCItemMsg::k_EMsgGCRecurringSubscriptionStatus = 2530
+EGCItemMsg::k_EMsgGCAdjustEquipSlotsManual = 2531
+EGCItemMsg::k_EMsgGCAdjustEquipSlotsShuffle = 2532
+EGCItemMsg::k_EMsgGCOpenCrate = 2534
+EGCItemMsg::k_EMsgGCAcknowledgeRentalExpiration = 2535
+EGCItemMsg::k_EMsgGCVolatileItemLoadContents = 2536
+
+# --- EGCMsgResponse (size=4 bytes, 11 values)
+EGCMsgResponse::k_EGCMsgResponseOK = 0
+EGCMsgResponse::k_EGCMsgResponseDenied = 1
+EGCMsgResponse::k_EGCMsgResponseServerError = 2
+EGCMsgResponse::k_EGCMsgResponseTimeout = 3
+EGCMsgResponse::k_EGCMsgResponseInvalid = 4
+EGCMsgResponse::k_EGCMsgResponseNoMatch = 5
+EGCMsgResponse::k_EGCMsgResponseUnknownError = 6
+EGCMsgResponse::k_EGCMsgResponseNotLoggedOn = 7
+EGCMsgResponse::k_EGCMsgFailedToCreate = 8
+EGCMsgResponse::k_EGCMsgLimitExceeded = 9
+EGCMsgResponse::k_EGCMsgCommitUnfinalized = 10
+
+# --- EGCPetMsg (size=4 bytes, 1 values)
+EGCPetMsg::k_EMsgGCAckPetEvent = 2538
+
+# --- EGCSystemMsg (size=4 bytes, 99 values)
+EGCSystemMsg::k_EGCMsgInvalid = 0
+EGCSystemMsg::k_EGCMsgMulti = 1
+EGCSystemMsg::k_EGCMsgGenericReply = 10
+EGCSystemMsg::k_EGCMsgSystemBase = 50
+EGCSystemMsg::k_EGCMsgAchievementAwarded = 51
+EGCSystemMsg::k_EGCMsgConCommand = 52
+EGCSystemMsg::k_EGCMsgStartPlaying = 53
+EGCSystemMsg::k_EGCMsgStopPlaying = 54
+EGCSystemMsg::k_EGCMsgStartGameserver = 55
+EGCSystemMsg::k_EGCMsgStopGameserver = 56
+EGCSystemMsg::k_EGCMsgWGRequest = 57
+EGCSystemMsg::k_EGCMsgWGResponse = 58
+EGCSystemMsg::k_EGCMsgGetUserGameStatsSchema = 59
+EGCSystemMsg::k_EGCMsgGetUserGameStatsSchemaResponse = 60
+EGCSystemMsg::k_EGCMsgGetUserStatsDEPRECATED = 61
+EGCSystemMsg::k_EGCMsgGetUserStatsResponse = 62
+EGCSystemMsg::k_EGCMsgAppInfoUpdated = 63
+EGCSystemMsg::k_EGCMsgValidateSession = 64
+EGCSystemMsg::k_EGCMsgValidateSessionResponse = 65
+EGCSystemMsg::k_EGCMsgLookupAccountFromInput = 66
+EGCSystemMsg::k_EGCMsgSendHTTPRequest = 67
+EGCSystemMsg::k_EGCMsgSendHTTPRequestResponse = 68
+EGCSystemMsg::k_EGCMsgPreTestSetup_DEPRECATED = 69
+EGCSystemMsg::k_EGCMsgRecordSupportAction = 70
+EGCSystemMsg::k_EGCMsgGetAccountDetails_DEPRECATED = 71
+EGCSystemMsg::k_EGCMsgReceiveInterAppMessage = 73
+EGCSystemMsg::k_EGCMsgFindAccounts = 74
+EGCSystemMsg::k_EGCMsgPostAlert = 75
+EGCSystemMsg::k_EGCMsgGetLicenses = 76
+EGCSystemMsg::k_EGCMsgGetUserStats = 77
+EGCSystemMsg::k_EGCMsgGetCommands = 78
+EGCSystemMsg::k_EGCMsgGetCommandsResponse = 79
+EGCSystemMsg::k_EGCMsgAddFreeLicense = 80
+EGCSystemMsg::k_EGCMsgAddFreeLicenseResponse = 81
+EGCSystemMsg::k_EGCMsgGetIPLocation = 82
+EGCSystemMsg::k_EGCMsgGetIPLocationResponse = 83
+EGCSystemMsg::k_EGCMsgSystemStatsSchema = 84
+EGCSystemMsg::k_EGCMsgGetSystemStats = 85
+EGCSystemMsg::k_EGCMsgGetSystemStatsResponse = 86
+EGCSystemMsg::k_EGCMsgSendEmail = 87
+EGCSystemMsg::k_EGCMsgSendEmailResponse = 88
+EGCSystemMsg::k_EGCMsgGetEmailTemplate = 89
+EGCSystemMsg::k_EGCMsgGetEmailTemplateResponse = 90
+EGCSystemMsg::k_EGCMsgGrantGuestPass = 91
+EGCSystemMsg::k_EGCMsgGrantGuestPassResponse = 92
+EGCSystemMsg::k_EGCMsgGetAccountDetails = 93
+EGCSystemMsg::k_EGCMsgGetAccountDetailsResponse = 94
+EGCSystemMsg::k_EGCMsgGetPersonaNames = 95
+EGCSystemMsg::k_EGCMsgGetPersonaNamesResponse = 96
+EGCSystemMsg::k_EGCMsgMultiplexMsg = 97
+EGCSystemMsg::k_EGCMsgMultiplexMsgResponse = 98
+EGCSystemMsg::k_EGCMsgWebAPIRegisterInterfaces = 101
+EGCSystemMsg::k_EGCMsgWebAPIJobRequest = 102
+EGCSystemMsg::k_EGCMsgWebAPIJobRequestHttpResponse = 104
+EGCSystemMsg::k_EGCMsgWebAPIJobRequestForwardResponse = 105
+EGCSystemMsg::k_EGCMsgMemCachedGet = 200
+EGCSystemMsg::k_EGCMsgMemCachedGetResponse = 201
+EGCSystemMsg::k_EGCMsgMemCachedSet = 202
+EGCSystemMsg::k_EGCMsgMemCachedDelete = 203
+EGCSystemMsg::k_EGCMsgMemCachedStats = 204
+EGCSystemMsg::k_EGCMsgMemCachedStatsResponse = 205
+EGCSystemMsg::k_EGCMsgMasterSetDirectory = 220
+EGCSystemMsg::k_EGCMsgMasterSetDirectoryResponse = 221
+EGCSystemMsg::k_EGCMsgMasterSetWebAPIRouting = 222
+EGCSystemMsg::k_EGCMsgMasterSetWebAPIRoutingResponse = 223
+EGCSystemMsg::k_EGCMsgMasterSetClientMsgRouting = 224
+EGCSystemMsg::k_EGCMsgMasterSetClientMsgRoutingResponse = 225
+EGCSystemMsg::k_EGCMsgSetOptions = 226
+EGCSystemMsg::k_EGCMsgSetOptionsResponse = 227
+EGCSystemMsg::k_EGCMsgSystemBase2 = 500
+EGCSystemMsg::k_EGCMsgGetPurchaseTrustStatus = 501
+EGCSystemMsg::k_EGCMsgGetPurchaseTrustStatusResponse = 502
+EGCSystemMsg::k_EGCMsgUpdateSession = 503
+EGCSystemMsg::k_EGCMsgGCAccountVacStatusChange = 504
+EGCSystemMsg::k_EGCMsgCheckFriendship = 505
+EGCSystemMsg::k_EGCMsgCheckFriendshipResponse = 506
+EGCSystemMsg::k_EGCMsgGetPartnerAccountLink = 507
+EGCSystemMsg::k_EGCMsgGetPartnerAccountLinkResponse = 508
+EGCSystemMsg::k_EGCMsgDPPartnerMicroTxns = 512
+EGCSystemMsg::k_EGCMsgDPPartnerMicroTxnsResponse = 513
+EGCSystemMsg::k_EGCMsgVacVerificationChange = 518
+EGCSystemMsg::k_EGCMsgAccountPhoneNumberChange = 519
+EGCSystemMsg::k_EGCMsgInviteUserToLobby = 523
+EGCSystemMsg::k_EGCMsgGetGamePersonalDataCategoriesRequest = 524
+EGCSystemMsg::k_EGCMsgGetGamePersonalDataCategoriesResponse = 525
+EGCSystemMsg::k_EGCMsgGetGamePersonalDataEntriesRequest = 526
+EGCSystemMsg::k_EGCMsgGetGamePersonalDataEntriesResponse = 527
+EGCSystemMsg::k_EGCMsgTerminateGamePersonalDataEntriesRequest = 528
+EGCSystemMsg::k_EGCMsgTerminateGamePersonalDataEntriesResponse = 529
+EGCSystemMsg::k_EGCMsgRecurringSubscriptionStatusChange = 530
+EGCSystemMsg::k_EGCMsgDirectServiceMethod = 531
+EGCSystemMsg::k_EGCMsgDirectServiceMethodResponse = 532
+EGCSystemMsg::k_EGCMsgAppCheersReceived = 533
+EGCSystemMsg::k_EGCMsgAppCheersGetAllowedTypes = 534
+EGCSystemMsg::k_EGCMsgAppCheersGetAllowedTypesResponse = 535
+EGCSystemMsg::k_EGCMsgReportMetrics = 536
+EGCSystemMsg::k_EGCMsgReportMetricsResponse = 537
+EGCSystemMsg::k_EGCMsgGetClanDetails = 538
+EGCSystemMsg::k_EGCMsgGetClanDetailsResponse = 539
+
+# --- EGCToGCMsg (size=4 bytes, 8 values)
+EGCToGCMsg::k_EGCToGCMsgMasterAck = 150
+EGCToGCMsg::k_EGCToGCMsgMasterAckResponse = 151
+EGCToGCMsg::k_EGCToGCMsgRouted = 152
+EGCToGCMsg::k_EGCToGCMsgRoutedReply = 153
+EGCToGCMsg::k_EMsgUpdateSessionIP = 154
+EGCToGCMsg::k_EMsgRequestSessionIP = 155
+EGCToGCMsg::k_EMsgRequestSessionIPResponse = 156
+EGCToGCMsg::k_EGCToGCMsgMasterStartupComplete = 157
+
+# --- EHapticPulseType (size=4 bytes, 3 values)
+EHapticPulseType::VR_HAND_HAPTIC_PULSE_LIGHT = 0
+EHapticPulseType::VR_HAND_HAPTIC_PULSE_MEDIUM = 1
+EHapticPulseType::VR_HAND_HAPTIC_PULSE_STRONG = 2
+
+# --- EHitGroup (size=4 bytes, 10 values)
+EHitGroup::EHG_Generic = 0
+EHitGroup::EHG_Head = 1
+EHitGroup::EHG_Chest = 2
+EHitGroup::EHG_Stomach = 3
+EHitGroup::EHG_LeftArm = 4
+EHitGroup::EHG_RightArm = 5
+EHitGroup::EHG_LeftLeg = 6
+EHitGroup::EHG_RightLeg = 7
+EHitGroup::EHG_Gear = 8
+EHitGroup::EHG_Miss = 9
+
+# --- EHudPanelClassStatus_t (size=4 bytes, 3 values)
+EHudPanelClassStatus_t::k_eHudPanelClassStatus_Undefined = -1
+EHudPanelClassStatus_t::k_eHudPanelClassStatus_DoesNotHaveClass = 0
+EHudPanelClassStatus_t::k_eHudPanelClassStatus_HasClass = 1
+
+# --- EInButtonState (size=4 bytes, 9 values)
+EInButtonState::IN_BUTTON_UP = 0
+EInButtonState::IN_BUTTON_DOWN = 1
+EInButtonState::IN_BUTTON_DOWN_UP = 2
+EInButtonState::IN_BUTTON_UP_DOWN = 3
+EInButtonState::IN_BUTTON_UP_DOWN_UP = 4
+EInButtonState::IN_BUTTON_DOWN_UP_DOWN = 5
+EInButtonState::IN_BUTTON_DOWN_UP_DOWN_UP = 6
+EInButtonState::IN_BUTTON_UP_DOWN_UP_DOWN = 7
+EInButtonState::IN_BUTTON_STATE_COUNT = 8
+
+# --- EKillTypes_t (size=1 byte, 8 values)
+EKillTypes_t::KILL_NONE = 0
+EKillTypes_t::KILL_DEFAULT = 1
+EKillTypes_t::KILL_HEADSHOT = 2
+EKillTypes_t::KILL_BLAST = 3
+EKillTypes_t::KILL_BURN = 4
+EKillTypes_t::KILL_SLASH = 5
+EKillTypes_t::KILL_SHOCK = 6
+EKillTypes_t::KILLTYPE_COUNT = 7
+
+# --- ENetworkDisconnectionReason (size=4 bytes, 121 values)
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_INVALID = 0
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_SHUTDOWN = 1
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_DISCONNECT_BY_USER = 2
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_DISCONNECT_BY_SERVER = 3
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_LOST = 4
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_OVERFLOW = 5
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_BANNED = 6
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_INUSE = 7
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_TICKET = 8
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_LOGON = 9
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_AUTHCANCELLED = 10
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED = 11
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_AUTHINVALID = 12
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_VACBANSTATE = 13
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_LOGGED_IN_ELSEWHERE = 14
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_VAC_CHECK_TIMEDOUT = 15
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_DROPPED = 16
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_OWNERSHIP = 17
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_SERVERINFO_OVERFLOW = 18
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_TICKMSG_OVERFLOW = 19
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW = 20
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_DELTAENTMSG_OVERFLOW = 21
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_TEMPENTMSG_OVERFLOW = 22
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_SOUNDSMSG_OVERFLOW = 23
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_SNAPSHOTOVERFLOW = 24
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_SNAPSHOTERROR = 25
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_RELIABLEOVERFLOW = 26
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_BADDELTATICK = 27
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_NOMORESPLITS = 28
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_TIMEDOUT = 29
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_DISCONNECTED = 30
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_LEAVINGSPLIT = 31
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_DIFFERENTCLASSTABLES = 32
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_BADRELAYPASSWORD = 33
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_BADSPECTATORPASSWORD = 34
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_HLTVRESTRICTED = 35
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_NOSPECTATORS = 36
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_HLTVUNAVAILABLE = 37
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_HLTVSTOP = 38
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED = 39
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_BANADDED = 40
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKBANADDED = 41
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_HLTVDIRECT = 42
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA = 43
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_PURESERVER_MISMATCH = 44
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_USERCMD = 45
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECTED_BY_GAME = 46
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR = 47
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR = 48
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_BAD_SERVER_PASSWORD = 49
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION = 50
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_CONNECTION_FAILURE = 51
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS = 52
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_RECONNECTION = 53
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_LOOPSHUTDOWN = 54
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_LOOPDEACTIVATE = 55
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_HOST_ENDGAME = 56
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE = 57
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_CREATE_SERVER_FAILED = 58
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_EXITING = 59
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE = 60
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY = 61
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL = 62
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_CLIENT_UNABLE_TO_CRC_MAP = 63
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_CLIENT_NO_MAP = 64
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_CLIENT_DIFFERENT_MAP = 65
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_SERVER_REQUIRES_STEAM = 66
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_DENY_MISC = 67
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT = 68
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_SERVER_SHUTDOWN = 69
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REPLAY_INCOMPATIBLE = 71
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT = 72
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_SERVER_INCOMPATIBLE = 73
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS = 74
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY = 75
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_LOCALPROBLEM_NETWORKCONFIG = 76
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_LOCALPROBLEM_OTHER = 77
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REMOTE_TIMEOUT = 79
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING = 80
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REMOTE_OTHER = 81
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REMOTE_BADCRYPT = 82
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REMOTE_CERTNOTTRUSTED = 83
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_UNUSUAL = 84
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_INTERNAL_ERROR = 85
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_BADCHALLENGE = 128
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_NOLOBBY = 129
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP = 130
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_SINGLE_PLAYER = 131
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_HIDDEN_GAME = 132
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_LANRESTRICT = 133
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_BADPASSWORD = 134
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_SERVERFULL = 135
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION = 136
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_FAILEDCHANNEL = 137
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY = 138
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY = 139
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_INVALIDKEYLENGTH = 140
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_OLDPROTOCOL = 141
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_NEWPROTOCOL = 142
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_INVALIDCONNECTION = 143
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_INVALIDCERTLEN = 144
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_INVALIDSTEAMCERTLEN = 145
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_STEAM = 146
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_SERVERAUTHDISABLED = 147
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID = 148
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_REJECT_BANNED = 149
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_TEAMKILLING = 150
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_TK_START = 151
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_UNTRUSTEDACCOUNT = 152
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_CONVICTEDACCOUNT = 153
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_COMPETITIVECOOLDOWN = 154
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_TEAMHURTING = 155
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_HOSTAGEKILLING = 156
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_VOTEDOFF = 157
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_IDLE = 158
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_SUICIDE = 159
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_NOSTEAMLOGIN = 160
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_NOSTEAMTICKET = 161
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_INPUTAUTOMATION = 162
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_VACNETABNORMALBEHAVIOR = 163
+ENetworkDisconnectionReason::NETWORK_DISCONNECT_KICKED_INSECURECLIENT = 164
+
+# --- EOverrideBlockLOS_t (size=4 bytes, 3 values)
+EOverrideBlockLOS_t::BLOCK_LOS_DEFAULT = 0
+EOverrideBlockLOS_t::BLOCK_LOS_FORCE_FALSE = 1
+EOverrideBlockLOS_t::BLOCK_LOS_FORCE_TRUE = 2
+
+# --- EProceduralRagdollWeightIndexPropagationMethod (size=4 bytes, 2 values)
+EProceduralRagdollWeightIndexPropagationMethod::Bone = 0
+EProceduralRagdollWeightIndexPropagationMethod::BoneAndChildren = 1
+
+# --- EProtoDebugVisiblity (size=4 bytes, 5 values)
+EProtoDebugVisiblity::k_EProtoDebugVisibility_Always = 0
+EProtoDebugVisiblity::k_EProtoDebugVisibility_Server = 70
+EProtoDebugVisiblity::k_EProtoDebugVisibility_ValveServer = 80
+EProtoDebugVisiblity::k_EProtoDebugVisibility_GC = 90
+EProtoDebugVisiblity::k_EProtoDebugVisibility_Never = 100
+
+# --- EQueryCvarValueStatus (size=4 bytes, 4 values)
+EQueryCvarValueStatus::eQueryCvarValueStatus_ValueIntact = 0
+EQueryCvarValueStatus::eQueryCvarValueStatus_CvarNotFound = 1
+EQueryCvarValueStatus::eQueryCvarValueStatus_NotACvar = 2
+EQueryCvarValueStatus::eQueryCvarValueStatus_CvarProtected = 3
+
+# --- ESOMsg (size=4 bytes, 8 values)
+ESOMsg::k_ESOMsg_Create = 21
+ESOMsg::k_ESOMsg_Update = 22
+ESOMsg::k_ESOMsg_Destroy = 23
+ESOMsg::k_ESOMsg_CacheSubscribed = 24
+ESOMsg::k_ESOMsg_CacheUnsubscribed = 25
+ESOMsg::k_ESOMsg_UpdateMultiple = 26
+ESOMsg::k_ESOMsg_CacheSubscriptionCheck = 27
+ESOMsg::k_ESOMsg_CacheSubscriptionRefresh = 28
+
+# --- ESource2PlayStatsFieldType (size=4 bytes, 18 values)
+ESource2PlayStatsFieldType::Source2PlayStats_Invalid = 0
+ESource2PlayStatsFieldType::Source2PlayStats_UInt64 = 1
+ESource2PlayStatsFieldType::Source2PlayStats_UInt32 = 2
+ESource2PlayStatsFieldType::Source2PlayStats_UInt16 = 3
+ESource2PlayStatsFieldType::Source2PlayStats_UInt8 = 4
+ESource2PlayStatsFieldType::Source2PlayStats_Int64 = 5
+ESource2PlayStatsFieldType::Source2PlayStats_Int32 = 6
+ESource2PlayStatsFieldType::Source2PlayStats_Int16 = 7
+ESource2PlayStatsFieldType::Source2PlayStats_Int8 = 8
+ESource2PlayStatsFieldType::Source2PlayStats_Float64 = 9
+ESource2PlayStatsFieldType::Source2PlayStats_Float32 = 10
+ESource2PlayStatsFieldType::Source2PlayStats_Bool = 11
+ESource2PlayStatsFieldType::Source2PlayStats_String = 12
+ESource2PlayStatsFieldType::Source2PlayStats_LowCardinalityString = 13
+ESource2PlayStatsFieldType::Source2PlayStats_UTCDateTime = 14
+ESource2PlayStatsFieldType::Source2PlayStats_SteamIDTrustBucket = 15
+ESource2PlayStatsFieldType::Source2PlayStats_SteamIDTrustBucketMin = 16
+ESource2PlayStatsFieldType::Source2PlayStats_SteamID = 17
+
+# --- ESplitScreenMessageType (size=4 bytes, 2 values)
+ESplitScreenMessageType::MSG_SPLITSCREEN_ADDUSER = 0
+ESplitScreenMessageType::MSG_SPLITSCREEN_REMOVEUSER = 1
+
+# --- ETEProtobufIds (size=4 bytes, 23 values)
+ETEProtobufIds::TE_EffectDispatchId = 400
+ETEProtobufIds::TE_ArmorRicochetId = 401
+ETEProtobufIds::TE_BeamEntPointId = 402
+ETEProtobufIds::TE_BeamEntsId = 403
+ETEProtobufIds::TE_BeamPointsId = 404
+ETEProtobufIds::TE_BeamRingId = 405
+ETEProtobufIds::TE_BubblesId = 408
+ETEProtobufIds::TE_BubbleTrailId = 409
+ETEProtobufIds::TE_DecalId = 410
+ETEProtobufIds::TE_WorldDecalId = 411
+ETEProtobufIds::TE_EnergySplashId = 412
+ETEProtobufIds::TE_FizzId = 413
+ETEProtobufIds::TE_ShatterSurfaceId = 414
+ETEProtobufIds::TE_GlowSpriteId = 415
+ETEProtobufIds::TE_ImpactId = 416
+ETEProtobufIds::TE_MuzzleFlashId = 417
+ETEProtobufIds::TE_BloodStreamId = 418
+ETEProtobufIds::TE_ExplosionId = 419
+ETEProtobufIds::TE_DustId = 420
+ETEProtobufIds::TE_LargeFunnelId = 421
+ETEProtobufIds::TE_SparksId = 422
+ETEProtobufIds::TE_PhysicsPropId = 423
+ETEProtobufIds::TE_SmokeId = 426
+
+# --- ETeam (size=4 bytes, 4 values)
+ETeam::ET_Unknown = 0
+ETeam::ET_Spectator = 1
+ETeam::ET_Terrorist = 2
+ETeam::ET_CT = 3
+
+# --- EWeaponType (size=4 bytes, 12 values)
+EWeaponType::EWT_Knife = 0
+EWeaponType::EWT_Pistol = 1
+EWeaponType::EWT_SubMachineGun = 2
+EWeaponType::EWT_Rifle = 3
+EWeaponType::EWT_Shotgun = 4
+EWeaponType::EWT_SniperRifle = 5
+EWeaponType::EWT_MachineGun = 6
+EWeaponType::EWT_C4 = 7
+EWeaponType::EWT_Grenade = 8
+EWeaponType::EWT_Equipment = 9
+EWeaponType::EWT_StackableItem = 10
+EWeaponType::EWT_Unknown = 11
+
+# --- EntFinderMethod_t (size=4 bytes, 3 values)
+EntFinderMethod_t::ENT_FIND_METHOD_NEAREST = 0
+EntFinderMethod_t::ENT_FIND_METHOD_FARTHEST = 1
+EntFinderMethod_t::ENT_FIND_METHOD_RANDOM = 2
+
+# --- EntityAttachmentType_t (size=4 bytes, 5 values)
+EntityAttachmentType_t::eAbsOrigin = 0
+EntityAttachmentType_t::eCenter = 1
+EntityAttachmentType_t::eEyes = 2
+EntityAttachmentType_t::eAttachment = 3
+EntityAttachmentType_t::eLocalOffset = 4
+
+# --- EntityDissolveType_t (size=4 bytes, 5 values)
+EntityDissolveType_t::ENTITY_DISSOLVE_INVALID = -1
+EntityDissolveType_t::ENTITY_DISSOLVE_NORMAL = 0
+EntityDissolveType_t::ENTITY_DISSOLVE_ELECTRICAL = 1
+EntityDissolveType_t::ENTITY_DISSOLVE_ELECTRICAL_LIGHT = 2
+EntityDissolveType_t::ENTITY_DISSOLVE_CORE = 3
+
+# --- EntityDistanceMode_t (size=4 bytes, 3 values)
+EntityDistanceMode_t::eOriginToOrigin = 0
+EntityDistanceMode_t::eCenterToCenter = 1
+EntityDistanceMode_t::eAxisToAxis = 2
+
+# --- EntityEffects_t (size=2 bytes, 7 values)
+EntityEffects_t::DEPRICATED_EF_NOINTERP = 8
+EntityEffects_t::EF_NOSHADOW = 16
+EntityEffects_t::EF_NODRAW = 32
+EntityEffects_t::EF_NORECEIVESHADOW = 64
+EntityEffects_t::EF_PARENT_ANIMATES = 512
+EntityEffects_t::EF_NODRAW_BUT_TRANSMIT = 1024
+EntityEffects_t::EF_MAX_BITS = 10
+
+# --- EntityPlatformTypes_t (size=1 byte, 3 values)
+EntityPlatformTypes_t::ENTITY_NOT_PLATFORM = 0
+EntityPlatformTypes_t::ENTITY_PLATFORM_PLAYER_FOLLOWS_YAW = 1
+EntityPlatformTypes_t::ENTITY_PLATFORM_PLAYER_IGNORES_YAW = 2
+
+# --- EntitySubclassScope_t (size=4 bytes, 4 values)
+EntitySubclassScope_t::SUBCLASS_SCOPE_NONE = -1
+EntitySubclassScope_t::SUBCLASS_SCOPE_PRECIPITATION = 0
+EntitySubclassScope_t::SUBCLASS_SCOPE_PLAYER_WEAPONS = 1
+EntitySubclassScope_t::SUBCLASS_SCOPE_COUNT = 2
+
+# --- Explosions (size=4 bytes, 3 values)
+Explosions::expRandom = 0
+Explosions::expDirected = 1
+Explosions::expUsePrecise = 2
+
+# --- ExternalAnimGraphInactiveBehavior_t (size=1 byte, 3 values)
+ExternalAnimGraphInactiveBehavior_t::eNone = 0
+ExternalAnimGraphInactiveBehavior_t::eUnbind = 1
+ExternalAnimGraphInactiveBehavior_t::eUnbindAndDelete = 2
+
+# --- FixAngleSet_t (size=1 byte, 3 values)
+FixAngleSet_t::None = 0
+FixAngleSet_t::Absolute = 1
+FixAngleSet_t::Relative = 2
+
+# --- Flags_t (size=4 bytes, 23 values)
+Flags_t::FL_ONGROUND = 1
+Flags_t::FL_DUCKING = 2
+Flags_t::FL_WATERJUMP = 4
+Flags_t::FL_BOT = 16
+Flags_t::FL_FROZEN = 32
+Flags_t::FL_ATCONTROLS = 64
+Flags_t::FL_CLIENT = 128
+Flags_t::FL_FAKECLIENT = 256
+Flags_t::FL_FLY = 1024
+Flags_t::FL_SUPPRESS_SAVE = 2048
+Flags_t::FL_IN_VEHICLE = 4096
+Flags_t::FL_GODMODE = 16384
+Flags_t::FL_NOTARGET = 32768
+Flags_t::FL_AIMTARGET = 65536
+Flags_t::FL_GRENADE = 1048576
+Flags_t::FL_DONTTOUCH = 4194304
+Flags_t::FL_BASEVELOCITY = 8388608
+Flags_t::FL_CONVEYOR = 16777216
+Flags_t::FL_OBJECT = 33554432
+Flags_t::FL_ONFIRE = 134217728
+Flags_t::FL_DISSOLVING = 268435456
+Flags_t::FL_TRANSRAGDOLL = 536870912
+Flags_t::FL_UNBLOCKABLE_BY_PLAYER = 1073741824
+
+# --- ForcedCrouchState_t (size=4 bytes, 3 values)
+ForcedCrouchState_t::FORCEDCROUCH_NONE = 0
+ForcedCrouchState_t::FORCEDCROUCH_CROUCHED = 1
+ForcedCrouchState_t::FORCEDCROUCH_UNCROUCHED = 2
+
+# --- FuncDoorSpawnPos_t (size=4 bytes, 2 values)
+FuncDoorSpawnPos_t::FUNC_DOOR_SPAWN_CLOSED = 0
+FuncDoorSpawnPos_t::FUNC_DOOR_SPAWN_OPEN = 1
+
+# --- FuncMoverMovementSummaryFlags_t (size=4 bytes, 10 values)
+FuncMoverMovementSummaryFlags_t::eNone = 0
+FuncMoverMovementSummaryFlags_t::eMovementBegin = 1
+FuncMoverMovementSummaryFlags_t::eStopBegin = 2
+FuncMoverMovementSummaryFlags_t::eStopComplete = 4
+FuncMoverMovementSummaryFlags_t::eReversing = 8
+FuncMoverMovementSummaryFlags_t::eEventsDispatched = 16
+FuncMoverMovementSummaryFlags_t::eLoopToStart = 32
+FuncMoverMovementSummaryFlags_t::eLoopToEnd = 64
+FuncMoverMovementSummaryFlags_t::eTransitionComplete = 128
+FuncMoverMovementSummaryFlags_t::eStoppedDuringTransition = 256
+
+# --- FuncRotatorRotationSummaryFlags_t (size=4 bytes, 8 values)
+FuncRotatorRotationSummaryFlags_t::eNone = 0
+FuncRotatorRotationSummaryFlags_t::eRotateBegin = 1
+FuncRotatorRotationSummaryFlags_t::eEventsDispatched = 2
+FuncRotatorRotationSummaryFlags_t::eRotateCompleted = 4
+FuncRotatorRotationSummaryFlags_t::eOscillateStart = 8
+FuncRotatorRotationSummaryFlags_t::eOscillateEnd = 16
+FuncRotatorRotationSummaryFlags_t::eOscillateArrived = 32
+FuncRotatorRotationSummaryFlags_t::eOscillateDepart = 64
+
+# --- GCClientLauncherType (size=4 bytes, 4 values)
+GCClientLauncherType::GCClientLauncherType_DEFAULT = 0
+GCClientLauncherType::GCClientLauncherType_PERFECTWORLD = 1
+GCClientLauncherType::GCClientLauncherType_STEAMCHINA = 2
+GCClientLauncherType::GCClientLauncherType_SOURCE2 = 3
+
+# --- GCConnectionStatus (size=4 bytes, 5 values)
+GCConnectionStatus::GCConnectionStatus_HAVE_SESSION = 0
+GCConnectionStatus::GCConnectionStatus_GC_GOING_DOWN = 1
+GCConnectionStatus::GCConnectionStatus_NO_SESSION = 2
+GCConnectionStatus::GCConnectionStatus_NO_SESSION_IN_LOGON_QUEUE = 3
+GCConnectionStatus::GCConnectionStatus_NO_STEAM = 4
+
+# --- GCProtoBufMsgSrc (size=4 bytes, 5 values)
+GCProtoBufMsgSrc::GCProtoBufMsgSrc_Unspecified = 0
+GCProtoBufMsgSrc::GCProtoBufMsgSrc_FromSystem = 1
+GCProtoBufMsgSrc::GCProtoBufMsgSrc_FromSteamID = 2
+GCProtoBufMsgSrc::GCProtoBufMsgSrc_FromGC = 3
+GCProtoBufMsgSrc::GCProtoBufMsgSrc_ReplySystem = 4
+
+# --- GC_BannedWordType (size=4 bytes, 2 values)
+GC_BannedWordType::GC_BANNED_WORD_DISABLE_WORD = 0
+GC_BannedWordType::GC_BANNED_WORD_ENABLE_WORD = 1
+
+# --- GLOBALESTATE (size=1 byte, 3 values)
+GLOBALESTATE::GLOBAL_OFF = 0
+GLOBALESTATE::GLOBAL_ON = 1
+GLOBALESTATE::GLOBAL_DEAD = 2
+
+# --- GameAnimEventIndex_t (size=4 bytes, 48 values)
+GameAnimEventIndex_t::AE_EMPTY = 0
+GameAnimEventIndex_t::AE_CL_PLAYSOUND = 1
+GameAnimEventIndex_t::AE_CL_PLAYSOUND_ATTACHMENT = 2
+GameAnimEventIndex_t::AE_CL_PLAYSOUND_POSITION = 3
+GameAnimEventIndex_t::AE_SV_PLAYSOUND = 4
+GameAnimEventIndex_t::AE_CL_STOPSOUND = 5
+GameAnimEventIndex_t::AE_CL_PLAYSOUND_LOOPING = 6
+GameAnimEventIndex_t::AE_CL_CREATE_PARTICLE_EFFECT = 7
+GameAnimEventIndex_t::AE_CL_STOP_PARTICLE_EFFECT = 8
+GameAnimEventIndex_t::AE_CL_CREATE_PARTICLE_EFFECT_CFG = 9
+GameAnimEventIndex_t::AE_SV_CREATE_PARTICLE_EFFECT_CFG = 10
+GameAnimEventIndex_t::AE_SV_STOP_PARTICLE_EFFECT = 11
+GameAnimEventIndex_t::AE_FOOTSTEP = 12
+GameAnimEventIndex_t::AE_CL_STOP_RAGDOLL_CONTROL = 13
+GameAnimEventIndex_t::AE_BODYGROUP_SET_VALUE = 14
+GameAnimEventIndex_t::AE_WEAPON_PERFORM_ATTACK = 15
+GameAnimEventIndex_t::AE_FIRE_INPUT = 16
+GameAnimEventIndex_t::AE_CL_CLOTH_ATTR = 17
+GameAnimEventIndex_t::AE_CL_CLOTH_GROUND_OFFSET = 18
+GameAnimEventIndex_t::AE_CL_CLOTH_STIFFEN = 19
+GameAnimEventIndex_t::AE_CL_CLOTH_EFFECT = 20
+GameAnimEventIndex_t::AE_CL_CREATE_ANIM_SCOPE_PROP = 21
+GameAnimEventIndex_t::AE_SV_IKLOCK = 22
+GameAnimEventIndex_t::AE_PULSE_GRAPH = 23
+GameAnimEventIndex_t::AE_DISABLE_PLATFORM = 24
+GameAnimEventIndex_t::AE_ENABLE_PLATFORM_PLAYER_FOLLOWS_YAW = 25
+GameAnimEventIndex_t::AE_ENABLE_PLATFORM_PLAYER_IGNORES_YAW = 26
+GameAnimEventIndex_t::AE_DESTRUCTIBLE_PART_DESTROY = 27
+GameAnimEventIndex_t::AE_VEHICLE_ENTER_FINISHED = 28
+GameAnimEventIndex_t::AE_VEHICLE_EXIT_FINISHED = 29
+GameAnimEventIndex_t::AE_SCRIPT_FIRE_EVENT_01 = 30
+GameAnimEventIndex_t::AE_SCRIPT_FIRE_EVENT_02 = 31
+GameAnimEventIndex_t::AE_SCRIPT_FIRE_EVENT_03 = 32
+GameAnimEventIndex_t::AE_SCRIPT_FIRE_EVENT_04 = 33
+GameAnimEventIndex_t::AE_SCRIPT_FIRE_EVENT_05 = 34
+GameAnimEventIndex_t::AE_SCRIPT_FIRE_EVENT_06 = 35
+GameAnimEventIndex_t::AE_SCRIPT_FIRE_EVENT_07 = 36
+GameAnimEventIndex_t::AE_SCRIPT_FIRE_EVENT_08 = 37
+GameAnimEventIndex_t::AE_SCRIPT_FIRE_EVENT_09 = 38
+GameAnimEventIndex_t::AE_SCRIPT_FIRE_EVENT_10 = 39
+GameAnimEventIndex_t::AE_CL_WEAPON_TRANSITION_INTO_HAND = 40
+GameAnimEventIndex_t::AE_SV_ATTACH_SILENCER_COMPLETE = 41
+GameAnimEventIndex_t::AE_SV_DETACH_SILENCER_COMPLETE = 42
+GameAnimEventIndex_t::AE_CL_EJECT_MAG = 43
+GameAnimEventIndex_t::AE_WPN_COMPLETE_RELOAD = 44
+GameAnimEventIndex_t::AE_WPN_HEALTHSHOT_INJECT = 45
+GameAnimEventIndex_t::AE_GRENADE_THROW_COMPLETE = 46
+GameAnimEventIndex_t::AE_COUNT = 47
+
+# --- GrenadeType_t (size=4 bytes, 6 values)
+GrenadeType_t::GRENADE_TYPE_EXPLOSIVE = 0
+GrenadeType_t::GRENADE_TYPE_FLASH = 1
+GrenadeType_t::GRENADE_TYPE_FIRE = 2
+GrenadeType_t::GRENADE_TYPE_DECOY = 3
+GrenadeType_t::GRENADE_TYPE_SMOKE = 4
+GrenadeType_t::GRENADE_TYPE_TOTAL = 5
+
+# --- HierarchyType_t (size=4 bytes, 6 values)
+HierarchyType_t::HIERARCHY_NONE = 0
+HierarchyType_t::HIERARCHY_BONE_MERGE = 1
+HierarchyType_t::HIERARCHY_ATTACHMENT = 2
+HierarchyType_t::HIERARCHY_ABSORIGIN = 3
+HierarchyType_t::HIERARCHY_BONE = 4
+HierarchyType_t::HIERARCHY_TYPE_COUNT = 5
+
+# --- HitGroup_t (size=4 bytes, 14 values)
+HitGroup_t::HITGROUP_INVALID = -1
+HitGroup_t::HITGROUP_GENERIC = 0
+HitGroup_t::HITGROUP_HEAD = 1
+HitGroup_t::HITGROUP_CHEST = 2
+HitGroup_t::HITGROUP_STOMACH = 3
+HitGroup_t::HITGROUP_LEFTARM = 4
+HitGroup_t::HITGROUP_RIGHTARM = 5
+HitGroup_t::HITGROUP_LEFTLEG = 6
+HitGroup_t::HITGROUP_RIGHTLEG = 7
+HitGroup_t::HITGROUP_NECK = 8
+HitGroup_t::HITGROUP_UNUSED = 9
+HitGroup_t::HITGROUP_GEAR = 10
+HitGroup_t::HITGROUP_SPECIAL = 11
+HitGroup_t::HITGROUP_COUNT = 12
+
+# --- HoverPoseFlags_t (size=1 byte, 3 values)
+HoverPoseFlags_t::eNone = 0
+HoverPoseFlags_t::ePosition = 1
+HoverPoseFlags_t::eAngles = 2
+
+# --- Hull_t (size=4 bytes, 12 values)
+Hull_t::HULL_HUMAN = 0
+Hull_t::HULL_SMALL_CENTERED = 1
+Hull_t::HULL_WIDE_HUMAN = 2
+Hull_t::HULL_TINY = 3
+Hull_t::HULL_MEDIUM = 4
+Hull_t::HULL_TINY_CENTERED = 5
+Hull_t::HULL_LARGE = 6
+Hull_t::HULL_LARGE_CENTERED = 7
+Hull_t::HULL_MEDIUM_TALL = 8
+Hull_t::HULL_SMALL = 9
+Hull_t::NUM_HULLS = 10
+Hull_t::HULL_NONE = 11
+
+# --- IChoreoServices::ChoreoState_t (size=4 bytes, 7 values)
+IChoreoServices::ChoreoState_t::STATE_PRE_SCRIPT = 0
+IChoreoServices::ChoreoState_t::STATE_WAIT_FOR_SCRIPT = 1
+IChoreoServices::ChoreoState_t::STATE_WALK_TO_MARK = 2
+IChoreoServices::ChoreoState_t::STATE_SYNCHRONIZE_SCRIPT = 3
+IChoreoServices::ChoreoState_t::STATE_PLAY_SCRIPT = 4
+IChoreoServices::ChoreoState_t::STATE_PLAY_SCRIPT_POST_IDLE = 5
+IChoreoServices::ChoreoState_t::STATE_PLAY_SCRIPT_POST_IDLE_DONE = 6
+
+# --- IChoreoServices::ScriptState_t (size=4 bytes, 5 values)
+IChoreoServices::ScriptState_t::SCRIPT_PLAYING = 0
+IChoreoServices::ScriptState_t::SCRIPT_WAIT = 1
+IChoreoServices::ScriptState_t::SCRIPT_POST_IDLE = 2
+IChoreoServices::ScriptState_t::SCRIPT_CLEANUP = 3
+IChoreoServices::ScriptState_t::SCRIPT_MOVE_TO_MARK = 4
+
+# --- INavObstacle::NavObstacleType_t (size=4 bytes, 6 values)
+INavObstacle::NavObstacleType_t::NAV_OBSTACLE_TYPE_INVALID = -1
+INavObstacle::NavObstacleType_t::NAV_OBSTACLE_TYPE_NONE = 0
+INavObstacle::NavObstacleType_t::NAV_OBSTACLE_TYPE_AVOID = 1
+INavObstacle::NavObstacleType_t::NAV_OBSTACLE_TYPE_CONN = 2
+INavObstacle::NavObstacleType_t::NAV_OBSTACLE_TYPE_BLOCK = 3
+INavObstacle::NavObstacleType_t::NAV_OBSTACLE_TYPE_PERMANENT_BLOCK = 4
+
+# --- InputBitMask_t (size=8 bytes, 21 values)
+InputBitMask_t::IN_NONE = 0
+InputBitMask_t::IN_ALL = -1
+InputBitMask_t::IN_ATTACK = 1
+InputBitMask_t::IN_JUMP = 2
+InputBitMask_t::IN_DUCK = 4
+InputBitMask_t::IN_FORWARD = 8
+InputBitMask_t::IN_BACK = 16
+InputBitMask_t::IN_USE = 32
+InputBitMask_t::IN_TURNLEFT = 128
+InputBitMask_t::IN_TURNRIGHT = 256
+InputBitMask_t::IN_MOVELEFT = 512
+InputBitMask_t::IN_MOVERIGHT = 1024
+InputBitMask_t::IN_ATTACK2 = 2048
+InputBitMask_t::IN_RELOAD = 8192
+InputBitMask_t::IN_SPEED = 65536
+InputBitMask_t::IN_JOYAUTOSPRINT = 131072
+InputBitMask_t::IN_FIRST_MOD_SPECIFIC_BIT = 4294967296
+InputBitMask_t::IN_USEORRELOAD = 4294967296
+InputBitMask_t::IN_SCORE = 8589934592
+InputBitMask_t::IN_ZOOM = 17179869184
+InputBitMask_t::IN_LOOK_AT_WEAPON = 34359738368
+
+# --- ItemFlagTypes_t (size=1 byte, 9 values)
+ItemFlagTypes_t::ITEM_FLAG_NONE = 0
+ItemFlagTypes_t::ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO = 1
+ItemFlagTypes_t::ITEM_FLAG_NOAUTORELOAD = 2
+ItemFlagTypes_t::ITEM_FLAG_NOAUTOSWITCHEMPTY = 4
+ItemFlagTypes_t::ITEM_FLAG_LIMITINWORLD = 8
+ItemFlagTypes_t::ITEM_FLAG_EXHAUSTIBLE = 16
+ItemFlagTypes_t::ITEM_FLAG_DOHITLOCATIONDMG = 32
+ItemFlagTypes_t::ITEM_FLAG_NOAMMOPICKUPS = 64
+ItemFlagTypes_t::ITEM_FLAG_NOITEMPICKUP = 128
+
+# --- LatchDirtyPermission_t (size=4 bytes, 6 values)
+LatchDirtyPermission_t::LATCH_DIRTY_DISALLOW = 0
+LatchDirtyPermission_t::LATCH_DIRTY_SERVER_CONTROLLED = 1
+LatchDirtyPermission_t::LATCH_DIRTY_CLIENT_SIMULATED = 2
+LatchDirtyPermission_t::LATCH_DIRTY_PREDICTION = 3
+LatchDirtyPermission_t::LATCH_DIRTY_FRAMESIMULATE = 4
+LatchDirtyPermission_t::LATCH_DIRTY_PARTICLE_SIMULATE = 5
+
+# --- LessonPanelLayoutFileTypes_t (size=4 bytes, 3 values)
+LessonPanelLayoutFileTypes_t::LAYOUT_HAND_DEFAULT = 0
+LessonPanelLayoutFileTypes_t::LAYOUT_WORLD_DEFAULT = 1
+LessonPanelLayoutFileTypes_t::LAYOUT_CUSTOM = 2
+
+# --- LifeState_t (size=4 bytes, 6 values)
+LifeState_t::LIFE_ALIVE = 0
+LifeState_t::LIFE_DYING = 1
+LifeState_t::LIFE_DEAD = 2
+LifeState_t::LIFE_RESPAWNABLE = 3
+LifeState_t::LIFE_RESPAWNING = 4
+LifeState_t::NUM_LIFESTATES = 5
+
+# --- Materials (size=4 bytes, 12 values)
+Materials::matGlass = 0
+Materials::matWood = 1
+Materials::matMetal = 2
+Materials::matFlesh = 3
+Materials::matCinderBlock = 4
+Materials::matCeilingTile = 5
+Materials::matComputer = 6
+Materials::matUnbreakableGlass = 7
+Materials::matRocks = 8
+Materials::matWeb = 9
+Materials::matNone = 10
+Materials::matLastMaterial = 11
+
+# --- MedalRank_t (size=4 bytes, 5 values)
+MedalRank_t::MEDAL_RANK_NONE = 0
+MedalRank_t::MEDAL_RANK_BRONZE = 1
+MedalRank_t::MEDAL_RANK_SILVER = 2
+MedalRank_t::MEDAL_RANK_GOLD = 3
+MedalRank_t::MEDAL_RANK_COUNT = 4
+
+# --- ModifyDamageReturn_t (size=4 bytes, 2 values)
+ModifyDamageReturn_t::CONTINUE_TO_APPLY_DAMAGE = 0
+ModifyDamageReturn_t::ABORT_DO_NOT_APPLY_DAMAGE = 1
+
+# --- MoveCollide_t (size=1 byte, 6 values)
+MoveCollide_t::MOVECOLLIDE_DEFAULT = 0
+MoveCollide_t::MOVECOLLIDE_FLY_BOUNCE = 1
+MoveCollide_t::MOVECOLLIDE_FLY_CUSTOM = 2
+MoveCollide_t::MOVECOLLIDE_FLY_SLIDE = 3
+MoveCollide_t::MOVECOLLIDE_COUNT = 4
+MoveCollide_t::MOVECOLLIDE_MAX_BITS = 3
+
+# --- MoveLinearAuthoredPos_t (size=4 bytes, 3 values)
+MoveLinearAuthoredPos_t::MOVELINEAR_AUTHORED_AT_START_POSITION = 0
+MoveLinearAuthoredPos_t::MOVELINEAR_AUTHORED_AT_OPEN_POSITION = 1
+MoveLinearAuthoredPos_t::MOVELINEAR_AUTHORED_AT_CLOSED_POSITION = 2
+
+# --- MoveMountingAmount_t (size=4 bytes, 4 values)
+MoveMountingAmount_t::MOVE_MOUNT_NONE = 0
+MoveMountingAmount_t::MOVE_MOUNT_LOW = 1
+MoveMountingAmount_t::MOVE_MOUNT_HIGH = 2
+MoveMountingAmount_t::MOVE_MOUNT_MAXCOUNT = 3
+
+# --- MoveType_t (size=1 byte, 14 values)
+MoveType_t::MOVETYPE_NONE = 0
+MoveType_t::MOVETYPE_OBSOLETE = 1
+MoveType_t::MOVETYPE_WALK = 2
+MoveType_t::MOVETYPE_FLY = 3
+MoveType_t::MOVETYPE_FLYGRAVITY = 4
+MoveType_t::MOVETYPE_VPHYSICS = 5
+MoveType_t::MOVETYPE_PUSH = 6
+MoveType_t::MOVETYPE_NOCLIP = 7
+MoveType_t::MOVETYPE_OBSERVER = 8
+MoveType_t::MOVETYPE_LADDER = 9
+MoveType_t::MOVETYPE_CUSTOM = 10
+MoveType_t::MOVETYPE_LAST = 11
+MoveType_t::MOVETYPE_INVALID = 11
+MoveType_t::MOVETYPE_MAX_BITS = 5
+
+# --- NET_Messages (size=4 bytes, 13 values)
+NET_Messages::net_NOP = 0
+NET_Messages::net_Disconnect_Legacy = 1
+NET_Messages::net_SplitScreenUser = 3
+NET_Messages::net_Tick = 4
+NET_Messages::net_StringCmd = 5
+NET_Messages::net_SetConVar = 6
+NET_Messages::net_SignonState = 7
+NET_Messages::net_SpawnGroup_Load = 8
+NET_Messages::net_SpawnGroup_ManifestUpdate = 9
+NET_Messages::net_SpawnGroup_SetCreationTick = 11
+NET_Messages::net_SpawnGroup_Unload = 12
+NET_Messages::net_SpawnGroup_LoadCompleted = 13
+NET_Messages::net_DebugOverlay = 15
+
+# --- NPCFollowFormation_t (size=4 bytes, 5 values)
+NPCFollowFormation_t::Default = -1
+NPCFollowFormation_t::CloseCircle = 0
+NPCFollowFormation_t::WideCircle = 1
+NPCFollowFormation_t::MediumCircle = 5
+NPCFollowFormation_t::Sidekick = 6
+
+# --- NavAttributeDynamicType (size=4 bytes, 22 values)
+NavAttributeDynamicType::NAV_AREA_NONE = 0
+NavAttributeDynamicType::NAV_AREA_UNDER_WATER = 1
+NavAttributeDynamicType::NAV_AREA_UNDER_WATER_DEEP = 2
+NavAttributeDynamicType::NAV_AREA_EXTERNALLY_CREATED = 4
+NavAttributeDynamicType::NAV_AREA_SHOULD_BE_DESTROYED = 8
+NavAttributeDynamicType::NAV_AREA_CREATED_BY_OBSTACLE_MGR = 16
+NavAttributeDynamicType::NAV_AREA_SPLIT_BY_OBSTACLE_MGR = 32
+NavAttributeDynamicType::NAV_AREA_SPLIT_OBS_CONTAINED = 64
+NavAttributeDynamicType::NAV_AREA_SPLIT_OBS_BASE_CONTAINED = 128
+NavAttributeDynamicType::NAV_AREA_HAS_LADDERS = 256
+NavAttributeDynamicType::NAV_AREA_NAV_LINK = 512
+NavAttributeDynamicType::NAV_AREA_NAV_LINK_TERMINUS = 1024
+NavAttributeDynamicType::NAV_AREA_CONNECTED_TO_NAV_LINK_OUT = 2048
+NavAttributeDynamicType::NAV_AREA_CONNECTED_TO_NAV_LINK_IN = 4096
+NavAttributeDynamicType::NAV_AREA_MOVABLE = 8192
+NavAttributeDynamicType::NAV_AREA_DOCK = 16384
+NavAttributeDynamicType::NAV_AREA_DOCKING_CANDIDATE = 32768
+NavAttributeDynamicType::NAV_AREA_BOUNDARY = 65536
+NavAttributeDynamicType::NAV_AREA_HAS_TACTICAL_SEARCH_ANNOTATIONS = 131072
+NavAttributeDynamicType::NAV_AREA_DEFORMABLE = 262144
+NavAttributeDynamicType::NAV_AREA_DEFORMABLE_DOCK = 524288
+NavAttributeDynamicType::NAV_AREA_LINK_AUTO_ADJUST = 1048576
+
+# --- NavAttributeEnum (size=8 bytes, 20 values)
+NavAttributeEnum::NAV_MESH_NONE = 0
+NavAttributeEnum::NAV_MESH_AVOID = 128
+NavAttributeEnum::NAV_MESH_STAIRS = 4096
+NavAttributeEnum::NAV_MESH_NON_ZUP = 32768
+NavAttributeEnum::NAV_MESH_CROUCH_HEIGHT = 65536
+NavAttributeEnum::NAV_MESH_NON_ZUP_TRANSITION = 131072
+NavAttributeEnum::NAV_MESH_CRAWL_HEIGHT = 262144
+NavAttributeEnum::NAV_MESH_JUMP = 2
+NavAttributeEnum::NAV_MESH_NO_JUMP = 8
+NavAttributeEnum::NAV_MESH_STOP = 16
+NavAttributeEnum::NAV_MESH_RUN = 32
+NavAttributeEnum::NAV_MESH_WALK = 64
+NavAttributeEnum::NAV_MESH_TRANSIENT = 256
+NavAttributeEnum::NAV_MESH_DONT_HIDE = 512
+NavAttributeEnum::NAV_MESH_STAND = 1024
+NavAttributeEnum::NAV_MESH_NO_HOSTAGES = 2048
+NavAttributeEnum::NAV_MESH_NO_MERGE = 8192
+NavAttributeEnum::NAV_MESH_OBSTACLE_TOP = 16384
+NavAttributeEnum::NAV_ATTR_FIRST_GAME_INDEX = 19
+NavAttributeEnum::NAV_ATTR_LAST_INDEX = 63
+
+# --- NavDirType (size=4 bytes, 5 values)
+NavDirType::NORTH = 0
+NavDirType::EAST = 1
+NavDirType::SOUTH = 2
+NavDirType::WEST = 3
+NavDirType::NUM_NAV_DIR_TYPE_DIRECTIONS = 4
+
+# --- NavScopeFlags_t (size=1 byte, 4 values)
+NavScopeFlags_t::eGround = 1
+NavScopeFlags_t::eAir = 2
+NavScopeFlags_t::eAll = 3
+NavScopeFlags_t::eNone = 0
+
+# --- NavScope_t (size=1 byte, 5 values)
+NavScope_t::eGround = 0
+NavScope_t::eAir = 1
+NavScope_t::eCount = 2
+NavScope_t::eFirst = 0
+NavScope_t::eInvalid = 255
+
+# --- ObserverInterpState_t (size=4 bytes, 4 values)
+ObserverInterpState_t::OBSERVER_INTERP_NONE = 0
+ObserverInterpState_t::OBSERVER_INTERP_STARTING = 1
+ObserverInterpState_t::OBSERVER_INTERP_TRAVELING = 2
+ObserverInterpState_t::OBSERVER_INTERP_SETTLING = 3
+
+# --- ObserverMode_t (size=4 bytes, 6 values)
+ObserverMode_t::OBS_MODE_NONE = 0
+ObserverMode_t::OBS_MODE_FIXED = 1
+ObserverMode_t::OBS_MODE_IN_EYE = 2
+ObserverMode_t::OBS_MODE_CHASE = 3
+ObserverMode_t::OBS_MODE_ROAMING = 4
+ObserverMode_t::NUM_OBSERVER_MODES = 5
+
+# --- OnFrame (size=1 byte, 3 values)
+OnFrame::ONFRAME_UNKNOWN = 0
+OnFrame::ONFRAME_TRUE = 1
+OnFrame::ONFRAME_FALSE = 2
+
+# --- PARTICLE_MESSAGE (size=4 bytes, 42 values)
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_CREATE = 0
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_UPDATE = 1
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD = 2
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION = 3
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK = 4
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENT = 5
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET = 6
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_DESTROY = 7
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING = 8
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_RELEASE = 9
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_LATENCY = 10
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SHOULD_DRAW = 11
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_FROZEN = 12
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT = 13
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION = 14
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SET_FOW_PROPERTIES = 15
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SET_TEXT = 16
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW = 17
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_MODEL = 18
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_SNAPSHOT = 19
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE = 20
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_GENERIC_FLAG = 21
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_TINT_AND_DESAT = 22
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_DESTROY_NAMED = 23
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SKIP_TO_TIME = 24
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_CAN_FREEZE = 25
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SET_NAMED_VALUE_CONTEXT = 26
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_UPDATE_TRANSFORM = 27
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_FREEZE_TRANSITION_OVERRIDE = 28
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_FREEZE_INVOLVING = 29
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT = 30
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_CLEAR_MODELLIST_OVERRIDE = 31
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_CREATE_PHYSICS_SIM = 32
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_DESTROY_PHYSICS_SIM = 33
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SET_VDATA = 34
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE = 35
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_ADD_FAN = 36
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_UPDATE_FAN = 37
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SET_CLUSTER_GROWTH = 38
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_REMOVE_FAN = 39
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_CREATE_SMOKE_GRID = 40
+PARTICLE_MESSAGE::GAME_PARTICLE_MANAGER_EVENT_SET_OVERRIDE_TEXTURE = 41
+
+# --- PerformanceMode_t (size=4 bytes, 2 values)
+PerformanceMode_t::PM_NORMAL = 0
+PerformanceMode_t::PM_NO_GIBS = 1
+
+# --- PlayerConnectedState (size=4 bytes, 7 values)
+PlayerConnectedState::NeverConnected = -1
+PlayerConnectedState::Connected = 0
+PlayerConnectedState::Connecting = 1
+PlayerConnectedState::Reconnecting = 2
+PlayerConnectedState::Disconnecting = 3
+PlayerConnectedState::Disconnected = 4
+PlayerConnectedState::Reserved = 5
+
+# --- PointOrientConstraint_t (size=4 bytes, 2 values)
+PointOrientConstraint_t::eNone = 0
+PointOrientConstraint_t::ePreserveUpAxis = 1
+
+# --- PointOrientGoalDirectionType_t (size=4 bytes, 5 values)
+PointOrientGoalDirectionType_t::eAbsOrigin = 0
+PointOrientGoalDirectionType_t::eCenter = 1
+PointOrientGoalDirectionType_t::eHead = 2
+PointOrientGoalDirectionType_t::eForward = 3
+PointOrientGoalDirectionType_t::eEyesForward = 4
+
+# --- PointTemplateClientOnlyEntityBehavior_t (size=4 bytes, 2 values)
+PointTemplateClientOnlyEntityBehavior_t::CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY = 0
+PointTemplateClientOnlyEntityBehavior_t::CREATE_FOR_CLIENTS_WHO_CONNECT_LATER = 1
+
+# --- PointTemplateOwnerSpawnGroupType_t (size=4 bytes, 3 values)
+PointTemplateOwnerSpawnGroupType_t::INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP = 0
+PointTemplateOwnerSpawnGroupType_t::INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP = 1
+PointTemplateOwnerSpawnGroupType_t::INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP = 2
+
+# --- PointWorldTextJustifyHorizontal_t (size=4 bytes, 3 values)
+PointWorldTextJustifyHorizontal_t::POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_LEFT = 0
+PointWorldTextJustifyHorizontal_t::POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_CENTER = 1
+PointWorldTextJustifyHorizontal_t::POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_RIGHT = 2
+
+# --- PointWorldTextJustifyVertical_t (size=4 bytes, 3 values)
+PointWorldTextJustifyVertical_t::POINT_WORLD_TEXT_JUSTIFY_VERTICAL_BOTTOM = 0
+PointWorldTextJustifyVertical_t::POINT_WORLD_TEXT_JUSTIFY_VERTICAL_CENTER = 1
+PointWorldTextJustifyVertical_t::POINT_WORLD_TEXT_JUSTIFY_VERTICAL_TOP = 2
+
+# --- PointWorldTextReorientMode_t (size=4 bytes, 2 values)
+PointWorldTextReorientMode_t::POINT_WORLD_TEXT_REORIENT_NONE = 0
+PointWorldTextReorientMode_t::POINT_WORLD_TEXT_REORIENT_AROUND_UP = 1
+
+# --- PrefetchType (size=4 bytes, 1 values)
+PrefetchType::PFT_SOUND = 0
+
+# --- PreviewCharacterBannerAnimation (size=4 bytes, 30 values)
+PreviewCharacterBannerAnimation::INVALID = -1
+PreviewCharacterBannerAnimation::IDLE_OFFSCREEN = 0
+PreviewCharacterBannerAnimation::BANNER_AWP_ACE_GUN = 1
+PreviewCharacterBannerAnimation::BANNER_AWP_ACE_A = 2
+PreviewCharacterBannerAnimation::BANNER_AWP_ACE_B = 3
+PreviewCharacterBannerAnimation::BANNER_AWP_ACE_C = 4
+PreviewCharacterBannerAnimation::BANNER_AWP_ACE_D = 5
+PreviewCharacterBannerAnimation::BANNER_AWP_ACE_E = 6
+PreviewCharacterBannerAnimation::BANNER_PISTOL3SHOT = 7
+PreviewCharacterBannerAnimation::BANNER_3SHOT_A = 8
+PreviewCharacterBannerAnimation::BANNER_3SHOT_B = 9
+PreviewCharacterBannerAnimation::BANNER_3SHOT_C = 10
+PreviewCharacterBannerAnimation::BANNER_PISTOL4SHOT = 11
+PreviewCharacterBannerAnimation::BANNER_4SHOT_A = 12
+PreviewCharacterBannerAnimation::BANNER_4SHOT_B = 13
+PreviewCharacterBannerAnimation::BANNER_4SHOT_C = 14
+PreviewCharacterBannerAnimation::BANNER_4SHOT_D = 15
+PreviewCharacterBannerAnimation::CELEBRATE_STRETCH_NOWEAP_IDLE0 = 16
+PreviewCharacterBannerAnimation::BANNER_BOMB_PLANT = 17
+PreviewCharacterBannerAnimation::BANNER_BOMB_DEFUSAL_VER1 = 18
+PreviewCharacterBannerAnimation::BANNER_BOMB_DEFUSAL_VER2 = 19
+PreviewCharacterBannerAnimation::BANNER_FIRE = 20
+PreviewCharacterBannerAnimation::BANNER_BOMB_BLAST_TOSS = 21
+PreviewCharacterBannerAnimation::BANNER_BOMB_BLAST01 = 22
+PreviewCharacterBannerAnimation::BANNER_BOMB_BLAST02 = 23
+PreviewCharacterBannerAnimation::BANNER_BOMB_BLAST03 = 24
+PreviewCharacterBannerAnimation::BANNER_CELEBRATE_01 = 25
+PreviewCharacterBannerAnimation::BANNER_CELEBRATE_02 = 26
+PreviewCharacterBannerAnimation::BANNER_CELEBRATE_03 = 27
+PreviewCharacterBannerAnimation::BANNER_CELEBRATE_04 = 28
+
+# --- PreviewCharacterMode (size=4 bytes, 14 values)
+PreviewCharacterMode::INVALID = -1
+PreviewCharacterMode::DIORAMA = 0
+PreviewCharacterMode::MAIN_MENU = 1
+PreviewCharacterMode::BUY_MENU = 2
+PreviewCharacterMode::TEAM_SELECT = 3
+PreviewCharacterMode::END_OF_MATCH = 4
+PreviewCharacterMode::INVENTORY_INSPECT = 5
+PreviewCharacterMode::WALKING = 6
+PreviewCharacterMode::TEAM_INTRO = 7
+PreviewCharacterMode::WINGMAN_INTRO = 8
+PreviewCharacterMode::RUSH_INTRO = 9
+PreviewCharacterMode::BANNER = 10
+PreviewCharacterMode::CHICK_SNAPSHOT = 11
+PreviewCharacterMode::CHICK_VIEWMODEL = 12
+
+# --- PreviewEOMCelebration (size=4 bytes, 24 values)
+PreviewEOMCelebration::INVALID = -1
+PreviewEOMCelebration::WALKUP = 0
+PreviewEOMCelebration::PUNCHING = 1
+PreviewEOMCelebration::SWAGGER = 2
+PreviewEOMCelebration::DROPDOWN = 3
+PreviewEOMCelebration::STRETCH = 4
+PreviewEOMCelebration::SWAT_FEMALE = 5
+PreviewEOMCelebration::MASK_F = 6
+PreviewEOMCelebration::GUERILLA = 7
+PreviewEOMCelebration::GUERILLA02 = 8
+PreviewEOMCelebration::GENDARMERIE = 9
+PreviewEOMCelebration::SCUBA_FEMALE = 10
+PreviewEOMCelebration::SCUBA_MALE = 11
+PreviewEOMCelebration::AVA_DEFEAT = 12
+PreviewEOMCelebration::GENDARMERIE_DEFEAT = 13
+PreviewEOMCelebration::MAE_DEFEAT = 14
+PreviewEOMCelebration::RICKSAW_DEFEAT = 15
+PreviewEOMCelebration::SCUBA_FEMALE_DEFEAT = 16
+PreviewEOMCelebration::SCUBA_MALE_DEFEAT = 17
+PreviewEOMCelebration::CRASSWATER_DEFEAT = 18
+PreviewEOMCelebration::DARRYL_DEFEAT = 19
+PreviewEOMCelebration::DOCTOR_DEFEAT = 20
+PreviewEOMCelebration::MUHLIK_DEFEAT = 21
+PreviewEOMCelebration::VYPA_DEFEAT = 22
+
+# --- PreviewWeaponState (size=4 bytes, 6 values)
+PreviewWeaponState::DROPPED = 0
+PreviewWeaponState::HOLSTERED = 1
+PreviewWeaponState::DEPLOYED = 2
+PreviewWeaponState::PLANTED = 3
+PreviewWeaponState::INSPECT = 4
+PreviewWeaponState::ICON = 5
+
+# --- PropDoorRotatingOpenDirection_e (size=4 bytes, 3 values)
+PropDoorRotatingOpenDirection_e::DOOR_ROTATING_OPEN_BOTH_WAYS = 0
+PropDoorRotatingOpenDirection_e::DOOR_ROTATING_OPEN_FORWARD = 1
+PropDoorRotatingOpenDirection_e::DOOR_ROTATING_OPEN_BACKWARD = 2
+
+# --- PropDoorRotatingSpawnPos_t (size=4 bytes, 4 values)
+PropDoorRotatingSpawnPos_t::DOOR_SPAWN_CLOSED = 0
+PropDoorRotatingSpawnPos_t::DOOR_SPAWN_OPEN_FORWARD = 1
+PropDoorRotatingSpawnPos_t::DOOR_SPAWN_OPEN_BACK = 2
+PropDoorRotatingSpawnPos_t::DOOR_SPAWN_AJAR = 3
+
+# --- PulseBestOutflowRules_t (size=4 bytes, 2 values)
+PulseBestOutflowRules_t::SORT_BY_NUMBER_OF_VALID_CRITERIA = 0
+PulseBestOutflowRules_t::SORT_BY_OUTFLOW_INDEX = 1
+
+# --- PulseCollisionGroup_t (size=4 bytes, 1 values)
+PulseCollisionGroup_t::DEFAULT = 0
+
+# --- PulseCursorCancelPriority_t (size=4 bytes, 4 values)
+PulseCursorCancelPriority_t::None = 0
+PulseCursorCancelPriority_t::CancelOnSucceeded = 1
+PulseCursorCancelPriority_t::SoftCancel = 2
+PulseCursorCancelPriority_t::HardCancel = 3
+
+# --- PulseCursorWakePriority_t (size=4 bytes, 2 values)
+PulseCursorWakePriority_t::WakeElegantly = 0
+PulseCursorWakePriority_t::WakeImmediate = 1
+
+# --- PulseMethodCallMode_t (size=4 bytes, 2 values)
+PulseMethodCallMode_t::SYNC_WAIT_FOR_COMPLETION = 0
+PulseMethodCallMode_t::ASYNC_FIRE_AND_FORGET = 1
+
+# --- PulseNPCCondition_t (size=4 bytes, 5 values)
+PulseNPCCondition_t::COND_SEE_PLAYER = 1
+PulseNPCCondition_t::COND_LOST_PLAYER = 2
+PulseNPCCondition_t::COND_HEAR_PLAYER = 3
+PulseNPCCondition_t::COND_PLAYER_PUSHING = 4
+PulseNPCCondition_t::COND_NO_PRIMARY_AMMO = 5
+
+# --- PulseTraceContents_t (size=4 bytes, 2 values)
+PulseTraceContents_t::STATIC_LEVEL = 0
+PulseTraceContents_t::SOLID = 1
+
+# --- QuestProgress::Reason (size=4 bytes, 13 values)
+QuestProgress::Reason::QUEST_NONINITIALIZED = 0
+QuestProgress::Reason::QUEST_OK = 1
+QuestProgress::Reason::QUEST_NOT_ENOUGH_PLAYERS = 2
+QuestProgress::Reason::QUEST_WARMUP = 3
+QuestProgress::Reason::QUEST_NOT_CONNECTED_TO_STEAM = 4
+QuestProgress::Reason::QUEST_NONOFFICIAL_SERVER = 5
+QuestProgress::Reason::QUEST_NO_ENTITLEMENT = 6
+QuestProgress::Reason::QUEST_NO_QUEST = 7
+QuestProgress::Reason::QUEST_PLAYER_IS_BOT = 8
+QuestProgress::Reason::QUEST_WRONG_MAP = 9
+QuestProgress::Reason::QUEST_WRONG_MODE = 10
+QuestProgress::Reason::QUEST_NOT_SYNCED_WITH_SERVER = 11
+QuestProgress::Reason::QUEST_REASON_MAX = 12
+
+# --- QuestType (size=4 bytes, 2 values)
+QuestType::k_EQuestType_Operation = 1
+QuestType::k_EQuestType_RecurringMission = 2
+
+# --- RadiusDmgOverride_t (size=4 bytes, 3 values)
+RadiusDmgOverride_t::RADIUS_DMG_OVERRIDE_NONE = 0
+RadiusDmgOverride_t::RADIUS_DMG_OVERRIDE_POSITION_ONLY = 1
+RadiusDmgOverride_t::RADIUS_DMG_OVERRIDE_POSITION_SKIP_TRACES = 2
+
+# --- RelativeLocationType_t (size=1 byte, 4 values)
+RelativeLocationType_t::WORLD_SPACE_POSITION = 0
+RelativeLocationType_t::RELATIVE_TO_ENTITY_IN_LOCAL_SPACE = 1
+RelativeLocationType_t::RELATIVE_TO_ENTITY_YAW_ONLY = 2
+RelativeLocationType_t::RELATIVE_TO_ENTITY_IN_WORLD_SPACE = 3
+
+# --- RenderFx_t (size=1 byte, 18 values)
+RenderFx_t::kRenderFxNone = 0
+RenderFx_t::kRenderFxPulseSlow = 1
+RenderFx_t::kRenderFxPulseFast = 2
+RenderFx_t::kRenderFxPulseSlowWide = 3
+RenderFx_t::kRenderFxPulseFastWide = 4
+RenderFx_t::kRenderFxFadeSlow = 5
+RenderFx_t::kRenderFxFadeFast = 6
+RenderFx_t::kRenderFxSolidSlow = 7
+RenderFx_t::kRenderFxSolidFast = 8
+RenderFx_t::kRenderFxStrobeSlow = 9
+RenderFx_t::kRenderFxStrobeFast = 10
+RenderFx_t::kRenderFxStrobeFaster = 11
+RenderFx_t::kRenderFxFlickerSlow = 12
+RenderFx_t::kRenderFxFlickerFast = 13
+RenderFx_t::kRenderFxFadeOut = 14
+RenderFx_t::kRenderFxFadeIn = 15
+RenderFx_t::kRenderFxPulseFastWider = 16
+RenderFx_t::kRenderFxMax = 17
+
+# --- RenderMode_t (size=1 byte, 4 values)
+RenderMode_t::kRenderNormal = 0
+RenderMode_t::kRenderTransAlpha = 1
+RenderMode_t::kRenderNone = 2
+RenderMode_t::kRenderModeCount = 3
+
+# --- ReplayEventType_t (size=4 bytes, 5 values)
+ReplayEventType_t::REPLAY_EVENT_CANCEL = 0
+ReplayEventType_t::REPLAY_EVENT_DEATH = 1
+ReplayEventType_t::REPLAY_EVENT_GENERIC = 2
+ReplayEventType_t::REPLAY_EVENT_STUCK_NEED_FULL_UPDATE = 3
+ReplayEventType_t::REPLAY_EVENT_VICTORY = 4
+
+# --- RequestPause_t (size=4 bytes, 3 values)
+RequestPause_t::RP_PAUSE = 0
+RequestPause_t::RP_UNPAUSE = 1
+RequestPause_t::RP_TOGGLEPAUSE = 2
+
+# --- RumbleEffect_t (size=4 bytes, 27 values)
+RumbleEffect_t::RUMBLE_INVALID = -1
+RumbleEffect_t::RUMBLE_STOP_ALL = 0
+RumbleEffect_t::RUMBLE_PISTOL = 1
+RumbleEffect_t::RUMBLE_357 = 2
+RumbleEffect_t::RUMBLE_SMG1 = 3
+RumbleEffect_t::RUMBLE_AR2 = 4
+RumbleEffect_t::RUMBLE_SHOTGUN_SINGLE = 5
+RumbleEffect_t::RUMBLE_SHOTGUN_DOUBLE = 6
+RumbleEffect_t::RUMBLE_AR2_ALT_FIRE = 7
+RumbleEffect_t::RUMBLE_RPG_MISSILE = 8
+RumbleEffect_t::RUMBLE_CROWBAR_SWING = 9
+RumbleEffect_t::RUMBLE_AIRBOAT_GUN = 10
+RumbleEffect_t::RUMBLE_JEEP_ENGINE_LOOP = 11
+RumbleEffect_t::RUMBLE_FLAT_LEFT = 12
+RumbleEffect_t::RUMBLE_FLAT_RIGHT = 13
+RumbleEffect_t::RUMBLE_FLAT_BOTH = 14
+RumbleEffect_t::RUMBLE_DMG_LOW = 15
+RumbleEffect_t::RUMBLE_DMG_MED = 16
+RumbleEffect_t::RUMBLE_DMG_HIGH = 17
+RumbleEffect_t::RUMBLE_FALL_LONG = 18
+RumbleEffect_t::RUMBLE_FALL_SHORT = 19
+RumbleEffect_t::RUMBLE_PHYSCANNON_OPEN = 20
+RumbleEffect_t::RUMBLE_PHYSCANNON_PUNT = 21
+RumbleEffect_t::RUMBLE_PHYSCANNON_LOW = 22
+RumbleEffect_t::RUMBLE_PHYSCANNON_MEDIUM = 23
+RumbleEffect_t::RUMBLE_PHYSCANNON_HIGH = 24
+RumbleEffect_t::NUM_RUMBLE_EFFECTS = 25
+
+# --- SVC_Messages (size=4 bytes, 32 values)
+SVC_Messages::svc_ServerInfo = 40
+SVC_Messages::svc_FlattenedSerializer = 41
+SVC_Messages::svc_ClassInfo = 42
+SVC_Messages::svc_SetPause = 43
+SVC_Messages::svc_CreateStringTable = 44
+SVC_Messages::svc_UpdateStringTable = 45
+SVC_Messages::svc_VoiceInit = 46
+SVC_Messages::svc_VoiceData = 47
+SVC_Messages::svc_Print = 48
+SVC_Messages::svc_Sounds = 49
+SVC_Messages::svc_SetView = 50
+SVC_Messages::svc_ClearAllStringTables = 51
+SVC_Messages::svc_CmdKeyValues = 52
+SVC_Messages::svc_BSPDecal = 53
+SVC_Messages::svc_SplitScreen = 54
+SVC_Messages::svc_PacketEntities = 55
+SVC_Messages::svc_Prefetch = 56
+SVC_Messages::svc_Menu = 57
+SVC_Messages::svc_GetCvarValue = 58
+SVC_Messages::svc_StopSound = 59
+SVC_Messages::svc_PeerList = 60
+SVC_Messages::svc_PacketReliable = 61
+SVC_Messages::svc_HLTVStatus = 62
+SVC_Messages::svc_ServerSteamID = 63
+SVC_Messages::svc_FullFrameSplit = 70
+SVC_Messages::svc_RconServerDetails = 71
+SVC_Messages::svc_UserMessage = 72
+SVC_Messages::svc_Broadcast_Command = 74
+SVC_Messages::svc_HltvFixupOperatorStatus = 75
+SVC_Messages::svc_UserCmds = 76
+SVC_Messages::svc_NextMsgPredicted = 77
+SVC_Messages::svc_EncryptedData = 78
+
+# --- SVC_Messages_LowFrequency (size=4 bytes, 1 values)
+SVC_Messages_LowFrequency::svc_dummy = 600
+
+# --- SaveRestoreTableFlags_t (size=4 bytes, 22 values)
+SaveRestoreTableFlags_t::FENTTABLE_NONE = 0
+SaveRestoreTableFlags_t::FENTTABLE_PLAYER = 2147483648
+SaveRestoreTableFlags_t::FENTTABLE_REMOVED = 1073741824
+SaveRestoreTableFlags_t::FENTTABLE_MOVEABLE = 536870912
+SaveRestoreTableFlags_t::FENTTABLE_GLOBAL = 268435456
+SaveRestoreTableFlags_t::FENTTABLE_PLAYERCHILD = 134217728
+SaveRestoreTableFlags_t::LEVELMASK_BIT_0 = 1
+SaveRestoreTableFlags_t::LEVELMASK_BIT_1 = 2
+SaveRestoreTableFlags_t::LEVELMASK_BIT_2 = 4
+SaveRestoreTableFlags_t::LEVELMASK_BIT_3 = 8
+SaveRestoreTableFlags_t::LEVELMASK_BIT_4 = 16
+SaveRestoreTableFlags_t::LEVELMASK_BIT_5 = 32
+SaveRestoreTableFlags_t::LEVELMASK_BIT_6 = 64
+SaveRestoreTableFlags_t::LEVELMASK_BIT_7 = 128
+SaveRestoreTableFlags_t::LEVELMASK_BIT_8 = 256
+SaveRestoreTableFlags_t::LEVELMASK_BIT_9 = 512
+SaveRestoreTableFlags_t::LEVELMASK_BIT_10 = 1024
+SaveRestoreTableFlags_t::LEVELMASK_BIT_11 = 2048
+SaveRestoreTableFlags_t::LEVELMASK_BIT_12 = 4096
+SaveRestoreTableFlags_t::LEVELMASK_BIT_13 = 8192
+SaveRestoreTableFlags_t::LEVELMASK_BIT_14 = 16384
+SaveRestoreTableFlags_t::LEVELMASK_BIT_15 = 32768
+
+# --- SceneOnPlayerDeath_t (size=4 bytes, 2 values)
+SceneOnPlayerDeath_t::SCENE_ONPLAYERDEATH_DO_NOTHING = 0
+SceneOnPlayerDeath_t::SCENE_ONPLAYERDEATH_CANCEL = 1
+
+# --- ScriptedConflictResponse_t (size=4 bytes, 2 values)
+ScriptedConflictResponse_t::SS_CONFLICT_ENQUEUE = 0
+ScriptedConflictResponse_t::SS_CONFLICT_INTERRUPT = 1
+
+# --- ScriptedOnDeath_t (size=4 bytes, 4 values)
+ScriptedOnDeath_t::SS_ONDEATH_NOT_APPLICABLE = -1
+ScriptedOnDeath_t::SS_ONDEATH_UNDEFINED = 0
+ScriptedOnDeath_t::SS_ONDEATH_RAGDOLL = 1
+ScriptedOnDeath_t::SS_ONDEATH_ANIMATED_DEATH = 2
+
+# --- SequenceFinishNotifyState_t (size=1 byte, 3 values)
+SequenceFinishNotifyState_t::eDoNotNotify = 0
+SequenceFinishNotifyState_t::eNotifyWhenFinished = 1
+SequenceFinishNotifyState_t::eNotifyTriggered = 2
+
+# --- ShadowType_t (size=4 bytes, 2 values)
+ShadowType_t::SHADOWS_NONE = 0
+ShadowType_t::SHADOWS_SIMPLE = 1
+
+# --- ShakeCommand_t (size=4 bytes, 7 values)
+ShakeCommand_t::SHAKE_START = 0
+ShakeCommand_t::SHAKE_STOP = 1
+ShakeCommand_t::SHAKE_AMPLITUDE = 2
+ShakeCommand_t::SHAKE_FREQUENCY = 3
+ShakeCommand_t::SHAKE_START_RUMBLEONLY = 4
+ShakeCommand_t::SHAKE_START_NORUMBLE = 5
+ShakeCommand_t::SHAKE_DURATION = 6
+
+# --- ShardSolid_t (size=1 byte, 2 values)
+ShardSolid_t::SHARD_SOLID = 0
+ShardSolid_t::SHARD_DEBRIS = 1
+
+# --- ShatterDamageCause (size=1 byte, 5 values)
+ShatterDamageCause::SHATTERDAMAGE_BULLET = 0
+ShatterDamageCause::SHATTERDAMAGE_MELEE = 1
+ShatterDamageCause::SHATTERDAMAGE_THROWN = 2
+ShatterDamageCause::SHATTERDAMAGE_SCRIPT = 3
+ShatterDamageCause::SHATTERDAMAGE_EXPLOSIVE = 4
+
+# --- ShatterGlassEntityPoolState_t (size=4 bytes, 3 values)
+ShatterGlassEntityPoolState_t::ENTITY_POOL_STATE_INVALID = 0
+ShatterGlassEntityPoolState_t::ENTITY_POOL_STATE_AVAILABLE = 1
+ShatterGlassEntityPoolState_t::ENTITY_POOL_STATE_IN_USE = 2
+
+# --- ShatterGlassStressType (size=1 byte, 4 values)
+ShatterGlassStressType::SHATTERGLASS_BLUNT = 0
+ShatterGlassStressType::SHATTERGLASS_BALLISTIC = 1
+ShatterGlassStressType::SHATTERGLASS_PULSE = 2
+ShatterGlassStressType::SHATTERGLASS_EXPLOSIVE = 3
+
+# --- SignonState_t (size=4 bytes, 8 values)
+SignonState_t::SIGNONSTATE_NONE = 0
+SignonState_t::SIGNONSTATE_CHALLENGE = 1
+SignonState_t::SIGNONSTATE_CONNECTED = 2
+SignonState_t::SIGNONSTATE_NEW = 3
+SignonState_t::SIGNONSTATE_PRESPAWN = 4
+SignonState_t::SIGNONSTATE_SPAWN = 5
+SignonState_t::SIGNONSTATE_FULL = 6
+SignonState_t::SIGNONSTATE_CHANGELEVEL = 7
+
+# --- SolidType_t (size=1 byte, 10 values)
+SolidType_t::SOLID_NONE = 0
+SolidType_t::SOLID_BSP = 1
+SolidType_t::SOLID_BBOX = 2
+SolidType_t::SOLID_OBB = 3
+SolidType_t::SOLID_SPHERE = 4
+SolidType_t::SOLID_POINT = 5
+SolidType_t::SOLID_VPHYSICS = 6
+SolidType_t::SOLID_CAPSULE = 7
+SolidType_t::SOLID_CYLINDER = 8
+SolidType_t::SOLID_LAST = 9
+
+# --- SoundEventStartType_t (size=4 bytes, 3 values)
+SoundEventStartType_t::SOUNDEVENT_START_PLAYER = 0
+SoundEventStartType_t::SOUNDEVENT_START_WORLD = 1
+SoundEventStartType_t::SOUNDEVENT_START_ENTITY = 2
+
+# --- SpawnGroupFlags_t (size=4 bytes, 8 values)
+SpawnGroupFlags_t::SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE = 1
+SpawnGroupFlags_t::SPAWN_GROUP_DONT_SPAWN_ENTITIES = 2
+SpawnGroupFlags_t::SPAWN_GROUP_SYNCHRONOUS_SPAWN = 4
+SpawnGroupFlags_t::SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP = 8
+SpawnGroupFlags_t::SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES = 16
+SpawnGroupFlags_t::SPAWN_GROUP_BLOCK_UNTIL_LOADED = 64
+SpawnGroupFlags_t::SPAWN_GROUP_LOAD_STREAMING_DATA = 128
+SpawnGroupFlags_t::SPAWN_GROUP_CREATE_NEW_SCENE_WORLD = 256
+
+# --- StanceType_t (size=4 bytes, 5 values)
+StanceType_t::STANCE_CURRENT = -1
+StanceType_t::STANCE_DEFAULT = 0
+StanceType_t::STANCE_CROUCHING = 1
+StanceType_t::STANCE_PRONE = 2
+StanceType_t::NUM_STANCES = 3
+
+# --- SubclassVDataChangeType_t (size=4 bytes, 3 values)
+SubclassVDataChangeType_t::SUBCLASS_VDATA_CREATED = 0
+SubclassVDataChangeType_t::SUBCLASS_VDATA_SUBCLASS_CHANGED = 1
+SubclassVDataChangeType_t::SUBCLASS_VDATA_RELOADED = 2
+
+# --- SurroundingBoundsType_t (size=1 byte, 10 values)
+SurroundingBoundsType_t::USE_OBB_COLLISION_BOUNDS = 0
+SurroundingBoundsType_t::USE_BEST_COLLISION_BOUNDS = 1
+SurroundingBoundsType_t::USE_HITBOXES = 2
+SurroundingBoundsType_t::USE_SPECIFIED_BOUNDS = 3
+SurroundingBoundsType_t::USE_GAME_CODE = 4
+SurroundingBoundsType_t::USE_ROTATION_EXPANDED_BOUNDS = 5
+SurroundingBoundsType_t::USE_ROTATION_EXPANDED_ORIENTED_BOUNDS = 6
+SurroundingBoundsType_t::USE_COLLISION_BOUNDS_NEVER_VPHYSICS = 7
+SurroundingBoundsType_t::USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS = 8
+SurroundingBoundsType_t::SURROUNDING_TYPE_BIT_COUNT = 3
+
+# --- TOGGLE_STATE (size=4 bytes, 8 values)
+TOGGLE_STATE::TS_AT_TOP = 0
+TOGGLE_STATE::TS_AT_BOTTOM = 1
+TOGGLE_STATE::TS_GOING_UP = 2
+TOGGLE_STATE::TS_GOING_DOWN = 3
+TOGGLE_STATE::DOOR_OPEN = 0
+TOGGLE_STATE::DOOR_CLOSED = 1
+TOGGLE_STATE::DOOR_OPENING = 2
+TOGGLE_STATE::DOOR_CLOSING = 3
+
+# --- TRAIN_CODE (size=4 bytes, 3 values)
+TRAIN_CODE::TRAIN_SAFE = 0
+TRAIN_CODE::TRAIN_BLOCKING = 1
+TRAIN_CODE::TRAIN_FOLLOWING = 2
+
+# --- TakeDamageFlags_t (size=8 bytes, 22 values)
+TakeDamageFlags_t::DFLAG_NONE = 0
+TakeDamageFlags_t::DFLAG_SUPPRESS_HEALTH_CHANGES = 1
+TakeDamageFlags_t::DFLAG_SUPPRESS_PHYSICS_FORCE = 2
+TakeDamageFlags_t::DFLAG_SUPPRESS_EFFECTS = 4
+TakeDamageFlags_t::DFLAG_PREVENT_DEATH = 8
+TakeDamageFlags_t::DFLAG_FORCE_DEATH = 16
+TakeDamageFlags_t::DFLAG_ALWAYS_GIB = 32
+TakeDamageFlags_t::DFLAG_NEVER_GIB = 64
+TakeDamageFlags_t::DFLAG_REMOVE_NO_RAGDOLL = 128
+TakeDamageFlags_t::DFLAG_SUPPRESS_DAMAGE_MODIFICATION = 256
+TakeDamageFlags_t::DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS = 512
+TakeDamageFlags_t::DFLAG_RADIUS_DMG = 1024
+TakeDamageFlags_t::DFLAG_FORCEREDUCEARMOR_DMG = 2048
+TakeDamageFlags_t::DFLAG_SUPPRESS_INTERRUPT_FLINCH = 4096
+TakeDamageFlags_t::DFLAG_IGNORE_DESTRUCTIBLE_PARTS = 8192
+TakeDamageFlags_t::DFLAG_SUPPRESS_BREAKABLES = 16384
+TakeDamageFlags_t::DFLAG_FORCE_PHYSICS_FORCE = 32768
+TakeDamageFlags_t::DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX = 65536
+TakeDamageFlags_t::DFLAG_ALLOW_NON_AUTHORITATIVE = 131072
+TakeDamageFlags_t::DMG_LASTDFLAG = 131072
+TakeDamageFlags_t::DFLAG_IGNORE_ARMOR = 262144
+TakeDamageFlags_t::DFLAG_SUPPRESS_UTILREMOVE = 524288
+
+# --- TestInputOutputCombinationsEnum_t (size=4 bytes, 3 values)
+TestInputOutputCombinationsEnum_t::ZERO = 0
+TestInputOutputCombinationsEnum_t::ONE = 1
+TestInputOutputCombinationsEnum_t::TWO = 2
+
+# --- TimelineCompression_t (size=4 bytes, 5 values)
+TimelineCompression_t::TIMELINE_COMPRESSION_SUM = 0
+TimelineCompression_t::TIMELINE_COMPRESSION_COUNT_PER_INTERVAL = 1
+TimelineCompression_t::TIMELINE_COMPRESSION_AVERAGE = 2
+TimelineCompression_t::TIMELINE_COMPRESSION_AVERAGE_BLEND = 3
+TimelineCompression_t::TIMELINE_COMPRESSION_TOTAL = 4
+
+# --- Touch_t (size=4 bytes, 5 values)
+Touch_t::touch_none = 0
+Touch_t::touch_player_only = 1
+Touch_t::touch_npc_only = 2
+Touch_t::touch_player_or_npc = 3
+Touch_t::touch_player_or_npc_or_physicsprop = 4
+
+# --- TrackOrientationType_t (size=4 bytes, 3 values)
+TrackOrientationType_t::TrackOrientation_Fixed = 0
+TrackOrientationType_t::TrackOrientation_FacePath = 1
+TrackOrientationType_t::TrackOrientation_FacePathAngles = 2
+
+# --- TrainOrientationType_t (size=4 bytes, 4 values)
+TrainOrientationType_t::TrainOrientation_Fixed = 0
+TrainOrientationType_t::TrainOrientation_AtPathTracks = 1
+TrainOrientationType_t::TrainOrientation_LinearBlend = 2
+TrainOrientationType_t::TrainOrientation_EaseInEaseOut = 3
+
+# --- TrainVelocityType_t (size=4 bytes, 3 values)
+TrainVelocityType_t::TrainVelocity_Instantaneous = 0
+TrainVelocityType_t::TrainVelocity_LinearBlend = 1
+TrainVelocityType_t::TrainVelocity_EaseInEaseOut = 2
+
+# --- ValueRemapperHapticsType_t (size=4 bytes, 2 values)
+ValueRemapperHapticsType_t::HaticsType_Default = 0
+ValueRemapperHapticsType_t::HaticsType_None = 1
+
+# --- ValueRemapperInputType_t (size=4 bytes, 2 values)
+ValueRemapperInputType_t::InputType_PlayerShootPosition = 0
+ValueRemapperInputType_t::InputType_PlayerShootPositionAroundAxis = 1
+
+# --- ValueRemapperMomentumType_t (size=4 bytes, 4 values)
+ValueRemapperMomentumType_t::MomentumType_None = 0
+ValueRemapperMomentumType_t::MomentumType_Friction = 1
+ValueRemapperMomentumType_t::MomentumType_SpringTowardSnapValue = 2
+ValueRemapperMomentumType_t::MomentumType_SpringAwayFromSnapValue = 3
+
+# --- ValueRemapperOutputType_t (size=4 bytes, 4 values)
+ValueRemapperOutputType_t::OutputType_AnimationCycle = 0
+ValueRemapperOutputType_t::OutputType_RotationX = 1
+ValueRemapperOutputType_t::OutputType_RotationY = 2
+ValueRemapperOutputType_t::OutputType_RotationZ = 3
+
+# --- ValueRemapperRatchetType_t (size=4 bytes, 2 values)
+ValueRemapperRatchetType_t::RatchetType_Absolute = 0
+ValueRemapperRatchetType_t::RatchetType_EachEngage = 1
+
+# --- VoiceDataFormat_t (size=4 bytes, 3 values)
+VoiceDataFormat_t::VOICEDATA_FORMAT_STEAM = 0
+VoiceDataFormat_t::VOICEDATA_FORMAT_ENGINE = 1
+VoiceDataFormat_t::VOICEDATA_FORMAT_OPUS = 2
+
+# --- WaterLevel_t (size=1 byte, 7 values)
+WaterLevel_t::WL_NotInWater = 0
+WaterLevel_t::WL_Feet = 1
+WaterLevel_t::WL_Knees = 2
+WaterLevel_t::WL_Waist = 3
+WaterLevel_t::WL_Chest = 4
+WaterLevel_t::WL_FullyUnderwater = 5
+WaterLevel_t::WL_Count = 6
+
+# --- WeaponAttackType_t (size=4 bytes, 4 values)
+WeaponAttackType_t::eInvalid = -1
+WeaponAttackType_t::ePrimary = 0
+WeaponAttackType_t::eSecondary = 1
+WeaponAttackType_t::eCount = 2
+
+# --- WeaponGameplayAnimState (size=2 bytes, 31 values)
+WeaponGameplayAnimState::WPN_ANIMSTATE_UNINITIALIZED = 0
+WeaponGameplayAnimState::WPN_ANIMSTATE_DROPPED = 1
+WeaponGameplayAnimState::WPN_ANIMSTATE_HOLSTERED = 10
+WeaponGameplayAnimState::WPN_ANIMSTATE_DEPLOY = 11
+WeaponGameplayAnimState::WPN_ANIMSTATE_IDLE = 50
+WeaponGameplayAnimState::WPN_ANIMSTATE_SHOOT_PRIMARY = 100
+WeaponGameplayAnimState::WPN_ANIMSTATE_SHOOT_SECONDARY = 101
+WeaponGameplayAnimState::WPN_ANIMSTATE_SHOOT_DRYFIRE = 102
+WeaponGameplayAnimState::WPN_ANIMSTATE_CHARGE = 103
+WeaponGameplayAnimState::WPN_ANIMSTATE_GRENADE_PULL_PIN = 200
+WeaponGameplayAnimState::WPN_ANIMSTATE_GRENADE_READY = 201
+WeaponGameplayAnimState::WPN_ANIMSTATE_GRENADE_THROW = 202
+WeaponGameplayAnimState::WPN_ANIMSTATE_C4_PLANT = 300
+WeaponGameplayAnimState::WPN_ANIMSTATE_HEALTHSHOT_INJECT = 400
+WeaponGameplayAnimState::WPN_ANIMSTATE_KNIFE_PRIMARY_HIT = 500
+WeaponGameplayAnimState::WPN_ANIMSTATE_KNIFE_PRIMARY_MISS = 501
+WeaponGameplayAnimState::WPN_ANIMSTATE_KNIFE_SECONDARY_HIT = 502
+WeaponGameplayAnimState::WPN_ANIMSTATE_KNIFE_SECONDARY_MISS = 503
+WeaponGameplayAnimState::WPN_ANIMSTATE_KNIFE_PRIMARY_STAB = 504
+WeaponGameplayAnimState::WPN_ANIMSTATE_KNIFE_SECONDARY_STAB = 505
+WeaponGameplayAnimState::WPN_ANIMSTATE_SILENCER_APPLY = 600
+WeaponGameplayAnimState::WPN_ANIMSTATE_SILENCER_REMOVE = 601
+WeaponGameplayAnimState::WPN_ANIMSTATE_RELOAD = 800
+WeaponGameplayAnimState::WPN_ANIMSTATE_RELOAD_OUTRO = 801
+WeaponGameplayAnimState::WPN_ANIMSTATE_RELOAD_SILENT = 802
+WeaponGameplayAnimState::WPN_ANIMSTATE_RELOAD_OUTRO_SILENT = 803
+WeaponGameplayAnimState::WPN_ANIMSTATE_INSPECT = 1000
+WeaponGameplayAnimState::WPN_ANIMSTATE_INSPECT_OUTRO = 1001
+WeaponGameplayAnimState::WPN_ANIMSTATE_INVENTORY_UI_TUMBLE = 1500
+WeaponGameplayAnimState::WPN_ANIMSTATE_INVENTORY_UI_KEYCHAIN_APPLY = 1501
+WeaponGameplayAnimState::WPN_ANIMSTATE_END_VALID = 2000
+
+# --- WeaponSound_t (size=4 bytes, 25 values)
+WeaponSound_t::WEAPON_SOUND_EMPTY = 0
+WeaponSound_t::WEAPON_SOUND_SECONDARY_EMPTY = 1
+WeaponSound_t::WEAPON_SOUND_SINGLE = 2
+WeaponSound_t::WEAPON_SOUND_SECONDARY_ATTACK = 3
+WeaponSound_t::WEAPON_SOUND_MELEE_MISS = 4
+WeaponSound_t::WEAPON_SOUND_MELEE_HIT = 5
+WeaponSound_t::WEAPON_SOUND_MELEE_HIT_WORLD = 6
+WeaponSound_t::WEAPON_SOUND_MELEE_HIT_PLAYER = 7
+WeaponSound_t::WEAPON_SOUND_MELEE_HIT_NPC = 8
+WeaponSound_t::WEAPON_SOUND_SPECIAL1 = 9
+WeaponSound_t::WEAPON_SOUND_SPECIAL2 = 10
+WeaponSound_t::WEAPON_SOUND_SPECIAL3 = 11
+WeaponSound_t::WEAPON_SOUND_NEARLYEMPTY = 12
+WeaponSound_t::WEAPON_SOUND_IMPACT = 13
+WeaponSound_t::WEAPON_SOUND_REFLECT = 14
+WeaponSound_t::WEAPON_SOUND_SECONDARY_IMPACT = 15
+WeaponSound_t::WEAPON_SOUND_SECONDARY_REFLECT = 16
+WeaponSound_t::WEAPON_SOUND_RELOAD = 17
+WeaponSound_t::WEAPON_SOUND_SINGLE_ACCURATE = 18
+WeaponSound_t::WEAPON_SOUND_ZOOM_IN = 19
+WeaponSound_t::WEAPON_SOUND_ZOOM_OUT = 20
+WeaponSound_t::WEAPON_SOUND_MOUSE_PRESSED = 21
+WeaponSound_t::WEAPON_SOUND_DROP = 22
+WeaponSound_t::WEAPON_SOUND_RADIO_USE = 23
+WeaponSound_t::WEAPON_SOUND_NUM_TYPES = 24
+
+# --- WeaponSwitchReason_t (size=4 bytes, 5 values)
+WeaponSwitchReason_t::eDrawn = 0
+WeaponSwitchReason_t::eEquipped = 1
+WeaponSwitchReason_t::eUserInitiatedSwitchToLast = 2
+WeaponSwitchReason_t::eUserInitiatedUIKeyPress = 3
+WeaponSwitchReason_t::eUserInitiatedSwitchHands = 4
+
+# --- WorldTextPanelHorizontalAlign_t (size=4 bytes, 3 values)
+WorldTextPanelHorizontalAlign_t::WORLDTEXT_HORIZONTAL_ALIGN_LEFT = 0
+WorldTextPanelHorizontalAlign_t::WORLDTEXT_HORIZONTAL_ALIGN_CENTER = 1
+WorldTextPanelHorizontalAlign_t::WORLDTEXT_HORIZONTAL_ALIGN_RIGHT = 2
+
+# --- WorldTextPanelOrientation_t (size=4 bytes, 3 values)
+WorldTextPanelOrientation_t::WORLDTEXT_ORIENTATION_DEFAULT = 0
+WorldTextPanelOrientation_t::WORLDTEXT_ORIENTATION_FACEUSER = 1
+WorldTextPanelOrientation_t::WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT = 2
+
+# --- WorldTextPanelVerticalAlign_t (size=4 bytes, 3 values)
+WorldTextPanelVerticalAlign_t::WORLDTEXT_VERTICAL_ALIGN_TOP = 0
+WorldTextPanelVerticalAlign_t::WORLDTEXT_VERTICAL_ALIGN_CENTER = 1
+WorldTextPanelVerticalAlign_t::WORLDTEXT_VERTICAL_ALIGN_BOTTOM = 2
+
+# --- attributeprovidertypes_t (size=4 bytes, 2 values)
+attributeprovidertypes_t::PROVIDER_GENERIC = 0
+attributeprovidertypes_t::PROVIDER_WEAPON = 1
+
+# --- doorCheck_e (size=4 bytes, 3 values)
+doorCheck_e::DOOR_CHECK_FORWARD = 0
+doorCheck_e::DOOR_CHECK_BACKWARD = 1
+doorCheck_e::DOOR_CHECK_FULL = 2
+
+# --- eRollType (size=4 bytes, 5 values)
+eRollType::ROLL_NONE = -1
+eRollType::ROLL_STATS = 0
+eRollType::ROLL_CREDITS = 1
+eRollType::ROLL_LATE_JOIN_LOGO = 2
+eRollType::ROLL_OUTTRO = 3
+
+# --- eSplinePushType (size=4 bytes, 3 values)
+eSplinePushType::k_eSplinePushAlong = 0
+eSplinePushType::k_eSplinePushAway = 1
+eSplinePushType::k_eSplinePushTowards = 2
+
+# --- filter_t (size=4 bytes, 2 values)
+filter_t::FILTER_AND = 0
+filter_t::FILTER_OR = 1
+
+# --- gear_slot_t (size=4 bytes, 17 values)
+gear_slot_t::GEAR_SLOT_INVALID = -1
+gear_slot_t::GEAR_SLOT_RIFLE = 0
+gear_slot_t::GEAR_SLOT_PISTOL = 1
+gear_slot_t::GEAR_SLOT_KNIFE = 2
+gear_slot_t::GEAR_SLOT_GRENADES = 3
+gear_slot_t::GEAR_SLOT_C4 = 4
+gear_slot_t::GEAR_SLOT_RESERVED_SLOT6 = 5
+gear_slot_t::GEAR_SLOT_RESERVED_SLOT7 = 6
+gear_slot_t::GEAR_SLOT_RESERVED_SLOT8 = 7
+gear_slot_t::GEAR_SLOT_RESERVED_SLOT9 = 8
+gear_slot_t::GEAR_SLOT_RESERVED_SLOT10 = 9
+gear_slot_t::GEAR_SLOT_RESERVED_SLOT11 = 10
+gear_slot_t::GEAR_SLOT_BOOSTS = 11
+gear_slot_t::GEAR_SLOT_UTILITY = 12
+gear_slot_t::GEAR_SLOT_COUNT = 13
+gear_slot_t::GEAR_SLOT_FIRST = 0
+gear_slot_t::GEAR_SLOT_LAST = 12
+
+# --- loadout_slot_t (size=4 bytes, 75 values)
+loadout_slot_t::LOADOUT_SLOT_PROMOTED = -2
+loadout_slot_t::LOADOUT_SLOT_INVALID = -1
+loadout_slot_t::LOADOUT_SLOT_MELEE = 0
+loadout_slot_t::LOADOUT_SLOT_C4 = 1
+loadout_slot_t::LOADOUT_SLOT_FIRST_AUTO_BUY_WEAPON = 0
+loadout_slot_t::LOADOUT_SLOT_LAST_AUTO_BUY_WEAPON = 1
+loadout_slot_t::LOADOUT_SLOT_SECONDARY0 = 2
+loadout_slot_t::LOADOUT_SLOT_SECONDARY1 = 3
+loadout_slot_t::LOADOUT_SLOT_SECONDARY2 = 4
+loadout_slot_t::LOADOUT_SLOT_SECONDARY3 = 5
+loadout_slot_t::LOADOUT_SLOT_SECONDARY4 = 6
+loadout_slot_t::LOADOUT_SLOT_SECONDARY5 = 7
+loadout_slot_t::LOADOUT_SLOT_SMG0 = 8
+loadout_slot_t::LOADOUT_SLOT_SMG1 = 9
+loadout_slot_t::LOADOUT_SLOT_SMG2 = 10
+loadout_slot_t::LOADOUT_SLOT_SMG3 = 11
+loadout_slot_t::LOADOUT_SLOT_SMG4 = 12
+loadout_slot_t::LOADOUT_SLOT_SMG5 = 13
+loadout_slot_t::LOADOUT_SLOT_RIFLE0 = 14
+loadout_slot_t::LOADOUT_SLOT_RIFLE1 = 15
+loadout_slot_t::LOADOUT_SLOT_RIFLE2 = 16
+loadout_slot_t::LOADOUT_SLOT_RIFLE3 = 17
+loadout_slot_t::LOADOUT_SLOT_RIFLE4 = 18
+loadout_slot_t::LOADOUT_SLOT_RIFLE5 = 19
+loadout_slot_t::LOADOUT_SLOT_HEAVY0 = 20
+loadout_slot_t::LOADOUT_SLOT_HEAVY1 = 21
+loadout_slot_t::LOADOUT_SLOT_HEAVY2 = 22
+loadout_slot_t::LOADOUT_SLOT_HEAVY3 = 23
+loadout_slot_t::LOADOUT_SLOT_HEAVY4 = 24
+loadout_slot_t::LOADOUT_SLOT_HEAVY5 = 25
+loadout_slot_t::LOADOUT_SLOT_FIRST_WHEEL_WEAPON = 2
+loadout_slot_t::LOADOUT_SLOT_LAST_WHEEL_WEAPON = 25
+loadout_slot_t::LOADOUT_SLOT_FIRST_PRIMARY_WEAPON = 8
+loadout_slot_t::LOADOUT_SLOT_LAST_PRIMARY_WEAPON = 25
+loadout_slot_t::LOADOUT_SLOT_FIRST_WHEEL_GRENADE = 26
+loadout_slot_t::LOADOUT_SLOT_GRENADE0 = 26
+loadout_slot_t::LOADOUT_SLOT_GRENADE1 = 27
+loadout_slot_t::LOADOUT_SLOT_GRENADE2 = 28
+loadout_slot_t::LOADOUT_SLOT_GRENADE3 = 29
+loadout_slot_t::LOADOUT_SLOT_GRENADE4 = 30
+loadout_slot_t::LOADOUT_SLOT_GRENADE5 = 31
+loadout_slot_t::LOADOUT_SLOT_LAST_WHEEL_GRENADE = 31
+loadout_slot_t::LOADOUT_SLOT_EQUIPMENT0 = 32
+loadout_slot_t::LOADOUT_SLOT_EQUIPMENT1 = 33
+loadout_slot_t::LOADOUT_SLOT_EQUIPMENT2 = 34
+loadout_slot_t::LOADOUT_SLOT_EQUIPMENT3 = 35
+loadout_slot_t::LOADOUT_SLOT_EQUIPMENT4 = 36
+loadout_slot_t::LOADOUT_SLOT_EQUIPMENT5 = 37
+loadout_slot_t::LOADOUT_SLOT_FIRST_WHEEL_EQUIPMENT = 32
+loadout_slot_t::LOADOUT_SLOT_LAST_WHEEL_EQUIPMENT = 37
+loadout_slot_t::LOADOUT_SLOT_CLOTHING_CUSTOMPLAYER = 38
+loadout_slot_t::LOADOUT_SLOT_CLOTHING_CUSTOMHEAD = 39
+loadout_slot_t::LOADOUT_SLOT_CLOTHING_FACEMASK = 40
+loadout_slot_t::LOADOUT_SLOT_CLOTHING_HANDS = 41
+loadout_slot_t::LOADOUT_SLOT_FIRST_COSMETIC = 41
+loadout_slot_t::LOADOUT_SLOT_LAST_COSMETIC = 41
+loadout_slot_t::LOADOUT_SLOT_CLOTHING_EYEWEAR = 42
+loadout_slot_t::LOADOUT_SLOT_CLOTHING_HAT = 43
+loadout_slot_t::LOADOUT_SLOT_CLOTHING_LOWERBODY = 44
+loadout_slot_t::LOADOUT_SLOT_CLOTHING_TORSO = 45
+loadout_slot_t::LOADOUT_SLOT_CLOTHING_APPEARANCE = 46
+loadout_slot_t::LOADOUT_SLOT_MISC0 = 47
+loadout_slot_t::LOADOUT_SLOT_MISC1 = 48
+loadout_slot_t::LOADOUT_SLOT_MISC2 = 49
+loadout_slot_t::LOADOUT_SLOT_MISC3 = 50
+loadout_slot_t::LOADOUT_SLOT_MISC4 = 51
+loadout_slot_t::LOADOUT_SLOT_MISC5 = 52
+loadout_slot_t::LOADOUT_SLOT_MISC6 = 53
+loadout_slot_t::LOADOUT_SLOT_MUSICKIT = 54
+loadout_slot_t::LOADOUT_SLOT_FLAIR0 = 55
+loadout_slot_t::LOADOUT_SLOT_SPRAY0 = 56
+loadout_slot_t::LOADOUT_SLOT_PET = 57
+loadout_slot_t::LOADOUT_SLOT_FIRST_ALL_CHARACTER = 54
+loadout_slot_t::LOADOUT_SLOT_LAST_ALL_CHARACTER = 57
+loadout_slot_t::LOADOUT_SLOT_COUNT = 58
+
+# --- navproperties_t (size=4 bytes, 1 values)
+navproperties_t::NAV_IGNORE = 1
+
+# --- soundcommands_t (size=4 bytes, 5 values)
+soundcommands_t::SOUNDCTRL_CHANGE_VOLUME = 0
+soundcommands_t::SOUNDCTRL_CHANGE_PITCH = 1
+soundcommands_t::SOUNDCTRL_STOP = 2
+soundcommands_t::SOUNDCTRL_DESTROY = 3
+soundcommands_t::SOUNDCTRL_FADEOUT = 4
+
+# --- vote_create_failed_t (size=4 bytes, 35 values)
+vote_create_failed_t::VOTE_FAILED_GENERIC = 0
+vote_create_failed_t::VOTE_FAILED_TRANSITIONING_PLAYERS = 1
+vote_create_failed_t::VOTE_FAILED_RATE_EXCEEDED = 2
+vote_create_failed_t::VOTE_FAILED_YES_MUST_EXCEED_NO = 3
+vote_create_failed_t::VOTE_FAILED_QUORUM_FAILURE = 4
+vote_create_failed_t::VOTE_FAILED_ISSUE_DISABLED = 5
+vote_create_failed_t::VOTE_FAILED_MAP_NOT_FOUND = 6
+vote_create_failed_t::VOTE_FAILED_MAP_NAME_REQUIRED = 7
+vote_create_failed_t::VOTE_FAILED_FAILED_RECENTLY = 8
+vote_create_failed_t::VOTE_FAILED_TEAM_CANT_CALL = 9
+vote_create_failed_t::VOTE_FAILED_WAITINGFORPLAYERS = 10
+vote_create_failed_t::VOTE_FAILED_PLAYERNOTFOUND = 11
+vote_create_failed_t::VOTE_FAILED_CANNOT_KICK_ADMIN = 12
+vote_create_failed_t::VOTE_FAILED_SCRAMBLE_IN_PROGRESS = 13
+vote_create_failed_t::VOTE_FAILED_SPECTATOR = 14
+vote_create_failed_t::VOTE_FAILED_FAILED_RECENT_KICK = 15
+vote_create_failed_t::VOTE_FAILED_FAILED_RECENT_CHANGEMAP = 16
+vote_create_failed_t::VOTE_FAILED_FAILED_RECENT_SWAPTEAMS = 17
+vote_create_failed_t::VOTE_FAILED_FAILED_RECENT_SCRAMBLETEAMS = 18
+vote_create_failed_t::VOTE_FAILED_FAILED_RECENT_RESTART = 19
+vote_create_failed_t::VOTE_FAILED_SWAP_IN_PROGRESS = 20
+vote_create_failed_t::VOTE_FAILED_DISABLED = 21
+vote_create_failed_t::VOTE_FAILED_NEXTLEVEL_SET = 22
+vote_create_failed_t::VOTE_FAILED_TOO_EARLY_SURRENDER = 23
+vote_create_failed_t::VOTE_FAILED_MATCH_PAUSED = 24
+vote_create_failed_t::VOTE_FAILED_MATCH_NOT_PAUSED = 25
+vote_create_failed_t::VOTE_FAILED_NOT_IN_WARMUP = 26
+vote_create_failed_t::VOTE_FAILED_NOT_10_PLAYERS = 27
+vote_create_failed_t::VOTE_FAILED_TIMEOUT_ACTIVE = 28
+vote_create_failed_t::VOTE_FAILED_TIMEOUT_INACTIVE = 29
+vote_create_failed_t::VOTE_FAILED_TIMEOUT_EXHAUSTED = 30
+vote_create_failed_t::VOTE_FAILED_CANT_ROUND_END = 31
+vote_create_failed_t::VOTE_FAILED_REMATCH = 32
+vote_create_failed_t::VOTE_FAILED_CONTINUE = 33
+vote_create_failed_t::VOTE_FAILED_MAX = 34
+

@@ -1,0 +1,10 @@
+// CSubtractUpdateNode
+// Size: 0xB3450A2E (-1287321042 bytes)
+// Parent: CBinaryUpdateNode
+// Module: client.dll
+//
+// Inheritance:
+//   CSubtractUpdateNode -> CBinaryUpdateNode -> CAnimUpdateNodeBase -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> ITargetWarpInputNode
+//
+
+// (no own fields)

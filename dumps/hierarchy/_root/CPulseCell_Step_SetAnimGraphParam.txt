@@ -1,0 +1,10 @@
+// CPulseCell_Step_SetAnimGraphParam
+// Size: 0xB3459048 (-1287286712 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: server.dll
+//
+// Inheritance:
+//   CPulseCell_Step_SetAnimGraphParam -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

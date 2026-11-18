@@ -1,0 +1,10 @@
+// CCSPlayerController_InGameMoneyServices
+// Size: 0xB345A831 (-1287280591 bytes)
+// Parent: CPlayerControllerComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CCSPlayerController_InGameMoneyServices -> CPlayerControllerComponent
+//
+
+// (no own fields)

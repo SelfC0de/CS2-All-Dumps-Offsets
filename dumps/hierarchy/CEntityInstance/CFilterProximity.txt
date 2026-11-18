@@ -1,0 +1,10 @@
+// CFilterProximity
+// Size: 0xB345AFFD (-1287278595 bytes)
+// Parent: CBaseFilter
+// Module: client.dll
+//
+// Inheritance:
+//   CFilterProximity -> CBaseFilter -> CLogicalEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

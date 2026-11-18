@@ -1,0 +1,10 @@
+// C_CSGameRulesProxy
+// Size: 0xB345EBE2 (-1287263262 bytes)
+// Parent: C_GameRulesProxy
+// Module: client.dll
+//
+// Inheritance:
+//   C_CSGameRulesProxy -> C_GameRulesProxy -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

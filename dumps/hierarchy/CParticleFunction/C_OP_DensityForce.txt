@@ -1,0 +1,10 @@
+// C_OP_DensityForce
+// Size: 0xB3455EC5 (-1287299387 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_DensityForce -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

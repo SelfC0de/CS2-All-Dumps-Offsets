@@ -1,0 +1,10 @@
+// CPointHurt
+// Size: 0xB345B927 (-1287276249 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointHurt -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CCompositeMaterialEditorDoc
+// Size: 0xB345E81B (-1287264229 bytes)
+// Parent: CBaseUndoable
+// Module: client.dll
+//
+// Inheritance:
+//   CCompositeMaterialEditorDoc -> CBaseUndoable -> IUndoable
+//
+
+// (no own fields)

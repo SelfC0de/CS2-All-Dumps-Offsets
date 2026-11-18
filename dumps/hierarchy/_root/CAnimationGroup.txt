@@ -1,0 +1,10 @@
+// CAnimationGroup
+// Size: 0xB32C85C0 (-1288927808 bytes)
+// Parent: ?$CRefCounted@V?$CRefCountServiceBase@VCRefMT
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimationGroup -> ?$CRefCounted@V?$CRefCountServiceBase@VCRefMT -> ?$CRefCountServiceBase@VCRefMT
+//
+
+// (no own fields)

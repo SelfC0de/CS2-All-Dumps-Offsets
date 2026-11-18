@@ -1,0 +1,10 @@
+// CCSPlace
+// Size: 0xB345C124 (-1287274204 bytes)
+// Parent: CServerOnlyModelEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CCSPlace -> CServerOnlyModelEntity -> CBaseModelEntity -> CBaseEntity -> CEntityInstance -> ?$CUtlAutoList@VCCSPlace
+//
+
+// (no own fields)

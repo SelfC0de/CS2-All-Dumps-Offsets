@@ -1,0 +1,10 @@
+// CEnvShake
+// Size: 0xB345B3DC (-1287277604 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvShake -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

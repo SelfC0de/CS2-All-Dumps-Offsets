@@ -1,0 +1,20 @@
+// CBaseConstraint
+// Size: 0xB364F4FA (-1285229318 bytes)
+// Parent: CBoneConstraintBase
+// Module: client.dll
+//
+// Inheritance:
+//   CBaseConstraint -> CBoneConstraintBase
+//
+// Direct subclasses (8):
+//   CAimConstraint
+//   CBoneConstraintPoseSpaceBone
+//   CMorphConstraint
+//   COrientConstraint
+//   CParentConstraint
+//   CPointConstraint
+//   CTiltTwistConstraint
+//   CTwistConstraint
+//
+
+// (no own fields)

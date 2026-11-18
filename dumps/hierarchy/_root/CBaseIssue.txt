@@ -1,0 +1,6 @@
+// CBaseIssue
+// Size: 0xB345A9A7 (-1287280217 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

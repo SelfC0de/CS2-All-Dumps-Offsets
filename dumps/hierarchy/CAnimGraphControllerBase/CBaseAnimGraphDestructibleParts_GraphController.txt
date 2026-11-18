@@ -1,0 +1,10 @@
+// CBaseAnimGraphDestructibleParts_GraphController
+// Size: 0xB34585F9 (-1287289351 bytes)
+// Parent: CAnimGraphControllerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CBaseAnimGraphDestructibleParts_GraphController -> CAnimGraphControllerBase
+//
+
+// (no own fields)

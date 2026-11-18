@@ -1,0 +1,10 @@
+// CBodyComponentBaseAnimGraph
+// Size: 0xB34584D7 (-1287289641 bytes)
+// Parent: CBodyComponentSkeletonInstance
+// Module: client.dll
+//
+// Inheritance:
+//   CBodyComponentBaseAnimGraph -> CBodyComponentSkeletonInstance -> CBodyComponent -> CEntityComponent
+//
+
+// (no own fields)

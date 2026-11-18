@@ -1,0 +1,10 @@
+// CPulseCell_Outflow_TestRandomYesNo
+// Size: 0xB34548A4 (-1287305052 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseCell_Outflow_TestRandomYesNo -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

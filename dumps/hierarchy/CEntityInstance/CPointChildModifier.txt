@@ -1,0 +1,10 @@
+// CPointChildModifier
+// Size: 0xB345AD41 (-1287279295 bytes)
+// Parent: C_PointEntity
+// Module: client.dll
+//
+// Inheritance:
+//   CPointChildModifier -> C_PointEntity -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CBtNodeComposite
+// Size: 0xB345AA8A (-1287279990 bytes)
+// Parent: CBtNode
+// Module: client.dll
+//
+// Inheritance:
+//   CBtNodeComposite -> CBtNode
+//
+
+// (no own fields)

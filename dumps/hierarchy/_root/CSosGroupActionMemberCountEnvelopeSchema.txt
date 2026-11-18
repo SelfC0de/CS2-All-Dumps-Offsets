@@ -1,0 +1,10 @@
+// CSosGroupActionMemberCountEnvelopeSchema
+// Size: 0xB3452D10 (-1287312112 bytes)
+// Parent: CSosGroupActionSchema
+// Module: client.dll
+//
+// Inheritance:
+//   CSosGroupActionMemberCountEnvelopeSchema -> CSosGroupActionSchema
+//
+
+// (no own fields)

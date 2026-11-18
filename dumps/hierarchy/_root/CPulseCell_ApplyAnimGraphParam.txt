@@ -1,0 +1,10 @@
+// CPulseCell_ApplyAnimGraphParam
+// Size: 0xB345926A (-1287286166 bytes)
+// Parent: CPulseCell_BaseYieldingInflow
+// Module: server.dll
+//
+// Inheritance:
+//   CPulseCell_ApplyAnimGraphParam -> CPulseCell_BaseYieldingInflow -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

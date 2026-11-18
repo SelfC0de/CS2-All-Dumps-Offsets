@@ -1,0 +1,10 @@
+// C_INIT_SetHitboxToClosest
+// Size: 0xB3454F92 (-1287303278 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_SetHitboxToClosest -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

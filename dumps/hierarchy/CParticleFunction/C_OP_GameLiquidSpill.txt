@@ -1,0 +1,10 @@
+// C_OP_GameLiquidSpill
+// Size: 0xB3457B2F (-1287292113 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_GameLiquidSpill -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

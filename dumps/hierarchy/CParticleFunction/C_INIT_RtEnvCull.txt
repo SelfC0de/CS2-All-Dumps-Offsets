@@ -1,0 +1,10 @@
+// C_INIT_RtEnvCull
+// Size: 0xB34557D3 (-1287301165 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_RtEnvCull -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

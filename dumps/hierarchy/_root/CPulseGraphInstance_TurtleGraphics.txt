@@ -1,0 +1,10 @@
+// CPulseGraphInstance_TurtleGraphics
+// Size: 0xB3454913 (-1287304941 bytes)
+// Parent: CBasePulseGraphInstance
+// Module: pulse_system.dll
+//
+// Inheritance:
+//   CPulseGraphInstance_TurtleGraphics -> CBasePulseGraphInstance -> IPulseHost_Unknown -> IPulseGraphInstance_TurtleGraphics
+//
+
+// (no own fields)

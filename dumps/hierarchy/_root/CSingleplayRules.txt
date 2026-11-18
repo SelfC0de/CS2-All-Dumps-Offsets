@@ -1,0 +1,10 @@
+// CSingleplayRules
+// Size: 0xB3459CE7 (-1287283481 bytes)
+// Parent: CGameRules
+// Module: server.dll
+//
+// Inheritance:
+//   CSingleplayRules -> CGameRules -> CMemZeroOnNew
+//
+
+// (no own fields)

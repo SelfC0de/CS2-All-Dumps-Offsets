@@ -1,0 +1,10 @@
+// C_PhysPropClientside
+// Size: 0xB345FC4D (-1287259059 bytes)
+// Parent: C_BreakableProp
+// Module: client.dll
+//
+// Inheritance:
+//   C_PhysPropClientside -> C_BreakableProp -> CBaseProp -> CBaseAnimGraph -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

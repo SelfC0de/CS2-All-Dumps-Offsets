@@ -1,0 +1,10 @@
+// CModelConfigElement_UserPick
+// Size: 0xB364F177 (-1285230217 bytes)
+// Parent: CModelConfigElement
+// Module: client.dll
+//
+// Inheritance:
+//   CModelConfigElement_UserPick -> CModelConfigElement
+//
+
+// (no own fields)

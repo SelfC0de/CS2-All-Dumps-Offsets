@@ -1,0 +1,10 @@
+// C_OP_RenderStatusEffectCitadel
+// Size: 0xB3457BD3 (-1287291949 bytes)
+// Parent: CParticleFunctionRenderer
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RenderStatusEffectCitadel -> CParticleFunctionRenderer -> CParticleFunction
+//
+
+// (no own fields)

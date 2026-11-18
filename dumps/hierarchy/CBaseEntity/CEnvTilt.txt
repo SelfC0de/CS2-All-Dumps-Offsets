@@ -1,0 +1,10 @@
+// CEnvTilt
+// Size: 0xB345B3EA (-1287277590 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvTilt -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

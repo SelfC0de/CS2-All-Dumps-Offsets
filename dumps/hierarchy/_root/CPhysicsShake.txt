@@ -1,0 +1,10 @@
+// CPhysicsShake
+// Size: 0xB3458ECF (-1287287089 bytes)
+// Parent: IMotionEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CPhysicsShake -> IMotionEvent
+//
+
+// (no own fields)

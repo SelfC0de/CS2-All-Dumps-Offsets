@@ -1,0 +1,10 @@
+// CInstructorEventEntity
+// Size: 0xB345B3A7 (-1287277657 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CInstructorEventEntity -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_EnvDetailController
+// Size: 0xB345E9C1 (-1287263807 bytes)
+// Parent: C_BaseEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_EnvDetailController -> C_BaseEntity -> CEntityInstance
+//
+
+// (no own fields)

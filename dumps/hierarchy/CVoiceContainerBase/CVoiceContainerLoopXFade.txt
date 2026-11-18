@@ -1,0 +1,10 @@
+// CVoiceContainerLoopXFade
+// Size: 0xB3453228 (-1287310808 bytes)
+// Parent: CVoiceContainerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerLoopXFade -> CVoiceContainerBase
+//
+
+// (no own fields)

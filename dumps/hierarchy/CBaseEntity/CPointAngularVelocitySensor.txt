@@ -1,0 +1,10 @@
+// CPointAngularVelocitySensor
+// Size: 0xB345B8EE (-1287276306 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointAngularVelocitySensor -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

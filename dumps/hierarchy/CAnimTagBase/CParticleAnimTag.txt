@@ -1,0 +1,10 @@
+// CParticleAnimTag
+// Size: 0xB33DEC8F (-1287787377 bytes)
+// Parent: CAnimTagBase
+// Module: client.dll
+//
+// Inheritance:
+//   CParticleAnimTag -> CAnimTagBase -> IAnimTag -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> IParticleAnimTag
+//
+
+// (no own fields)

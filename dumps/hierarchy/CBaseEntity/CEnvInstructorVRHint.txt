@@ -1,0 +1,10 @@
+// CEnvInstructorVRHint
+// Size: 0xB345B38E (-1287277682 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CEnvInstructorVRHint -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

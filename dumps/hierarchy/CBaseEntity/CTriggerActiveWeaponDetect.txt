@@ -1,0 +1,10 @@
+// CTriggerActiveWeaponDetect
+// Size: 0xB345C8D9 (-1287272231 bytes)
+// Parent: CBaseTrigger
+// Module: server.dll
+//
+// Inheritance:
+//   CTriggerActiveWeaponDetect -> CBaseTrigger -> CBaseToggle -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

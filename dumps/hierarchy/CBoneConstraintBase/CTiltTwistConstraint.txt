@@ -1,0 +1,10 @@
+// CTiltTwistConstraint
+// Size: 0xB364F561 (-1285229215 bytes)
+// Parent: CBaseConstraint
+// Module: client.dll
+//
+// Inheritance:
+//   CTiltTwistConstraint -> CBaseConstraint -> CBoneConstraintBase
+//
+
+// (no own fields)

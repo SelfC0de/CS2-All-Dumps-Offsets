@@ -1,0 +1,10 @@
+// CParticleSystemDefinition
+// Size: 0xB3454B76 (-1287304330 bytes)
+// Parent: IParticleSystemDefinition
+// Module: client.dll
+//
+// Inheritance:
+//   CParticleSystemDefinition -> IParticleSystemDefinition
+//
+
+// (no own fields)

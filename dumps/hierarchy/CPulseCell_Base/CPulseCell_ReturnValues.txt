@@ -1,0 +1,10 @@
+// CPulseCell_ReturnValues
+// Size: 0xB364C533 (-1285241549 bytes)
+// Parent: CPulseCell_BaseFlow
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseCell_ReturnValues -> CPulseCell_BaseFlow -> CPulseCell_Base
+//
+
+// (no own fields)

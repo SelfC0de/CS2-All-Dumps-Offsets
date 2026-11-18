@@ -1,0 +1,6 @@
+// CAttributeList
+// Size: 0xB3459EF9 (-1287282951 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

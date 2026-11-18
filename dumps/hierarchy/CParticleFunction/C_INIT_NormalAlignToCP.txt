@@ -1,0 +1,10 @@
+// C_INIT_NormalAlignToCP
+// Size: 0xB34557FE (-1287301122 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_NormalAlignToCP -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

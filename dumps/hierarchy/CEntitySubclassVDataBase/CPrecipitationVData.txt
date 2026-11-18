@@ -1,0 +1,10 @@
+// CPrecipitationVData
+// Size: 0xB3459B00 (-1287283968 bytes)
+// Parent: CEntitySubclassVDataBase
+// Module: client.dll
+//
+// Inheritance:
+//   CPrecipitationVData -> CEntitySubclassVDataBase -> CMemZeroOnNew
+//
+
+// (no own fields)

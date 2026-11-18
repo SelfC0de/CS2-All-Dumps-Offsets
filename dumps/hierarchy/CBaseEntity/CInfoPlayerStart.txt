@@ -1,0 +1,10 @@
+// CInfoPlayerStart
+// Size: 0xB345B866 (-1287276442 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CInfoPlayerStart -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

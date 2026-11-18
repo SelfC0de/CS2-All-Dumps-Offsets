@@ -1,0 +1,10 @@
+// C_INIT_InitialSequenceFromModel
+// Size: 0xB34559E1 (-1287300639 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_InitialSequenceFromModel -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

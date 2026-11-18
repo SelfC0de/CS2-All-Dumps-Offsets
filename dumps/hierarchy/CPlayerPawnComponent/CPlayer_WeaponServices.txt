@@ -1,0 +1,13 @@
+// CPlayer_WeaponServices
+// Size: 0xB345839A (-1287289958 bytes)
+// Parent: CPlayerPawnComponent
+// Module: client.dll
+//
+// Inheritance:
+//   CPlayer_WeaponServices -> CPlayerPawnComponent
+//
+// Direct subclasses (1):
+//   CCSPlayer_WeaponServices
+//
+
+// (no own fields)

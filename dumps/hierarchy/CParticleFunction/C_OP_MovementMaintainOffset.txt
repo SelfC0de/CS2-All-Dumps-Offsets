@@ -1,0 +1,10 @@
+// C_OP_MovementMaintainOffset
+// Size: 0xB34569A1 (-1287296607 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_MovementMaintainOffset -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

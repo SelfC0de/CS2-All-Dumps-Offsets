@@ -1,0 +1,13 @@
+// CAnimGraphSettingsGroup
+// Size: 0xB33DEA4B (-1287787957 bytes)
+// Parent: IAnimGraphSettingsGroup
+// Module: client.dll
+//
+// Inheritance:
+//   CAnimGraphSettingsGroup -> IAnimGraphSettingsGroup -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+// Direct subclasses (1):
+//   CAnimGraphNetworkSettings
+//
+
+// (no own fields)

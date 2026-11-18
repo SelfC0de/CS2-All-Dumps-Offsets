@@ -1,0 +1,10 @@
+// C_INIT_ModelCull
+// Size: 0xB345576F (-1287301265 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_ModelCull -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

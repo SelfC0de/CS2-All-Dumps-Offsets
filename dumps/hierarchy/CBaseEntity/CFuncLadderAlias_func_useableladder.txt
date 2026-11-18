@@ -1,0 +1,10 @@
+// CFuncLadderAlias_func_useableladder
+// Size: 0xB345C5CC (-1287273012 bytes)
+// Parent: CFuncLadder
+// Module: server.dll
+//
+// Inheritance:
+//   CFuncLadderAlias_func_useableladder -> CFuncLadder -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

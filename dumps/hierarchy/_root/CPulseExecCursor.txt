@@ -1,0 +1,10 @@
+// CPulseExecCursor
+// Size: 0xB32C8744 (-1288927420 bytes)
+// Parent: IPulseExecLog
+// Module: client.dll
+//
+// Inheritance:
+//   CPulseExecCursor -> IPulseExecLog -> IPulseHost_Unknown -> IPulseHost_YieldingCursor -> IPulseHost_Cursor -> IPulseHost_BaseObservable
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CKeepUpright
+// Size: 0xB345B703 (-1287276797 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CKeepUpright -> CPointEntity -> CBaseEntity -> CEntityInstance -> IMotionEvent
+//
+
+// (no own fields)

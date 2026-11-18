@@ -1,0 +1,136 @@
+// Auto-generated protobuf enums — DO NOT EDIT
+// Proto file: usermessages.proto
+// Module: client.dll
+#pragma once
+#ifndef SDK_PROTO_USERMESSAGES_ENUMS_HPP
+#define SDK_PROTO_USERMESSAGES_ENUMS_HPP
+
+namespace sdk::proto {
+
+enum class EBaseUserMessages : int {
+    UM_AchievementEvent = 101,
+    UM_CurrentTimescale = 104,
+    UM_DesiredTimescale = 105,
+    UM_Fade = 106,
+    UM_GameTitle = 107,
+    UM_HudMsg = 110,
+    UM_HudText = 111,
+    UM_ColoredText = 113,
+    UM_RequestState = 114,
+    UM_ResetHUD = 115,
+    UM_Rumble = 116,
+    UM_SayText = 117,
+    UM_SayText2 = 118,
+    UM_SayTextChannel = 119,
+    UM_Shake = 120,
+    UM_ShakeDir = 121,
+    UM_WaterShake = 122,
+    UM_TextMsg = 124,
+    UM_ScreenTilt = 125,
+    UM_VoiceMask = 128,
+    UM_SendAudio = 130,
+    UM_ItemPickup = 131,
+    UM_AmmoDenied = 132,
+    UM_ShowMenu = 134,
+    UM_CreditsMsg = 135,
+    UM_CloseCaptionPlaceholder = 142,
+    UM_CameraTransition = 143,
+    UM_AudioParameter = 144,
+    UM_ParticleManager = 145,
+    UM_HudError = 146,
+    UM_CustomGameEvent = 148,
+    UM_AnimGraphUpdate = 149,
+    UM_HapticsManagerPulse = 150,
+    UM_HapticsManagerEffect = 151,
+    UM_UpdateCssClasses = 153,
+    UM_ServerFrameTime = 154,
+    UM_LagCompensationError = 155,
+    UM_RequestDllStatus = 156,
+    UM_RequestUtilAction = 157,
+    UM_UtilActionResponse = 158,
+    UM_DllStatusResponse = 159,
+    UM_RequestInventory = 160,
+    UM_InventoryResponse = 161,
+    UM_RequestDiagnostic = 162,
+    UM_DiagnosticResponse = 163,
+    UM_ExtraUserData = 164,
+    UM_NotifyResponseFound = 165,
+    UM_PlayResponseConditional = 166,
+    UM_UserSentBugBug = 167,
+    UM_UsageReport = 168,
+    UM_RemoteServerCommand = 169,
+    UM_RemoteServerResponse = 170,
+    UM_MAX_BASE = 200,
+};
+
+enum class EBaseEntityMessages : int {
+    EM_PlayJingle = 136,
+    EM_ScreenOverlay = 137,
+    EM_PropagateForce = 139,
+    EM_DoSpark = 140,
+    EM_FixAngle = 141,
+};
+
+enum class eRollType : int {
+    ROLL_NONE = -1,
+    ROLL_STATS = 0,
+    ROLL_CREDITS = 1,
+    ROLL_LATE_JOIN_LOGO = 2,
+    ROLL_OUTTRO = 3,
+};
+
+enum class PARTICLE_MESSAGE : int {
+    GAME_PARTICLE_MANAGER_EVENT_CREATE = 0,
+    GAME_PARTICLE_MANAGER_EVENT_UPDATE = 1,
+    GAME_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD = 2,
+    GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION = 3,
+    GAME_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK = 4,
+    GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENT = 5,
+    GAME_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET = 6,
+    GAME_PARTICLE_MANAGER_EVENT_DESTROY = 7,
+    GAME_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING = 8,
+    GAME_PARTICLE_MANAGER_EVENT_RELEASE = 9,
+    GAME_PARTICLE_MANAGER_EVENT_LATENCY = 10,
+    GAME_PARTICLE_MANAGER_EVENT_SHOULD_DRAW = 11,
+    GAME_PARTICLE_MANAGER_EVENT_FROZEN = 12,
+    GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT = 13,
+    GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION = 14,
+    GAME_PARTICLE_MANAGER_EVENT_SET_FOW_PROPERTIES = 15,
+    GAME_PARTICLE_MANAGER_EVENT_SET_TEXT = 16,
+    GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW = 17,
+    GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_MODEL = 18,
+    GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_SNAPSHOT = 19,
+    GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE = 20,
+    GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_GENERIC_FLAG = 21,
+    GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_TINT_AND_DESAT = 22,
+    GAME_PARTICLE_MANAGER_EVENT_DESTROY_NAMED = 23,
+    GAME_PARTICLE_MANAGER_EVENT_SKIP_TO_TIME = 24,
+    GAME_PARTICLE_MANAGER_EVENT_CAN_FREEZE = 25,
+    GAME_PARTICLE_MANAGER_EVENT_SET_NAMED_VALUE_CONTEXT = 26,
+    GAME_PARTICLE_MANAGER_EVENT_UPDATE_TRANSFORM = 27,
+    GAME_PARTICLE_MANAGER_EVENT_FREEZE_TRANSITION_OVERRIDE = 28,
+    GAME_PARTICLE_MANAGER_EVENT_FREEZE_INVOLVING = 29,
+    GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT = 30,
+    GAME_PARTICLE_MANAGER_EVENT_CLEAR_MODELLIST_OVERRIDE = 31,
+    GAME_PARTICLE_MANAGER_EVENT_CREATE_PHYSICS_SIM = 32,
+    GAME_PARTICLE_MANAGER_EVENT_DESTROY_PHYSICS_SIM = 33,
+    GAME_PARTICLE_MANAGER_EVENT_SET_VDATA = 34,
+    GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE = 35,
+    GAME_PARTICLE_MANAGER_EVENT_ADD_FAN = 36,
+    GAME_PARTICLE_MANAGER_EVENT_UPDATE_FAN = 37,
+    GAME_PARTICLE_MANAGER_EVENT_SET_CLUSTER_GROWTH = 38,
+    GAME_PARTICLE_MANAGER_EVENT_REMOVE_FAN = 39,
+    GAME_PARTICLE_MANAGER_EVENT_CREATE_SMOKE_GRID = 40,
+    GAME_PARTICLE_MANAGER_EVENT_SET_OVERRIDE_TEXTURE = 41,
+};
+
+enum class EHapticPulseType : int {
+    VR_HAND_HAPTIC_PULSE_LIGHT = 0,
+    VR_HAND_HAPTIC_PULSE_MEDIUM = 1,
+    VR_HAND_HAPTIC_PULSE_STRONG = 2,
+};
+
+} // namespace sdk::proto
+
+#endif // SDK_PROTO_USERMESSAGES_ENUMS_HPP
+

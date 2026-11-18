@@ -1,0 +1,10 @@
+// C_OP_DistanceBetweenTransforms
+// Size: 0xB3456725 (-1287297243 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_DistanceBetweenTransforms -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

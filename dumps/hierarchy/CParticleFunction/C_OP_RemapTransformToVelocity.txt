@@ -1,0 +1,10 @@
+// C_OP_RemapTransformToVelocity
+// Size: 0xB3456C3C (-1287295940 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_RemapTransformToVelocity -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_INIT_GlobalScale
+// Size: 0xB3455A05 (-1287300603 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_GlobalScale -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

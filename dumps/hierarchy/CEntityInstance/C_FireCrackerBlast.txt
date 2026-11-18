@@ -1,0 +1,10 @@
+// C_FireCrackerBlast
+// Size: 0xB345F8D1 (-1287259951 bytes)
+// Parent: C_Inferno
+// Module: client.dll
+//
+// Inheritance:
+//   C_FireCrackerBlast -> C_Inferno -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+
+// (no own fields)

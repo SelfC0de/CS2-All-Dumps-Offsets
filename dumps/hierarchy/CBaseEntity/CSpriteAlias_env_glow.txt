@@ -1,0 +1,10 @@
+// CSpriteAlias_env_glow
+// Size: 0xB345C7B3 (-1287272525 bytes)
+// Parent: CSprite
+// Module: server.dll
+//
+// Inheritance:
+//   CSpriteAlias_env_glow -> CSprite -> CBaseModelEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,33 @@
+// Auto-generated from RTTI vtable analysis — DO NOT EDIT
+// Class: C_OP_RemapExternalWindToCP
+// Module: particles.dll
+// Vtable functions: 38 total, 25 analyzed
+// Fields are inferred from member access patterns (no PDB)
+// Generated: 2026-11-18T09:20:44
+#pragma once
+#ifndef SDK_RTTI_C_OP_REMAPEXTERNALWINDTOCP_HPP
+#define SDK_RTTI_C_OP_REMAPEXTERNALWINDTOCP_HPP
+
+#include <cstdint>
+#include <cstddef>
+
+namespace sdk::rtti {
+
+#pragma pack(push, 1)
+struct C_OP_RemapExternalWindToCP {
+    void* vtable;                               // 0x0000 (8 bytes)
+    uint8_t _pad0008[0x1E0];
+    uint32_t field_0x01E8;                      // 0x01E8 (4 bytes) [read] funcs: 14
+    uint32_t field_0x01EC;                      // 0x01EC (4 bytes) [read] funcs: 14
+    void* field_0x01F0;                         // 0x01F0 (8 bytes) [ref] funcs: 10
+    uint8_t _pad01F8[0x6D0];
+    uint8_t field_0x08C8;                       // 0x08C8 (1 bytes) [read, compare] funcs: 14
+    uint8_t _pad08C9[0x3];
+    uint32_t field_0x08CC;                      // 0x08CC (4 bytes) [read] funcs: 14
+};
+#pragma pack(pop)
+
+} // namespace sdk::rtti
+
+#endif // SDK_RTTI_C_OP_REMAPEXTERNALWINDTOCP_HPP
+

@@ -1,0 +1,1330 @@
+# Dezlock Schema Dump - animationsystem
+# Generated: 2026-11-18T09:20:44
+#
+# Sections:
+#   CLASSES    - Each class with its own fields
+#   FLATTENED  - Full memory layout (own + inherited fields)
+#   ENUMS      - Enum definitions and values
+#
+
+# ================================================================
+# CLASSES — own fields per class
+# Format: class_name.field_name = 0xOFFSET (type, size) [metadata...]
+# ================================================================
+
+# --- CParticleCollectionBindingInstance (size=0xB364ECE7, parent=CBasePulseGraphInstance)
+#     chain: CParticleCollectionBindingInstance -> CBasePulseGraphInstance -> IPulseHost_Unknown
+
+
+# ================================================================
+# FLATTENED — full memory layout (own + inherited fields)
+# Format: class_name.field_name = 0xOFFSET (type, size, defined_in)
+# ================================================================
+
+
+# ================================================================
+# ENUMS — 152 enum definitions
+# Format: enum_name::VALUE_NAME = value
+# ================================================================
+
+# --- AimMatrixBlendMode (size=4 bytes, 4 values)
+AimMatrixBlendMode::AimMatrixBlendMode_None = 0
+AimMatrixBlendMode::AimMatrixBlendMode_Additive = 1
+AimMatrixBlendMode::AimMatrixBlendMode_ModelSpaceAdditive = 2
+AimMatrixBlendMode::AimMatrixBlendMode_BoneMask = 3
+
+# --- AnimNodeNetworkMode (size=4 bytes, 2 values)
+AnimNodeNetworkMode::ServerAuthoritative = 0
+AnimNodeNetworkMode::ClientSimulate = 1
+
+# --- AnimParamButton_t (size=4 bytes, 13 values)
+AnimParamButton_t::ANIMPARAM_BUTTON_NONE = 0
+AnimParamButton_t::ANIMPARAM_BUTTON_DPAD_UP = 1
+AnimParamButton_t::ANIMPARAM_BUTTON_DPAD_RIGHT = 2
+AnimParamButton_t::ANIMPARAM_BUTTON_DPAD_DOWN = 3
+AnimParamButton_t::ANIMPARAM_BUTTON_DPAD_LEFT = 4
+AnimParamButton_t::ANIMPARAM_BUTTON_A = 5
+AnimParamButton_t::ANIMPARAM_BUTTON_B = 6
+AnimParamButton_t::ANIMPARAM_BUTTON_X = 7
+AnimParamButton_t::ANIMPARAM_BUTTON_Y = 8
+AnimParamButton_t::ANIMPARAM_BUTTON_LEFT_SHOULDER = 9
+AnimParamButton_t::ANIMPARAM_BUTTON_RIGHT_SHOULDER = 10
+AnimParamButton_t::ANIMPARAM_BUTTON_LTRIGGER = 11
+AnimParamButton_t::ANIMPARAM_BUTTON_RTRIGGER = 12
+
+# --- AnimParamNetworkSetting (size=4 bytes, 3 values)
+AnimParamNetworkSetting::Auto = 0
+AnimParamNetworkSetting::AlwaysNetwork = 1
+AnimParamNetworkSetting::NeverNetwork = 2
+
+# --- AnimParamType_t (size=1 byte, 9 values)
+AnimParamType_t::ANIMPARAM_UNKNOWN = 0
+AnimParamType_t::ANIMPARAM_BOOL = 1
+AnimParamType_t::ANIMPARAM_ENUM = 2
+AnimParamType_t::ANIMPARAM_INT = 3
+AnimParamType_t::ANIMPARAM_FLOAT = 4
+AnimParamType_t::ANIMPARAM_VECTOR = 5
+AnimParamType_t::ANIMPARAM_QUATERNION = 6
+AnimParamType_t::ANIMPARAM_GLOBALSYMBOL = 7
+AnimParamType_t::ANIMPARAM_COUNT = 8
+
+# --- AnimParamVectorType_t (size=4 bytes, 5 values)
+AnimParamVectorType_t::ANIMPARAM_VECTOR_TYPE_NONE = 0
+AnimParamVectorType_t::ANIMPARAM_VECTOR_TYPE_POSITION_WS = 1
+AnimParamVectorType_t::ANIMPARAM_VECTOR_TYPE_POSITION_LS = 2
+AnimParamVectorType_t::ANIMPARAM_VECTOR_TYPE_DIRECTION_WS = 3
+AnimParamVectorType_t::ANIMPARAM_VECTOR_TYPE_DIRECTION_LS = 4
+
+# --- AnimScriptType (size=2 bytes, 3 values)
+AnimScriptType::ANIMSCRIPT_TYPE_INVALID = -1
+AnimScriptType::ANIMSCRIPT_FUSE_GENERAL = 0
+AnimScriptType::ANIMSCRIPT_FUSE_STATEMACHINE = 1
+
+# --- AnimValueSource (size=4 bytes, 37 values)
+AnimValueSource::MoveHeading = 0
+AnimValueSource::MoveSpeed = 1
+AnimValueSource::ForwardSpeed = 2
+AnimValueSource::StrafeSpeed = 3
+AnimValueSource::FacingHeading = 4
+AnimValueSource::LookHeading = 5
+AnimValueSource::LookHeadingNormalized = 6
+AnimValueSource::LookPitch = 7
+AnimValueSource::LookDistance = 8
+AnimValueSource::Parameter = 9
+AnimValueSource::WayPointHeading = 10
+AnimValueSource::WayPointDistance = 11
+AnimValueSource::BoundaryRadius = 12
+AnimValueSource::TargetMoveHeading = 13
+AnimValueSource::TargetMoveSpeed = 14
+AnimValueSource::AccelerationHeading = 15
+AnimValueSource::AccelerationSpeed = 16
+AnimValueSource::SlopeHeading = 17
+AnimValueSource::SlopeAngle = 18
+AnimValueSource::SlopePitch = 19
+AnimValueSource::SlopeYaw = 20
+AnimValueSource::GoalDistance = 21
+AnimValueSource::AccelerationLeftRight = 22
+AnimValueSource::AccelerationFrontBack = 23
+AnimValueSource::RootMotionSpeed = 24
+AnimValueSource::RootMotionTurnSpeed = 25
+AnimValueSource::MoveHeadingRelativeToLookHeading = 26
+AnimValueSource::MaxMoveSpeed = 27
+AnimValueSource::FingerCurl_Thumb = 28
+AnimValueSource::FingerCurl_Index = 29
+AnimValueSource::FingerCurl_Middle = 30
+AnimValueSource::FingerCurl_Ring = 31
+AnimValueSource::FingerCurl_Pinky = 32
+AnimValueSource::FingerSplay_Thumb_Index = 33
+AnimValueSource::FingerSplay_Index_Middle = 34
+AnimValueSource::FingerSplay_Middle_Ring = 35
+AnimValueSource::FingerSplay_Ring_Pinky = 36
+
+# --- AnimVectorSource (size=4 bytes, 14 values)
+AnimVectorSource::MoveDirection = 0
+AnimVectorSource::FacingPosition = 1
+AnimVectorSource::LookDirection = 2
+AnimVectorSource::VectorParameter = 3
+AnimVectorSource::WayPointDirection = 4
+AnimVectorSource::Acceleration = 5
+AnimVectorSource::SlopeNormal = 6
+AnimVectorSource::SlopeNormal_WorldSpace = 7
+AnimVectorSource::LookTarget = 8
+AnimVectorSource::LookTarget_WorldSpace = 9
+AnimVectorSource::WayPointPosition = 10
+AnimVectorSource::GoalPosition = 11
+AnimVectorSource::RootMotionVelocity = 12
+AnimVectorSource::ManualTarget_WorldSpace = 13
+
+# --- AnimationProcessingType_t (size=4 bytes, 6 values)
+AnimationProcessingType_t::ANIMATION_PROCESSING_SERVER_SIMULATION = 0
+AnimationProcessingType_t::ANIMATION_PROCESSING_CLIENT_SIMULATION = 1
+AnimationProcessingType_t::ANIMATION_PROCESSING_CLIENT_PREDICTION = 2
+AnimationProcessingType_t::ANIMATION_PROCESSING_CLIENT_INTERPOLATION = 3
+AnimationProcessingType_t::ANIMATION_PROCESSING_CLIENT_RENDER = 4
+AnimationProcessingType_t::ANIMATION_PROCESSING_MAX = 5
+
+# --- AnimationSnapshotType_t (size=4 bytes, 7 values)
+AnimationSnapshotType_t::ANIMATION_SNAPSHOT_SERVER_SIMULATION = 0
+AnimationSnapshotType_t::ANIMATION_SNAPSHOT_CLIENT_SIMULATION = 1
+AnimationSnapshotType_t::ANIMATION_SNAPSHOT_CLIENT_PREDICTION = 2
+AnimationSnapshotType_t::ANIMATION_SNAPSHOT_CLIENT_INTERPOLATION = 3
+AnimationSnapshotType_t::ANIMATION_SNAPSHOT_CLIENT_RENDER = 4
+AnimationSnapshotType_t::ANIMATION_SNAPSHOT_FINAL_COMPOSITE = 5
+AnimationSnapshotType_t::ANIMATION_SNAPSHOT_MAX = 6
+
+# --- AnimationType_t (size=4 bytes, 3 values)
+AnimationType_t::ANIMATION_TYPE_FIXED_RATE = 0
+AnimationType_t::ANIMATION_TYPE_FIT_LIFETIME = 1
+AnimationType_t::ANIMATION_TYPE_MANUAL_FRAMES = 2
+
+# --- BinaryNodeChildOption (size=4 bytes, 2 values)
+BinaryNodeChildOption::Child1 = 0
+BinaryNodeChildOption::Child2 = 1
+
+# --- BinaryNodeTiming (size=4 bytes, 3 values)
+BinaryNodeTiming::UseChild1 = 0
+BinaryNodeTiming::UseChild2 = 1
+BinaryNodeTiming::SyncChildren = 2
+
+# --- Blend2DMode (size=4 bytes, 2 values)
+Blend2DMode::Blend2DMode_General = 0
+Blend2DMode::Blend2DMode_Directional = 1
+
+# --- BlendKeyType (size=4 bytes, 4 values)
+BlendKeyType::BlendKey_UserValue = 0
+BlendKeyType::BlendKey_Velocity = 1
+BlendKeyType::BlendKey_Distance = 2
+BlendKeyType::BlendKey_RemainingDistance = 3
+
+# --- BoneMaskBlendSpace (size=4 bytes, 4 values)
+BoneMaskBlendSpace::BlendSpace_Parent = 0
+BoneMaskBlendSpace::BlendSpace_Model = 1
+BoneMaskBlendSpace::BlendSpace_Model_RotationOnly = 2
+BoneMaskBlendSpace::BlendSpace_Model_TranslationOnly = 3
+
+# --- BoneTransformSpace_t (size=4 bytes, 4 values)
+BoneTransformSpace_t::BoneTransformSpace_Invalid = -1
+BoneTransformSpace_t::BoneTransformSpace_Parent = 0
+BoneTransformSpace_t::BoneTransformSpace_Model = 1
+BoneTransformSpace_t::BoneTransformSpace_World = 2
+
+# --- CAnimationGraphVisualizerPrimitiveType (size=4 bytes, 5 values)
+CAnimationGraphVisualizerPrimitiveType::ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Text = 0
+CAnimationGraphVisualizerPrimitiveType::ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Sphere = 1
+CAnimationGraphVisualizerPrimitiveType::ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Line = 2
+CAnimationGraphVisualizerPrimitiveType::ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Pie = 3
+CAnimationGraphVisualizerPrimitiveType::ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Axis = 4
+
+# --- CNmClothEvent::Type_t (size=4 bytes, 2 values)
+CNmClothEvent::Type_t::Stiffen = 0
+CNmClothEvent::Type_t::Effect = 1
+
+# --- CNmCurrentSyncEventNode::InfoType_t (size=1 byte, 3 values)
+CNmCurrentSyncEventNode::InfoType_t::IndexAndPercentage = 0
+CNmCurrentSyncEventNode::InfoType_t::IndexOnly = 1
+CNmCurrentSyncEventNode::InfoType_t::PercentageOnly = 2
+
+# --- CNmEventRelevance_t (size=4 bytes, 3 values)
+CNmEventRelevance_t::ClientOnly = 0
+CNmEventRelevance_t::ServerOnly = 1
+CNmEventRelevance_t::ClientAndServer = 2
+
+# --- CNmEventTargetEntity_t (size=4 bytes, 4 values)
+CNmEventTargetEntity_t::Self = 0
+CNmEventTargetEntity_t::Weapon = 1
+CNmEventTargetEntity_t::HeldItem = 2
+CNmEventTargetEntity_t::Custom = 3
+
+# --- CNmFloatAngleMathNode::Operation_t (size=1 byte, 4 values)
+CNmFloatAngleMathNode::Operation_t::ClampTo180 = 0
+CNmFloatAngleMathNode::Operation_t::ClampTo360 = 1
+CNmFloatAngleMathNode::Operation_t::FlipHemisphere = 2
+CNmFloatAngleMathNode::Operation_t::FlipHemisphereNegate = 3
+
+# --- CNmFloatComparisonNode::Comparison_t (size=1 byte, 5 values)
+CNmFloatComparisonNode::Comparison_t::GreaterThanEqual = 0
+CNmFloatComparisonNode::Comparison_t::LessThanEqual = 1
+CNmFloatComparisonNode::Comparison_t::NearEqual = 2
+CNmFloatComparisonNode::Comparison_t::GreaterThan = 3
+CNmFloatComparisonNode::Comparison_t::LessThan = 4
+
+# --- CNmFloatMathNode::Operator_t (size=1 byte, 12 values)
+CNmFloatMathNode::Operator_t::Add = 0
+CNmFloatMathNode::Operator_t::Sub = 1
+CNmFloatMathNode::Operator_t::Mul = 2
+CNmFloatMathNode::Operator_t::Div = 3
+CNmFloatMathNode::Operator_t::Mod = 4
+CNmFloatMathNode::Operator_t::Abs = 5
+CNmFloatMathNode::Operator_t::Negate = 6
+CNmFloatMathNode::Operator_t::Floor = 7
+CNmFloatMathNode::Operator_t::Ceiling = 8
+CNmFloatMathNode::Operator_t::IntegerPart = 9
+CNmFloatMathNode::Operator_t::FractionalPart = 10
+CNmFloatMathNode::Operator_t::InverseFractionalPart = 11
+
+# --- CNmIDComparisonNode::Comparison_t (size=1 byte, 2 values)
+CNmIDComparisonNode::Comparison_t::Matches = 0
+CNmIDComparisonNode::Comparison_t::DoesntMatch = 1
+
+# --- CNmOrientationWarpNode::AlignmentMode_t (size=1 byte, 2 values)
+CNmOrientationWarpNode::AlignmentMode_t::MovementDirection = 0
+CNmOrientationWarpNode::AlignmentMode_t::AnimationEndFacing = 1
+
+# --- CNmParticleEvent::Type_t (size=4 bytes, 2 values)
+CNmParticleEvent::Type_t::Create = 0
+CNmParticleEvent::Type_t::Create_CFG = 1
+
+# --- CNmRootMotionData::SamplingMode_t (size=1 byte, 2 values)
+CNmRootMotionData::SamplingMode_t::Delta = 0
+CNmRootMotionData::SamplingMode_t::WorldSpace = 1
+
+# --- CNmRootMotionOverrideNode::OverrideFlags_t (size=1 byte, 5 values)
+CNmRootMotionOverrideNode::OverrideFlags_t::AllowMoveX = 0
+CNmRootMotionOverrideNode::OverrideFlags_t::AllowMoveY = 1
+CNmRootMotionOverrideNode::OverrideFlags_t::AllowMoveZ = 2
+CNmRootMotionOverrideNode::OverrideFlags_t::AllowFacingPitch = 3
+CNmRootMotionOverrideNode::OverrideFlags_t::ListenForEvents = 4
+
+# --- CNmSoundEvent::Position_t (size=4 bytes, 5 values)
+CNmSoundEvent::Position_t::None = 0
+CNmSoundEvent::Position_t::World = 1
+CNmSoundEvent::Position_t::EntityPos = 2
+CNmSoundEvent::Position_t::EntityEyePos = 3
+CNmSoundEvent::Position_t::EntityAttachment = 4
+
+# --- CNmStateNode::TimedEvent_t::Comparison_t (size=1 byte, 2 values)
+CNmStateNode::TimedEvent_t::Comparison_t::LessThanEqual = 0
+CNmStateNode::TimedEvent_t::Comparison_t::GreaterThanEqual = 1
+
+# --- CNmSyncEventIndexConditionNode::TriggerMode_t (size=1 byte, 2 values)
+CNmSyncEventIndexConditionNode::TriggerMode_t::ExactlyAtEventIndex = 0
+CNmSyncEventIndexConditionNode::TriggerMode_t::GreaterThanEqualToEventIndex = 1
+
+# --- CNmTargetInfoNode::Info_t (size=4 bytes, 8 values)
+CNmTargetInfoNode::Info_t::AngleHorizontal = 0
+CNmTargetInfoNode::Info_t::AngleVertical = 1
+CNmTargetInfoNode::Info_t::Distance = 2
+CNmTargetInfoNode::Info_t::DistanceHorizontalOnly = 3
+CNmTargetInfoNode::Info_t::DistanceVerticalOnly = 4
+CNmTargetInfoNode::Info_t::DeltaOrientationX = 5
+CNmTargetInfoNode::Info_t::DeltaOrientationY = 6
+CNmTargetInfoNode::Info_t::DeltaOrientationZ = 7
+
+# --- CNmTargetWarpNode::TargetUpdateRule_t (size=1 byte, 4 values)
+CNmTargetWarpNode::TargetUpdateRule_t::None = 0
+CNmTargetWarpNode::TargetUpdateRule_t::Recalculate = 1
+CNmTargetWarpNode::TargetUpdateRule_t::Offset = 2
+CNmTargetWarpNode::TargetUpdateRule_t::RecalculateOrOffset = 3
+
+# --- CNmTimeConditionNode::ComparisonType_t (size=1 byte, 3 values)
+CNmTimeConditionNode::ComparisonType_t::PercentageThroughState = 0
+CNmTimeConditionNode::ComparisonType_t::PercentageThroughSyncEvent = 1
+CNmTimeConditionNode::ComparisonType_t::ElapsedTime = 2
+
+# --- CNmTimeConditionNode::Operator_t (size=1 byte, 4 values)
+CNmTimeConditionNode::Operator_t::LessThan = 0
+CNmTimeConditionNode::Operator_t::LessThanEqual = 1
+CNmTimeConditionNode::Operator_t::GreaterThan = 2
+CNmTimeConditionNode::Operator_t::GreaterThanEqual = 3
+
+# --- CNmTransitionNode::TransitionOptions_t (size=1 byte, 10 values)
+CNmTransitionNode::TransitionOptions_t::None = 0
+CNmTransitionNode::TransitionOptions_t::ClampDuration = 1
+CNmTransitionNode::TransitionOptions_t::Synchronized = 2
+CNmTransitionNode::TransitionOptions_t::MatchSourceTime = 3
+CNmTransitionNode::TransitionOptions_t::MatchSyncEventIndex = 4
+CNmTransitionNode::TransitionOptions_t::MatchSyncEventID = 5
+CNmTransitionNode::TransitionOptions_t::MatchSyncEventPercentage = 6
+CNmTransitionNode::TransitionOptions_t::PreferClosestSyncEventID = 7
+CNmTransitionNode::TransitionOptions_t::MatchTimeInSeconds = 8
+CNmTransitionNode::TransitionOptions_t::OffsetTimeInSeconds = 9
+
+# --- CNmVectorInfoNode::Info_t (size=1 byte, 6 values)
+CNmVectorInfoNode::Info_t::X = 0
+CNmVectorInfoNode::Info_t::Y = 1
+CNmVectorInfoNode::Info_t::Z = 2
+CNmVectorInfoNode::Info_t::Length = 3
+CNmVectorInfoNode::Info_t::AngleHorizontal = 4
+CNmVectorInfoNode::Info_t::AngleVertical = 5
+
+# --- ChoiceBlendMethod (size=4 bytes, 2 values)
+ChoiceBlendMethod::SingleBlendTime = 0
+ChoiceBlendMethod::PerChoiceBlendTimes = 1
+
+# --- ChoiceChangeMethod (size=4 bytes, 3 values)
+ChoiceChangeMethod::OnReset = 0
+ChoiceChangeMethod::OnCycleEnd = 1
+ChoiceChangeMethod::OnResetOrCycleEnd = 2
+
+# --- ChoiceMethod (size=4 bytes, 4 values)
+ChoiceMethod::WeightedRandom = 0
+ChoiceMethod::WeightedRandomNoRepeat = 1
+ChoiceMethod::Iterate = 2
+ChoiceMethod::IterateRandom = 3
+
+# --- DampingSpeedFunction (size=4 bytes, 4 values)
+DampingSpeedFunction::NoDamping = 0
+DampingSpeedFunction::Constant = 1
+DampingSpeedFunction::Spring = 2
+DampingSpeedFunction::AsymmetricSpring = 3
+
+# --- EDemoBoneSelectionMode (size=4 bytes, 2 values)
+EDemoBoneSelectionMode::CaptureAllBones = 0
+EDemoBoneSelectionMode::CaptureSelectedBones = 1
+
+# --- EIKEndEffectorRotationFixUpMode (size=4 bytes, 5 values)
+EIKEndEffectorRotationFixUpMode::None = 0
+EIKEndEffectorRotationFixUpMode::MatchTargetOrientation = 1
+EIKEndEffectorRotationFixUpMode::LookAtTargetForward = 2
+EIKEndEffectorRotationFixUpMode::MaintainParentOrientation = 3
+EIKEndEffectorRotationFixUpMode::Count = 4
+
+# --- EPulseGraphExecutionHistoryFlag (size=4 bytes, 9 values)
+EPulseGraphExecutionHistoryFlag::NO_FLAGS = 0
+EPulseGraphExecutionHistoryFlag::CURSOR_ADD_TAG = 1
+EPulseGraphExecutionHistoryFlag::CURSOR_REMOVE_TAG = 2
+EPulseGraphExecutionHistoryFlag::CURSOR_RETIRED = 4
+EPulseGraphExecutionHistoryFlag::CURSOR_CREATE_CHILD = 8
+EPulseGraphExecutionHistoryFlag::REQUIREMENT_PASS = 16
+EPulseGraphExecutionHistoryFlag::REQUIREMENT_FAIL = 32
+EPulseGraphExecutionHistoryFlag::CALL_TO_PULSE = 64
+EPulseGraphExecutionHistoryFlag::RETURN = 128
+
+# --- FacingMode (size=1 byte, 5 values)
+FacingMode::FacingMode_Invalid = 0
+FacingMode::FacingMode_Manual = 1
+FacingMode::FacingMode_Path = 2
+FacingMode::FacingMode_LookTarget = 3
+FacingMode::FacingMode_ManualPosition = 4
+
+# --- FieldNetworkOption (size=4 bytes, 3 values)
+FieldNetworkOption::Auto = 0
+FieldNetworkOption::ForceEnable = 1
+FieldNetworkOption::ForceDisable = 2
+
+# --- FlexOpCode_t (size=4 bytes, 26 values)
+FlexOpCode_t::FLEX_OP_CONST = 1
+FlexOpCode_t::FLEX_OP_FETCH1 = 2
+FlexOpCode_t::FLEX_OP_FETCH2 = 3
+FlexOpCode_t::FLEX_OP_ADD = 4
+FlexOpCode_t::FLEX_OP_SUB = 5
+FlexOpCode_t::FLEX_OP_MUL = 6
+FlexOpCode_t::FLEX_OP_DIV = 7
+FlexOpCode_t::FLEX_OP_NEG = 8
+FlexOpCode_t::FLEX_OP_EXP = 9
+FlexOpCode_t::FLEX_OP_OPEN = 10
+FlexOpCode_t::FLEX_OP_CLOSE = 11
+FlexOpCode_t::FLEX_OP_COMMA = 12
+FlexOpCode_t::FLEX_OP_MAX = 13
+FlexOpCode_t::FLEX_OP_MIN = 14
+FlexOpCode_t::FLEX_OP_2WAY_0 = 15
+FlexOpCode_t::FLEX_OP_2WAY_1 = 16
+FlexOpCode_t::FLEX_OP_NWAY = 17
+FlexOpCode_t::FLEX_OP_COMBO = 18
+FlexOpCode_t::FLEX_OP_DOMINATE = 19
+FlexOpCode_t::FLEX_OP_DME_LOWER_EYELID = 20
+FlexOpCode_t::FLEX_OP_DME_UPPER_EYELID = 21
+FlexOpCode_t::FLEX_OP_SQRT = 22
+FlexOpCode_t::FLEX_OP_REMAPVALCLAMPED = 23
+FlexOpCode_t::FLEX_OP_SIN = 24
+FlexOpCode_t::FLEX_OP_COS = 25
+FlexOpCode_t::FLEX_OP_ABS = 26
+
+# --- FootFallTagFoot_t (size=4 bytes, 8 values)
+FootFallTagFoot_t::FOOT1 = 0
+FootFallTagFoot_t::FOOT2 = 1
+FootFallTagFoot_t::FOOT3 = 2
+FootFallTagFoot_t::FOOT4 = 3
+FootFallTagFoot_t::FOOT5 = 4
+FootFallTagFoot_t::FOOT6 = 5
+FootFallTagFoot_t::FOOT7 = 6
+FootFallTagFoot_t::FOOT8 = 7
+
+# --- FootLockSubVisualization (size=4 bytes, 2 values)
+FootLockSubVisualization::FOOTLOCKSUBVISUALIZATION_ReachabilityAnalysis = 0
+FootLockSubVisualization::FOOTLOCKSUBVISUALIZATION_IKSolve = 1
+
+# --- FootPinningTimingSource (size=4 bytes, 3 values)
+FootPinningTimingSource::FootMotion = 0
+FootPinningTimingSource::Tag = 1
+FootPinningTimingSource::Parameter = 2
+
+# --- FootstepJumpPhase_t (size=1 byte, 4 values)
+FootstepJumpPhase_t::Unknown = 0
+FootstepJumpPhase_t::NotJumping = 1
+FootstepJumpPhase_t::Jumping = 2
+FootstepJumpPhase_t::Landing = 4
+
+# --- FootstepLandedFootSoundType_t (size=4 bytes, 3 values)
+FootstepLandedFootSoundType_t::FOOTSOUND_Left = 0
+FootstepLandedFootSoundType_t::FOOTSOUND_Right = 1
+FootstepLandedFootSoundType_t::FOOTSOUND_UseOverrideSound = 2
+
+# --- GPUParticleCollisionMode_t (size=4 bytes, 3 values)
+GPUParticleCollisionMode_t::PARTICLE_GPU_COLLISION_MODE_RT = 0
+GPUParticleCollisionMode_t::PARTICLE_GPU_COLLISION_MODE_DEPTH = 1
+GPUParticleCollisionMode_t::PARTICLE_GPU_COLLISION_MODE_HYBRID = 2
+
+# --- HandshakeTagState_t (size=1 byte, 3 values)
+HandshakeTagState_t::eInactive = 0
+HandshakeTagState_t::eActive = 1
+HandshakeTagState_t::eMomentarilyInactive = 2
+
+# --- HandshakeTagType_t (size=4 bytes, 4 values)
+HandshakeTagType_t::eInvalid = -1
+HandshakeTagType_t::eTask = 0
+HandshakeTagType_t::eMovement = 1
+HandshakeTagType_t::eCount = 2
+
+# --- IKChannelMode (size=4 bytes, 4 values)
+IKChannelMode::TwoBone = 0
+IKChannelMode::TwoBone_Translate = 1
+IKChannelMode::OneBone = 2
+IKChannelMode::OneBone_Translate = 3
+
+# --- IKSolverType (size=4 bytes, 6 values)
+IKSolverType::IKSOLVER_Perlin = 0
+IKSolverType::IKSOLVER_TwoBone = 1
+IKSolverType::IKSOLVER_Fabrik = 2
+IKSolverType::IKSOLVER_DogLeg3Bone = 3
+IKSolverType::IKSOLVER_CCD = 4
+IKSolverType::IKSOLVER_COUNT = 5
+
+# --- IKTargetCoordinateSystem (size=4 bytes, 3 values)
+IKTargetCoordinateSystem::IKTARGETCOORDINATESYSTEM_WorldSpace = 0
+IKTargetCoordinateSystem::IKTARGETCOORDINATESYSTEM_ModelSpace = 1
+IKTargetCoordinateSystem::IKTARGETCOORDINATESYSTEM_COUNT = 2
+
+# --- IKTargetSource (size=4 bytes, 3 values)
+IKTargetSource::IKTARGETSOURCE_Bone = 0
+IKTargetSource::IKTARGETSOURCE_AnimgraphParameter = 1
+IKTargetSource::IKTARGETSOURCE_COUNT = 2
+
+# --- IkEndEffectorType (size=4 bytes, 2 values)
+IkEndEffectorType::IkEndEffector_Attachment = 0
+IkEndEffectorType::IkEndEffector_Bone = 1
+
+# --- IkTargetType (size=4 bytes, 4 values)
+IkTargetType::IkTarget_Attachment = 0
+IkTargetType::IkTarget_Bone = 1
+IkTargetType::IkTarget_Parameter_ModelSpace = 2
+IkTargetType::IkTarget_Parameter_WorldSpace = 3
+
+# --- JiggleBoneSimSpace (size=4 bytes, 3 values)
+JiggleBoneSimSpace::SimSpace_Local = 0
+JiggleBoneSimSpace::SimSpace_Model = 1
+JiggleBoneSimSpace::SimSpace_World = 2
+
+# --- JumpCorrectionMethod (size=4 bytes, 2 values)
+JumpCorrectionMethod::ScaleMotion = 0
+JumpCorrectionMethod::AddCorrectionDelta = 1
+
+# --- LinearRootMotionBlendMode_t (size=4 bytes, 3 values)
+LinearRootMotionBlendMode_t::LERP = 0
+LinearRootMotionBlendMode_t::NLERP = 1
+LinearRootMotionBlendMode_t::SLERP = 2
+
+# --- MatterialAttributeTagType_t (size=4 bytes, 2 values)
+MatterialAttributeTagType_t::MATERIAL_ATTRIBUTE_TAG_VALUE = 0
+MatterialAttributeTagType_t::MATERIAL_ATTRIBUTE_TAG_COLOR = 1
+
+# --- MeshDrawPrimitiveFlags_t (size=4 bytes, 8 values)
+MeshDrawPrimitiveFlags_t::MESH_DRAW_FLAGS_NONE = 0
+MeshDrawPrimitiveFlags_t::MESH_DRAW_FLAGS_USE_SHADOW_FAST_PATH = 1
+MeshDrawPrimitiveFlags_t::MESH_DRAW_FLAGS_USE_COMPRESSED_NORMAL_TANGENT = 2
+MeshDrawPrimitiveFlags_t::MESH_DRAW_INPUT_LAYOUT_IS_NOT_MATCHED_TO_MATERIAL = 8
+MeshDrawPrimitiveFlags_t::MESH_DRAW_FLAGS_USE_COMPRESSED_PER_VERTEX_LIGHTING = 16
+MeshDrawPrimitiveFlags_t::MESH_DRAW_FLAGS_USE_UNCOMPRESSED_PER_VERTEX_LIGHTING = 32
+MeshDrawPrimitiveFlags_t::MESH_DRAW_FLAGS_CAN_BATCH_WITH_DYNAMIC_SHADER_CONSTANTS = 64
+MeshDrawPrimitiveFlags_t::MESH_DRAW_FLAGS_DRAW_LAST = 128
+
+# --- ModelBoneFlexComponent_t (size=4 bytes, 4 values)
+ModelBoneFlexComponent_t::MODEL_BONE_FLEX_INVALID = -1
+ModelBoneFlexComponent_t::MODEL_BONE_FLEX_TX = 0
+ModelBoneFlexComponent_t::MODEL_BONE_FLEX_TY = 1
+ModelBoneFlexComponent_t::MODEL_BONE_FLEX_TZ = 2
+
+# --- ModelConfigAttachmentType_t (size=4 bytes, 5 values)
+ModelConfigAttachmentType_t::MODEL_CONFIG_ATTACHMENT_INVALID = -1
+ModelConfigAttachmentType_t::MODEL_CONFIG_ATTACHMENT_BONE_OR_ATTACHMENT = 0
+ModelConfigAttachmentType_t::MODEL_CONFIG_ATTACHMENT_ROOT_RELATIVE = 1
+ModelConfigAttachmentType_t::MODEL_CONFIG_ATTACHMENT_BONEMERGE = 2
+ModelConfigAttachmentType_t::MODEL_CONFIG_ATTACHMENT_COUNT = 3
+
+# --- ModelMeshBufferUsage_t (size=2 bytes, 10 values)
+ModelMeshBufferUsage_t::MESH_BUFFER_USAGE_NONE = 0
+ModelMeshBufferUsage_t::MESH_BUFFER_USAGE_VB = 1
+ModelMeshBufferUsage_t::MESH_BUFFER_USAGE_IB = 2
+ModelMeshBufferUsage_t::MESH_BUFFER_USAGE_ADJACENCY = 4
+ModelMeshBufferUsage_t::MESH_BUFFER_USAGE_MESHLET_TRIS = 8
+ModelMeshBufferUsage_t::MESH_BUFFER_USAGE_RT_PROXY = 16
+ModelMeshBufferUsage_t::MESH_BUFFER_USAGE_VERTEX_ALBEDO = 32
+ModelMeshBufferUsage_t::MESH_BUFFER_USAGE_VERTEX_EMISSIVE = 64
+ModelMeshBufferUsage_t::MESH_BUFFER_USAGE_MESHLETS = 128
+ModelMeshBufferUsage_t::MESH_BUFFER_USAGE_ALIAS_TABLE = 256
+
+# --- ModelSkeletonData_t::BoneFlags_t (size=4 bytes, 22 values)
+ModelSkeletonData_t::BoneFlags_t::FLAG_NO_BONE_FLAGS = 0
+ModelSkeletonData_t::BoneFlags_t::FLAG_BONEFLEXDRIVER = 4
+ModelSkeletonData_t::BoneFlags_t::FLAG_CLOTH = 8
+ModelSkeletonData_t::BoneFlags_t::FLAG_PHYSICS = 16
+ModelSkeletonData_t::BoneFlags_t::FLAG_ATTACHMENT = 32
+ModelSkeletonData_t::BoneFlags_t::FLAG_ANIMATION = 64
+ModelSkeletonData_t::BoneFlags_t::FLAG_MESH = 128
+ModelSkeletonData_t::BoneFlags_t::FLAG_HITBOX = 256
+ModelSkeletonData_t::BoneFlags_t::FLAG_BONE_USED_BY_VERTEX_LOD0 = 1024
+ModelSkeletonData_t::BoneFlags_t::FLAG_BONE_USED_BY_VERTEX_LOD1 = 2048
+ModelSkeletonData_t::BoneFlags_t::FLAG_BONE_USED_BY_VERTEX_LOD2 = 4096
+ModelSkeletonData_t::BoneFlags_t::FLAG_BONE_USED_BY_VERTEX_LOD3 = 8192
+ModelSkeletonData_t::BoneFlags_t::FLAG_BONE_USED_BY_VERTEX_LOD4 = 16384
+ModelSkeletonData_t::BoneFlags_t::FLAG_BONE_USED_BY_VERTEX_LOD5 = 32768
+ModelSkeletonData_t::BoneFlags_t::FLAG_BONE_USED_BY_VERTEX_LOD6 = 65536
+ModelSkeletonData_t::BoneFlags_t::FLAG_BONE_USED_BY_VERTEX_LOD7 = 131072
+ModelSkeletonData_t::BoneFlags_t::FLAG_BONE_MERGE_READ = 262144
+ModelSkeletonData_t::BoneFlags_t::FLAG_BONE_MERGE_WRITE = 524288
+ModelSkeletonData_t::BoneFlags_t::FLAG_ALL_BONE_FLAGS = 1048575
+ModelSkeletonData_t::BoneFlags_t::BLEND_PREALIGNED = 1048576
+ModelSkeletonData_t::BoneFlags_t::FLAG_RIGIDLENGTH = 2097152
+ModelSkeletonData_t::BoneFlags_t::FLAG_PROCEDURAL = 4194304
+
+# --- MoodType_t (size=4 bytes, 2 values)
+MoodType_t::eMoodType_Head = 0
+MoodType_t::eMoodType_Body = 1
+
+# --- MorphBundleType_t (size=4 bytes, 4 values)
+MorphBundleType_t::MORPH_BUNDLE_TYPE_NONE = 0
+MorphBundleType_t::MORPH_BUNDLE_TYPE_POSITION_SPEED = 1
+MorphBundleType_t::MORPH_BUNDLE_TYPE_NORMAL_WRINKLE = 2
+MorphBundleType_t::MORPH_BUNDLE_TYPE_COUNT = 3
+
+# --- MorphFlexControllerRemapType_t (size=4 bytes, 4 values)
+MorphFlexControllerRemapType_t::MORPH_FLEXCONTROLLER_REMAP_PASSTHRU = 0
+MorphFlexControllerRemapType_t::MORPH_FLEXCONTROLLER_REMAP_2WAY = 1
+MorphFlexControllerRemapType_t::MORPH_FLEXCONTROLLER_REMAP_NWAY = 2
+MorphFlexControllerRemapType_t::MORPH_FLEXCONTROLLER_REMAP_EYELID = 3
+
+# --- MovementCapability_t (size=4 bytes, 11 values)
+MovementCapability_t::eStrafe = 0
+MovementCapability_t::eIdleTurn = 1
+MovementCapability_t::eStart = 2
+MovementCapability_t::eStop = 3
+MovementCapability_t::eInstantStop = 4
+MovementCapability_t::eShuffle = 5
+MovementCapability_t::ePlantedTurn = 6
+MovementCapability_t::eUseStartAsPlantedTurn = 7
+MovementCapability_t::eLean = 8
+MovementCapability_t::eForwardStartOnly = 9
+MovementCapability_t::eCount = 10
+
+# --- NPCPhysicsHullType_t (size=4 bytes, 7 values)
+NPCPhysicsHullType_t::eInvalid = 0
+NPCPhysicsHullType_t::eGroundCapsule = 1
+NPCPhysicsHullType_t::eCenteredCapsule = 2
+NPCPhysicsHullType_t::eGenericCapsule = 3
+NPCPhysicsHullType_t::eGroundBox = 4
+NPCPhysicsHullType_t::eGroundCylinder = 5
+NPCPhysicsHullType_t::eCenteredCylinder = 6
+
+# --- NmCachedValueMode_t (size=4 bytes, 2 values)
+NmCachedValueMode_t::OnEntry = 0
+NmCachedValueMode_t::OnExit = 1
+
+# --- NmEasingFunction_t (size=1 byte, 9 values)
+NmEasingFunction_t::Linear = 0
+NmEasingFunction_t::Quad = 1
+NmEasingFunction_t::Cubic = 2
+NmEasingFunction_t::Quart = 3
+NmEasingFunction_t::Quint = 4
+NmEasingFunction_t::Sine = 5
+NmEasingFunction_t::Expo = 6
+NmEasingFunction_t::Circ = 7
+NmEasingFunction_t::Back = 8
+
+# --- NmEasingOperation_t (size=1 byte, 23 values)
+NmEasingOperation_t::Linear = 0
+NmEasingOperation_t::InQuad = 1
+NmEasingOperation_t::OutQuad = 2
+NmEasingOperation_t::InOutQuad = 3
+NmEasingOperation_t::InCubic = 4
+NmEasingOperation_t::OutCubic = 5
+NmEasingOperation_t::InOutCubic = 6
+NmEasingOperation_t::InQuart = 7
+NmEasingOperation_t::OutQuart = 8
+NmEasingOperation_t::InOutQuart = 9
+NmEasingOperation_t::InQuint = 10
+NmEasingOperation_t::OutQuint = 11
+NmEasingOperation_t::InOutQuint = 12
+NmEasingOperation_t::InSine = 13
+NmEasingOperation_t::OutSine = 14
+NmEasingOperation_t::InOutSine = 15
+NmEasingOperation_t::InExpo = 16
+NmEasingOperation_t::OutExpo = 17
+NmEasingOperation_t::InOutExpo = 18
+NmEasingOperation_t::InCirc = 19
+NmEasingOperation_t::OutCirc = 20
+NmEasingOperation_t::InOutCirc = 21
+NmEasingOperation_t::None = 22
+
+# --- NmEventConditionRules_t (size=1 byte, 9 values)
+NmEventConditionRules_t::LimitSearchToSourceState = 0
+NmEventConditionRules_t::IgnoreInactiveEvents = 1
+NmEventConditionRules_t::PreferHighestWeight = 2
+NmEventConditionRules_t::PreferHighestProgress = 3
+NmEventConditionRules_t::OperatorOr = 4
+NmEventConditionRules_t::OperatorAnd = 5
+NmEventConditionRules_t::SearchOnlyGraphEvents = 6
+NmEventConditionRules_t::SearchOnlyAnimEvents = 7
+NmEventConditionRules_t::SearchBothGraphAndAnimEvents = 8
+
+# --- NmFollowBoneMode_t (size=1 byte, 3 values)
+NmFollowBoneMode_t::RotationAndTranslation = 0
+NmFollowBoneMode_t::RotationOnly = 1
+NmFollowBoneMode_t::TranslationOnly = 2
+
+# --- NmFootPhaseCondition_t (size=1 byte, 7 values)
+NmFootPhaseCondition_t::LeftFootDown = 0
+NmFootPhaseCondition_t::LeftFootPassing = 1
+NmFootPhaseCondition_t::LeftPhase = 4
+NmFootPhaseCondition_t::RightFootDown = 2
+NmFootPhaseCondition_t::RightFootPassing = 3
+NmFootPhaseCondition_t::RightPhase = 5
+NmFootPhaseCondition_t::None = 6
+
+# --- NmFootPhase_t (size=1 byte, 5 values)
+NmFootPhase_t::LeftFootDown = 0
+NmFootPhase_t::RightFootPassing = 1
+NmFootPhase_t::RightFootDown = 2
+NmFootPhase_t::LeftFootPassing = 3
+NmFootPhase_t::None = 4
+
+# --- NmFrameSnapEventMode_t (size=4 bytes, 2 values)
+NmFrameSnapEventMode_t::Floor = 0
+NmFrameSnapEventMode_t::Round = 1
+
+# --- NmGraphDebugMode_t (size=4 bytes, 2 values)
+NmGraphDebugMode_t::Off = 0
+NmGraphDebugMode_t::On = 1
+
+# --- NmGraphEventTypeCondition_t (size=1 byte, 6 values)
+NmGraphEventTypeCondition_t::Entry = 0
+NmGraphEventTypeCondition_t::FullyInState = 1
+NmGraphEventTypeCondition_t::Exit = 2
+NmGraphEventTypeCondition_t::Timed = 3
+NmGraphEventTypeCondition_t::Generic = 4
+NmGraphEventTypeCondition_t::Any = 5
+
+# --- NmGraphValueType_t (size=1 byte, 9 values)
+NmGraphValueType_t::Unknown = 0
+NmGraphValueType_t::Bool = 1
+NmGraphValueType_t::ID = 2
+NmGraphValueType_t::Float = 3
+NmGraphValueType_t::Vector = 4
+NmGraphValueType_t::Target = 5
+NmGraphValueType_t::BoneMask = 6
+NmGraphValueType_t::Pose = 7
+NmGraphValueType_t::Special = 8
+
+# --- NmIKBlendMode_t (size=1 byte, 2 values)
+NmIKBlendMode_t::Effector = 0
+NmIKBlendMode_t::Pose = 1
+
+# --- NmPoseBlendMode_t (size=1 byte, 3 values)
+NmPoseBlendMode_t::Overlay = 0
+NmPoseBlendMode_t::Additive = 1
+NmPoseBlendMode_t::ModelSpace = 2
+
+# --- NmRootMotionBlendMode_t (size=1 byte, 4 values)
+NmRootMotionBlendMode_t::Blend = 0
+NmRootMotionBlendMode_t::Additive = 1
+NmRootMotionBlendMode_t::IgnoreSource = 2
+NmRootMotionBlendMode_t::IgnoreTarget = 3
+
+# --- NmTargetWarpAlgorithm_t (size=1 byte, 4 values)
+NmTargetWarpAlgorithm_t::Lerp = 0
+NmTargetWarpAlgorithm_t::Hermite = 1
+NmTargetWarpAlgorithm_t::HermiteFeaturePreserving = 2
+NmTargetWarpAlgorithm_t::Bezier = 3
+
+# --- NmTargetWarpRule_t (size=1 byte, 5 values)
+NmTargetWarpRule_t::WarpXY = 0
+NmTargetWarpRule_t::WarpZ = 1
+NmTargetWarpRule_t::WarpXYZ = 2
+NmTargetWarpRule_t::RotationOnly = 3
+NmTargetWarpRule_t::FixedSection = 4
+
+# --- NmTransitionRuleCondition_t (size=1 byte, 4 values)
+NmTransitionRuleCondition_t::AnyAllowed = 0
+NmTransitionRuleCondition_t::FullyAllowed = 1
+NmTransitionRuleCondition_t::ConditionallyAllowed = 2
+NmTransitionRuleCondition_t::Blocked = 3
+
+# --- NmTransitionRule_t (size=1 byte, 3 values)
+NmTransitionRule_t::AllowTransition = 0
+NmTransitionRule_t::ConditionallyAllowTransition = 1
+NmTransitionRule_t::BlockTransition = 2
+
+# --- OrientationWarpMode_t (size=4 bytes, 3 values)
+OrientationWarpMode_t::eInvalid = 0
+OrientationWarpMode_t::eAngle = 1
+OrientationWarpMode_t::eWorldPosition = 2
+
+# --- OrientationWarpRootMotionSource_t (size=4 bytes, 3 values)
+OrientationWarpRootMotionSource_t::eAnimationOrProcedural = 0
+OrientationWarpRootMotionSource_t::eAnimationOnly = 1
+OrientationWarpRootMotionSource_t::eProceduralOnly = 2
+
+# --- OrientationWarpTargetOffsetMode_t (size=4 bytes, 4 values)
+OrientationWarpTargetOffsetMode_t::eLiteralValue = 0
+OrientationWarpTargetOffsetMode_t::eParameter = 1
+OrientationWarpTargetOffsetMode_t::eAnimationMovementHeading = 2
+OrientationWarpTargetOffsetMode_t::eAnimationMovementHeadingAtEnd = 3
+
+# --- PFNoiseModifier_t (size=4 bytes, 4 values)
+PFNoiseModifier_t::PF_NOISE_MODIFIER_NONE = 0
+PFNoiseModifier_t::PF_NOISE_MODIFIER_LINES = 1
+PFNoiseModifier_t::PF_NOISE_MODIFIER_CLUMPS = 2
+PFNoiseModifier_t::PF_NOISE_MODIFIER_RINGS = 3
+
+# --- PFNoiseTurbulence_t (size=4 bytes, 6 values)
+PFNoiseTurbulence_t::PF_NOISE_TURB_NONE = 0
+PFNoiseTurbulence_t::PF_NOISE_TURB_HIGHLIGHT = 1
+PFNoiseTurbulence_t::PF_NOISE_TURB_FEEDBACK = 2
+PFNoiseTurbulence_t::PF_NOISE_TURB_LOOPY = 3
+PFNoiseTurbulence_t::PF_NOISE_TURB_CONTRAST = 4
+PFNoiseTurbulence_t::PF_NOISE_TURB_ALTERNATE = 5
+
+# --- PFNoiseType_t (size=4 bytes, 4 values)
+PFNoiseType_t::PF_NOISE_TYPE_PERLIN = 0
+PFNoiseType_t::PF_NOISE_TYPE_SIMPLEX = 1
+PFNoiseType_t::PF_NOISE_TYPE_WORLEY = 2
+PFNoiseType_t::PF_NOISE_TYPE_CURL = 3
+
+# --- ParticleAttachment_t (size=4 bytes, 18 values)
+ParticleAttachment_t::PATTACH_INVALID = -1
+ParticleAttachment_t::PATTACH_ABSORIGIN = 0
+ParticleAttachment_t::PATTACH_ABSORIGIN_FOLLOW = 1
+ParticleAttachment_t::PATTACH_CUSTOMORIGIN = 2
+ParticleAttachment_t::PATTACH_CUSTOMORIGIN_FOLLOW = 3
+ParticleAttachment_t::PATTACH_POINT = 4
+ParticleAttachment_t::PATTACH_POINT_FOLLOW = 5
+ParticleAttachment_t::PATTACH_EYES_FOLLOW = 6
+ParticleAttachment_t::PATTACH_OVERHEAD_FOLLOW = 7
+ParticleAttachment_t::PATTACH_WORLDORIGIN = 8
+ParticleAttachment_t::PATTACH_ROOTBONE_FOLLOW = 9
+ParticleAttachment_t::PATTACH_RENDERORIGIN_FOLLOW = 10
+ParticleAttachment_t::PATTACH_MAIN_VIEW = 11
+ParticleAttachment_t::PATTACH_WATERWAKE = 12
+ParticleAttachment_t::PATTACH_CENTER_FOLLOW = 13
+ParticleAttachment_t::PATTACH_CUSTOM_GAME_STATE_1 = 14
+ParticleAttachment_t::PATTACH_HEALTHBAR = 15
+ParticleAttachment_t::MAX_PATTACH_TYPES = 16
+
+# --- ParticleColorBlendMode_t (size=4 bytes, 5 values)
+ParticleColorBlendMode_t::PARTICLEBLEND_DEFAULT = 0
+ParticleColorBlendMode_t::PARTICLEBLEND_OVERLAY = 1
+ParticleColorBlendMode_t::PARTICLEBLEND_DARKEN = 2
+ParticleColorBlendMode_t::PARTICLEBLEND_LIGHTEN = 3
+ParticleColorBlendMode_t::PARTICLEBLEND_MULTIPLY = 4
+
+# --- ParticleColorBlendType_t (size=4 bytes, 13 values)
+ParticleColorBlendType_t::PARTICLE_COLOR_BLEND_MULTIPLY = 0
+ParticleColorBlendType_t::PARTICLE_COLOR_BLEND_MULTIPLY2X = 1
+ParticleColorBlendType_t::PARTICLE_COLOR_BLEND_DIVIDE = 2
+ParticleColorBlendType_t::PARTICLE_COLOR_BLEND_ADD = 3
+ParticleColorBlendType_t::PARTICLE_COLOR_BLEND_SUBTRACT = 4
+ParticleColorBlendType_t::PARTICLE_COLOR_BLEND_MOD2X = 5
+ParticleColorBlendType_t::PARTICLE_COLOR_BLEND_SCREEN = 6
+ParticleColorBlendType_t::PARTICLE_COLOR_BLEND_MAX = 7
+ParticleColorBlendType_t::PARTICLE_COLOR_BLEND_MIN = 8
+ParticleColorBlendType_t::PARTICLE_COLOR_BLEND_REPLACE = 9
+ParticleColorBlendType_t::PARTICLE_COLOR_BLEND_AVERAGE = 10
+ParticleColorBlendType_t::PARTICLE_COLOR_BLEND_NEGATE = 11
+ParticleColorBlendType_t::PARTICLE_COLOR_BLEND_LUMINANCE = 12
+
+# --- ParticleDirectionNoiseType_t (size=4 bytes, 3 values)
+ParticleDirectionNoiseType_t::PARTICLE_DIR_NOISE_PERLIN = 0
+ParticleDirectionNoiseType_t::PARTICLE_DIR_NOISE_CURL = 1
+ParticleDirectionNoiseType_t::PARTICLE_DIR_NOISE_WORLEY_BASIC = 2
+
+# --- ParticleFloatBiasType_t (size=4 bytes, 5 values)
+ParticleFloatBiasType_t::PF_BIAS_TYPE_INVALID = -1
+ParticleFloatBiasType_t::PF_BIAS_TYPE_STANDARD = 0
+ParticleFloatBiasType_t::PF_BIAS_TYPE_GAIN = 1
+ParticleFloatBiasType_t::PF_BIAS_TYPE_EXPONENTIAL = 2
+ParticleFloatBiasType_t::PF_BIAS_TYPE_COUNT = 3
+
+# --- ParticleFloatInputMode_t (size=4 bytes, 4 values)
+ParticleFloatInputMode_t::PF_INPUT_MODE_INVALID = -1
+ParticleFloatInputMode_t::PF_INPUT_MODE_CLAMPED = 0
+ParticleFloatInputMode_t::PF_INPUT_MODE_LOOPED = 1
+ParticleFloatInputMode_t::PF_INPUT_MODE_COUNT = 2
+
+# --- ParticleFloatMapType_t (size=4 bytes, 12 values)
+ParticleFloatMapType_t::PF_MAP_TYPE_INVALID = -1
+ParticleFloatMapType_t::PF_MAP_TYPE_DIRECT = 0
+ParticleFloatMapType_t::PF_MAP_TYPE_MULT = 1
+ParticleFloatMapType_t::PF_MAP_TYPE_REMAP = 2
+ParticleFloatMapType_t::PF_MAP_TYPE_REMAP_BIASED = 3
+ParticleFloatMapType_t::PF_MAP_TYPE_CURVE = 4
+ParticleFloatMapType_t::PF_MAP_TYPE_NOTCHED = 5
+ParticleFloatMapType_t::PF_MAP_TYPE_ROUND = 6
+ParticleFloatMapType_t::PF_MAP_TYPE_MIN = 7
+ParticleFloatMapType_t::PF_MAP_TYPE_MAX = 8
+ParticleFloatMapType_t::PF_MAP_TYPE_MOD = 9
+ParticleFloatMapType_t::PF_MAP_TYPE_COUNT = 10
+
+# --- ParticleFloatRandomMode_t (size=4 bytes, 4 values)
+ParticleFloatRandomMode_t::PF_RANDOM_MODE_INVALID = -1
+ParticleFloatRandomMode_t::PF_RANDOM_MODE_CONSTANT = 0
+ParticleFloatRandomMode_t::PF_RANDOM_MODE_VARYING = 1
+ParticleFloatRandomMode_t::PF_RANDOM_MODE_COUNT = 2
+
+# --- ParticleFloatRoundType_t (size=4 bytes, 5 values)
+ParticleFloatRoundType_t::PF_ROUND_TYPE_INVALID = -1
+ParticleFloatRoundType_t::PF_ROUND_TYPE_NEAREST = 0
+ParticleFloatRoundType_t::PF_ROUND_TYPE_FLOOR = 1
+ParticleFloatRoundType_t::PF_ROUND_TYPE_CEIL = 2
+ParticleFloatRoundType_t::PF_ROUND_TYPE_COUNT = 3
+
+# --- ParticleFloatType_t (size=4 bytes, 34 values)
+ParticleFloatType_t::PF_TYPE_INVALID = -1
+ParticleFloatType_t::PF_TYPE_LITERAL = 0
+ParticleFloatType_t::PF_TYPE_NAMED_VALUE = 1
+ParticleFloatType_t::PF_TYPE_RANDOM_UNIFORM = 2
+ParticleFloatType_t::PF_TYPE_RANDOM_BIASED = 3
+ParticleFloatType_t::PF_TYPE_COLLECTION_AGE = 4
+ParticleFloatType_t::PF_TYPE_ENDCAP_AGE = 5
+ParticleFloatType_t::PF_TYPE_CONTROL_POINT_COMPONENT = 6
+ParticleFloatType_t::PF_TYPE_CONTROL_POINT_CHANGE_AGE = 7
+ParticleFloatType_t::PF_TYPE_CONTROL_POINT_SPEED = 8
+ParticleFloatType_t::PF_TYPE_CONTROL_POINT_DISTANCE = 9
+ParticleFloatType_t::PF_TYPE_PARTICLE_DETAIL_LEVEL = 10
+ParticleFloatType_t::PF_TYPE_CONCURRENT_DEF_COUNT = 11
+ParticleFloatType_t::PF_TYPE_CLOSEST_CAMERA_DISTANCE = 12
+ParticleFloatType_t::PF_TYPE_SNAPSHOT_COUNT = 13
+ParticleFloatType_t::PF_TYPE_SNAPSHOT_CHANGED = 14
+ParticleFloatType_t::PF_TYPE_CONTROL_POINT_IS_SET = 15
+ParticleFloatType_t::PF_TYPE_RENDERER_CAMERA_DISTANCE = 16
+ParticleFloatType_t::PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT = 17
+ParticleFloatType_t::PF_TYPE_PARTICLE_NOISE = 18
+ParticleFloatType_t::PF_TYPE_PARTICLE_AGE = 19
+ParticleFloatType_t::PF_TYPE_PARTICLE_AGE_NORMALIZED = 20
+ParticleFloatType_t::PF_TYPE_PARTICLE_FLOAT = 21
+ParticleFloatType_t::PF_TYPE_PARTICLE_INITIAL_FLOAT = 22
+ParticleFloatType_t::PF_TYPE_PARTICLE_VECTOR_COMPONENT = 23
+ParticleFloatType_t::PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT = 24
+ParticleFloatType_t::PF_TYPE_PARTICLE_SPEED = 25
+ParticleFloatType_t::PF_TYPE_PARTICLE_NUMBER = 26
+ParticleFloatType_t::PF_TYPE_PARTICLE_NUMBER_NORMALIZED = 27
+ParticleFloatType_t::PF_TYPE_PARTICLE_ROPE_SEGMENT = 28
+ParticleFloatType_t::PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED = 29
+ParticleFloatType_t::PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE = 30
+ParticleFloatType_t::PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT = 31
+ParticleFloatType_t::PF_TYPE_COUNT = 32
+
+# --- ParticleModelType_t (size=4 bytes, 5 values)
+ParticleModelType_t::PM_TYPE_INVALID = 0
+ParticleModelType_t::PM_TYPE_NAMED_VALUE_MODEL = 1
+ParticleModelType_t::PM_TYPE_NAMED_VALUE_EHANDLE = 2
+ParticleModelType_t::PM_TYPE_CONTROL_POINT = 3
+ParticleModelType_t::PM_TYPE_COUNT = 4
+
+# --- ParticleSetMethod_t (size=4 bytes, 6 values)
+ParticleSetMethod_t::PARTICLE_SET_REPLACE_VALUE = 0
+ParticleSetMethod_t::PARTICLE_SET_SCALE_INITIAL_VALUE = 1
+ParticleSetMethod_t::PARTICLE_SET_ADD_TO_INITIAL_VALUE = 2
+ParticleSetMethod_t::PARTICLE_SET_RAMP_CURRENT_VALUE = 3
+ParticleSetMethod_t::PARTICLE_SET_SCALE_CURRENT_VALUE = 4
+ParticleSetMethod_t::PARTICLE_SET_ADD_TO_CURRENT_VALUE = 5
+
+# --- ParticleTransformType_t (size=4 bytes, 5 values)
+ParticleTransformType_t::PT_TYPE_INVALID = 0
+ParticleTransformType_t::PT_TYPE_NAMED_VALUE = 1
+ParticleTransformType_t::PT_TYPE_CONTROL_POINT = 2
+ParticleTransformType_t::PT_TYPE_CONTROL_POINT_RANGE = 3
+ParticleTransformType_t::PT_TYPE_COUNT = 4
+
+# --- ParticleVecType_t (size=4 bytes, 21 values)
+ParticleVecType_t::PVEC_TYPE_INVALID = -1
+ParticleVecType_t::PVEC_TYPE_LITERAL = 0
+ParticleVecType_t::PVEC_TYPE_LITERAL_COLOR = 1
+ParticleVecType_t::PVEC_TYPE_NAMED_VALUE = 2
+ParticleVecType_t::PVEC_TYPE_PARTICLE_VECTOR = 3
+ParticleVecType_t::PVEC_TYPE_PARTICLE_INITIAL_VECTOR = 4
+ParticleVecType_t::PVEC_TYPE_PARTICLE_VELOCITY = 5
+ParticleVecType_t::PVEC_TYPE_PARTICLE_GRAVITY = 6
+ParticleVecType_t::PVEC_TYPE_CP_VALUE = 7
+ParticleVecType_t::PVEC_TYPE_CP_RELATIVE_POSITION = 8
+ParticleVecType_t::PVEC_TYPE_CP_RELATIVE_DIR = 9
+ParticleVecType_t::PVEC_TYPE_CP_RELATIVE_RANDOM_DIR = 10
+ParticleVecType_t::PVEC_TYPE_FLOAT_COMPONENTS = 11
+ParticleVecType_t::PVEC_TYPE_FLOAT_INTERP_CLAMPED = 12
+ParticleVecType_t::PVEC_TYPE_FLOAT_INTERP_OPEN = 13
+ParticleVecType_t::PVEC_TYPE_FLOAT_INTERP_GRADIENT = 14
+ParticleVecType_t::PVEC_TYPE_RANDOM_UNIFORM = 15
+ParticleVecType_t::PVEC_TYPE_RANDOM_UNIFORM_OFFSET = 16
+ParticleVecType_t::PVEC_TYPE_CP_DELTA = 17
+ParticleVecType_t::PVEC_TYPE_CLOSEST_CAMERA_POSITION = 18
+ParticleVecType_t::PVEC_TYPE_COUNT = 19
+
+# --- PermModelInfo_t::FlagEnum (size=4 bytes, 15 values)
+PermModelInfo_t::FlagEnum::FLAG_TRANSLUCENT = 1
+PermModelInfo_t::FlagEnum::FLAG_TRANSLUCENT_TWO_PASS = 2
+PermModelInfo_t::FlagEnum::FLAG_MODEL_IS_RUNTIME_COMBINED = 4
+PermModelInfo_t::FlagEnum::FLAG_SOURCE1_IMPORT = 8
+PermModelInfo_t::FlagEnum::FLAG_MODEL_PART_CHILD = 16
+PermModelInfo_t::FlagEnum::FLAG_NAV_GEN_NONE = 32
+PermModelInfo_t::FlagEnum::FLAG_NAV_GEN_HULL = 64
+PermModelInfo_t::FlagEnum::FLAG_NO_FORCED_FADE = 2048
+PermModelInfo_t::FlagEnum::FLAG_HAS_SKINNED_MESHES = 1024
+PermModelInfo_t::FlagEnum::FLAG_DO_NOT_CAST_SHADOWS = 131072
+PermModelInfo_t::FlagEnum::FLAG_FORCE_PHONEME_CROSSFADE = 4096
+PermModelInfo_t::FlagEnum::FLAG_NO_ANIM_EVENTS = 1048576
+PermModelInfo_t::FlagEnum::FLAG_ANIMATION_DRIVEN_FLEXES = 2097152
+PermModelInfo_t::FlagEnum::FLAG_IMPLICIT_BIND_POSE_SEQUENCE = 4194304
+PermModelInfo_t::FlagEnum::FLAG_MODEL_DOC = 8388608
+
+# --- PoseType_t (size=1 byte, 3 values)
+PoseType_t::POSETYPE_STATIC = 0
+PoseType_t::POSETYPE_DYNAMIC = 1
+PoseType_t::POSETYPE_INVALID = 255
+
+# --- PulseApiFeature_t (size=4 bytes, 6 values)
+PulseApiFeature_t::AF_NONE = 0
+PulseApiFeature_t::AF_ENTITIES = 1
+PulseApiFeature_t::AF_PANORAMA = 2
+PulseApiFeature_t::AF_PARTICLES = 8
+PulseApiFeature_t::AF_FAKE_ENTITIES = 16
+PulseApiFeature_t::AF_SELECTORS_WITHOUT_REQUIREMENTS = 32
+
+# --- PulseBestOutflowRules_t (size=4 bytes, 2 values)
+PulseBestOutflowRules_t::SORT_BY_NUMBER_OF_VALID_CRITERIA = 0
+PulseBestOutflowRules_t::SORT_BY_OUTFLOW_INDEX = 1
+
+# --- PulseCursorCancelPriority_t (size=4 bytes, 4 values)
+PulseCursorCancelPriority_t::None = 0
+PulseCursorCancelPriority_t::CancelOnSucceeded = 1
+PulseCursorCancelPriority_t::SoftCancel = 2
+PulseCursorCancelPriority_t::HardCancel = 3
+
+# --- PulseCursorWakePriority_t (size=4 bytes, 2 values)
+PulseCursorWakePriority_t::WakeElegantly = 0
+PulseCursorWakePriority_t::WakeImmediate = 1
+
+# --- PulseDomainValueType_t (size=4 bytes, 4 values)
+PulseDomainValueType_t::INVALID = -1
+PulseDomainValueType_t::ENTITY_NAME = 0
+PulseDomainValueType_t::PANEL_ID = 1
+PulseDomainValueType_t::COUNT = 2
+
+# --- PulseDurationStringFormat_t (size=4 bytes, 1 values)
+PulseDurationStringFormat_t::MM_SS_LEADING_ZERO = 0
+
+# --- PulseInstructionCode_t (size=2 bytes, 130 values)
+PulseInstructionCode_t::INVALID = 0
+PulseInstructionCode_t::IMMEDIATE_HALT = 1
+PulseInstructionCode_t::RETURN_VOID = 2
+PulseInstructionCode_t::RETURN_VALUE = 3
+PulseInstructionCode_t::LOOP_BREAK = 4
+PulseInstructionCode_t::NOP = 5
+PulseInstructionCode_t::JUMP = 6
+PulseInstructionCode_t::JUMP_COND = 7
+PulseInstructionCode_t::CHUNK_LEAP = 8
+PulseInstructionCode_t::CHUNK_LEAP_COND = 9
+PulseInstructionCode_t::PULSE_CALL_SYNC = 10
+PulseInstructionCode_t::PULSE_CALL_ASYNC_FIRE = 11
+PulseInstructionCode_t::CREATE_CHILD_CURSOR_OUTFLOW = 12
+PulseInstructionCode_t::CELL_INVOKE = 13
+PulseInstructionCode_t::LIBRARY_INVOKE = 14
+PulseInstructionCode_t::SET_VAR = 15
+PulseInstructionCode_t::GET_VAR = 16
+PulseInstructionCode_t::GET_VAR_DETACH = 17
+PulseInstructionCode_t::DETACH_REGISTER = 18
+PulseInstructionCode_t::SET_VAR_ARRAY_ELEMENT_1D = 19
+PulseInstructionCode_t::SET_VAR_OBSERVABLE = 20
+PulseInstructionCode_t::GET_CONST = 21
+PulseInstructionCode_t::GET_ARRAY_ELEMENT = 22
+PulseInstructionCode_t::GET_DOMAIN_VALUE = 23
+PulseInstructionCode_t::COPY = 24
+PulseInstructionCode_t::NOT = 25
+PulseInstructionCode_t::NEGATE = 26
+PulseInstructionCode_t::ADD = 27
+PulseInstructionCode_t::SUB = 28
+PulseInstructionCode_t::MUL = 29
+PulseInstructionCode_t::DIV = 30
+PulseInstructionCode_t::MOD = 31
+PulseInstructionCode_t::LT = 32
+PulseInstructionCode_t::LTE = 33
+PulseInstructionCode_t::EQ = 34
+PulseInstructionCode_t::NE = 35
+PulseInstructionCode_t::AND = 36
+PulseInstructionCode_t::OR = 37
+PulseInstructionCode_t::SCALE = 38
+PulseInstructionCode_t::SCALE_INV = 39
+PulseInstructionCode_t::ELEMENT_ACCESS = 40
+PulseInstructionCode_t::CONVERT_VALUE = 41
+PulseInstructionCode_t::REINTERPRET_INSTANCE = 42
+PulseInstructionCode_t::GET_BLACKBOARD_REFERENCE = 43
+PulseInstructionCode_t::SET_BLACKBOARD_REFERENCE = 44
+PulseInstructionCode_t::GET_TEMPVAR = 45
+PulseInstructionCode_t::SET_TEMPVAR = 46
+PulseInstructionCode_t::SET_TEMPVAR_OBSERVABLE = 47
+PulseInstructionCode_t::LAST_SERIALIZED_CODE = 48
+PulseInstructionCode_t::NEGATE_INT = 49
+PulseInstructionCode_t::NEGATE_FLOAT = 50
+PulseInstructionCode_t::NEGATE_VEC2 = 51
+PulseInstructionCode_t::NEGATE_VEC3 = 52
+PulseInstructionCode_t::NEGATE_VEC4 = 53
+PulseInstructionCode_t::ADD_INT = 54
+PulseInstructionCode_t::ADD_FLOAT = 55
+PulseInstructionCode_t::ADD_STRING = 56
+PulseInstructionCode_t::ADD_VEC2 = 57
+PulseInstructionCode_t::ADD_VEC3 = 58
+PulseInstructionCode_t::ADD_VEC3WS_VEC3 = 59
+PulseInstructionCode_t::ADD_VEC3_VEC3WS = 60
+PulseInstructionCode_t::ADD_VEC4 = 61
+PulseInstructionCode_t::ADD_GAMETIME_FLOAT = 62
+PulseInstructionCode_t::ADD_FLOAT_GAMETIME = 63
+PulseInstructionCode_t::SUB_INT = 64
+PulseInstructionCode_t::SUB_FLOAT = 65
+PulseInstructionCode_t::SUB_VEC2 = 66
+PulseInstructionCode_t::SUB_VEC3 = 67
+PulseInstructionCode_t::SUB_VEC3WS_VEC3 = 68
+PulseInstructionCode_t::SUB_VEC3WS_VEC3WS = 69
+PulseInstructionCode_t::SUB_VEC4 = 70
+PulseInstructionCode_t::SUB_GAMETIME_FLOAT = 71
+PulseInstructionCode_t::SUB_GAMETIME = 72
+PulseInstructionCode_t::MUL_INT = 73
+PulseInstructionCode_t::MUL_FLOAT = 74
+PulseInstructionCode_t::DIV_FLOAT = 75
+PulseInstructionCode_t::MOD_INT = 76
+PulseInstructionCode_t::MOD_FLOAT = 77
+PulseInstructionCode_t::LT_INT = 78
+PulseInstructionCode_t::LT_FLOAT = 79
+PulseInstructionCode_t::LT_GAMETIME = 80
+PulseInstructionCode_t::LTE_INT = 81
+PulseInstructionCode_t::LTE_FLOAT = 82
+PulseInstructionCode_t::LTE_GAMETIME = 83
+PulseInstructionCode_t::EQ_BOOL = 84
+PulseInstructionCode_t::EQ_INT = 85
+PulseInstructionCode_t::EQ_FLOAT = 86
+PulseInstructionCode_t::EQ_VEC2 = 87
+PulseInstructionCode_t::EQ_VEC3 = 88
+PulseInstructionCode_t::EQ_VEC3WS = 89
+PulseInstructionCode_t::EQ_VEC4 = 90
+PulseInstructionCode_t::EQ_STRING = 91
+PulseInstructionCode_t::EQ_ENTITY_NAME = 92
+PulseInstructionCode_t::EQ_SCHEMA_ENUM = 93
+PulseInstructionCode_t::EQ_EHANDLE = 94
+PulseInstructionCode_t::EQ_PANEL_HANDLE = 95
+PulseInstructionCode_t::EQ_OPAQUE_HANDLE = 96
+PulseInstructionCode_t::EQ_TEST_HANDLE = 97
+PulseInstructionCode_t::EQ_COLOR_RGB = 98
+PulseInstructionCode_t::EQ_ARRAY = 99
+PulseInstructionCode_t::EQ_GAMETIME = 100
+PulseInstructionCode_t::NE_BOOL = 101
+PulseInstructionCode_t::NE_INT = 102
+PulseInstructionCode_t::NE_FLOAT = 103
+PulseInstructionCode_t::NE_VEC2 = 104
+PulseInstructionCode_t::NE_VEC3 = 105
+PulseInstructionCode_t::NE_VEC3WS = 106
+PulseInstructionCode_t::NE_VEC4 = 107
+PulseInstructionCode_t::NE_STRING = 108
+PulseInstructionCode_t::NE_ENTITY_NAME = 109
+PulseInstructionCode_t::NE_SCHEMA_ENUM = 110
+PulseInstructionCode_t::NE_EHANDLE = 111
+PulseInstructionCode_t::NE_PANEL_HANDLE = 112
+PulseInstructionCode_t::NE_OPAQUE_HANDLE = 113
+PulseInstructionCode_t::NE_TEST_HANDLE = 114
+PulseInstructionCode_t::NE_COLOR_RGB = 115
+PulseInstructionCode_t::NE_ARRAY = 116
+PulseInstructionCode_t::NE_GAMETIME = 117
+PulseInstructionCode_t::SCALE_VEC3 = 118
+PulseInstructionCode_t::SCALE_VEC2 = 119
+PulseInstructionCode_t::SCALE_VEC4 = 120
+PulseInstructionCode_t::SCALE_INV_VEC3 = 121
+PulseInstructionCode_t::SCALE_INV_VEC2 = 122
+PulseInstructionCode_t::SCALE_INV_VEC4 = 123
+PulseInstructionCode_t::ELEMENT_ACCESS_VEC2 = 124
+PulseInstructionCode_t::ELEMENT_ACCESS_VEC3 = 125
+PulseInstructionCode_t::ELEMENT_ACCESS_VEC3WS = 126
+PulseInstructionCode_t::ELEMENT_ACCESS_VEC4 = 127
+PulseInstructionCode_t::ELEMENT_ACCESS_COLOR_RGB = 128
+PulseInstructionCode_t::GET_CONST_INLINE_STORAGE = 129
+
+# --- PulseMethodCallMode_t (size=4 bytes, 2 values)
+PulseMethodCallMode_t::SYNC_WAIT_FOR_COMPLETION = 0
+PulseMethodCallMode_t::ASYNC_FIRE_AND_FORGET = 1
+
+# --- PulseValueType_t (size=4 bytes, 35 values)
+PulseValueType_t::PVAL_VOID = -1
+PulseValueType_t::PVAL_BOOL = 0
+PulseValueType_t::PVAL_INT = 1
+PulseValueType_t::PVAL_FLOAT = 2
+PulseValueType_t::PVAL_STRING = 3
+PulseValueType_t::PVAL_VEC2 = 4
+PulseValueType_t::PVAL_VEC3 = 5
+PulseValueType_t::PVAL_QANGLE = 6
+PulseValueType_t::PVAL_VEC3_WORLDSPACE = 7
+PulseValueType_t::PVAL_VEC4 = 8
+PulseValueType_t::PVAL_TRANSFORM = 9
+PulseValueType_t::PVAL_TRANSFORM_WORLDSPACE = 10
+PulseValueType_t::PVAL_COLOR_RGB = 11
+PulseValueType_t::PVAL_GAMETIME = 12
+PulseValueType_t::PVAL_EHANDLE = 13
+PulseValueType_t::PVAL_RESOURCE = 14
+PulseValueType_t::PVAL_RESOURCE_NAME = 15
+PulseValueType_t::PVAL_SNDEVT_GUID = 16
+PulseValueType_t::PVAL_SNDEVT_NAME = 17
+PulseValueType_t::PVAL_ENTITY_NAME = 18
+PulseValueType_t::PVAL_OPAQUE_HANDLE = 19
+PulseValueType_t::PVAL_TYPESAFE_INT = 20
+PulseValueType_t::PVAL_MODEL_MATERIAL_GROUP = 21
+PulseValueType_t::PVAL_CURSOR_FLOW = 22
+PulseValueType_t::PVAL_VARIANT = 23
+PulseValueType_t::PVAL_UNKNOWN = 24
+PulseValueType_t::PVAL_SCHEMA_ENUM = 25
+PulseValueType_t::PVAL_PANORAMA_PANEL_HANDLE = 26
+PulseValueType_t::PVAL_TEST_HANDLE = 27
+PulseValueType_t::PVAL_ARRAY = 28
+PulseValueType_t::PVAL_TYPESAFE_INT64 = 29
+PulseValueType_t::PVAL_PARTICLE_EHANDLE = 30
+PulseValueType_t::PVAL_ANIM_SEQUENCE = 31
+PulseValueType_t::PVAL_VDATA_CHOICE = 32
+PulseValueType_t::PVAL_COUNT = 33
+
+# --- PulseVariableKeysSource_t (size=4 bytes, 7 values)
+PulseVariableKeysSource_t::PRIVATE = 0
+PulseVariableKeysSource_t::CPP = 1
+PulseVariableKeysSource_t::VMAP = 2
+PulseVariableKeysSource_t::VMDL = 3
+PulseVariableKeysSource_t::XML = 4
+PulseVariableKeysSource_t::VDATA = 5
+PulseVariableKeysSource_t::COUNT = 6
+
+# --- RagdollPoseControl (size=4 bytes, 1 values)
+RagdollPoseControl::Absolute = 0
+
+# --- RenderMeshSlotType_t (size=1 byte, 3 values)
+RenderMeshSlotType_t::RENDERMESH_SLOT_INVALID = -1
+RenderMeshSlotType_t::RENDERMESH_SLOT_PER_VERTEX = 0
+RenderMeshSlotType_t::RENDERMESH_SLOT_PER_INSTANCE = 1
+
+# --- ResetCycleOption (size=4 bytes, 5 values)
+ResetCycleOption::Beginning = 0
+ResetCycleOption::SameCycleAsSource = 1
+ResetCycleOption::InverseSourceCycle = 2
+ResetCycleOption::FixedValue = 3
+ResetCycleOption::SameTimeAsSource = 4
+
+# --- ScriptedHeldWeaponBehavior_t (size=4 bytes, 4 values)
+ScriptedHeldWeaponBehavior_t::eInvalid = -1
+ScriptedHeldWeaponBehavior_t::eHolster = 0
+ScriptedHeldWeaponBehavior_t::eDeploy = 1
+ScriptedHeldWeaponBehavior_t::eDrop = 2
+
+# --- ScriptedMoveTo_t (size=4 bytes, 6 values)
+ScriptedMoveTo_t::eWait = 0
+ScriptedMoveTo_t::eMoveWithGait = 3
+ScriptedMoveTo_t::eTeleport = 4
+ScriptedMoveTo_t::eWaitFacing = 5
+ScriptedMoveTo_t::eObsoleteBackCompat1 = 1
+ScriptedMoveTo_t::eObsoleteBackCompat2 = 2
+
+# --- SelectorTagBehavior_t (size=4 bytes, 3 values)
+SelectorTagBehavior_t::SelectorTagBehavior_OnWhileCurrent = 0
+SelectorTagBehavior_t::SelectorTagBehavior_OffWhenFinished = 1
+SelectorTagBehavior_t::SelectorTagBehavior_OffBeforeFinished = 2
+
+# --- SeqCmd_t (size=4 bytes, 17 values)
+SeqCmd_t::SeqCmd_Nop = 0
+SeqCmd_t::SeqCmd_LinearDelta = 1
+SeqCmd_t::SeqCmd_FetchFrameRange = 2
+SeqCmd_t::SeqCmd_Slerp = 3
+SeqCmd_t::SeqCmd_Add = 4
+SeqCmd_t::SeqCmd_Subtract = 5
+SeqCmd_t::SeqCmd_Scale = 6
+SeqCmd_t::SeqCmd_Copy = 7
+SeqCmd_t::SeqCmd_Blend = 8
+SeqCmd_t::SeqCmd_Worldspace = 9
+SeqCmd_t::SeqCmd_Sequence = 10
+SeqCmd_t::SeqCmd_FetchCycle = 11
+SeqCmd_t::SeqCmd_FetchFrame = 12
+SeqCmd_t::SeqCmd_IKLockInPlace = 13
+SeqCmd_t::SeqCmd_IKRestoreAll = 14
+SeqCmd_t::SeqCmd_ReverseSequence = 15
+SeqCmd_t::SeqCmd_Transform = 16
+
+# --- SeqPoseSetting_t (size=4 bytes, 4 values)
+SeqPoseSetting_t::SEQ_POSE_SETTING_CONSTANT = 0
+SeqPoseSetting_t::SEQ_POSE_SETTING_ROTATION = 1
+SeqPoseSetting_t::SEQ_POSE_SETTING_POSITION = 2
+SeqPoseSetting_t::SEQ_POSE_SETTING_VELOCITY = 3
+
+# --- SharedMovementGait_t (size=1 byte, 6 values)
+SharedMovementGait_t::eInvalid = -1
+SharedMovementGait_t::eSlow = 0
+SharedMovementGait_t::eMedium = 1
+SharedMovementGait_t::eFast = 2
+SharedMovementGait_t::eVeryFast = 3
+SharedMovementGait_t::eCount = 4
+
+# --- SolveIKChainAnimNodeDebugSetting (size=4 bytes, 7 values)
+SolveIKChainAnimNodeDebugSetting::SOLVEIKCHAINANIMNODEDEBUGSETTING_None = 0
+SolveIKChainAnimNodeDebugSetting::SOLVEIKCHAINANIMNODEDEBUGSETTING_X_Axis_Circle = 1
+SolveIKChainAnimNodeDebugSetting::SOLVEIKCHAINANIMNODEDEBUGSETTING_Y_Axis_Circle = 2
+SolveIKChainAnimNodeDebugSetting::SOLVEIKCHAINANIMNODEDEBUGSETTING_Z_Axis_Circle = 3
+SolveIKChainAnimNodeDebugSetting::SOLVEIKCHAINANIMNODEDEBUGSETTING_Forward = 4
+SolveIKChainAnimNodeDebugSetting::SOLVEIKCHAINANIMNODEDEBUGSETTING_Up = 5
+SolveIKChainAnimNodeDebugSetting::SOLVEIKCHAINANIMNODEDEBUGSETTING_Left = 6
+
+# --- StanceOverrideMode (size=4 bytes, 2 values)
+StanceOverrideMode::Sequence = 0
+StanceOverrideMode::Node = 1
+
+# --- StateActionBehavior (size=4 bytes, 5 values)
+StateActionBehavior::STATETAGBEHAVIOR_ACTIVE_WHILE_CURRENT = 0
+StateActionBehavior::STATETAGBEHAVIOR_FIRE_ON_ENTER = 1
+StateActionBehavior::STATETAGBEHAVIOR_FIRE_ON_EXIT = 2
+StateActionBehavior::STATETAGBEHAVIOR_FIRE_ON_ENTER_AND_EXIT = 3
+StateActionBehavior::STATETAGBEHAVIOR_ACTIVE_WHILE_FULLY_BLENDED = 4
+
+# --- StepPhase (size=4 bytes, 2 values)
+StepPhase::StepPhase_OnGround = 0
+StepPhase::StepPhase_InAir = 1
+
+# --- TagActionStatus (size=1 byte, 3 values)
+TagActionStatus::Inactive = 0
+TagActionStatus::Active = 1
+TagActionStatus::Fired = 2
+
+# --- TargetSelectorAngleMode_t (size=4 bytes, 2 values)
+TargetSelectorAngleMode_t::eFacingHeading = 0
+TargetSelectorAngleMode_t::eMoveHeading = 1
+
+# --- TargetWarpAngleMode_t (size=4 bytes, 2 values)
+TargetWarpAngleMode_t::eFacingHeading = 0
+TargetWarpAngleMode_t::eMoveHeading = 1
+
+# --- TargetWarpCorrectionMethod (size=4 bytes, 2 values)
+TargetWarpCorrectionMethod::ScaleMotion = 0
+TargetWarpCorrectionMethod::AddCorrectionDelta = 1
+
+# --- TargetWarpTimingMethod (size=4 bytes, 2 values)
+TargetWarpTimingMethod::ReachDestinationOnRootMotionEnd = 0
+TargetWarpTimingMethod::ReachDestinationOnWarpTagEnd = 1
+
+# --- VPhysXAggregateData_t::VPhysXFlagEnum_t (size=4 bytes, 3 values)
+VPhysXAggregateData_t::VPhysXFlagEnum_t::FLAG_IS_POLYSOUP_GEOMETRY = 1
+VPhysXAggregateData_t::VPhysXFlagEnum_t::FLAG_LEVEL_COLLISION = 16
+VPhysXAggregateData_t::VPhysXFlagEnum_t::FLAG_IGNORE_SCALE_OBSOLETE_DO_NOT_USE = 32
+
+# --- VPhysXBodyPart_t::VPhysXFlagEnum_t (size=4 bytes, 6 values)
+VPhysXBodyPart_t::VPhysXFlagEnum_t::FLAG_STATIC = 1
+VPhysXBodyPart_t::VPhysXFlagEnum_t::FLAG_KINEMATIC = 2
+VPhysXBodyPart_t::VPhysXFlagEnum_t::FLAG_JOINT = 4
+VPhysXBodyPart_t::VPhysXFlagEnum_t::FLAG_MASS = 8
+VPhysXBodyPart_t::VPhysXFlagEnum_t::FLAG_ALWAYS_DYNAMIC_ON_CLIENT = 16
+VPhysXBodyPart_t::VPhysXFlagEnum_t::FLAG_DISABLE_CCD = 32
+
+# --- VPhysXConstraintParams_t::EnumFlags0_t (size=4 bytes, 4 values)
+VPhysXConstraintParams_t::EnumFlags0_t::FLAG0_SHIFT_INTERPENETRATE = 0
+VPhysXConstraintParams_t::EnumFlags0_t::FLAG0_SHIFT_CONSTRAIN = 1
+VPhysXConstraintParams_t::EnumFlags0_t::FLAG0_SHIFT_BREAKABLE_FORCE = 2
+VPhysXConstraintParams_t::EnumFlags0_t::FLAG0_SHIFT_BREAKABLE_TORQUE = 3
+
+# --- VPhysXJoint_t::Flags_t (size=4 bytes, 3 values)
+VPhysXJoint_t::Flags_t::JOINT_FLAGS_NONE = 0
+VPhysXJoint_t::Flags_t::JOINT_FLAGS_BODY1_FIXED = 1
+VPhysXJoint_t::Flags_t::JOINT_FLAGS_USE_BLOCK_SOLVER = 2
+
+# --- VelocityMetricMode (size=1 byte, 3 values)
+VelocityMetricMode::DirectionOnly = 0
+VelocityMetricMode::MagnitudeOnly = 1
+VelocityMetricMode::DirectionAndMagnitude = 2
+
+# --- VertexAlbedoFormat_t (size=1 byte, 3 values)
+VertexAlbedoFormat_t::VERTEX_ALBEDO_NONE = 0
+VertexAlbedoFormat_t::VERTEX_ALBEDO_8888 = 1
+VertexAlbedoFormat_t::VERTEX_ALBEDO_565 = 2
+

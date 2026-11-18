@@ -1,0 +1,9 @@
+// CTestPulseIOComponent
+// Size: 0xB34596B9 (-1287285063 bytes)
+// Module: client.dll
+//
+// Direct subclasses (1):
+//   CTestPulseIOComponent_Derived
+//
+
+// (no own fields)

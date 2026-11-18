@@ -1,0 +1,10 @@
+// CRagdollConstraint
+// Size: 0xB345B7B8 (-1287276616 bytes)
+// Parent: CPhysConstraint
+// Module: server.dll
+//
+// Inheritance:
+//   CRagdollConstraint -> CPhysConstraint -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_INIT_MoveBetweenPoints
+// Size: 0xB345540B (-1287302133 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_MoveBetweenPoints -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

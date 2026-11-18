@@ -1,0 +1,10 @@
+// C_OP_LocalAccelerationForce
+// Size: 0xB3455EA5 (-1287299419 bytes)
+// Parent: CParticleFunctionForce
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_LocalAccelerationForce -> CParticleFunctionForce -> CParticleFunction
+//
+
+// (no own fields)

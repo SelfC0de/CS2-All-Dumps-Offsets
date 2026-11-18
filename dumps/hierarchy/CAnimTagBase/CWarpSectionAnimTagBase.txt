@@ -1,0 +1,13 @@
+// CWarpSectionAnimTagBase
+// Size: 0xB33DECFF (-1287787265 bytes)
+// Parent: CAnimTagBase
+// Module: client.dll
+//
+// Inheritance:
+//   CWarpSectionAnimTagBase -> CAnimTagBase -> IAnimTag -> Object@Reflection -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT
+//
+// Direct subclasses (1):
+//   CWarpSectionAnimTag
+//
+
+// (no own fields)

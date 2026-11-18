@@ -1,0 +1,6 @@
+// PhysicsRagdollPose_t
+// Size: 0xB3459B64 (-1287283868 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

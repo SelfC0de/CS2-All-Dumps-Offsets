@@ -1,0 +1,10 @@
+// CLogicNPCCounterOBB
+// Size: 0xB345B4F7 (-1287277321 bytes)
+// Parent: CLogicNPCCounterAABB
+// Module: server.dll
+//
+// Inheritance:
+//   CLogicNPCCounterOBB -> CLogicNPCCounterAABB -> CLogicNPCCounter -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

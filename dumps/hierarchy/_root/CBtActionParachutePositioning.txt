@@ -1,0 +1,10 @@
+// CBtActionParachutePositioning
+// Size: 0xB345AAE3 (-1287279901 bytes)
+// Parent: CBtNode
+// Module: server.dll
+//
+// Inheritance:
+//   CBtActionParachutePositioning -> CBtNode
+//
+
+// (no own fields)

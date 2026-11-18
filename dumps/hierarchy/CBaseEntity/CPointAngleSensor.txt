@@ -1,0 +1,10 @@
+// CPointAngleSensor
+// Size: 0xB345B8BE (-1287276354 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPointAngleSensor -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

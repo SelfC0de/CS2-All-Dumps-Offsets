@@ -1,0 +1,10 @@
+// C_OP_MultiSegmentDisplaySnapshotGenerator
+// Size: 0xB34578C9 (-1287292727 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_MultiSegmentDisplaySnapshotGenerator -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

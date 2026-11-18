@@ -1,0 +1,10 @@
+// CVoiceContainerSet
+// Size: 0xB34533BE (-1287310402 bytes)
+// Parent: CVoiceContainerBase
+// Module: client.dll
+//
+// Inheritance:
+//   CVoiceContainerSet -> CVoiceContainerBase
+//
+
+// (no own fields)

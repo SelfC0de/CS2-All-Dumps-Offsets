@@ -3,14 +3,14 @@
 // module:        scenesystem.dll
 // classes:       9
 // enums:         7
-// generated_at:  2026-11-12T08:33:43.130164300+00:00
+// generated_at:  2026-11-18T06:23:06.754083400+00:00
 //
 // Use:
 //   auto* pawn = reinterpret_cast<C_CSPlayerPawn*>(addr);
 //   pawn->m_iHealth() = 100;
 
 #pragma once
-#include "macros.hpp"
+#include "../macros.hpp"
 
 namespace scenesystem {
 
@@ -87,16 +87,6 @@ namespace scenesystem {
         SCENEOBJECT_VIS_INSTANCING = 0x5,
     };
 
-    // CSSDSMsg_ViewRender
-    //   fields: 2
-    //   size: 0x18
-    //   @MGetKV3ClassDefaults
-    class CSSDSMsg_ViewRender {
-    public:
-        SCHEMA_FIELD(SceneViewId_t                   , m_viewId                                        , 0x0) // SceneViewId_t
-        SCHEMA_FIELD(::CUtlString                    , m_ViewName                                      , 0x10) // CUtlString
-    };
-
     // CSSDSMsg_ViewTarget
     //   fields: 10
     //   size: 0x30
@@ -115,12 +105,14 @@ namespace scenesystem {
         SCHEMA_FIELD(std::int32_t                    , m_nFormat                                       , 0x2C) // int32
     };
 
-    // CSSDSMsg_PreLayer
-    //   fields: 0
-    //   size: 0x30
+    // CSSDSEndFrameViewInfo
+    //   fields: 2
+    //   size: 0x10
     //   @MGetKV3ClassDefaults
-    class CSSDSMsg_PreLayer {
+    class CSSDSEndFrameViewInfo {
     public:
+        SCHEMA_FIELD(std::uint64_t                   , m_nViewId                                       , 0x0) // uint64
+        SCHEMA_FIELD(::CUtlString                    , m_ViewName                                      , 0x8) // CUtlString
     };
 
     // CSSDSMsg_ViewTargetList
@@ -134,43 +126,6 @@ namespace scenesystem {
         SCHEMA_FIELD(CUtlVector<CSSDSMsg_ViewTarget> , m_Targets                                       , 0x18) // CUtlVector<CSSDSMsg_ViewTarget>
     };
 
-    // SceneViewId_t
-    //   fields: 2
-    //   size: 0x10
-    //   @MGetKV3ClassDefaults
-    class SceneViewId_t {
-    public:
-        SCHEMA_FIELD(std::uint64_t                   , m_nViewId                                       , 0x0) // uint64
-        SCHEMA_FIELD(std::uint64_t                   , m_nFrameCount                                   , 0x8) // uint64
-    };
-
-    // CSSDSMsg_EndFrame
-    //   fields: 1
-    //   size: 0x18
-    //   @MGetKV3ClassDefaults
-    class CSSDSMsg_EndFrame {
-    public:
-        SCHEMA_FIELD(CUtlVector<CSSDSEndFrameViewInfo>, m_Views                                         , 0x0) // CUtlVector<CSSDSEndFrameViewInfo>
-    };
-
-    // CSSDSEndFrameViewInfo
-    //   fields: 2
-    //   size: 0x10
-    //   @MGetKV3ClassDefaults
-    class CSSDSEndFrameViewInfo {
-    public:
-        SCHEMA_FIELD(std::uint64_t                   , m_nViewId                                       , 0x0) // uint64
-        SCHEMA_FIELD(::CUtlString                    , m_ViewName                                      , 0x8) // CUtlString
-    };
-
-    // CSSDSMsg_PostLayer
-    //   fields: 0
-    //   size: 0x30
-    //   @MGetKV3ClassDefaults
-    class CSSDSMsg_PostLayer {
-    public:
-    };
-
     // CSSDSMsg_LayerBase
     //   fields: 5
     //   size: 0x30
@@ -182,6 +137,51 @@ namespace scenesystem {
         SCHEMA_FIELD(std::uint64_t                   , m_nLayerId                                      , 0x18) // uint64
         SCHEMA_FIELD(::CUtlString                    , m_LayerName                                     , 0x20) // CUtlString
         SCHEMA_FIELD(::CUtlString                    , m_displayText                                   , 0x28) // CUtlString
+    };
+
+    // CSSDSMsg_PreLayer
+    //   fields: 0
+    //   size: 0x30
+    //   @MGetKV3ClassDefaults
+    class CSSDSMsg_PreLayer {
+    public:
+    };
+
+    // CSSDSMsg_EndFrame
+    //   fields: 1
+    //   size: 0x18
+    //   @MGetKV3ClassDefaults
+    class CSSDSMsg_EndFrame {
+    public:
+        SCHEMA_FIELD(CUtlVector<CSSDSEndFrameViewInfo>, m_Views                                         , 0x0) // CUtlVector<CSSDSEndFrameViewInfo>
+    };
+
+    // SceneViewId_t
+    //   fields: 2
+    //   size: 0x10
+    //   @MGetKV3ClassDefaults
+    class SceneViewId_t {
+    public:
+        SCHEMA_FIELD(std::uint64_t                   , m_nViewId                                       , 0x0) // uint64
+        SCHEMA_FIELD(std::uint64_t                   , m_nFrameCount                                   , 0x8) // uint64
+    };
+
+    // CSSDSMsg_PostLayer
+    //   fields: 0
+    //   size: 0x30
+    //   @MGetKV3ClassDefaults
+    class CSSDSMsg_PostLayer {
+    public:
+    };
+
+    // CSSDSMsg_ViewRender
+    //   fields: 2
+    //   size: 0x18
+    //   @MGetKV3ClassDefaults
+    class CSSDSMsg_ViewRender {
+    public:
+        SCHEMA_FIELD(SceneViewId_t                   , m_viewId                                        , 0x0) // SceneViewId_t
+        SCHEMA_FIELD(::CUtlString                    , m_ViewName                                      , 0x10) // CUtlString
     };
 
     // c_mesh_draw_primitive — per-element mesh draw primitive (0x68 bytes)

@@ -1,0 +1,10 @@
+// CScriptedSequence
+// Size: 0xB345B9B1 (-1287276111 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CScriptedSequence -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

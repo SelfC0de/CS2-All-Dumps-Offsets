@@ -1,0 +1,10 @@
+// CMotionNodeSequence
+// Size: 0xB345002D (-1287323603 bytes)
+// Parent: CMotionNode
+// Module: client.dll
+//
+// Inheritance:
+//   CMotionNodeSequence -> CMotionNode -> ?$CMutableRefCounted@V?$CMutableRefCountBase@VCRefMT -> ?$CMutableRefCountBase@VCRefMT -> Object@Reflection
+//
+
+// (no own fields)

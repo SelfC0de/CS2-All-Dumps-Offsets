@@ -1,0 +1,10 @@
+// CAI_ChangeHintGroup
+// Size: 0xB345BAD0 (-1287275824 bytes)
+// Parent: CBaseEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CAI_ChangeHintGroup -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

@@ -1,0 +1,14 @@
+// CPhysForce
+// Size: 0xB345B6D2 (-1287276846 bytes)
+// Parent: CPointEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CPhysForce -> CPointEntity -> CBaseEntity -> CEntityInstance
+//
+// Direct subclasses (2):
+//   CPhysThruster
+//   CPhysTorque
+//
+
+// (no own fields)

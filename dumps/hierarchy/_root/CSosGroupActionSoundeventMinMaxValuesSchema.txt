@@ -1,0 +1,10 @@
+// CSosGroupActionSoundeventMinMaxValuesSchema
+// Size: 0xB3452D66 (-1287312026 bytes)
+// Parent: CSosGroupActionSchema
+// Module: client.dll
+//
+// Inheritance:
+//   CSosGroupActionSoundeventMinMaxValuesSchema -> CSosGroupActionSchema
+//
+
+// (no own fields)

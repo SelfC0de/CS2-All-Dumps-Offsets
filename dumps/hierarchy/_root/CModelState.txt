@@ -1,0 +1,6 @@
+// CModelState
+// Size: 0xB3458BC8 (-1287287864 bytes)
+// Module: client.dll
+//
+
+// (no own fields)

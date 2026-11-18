@@ -1,0 +1,10 @@
+// C_INIT_SkyVisCull
+// Size: 0xB34557E8 (-1287301144 bytes)
+// Parent: CParticleFunctionInitializer
+// Module: client.dll
+//
+// Inheritance:
+//   C_INIT_SkyVisCull -> CParticleFunctionInitializer -> CParticleFunction
+//
+
+// (no own fields)

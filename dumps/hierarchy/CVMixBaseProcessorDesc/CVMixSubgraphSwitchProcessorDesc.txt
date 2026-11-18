@@ -1,0 +1,10 @@
+// CVMixSubgraphSwitchProcessorDesc
+// Size: 0xB3453BBD (-1287308355 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixSubgraphSwitchProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

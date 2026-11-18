@@ -1,0 +1,10 @@
+// CModelConfigElement_Command
+// Size: 0xB364F2C2 (-1285229886 bytes)
+// Parent: CModelConfigElement
+// Module: client.dll
+//
+// Inheritance:
+//   CModelConfigElement_Command -> CModelConfigElement
+//
+
+// (no own fields)

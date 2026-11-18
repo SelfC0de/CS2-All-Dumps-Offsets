@@ -1,0 +1,10 @@
+// CTimerEntity
+// Size: 0xB345B566 (-1287277210 bytes)
+// Parent: CLogicalEntity
+// Module: server.dll
+//
+// Inheritance:
+//   CTimerEntity -> CLogicalEntity -> CServerOnlyEntity -> CBaseEntity -> CEntityInstance
+//
+
+// (no own fields)

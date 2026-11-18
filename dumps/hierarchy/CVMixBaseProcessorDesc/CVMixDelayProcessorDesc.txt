@@ -1,0 +1,10 @@
+// CVMixDelayProcessorDesc
+// Size: 0xB345362B (-1287309781 bytes)
+// Parent: CVMixBaseProcessorDesc
+// Module: client.dll
+//
+// Inheritance:
+//   CVMixDelayProcessorDesc -> CVMixBaseProcessorDesc
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_DistanceCull
+// Size: 0xB3456921 (-1287296735 bytes)
+// Parent: CParticleFunctionOperator
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_DistanceCull -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)

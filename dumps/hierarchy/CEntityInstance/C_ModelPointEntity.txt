@@ -1,0 +1,14 @@
+// C_ModelPointEntity
+// Size: 0xB345F545 (-1287260859 bytes)
+// Parent: C_BaseModelEntity
+// Module: client.dll
+//
+// Inheritance:
+//   C_ModelPointEntity -> C_BaseModelEntity -> C_BaseEntity -> CEntityInstance -> IRenderBoundsWorldSpaceOverride -> IBoneTransformOverride -> CCompositeMaterialOwner -> ISceneObjectRenderNotifier
+//
+// Direct subclasses (2):
+//   C_PlayerSprayDecal
+//   C_PointWorldText
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// CNmOrientationWarpEvent
+// Size: 0xB364FD07 (-1285227257 bytes)
+// Parent: CNmEvent
+// Module: client.dll
+//
+// Inheritance:
+//   CNmOrientationWarpEvent -> CNmEvent
+//
+
+// (no own fields)

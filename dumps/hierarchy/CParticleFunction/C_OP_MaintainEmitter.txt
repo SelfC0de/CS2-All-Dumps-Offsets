@@ -1,0 +1,10 @@
+// C_OP_MaintainEmitter
+// Size: 0xB3455D34 (-1287299788 bytes)
+// Parent: CParticleFunctionEmitter
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_MaintainEmitter -> CParticleFunctionEmitter -> CParticleFunction
+//
+
+// (no own fields)

@@ -1,0 +1,10 @@
+// C_OP_DistanceBetweenCPsToCP
+// Size: 0xB3457517 (-1287293673 bytes)
+// Parent: CParticleFunctionPreEmission
+// Module: client.dll
+//
+// Inheritance:
+//   C_OP_DistanceBetweenCPsToCP -> CParticleFunctionPreEmission -> CParticleFunctionOperator -> CParticleFunction
+//
+
+// (no own fields)
