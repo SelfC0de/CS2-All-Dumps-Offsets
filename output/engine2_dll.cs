@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-18 06:23:05.2221886 UTC
+// 2026-11-19 06:00:34.3720000 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: engine2.dll
@@ -9,16 +9,16 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 3
         public enum EntityDormancyType_t : uint {
-            ENTITY_NOT_DORMANT = 0x0,
-            ENTITY_DORMANT = 0x1,
+            ENTITY_NOT_DORMANT = 0x0
+            ENTITY_DORMANT = 0x1
             ENTITY_SUSPENDED = 0x2
         }
         // Alignment: 4
         // Member count: 4
         public enum EntityIOTargetType_t : uint {
-            ENTITY_IO_TARGET_INVALID = 0x-1,
-            ENTITY_IO_TARGET_ENTITYNAME = 0x2,
-            ENTITY_IO_TARGET_EHANDLE = 0x6,
+            ENTITY_IO_TARGET_INVALID = 0x-1
+            ENTITY_IO_TARGET_ENTITYNAME = 0x2
+            ENTITY_IO_TARGET_EHANDLE = 0x6
             ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME = 0x7
         }
         // Parent: None

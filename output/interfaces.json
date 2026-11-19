@@ -247,7 +247,7 @@
           {
             "index": 36,
             "module": "animationsystem.dll",
-            "name": "FrameUpdate",
+            "name": "CAnimationSystem_FrameUpdate",
             "rva": 440000
           },
           {
@@ -1522,7 +1522,7 @@
         ],
         "rtti_class": "CClientBugBugService",
         "vtable_module": "client.dll",
-        "vtable_rva": 29720600
+        "vtable_rva": 29720616
       },
       "ClientToolsInfo_001": {
         "methods": [
@@ -1595,7 +1595,7 @@
         ],
         "rtti_class": "CClientToolsInfo",
         "vtable_module": "client.dll",
-        "vtable_rva": 29726880
+        "vtable_rva": 29726896
       },
       "EmptyWorldService001_Client": {
         "methods": [
@@ -1740,7 +1740,7 @@
         ],
         "rtti_class": "CEmptyWorldService",
         "vtable_module": "client.dll",
-        "vtable_rva": 29067920
+        "vtable_rva": 29067936
       },
       "GameClientExports001": {
         "methods": [
@@ -1831,7 +1831,7 @@
           {
             "index": 14,
             "module": "client.dll",
-            "name": "LevelShutdown",
+            "name": null,
             "rva": 11851536
           },
           {
@@ -1861,7 +1861,7 @@
         ],
         "rtti_class": "CGameClientExports",
         "vtable_module": "client.dll",
-        "vtable_rva": 29728216
+        "vtable_rva": 29728232
       },
       "LegacyGameUI001": {
         "methods": [
@@ -2121,7 +2121,7 @@
           {
             "index": 4,
             "module": "client.dll",
-            "name": "Shutdown",
+            "name": "CSource2Client_Shutdown",
             "rva": 12025152
           },
           {
@@ -3442,13 +3442,13 @@
             "index": 224,
             "module": "client.dll",
             "name": null,
-            "rva": 19087936
+            "rva": 19088032
           },
           {
             "index": 225,
             "module": "client.dll",
             "name": null,
-            "rva": 6390496
+            "rva": 6390512
           },
           {
             "index": 226,
@@ -3466,13 +3466,13 @@
             "index": 228,
             "module": "client.dll",
             "name": null,
-            "rva": 19087984
+            "rva": 19088080
           },
           {
             "index": 229,
             "module": "client.dll",
             "name": null,
-            "rva": 19084960
+            "rva": 19085056
           },
           {
             "index": 230,
@@ -3484,13 +3484,13 @@
             "index": 231,
             "module": "client.dll",
             "name": null,
-            "rva": 6391792
+            "rva": 6391584
           },
           {
             "index": 232,
             "module": "client.dll",
             "name": null,
-            "rva": 6391008
+            "rva": 6391024
           },
           {
             "index": 233,
@@ -3502,25 +3502,25 @@
             "index": 234,
             "module": "client.dll",
             "name": null,
-            "rva": 6391648
+            "rva": 6391440
           },
           {
             "index": 235,
             "module": "client.dll",
             "name": null,
-            "rva": 19089296
+            "rva": 19089392
           },
           {
             "index": 236,
             "module": "client.dll",
             "name": null,
-            "rva": 19091120
+            "rva": 19091216
           },
           {
             "index": 237,
             "module": "client.dll",
             "name": null,
-            "rva": 6392416
+            "rva": 6391952
           },
           {
             "index": 238,
@@ -3537,7 +3537,7 @@
         ],
         "rtti_class": "CSource2Client",
         "vtable_module": "client.dll",
-        "vtable_rva": 29739232
+        "vtable_rva": 29739248
       },
       "Source2ClientConfig001": {
         "methods": [
@@ -3928,7 +3928,7 @@
         ],
         "rtti_class": "CCSGameConfiguration",
         "vtable_module": "client.dll",
-        "vtable_rva": 29016136
+        "vtable_rva": 29016312
       },
       "Source2ClientPrediction001": {
         "methods": [
@@ -4001,7 +4001,7 @@
           {
             "index": 11,
             "module": "client.dll",
-            "name": null,
+            "name": "CPrediction_Update",
             "rva": 12489456
           },
           {
@@ -4025,7 +4025,7 @@
           {
             "index": 15,
             "module": "client.dll",
-            "name": null,
+            "name": "C_BaseEntity_PostNetworkDataReceived",
             "rva": 12445664
           },
           {
@@ -4127,7 +4127,7 @@
         ],
         "rtti_class": "CPrediction",
         "vtable_module": "client.dll",
-        "vtable_rva": 29799648
+        "vtable_rva": 29799664
       },
       "Source2ClientUI001": {
         "methods": [
@@ -6676,7 +6676,7 @@
           {
             "index": 16,
             "module": "engine2.dll",
-            "name": null,
+            "name": "PostEventAbstract",
             "rva": 2186784
           },
           {
@@ -7235,7 +7235,7 @@
           {
             "index": 16,
             "module": "engine2.dll",
-            "name": null,
+            "name": "PostEventAbstract",
             "rva": 2186784
           },
           {
@@ -14728,7 +14728,7 @@
           {
             "index": 41,
             "module": "engine2.dll",
-            "name": null,
+            "name": "GetNetChannelInfo",
             "rva": 475248
           },
           {
@@ -14788,7 +14788,7 @@
           {
             "index": 51,
             "module": "engine2.dll",
-            "name": null,
+            "name": "ExecuteClientCmd",
             "rva": 473248
           },
           {
@@ -14866,13 +14866,13 @@
           {
             "index": 64,
             "module": "engine2.dll",
-            "name": "GetLevelName",
+            "name": "Engine_GetLevelName",
             "rva": 475024
           },
           {
             "index": 65,
             "module": "engine2.dll",
-            "name": "GetLevelNameShort",
+            "name": "Engine_GetLevelNameShort",
             "rva": 475120
           },
           {
@@ -15010,7 +15010,7 @@
           {
             "index": 88,
             "module": "engine2.dll",
-            "name": null,
+            "name": "GetScreenAspectRatio",
             "rva": 476256
           },
           {
@@ -24575,7 +24575,7 @@
           {
             "index": 20,
             "module": "materialsystem2.dll",
-            "name": "FrameUpdate",
+            "name": "CMaterialSystem2_FrameUpdate",
             "rva": 239264
           },
           {
@@ -24629,7 +24629,7 @@
           {
             "index": 29,
             "module": "materialsystem2.dll",
-            "name": null,
+            "name": "CreateMaterialFromKV3",
             "rva": 241408
           },
           {
@@ -26398,7 +26398,7 @@
           {
             "index": 51,
             "module": "networksystem.dll",
-            "name": "Init",
+            "name": "CNetworkSystem_Init",
             "rva": 1030176
           },
           {
@@ -30432,7 +30432,7 @@
           {
             "index": 74,
             "module": "scenesystem.dll",
-            "name": "FrameUpdate",
+            "name": "CSceneSystem_FrameUpdate",
             "rva": 952384
           },
           {
@@ -33303,7 +33303,7 @@
         ],
         "rtti_class": "CNavGameTest",
         "vtable_module": "server.dll",
-        "vtable_rva": 27304544
+        "vtable_rva": 27304528
       },
       "ServerToolsInfo_001": {
         "methods": [
@@ -33382,7 +33382,7 @@
         ],
         "rtti_class": "CServerToolsInfo",
         "vtable_module": "server.dll",
-        "vtable_rva": 26733984
+        "vtable_rva": 26733968
       },
       "Source2GameClients001": {
         "methods": [
@@ -33678,31 +33678,31 @@
             "index": 48,
             "module": "server.dll",
             "name": null,
-            "rva": 13145360
+            "rva": 13145376
           },
           {
             "index": 49,
             "module": "server.dll",
             "name": null,
-            "rva": 13145344
+            "rva": 13145360
           },
           {
             "index": 50,
             "module": "server.dll",
             "name": null,
-            "rva": 13145376
+            "rva": 13145392
           },
           {
             "index": 51,
             "module": "server.dll",
             "name": null,
-            "rva": 13145536
+            "rva": 13145552
           },
           {
             "index": 52,
             "module": "server.dll",
             "name": null,
-            "rva": 13145696
+            "rva": 13145712
           },
           {
             "index": 53,
@@ -33828,31 +33828,31 @@
             "index": 73,
             "module": "server.dll",
             "name": null,
-            "rva": 13145824
+            "rva": 13145840
           },
           {
             "index": 74,
             "module": "server.dll",
             "name": null,
-            "rva": 13145808
+            "rva": 13145824
           },
           {
             "index": 75,
             "module": "server.dll",
             "name": null,
-            "rva": 13145840
+            "rva": 13145856
           },
           {
             "index": 76,
             "module": "server.dll",
             "name": null,
-            "rva": 13146000
+            "rva": 13146016
           },
           {
             "index": 77,
             "module": "server.dll",
             "name": null,
-            "rva": 13146160
+            "rva": 13146176
           },
           {
             "index": 78,
@@ -33978,31 +33978,31 @@
             "index": 98,
             "module": "server.dll",
             "name": null,
-            "rva": 13136368
+            "rva": 13136384
           },
           {
             "index": 99,
             "module": "server.dll",
             "name": null,
-            "rva": 13136352
+            "rva": 13136368
           },
           {
             "index": 100,
             "module": "server.dll",
             "name": null,
-            "rva": 13136384
+            "rva": 13136400
           },
           {
             "index": 101,
             "module": "server.dll",
             "name": null,
-            "rva": 13136544
+            "rva": 13136560
           },
           {
             "index": 102,
             "module": "server.dll",
             "name": null,
-            "rva": 13136704
+            "rva": 13136720
           },
           {
             "index": 103,
@@ -34176,19 +34176,19 @@
             "index": 131,
             "module": "server.dll",
             "name": null,
-            "rva": 7375712
+            "rva": 7376048
           },
           {
             "index": 132,
             "module": "server.dll",
             "name": null,
-            "rva": 7375840
+            "rva": 7376176
           },
           {
             "index": 133,
             "module": "server.dll",
             "name": null,
-            "rva": 7375904
+            "rva": 7376240
           },
           {
             "index": 134,
@@ -34206,19 +34206,19 @@
             "index": 136,
             "module": "server.dll",
             "name": null,
-            "rva": 7375936
+            "rva": 7376272
           },
           {
             "index": 137,
             "module": "server.dll",
             "name": null,
-            "rva": 7376576
+            "rva": 7376912
           },
           {
             "index": 138,
             "module": "server.dll",
             "name": null,
-            "rva": 7376096
+            "rva": 7376432
           },
           {
             "index": 139,
@@ -34230,7 +34230,7 @@
             "index": 140,
             "module": "server.dll",
             "name": null,
-            "rva": 7376464
+            "rva": 7376800
           },
           {
             "index": 141,
@@ -34248,19 +34248,19 @@
             "index": 143,
             "module": "server.dll",
             "name": null,
-            "rva": 7377072
+            "rva": 7377408
           },
           {
             "index": 144,
             "module": "server.dll",
             "name": null,
-            "rva": 7378816
+            "rva": 7379152
           },
           {
             "index": 145,
             "module": "server.dll",
             "name": null,
-            "rva": 7378800
+            "rva": 7379136
           },
           {
             "index": 146,
@@ -34925,7 +34925,7 @@
         ],
         "rtti_class": "CSource2GameClients",
         "vtable_module": "server.dll",
-        "vtable_rva": 26743400
+        "vtable_rva": 26743384
       },
       "Source2GameDirector001": {
         "methods": [
@@ -35125,7 +35125,7 @@
           {
             "index": 12,
             "module": "server.dll",
-            "name": null,
+            "name": "CheckTransmit",
             "rva": 14473536
           },
           {
@@ -35191,7 +35191,7 @@
         ],
         "rtti_class": "CSource2GameEntities",
         "vtable_module": "server.dll",
-        "vtable_rva": 26737552
+        "vtable_rva": 26737536
       },
       "Source2Server001": {
         "methods": [
@@ -35906,7 +35906,7 @@
           {
             "index": 118,
             "module": "server.dll",
-            "name": null,
+            "name": "CheckTransmit",
             "rva": 14473536
           },
           {
@@ -35972,7 +35972,7 @@
         ],
         "rtti_class": "CSource2Server",
         "vtable_module": "server.dll",
-        "vtable_rva": 26736704
+        "vtable_rva": 26736688
       },
       "Source2ServerConfig001": {
         "methods": [

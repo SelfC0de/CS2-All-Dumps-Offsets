@@ -1,14 +1,21 @@
 {
   "networksystem.dll": {
-    "classes": {
-      "ChangeAccessorFieldPathIndex_t": {
-        "fields": {
-          "m_Value": 0
-        },
+    "classes": [
+      {
+        "fields": [
+          {
+            "metadata": [],
+            "name": "m_Value",
+            "offset": 0,
+            "type": "int32"
+          }
+        ],
         "metadata": [],
-        "parent": null
+        "name": "ChangeAccessorFieldPathIndex_t",
+        "parent": null,
+        "size": 4
       }
-    },
-    "enums": {}
+    ],
+    "enums": []
   }
 }

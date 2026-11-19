@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-18 06:23:05.2221886 UTC
+// 2026-11-19 06:00:34.3720000 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: worldrenderer.dll
@@ -9,36 +9,36 @@ namespace CS2Dumper.Schemas {
         // Alignment: 1
         // Member count: 2
         public enum RTProxyInstanceFlags_t : uint {
-            RTPROXY_INSTANCE_FLAG_NONE = 0x0,
+            RTPROXY_INSTANCE_FLAG_NONE = 0x0
             RTPROXY_INSTANCE_UNIQUE_MESH = 0x1
         }
         // Alignment: 4
         // Member count: 17
         public enum ObjectTypeFlags_t : uint {
-            OBJECT_TYPE_NONE = 0x0,
-            OBJECT_TYPE_MODEL = 0x8,
-            OBJECT_TYPE_BLOCK_LIGHT = 0x10,
-            OBJECT_TYPE_NO_SHADOWS = 0x20,
-            OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND = 0x40,
-            OBJECT_TYPE_DISABLED_IN_LOW_QUALITY = 0x80,
-            OBJECT_TYPE_RENDER_WITH_DYNAMIC = 0x200,
-            OBJECT_TYPE_RENDER_TO_CUBEMAPS = 0x400,
-            OBJECT_TYPE_MODEL_HAS_LODS = 0x800,
-            OBJECT_TYPE_OVERLAY = 0x2000,
-            OBJECT_TYPE_PRECOMPUTED_VISMEMBERS = 0x4000,
-            OBJECT_TYPE_STATIC_CUBE_MAP = 0x8000,
-            OBJECT_TYPE_DISABLE_VIS_CULLING = 0x10000,
-            OBJECT_TYPE_BAKED_GEOMETRY = 0x20000,
-            OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS = 0x40000,
-            OBJECT_TYPE_HAS_AGGREGATE_RTPROXY = 0x80000,
+            OBJECT_TYPE_NONE = 0x0
+            OBJECT_TYPE_MODEL = 0x8
+            OBJECT_TYPE_BLOCK_LIGHT = 0x10
+            OBJECT_TYPE_NO_SHADOWS = 0x20
+            OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND = 0x40
+            OBJECT_TYPE_DISABLED_IN_LOW_QUALITY = 0x80
+            OBJECT_TYPE_RENDER_WITH_DYNAMIC = 0x200
+            OBJECT_TYPE_RENDER_TO_CUBEMAPS = 0x400
+            OBJECT_TYPE_MODEL_HAS_LODS = 0x800
+            OBJECT_TYPE_OVERLAY = 0x2000
+            OBJECT_TYPE_PRECOMPUTED_VISMEMBERS = 0x4000
+            OBJECT_TYPE_STATIC_CUBE_MAP = 0x8000
+            OBJECT_TYPE_DISABLE_VIS_CULLING = 0x10000
+            OBJECT_TYPE_BAKED_GEOMETRY = 0x20000
+            OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS = 0x40000
+            OBJECT_TYPE_HAS_AGGREGATE_RTPROXY = 0x80000
             OBJECT_TYPE_HAS_EMISSIVE_GI = 0x100000
         }
         // Alignment: 1
         // Member count: 4
         public enum AggregateInstanceStream_t : uint {
-            AGGREGATE_INSTANCE_STREAM_NONE = 0x0,
-            AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16 = 0x1,
-            AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8 = 0x2,
+            AGGREGATE_INSTANCE_STREAM_NONE = 0x0
+            AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16 = 0x1
+            AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8 = 0x2
             AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8 = 0x4
         }
         // Parent: None

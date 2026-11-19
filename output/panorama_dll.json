@@ -1,49 +1,169 @@
 {
   "panorama.dll": {
-    "classes": {},
-    "enums": {
-      "ELayoutNodeType": {
+    "classes": [],
+    "enums": [
+      {
         "alignment": 4,
-        "members": {
-          "INCLUDE": 5,
-          "PANEL": 7,
-          "PANEL_ATTRIBUTE": 8,
-          "PANEL_ATTRIBUTE_VALUE": 9,
-          "REFERENCE_COMPILED": 11,
-          "REFERENCE_CONTENT": 10,
-          "REFERENCE_PASSTHROUGH": 12,
-          "ROOT": 0,
-          "SCRIPTS": 3,
-          "SCRIPT_BODY": 2,
-          "SNIPPET": 6,
-          "SNIPPETS": 4,
-          "STYLES": 1
-        },
-        "type": "uint32"
+        "members": [
+          {
+            "metadata": [],
+            "name": "ROOT",
+            "value": 0
+          },
+          {
+            "metadata": [],
+            "name": "STYLES",
+            "value": 1
+          },
+          {
+            "metadata": [],
+            "name": "SCRIPT_BODY",
+            "value": 2
+          },
+          {
+            "metadata": [],
+            "name": "SCRIPTS",
+            "value": 3
+          },
+          {
+            "metadata": [],
+            "name": "SNIPPETS",
+            "value": 4
+          },
+          {
+            "metadata": [],
+            "name": "INCLUDE",
+            "value": 5
+          },
+          {
+            "metadata": [],
+            "name": "SNIPPET",
+            "value": 6
+          },
+          {
+            "metadata": [],
+            "name": "PANEL",
+            "value": 7
+          },
+          {
+            "metadata": [],
+            "name": "PANEL_ATTRIBUTE",
+            "value": 8
+          },
+          {
+            "metadata": [],
+            "name": "PANEL_ATTRIBUTE_VALUE",
+            "value": 9
+          },
+          {
+            "metadata": [],
+            "name": "REFERENCE_CONTENT",
+            "value": 10
+          },
+          {
+            "metadata": [],
+            "name": "REFERENCE_COMPILED",
+            "value": 11
+          },
+          {
+            "metadata": [],
+            "name": "REFERENCE_PASSTHROUGH",
+            "value": 12
+          }
+        ],
+        "name": "ELayoutNodeType"
       },
-      "EStyleNodeType": {
+      {
         "alignment": 4,
-        "members": {
-          "COMPILER_CONDITIONAL": 16,
-          "DEFINE": 3,
-          "EXPRESSION": 1,
-          "EXPRESSION_CONCAT": 11,
-          "EXPRESSION_TEXT": 9,
-          "EXPRESSION_URL": 10,
-          "IMPORT": 4,
-          "KEYFRAMES": 5,
-          "KEYFRAME_SELECTOR": 6,
-          "PROPERTY": 2,
-          "REFERENCE_COMPILED": 13,
-          "REFERENCE_CONTENT": 12,
-          "REFERENCE_PANEL": 15,
-          "REFERENCE_PASSTHROUGH": 14,
-          "ROOT": 0,
-          "STYLE_SELECTOR": 7,
-          "WHITESPACE": 8
-        },
-        "type": "uint32"
+        "members": [
+          {
+            "metadata": [],
+            "name": "ROOT",
+            "value": 0
+          },
+          {
+            "metadata": [],
+            "name": "EXPRESSION",
+            "value": 1
+          },
+          {
+            "metadata": [],
+            "name": "PROPERTY",
+            "value": 2
+          },
+          {
+            "metadata": [],
+            "name": "DEFINE",
+            "value": 3
+          },
+          {
+            "metadata": [],
+            "name": "IMPORT",
+            "value": 4
+          },
+          {
+            "metadata": [],
+            "name": "KEYFRAMES",
+            "value": 5
+          },
+          {
+            "metadata": [],
+            "name": "KEYFRAME_SELECTOR",
+            "value": 6
+          },
+          {
+            "metadata": [],
+            "name": "STYLE_SELECTOR",
+            "value": 7
+          },
+          {
+            "metadata": [],
+            "name": "WHITESPACE",
+            "value": 8
+          },
+          {
+            "metadata": [],
+            "name": "EXPRESSION_TEXT",
+            "value": 9
+          },
+          {
+            "metadata": [],
+            "name": "EXPRESSION_URL",
+            "value": 10
+          },
+          {
+            "metadata": [],
+            "name": "EXPRESSION_CONCAT",
+            "value": 11
+          },
+          {
+            "metadata": [],
+            "name": "REFERENCE_CONTENT",
+            "value": 12
+          },
+          {
+            "metadata": [],
+            "name": "REFERENCE_COMPILED",
+            "value": 13
+          },
+          {
+            "metadata": [],
+            "name": "REFERENCE_PASSTHROUGH",
+            "value": 14
+          },
+          {
+            "metadata": [],
+            "name": "REFERENCE_PANEL",
+            "value": 15
+          },
+          {
+            "metadata": [],
+            "name": "COMPILER_CONDITIONAL",
+            "value": 16
+          }
+        ],
+        "name": "EStyleNodeType"
       }
-    }
+    ]
   }
 }

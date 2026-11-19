@@ -1,8 +1,10 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-18 06:23:05.2221886 UTC
+// 2026-11-19 06:00:34.3720000 UTC
 
 pub const cs2_dumper = struct {
     pub const buttons = struct {
+    // Module: client.dll
+    pub const client_dll = struct {
         pub const attack: usize = 0x2227980;
         pub const attack2: usize = 0x2227A10;
         pub const back: usize = 0x2227C50;
@@ -19,6 +21,8 @@ pub const cs2_dumper = struct {
         pub const turnright: usize = 0x2227B30;
         pub const use: usize = 0x2227E00;
         pub const zoom: usize = 0x256CE70;
+    };
+        };
     };
 };
 

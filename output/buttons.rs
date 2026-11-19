@@ -1,10 +1,13 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-18 06:23:05.2221886 UTC
+// 2026-11-19 06:00:34.3720000 UTC
 
-#![allow(non_upper_case_globals, unused)]
+#![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
+
 
 pub mod cs2_dumper {
     pub mod buttons {
+    // Module: client.dll
+    pub mod client_dll {
         pub const attack: usize = 0x2227980;
         pub const attack2: usize = 0x2227A10;
         pub const back: usize = 0x2227C50;
@@ -21,6 +24,8 @@ pub mod cs2_dumper {
         pub const turnright: usize = 0x2227B30;
         pub const use: usize = 0x2227E00;
         pub const zoom: usize = 0x256CE70;
+    }
+        }
     }
 }
 

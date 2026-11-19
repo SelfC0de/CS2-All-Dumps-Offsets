@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-18 06:23:05.2221886 UTC
+// 2026-11-19 06:00:34.3720000 UTC
 
 namespace CS2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -9,14 +9,14 @@ namespace CS2Dumper.Interfaces {
     }
     // Module: client.dll
     public static class ClientDll {
-        public const nint ClientBugBugServic001_Client = 0x1C58018;
-        public const nint ClientToolsInfo_001 = 0x1C598A0;
-        public const nint EmptyWorldService001_Client = 0x1BB8A90;
-        public const nint GameClientExports001 = 0x1C59DD8;
+        public const nint ClientBugBugServic001_Client = 0x1C58028;
+        public const nint ClientToolsInfo_001 = 0x1C598B0;
+        public const nint EmptyWorldService001_Client = 0x1BB8AA0;
+        public const nint GameClientExports001 = 0x1C59DE8;
         public const nint LegacyGameUI001 = 0x1CA8858;
-        public const nint Source2Client002 = 0x1C5C8E0;
-        public const nint Source2ClientConfig001 = 0x1BAC048;
-        public const nint Source2ClientPrediction001 = 0x1C6B4E0;
+        public const nint Source2Client002 = 0x1C5C8F0;
+        public const nint Source2ClientConfig001 = 0x1BAC0F8;
+        public const nint Source2ClientPrediction001 = 0x1C6B4F0;
         public const nint Source2ClientUI001 = 0x1C9C200;
     }
     // Module: engine2.dll
@@ -162,12 +162,12 @@ namespace CS2Dumper.Interfaces {
     public static class ServerDll {
         public const nint EmptyWorldService001_Server = 0x18C3850;
         public const nint EntitySubclassUtilsV001 = 0x17EE988;
-        public const nint NavGameTest001 = 0x1A0A260;
-        public const nint ServerToolsInfo_001 = 0x197EDA0;
-        public const nint Source2GameClients001 = 0x1981268;
+        public const nint NavGameTest001 = 0x1A0A250;
+        public const nint ServerToolsInfo_001 = 0x197ED90;
+        public const nint Source2GameClients001 = 0x1981258;
         public const nint Source2GameDirector001 = 0x177C110;
-        public const nint Source2GameEntities001 = 0x197FB90;
-        public const nint Source2Server001 = 0x197F840;
+        public const nint Source2GameEntities001 = 0x197FB80;
+        public const nint Source2Server001 = 0x197F830;
         public const nint Source2ServerConfig001 = 0x18A8498;
         public const nint customnavsystem001 = 0x17B7138;
     }
@@ -204,6 +204,7 @@ namespace CS2Dumper.Interfaces {
     // Module: worldrenderer.dll
     public static class WorldrendererDll {
         public const nint WorldRendererMgr001 = 0x1A6180;
+    }
     }
 }
 

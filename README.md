@@ -10,9 +10,9 @@ Raw, machine-generated CS2 dumps: offsets, schema classes, interfaces, patterns,
 
 | | |
 |---|---|
-| **Game build** | `14198` |
-| **Dumped at** | 2026-11-18 09:23 (UTC+3) |
-| **Signature recovery** | `415 / 505` |
+| **Game build** | `14199` |
+| **Dumped at** | 2026-11-19 09:00 (UTC+3) |
+| **Signature recovery** | `576 / 578` |
 | **Modules** | 19 |
 
 ## Layout
@@ -47,7 +47,7 @@ in `dumps/schema/`.
 ## Notes
 
 - `offsets.json` stores RVAs as decimal numbers, the code outputs use hex.
-- Signature recovery is currently `415 / 505`; unresolved entries are listed at
+- Signature recovery is currently `576 / 578`; unresolved entries are listed at
   the top of `output/build.log`.
 - Offsets and schemas are valid for the build above only — a game update
   invalidates most of them.

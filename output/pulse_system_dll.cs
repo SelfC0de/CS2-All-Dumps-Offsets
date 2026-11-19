@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-18 06:23:05.2221886 UTC
+// 2026-11-19 06:00:34.3720000 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -9,57 +9,57 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 2
         public enum PulseBestOutflowRules_t : uint {
-            SORT_BY_NUMBER_OF_VALID_CRITERIA = 0x0,
+            SORT_BY_NUMBER_OF_VALID_CRITERIA = 0x0
             SORT_BY_OUTFLOW_INDEX = 0x1
         }
         // Alignment: 4
         // Member count: 4
         public enum PulseTestEnumFlags_t : uint {
-            NONE = 0x0,
-            FIRST = 0x1,
-            SECOND = 0x2,
+            NONE = 0x0
+            FIRST = 0x1
+            SECOND = 0x2
             THIRD = 0x4
         }
         // Alignment: 4
         // Member count: 3
         public enum PulseTestEnumShape_t : uint {
-            CIRCLE = 0x64,
-            SQUARE = 0xC8,
+            CIRCLE = 0x64
+            SQUARE = 0xC8
             TRIANGLE = 0x12C
         }
         // Alignment: 4
         // Member count: 4
         public enum PulseCursorCancelPriority_t : uint {
-            None = 0x0,
-            CancelOnSucceeded = 0x1,
-            SoftCancel = 0x2,
+            None = 0x0
+            CancelOnSucceeded = 0x1
+            SoftCancel = 0x2
             HardCancel = 0x3
         }
         // Alignment: 4
         // Member count: 2
         public enum PulseTestEnumFlagsAlt_t : uint {
-            NONE = 0x0,
+            NONE = 0x0
             FIRST = 0x1
         }
         // Alignment: 4
         // Member count: 2
         public enum PulseMethodCallMode_t : uint {
-            SYNC_WAIT_FOR_COMPLETION = 0x0,
+            SYNC_WAIT_FOR_COMPLETION = 0x0
             ASYNC_FIRE_AND_FORGET = 0x1
         }
         // Alignment: 4
         // Member count: 5
         public enum PulseTestEnumColor_t : uint {
-            BLACK = 0x0,
-            WHITE = 0x1,
-            RED = 0x2,
-            GREEN = 0x3,
+            BLACK = 0x0
+            WHITE = 0x1
+            RED = 0x2
+            GREEN = 0x3
             BLUE = 0x4
         }
         // Alignment: 4
         // Member count: 2
         public enum PulseCursorWakePriority_t : uint {
-            WakeElegantly = 0x0,
+            WakeElegantly = 0x0
             WakeImmediate = 0x1
         }
         // Parent: None

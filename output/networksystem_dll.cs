@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-18 06:23:05.2221886 UTC
+// 2026-11-19 06:00:34.3720000 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: networksystem.dll

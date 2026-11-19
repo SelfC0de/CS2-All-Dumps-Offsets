@@ -1,7 +1,2 @@
-06:23:05 [ERROR] outdated pattern: dwSensitivity
-06:23:06 [ERROR] outdated pattern: dwPlantedC4
-06:23:06 [ERROR] outdated pattern: dwSensitivity_sensitivity
-06:23:06 [ERROR] outdated pattern: dwNetworkGameClient_isBackgroundMap
-06:23:06 [ERROR] outdated pattern: dwSoundSystem_engineViewData
-06:23:06 [ERROR] outdated pattern: dwSoundSystem
-06:23:53 [WARN] 32 Pattern(s) matched more than once in their .text section — consider tightening
+[ERROR] unresolved pattern: GameSystem_Think_CheckSteamBan (server.dll)
+[ERROR] unresolved pattern: C_EconItemView_GetBasePlayerWeaponVData (client.dll)

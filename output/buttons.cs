@@ -1,9 +1,9 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-18 06:23:05.2221886 UTC
+// 2026-11-19 06:00:34.3720000 UTC
 
-namespace CS2Dumper {
+namespace CS2Dumper.buttons {
     // Module: client.dll
-    public static class Buttons {
+    public static class ClientDll {
         public const nint attack = 0x2227980;
         public const nint attack2 = 0x2227A10;
         public const nint back = 0x2227C50;
@@ -20,6 +20,7 @@ namespace CS2Dumper {
         public const nint turnright = 0x2227B30;
         public const nint use = 0x2227E00;
         public const nint zoom = 0x256CE70;
+    }
     }
 }
 

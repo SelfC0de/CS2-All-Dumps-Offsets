@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-18 06:23:05.2221886 UTC
+// 2026-11-19 06:00:34.3720000 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -9,138 +9,138 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 5
         public enum C_BaseCombatCharacter::WaterWakeMode_t : uint {
-            WATER_WAKE_NONE = 0x0,
-            WATER_WAKE_IDLE = 0x1,
-            WATER_WAKE_WALKING = 0x2,
-            WATER_WAKE_RUNNING = 0x3,
+            WATER_WAKE_NONE = 0x0
+            WATER_WAKE_IDLE = 0x1
+            WATER_WAKE_WALKING = 0x2
+            WATER_WAKE_RUNNING = 0x3
             WATER_WAKE_WATER_OVERHEAD = 0x4
         }
         // Alignment: 4
         // Member count: 2
         public enum PulseBestOutflowRules_t : uint {
-            SORT_BY_NUMBER_OF_VALID_CRITERIA = 0x0,
+            SORT_BY_NUMBER_OF_VALID_CRITERIA = 0x0
             SORT_BY_OUTFLOW_INDEX = 0x1
         }
         // Alignment: 4
         // Member count: 4
         public enum PulseCursorCancelPriority_t : uint {
-            None = 0x0,
-            CancelOnSucceeded = 0x1,
-            SoftCancel = 0x2,
+            None = 0x0
+            CancelOnSucceeded = 0x1
+            SoftCancel = 0x2
             HardCancel = 0x3
         }
         // Alignment: 4
         // Member count: 2
         public enum PulseMethodCallMode_t : uint {
-            SYNC_WAIT_FOR_COMPLETION = 0x0,
+            SYNC_WAIT_FOR_COMPLETION = 0x0
             ASYNC_FIRE_AND_FORGET = 0x1
         }
         // Alignment: 4
         // Member count: 2
         public enum PulseCursorWakePriority_t : uint {
-            WakeElegantly = 0x0,
+            WakeElegantly = 0x0
             WakeImmediate = 0x1
         }
         // Alignment: 4
         // Member count: 15
         public enum CompositeMaterialInputLooseVariableType_t : uint {
-            LOOSE_VARIABLE_TYPE_BOOLEAN = 0x0,
-            LOOSE_VARIABLE_TYPE_INTEGER1 = 0x1,
-            LOOSE_VARIABLE_TYPE_INTEGER2 = 0x2,
-            LOOSE_VARIABLE_TYPE_INTEGER3 = 0x3,
-            LOOSE_VARIABLE_TYPE_INTEGER4 = 0x4,
-            LOOSE_VARIABLE_TYPE_FLOAT1 = 0x5,
-            LOOSE_VARIABLE_TYPE_FLOAT2 = 0x6,
-            LOOSE_VARIABLE_TYPE_FLOAT3 = 0x7,
-            LOOSE_VARIABLE_TYPE_FLOAT4 = 0x8,
-            LOOSE_VARIABLE_TYPE_COLOR4 = 0x9,
-            LOOSE_VARIABLE_TYPE_STRING = 0xA,
-            LOOSE_VARIABLE_TYPE_SYSTEMVAR = 0xB,
-            LOOSE_VARIABLE_TYPE_RESOURCE_MATERIAL = 0xC,
-            LOOSE_VARIABLE_TYPE_RESOURCE_TEXTURE = 0xD,
+            LOOSE_VARIABLE_TYPE_BOOLEAN = 0x0
+            LOOSE_VARIABLE_TYPE_INTEGER1 = 0x1
+            LOOSE_VARIABLE_TYPE_INTEGER2 = 0x2
+            LOOSE_VARIABLE_TYPE_INTEGER3 = 0x3
+            LOOSE_VARIABLE_TYPE_INTEGER4 = 0x4
+            LOOSE_VARIABLE_TYPE_FLOAT1 = 0x5
+            LOOSE_VARIABLE_TYPE_FLOAT2 = 0x6
+            LOOSE_VARIABLE_TYPE_FLOAT3 = 0x7
+            LOOSE_VARIABLE_TYPE_FLOAT4 = 0x8
+            LOOSE_VARIABLE_TYPE_COLOR4 = 0x9
+            LOOSE_VARIABLE_TYPE_STRING = 0xA
+            LOOSE_VARIABLE_TYPE_SYSTEMVAR = 0xB
+            LOOSE_VARIABLE_TYPE_RESOURCE_MATERIAL = 0xC
+            LOOSE_VARIABLE_TYPE_RESOURCE_TEXTURE = 0xD
             LOOSE_VARIABLE_TYPE_PANORAMA_RENDER = 0xE
         }
         // Alignment: 4
         // Member count: 8
         public enum CompositeMaterialInputTextureType_t : uint {
-            INPUT_TEXTURE_TYPE_DEFAULT = 0x0,
-            INPUT_TEXTURE_TYPE_NORMALMAP = 0x1,
-            INPUT_TEXTURE_TYPE_COLOR = 0x2,
-            INPUT_TEXTURE_TYPE_MASKS = 0x3,
-            INPUT_TEXTURE_TYPE_ROUGHNESS = 0x4,
-            INPUT_TEXTURE_TYPE_PEARLESCENCE_MASK = 0x5,
-            INPUT_TEXTURE_TYPE_AO = 0x6,
+            INPUT_TEXTURE_TYPE_DEFAULT = 0x0
+            INPUT_TEXTURE_TYPE_NORMALMAP = 0x1
+            INPUT_TEXTURE_TYPE_COLOR = 0x2
+            INPUT_TEXTURE_TYPE_MASKS = 0x3
+            INPUT_TEXTURE_TYPE_ROUGHNESS = 0x4
+            INPUT_TEXTURE_TYPE_PEARLESCENCE_MASK = 0x5
+            INPUT_TEXTURE_TYPE_AO = 0x6
             INPUT_TEXTURE_TYPE_POSITION = 0x7
         }
         // Alignment: 4
         // Member count: 9
         public enum InventoryNodeType_t : uint {
-            NODE_TYPE_INVALID = 0x0,
-            VIRTUAL_NODE_SCHEMA_PREFAB = 0x1,
-            VIRTUAL_NODE_SCHEMA_ITEMDEF = 0x2,
-            VIRTUAL_NODE_SCHEMA_STICKER = 0x3,
-            VIRTUAL_NODE_SCHEMA_KEYCHAIN = 0x4,
-            CONCRETE_NODE_SCHEMA_PREFAB = 0x5,
-            CONCRETE_NODE_SCHEMA_ITEMDEF = 0x6,
-            CONCRETE_NODE_SCHEMA_STICKER = 0x7,
+            NODE_TYPE_INVALID = 0x0
+            VIRTUAL_NODE_SCHEMA_PREFAB = 0x1
+            VIRTUAL_NODE_SCHEMA_ITEMDEF = 0x2
+            VIRTUAL_NODE_SCHEMA_STICKER = 0x3
+            VIRTUAL_NODE_SCHEMA_KEYCHAIN = 0x4
+            CONCRETE_NODE_SCHEMA_PREFAB = 0x5
+            CONCRETE_NODE_SCHEMA_ITEMDEF = 0x6
+            CONCRETE_NODE_SCHEMA_STICKER = 0x7
             CONCRETE_NODE_SCHEMA_KEYCHAIN = 0x8
         }
         // Alignment: 4
         // Member count: 6
         public enum CompositeMaterialInputContainerSourceType_t : uint {
-            CONTAINER_SOURCE_TYPE_TARGET_MATERIAL = 0x0,
-            CONTAINER_SOURCE_TYPE_MATERIAL_FROM_TARGET_ATTR = 0x1,
-            CONTAINER_SOURCE_TYPE_SPECIFIC_MATERIAL = 0x2,
-            CONTAINER_SOURCE_TYPE_LOOSE_VARIABLES = 0x3,
-            CONTAINER_SOURCE_TYPE_VARIABLE_FROM_TARGET_ATTR = 0x4,
+            CONTAINER_SOURCE_TYPE_TARGET_MATERIAL = 0x0
+            CONTAINER_SOURCE_TYPE_MATERIAL_FROM_TARGET_ATTR = 0x1
+            CONTAINER_SOURCE_TYPE_SPECIFIC_MATERIAL = 0x2
+            CONTAINER_SOURCE_TYPE_LOOSE_VARIABLES = 0x3
+            CONTAINER_SOURCE_TYPE_VARIABLE_FROM_TARGET_ATTR = 0x4
             CONTAINER_SOURCE_TYPE_TARGET_INSTANCE_MATERIAL = 0x5
         }
         // Alignment: 4
         // Member count: 10
         public enum CompMatPropertyMutatorType_t : uint {
-            COMP_MAT_PROPERTY_MUTATOR_INIT = 0x0,
-            COMP_MAT_PROPERTY_MUTATOR_COPY_MATCHING_KEYS = 0x1,
-            COMP_MAT_PROPERTY_MUTATOR_COPY_KEYS_WITH_SUFFIX = 0x2,
-            COMP_MAT_PROPERTY_MUTATOR_COPY_PROPERTY = 0x3,
-            COMP_MAT_PROPERTY_MUTATOR_SET_VALUE = 0x4,
-            COMP_MAT_PROPERTY_MUTATOR_GENERATE_TEXTURE = 0x5,
-            COMP_MAT_PROPERTY_MUTATOR_CONDITIONAL_MUTATORS = 0x6,
-            COMP_MAT_PROPERTY_MUTATOR_POP_INPUT_QUEUE = 0x7,
-            COMP_MAT_PROPERTY_MUTATOR_DRAW_TEXT = 0x8,
+            COMP_MAT_PROPERTY_MUTATOR_INIT = 0x0
+            COMP_MAT_PROPERTY_MUTATOR_COPY_MATCHING_KEYS = 0x1
+            COMP_MAT_PROPERTY_MUTATOR_COPY_KEYS_WITH_SUFFIX = 0x2
+            COMP_MAT_PROPERTY_MUTATOR_COPY_PROPERTY = 0x3
+            COMP_MAT_PROPERTY_MUTATOR_SET_VALUE = 0x4
+            COMP_MAT_PROPERTY_MUTATOR_GENERATE_TEXTURE = 0x5
+            COMP_MAT_PROPERTY_MUTATOR_CONDITIONAL_MUTATORS = 0x6
+            COMP_MAT_PROPERTY_MUTATOR_POP_INPUT_QUEUE = 0x7
+            COMP_MAT_PROPERTY_MUTATOR_DRAW_TEXT = 0x8
             COMP_MAT_PROPERTY_MUTATOR_RANDOM_ROLL_INPUT_VARIABLES = 0x9
         }
         // Alignment: 4
         // Member count: 2
         public enum CompositeMaterialVarSystemVar_t : uint {
-            COMPMATSYSVAR_COMPOSITETIME = 0x0,
+            COMPMATSYSVAR_COMPOSITETIME = 0x0
             COMPMATSYSVAR_EMPTY_RESOURCE_SPACER = 0x1
         }
         // Alignment: 4
         // Member count: 7
         public enum P2P_Messages : uint {
-            p2p_TextMessage = 0x100,
-            p2p_Voice = 0x101,
-            p2p_Ping = 0x102,
-            p2p_VRAvatarPosition = 0x103,
-            p2p_WatchSynchronization = 0x104,
-            p2p_FightingGame_GameData = 0x105,
+            p2p_TextMessage = 0x100
+            p2p_Voice = 0x101
+            p2p_Ping = 0x102
+            p2p_VRAvatarPosition = 0x103
+            p2p_WatchSynchronization = 0x104
+            p2p_FightingGame_GameData = 0x105
             p2p_FightingGame_Connection = 0x106
         }
         // Alignment: 4
         // Member count: 6
         public enum CompositeMaterialMatchFilterType_t : uint {
-            MATCH_FILTER_MATERIAL_ATTRIBUTE_EXISTS = 0x0,
-            MATCH_FILTER_MATERIAL_SHADER = 0x1,
-            MATCH_FILTER_MATERIAL_NAME_SUBSTR = 0x2,
-            MATCH_FILTER_MATERIAL_ATTRIBUTE_EQUALS = 0x3,
-            MATCH_FILTER_MATERIAL_PROPERTY_EXISTS = 0x4,
+            MATCH_FILTER_MATERIAL_ATTRIBUTE_EXISTS = 0x0
+            MATCH_FILTER_MATERIAL_SHADER = 0x1
+            MATCH_FILTER_MATERIAL_NAME_SUBSTR = 0x2
+            MATCH_FILTER_MATERIAL_ATTRIBUTE_EQUALS = 0x3
+            MATCH_FILTER_MATERIAL_PROPERTY_EXISTS = 0x4
             MATCH_FILTER_MATERIAL_PROPERTY_EQUALS = 0x5
         }
         // Alignment: 4
         // Member count: 3
         public enum CompMatPropertyMutatorConditionType_t : uint {
-            COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_EXISTS = 0x0,
-            COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_VALUE_EXISTS = 0x1,
+            COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_EXISTS = 0x0
+            COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_VALUE_EXISTS = 0x1
             COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_VALUE_EQUALS = 0x2
         }
         // Parent: None

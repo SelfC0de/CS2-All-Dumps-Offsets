@@ -1,5 +1,5 @@
 ﻿// Generated using https://github.com/SelfC0de/CS2-All-Dumps-Offsets
-// 2026-11-18 06:23:05.2221886 UTC
+// 2026-11-19 06:00:34.3720000 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: server.dll
@@ -9,131 +9,131 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum CLogicBranchList::LogicBranchListenerLastState_t : uint {
-            LOGIC_BRANCH_LISTENER_NOT_INIT = 0x0,
-            LOGIC_BRANCH_LISTENER_ALL_TRUE = 0x1,
-            LOGIC_BRANCH_LISTENER_ALL_FALSE = 0x2,
+            LOGIC_BRANCH_LISTENER_NOT_INIT = 0x0
+            LOGIC_BRANCH_LISTENER_ALL_TRUE = 0x1
+            LOGIC_BRANCH_LISTENER_ALL_FALSE = 0x2
             LOGIC_BRANCH_LISTENER_MIXED = 0x3
         }
         // Alignment: 4
         // Member count: 3
         public enum CFuncMover::Move_t : uint {
-            MOVE_LOOP = 0x0,
-            MOVE_OSCILLATE = 0x1,
+            MOVE_LOOP = 0x0
+            MOVE_OSCILLATE = 0x1
             MOVE_STOP_AT_END = 0x2
         }
         // Alignment: 4
         // Member count: 7
         public enum CFuncRotator::Rotate_t : uint {
-            ROTATE_LOOP = 0x0,
-            ROTATE_OSCILLATE = 0x1,
-            ROTATE_STOP_AT_END = 0x2,
-            ROTATE_LOOK_AT_TARGET = 0x3,
-            ROTATE_LOOK_AT_TARGET_ONLY_YAW = 0x4,
-            ROTATE_LOOK_AT_TARGET_ONLY_PITCH = 0x5,
+            ROTATE_LOOP = 0x0
+            ROTATE_OSCILLATE = 0x1
+            ROTATE_STOP_AT_END = 0x2
+            ROTATE_LOOK_AT_TARGET = 0x3
+            ROTATE_LOOK_AT_TARGET_ONLY_YAW = 0x4
+            ROTATE_LOOK_AT_TARGET_ONLY_PITCH = 0x5
             ROTATE_RETURN_TO_INITIAL_ORIENTATION = 0x6
         }
         // Alignment: 4
         // Member count: 4
         public enum CFuncRotator::RotationAxis_t : uint {
-            ROTATION_AXIS_UNDEFINED = 0x0,
-            ROTATION_AXIS_YAW = 0x1,
-            ROTATION_AXIS_PITCH = 0x2,
+            ROTATION_AXIS_UNDEFINED = 0x0
+            ROTATION_AXIS_YAW = 0x1
+            ROTATION_AXIS_PITCH = 0x2
             ROTATION_AXIS_ROLL = 0x3
         }
         // Alignment: 4
         // Member count: 2
         public enum PulseBestOutflowRules_t : uint {
-            SORT_BY_NUMBER_OF_VALID_CRITERIA = 0x0,
+            SORT_BY_NUMBER_OF_VALID_CRITERIA = 0x0
             SORT_BY_OUTFLOW_INDEX = 0x1
         }
         // Alignment: 4
         // Member count: 2
         public enum CPhysicsProp::CrateType_t : uint {
-            CRATE_SPECIFIC_ITEM = 0x0,
+            CRATE_SPECIFIC_ITEM = 0x0
             CRATE_TYPE_COUNT = 0x1
         }
         // Alignment: 4
         // Member count: 3
         public enum CFuncMover::FindFollowMoverStrategy_t : uint {
-            FIND_FOLLOW_MOVER_FORWARD_CLOSEST = 0x0,
-            FIND_FOLLOW_MOVER_REVERSE_CLOSEST = 0x1,
+            FIND_FOLLOW_MOVER_FORWARD_CLOSEST = 0x0
+            FIND_FOLLOW_MOVER_REVERSE_CLOSEST = 0x1
             FIND_FOLLOW_MOVER_BIDIRECTIONAL_CLOSEST = 0x2
         }
         // Alignment: 4
         // Member count: 3
         public enum CPathMoverEntitySpawner::TemplateChoiceStrategy_t : uint {
-            TEMPLATE_CHOICE_COUNT_SEQUENTIAL = 0x0,
-            TEMPLATE_CHOICE_WEIGHTED_RANDOM = 0x1,
+            TEMPLATE_CHOICE_COUNT_SEQUENTIAL = 0x0
+            TEMPLATE_CHOICE_WEIGHTED_RANDOM = 0x1
             TEMPLATE_CHOICE_COUNT_RANDOM = 0x2
         }
         // Alignment: 4
         // Member count: 4
         public enum PulseCursorCancelPriority_t : uint {
-            None = 0x0,
-            CancelOnSucceeded = 0x1,
-            SoftCancel = 0x2,
+            None = 0x0
+            CancelOnSucceeded = 0x1
+            SoftCancel = 0x2
             HardCancel = 0x3
         }
         // Alignment: 4
         // Member count: 2
         public enum PulseMethodCallMode_t : uint {
-            SYNC_WAIT_FOR_COMPLETION = 0x0,
+            SYNC_WAIT_FOR_COMPLETION = 0x0
             ASYNC_FIRE_AND_FORGET = 0x1
         }
         // Alignment: 4
         // Member count: 4
         public enum CFuncMover::FollowConstraint_t : uint {
-            FOLLOW_CONSTRAINT_DISTANCE = 0x0,
-            FOLLOW_CONSTRAINT_SPRING = 0x1,
-            FOLLOW_CONSTRAINT_RATIO = 0x2,
+            FOLLOW_CONSTRAINT_DISTANCE = 0x0
+            FOLLOW_CONSTRAINT_SPRING = 0x1
+            FOLLOW_CONSTRAINT_RATIO = 0x2
             FOLLOW_CONSTRAINT_COUPLER = 0x3
         }
         // Alignment: 4
         // Member count: 3
         public enum CFuncMover::FollowEntityDirection_t : uint {
-            FOLLOW_ENTITY_BIDIRECTIONAL = 0x0,
-            FOLLOW_ENTITY_FORWARD = 0x1,
+            FOLLOW_ENTITY_BIDIRECTIONAL = 0x0
+            FOLLOW_ENTITY_FORWARD = 0x1
             FOLLOW_ENTITY_REVERSE = 0x2
         }
         // Alignment: 4
         // Member count: 3
         public enum CFuncMover::PathRebuildStrategy_t : uint {
-            PATH_REBUILD_DONT_MOVE = 0x0,
-            PATH_REBUILD_MAINTAIN_T = 0x1,
+            PATH_REBUILD_DONT_MOVE = 0x0
+            PATH_REBUILD_MAINTAIN_T = 0x1
             PATH_REBUILD_USE_CURRENT_NODE_T = 0x2
         }
         // Alignment: 4
         // Member count: 4
         public enum CFuncMover::TransitionToPathNodeAction_t : uint {
-            TRANSITION_TO_PATH_NODE_ACTION_NONE = 0x0,
-            TRANSITION_TO_PATH_NODE_ACTION_START_FORWARD = 0x1,
-            TRANSITION_TO_PATH_NODE_ACTION_START_REVERSE = 0x2,
+            TRANSITION_TO_PATH_NODE_ACTION_NONE = 0x0
+            TRANSITION_TO_PATH_NODE_ACTION_START_FORWARD = 0x1
+            TRANSITION_TO_PATH_NODE_ACTION_START_REVERSE = 0x2
             TRANSITION_TO_PATH_NODE_TRANSITIONING = 0x3
         }
         // Alignment: 4
         // Member count: 2
         public enum PulseCursorWakePriority_t : uint {
-            WakeElegantly = 0x0,
+            WakeElegantly = 0x0
             WakeImmediate = 0x1
         }
         // Alignment: 4
         // Member count: 9
         public enum CFuncMover::OrientationUpdate_t : uint {
-            ORIENTATION_FORWARD_PATH = 0x0,
-            ORIENTATION_FORWARD_PATH_AND_FIXED_PITCH = 0x1,
-            ORIENTATION_FORWARD_PATH_AND_UP_CONTROL_POINT = 0x2,
-            ORIENTATION_MATCH_CONTROL_POINT = 0x3,
-            ORIENTATION_FIXED = 0x4,
-            ORIENTATION_FACE_PLAYER = 0x5,
-            ORIENTATION_FORWARD_MOVEMENT_DIRECTION = 0x6,
-            ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT = 0x7,
+            ORIENTATION_FORWARD_PATH = 0x0
+            ORIENTATION_FORWARD_PATH_AND_FIXED_PITCH = 0x1
+            ORIENTATION_FORWARD_PATH_AND_UP_CONTROL_POINT = 0x2
+            ORIENTATION_MATCH_CONTROL_POINT = 0x3
+            ORIENTATION_FIXED = 0x4
+            ORIENTATION_FACE_PLAYER = 0x5
+            ORIENTATION_FORWARD_MOVEMENT_DIRECTION = 0x6
+            ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT = 0x7
             ORIENTATION_FACE_ENTITY = 0x8
         }
         // Alignment: 4
         // Member count: 3
         public enum PropDoorRotatingOpenDirection_e : uint {
-            DOOR_ROTATING_OPEN_BOTH_WAYS = 0x0,
-            DOOR_ROTATING_OPEN_FORWARD = 0x1,
+            DOOR_ROTATING_OPEN_BOTH_WAYS = 0x0
+            DOOR_ROTATING_OPEN_FORWARD = 0x1
             DOOR_ROTATING_OPEN_BACKWARD = 0x2
         }
         // Alignment: 4
@@ -144,1562 +144,1562 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 2
         public enum SceneOnPlayerDeath_t : uint {
-            SCENE_ONPLAYERDEATH_DO_NOTHING = 0x0,
+            SCENE_ONPLAYERDEATH_DO_NOTHING = 0x0
             SCENE_ONPLAYERDEATH_CANCEL = 0x1
         }
         // Alignment: 4
         // Member count: 3
         public enum LessonPanelLayoutFileTypes_t : uint {
-            LAYOUT_HAND_DEFAULT = 0x0,
-            LAYOUT_WORLD_DEFAULT = 0x1,
+            LAYOUT_HAND_DEFAULT = 0x0
+            LAYOUT_WORLD_DEFAULT = 0x1
             LAYOUT_CUSTOM = 0x2
         }
         // Alignment: 4
         // Member count: 5
         public enum TimelineCompression_t : uint {
-            TIMELINE_COMPRESSION_SUM = 0x0,
-            TIMELINE_COMPRESSION_COUNT_PER_INTERVAL = 0x1,
-            TIMELINE_COMPRESSION_AVERAGE = 0x2,
-            TIMELINE_COMPRESSION_AVERAGE_BLEND = 0x3,
+            TIMELINE_COMPRESSION_SUM = 0x0
+            TIMELINE_COMPRESSION_COUNT_PER_INTERVAL = 0x1
+            TIMELINE_COMPRESSION_AVERAGE = 0x2
+            TIMELINE_COMPRESSION_AVERAGE_BLEND = 0x3
             TIMELINE_COMPRESSION_TOTAL = 0x4
         }
         // Alignment: 1
         // Member count: 4
         public enum CustomCameraMode_t : uint {
-            CUSTOM_CAMERA_MODE_DISABLED = 0x0,
-            CUSTOM_CAMERA_MODE_CONTROLLED = 0x1,
-            CUSTOM_CAMERA_MODE_CONTROLLED_POSITION = 0x2,
+            CUSTOM_CAMERA_MODE_DISABLED = 0x0
+            CUSTOM_CAMERA_MODE_CONTROLLED = 0x1
+            CUSTOM_CAMERA_MODE_CONTROLLED_POSITION = 0x2
             CUSTOM_CAMERA_MODE_FOLLOW_POSITION = 0x3
         }
         // Alignment: 4
         // Member count: 3
         public enum SubclassVDataChangeType_t : uint {
-            SUBCLASS_VDATA_CREATED = 0x0,
-            SUBCLASS_VDATA_SUBCLASS_CHANGED = 0x1,
+            SUBCLASS_VDATA_CREATED = 0x0
+            SUBCLASS_VDATA_SUBCLASS_CHANGED = 0x1
             SUBCLASS_VDATA_RELOADED = 0x2
         }
         // Alignment: 4
         // Member count: 3
         public enum C4LightEffect_t : uint {
-            eLightEffectNone = 0x0,
-            eLightEffectDropped = 0x1,
+            eLightEffectNone = 0x0
+            eLightEffectDropped = 0x1
             eLightEffectThirdPersonHeld = 0x2
         }
         // Alignment: 4
         // Member count: 5
         public enum StanceType_t : uint {
-            STANCE_CURRENT = 0x-1,
-            STANCE_DEFAULT = 0x0,
-            STANCE_CROUCHING = 0x1,
-            STANCE_PRONE = 0x2,
+            STANCE_CURRENT = 0x-1
+            STANCE_DEFAULT = 0x0
+            STANCE_CROUCHING = 0x1
+            STANCE_PRONE = 0x2
             NUM_STANCES = 0x3
         }
         // Alignment: 4
         // Member count: 3
         public enum Explosions : uint {
-            expRandom = 0x0,
-            expDirected = 0x1,
+            expRandom = 0x0
+            expDirected = 0x1
             expUsePrecise = 0x2
         }
         // Alignment: 4
         // Member count: 14
         public enum PreviewCharacterMode : uint {
-            INVALID = 0x-1,
-            DIORAMA = 0x0,
-            MAIN_MENU = 0x1,
-            BUY_MENU = 0x2,
-            TEAM_SELECT = 0x3,
-            END_OF_MATCH = 0x4,
-            INVENTORY_INSPECT = 0x5,
-            WALKING = 0x6,
-            TEAM_INTRO = 0x7,
-            WINGMAN_INTRO = 0x8,
-            RUSH_INTRO = 0x9,
-            BANNER = 0xA,
-            CHICK_SNAPSHOT = 0xB,
+            INVALID = 0x-1
+            DIORAMA = 0x0
+            MAIN_MENU = 0x1
+            BUY_MENU = 0x2
+            TEAM_SELECT = 0x3
+            END_OF_MATCH = 0x4
+            INVENTORY_INSPECT = 0x5
+            WALKING = 0x6
+            TEAM_INTRO = 0x7
+            WINGMAN_INTRO = 0x8
+            RUSH_INTRO = 0x9
+            BANNER = 0xA
+            CHICK_SNAPSHOT = 0xB
             CHICK_VIEWMODEL = 0xC
         }
         // Alignment: 4
         // Member count: 4
         public enum ObserverInterpState_t : uint {
-            OBSERVER_INTERP_NONE = 0x0,
-            OBSERVER_INTERP_STARTING = 0x1,
-            OBSERVER_INTERP_TRAVELING = 0x2,
+            OBSERVER_INTERP_NONE = 0x0
+            OBSERVER_INTERP_STARTING = 0x1
+            OBSERVER_INTERP_TRAVELING = 0x2
             OBSERVER_INTERP_SETTLING = 0x3
         }
         // Alignment: 4
         // Member count: 121
         public enum ENetworkDisconnectionReason : uint {
-            NETWORK_DISCONNECT_INVALID = 0x0,
-            NETWORK_DISCONNECT_SHUTDOWN = 0x1,
-            NETWORK_DISCONNECT_DISCONNECT_BY_USER = 0x2,
-            NETWORK_DISCONNECT_DISCONNECT_BY_SERVER = 0x3,
-            NETWORK_DISCONNECT_LOST = 0x4,
-            NETWORK_DISCONNECT_OVERFLOW = 0x5,
-            NETWORK_DISCONNECT_STEAM_BANNED = 0x6,
-            NETWORK_DISCONNECT_STEAM_INUSE = 0x7,
-            NETWORK_DISCONNECT_STEAM_TICKET = 0x8,
-            NETWORK_DISCONNECT_STEAM_LOGON = 0x9,
-            NETWORK_DISCONNECT_STEAM_AUTHCANCELLED = 0xA,
-            NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED = 0xB,
-            NETWORK_DISCONNECT_STEAM_AUTHINVALID = 0xC,
-            NETWORK_DISCONNECT_STEAM_VACBANSTATE = 0xD,
-            NETWORK_DISCONNECT_STEAM_LOGGED_IN_ELSEWHERE = 0xE,
-            NETWORK_DISCONNECT_STEAM_VAC_CHECK_TIMEDOUT = 0xF,
-            NETWORK_DISCONNECT_STEAM_DROPPED = 0x10,
-            NETWORK_DISCONNECT_STEAM_OWNERSHIP = 0x11,
-            NETWORK_DISCONNECT_SERVERINFO_OVERFLOW = 0x12,
-            NETWORK_DISCONNECT_TICKMSG_OVERFLOW = 0x13,
-            NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW = 0x14,
-            NETWORK_DISCONNECT_DELTAENTMSG_OVERFLOW = 0x15,
-            NETWORK_DISCONNECT_TEMPENTMSG_OVERFLOW = 0x16,
-            NETWORK_DISCONNECT_SOUNDSMSG_OVERFLOW = 0x17,
-            NETWORK_DISCONNECT_SNAPSHOTOVERFLOW = 0x18,
-            NETWORK_DISCONNECT_SNAPSHOTERROR = 0x19,
-            NETWORK_DISCONNECT_RELIABLEOVERFLOW = 0x1A,
-            NETWORK_DISCONNECT_BADDELTATICK = 0x1B,
-            NETWORK_DISCONNECT_NOMORESPLITS = 0x1C,
-            NETWORK_DISCONNECT_TIMEDOUT = 0x1D,
-            NETWORK_DISCONNECT_DISCONNECTED = 0x1E,
-            NETWORK_DISCONNECT_LEAVINGSPLIT = 0x1F,
-            NETWORK_DISCONNECT_DIFFERENTCLASSTABLES = 0x20,
-            NETWORK_DISCONNECT_BADRELAYPASSWORD = 0x21,
-            NETWORK_DISCONNECT_BADSPECTATORPASSWORD = 0x22,
-            NETWORK_DISCONNECT_HLTVRESTRICTED = 0x23,
-            NETWORK_DISCONNECT_NOSPECTATORS = 0x24,
-            NETWORK_DISCONNECT_HLTVUNAVAILABLE = 0x25,
-            NETWORK_DISCONNECT_HLTVSTOP = 0x26,
-            NETWORK_DISCONNECT_KICKED = 0x27,
-            NETWORK_DISCONNECT_BANADDED = 0x28,
-            NETWORK_DISCONNECT_KICKBANADDED = 0x29,
-            NETWORK_DISCONNECT_HLTVDIRECT = 0x2A,
-            NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA = 0x2B,
-            NETWORK_DISCONNECT_PURESERVER_MISMATCH = 0x2C,
-            NETWORK_DISCONNECT_USERCMD = 0x2D,
-            NETWORK_DISCONNECT_REJECTED_BY_GAME = 0x2E,
-            NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR = 0x2F,
-            NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR = 0x30,
-            NETWORK_DISCONNECT_BAD_SERVER_PASSWORD = 0x31,
-            NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION = 0x32,
-            NETWORK_DISCONNECT_CONNECTION_FAILURE = 0x33,
-            NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS = 0x34,
-            NETWORK_DISCONNECT_RECONNECTION = 0x35,
-            NETWORK_DISCONNECT_LOOPSHUTDOWN = 0x36,
-            NETWORK_DISCONNECT_LOOPDEACTIVATE = 0x37,
-            NETWORK_DISCONNECT_HOST_ENDGAME = 0x38,
-            NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE = 0x39,
-            NETWORK_DISCONNECT_CREATE_SERVER_FAILED = 0x3A,
-            NETWORK_DISCONNECT_EXITING = 0x3B,
-            NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE = 0x3C,
-            NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY = 0x3D,
-            NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL = 0x3E,
-            NETWORK_DISCONNECT_CLIENT_UNABLE_TO_CRC_MAP = 0x3F,
-            NETWORK_DISCONNECT_CLIENT_NO_MAP = 0x40,
-            NETWORK_DISCONNECT_CLIENT_DIFFERENT_MAP = 0x41,
-            NETWORK_DISCONNECT_SERVER_REQUIRES_STEAM = 0x42,
-            NETWORK_DISCONNECT_STEAM_DENY_MISC = 0x43,
-            NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT = 0x44,
-            NETWORK_DISCONNECT_SERVER_SHUTDOWN = 0x45,
-            NETWORK_DISCONNECT_REPLAY_INCOMPATIBLE = 0x47,
-            NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT = 0x48,
-            NETWORK_DISCONNECT_SERVER_INCOMPATIBLE = 0x49,
-            NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS = 0x4A,
-            NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY = 0x4B,
-            NETWORK_DISCONNECT_LOCALPROBLEM_NETWORKCONFIG = 0x4C,
-            NETWORK_DISCONNECT_LOCALPROBLEM_OTHER = 0x4D,
-            NETWORK_DISCONNECT_REMOTE_TIMEOUT = 0x4F,
-            NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING = 0x50,
-            NETWORK_DISCONNECT_REMOTE_OTHER = 0x51,
-            NETWORK_DISCONNECT_REMOTE_BADCRYPT = 0x52,
-            NETWORK_DISCONNECT_REMOTE_CERTNOTTRUSTED = 0x53,
-            NETWORK_DISCONNECT_UNUSUAL = 0x54,
-            NETWORK_DISCONNECT_INTERNAL_ERROR = 0x55,
-            NETWORK_DISCONNECT_REJECT_BADCHALLENGE = 0x80,
-            NETWORK_DISCONNECT_REJECT_NOLOBBY = 0x81,
-            NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP = 0x82,
-            NETWORK_DISCONNECT_REJECT_SINGLE_PLAYER = 0x83,
-            NETWORK_DISCONNECT_REJECT_HIDDEN_GAME = 0x84,
-            NETWORK_DISCONNECT_REJECT_LANRESTRICT = 0x85,
-            NETWORK_DISCONNECT_REJECT_BADPASSWORD = 0x86,
-            NETWORK_DISCONNECT_REJECT_SERVERFULL = 0x87,
-            NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION = 0x88,
-            NETWORK_DISCONNECT_REJECT_FAILEDCHANNEL = 0x89,
-            NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY = 0x8A,
-            NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY = 0x8B,
-            NETWORK_DISCONNECT_REJECT_INVALIDKEYLENGTH = 0x8C,
-            NETWORK_DISCONNECT_REJECT_OLDPROTOCOL = 0x8D,
-            NETWORK_DISCONNECT_REJECT_NEWPROTOCOL = 0x8E,
-            NETWORK_DISCONNECT_REJECT_INVALIDCONNECTION = 0x8F,
-            NETWORK_DISCONNECT_REJECT_INVALIDCERTLEN = 0x90,
-            NETWORK_DISCONNECT_REJECT_INVALIDSTEAMCERTLEN = 0x91,
-            NETWORK_DISCONNECT_REJECT_STEAM = 0x92,
-            NETWORK_DISCONNECT_REJECT_SERVERAUTHDISABLED = 0x93,
-            NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID = 0x94,
-            NETWORK_DISCONNECT_REJECT_BANNED = 0x95,
-            NETWORK_DISCONNECT_KICKED_TEAMKILLING = 0x96,
-            NETWORK_DISCONNECT_KICKED_TK_START = 0x97,
-            NETWORK_DISCONNECT_KICKED_UNTRUSTEDACCOUNT = 0x98,
-            NETWORK_DISCONNECT_KICKED_CONVICTEDACCOUNT = 0x99,
-            NETWORK_DISCONNECT_KICKED_COMPETITIVECOOLDOWN = 0x9A,
-            NETWORK_DISCONNECT_KICKED_TEAMHURTING = 0x9B,
-            NETWORK_DISCONNECT_KICKED_HOSTAGEKILLING = 0x9C,
-            NETWORK_DISCONNECT_KICKED_VOTEDOFF = 0x9D,
-            NETWORK_DISCONNECT_KICKED_IDLE = 0x9E,
-            NETWORK_DISCONNECT_KICKED_SUICIDE = 0x9F,
-            NETWORK_DISCONNECT_KICKED_NOSTEAMLOGIN = 0xA0,
-            NETWORK_DISCONNECT_KICKED_NOSTEAMTICKET = 0xA1,
-            NETWORK_DISCONNECT_KICKED_INPUTAUTOMATION = 0xA2,
-            NETWORK_DISCONNECT_KICKED_VACNETABNORMALBEHAVIOR = 0xA3,
+            NETWORK_DISCONNECT_INVALID = 0x0
+            NETWORK_DISCONNECT_SHUTDOWN = 0x1
+            NETWORK_DISCONNECT_DISCONNECT_BY_USER = 0x2
+            NETWORK_DISCONNECT_DISCONNECT_BY_SERVER = 0x3
+            NETWORK_DISCONNECT_LOST = 0x4
+            NETWORK_DISCONNECT_OVERFLOW = 0x5
+            NETWORK_DISCONNECT_STEAM_BANNED = 0x6
+            NETWORK_DISCONNECT_STEAM_INUSE = 0x7
+            NETWORK_DISCONNECT_STEAM_TICKET = 0x8
+            NETWORK_DISCONNECT_STEAM_LOGON = 0x9
+            NETWORK_DISCONNECT_STEAM_AUTHCANCELLED = 0xA
+            NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED = 0xB
+            NETWORK_DISCONNECT_STEAM_AUTHINVALID = 0xC
+            NETWORK_DISCONNECT_STEAM_VACBANSTATE = 0xD
+            NETWORK_DISCONNECT_STEAM_LOGGED_IN_ELSEWHERE = 0xE
+            NETWORK_DISCONNECT_STEAM_VAC_CHECK_TIMEDOUT = 0xF
+            NETWORK_DISCONNECT_STEAM_DROPPED = 0x10
+            NETWORK_DISCONNECT_STEAM_OWNERSHIP = 0x11
+            NETWORK_DISCONNECT_SERVERINFO_OVERFLOW = 0x12
+            NETWORK_DISCONNECT_TICKMSG_OVERFLOW = 0x13
+            NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW = 0x14
+            NETWORK_DISCONNECT_DELTAENTMSG_OVERFLOW = 0x15
+            NETWORK_DISCONNECT_TEMPENTMSG_OVERFLOW = 0x16
+            NETWORK_DISCONNECT_SOUNDSMSG_OVERFLOW = 0x17
+            NETWORK_DISCONNECT_SNAPSHOTOVERFLOW = 0x18
+            NETWORK_DISCONNECT_SNAPSHOTERROR = 0x19
+            NETWORK_DISCONNECT_RELIABLEOVERFLOW = 0x1A
+            NETWORK_DISCONNECT_BADDELTATICK = 0x1B
+            NETWORK_DISCONNECT_NOMORESPLITS = 0x1C
+            NETWORK_DISCONNECT_TIMEDOUT = 0x1D
+            NETWORK_DISCONNECT_DISCONNECTED = 0x1E
+            NETWORK_DISCONNECT_LEAVINGSPLIT = 0x1F
+            NETWORK_DISCONNECT_DIFFERENTCLASSTABLES = 0x20
+            NETWORK_DISCONNECT_BADRELAYPASSWORD = 0x21
+            NETWORK_DISCONNECT_BADSPECTATORPASSWORD = 0x22
+            NETWORK_DISCONNECT_HLTVRESTRICTED = 0x23
+            NETWORK_DISCONNECT_NOSPECTATORS = 0x24
+            NETWORK_DISCONNECT_HLTVUNAVAILABLE = 0x25
+            NETWORK_DISCONNECT_HLTVSTOP = 0x26
+            NETWORK_DISCONNECT_KICKED = 0x27
+            NETWORK_DISCONNECT_BANADDED = 0x28
+            NETWORK_DISCONNECT_KICKBANADDED = 0x29
+            NETWORK_DISCONNECT_HLTVDIRECT = 0x2A
+            NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA = 0x2B
+            NETWORK_DISCONNECT_PURESERVER_MISMATCH = 0x2C
+            NETWORK_DISCONNECT_USERCMD = 0x2D
+            NETWORK_DISCONNECT_REJECTED_BY_GAME = 0x2E
+            NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR = 0x2F
+            NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR = 0x30
+            NETWORK_DISCONNECT_BAD_SERVER_PASSWORD = 0x31
+            NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION = 0x32
+            NETWORK_DISCONNECT_CONNECTION_FAILURE = 0x33
+            NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS = 0x34
+            NETWORK_DISCONNECT_RECONNECTION = 0x35
+            NETWORK_DISCONNECT_LOOPSHUTDOWN = 0x36
+            NETWORK_DISCONNECT_LOOPDEACTIVATE = 0x37
+            NETWORK_DISCONNECT_HOST_ENDGAME = 0x38
+            NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE = 0x39
+            NETWORK_DISCONNECT_CREATE_SERVER_FAILED = 0x3A
+            NETWORK_DISCONNECT_EXITING = 0x3B
+            NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE = 0x3C
+            NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY = 0x3D
+            NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL = 0x3E
+            NETWORK_DISCONNECT_CLIENT_UNABLE_TO_CRC_MAP = 0x3F
+            NETWORK_DISCONNECT_CLIENT_NO_MAP = 0x40
+            NETWORK_DISCONNECT_CLIENT_DIFFERENT_MAP = 0x41
+            NETWORK_DISCONNECT_SERVER_REQUIRES_STEAM = 0x42
+            NETWORK_DISCONNECT_STEAM_DENY_MISC = 0x43
+            NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT = 0x44
+            NETWORK_DISCONNECT_SERVER_SHUTDOWN = 0x45
+            NETWORK_DISCONNECT_REPLAY_INCOMPATIBLE = 0x47
+            NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT = 0x48
+            NETWORK_DISCONNECT_SERVER_INCOMPATIBLE = 0x49
+            NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS = 0x4A
+            NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY = 0x4B
+            NETWORK_DISCONNECT_LOCALPROBLEM_NETWORKCONFIG = 0x4C
+            NETWORK_DISCONNECT_LOCALPROBLEM_OTHER = 0x4D
+            NETWORK_DISCONNECT_REMOTE_TIMEOUT = 0x4F
+            NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING = 0x50
+            NETWORK_DISCONNECT_REMOTE_OTHER = 0x51
+            NETWORK_DISCONNECT_REMOTE_BADCRYPT = 0x52
+            NETWORK_DISCONNECT_REMOTE_CERTNOTTRUSTED = 0x53
+            NETWORK_DISCONNECT_UNUSUAL = 0x54
+            NETWORK_DISCONNECT_INTERNAL_ERROR = 0x55
+            NETWORK_DISCONNECT_REJECT_BADCHALLENGE = 0x80
+            NETWORK_DISCONNECT_REJECT_NOLOBBY = 0x81
+            NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP = 0x82
+            NETWORK_DISCONNECT_REJECT_SINGLE_PLAYER = 0x83
+            NETWORK_DISCONNECT_REJECT_HIDDEN_GAME = 0x84
+            NETWORK_DISCONNECT_REJECT_LANRESTRICT = 0x85
+            NETWORK_DISCONNECT_REJECT_BADPASSWORD = 0x86
+            NETWORK_DISCONNECT_REJECT_SERVERFULL = 0x87
+            NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION = 0x88
+            NETWORK_DISCONNECT_REJECT_FAILEDCHANNEL = 0x89
+            NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY = 0x8A
+            NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY = 0x8B
+            NETWORK_DISCONNECT_REJECT_INVALIDKEYLENGTH = 0x8C
+            NETWORK_DISCONNECT_REJECT_OLDPROTOCOL = 0x8D
+            NETWORK_DISCONNECT_REJECT_NEWPROTOCOL = 0x8E
+            NETWORK_DISCONNECT_REJECT_INVALIDCONNECTION = 0x8F
+            NETWORK_DISCONNECT_REJECT_INVALIDCERTLEN = 0x90
+            NETWORK_DISCONNECT_REJECT_INVALIDSTEAMCERTLEN = 0x91
+            NETWORK_DISCONNECT_REJECT_STEAM = 0x92
+            NETWORK_DISCONNECT_REJECT_SERVERAUTHDISABLED = 0x93
+            NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID = 0x94
+            NETWORK_DISCONNECT_REJECT_BANNED = 0x95
+            NETWORK_DISCONNECT_KICKED_TEAMKILLING = 0x96
+            NETWORK_DISCONNECT_KICKED_TK_START = 0x97
+            NETWORK_DISCONNECT_KICKED_UNTRUSTEDACCOUNT = 0x98
+            NETWORK_DISCONNECT_KICKED_CONVICTEDACCOUNT = 0x99
+            NETWORK_DISCONNECT_KICKED_COMPETITIVECOOLDOWN = 0x9A
+            NETWORK_DISCONNECT_KICKED_TEAMHURTING = 0x9B
+            NETWORK_DISCONNECT_KICKED_HOSTAGEKILLING = 0x9C
+            NETWORK_DISCONNECT_KICKED_VOTEDOFF = 0x9D
+            NETWORK_DISCONNECT_KICKED_IDLE = 0x9E
+            NETWORK_DISCONNECT_KICKED_SUICIDE = 0x9F
+            NETWORK_DISCONNECT_KICKED_NOSTEAMLOGIN = 0xA0
+            NETWORK_DISCONNECT_KICKED_NOSTEAMTICKET = 0xA1
+            NETWORK_DISCONNECT_KICKED_INPUTAUTOMATION = 0xA2
+            NETWORK_DISCONNECT_KICKED_VACNETABNORMALBEHAVIOR = 0xA3
             NETWORK_DISCONNECT_KICKED_INSECURECLIENT = 0xA4
         }
         // Alignment: 4
         // Member count: 3
         public enum WorldTextPanelOrientation_t : uint {
-            WORLDTEXT_ORIENTATION_DEFAULT = 0x0,
-            WORLDTEXT_ORIENTATION_FACEUSER = 0x1,
+            WORLDTEXT_ORIENTATION_DEFAULT = 0x0
+            WORLDTEXT_ORIENTATION_FACEUSER = 0x1
             WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT = 0x2
         }
         // Alignment: 4
         // Member count: 9
         public enum EDestructibleParts_DestroyParameterFlags : uint {
-            None = 0x0,
-            GenerateBreakpieces = 0x1,
-            SetBodyGroupAndCollisionState = 0x2,
-            EnableFlinches = 0x4,
-            ForceDamageApply = 0x8,
-            IgnoreKillEntityFlag = 0x10,
-            IgnoreHealthCheck = 0x20,
-            ApplyPhysicsForce = 0x40,
+            None = 0x0
+            GenerateBreakpieces = 0x1
+            SetBodyGroupAndCollisionState = 0x2
+            EnableFlinches = 0x4
+            ForceDamageApply = 0x8
+            IgnoreKillEntityFlag = 0x10
+            IgnoreHealthCheck = 0x20
+            ApplyPhysicsForce = 0x40
             Default = 0x7
         }
         // Alignment: 4
         // Member count: 5
         public enum DIALOG_TYPE : uint {
-            DIALOG_MSG = 0x0,
-            DIALOG_MENU = 0x1,
-            DIALOG_TEXT = 0x2,
-            DIALOG_ENTRY = 0x3,
+            DIALOG_MSG = 0x0
+            DIALOG_MENU = 0x1
+            DIALOG_TEXT = 0x2
+            DIALOG_ENTRY = 0x3
             DIALOG_ASKCONNECT = 0x4
         }
         // Alignment: 4
         // Member count: 3
         public enum WorldTextPanelHorizontalAlign_t : uint {
-            WORLDTEXT_HORIZONTAL_ALIGN_LEFT = 0x0,
-            WORLDTEXT_HORIZONTAL_ALIGN_CENTER = 0x1,
+            WORLDTEXT_HORIZONTAL_ALIGN_LEFT = 0x0
+            WORLDTEXT_HORIZONTAL_ALIGN_CENTER = 0x1
             WORLDTEXT_HORIZONTAL_ALIGN_RIGHT = 0x2
         }
         // Alignment: 1
         // Member count: 3
         public enum SequenceFinishNotifyState_t : uint {
-            eDoNotNotify = 0x0,
-            eNotifyWhenFinished = 0x1,
+            eDoNotNotify = 0x0
+            eNotifyWhenFinished = 0x1
             eNotifyTriggered = 0x2
         }
         // Alignment: 4
         // Member count: 3
         public enum SoundEventStartType_t : uint {
-            SOUNDEVENT_START_PLAYER = 0x0,
-            SOUNDEVENT_START_WORLD = 0x1,
+            SOUNDEVENT_START_PLAYER = 0x0
+            SOUNDEVENT_START_WORLD = 0x1
             SOUNDEVENT_START_ENTITY = 0x2
         }
         // Alignment: 4
         // Member count: 22
         public enum EDemoCommands : uint {
-            DEM_Error = 0x-1,
-            DEM_Stop = 0x0,
-            DEM_FileHeader = 0x1,
-            DEM_FileInfo = 0x2,
-            DEM_SyncTick = 0x3,
-            DEM_SendTables = 0x4,
-            DEM_ClassInfo = 0x5,
-            DEM_StringTables = 0x6,
-            DEM_Packet = 0x7,
-            DEM_SignonPacket = 0x8,
-            DEM_ConsoleCmd = 0x9,
-            DEM_CustomData = 0xA,
-            DEM_CustomDataCallbacks = 0xB,
-            DEM_UserCmd = 0xC,
-            DEM_FullPacket = 0xD,
-            DEM_SaveGame = 0xE,
-            DEM_SpawnGroups = 0xF,
-            DEM_AnimationData = 0x10,
-            DEM_AnimationHeader = 0x11,
-            DEM_Recovery = 0x12,
-            DEM_Max = 0x13,
+            DEM_Error = 0x-1
+            DEM_Stop = 0x0
+            DEM_FileHeader = 0x1
+            DEM_FileInfo = 0x2
+            DEM_SyncTick = 0x3
+            DEM_SendTables = 0x4
+            DEM_ClassInfo = 0x5
+            DEM_StringTables = 0x6
+            DEM_Packet = 0x7
+            DEM_SignonPacket = 0x8
+            DEM_ConsoleCmd = 0x9
+            DEM_CustomData = 0xA
+            DEM_CustomDataCallbacks = 0xB
+            DEM_UserCmd = 0xC
+            DEM_FullPacket = 0xD
+            DEM_SaveGame = 0xE
+            DEM_SpawnGroups = 0xF
+            DEM_AnimationData = 0x10
+            DEM_AnimationHeader = 0x11
+            DEM_Recovery = 0x12
+            DEM_Max = 0x13
             DEM_IsCompressed = 0x40
         }
         // Alignment: 4
         // Member count: 3
         public enum ChoreoLookAtConditions_t : uint {
-            WHILE_MOVING = 0x1,
-            WHILE_ANIMATING = 0x2,
+            WHILE_MOVING = 0x1
+            WHILE_ANIMATING = 0x2
             DURING_OUTRO = 0x4
         }
         // Alignment: 4
         // Member count: 5
         public enum soundcommands_t : uint {
-            SOUNDCTRL_CHANGE_VOLUME = 0x0,
-            SOUNDCTRL_CHANGE_PITCH = 0x1,
-            SOUNDCTRL_STOP = 0x2,
-            SOUNDCTRL_DESTROY = 0x3,
+            SOUNDCTRL_CHANGE_VOLUME = 0x0
+            SOUNDCTRL_CHANGE_PITCH = 0x1
+            SOUNDCTRL_STOP = 0x2
+            SOUNDCTRL_DESTROY = 0x3
             SOUNDCTRL_FADEOUT = 0x4
         }
         // Alignment: 4
         // Member count: 5
         public enum AnimGraphDebugDrawType_t : uint {
-            None = 0x0,
-            WsPosition = 0x1,
-            MsPosition = 0x2,
-            WsDirection = 0x3,
+            None = 0x0
+            WsPosition = 0x1
+            MsPosition = 0x2
+            WsDirection = 0x3
             MsDirection = 0x4
         }
         // Alignment: 4
         // Member count: 4
         public enum TrainOrientationType_t : uint {
-            TrainOrientation_Fixed = 0x0,
-            TrainOrientation_AtPathTracks = 0x1,
-            TrainOrientation_LinearBlend = 0x2,
+            TrainOrientation_Fixed = 0x0
+            TrainOrientation_AtPathTracks = 0x1
+            TrainOrientation_LinearBlend = 0x2
             TrainOrientation_EaseInEaseOut = 0x3
         }
         // Alignment: 4
         // Member count: 5
         public enum CInfoChoreoLocatorShapeType_t : uint {
-            POINT = 0x0,
-            LINE = 0x1,
-            RADIUS = 0x2,
-            COUNT = 0x3,
+            POINT = 0x0
+            LINE = 0x1
+            RADIUS = 0x2
+            COUNT = 0x3
             NONE = 0x4
         }
         // Alignment: 4
         // Member count: 7
         public enum CSWeaponCategory : uint {
-            WEAPONCATEGORY_OTHER = 0x0,
-            WEAPONCATEGORY_MELEE = 0x1,
-            WEAPONCATEGORY_SECONDARY = 0x2,
-            WEAPONCATEGORY_SMG = 0x3,
-            WEAPONCATEGORY_RIFLE = 0x4,
-            WEAPONCATEGORY_HEAVY = 0x5,
+            WEAPONCATEGORY_OTHER = 0x0
+            WEAPONCATEGORY_MELEE = 0x1
+            WEAPONCATEGORY_SECONDARY = 0x2
+            WEAPONCATEGORY_SMG = 0x3
+            WEAPONCATEGORY_RIFLE = 0x4
+            WEAPONCATEGORY_HEAVY = 0x5
             WEAPONCATEGORY_COUNT = 0x6
         }
         // Alignment: 1
         // Member count: 2
         public enum BeginDeathLifeStateTransition_t : uint {
-            TRANSITION_TO_LIFESTATE_DYING = 0x0,
+            TRANSITION_TO_LIFESTATE_DYING = 0x0
             TRANSITION_TO_LIFESTATE_DEAD = 0x1
         }
         // Alignment: 4
         // Member count: 28
         public enum EGCItemCustomizationNotification : uint {
-            k_EGCItemCustomizationNotification_NameItem = 0x3EE,
-            k_EGCItemCustomizationNotification_UnlockCrate = 0x3EF,
-            k_EGCItemCustomizationNotification_XRayItemReveal = 0x3F0,
-            k_EGCItemCustomizationNotification_XRayItemClaim = 0x3F1,
-            k_EGCItemCustomizationNotification_CasketTooFull = 0x3F3,
-            k_EGCItemCustomizationNotification_CasketContents = 0x3F4,
-            k_EGCItemCustomizationNotification_CasketAdded = 0x3F5,
-            k_EGCItemCustomizationNotification_CasketRemoved = 0x3F6,
-            k_EGCItemCustomizationNotification_CasketInvFull = 0x3F7,
-            k_EGCItemCustomizationNotification_NameBaseItem = 0x3FB,
-            k_EGCItemCustomizationNotification_RemoveItemName = 0x406,
-            k_EGCItemCustomizationNotification_RemoveSticker = 0x41D,
-            k_EGCItemCustomizationNotification_ExtractSticker = 0x41E,
-            k_EGCItemCustomizationNotification_EncapsulateSticker = 0x41F,
-            k_EGCItemCustomizationNotification_ApplySticker = 0x43E,
-            k_EGCItemCustomizationNotification_StatTrakSwap = 0x440,
-            k_EGCItemCustomizationNotification_RemovePatch = 0x441,
-            k_EGCItemCustomizationNotification_ApplyPatch = 0x442,
-            k_EGCItemCustomizationNotification_ApplyKeychain = 0x443,
-            k_EGCItemCustomizationNotification_RemoveKeychain = 0x444,
-            k_EGCItemCustomizationNotification_ActivateFanToken = 0x23DA,
-            k_EGCItemCustomizationNotification_ActivateOperationCoin = 0x23DB,
-            k_EGCItemCustomizationNotification_GraffitiUnseal = 0x23E1,
-            k_EGCItemCustomizationNotification_GenerateSouvenir = 0x23F4,
-            k_EGCItemCustomizationNotification_ClientRedeemMissionReward = 0x23F9,
-            k_EGCItemCustomizationNotification_ClientRedeemFreeReward = 0x2403,
-            k_EGCItemCustomizationNotification_XpShopUseTicket = 0x2405,
+            k_EGCItemCustomizationNotification_NameItem = 0x3EE
+            k_EGCItemCustomizationNotification_UnlockCrate = 0x3EF
+            k_EGCItemCustomizationNotification_XRayItemReveal = 0x3F0
+            k_EGCItemCustomizationNotification_XRayItemClaim = 0x3F1
+            k_EGCItemCustomizationNotification_CasketTooFull = 0x3F3
+            k_EGCItemCustomizationNotification_CasketContents = 0x3F4
+            k_EGCItemCustomizationNotification_CasketAdded = 0x3F5
+            k_EGCItemCustomizationNotification_CasketRemoved = 0x3F6
+            k_EGCItemCustomizationNotification_CasketInvFull = 0x3F7
+            k_EGCItemCustomizationNotification_NameBaseItem = 0x3FB
+            k_EGCItemCustomizationNotification_RemoveItemName = 0x406
+            k_EGCItemCustomizationNotification_RemoveSticker = 0x41D
+            k_EGCItemCustomizationNotification_ExtractSticker = 0x41E
+            k_EGCItemCustomizationNotification_EncapsulateSticker = 0x41F
+            k_EGCItemCustomizationNotification_ApplySticker = 0x43E
+            k_EGCItemCustomizationNotification_StatTrakSwap = 0x440
+            k_EGCItemCustomizationNotification_RemovePatch = 0x441
+            k_EGCItemCustomizationNotification_ApplyPatch = 0x442
+            k_EGCItemCustomizationNotification_ApplyKeychain = 0x443
+            k_EGCItemCustomizationNotification_RemoveKeychain = 0x444
+            k_EGCItemCustomizationNotification_ActivateFanToken = 0x23DA
+            k_EGCItemCustomizationNotification_ActivateOperationCoin = 0x23DB
+            k_EGCItemCustomizationNotification_GraffitiUnseal = 0x23E1
+            k_EGCItemCustomizationNotification_GenerateSouvenir = 0x23F4
+            k_EGCItemCustomizationNotification_ClientRedeemMissionReward = 0x23F9
+            k_EGCItemCustomizationNotification_ClientRedeemFreeReward = 0x2403
+            k_EGCItemCustomizationNotification_XpShopUseTicket = 0x2405
             k_EGCItemCustomizationNotification_XpShopAckTracks = 0x2406
         }
         // Alignment: 4
         // Member count: 5
         public enum PointOrientGoalDirectionType_t : uint {
-            eAbsOrigin = 0x0,
-            eCenter = 0x1,
-            eHead = 0x2,
-            eForward = 0x3,
+            eAbsOrigin = 0x0
+            eCenter = 0x1
+            eHead = 0x2
+            eForward = 0x3
             eEyesForward = 0x4
         }
         // Alignment: 1
         // Member count: 9
         public enum ItemFlagTypes_t : uint {
-            ITEM_FLAG_NONE = 0x0,
-            ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO = 0x1,
-            ITEM_FLAG_NOAUTORELOAD = 0x2,
-            ITEM_FLAG_NOAUTOSWITCHEMPTY = 0x4,
-            ITEM_FLAG_LIMITINWORLD = 0x8,
-            ITEM_FLAG_EXHAUSTIBLE = 0x10,
-            ITEM_FLAG_DOHITLOCATIONDMG = 0x20,
-            ITEM_FLAG_NOAMMOPICKUPS = 0x40,
+            ITEM_FLAG_NONE = 0x0
+            ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO = 0x1
+            ITEM_FLAG_NOAUTORELOAD = 0x2
+            ITEM_FLAG_NOAUTOSWITCHEMPTY = 0x4
+            ITEM_FLAG_LIMITINWORLD = 0x8
+            ITEM_FLAG_EXHAUSTIBLE = 0x10
+            ITEM_FLAG_DOHITLOCATIONDMG = 0x20
+            ITEM_FLAG_NOAMMOPICKUPS = 0x40
             ITEM_FLAG_NOITEMPICKUP = 0x80
         }
         // Alignment: 1
         // Member count: 10
         public enum SurroundingBoundsType_t : uint {
-            USE_OBB_COLLISION_BOUNDS = 0x0,
-            USE_BEST_COLLISION_BOUNDS = 0x1,
-            USE_HITBOXES = 0x2,
-            USE_SPECIFIED_BOUNDS = 0x3,
-            USE_GAME_CODE = 0x4,
-            USE_ROTATION_EXPANDED_BOUNDS = 0x5,
-            USE_ROTATION_EXPANDED_ORIENTED_BOUNDS = 0x6,
-            USE_COLLISION_BOUNDS_NEVER_VPHYSICS = 0x7,
-            USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS = 0x8,
+            USE_OBB_COLLISION_BOUNDS = 0x0
+            USE_BEST_COLLISION_BOUNDS = 0x1
+            USE_HITBOXES = 0x2
+            USE_SPECIFIED_BOUNDS = 0x3
+            USE_GAME_CODE = 0x4
+            USE_ROTATION_EXPANDED_BOUNDS = 0x5
+            USE_ROTATION_EXPANDED_ORIENTED_BOUNDS = 0x6
+            USE_COLLISION_BOUNDS_NEVER_VPHYSICS = 0x7
+            USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS = 0x8
             SURROUNDING_TYPE_BIT_COUNT = 0x3
         }
         // Alignment: 4
         // Member count: 6
         public enum LifeState_t : uint {
-            LIFE_ALIVE = 0x0,
-            LIFE_DYING = 0x1,
-            LIFE_DEAD = 0x2,
-            LIFE_RESPAWNABLE = 0x3,
-            LIFE_RESPAWNING = 0x4,
+            LIFE_ALIVE = 0x0
+            LIFE_DYING = 0x1
+            LIFE_DEAD = 0x2
+            LIFE_RESPAWNABLE = 0x3
+            LIFE_RESPAWNING = 0x4
             NUM_LIFESTATES = 0x5
         }
         // Alignment: 4
         // Member count: 2
         public enum PointOrientConstraint_t : uint {
-            eNone = 0x0,
+            eNone = 0x0
             ePreserveUpAxis = 0x1
         }
         // Alignment: 4
         // Member count: 10
         public enum EHitGroup : uint {
-            EHG_Generic = 0x0,
-            EHG_Head = 0x1,
-            EHG_Chest = 0x2,
-            EHG_Stomach = 0x3,
-            EHG_LeftArm = 0x4,
-            EHG_RightArm = 0x5,
-            EHG_LeftLeg = 0x6,
-            EHG_RightLeg = 0x7,
-            EHG_Gear = 0x8,
+            EHG_Generic = 0x0
+            EHG_Head = 0x1
+            EHG_Chest = 0x2
+            EHG_Stomach = 0x3
+            EHG_LeftArm = 0x4
+            EHG_RightArm = 0x5
+            EHG_LeftLeg = 0x6
+            EHG_RightLeg = 0x7
+            EHG_Gear = 0x8
             EHG_Miss = 0x9
         }
         // Alignment: 4
         // Member count: 5
         public enum NPCFollowFormation_t : uint {
-            Default = 0x-1,
-            CloseCircle = 0x0,
-            WideCircle = 0x1,
-            MediumCircle = 0x5,
+            Default = 0x-1
+            CloseCircle = 0x0
+            WideCircle = 0x1
+            MediumCircle = 0x5
             Sidekick = 0x6
         }
         // Alignment: 4
         // Member count: 32
         public enum SVC_Messages : uint {
-            svc_ServerInfo = 0x28,
-            svc_FlattenedSerializer = 0x29,
-            svc_ClassInfo = 0x2A,
-            svc_SetPause = 0x2B,
-            svc_CreateStringTable = 0x2C,
-            svc_UpdateStringTable = 0x2D,
-            svc_VoiceInit = 0x2E,
-            svc_VoiceData = 0x2F,
-            svc_Print = 0x30,
-            svc_Sounds = 0x31,
-            svc_SetView = 0x32,
-            svc_ClearAllStringTables = 0x33,
-            svc_CmdKeyValues = 0x34,
-            svc_BSPDecal = 0x35,
-            svc_SplitScreen = 0x36,
-            svc_PacketEntities = 0x37,
-            svc_Prefetch = 0x38,
-            svc_Menu = 0x39,
-            svc_GetCvarValue = 0x3A,
-            svc_StopSound = 0x3B,
-            svc_PeerList = 0x3C,
-            svc_PacketReliable = 0x3D,
-            svc_HLTVStatus = 0x3E,
-            svc_ServerSteamID = 0x3F,
-            svc_FullFrameSplit = 0x46,
-            svc_RconServerDetails = 0x47,
-            svc_UserMessage = 0x48,
-            svc_Broadcast_Command = 0x4A,
-            svc_HltvFixupOperatorStatus = 0x4B,
-            svc_UserCmds = 0x4C,
-            svc_NextMsgPredicted = 0x4D,
+            svc_ServerInfo = 0x28
+            svc_FlattenedSerializer = 0x29
+            svc_ClassInfo = 0x2A
+            svc_SetPause = 0x2B
+            svc_CreateStringTable = 0x2C
+            svc_UpdateStringTable = 0x2D
+            svc_VoiceInit = 0x2E
+            svc_VoiceData = 0x2F
+            svc_Print = 0x30
+            svc_Sounds = 0x31
+            svc_SetView = 0x32
+            svc_ClearAllStringTables = 0x33
+            svc_CmdKeyValues = 0x34
+            svc_BSPDecal = 0x35
+            svc_SplitScreen = 0x36
+            svc_PacketEntities = 0x37
+            svc_Prefetch = 0x38
+            svc_Menu = 0x39
+            svc_GetCvarValue = 0x3A
+            svc_StopSound = 0x3B
+            svc_PeerList = 0x3C
+            svc_PacketReliable = 0x3D
+            svc_HLTVStatus = 0x3E
+            svc_ServerSteamID = 0x3F
+            svc_FullFrameSplit = 0x46
+            svc_RconServerDetails = 0x47
+            svc_UserMessage = 0x48
+            svc_Broadcast_Command = 0x4A
+            svc_HltvFixupOperatorStatus = 0x4B
+            svc_UserCmds = 0x4C
+            svc_NextMsgPredicted = 0x4D
             svc_EncryptedData = 0x4E
         }
         // Alignment: 4
         // Member count: 2
         public enum QuestType : uint {
-            k_EQuestType_Operation = 0x1,
+            k_EQuestType_Operation = 0x1
             k_EQuestType_RecurringMission = 0x2
         }
         // Alignment: 4
         // Member count: 105
         public enum ECsgoGCMsg : uint {
-            k_EMsgGCCStrike15_v2_Base = 0x238C,
-            k_EMsgGCCStrike15_v2_MatchmakingStart = 0x238D,
-            k_EMsgGCCStrike15_v2_MatchmakingStop = 0x238E,
-            k_EMsgGCCStrike15_v2_MatchmakingClient2ServerPing = 0x238F,
-            k_EMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate = 0x2390,
-            k_EMsgGCCStrike15_v2_MatchmakingServerReservationResponse = 0x2392,
-            k_EMsgGCCStrike15_v2_MatchmakingGC2ClientReserve = 0x2393,
-            k_EMsgGCCStrike15_v2_MatchmakingClient2GCHello = 0x2395,
-            k_EMsgGCCStrike15_v2_MatchmakingGC2ClientHello = 0x2396,
-            k_EMsgGCCStrike15_v2_MatchmakingGC2ClientAbandon = 0x2398,
-            k_EMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate = 0x239D,
-            k_EMsgGCCStrike15_v2_ServerNotificationForUserPenalty = 0x239E,
-            k_EMsgGCCStrike15_v2_ClientReportPlayer = 0x239F,
-            k_EMsgGCCStrike15_v2_ClientReportServer = 0x23A0,
-            k_EMsgGCCStrike15_v2_ClientCommendPlayer = 0x23A1,
-            k_EMsgGCCStrike15_v2_ClientReportResponse = 0x23A2,
-            k_EMsgGCCStrike15_v2_ClientCommendPlayerQuery = 0x23A3,
-            k_EMsgGCCStrike15_v2_ClientCommendPlayerQueryResponse = 0x23A4,
-            k_EMsgGCCStrike15_v2_WatchInfoUsers = 0x23A6,
-            k_EMsgGCCStrike15_v2_ClientRequestPlayersProfile = 0x23A7,
-            k_EMsgGCCStrike15_v2_PlayersProfile = 0x23A8,
-            k_EMsgGCCStrike15_v2_PlayerOverwatchCaseUpdate = 0x23AB,
-            k_EMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment = 0x23AC,
-            k_EMsgGCCStrike15_v2_PlayerOverwatchCaseStatus = 0x23AD,
-            k_EMsgGCCStrike15_v2_GC2ClientTextMsg = 0x23AE,
-            k_EMsgGCCStrike15_v2_Client2GCTextMsg = 0x23AF,
-            k_EMsgGCCStrike15_v2_MatchEndRunRewardDrops = 0x23B0,
-            k_EMsgGCCStrike15_v2_MatchEndRewardDropsNotification = 0x23B1,
-            k_EMsgGCCStrike15_v2_ClientRequestWatchInfoFriends2 = 0x23B2,
-            k_EMsgGCCStrike15_v2_MatchList = 0x23B3,
-            k_EMsgGCCStrike15_v2_MatchListRequestCurrentLiveGames = 0x23B4,
-            k_EMsgGCCStrike15_v2_MatchListRequestRecentUserGames = 0x23B5,
-            k_EMsgGCCStrike15_v2_GC2ServerReservationUpdate = 0x23B6,
-            k_EMsgGCCStrike15_v2_ClientVarValueNotificationInfo = 0x23B8,
-            k_EMsgGCCStrike15_v2_MatchListRequestTournamentGames = 0x23BA,
-            k_EMsgGCCStrike15_v2_MatchListRequestFullGameInfo = 0x23BB,
-            k_EMsgGCCStrike15_v2_GiftsLeaderboardRequest = 0x23BC,
-            k_EMsgGCCStrike15_v2_GiftsLeaderboardResponse = 0x23BD,
-            k_EMsgGCCStrike15_v2_ServerVarValueNotificationInfo = 0x23BE,
-            k_EMsgGCCStrike15_v2_ClientSubmitSurveyVote = 0x23C0,
-            k_EMsgGCCStrike15_v2_Server2GCClientValidate = 0x23C1,
-            k_EMsgGCCStrike15_v2_MatchListRequestLiveGameForUser = 0x23C2,
-            k_EMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest = 0x23C4,
-            k_EMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockResponse = 0x23C5,
-            k_EMsgGCCStrike15_v2_AccountPrivacySettings = 0x23C6,
-            k_EMsgGCCStrike15_v2_SetMyActivityInfo = 0x23C7,
-            k_EMsgGCCStrike15_v2_MatchListRequestTournamentPredictions = 0x23C8,
-            k_EMsgGCCStrike15_v2_MatchListUploadTournamentPredictions = 0x23C9,
-            k_EMsgGCCStrike15_v2_DraftSummary = 0x23CA,
-            k_EMsgGCCStrike15_v2_ClientRequestJoinFriendData = 0x23CB,
-            k_EMsgGCCStrike15_v2_ClientRequestJoinServerData = 0x23CC,
-            k_EMsgGCCStrike15_v2_GC2ClientTournamentInfo = 0x23CF,
-            k_EMsgGC_GlobalGame_Subscribe = 0x23D0,
-            k_EMsgGC_GlobalGame_Unsubscribe = 0x23D1,
-            k_EMsgGC_GlobalGame_Play = 0x23D2,
-            k_EMsgGCCStrike15_v2_AcknowledgePenalty = 0x23D3,
-            k_EMsgGCCStrike15_v2_Client2GCRequestPrestigeCoin = 0x23D4,
-            k_EMsgGCCStrike15_v2_GC2ClientGlobalStats = 0x23D5,
-            k_EMsgGCCStrike15_v2_Client2GCStreamUnlock = 0x23D6,
-            k_EMsgGCCStrike15_v2_FantasyRequestClientData = 0x23D7,
-            k_EMsgGCCStrike15_v2_FantasyUpdateClientData = 0x23D8,
-            k_EMsgGCCStrike15_v2_GCToClientSteamdatagramTicket = 0x23D9,
-            k_EMsgGCCStrike15_v2_ClientToGCRequestTicket = 0x23DA,
-            k_EMsgGCCStrike15_v2_ClientToGCRequestElevate = 0x23DB,
-            k_EMsgGCCStrike15_v2_GlobalChat = 0x23DC,
-            k_EMsgGCCStrike15_v2_GlobalChat_Subscribe = 0x23DD,
-            k_EMsgGCCStrike15_v2_GlobalChat_Unsubscribe = 0x23DE,
-            k_EMsgGCCStrike15_v2_ClientAuthKeyCode = 0x23DF,
-            k_EMsgGCCStrike15_v2_GotvSyncPacket = 0x23E0,
-            k_EMsgGCCStrike15_v2_ClientPlayerDecalSign = 0x23E1,
-            k_EMsgGCCStrike15_v2_ClientLogonFatalError = 0x23E3,
-            k_EMsgGCCStrike15_v2_ClientPollState = 0x23E4,
-            k_EMsgGCCStrike15_v2_Party_Register = 0x23E5,
-            k_EMsgGCCStrike15_v2_Party_Unregister = 0x23E6,
-            k_EMsgGCCStrike15_v2_Party_Search = 0x23E7,
-            k_EMsgGCCStrike15_v2_Party_Invite = 0x23E8,
-            k_EMsgGCCStrike15_v2_Account_RequestCoPlays = 0x23E9,
-            k_EMsgGCCStrike15_v2_ClientGCRankUpdate = 0x23EA,
-            k_EMsgGCCStrike15_v2_ClientRequestOffers = 0x23EB,
-            k_EMsgGCCStrike15_v2_ClientAccountBalance = 0x23EC,
-            k_EMsgGCCStrike15_v2_ClientPartyJoinRelay = 0x23ED,
-            k_EMsgGCCStrike15_v2_ClientPartyWarning = 0x23EE,
-            k_EMsgGCCStrike15_v2_SetEventFavorite = 0x23F0,
-            k_EMsgGCCStrike15_v2_GetEventFavorites_Request = 0x23F1,
-            k_EMsgGCCStrike15_v2_ClientPerfReport = 0x23F2,
-            k_EMsgGCCStrike15_v2_GetEventFavorites_Response = 0x23F3,
-            k_EMsgGCCStrike15_v2_ClientRequestSouvenir = 0x23F4,
-            k_EMsgGCCStrike15_v2_ClientRedeemMissionReward = 0x23F9,
-            k_EMsgGCCStrike15_ClientDeepStats = 0x23FA,
-            k_EMsgGCCStrike15_StartAgreementSessionInGame = 0x23FB,
-            k_EMsgGCCStrike15_v2_PrivateQueues = 0x23FE,
-            k_EMsgGCCStrike15_v2_MatchListTournamentOperatorMgmt = 0x23FF,
-            k_EMsgGCCStrike15_v2_BetaEnrollment = 0x2401,
-            k_EMsgGCCStrike15_v2_SetPlayerLeaderboardSafeName = 0x2402,
-            k_EMsgGCCStrike15_v2_ClientRedeemFreeReward = 0x2403,
-            k_EMsgGCCStrike15_v2_ClientNetworkConfig = 0x2404,
-            k_EMsgGCCStrike15_v2_GC2ClientNotifyXPShop = 0x2405,
-            k_EMsgGCCStrike15_v2_Client2GcAckXPShopTracks = 0x2406,
-            k_EMsgGCCStrike15_v2_MatchmakingGC2ClientSearchStats = 0x2407,
-            k_EMsgGCCStrike15_v2_PremierSeasonSummary = 0x2408,
-            k_EMsgGCCStrike15_v2_RequestRecurringMissionSchedule = 0x2409,
-            k_EMsgGCCStrike15_v2_RecurringMissionSchema = 0x240A,
-            k_EMsgGCCStrike15_v2_VolatileItemClaimReward = 0x240B,
-            k_EMsgGCCStrike15_v2_VolatileShopSubscribe = 0x240C,
+            k_EMsgGCCStrike15_v2_Base = 0x238C
+            k_EMsgGCCStrike15_v2_MatchmakingStart = 0x238D
+            k_EMsgGCCStrike15_v2_MatchmakingStop = 0x238E
+            k_EMsgGCCStrike15_v2_MatchmakingClient2ServerPing = 0x238F
+            k_EMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate = 0x2390
+            k_EMsgGCCStrike15_v2_MatchmakingServerReservationResponse = 0x2392
+            k_EMsgGCCStrike15_v2_MatchmakingGC2ClientReserve = 0x2393
+            k_EMsgGCCStrike15_v2_MatchmakingClient2GCHello = 0x2395
+            k_EMsgGCCStrike15_v2_MatchmakingGC2ClientHello = 0x2396
+            k_EMsgGCCStrike15_v2_MatchmakingGC2ClientAbandon = 0x2398
+            k_EMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate = 0x239D
+            k_EMsgGCCStrike15_v2_ServerNotificationForUserPenalty = 0x239E
+            k_EMsgGCCStrike15_v2_ClientReportPlayer = 0x239F
+            k_EMsgGCCStrike15_v2_ClientReportServer = 0x23A0
+            k_EMsgGCCStrike15_v2_ClientCommendPlayer = 0x23A1
+            k_EMsgGCCStrike15_v2_ClientReportResponse = 0x23A2
+            k_EMsgGCCStrike15_v2_ClientCommendPlayerQuery = 0x23A3
+            k_EMsgGCCStrike15_v2_ClientCommendPlayerQueryResponse = 0x23A4
+            k_EMsgGCCStrike15_v2_WatchInfoUsers = 0x23A6
+            k_EMsgGCCStrike15_v2_ClientRequestPlayersProfile = 0x23A7
+            k_EMsgGCCStrike15_v2_PlayersProfile = 0x23A8
+            k_EMsgGCCStrike15_v2_PlayerOverwatchCaseUpdate = 0x23AB
+            k_EMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment = 0x23AC
+            k_EMsgGCCStrike15_v2_PlayerOverwatchCaseStatus = 0x23AD
+            k_EMsgGCCStrike15_v2_GC2ClientTextMsg = 0x23AE
+            k_EMsgGCCStrike15_v2_Client2GCTextMsg = 0x23AF
+            k_EMsgGCCStrike15_v2_MatchEndRunRewardDrops = 0x23B0
+            k_EMsgGCCStrike15_v2_MatchEndRewardDropsNotification = 0x23B1
+            k_EMsgGCCStrike15_v2_ClientRequestWatchInfoFriends2 = 0x23B2
+            k_EMsgGCCStrike15_v2_MatchList = 0x23B3
+            k_EMsgGCCStrike15_v2_MatchListRequestCurrentLiveGames = 0x23B4
+            k_EMsgGCCStrike15_v2_MatchListRequestRecentUserGames = 0x23B5
+            k_EMsgGCCStrike15_v2_GC2ServerReservationUpdate = 0x23B6
+            k_EMsgGCCStrike15_v2_ClientVarValueNotificationInfo = 0x23B8
+            k_EMsgGCCStrike15_v2_MatchListRequestTournamentGames = 0x23BA
+            k_EMsgGCCStrike15_v2_MatchListRequestFullGameInfo = 0x23BB
+            k_EMsgGCCStrike15_v2_GiftsLeaderboardRequest = 0x23BC
+            k_EMsgGCCStrike15_v2_GiftsLeaderboardResponse = 0x23BD
+            k_EMsgGCCStrike15_v2_ServerVarValueNotificationInfo = 0x23BE
+            k_EMsgGCCStrike15_v2_ClientSubmitSurveyVote = 0x23C0
+            k_EMsgGCCStrike15_v2_Server2GCClientValidate = 0x23C1
+            k_EMsgGCCStrike15_v2_MatchListRequestLiveGameForUser = 0x23C2
+            k_EMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest = 0x23C4
+            k_EMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockResponse = 0x23C5
+            k_EMsgGCCStrike15_v2_AccountPrivacySettings = 0x23C6
+            k_EMsgGCCStrike15_v2_SetMyActivityInfo = 0x23C7
+            k_EMsgGCCStrike15_v2_MatchListRequestTournamentPredictions = 0x23C8
+            k_EMsgGCCStrike15_v2_MatchListUploadTournamentPredictions = 0x23C9
+            k_EMsgGCCStrike15_v2_DraftSummary = 0x23CA
+            k_EMsgGCCStrike15_v2_ClientRequestJoinFriendData = 0x23CB
+            k_EMsgGCCStrike15_v2_ClientRequestJoinServerData = 0x23CC
+            k_EMsgGCCStrike15_v2_GC2ClientTournamentInfo = 0x23CF
+            k_EMsgGC_GlobalGame_Subscribe = 0x23D0
+            k_EMsgGC_GlobalGame_Unsubscribe = 0x23D1
+            k_EMsgGC_GlobalGame_Play = 0x23D2
+            k_EMsgGCCStrike15_v2_AcknowledgePenalty = 0x23D3
+            k_EMsgGCCStrike15_v2_Client2GCRequestPrestigeCoin = 0x23D4
+            k_EMsgGCCStrike15_v2_GC2ClientGlobalStats = 0x23D5
+            k_EMsgGCCStrike15_v2_Client2GCStreamUnlock = 0x23D6
+            k_EMsgGCCStrike15_v2_FantasyRequestClientData = 0x23D7
+            k_EMsgGCCStrike15_v2_FantasyUpdateClientData = 0x23D8
+            k_EMsgGCCStrike15_v2_GCToClientSteamdatagramTicket = 0x23D9
+            k_EMsgGCCStrike15_v2_ClientToGCRequestTicket = 0x23DA
+            k_EMsgGCCStrike15_v2_ClientToGCRequestElevate = 0x23DB
+            k_EMsgGCCStrike15_v2_GlobalChat = 0x23DC
+            k_EMsgGCCStrike15_v2_GlobalChat_Subscribe = 0x23DD
+            k_EMsgGCCStrike15_v2_GlobalChat_Unsubscribe = 0x23DE
+            k_EMsgGCCStrike15_v2_ClientAuthKeyCode = 0x23DF
+            k_EMsgGCCStrike15_v2_GotvSyncPacket = 0x23E0
+            k_EMsgGCCStrike15_v2_ClientPlayerDecalSign = 0x23E1
+            k_EMsgGCCStrike15_v2_ClientLogonFatalError = 0x23E3
+            k_EMsgGCCStrike15_v2_ClientPollState = 0x23E4
+            k_EMsgGCCStrike15_v2_Party_Register = 0x23E5
+            k_EMsgGCCStrike15_v2_Party_Unregister = 0x23E6
+            k_EMsgGCCStrike15_v2_Party_Search = 0x23E7
+            k_EMsgGCCStrike15_v2_Party_Invite = 0x23E8
+            k_EMsgGCCStrike15_v2_Account_RequestCoPlays = 0x23E9
+            k_EMsgGCCStrike15_v2_ClientGCRankUpdate = 0x23EA
+            k_EMsgGCCStrike15_v2_ClientRequestOffers = 0x23EB
+            k_EMsgGCCStrike15_v2_ClientAccountBalance = 0x23EC
+            k_EMsgGCCStrike15_v2_ClientPartyJoinRelay = 0x23ED
+            k_EMsgGCCStrike15_v2_ClientPartyWarning = 0x23EE
+            k_EMsgGCCStrike15_v2_SetEventFavorite = 0x23F0
+            k_EMsgGCCStrike15_v2_GetEventFavorites_Request = 0x23F1
+            k_EMsgGCCStrike15_v2_ClientPerfReport = 0x23F2
+            k_EMsgGCCStrike15_v2_GetEventFavorites_Response = 0x23F3
+            k_EMsgGCCStrike15_v2_ClientRequestSouvenir = 0x23F4
+            k_EMsgGCCStrike15_v2_ClientRedeemMissionReward = 0x23F9
+            k_EMsgGCCStrike15_ClientDeepStats = 0x23FA
+            k_EMsgGCCStrike15_StartAgreementSessionInGame = 0x23FB
+            k_EMsgGCCStrike15_v2_PrivateQueues = 0x23FE
+            k_EMsgGCCStrike15_v2_MatchListTournamentOperatorMgmt = 0x23FF
+            k_EMsgGCCStrike15_v2_BetaEnrollment = 0x2401
+            k_EMsgGCCStrike15_v2_SetPlayerLeaderboardSafeName = 0x2402
+            k_EMsgGCCStrike15_v2_ClientRedeemFreeReward = 0x2403
+            k_EMsgGCCStrike15_v2_ClientNetworkConfig = 0x2404
+            k_EMsgGCCStrike15_v2_GC2ClientNotifyXPShop = 0x2405
+            k_EMsgGCCStrike15_v2_Client2GcAckXPShopTracks = 0x2406
+            k_EMsgGCCStrike15_v2_MatchmakingGC2ClientSearchStats = 0x2407
+            k_EMsgGCCStrike15_v2_PremierSeasonSummary = 0x2408
+            k_EMsgGCCStrike15_v2_RequestRecurringMissionSchedule = 0x2409
+            k_EMsgGCCStrike15_v2_RecurringMissionSchema = 0x240A
+            k_EMsgGCCStrike15_v2_VolatileItemClaimReward = 0x240B
+            k_EMsgGCCStrike15_v2_VolatileShopSubscribe = 0x240C
             k_EMsgGCCStrike15_v2_SetClanId = 0x240D
         }
         // Alignment: 1
         // Member count: 3
         public enum GLOBALESTATE : uint {
-            GLOBAL_OFF = 0x0,
-            GLOBAL_ON = 0x1,
+            GLOBAL_OFF = 0x0
+            GLOBAL_ON = 0x1
             GLOBAL_DEAD = 0x2
         }
         // Alignment: 1
         // Member count: 6
         public enum AnimationAlgorithm_t : uint {
-            eInvalid = 0x-1,
-            eNone = 0x0,
-            eSequence = 0x1,
-            eAnimGraph2 = 0x2,
-            eAnimGraph2Secondary = 0x3,
+            eInvalid = 0x-1
+            eNone = 0x0
+            eSequence = 0x1
+            eAnimGraph2 = 0x2
+            eAnimGraph2Secondary = 0x3
             eCount = 0x4
         }
         // Alignment: 4
         // Member count: 3
         public enum CSWeaponMode : uint {
-            Primary_Mode = 0x0,
-            Secondary_Mode = 0x1,
+            Primary_Mode = 0x0
+            Secondary_Mode = 0x1
             WeaponMode_MAX = 0x2
         }
         // Alignment: 1
         // Member count: 3
         public enum OnFrame : uint {
-            ONFRAME_UNKNOWN = 0x0,
-            ONFRAME_TRUE = 0x1,
+            ONFRAME_UNKNOWN = 0x0
+            ONFRAME_TRUE = 0x1
             ONFRAME_FALSE = 0x2
         }
         // Alignment: 4
         // Member count: 12
         public enum Materials : uint {
-            matGlass = 0x0,
-            matWood = 0x1,
-            matMetal = 0x2,
-            matFlesh = 0x3,
-            matCinderBlock = 0x4,
-            matCeilingTile = 0x5,
-            matComputer = 0x6,
-            matUnbreakableGlass = 0x7,
-            matRocks = 0x8,
-            matWeb = 0x9,
-            matNone = 0xA,
+            matGlass = 0x0
+            matWood = 0x1
+            matMetal = 0x2
+            matFlesh = 0x3
+            matCinderBlock = 0x4
+            matCeilingTile = 0x5
+            matComputer = 0x6
+            matUnbreakableGlass = 0x7
+            matRocks = 0x8
+            matWeb = 0x9
+            matNone = 0xA
             matLastMaterial = 0xB
         }
         // Alignment: 4
         // Member count: 9
         public enum BloodType : uint {
-            None = 0x-1,
-            ColorRed = 0x0,
-            ColorYellow = 0x1,
-            ColorGreen = 0x2,
-            ColorRedLVL2 = 0x3,
-            ColorRedLVL3 = 0x4,
-            ColorRedLVL4 = 0x5,
-            ColorRedLVL5 = 0x6,
+            None = 0x-1
+            ColorRed = 0x0
+            ColorYellow = 0x1
+            ColorGreen = 0x2
+            ColorRedLVL2 = 0x3
+            ColorRedLVL3 = 0x4
+            ColorRedLVL4 = 0x5
+            ColorRedLVL5 = 0x6
             ColorRedLVL6 = 0x7
         }
         // Alignment: 1
         // Member count: 5
         public enum NavScope_t : uint {
-            eGround = 0x0,
-            eAir = 0x1,
-            eCount = 0x2,
-            eFirst = 0x0,
+            eGround = 0x0
+            eAir = 0x1
+            eCount = 0x2
+            eFirst = 0x0
             eInvalid = 0xFF
         }
         // Alignment: 4
         // Member count: 4
         public enum BreakableContentsType_t : uint {
-            BC_DEFAULT = 0x0,
-            BC_EMPTY = 0x1,
-            BC_PROP_GROUP_OVERRIDE = 0x2,
+            BC_DEFAULT = 0x0
+            BC_EMPTY = 0x1
+            BC_PROP_GROUP_OVERRIDE = 0x2
             BC_PARTICLE_SYSTEM_OVERRIDE = 0x3
         }
         // Alignment: 4
         // Member count: 5
         public enum AnimLoopMode_t : uint {
-            ANIM_LOOP_MODE_INVALID = 0x-1,
-            ANIM_LOOP_MODE_NOT_LOOPING = 0x0,
-            ANIM_LOOP_MODE_LOOPING = 0x1,
-            ANIM_LOOP_MODE_USE_SEQUENCE_SETTINGS = 0x2,
+            ANIM_LOOP_MODE_INVALID = 0x-1
+            ANIM_LOOP_MODE_NOT_LOOPING = 0x0
+            ANIM_LOOP_MODE_LOOPING = 0x1
+            ANIM_LOOP_MODE_USE_SEQUENCE_SETTINGS = 0x2
             ANIM_LOOP_MODE_COUNT = 0x3
         }
         // Alignment: 4
         // Member count: 53
         public enum EBaseUserMessages : uint {
-            UM_AchievementEvent = 0x65,
-            UM_CurrentTimescale = 0x68,
-            UM_DesiredTimescale = 0x69,
-            UM_Fade = 0x6A,
-            UM_GameTitle = 0x6B,
-            UM_HudMsg = 0x6E,
-            UM_HudText = 0x6F,
-            UM_ColoredText = 0x71,
-            UM_RequestState = 0x72,
-            UM_ResetHUD = 0x73,
-            UM_Rumble = 0x74,
-            UM_SayText = 0x75,
-            UM_SayText2 = 0x76,
-            UM_SayTextChannel = 0x77,
-            UM_Shake = 0x78,
-            UM_ShakeDir = 0x79,
-            UM_WaterShake = 0x7A,
-            UM_TextMsg = 0x7C,
-            UM_ScreenTilt = 0x7D,
-            UM_VoiceMask = 0x80,
-            UM_SendAudio = 0x82,
-            UM_ItemPickup = 0x83,
-            UM_AmmoDenied = 0x84,
-            UM_ShowMenu = 0x86,
-            UM_CreditsMsg = 0x87,
-            UM_CloseCaptionPlaceholder = 0x8E,
-            UM_CameraTransition = 0x8F,
-            UM_AudioParameter = 0x90,
-            UM_ParticleManager = 0x91,
-            UM_HudError = 0x92,
-            UM_CustomGameEvent = 0x94,
-            UM_AnimGraphUpdate = 0x95,
-            UM_HapticsManagerPulse = 0x96,
-            UM_HapticsManagerEffect = 0x97,
-            UM_UpdateCssClasses = 0x99,
-            UM_ServerFrameTime = 0x9A,
-            UM_LagCompensationError = 0x9B,
-            UM_RequestDllStatus = 0x9C,
-            UM_RequestUtilAction = 0x9D,
-            UM_UtilActionResponse = 0x9E,
-            UM_DllStatusResponse = 0x9F,
-            UM_RequestInventory = 0xA0,
-            UM_InventoryResponse = 0xA1,
-            UM_RequestDiagnostic = 0xA2,
-            UM_DiagnosticResponse = 0xA3,
-            UM_ExtraUserData = 0xA4,
-            UM_NotifyResponseFound = 0xA5,
-            UM_PlayResponseConditional = 0xA6,
-            UM_UserSentBugBug = 0xA7,
-            UM_UsageReport = 0xA8,
-            UM_RemoteServerCommand = 0xA9,
-            UM_RemoteServerResponse = 0xAA,
+            UM_AchievementEvent = 0x65
+            UM_CurrentTimescale = 0x68
+            UM_DesiredTimescale = 0x69
+            UM_Fade = 0x6A
+            UM_GameTitle = 0x6B
+            UM_HudMsg = 0x6E
+            UM_HudText = 0x6F
+            UM_ColoredText = 0x71
+            UM_RequestState = 0x72
+            UM_ResetHUD = 0x73
+            UM_Rumble = 0x74
+            UM_SayText = 0x75
+            UM_SayText2 = 0x76
+            UM_SayTextChannel = 0x77
+            UM_Shake = 0x78
+            UM_ShakeDir = 0x79
+            UM_WaterShake = 0x7A
+            UM_TextMsg = 0x7C
+            UM_ScreenTilt = 0x7D
+            UM_VoiceMask = 0x80
+            UM_SendAudio = 0x82
+            UM_ItemPickup = 0x83
+            UM_AmmoDenied = 0x84
+            UM_ShowMenu = 0x86
+            UM_CreditsMsg = 0x87
+            UM_CloseCaptionPlaceholder = 0x8E
+            UM_CameraTransition = 0x8F
+            UM_AudioParameter = 0x90
+            UM_ParticleManager = 0x91
+            UM_HudError = 0x92
+            UM_CustomGameEvent = 0x94
+            UM_AnimGraphUpdate = 0x95
+            UM_HapticsManagerPulse = 0x96
+            UM_HapticsManagerEffect = 0x97
+            UM_UpdateCssClasses = 0x99
+            UM_ServerFrameTime = 0x9A
+            UM_LagCompensationError = 0x9B
+            UM_RequestDllStatus = 0x9C
+            UM_RequestUtilAction = 0x9D
+            UM_UtilActionResponse = 0x9E
+            UM_DllStatusResponse = 0x9F
+            UM_RequestInventory = 0xA0
+            UM_InventoryResponse = 0xA1
+            UM_RequestDiagnostic = 0xA2
+            UM_DiagnosticResponse = 0xA3
+            UM_ExtraUserData = 0xA4
+            UM_NotifyResponseFound = 0xA5
+            UM_PlayResponseConditional = 0xA6
+            UM_UserSentBugBug = 0xA7
+            UM_UsageReport = 0xA8
+            UM_RemoteServerCommand = 0xA9
+            UM_RemoteServerResponse = 0xAA
             UM_MAX_BASE = 0xC8
         }
         // Alignment: 4
         // Member count: 14
         public enum Class_T : uint {
-            CLASS_NONE = 0x0,
-            CLASS_PLAYER = 0x1,
-            CLASS_PLAYER_ALLY = 0x2,
-            CLASS_C4_FOR_RADAR = 0x3,
-            CLASS_FOOT_CONTACT_SHADOW = 0x4,
-            CLASS_WEAPON = 0x5,
-            CLASS_WATER_SPLASHER = 0x6,
-            CLASS_HUDMODEL_WEAPON = 0x7,
-            CLASS_HUDMODEL_ARMS = 0x8,
-            CLASS_HUDMODEL_ADDON = 0x9,
-            CLASS_WORLDMODEL_GLOVES = 0xA,
-            CLASS_DOOR = 0xB,
-            CLASS_PLANTED_C4 = 0xC,
+            CLASS_NONE = 0x0
+            CLASS_PLAYER = 0x1
+            CLASS_PLAYER_ALLY = 0x2
+            CLASS_C4_FOR_RADAR = 0x3
+            CLASS_FOOT_CONTACT_SHADOW = 0x4
+            CLASS_WEAPON = 0x5
+            CLASS_WATER_SPLASHER = 0x6
+            CLASS_HUDMODEL_WEAPON = 0x7
+            CLASS_HUDMODEL_ARMS = 0x8
+            CLASS_HUDMODEL_ADDON = 0x9
+            CLASS_WORLDMODEL_GLOVES = 0xA
+            CLASS_DOOR = 0xB
+            CLASS_PLANTED_C4 = 0xC
             NUM_CLASSIFY_CLASSES = 0xD
         }
         // Alignment: 4
         // Member count: 2
         public enum filter_t : uint {
-            FILTER_AND = 0x0,
+            FILTER_AND = 0x0
             FILTER_OR = 0x1
         }
         // Alignment: 4
         // Member count: 3
         public enum CSWeaponSilencerType : uint {
-            WEAPONSILENCER_NONE = 0x0,
-            WEAPONSILENCER_DETACHABLE = 0x1,
+            WEAPONSILENCER_NONE = 0x0
+            WEAPONSILENCER_DETACHABLE = 0x1
             WEAPONSILENCER_INTEGRATED = 0x2
         }
         // Alignment: 4
         // Member count: 2
         public enum EProceduralRagdollWeightIndexPropagationMethod : uint {
-            Bone = 0x0,
+            Bone = 0x0
             BoneAndChildren = 0x1
         }
         // Alignment: 4
         // Member count: 48
         public enum GameAnimEventIndex_t : uint {
-            AE_EMPTY = 0x0,
-            AE_CL_PLAYSOUND = 0x1,
-            AE_CL_PLAYSOUND_ATTACHMENT = 0x2,
-            AE_CL_PLAYSOUND_POSITION = 0x3,
-            AE_SV_PLAYSOUND = 0x4,
-            AE_CL_STOPSOUND = 0x5,
-            AE_CL_PLAYSOUND_LOOPING = 0x6,
-            AE_CL_CREATE_PARTICLE_EFFECT = 0x7,
-            AE_CL_STOP_PARTICLE_EFFECT = 0x8,
-            AE_CL_CREATE_PARTICLE_EFFECT_CFG = 0x9,
-            AE_SV_CREATE_PARTICLE_EFFECT_CFG = 0xA,
-            AE_SV_STOP_PARTICLE_EFFECT = 0xB,
-            AE_FOOTSTEP = 0xC,
-            AE_CL_STOP_RAGDOLL_CONTROL = 0xD,
-            AE_BODYGROUP_SET_VALUE = 0xE,
-            AE_WEAPON_PERFORM_ATTACK = 0xF,
-            AE_FIRE_INPUT = 0x10,
-            AE_CL_CLOTH_ATTR = 0x11,
-            AE_CL_CLOTH_GROUND_OFFSET = 0x12,
-            AE_CL_CLOTH_STIFFEN = 0x13,
-            AE_CL_CLOTH_EFFECT = 0x14,
-            AE_CL_CREATE_ANIM_SCOPE_PROP = 0x15,
-            AE_SV_IKLOCK = 0x16,
-            AE_PULSE_GRAPH = 0x17,
-            AE_DISABLE_PLATFORM = 0x18,
-            AE_ENABLE_PLATFORM_PLAYER_FOLLOWS_YAW = 0x19,
-            AE_ENABLE_PLATFORM_PLAYER_IGNORES_YAW = 0x1A,
-            AE_DESTRUCTIBLE_PART_DESTROY = 0x1B,
-            AE_VEHICLE_ENTER_FINISHED = 0x1C,
-            AE_VEHICLE_EXIT_FINISHED = 0x1D,
-            AE_SCRIPT_FIRE_EVENT_01 = 0x1E,
-            AE_SCRIPT_FIRE_EVENT_02 = 0x1F,
-            AE_SCRIPT_FIRE_EVENT_03 = 0x20,
-            AE_SCRIPT_FIRE_EVENT_04 = 0x21,
-            AE_SCRIPT_FIRE_EVENT_05 = 0x22,
-            AE_SCRIPT_FIRE_EVENT_06 = 0x23,
-            AE_SCRIPT_FIRE_EVENT_07 = 0x24,
-            AE_SCRIPT_FIRE_EVENT_08 = 0x25,
-            AE_SCRIPT_FIRE_EVENT_09 = 0x26,
-            AE_SCRIPT_FIRE_EVENT_10 = 0x27,
-            AE_CL_WEAPON_TRANSITION_INTO_HAND = 0x28,
-            AE_SV_ATTACH_SILENCER_COMPLETE = 0x29,
-            AE_SV_DETACH_SILENCER_COMPLETE = 0x2A,
-            AE_CL_EJECT_MAG = 0x2B,
-            AE_WPN_COMPLETE_RELOAD = 0x2C,
-            AE_WPN_HEALTHSHOT_INJECT = 0x2D,
-            AE_GRENADE_THROW_COMPLETE = 0x2E,
+            AE_EMPTY = 0x0
+            AE_CL_PLAYSOUND = 0x1
+            AE_CL_PLAYSOUND_ATTACHMENT = 0x2
+            AE_CL_PLAYSOUND_POSITION = 0x3
+            AE_SV_PLAYSOUND = 0x4
+            AE_CL_STOPSOUND = 0x5
+            AE_CL_PLAYSOUND_LOOPING = 0x6
+            AE_CL_CREATE_PARTICLE_EFFECT = 0x7
+            AE_CL_STOP_PARTICLE_EFFECT = 0x8
+            AE_CL_CREATE_PARTICLE_EFFECT_CFG = 0x9
+            AE_SV_CREATE_PARTICLE_EFFECT_CFG = 0xA
+            AE_SV_STOP_PARTICLE_EFFECT = 0xB
+            AE_FOOTSTEP = 0xC
+            AE_CL_STOP_RAGDOLL_CONTROL = 0xD
+            AE_BODYGROUP_SET_VALUE = 0xE
+            AE_WEAPON_PERFORM_ATTACK = 0xF
+            AE_FIRE_INPUT = 0x10
+            AE_CL_CLOTH_ATTR = 0x11
+            AE_CL_CLOTH_GROUND_OFFSET = 0x12
+            AE_CL_CLOTH_STIFFEN = 0x13
+            AE_CL_CLOTH_EFFECT = 0x14
+            AE_CL_CREATE_ANIM_SCOPE_PROP = 0x15
+            AE_SV_IKLOCK = 0x16
+            AE_PULSE_GRAPH = 0x17
+            AE_DISABLE_PLATFORM = 0x18
+            AE_ENABLE_PLATFORM_PLAYER_FOLLOWS_YAW = 0x19
+            AE_ENABLE_PLATFORM_PLAYER_IGNORES_YAW = 0x1A
+            AE_DESTRUCTIBLE_PART_DESTROY = 0x1B
+            AE_VEHICLE_ENTER_FINISHED = 0x1C
+            AE_VEHICLE_EXIT_FINISHED = 0x1D
+            AE_SCRIPT_FIRE_EVENT_01 = 0x1E
+            AE_SCRIPT_FIRE_EVENT_02 = 0x1F
+            AE_SCRIPT_FIRE_EVENT_03 = 0x20
+            AE_SCRIPT_FIRE_EVENT_04 = 0x21
+            AE_SCRIPT_FIRE_EVENT_05 = 0x22
+            AE_SCRIPT_FIRE_EVENT_06 = 0x23
+            AE_SCRIPT_FIRE_EVENT_07 = 0x24
+            AE_SCRIPT_FIRE_EVENT_08 = 0x25
+            AE_SCRIPT_FIRE_EVENT_09 = 0x26
+            AE_SCRIPT_FIRE_EVENT_10 = 0x27
+            AE_CL_WEAPON_TRANSITION_INTO_HAND = 0x28
+            AE_SV_ATTACH_SILENCER_COMPLETE = 0x29
+            AE_SV_DETACH_SILENCER_COMPLETE = 0x2A
+            AE_CL_EJECT_MAG = 0x2B
+            AE_WPN_COMPLETE_RELOAD = 0x2C
+            AE_WPN_HEALTHSHOT_INJECT = 0x2D
+            AE_GRENADE_THROW_COMPLETE = 0x2E
             AE_COUNT = 0x2F
         }
         // Alignment: 4
         // Member count: 8
         public enum EGCToGCMsg : uint {
-            k_EGCToGCMsgMasterAck = 0x96,
-            k_EGCToGCMsgMasterAckResponse = 0x97,
-            k_EGCToGCMsgRouted = 0x98,
-            k_EGCToGCMsgRoutedReply = 0x99,
-            k_EMsgUpdateSessionIP = 0x9A,
-            k_EMsgRequestSessionIP = 0x9B,
-            k_EMsgRequestSessionIPResponse = 0x9C,
+            k_EGCToGCMsgMasterAck = 0x96
+            k_EGCToGCMsgMasterAckResponse = 0x97
+            k_EGCToGCMsgRouted = 0x98
+            k_EGCToGCMsgRoutedReply = 0x99
+            k_EMsgUpdateSessionIP = 0x9A
+            k_EMsgRequestSessionIP = 0x9B
+            k_EMsgRequestSessionIPResponse = 0x9C
             k_EGCToGCMsgMasterStartupComplete = 0x9D
         }
         // Alignment: 4
         // Member count: 4
         public enum EQueryCvarValueStatus : uint {
-            eQueryCvarValueStatus_ValueIntact = 0x0,
-            eQueryCvarValueStatus_CvarNotFound = 0x1,
-            eQueryCvarValueStatus_NotACvar = 0x2,
+            eQueryCvarValueStatus_ValueIntact = 0x0
+            eQueryCvarValueStatus_CvarNotFound = 0x1
+            eQueryCvarValueStatus_NotACvar = 0x2
             eQueryCvarValueStatus_CvarProtected = 0x3
         }
         // Alignment: 4
         // Member count: 2
         public enum GC_BannedWordType : uint {
-            GC_BANNED_WORD_DISABLE_WORD = 0x0,
+            GC_BANNED_WORD_DISABLE_WORD = 0x0
             GC_BANNED_WORD_ENABLE_WORD = 0x1
         }
         // Alignment: 4
         // Member count: 18
         public enum ESource2PlayStatsFieldType : uint {
-            Source2PlayStats_Invalid = 0x0,
-            Source2PlayStats_UInt64 = 0x1,
-            Source2PlayStats_UInt32 = 0x2,
-            Source2PlayStats_UInt16 = 0x3,
-            Source2PlayStats_UInt8 = 0x4,
-            Source2PlayStats_Int64 = 0x5,
-            Source2PlayStats_Int32 = 0x6,
-            Source2PlayStats_Int16 = 0x7,
-            Source2PlayStats_Int8 = 0x8,
-            Source2PlayStats_Float64 = 0x9,
-            Source2PlayStats_Float32 = 0xA,
-            Source2PlayStats_Bool = 0xB,
-            Source2PlayStats_String = 0xC,
-            Source2PlayStats_LowCardinalityString = 0xD,
-            Source2PlayStats_UTCDateTime = 0xE,
-            Source2PlayStats_SteamIDTrustBucket = 0xF,
-            Source2PlayStats_SteamIDTrustBucketMin = 0x10,
+            Source2PlayStats_Invalid = 0x0
+            Source2PlayStats_UInt64 = 0x1
+            Source2PlayStats_UInt32 = 0x2
+            Source2PlayStats_UInt16 = 0x3
+            Source2PlayStats_UInt8 = 0x4
+            Source2PlayStats_Int64 = 0x5
+            Source2PlayStats_Int32 = 0x6
+            Source2PlayStats_Int16 = 0x7
+            Source2PlayStats_Int8 = 0x8
+            Source2PlayStats_Float64 = 0x9
+            Source2PlayStats_Float32 = 0xA
+            Source2PlayStats_Bool = 0xB
+            Source2PlayStats_String = 0xC
+            Source2PlayStats_LowCardinalityString = 0xD
+            Source2PlayStats_UTCDateTime = 0xE
+            Source2PlayStats_SteamIDTrustBucket = 0xF
+            Source2PlayStats_SteamIDTrustBucketMin = 0x10
             Source2PlayStats_SteamID = 0x11
         }
         // Alignment: 1
         // Member count: 3
         public enum FixAngleSet_t : uint {
-            None = 0x0,
-            Absolute = 0x1,
+            None = 0x0
+            Absolute = 0x1
             Relative = 0x2
         }
         // Alignment: 4
         // Member count: 5
         public enum IChoreoServices::ScriptState_t : uint {
-            SCRIPT_PLAYING = 0x0,
-            SCRIPT_WAIT = 0x1,
-            SCRIPT_POST_IDLE = 0x2,
-            SCRIPT_CLEANUP = 0x3,
+            SCRIPT_PLAYING = 0x0
+            SCRIPT_WAIT = 0x1
+            SCRIPT_POST_IDLE = 0x2
+            SCRIPT_CLEANUP = 0x3
             SCRIPT_MOVE_TO_MARK = 0x4
         }
         // Alignment: 4
         // Member count: 5
         public enum Touch_t : uint {
-            touch_none = 0x0,
-            touch_player_only = 0x1,
-            touch_npc_only = 0x2,
-            touch_player_or_npc = 0x3,
+            touch_none = 0x0
+            touch_player_only = 0x1
+            touch_npc_only = 0x2
+            touch_player_or_npc = 0x3
             touch_player_or_npc_or_physicsprop = 0x4
         }
         // Alignment: 1
         // Member count: 4
         public enum CCSPlayerAnimationState::MoveType_t : uint {
-            None = 0x0,
-            Ground = 0x1,
-            Air = 0x2,
+            None = 0x0
+            Ground = 0x1
+            Air = 0x2
             Ladder = 0x3
         }
         // Alignment: 4
         // Member count: 3
         public enum TrainVelocityType_t : uint {
-            TrainVelocity_Instantaneous = 0x0,
-            TrainVelocity_LinearBlend = 0x1,
+            TrainVelocity_Instantaneous = 0x0
+            TrainVelocity_LinearBlend = 0x1
             TrainVelocity_EaseInEaseOut = 0x2
         }
         // Alignment: 4
         // Member count: 8
         public enum SignonState_t : uint {
-            SIGNONSTATE_NONE = 0x0,
-            SIGNONSTATE_CHALLENGE = 0x1,
-            SIGNONSTATE_CONNECTED = 0x2,
-            SIGNONSTATE_NEW = 0x3,
-            SIGNONSTATE_PRESPAWN = 0x4,
-            SIGNONSTATE_SPAWN = 0x5,
-            SIGNONSTATE_FULL = 0x6,
+            SIGNONSTATE_NONE = 0x0
+            SIGNONSTATE_CHALLENGE = 0x1
+            SIGNONSTATE_CONNECTED = 0x2
+            SIGNONSTATE_NEW = 0x3
+            SIGNONSTATE_PRESPAWN = 0x4
+            SIGNONSTATE_SPAWN = 0x5
+            SIGNONSTATE_FULL = 0x6
             SIGNONSTATE_CHANGELEVEL = 0x7
         }
         // Alignment: 4
         // Member count: 13
         public enum CSWeaponType : uint {
-            WEAPONTYPE_KNIFE = 0x0,
-            WEAPONTYPE_PISTOL = 0x1,
-            WEAPONTYPE_SUBMACHINEGUN = 0x2,
-            WEAPONTYPE_RIFLE = 0x3,
-            WEAPONTYPE_SHOTGUN = 0x4,
-            WEAPONTYPE_SNIPER_RIFLE = 0x5,
-            WEAPONTYPE_MACHINEGUN = 0x6,
-            WEAPONTYPE_C4 = 0x7,
-            WEAPONTYPE_TASER = 0x8,
-            WEAPONTYPE_GRENADE = 0x9,
-            WEAPONTYPE_EQUIPMENT = 0xA,
-            WEAPONTYPE_STACKABLEITEM = 0xB,
+            WEAPONTYPE_KNIFE = 0x0
+            WEAPONTYPE_PISTOL = 0x1
+            WEAPONTYPE_SUBMACHINEGUN = 0x2
+            WEAPONTYPE_RIFLE = 0x3
+            WEAPONTYPE_SHOTGUN = 0x4
+            WEAPONTYPE_SNIPER_RIFLE = 0x5
+            WEAPONTYPE_MACHINEGUN = 0x6
+            WEAPONTYPE_C4 = 0x7
+            WEAPONTYPE_TASER = 0x8
+            WEAPONTYPE_GRENADE = 0x9
+            WEAPONTYPE_EQUIPMENT = 0xA
+            WEAPONTYPE_STACKABLEITEM = 0xB
             WEAPONTYPE_UNKNOWN = 0xC
         }
         // Alignment: 1
         // Member count: 4
         public enum NavScopeFlags_t : uint {
-            eGround = 0x1,
-            eAir = 0x2,
-            eAll = 0x3,
+            eGround = 0x1
+            eAir = 0x2
+            eAll = 0x3
             eNone = 0x0
         }
         // Alignment: 4
         // Member count: 3
         public enum EntFinderMethod_t : uint {
-            ENT_FIND_METHOD_NEAREST = 0x0,
-            ENT_FIND_METHOD_FARTHEST = 0x1,
+            ENT_FIND_METHOD_NEAREST = 0x0
+            ENT_FIND_METHOD_FARTHEST = 0x1
             ENT_FIND_METHOD_RANDOM = 0x2
         }
         // Alignment: 4
         // Member count: 3
         public enum TestInputOutputCombinationsEnum_t : uint {
-            ZERO = 0x0,
-            ONE = 0x1,
+            ZERO = 0x0
+            ONE = 0x1
             TWO = 0x2
         }
         // Alignment: 4
         // Member count: 10
         public enum FuncMoverMovementSummaryFlags_t : uint {
-            eNone = 0x0,
-            eMovementBegin = 0x1,
-            eStopBegin = 0x2,
-            eStopComplete = 0x4,
-            eReversing = 0x8,
-            eEventsDispatched = 0x10,
-            eLoopToStart = 0x20,
-            eLoopToEnd = 0x40,
-            eTransitionComplete = 0x80,
+            eNone = 0x0
+            eMovementBegin = 0x1
+            eStopBegin = 0x2
+            eStopComplete = 0x4
+            eReversing = 0x8
+            eEventsDispatched = 0x10
+            eLoopToStart = 0x20
+            eLoopToEnd = 0x40
+            eTransitionComplete = 0x80
             eStoppedDuringTransition = 0x100
         }
         // Alignment: 4
         // Member count: 11
         public enum EGCBaseClientMsg : uint {
-            k_EMsgGCClientWelcome = 0xFA4,
-            k_EMsgGCServerWelcome = 0xFA5,
-            k_EMsgGCClientHello = 0xFA6,
-            k_EMsgGCServerHello = 0xFA7,
-            k_EMsgGCClientConnectionStatus = 0xFA9,
-            k_EMsgGCServerConnectionStatus = 0xFAA,
-            k_EMsgGCClientHelloPartner = 0xFAB,
-            k_EMsgGCClientHelloPW = 0xFAC,
-            k_EMsgGCClientHelloR2 = 0xFAD,
-            k_EMsgGCClientHelloR3 = 0xFAE,
+            k_EMsgGCClientWelcome = 0xFA4
+            k_EMsgGCServerWelcome = 0xFA5
+            k_EMsgGCClientHello = 0xFA6
+            k_EMsgGCServerHello = 0xFA7
+            k_EMsgGCClientConnectionStatus = 0xFA9
+            k_EMsgGCServerConnectionStatus = 0xFAA
+            k_EMsgGCClientHelloPartner = 0xFAB
+            k_EMsgGCClientHelloPW = 0xFAC
+            k_EMsgGCClientHelloR2 = 0xFAD
+            k_EMsgGCClientHelloR3 = 0xFAE
             k_EMsgGCClientHelloR4 = 0xFAF
         }
         // Alignment: 4
         // Member count: 4
         public enum PropDoorRotatingSpawnPos_t : uint {
-            DOOR_SPAWN_CLOSED = 0x0,
-            DOOR_SPAWN_OPEN_FORWARD = 0x1,
-            DOOR_SPAWN_OPEN_BACK = 0x2,
+            DOOR_SPAWN_CLOSED = 0x0
+            DOOR_SPAWN_OPEN_FORWARD = 0x1
+            DOOR_SPAWN_OPEN_BACK = 0x2
             DOOR_SPAWN_AJAR = 0x3
         }
         // Alignment: 1
         // Member count: 2
         public enum ShardSolid_t : uint {
-            SHARD_SOLID = 0x0,
+            SHARD_SOLID = 0x0
             SHARD_DEBRIS = 0x1
         }
         // Alignment: 4
         // Member count: 2
         public enum ESplitScreenMessageType : uint {
-            MSG_SPLITSCREEN_ADDUSER = 0x0,
+            MSG_SPLITSCREEN_ADDUSER = 0x0
             MSG_SPLITSCREEN_REMOVEUSER = 0x1
         }
         // Alignment: 1
         // Member count: 3
         public enum EntityPlatformTypes_t : uint {
-            ENTITY_NOT_PLATFORM = 0x0,
-            ENTITY_PLATFORM_PLAYER_FOLLOWS_YAW = 0x1,
+            ENTITY_NOT_PLATFORM = 0x0
+            ENTITY_PLATFORM_PLAYER_FOLLOWS_YAW = 0x1
             ENTITY_PLATFORM_PLAYER_IGNORES_YAW = 0x2
         }
         // Alignment: 4
         // Member count: 5
         public enum PulseNPCCondition_t : uint {
-            COND_SEE_PLAYER = 0x1,
-            COND_LOST_PLAYER = 0x2,
-            COND_HEAR_PLAYER = 0x3,
-            COND_PLAYER_PUSHING = 0x4,
+            COND_SEE_PLAYER = 0x1
+            COND_LOST_PLAYER = 0x2
+            COND_HEAR_PLAYER = 0x3
+            COND_PLAYER_PUSHING = 0x4
             COND_NO_PRIMARY_AMMO = 0x5
         }
         // Alignment: 1
         // Member count: 4
         public enum RenderMode_t : uint {
-            kRenderNormal = 0x0,
-            kRenderTransAlpha = 0x1,
-            kRenderNone = 0x2,
+            kRenderNormal = 0x0
+            kRenderTransAlpha = 0x1
+            kRenderNone = 0x2
             kRenderModeCount = 0x3
         }
         // Alignment: 4
         // Member count: 99
         public enum EGCSystemMsg : uint {
-            k_EGCMsgInvalid = 0x0,
-            k_EGCMsgMulti = 0x1,
-            k_EGCMsgGenericReply = 0xA,
-            k_EGCMsgSystemBase = 0x32,
-            k_EGCMsgAchievementAwarded = 0x33,
-            k_EGCMsgConCommand = 0x34,
-            k_EGCMsgStartPlaying = 0x35,
-            k_EGCMsgStopPlaying = 0x36,
-            k_EGCMsgStartGameserver = 0x37,
-            k_EGCMsgStopGameserver = 0x38,
-            k_EGCMsgWGRequest = 0x39,
-            k_EGCMsgWGResponse = 0x3A,
-            k_EGCMsgGetUserGameStatsSchema = 0x3B,
-            k_EGCMsgGetUserGameStatsSchemaResponse = 0x3C,
-            k_EGCMsgGetUserStatsDEPRECATED = 0x3D,
-            k_EGCMsgGetUserStatsResponse = 0x3E,
-            k_EGCMsgAppInfoUpdated = 0x3F,
-            k_EGCMsgValidateSession = 0x40,
-            k_EGCMsgValidateSessionResponse = 0x41,
-            k_EGCMsgLookupAccountFromInput = 0x42,
-            k_EGCMsgSendHTTPRequest = 0x43,
-            k_EGCMsgSendHTTPRequestResponse = 0x44,
-            k_EGCMsgPreTestSetup_DEPRECATED = 0x45,
-            k_EGCMsgRecordSupportAction = 0x46,
-            k_EGCMsgGetAccountDetails_DEPRECATED = 0x47,
-            k_EGCMsgReceiveInterAppMessage = 0x49,
-            k_EGCMsgFindAccounts = 0x4A,
-            k_EGCMsgPostAlert = 0x4B,
-            k_EGCMsgGetLicenses = 0x4C,
-            k_EGCMsgGetUserStats = 0x4D,
-            k_EGCMsgGetCommands = 0x4E,
-            k_EGCMsgGetCommandsResponse = 0x4F,
-            k_EGCMsgAddFreeLicense = 0x50,
-            k_EGCMsgAddFreeLicenseResponse = 0x51,
-            k_EGCMsgGetIPLocation = 0x52,
-            k_EGCMsgGetIPLocationResponse = 0x53,
-            k_EGCMsgSystemStatsSchema = 0x54,
-            k_EGCMsgGetSystemStats = 0x55,
-            k_EGCMsgGetSystemStatsResponse = 0x56,
-            k_EGCMsgSendEmail = 0x57,
-            k_EGCMsgSendEmailResponse = 0x58,
-            k_EGCMsgGetEmailTemplate = 0x59,
-            k_EGCMsgGetEmailTemplateResponse = 0x5A,
-            k_EGCMsgGrantGuestPass = 0x5B,
-            k_EGCMsgGrantGuestPassResponse = 0x5C,
-            k_EGCMsgGetAccountDetails = 0x5D,
-            k_EGCMsgGetAccountDetailsResponse = 0x5E,
-            k_EGCMsgGetPersonaNames = 0x5F,
-            k_EGCMsgGetPersonaNamesResponse = 0x60,
-            k_EGCMsgMultiplexMsg = 0x61,
-            k_EGCMsgMultiplexMsgResponse = 0x62,
-            k_EGCMsgWebAPIRegisterInterfaces = 0x65,
-            k_EGCMsgWebAPIJobRequest = 0x66,
-            k_EGCMsgWebAPIJobRequestHttpResponse = 0x68,
-            k_EGCMsgWebAPIJobRequestForwardResponse = 0x69,
-            k_EGCMsgMemCachedGet = 0xC8,
-            k_EGCMsgMemCachedGetResponse = 0xC9,
-            k_EGCMsgMemCachedSet = 0xCA,
-            k_EGCMsgMemCachedDelete = 0xCB,
-            k_EGCMsgMemCachedStats = 0xCC,
-            k_EGCMsgMemCachedStatsResponse = 0xCD,
-            k_EGCMsgMasterSetDirectory = 0xDC,
-            k_EGCMsgMasterSetDirectoryResponse = 0xDD,
-            k_EGCMsgMasterSetWebAPIRouting = 0xDE,
-            k_EGCMsgMasterSetWebAPIRoutingResponse = 0xDF,
-            k_EGCMsgMasterSetClientMsgRouting = 0xE0,
-            k_EGCMsgMasterSetClientMsgRoutingResponse = 0xE1,
-            k_EGCMsgSetOptions = 0xE2,
-            k_EGCMsgSetOptionsResponse = 0xE3,
-            k_EGCMsgSystemBase2 = 0x1F4,
-            k_EGCMsgGetPurchaseTrustStatus = 0x1F5,
-            k_EGCMsgGetPurchaseTrustStatusResponse = 0x1F6,
-            k_EGCMsgUpdateSession = 0x1F7,
-            k_EGCMsgGCAccountVacStatusChange = 0x1F8,
-            k_EGCMsgCheckFriendship = 0x1F9,
-            k_EGCMsgCheckFriendshipResponse = 0x1FA,
-            k_EGCMsgGetPartnerAccountLink = 0x1FB,
-            k_EGCMsgGetPartnerAccountLinkResponse = 0x1FC,
-            k_EGCMsgDPPartnerMicroTxns = 0x200,
-            k_EGCMsgDPPartnerMicroTxnsResponse = 0x201,
-            k_EGCMsgVacVerificationChange = 0x206,
-            k_EGCMsgAccountPhoneNumberChange = 0x207,
-            k_EGCMsgInviteUserToLobby = 0x20B,
-            k_EGCMsgGetGamePersonalDataCategoriesRequest = 0x20C,
-            k_EGCMsgGetGamePersonalDataCategoriesResponse = 0x20D,
-            k_EGCMsgGetGamePersonalDataEntriesRequest = 0x20E,
-            k_EGCMsgGetGamePersonalDataEntriesResponse = 0x20F,
-            k_EGCMsgTerminateGamePersonalDataEntriesRequest = 0x210,
-            k_EGCMsgTerminateGamePersonalDataEntriesResponse = 0x211,
-            k_EGCMsgRecurringSubscriptionStatusChange = 0x212,
-            k_EGCMsgDirectServiceMethod = 0x213,
-            k_EGCMsgDirectServiceMethodResponse = 0x214,
-            k_EGCMsgAppCheersReceived = 0x215,
-            k_EGCMsgAppCheersGetAllowedTypes = 0x216,
-            k_EGCMsgAppCheersGetAllowedTypesResponse = 0x217,
-            k_EGCMsgReportMetrics = 0x218,
-            k_EGCMsgReportMetricsResponse = 0x219,
-            k_EGCMsgGetClanDetails = 0x21A,
+            k_EGCMsgInvalid = 0x0
+            k_EGCMsgMulti = 0x1
+            k_EGCMsgGenericReply = 0xA
+            k_EGCMsgSystemBase = 0x32
+            k_EGCMsgAchievementAwarded = 0x33
+            k_EGCMsgConCommand = 0x34
+            k_EGCMsgStartPlaying = 0x35
+            k_EGCMsgStopPlaying = 0x36
+            k_EGCMsgStartGameserver = 0x37
+            k_EGCMsgStopGameserver = 0x38
+            k_EGCMsgWGRequest = 0x39
+            k_EGCMsgWGResponse = 0x3A
+            k_EGCMsgGetUserGameStatsSchema = 0x3B
+            k_EGCMsgGetUserGameStatsSchemaResponse = 0x3C
+            k_EGCMsgGetUserStatsDEPRECATED = 0x3D
+            k_EGCMsgGetUserStatsResponse = 0x3E
+            k_EGCMsgAppInfoUpdated = 0x3F
+            k_EGCMsgValidateSession = 0x40
+            k_EGCMsgValidateSessionResponse = 0x41
+            k_EGCMsgLookupAccountFromInput = 0x42
+            k_EGCMsgSendHTTPRequest = 0x43
+            k_EGCMsgSendHTTPRequestResponse = 0x44
+            k_EGCMsgPreTestSetup_DEPRECATED = 0x45
+            k_EGCMsgRecordSupportAction = 0x46
+            k_EGCMsgGetAccountDetails_DEPRECATED = 0x47
+            k_EGCMsgReceiveInterAppMessage = 0x49
+            k_EGCMsgFindAccounts = 0x4A
+            k_EGCMsgPostAlert = 0x4B
+            k_EGCMsgGetLicenses = 0x4C
+            k_EGCMsgGetUserStats = 0x4D
+            k_EGCMsgGetCommands = 0x4E
+            k_EGCMsgGetCommandsResponse = 0x4F
+            k_EGCMsgAddFreeLicense = 0x50
+            k_EGCMsgAddFreeLicenseResponse = 0x51
+            k_EGCMsgGetIPLocation = 0x52
+            k_EGCMsgGetIPLocationResponse = 0x53
+            k_EGCMsgSystemStatsSchema = 0x54
+            k_EGCMsgGetSystemStats = 0x55
+            k_EGCMsgGetSystemStatsResponse = 0x56
+            k_EGCMsgSendEmail = 0x57
+            k_EGCMsgSendEmailResponse = 0x58
+            k_EGCMsgGetEmailTemplate = 0x59
+            k_EGCMsgGetEmailTemplateResponse = 0x5A
+            k_EGCMsgGrantGuestPass = 0x5B
+            k_EGCMsgGrantGuestPassResponse = 0x5C
+            k_EGCMsgGetAccountDetails = 0x5D
+            k_EGCMsgGetAccountDetailsResponse = 0x5E
+            k_EGCMsgGetPersonaNames = 0x5F
+            k_EGCMsgGetPersonaNamesResponse = 0x60
+            k_EGCMsgMultiplexMsg = 0x61
+            k_EGCMsgMultiplexMsgResponse = 0x62
+            k_EGCMsgWebAPIRegisterInterfaces = 0x65
+            k_EGCMsgWebAPIJobRequest = 0x66
+            k_EGCMsgWebAPIJobRequestHttpResponse = 0x68
+            k_EGCMsgWebAPIJobRequestForwardResponse = 0x69
+            k_EGCMsgMemCachedGet = 0xC8
+            k_EGCMsgMemCachedGetResponse = 0xC9
+            k_EGCMsgMemCachedSet = 0xCA
+            k_EGCMsgMemCachedDelete = 0xCB
+            k_EGCMsgMemCachedStats = 0xCC
+            k_EGCMsgMemCachedStatsResponse = 0xCD
+            k_EGCMsgMasterSetDirectory = 0xDC
+            k_EGCMsgMasterSetDirectoryResponse = 0xDD
+            k_EGCMsgMasterSetWebAPIRouting = 0xDE
+            k_EGCMsgMasterSetWebAPIRoutingResponse = 0xDF
+            k_EGCMsgMasterSetClientMsgRouting = 0xE0
+            k_EGCMsgMasterSetClientMsgRoutingResponse = 0xE1
+            k_EGCMsgSetOptions = 0xE2
+            k_EGCMsgSetOptionsResponse = 0xE3
+            k_EGCMsgSystemBase2 = 0x1F4
+            k_EGCMsgGetPurchaseTrustStatus = 0x1F5
+            k_EGCMsgGetPurchaseTrustStatusResponse = 0x1F6
+            k_EGCMsgUpdateSession = 0x1F7
+            k_EGCMsgGCAccountVacStatusChange = 0x1F8
+            k_EGCMsgCheckFriendship = 0x1F9
+            k_EGCMsgCheckFriendshipResponse = 0x1FA
+            k_EGCMsgGetPartnerAccountLink = 0x1FB
+            k_EGCMsgGetPartnerAccountLinkResponse = 0x1FC
+            k_EGCMsgDPPartnerMicroTxns = 0x200
+            k_EGCMsgDPPartnerMicroTxnsResponse = 0x201
+            k_EGCMsgVacVerificationChange = 0x206
+            k_EGCMsgAccountPhoneNumberChange = 0x207
+            k_EGCMsgInviteUserToLobby = 0x20B
+            k_EGCMsgGetGamePersonalDataCategoriesRequest = 0x20C
+            k_EGCMsgGetGamePersonalDataCategoriesResponse = 0x20D
+            k_EGCMsgGetGamePersonalDataEntriesRequest = 0x20E
+            k_EGCMsgGetGamePersonalDataEntriesResponse = 0x20F
+            k_EGCMsgTerminateGamePersonalDataEntriesRequest = 0x210
+            k_EGCMsgTerminateGamePersonalDataEntriesResponse = 0x211
+            k_EGCMsgRecurringSubscriptionStatusChange = 0x212
+            k_EGCMsgDirectServiceMethod = 0x213
+            k_EGCMsgDirectServiceMethodResponse = 0x214
+            k_EGCMsgAppCheersReceived = 0x215
+            k_EGCMsgAppCheersGetAllowedTypes = 0x216
+            k_EGCMsgAppCheersGetAllowedTypesResponse = 0x217
+            k_EGCMsgReportMetrics = 0x218
+            k_EGCMsgReportMetricsResponse = 0x219
+            k_EGCMsgGetClanDetails = 0x21A
             k_EGCMsgGetClanDetailsResponse = 0x21B
         }
         // Alignment: 4
         // Member count: 11
         public enum ECommunityItemClass : uint {
-            k_ECommunityItemClass_Invalid = 0x0,
-            k_ECommunityItemClass_Badge = 0x1,
-            k_ECommunityItemClass_GameCard = 0x2,
-            k_ECommunityItemClass_ProfileBackground = 0x3,
-            k_ECommunityItemClass_Emoticon = 0x4,
-            k_ECommunityItemClass_BoosterPack = 0x5,
-            k_ECommunityItemClass_Consumable = 0x6,
-            k_ECommunityItemClass_GameGoo = 0x7,
-            k_ECommunityItemClass_ProfileModifier = 0x8,
-            k_ECommunityItemClass_Scene = 0x9,
+            k_ECommunityItemClass_Invalid = 0x0
+            k_ECommunityItemClass_Badge = 0x1
+            k_ECommunityItemClass_GameCard = 0x2
+            k_ECommunityItemClass_ProfileBackground = 0x3
+            k_ECommunityItemClass_Emoticon = 0x4
+            k_ECommunityItemClass_BoosterPack = 0x5
+            k_ECommunityItemClass_Consumable = 0x6
+            k_ECommunityItemClass_GameGoo = 0x7
+            k_ECommunityItemClass_ProfileModifier = 0x8
+            k_ECommunityItemClass_Scene = 0x9
             k_ECommunityItemClass_SalienItem = 0xA
         }
         // Alignment: 4
         // Member count: 4
         public enum ETeam : uint {
-            ET_Unknown = 0x0,
-            ET_Spectator = 0x1,
-            ET_Terrorist = 0x2,
+            ET_Unknown = 0x0
+            ET_Spectator = 0x1
+            ET_Terrorist = 0x2
             ET_CT = 0x3
         }
         // Alignment: 4
         // Member count: 3
         public enum ForcedCrouchState_t : uint {
-            FORCEDCROUCH_NONE = 0x0,
-            FORCEDCROUCH_CROUCHED = 0x1,
+            FORCEDCROUCH_NONE = 0x0
+            FORCEDCROUCH_CROUCHED = 0x1
             FORCEDCROUCH_UNCROUCHED = 0x2
         }
         // Alignment: 4
         // Member count: 3
         public enum EBasePredictionEvents : uint {
-            BPE_StringCommand = 0x80,
-            BPE_Teleport = 0x82,
+            BPE_StringCommand = 0x80
+            BPE_Teleport = 0x82
             BPE_Diagnostic = 0x4000
         }
         // Alignment: 4
         // Member count: 3
         public enum EClientReportingVersion : uint {
-            k_EClientReportingVersion_OldVersion = 0x0,
-            k_EClientReportingVersion_BetaVersion = 0x1,
+            k_EClientReportingVersion_OldVersion = 0x0
+            k_EClientReportingVersion_BetaVersion = 0x1
             k_EClientReportingVersion_SupportsTrustedMode = 0x2
         }
         // Alignment: 4
         // Member count: 2
         public enum EGCBaseProtoObjectTypes : uint {
-            k_EProtoObjectPartyInvite = 0x3E9,
+            k_EProtoObjectPartyInvite = 0x3E9
             k_EProtoObjectLobbyInvite = 0x3EA
         }
         // Alignment: 4
         // Member count: 2
         public enum PerformanceMode_t : uint {
-            PM_NORMAL = 0x0,
+            PM_NORMAL = 0x0
             PM_NO_GIBS = 0x1
         }
         // Alignment: 4
         // Member count: 8
         public enum TOGGLE_STATE : uint {
-            TS_AT_TOP = 0x0,
-            TS_AT_BOTTOM = 0x1,
-            TS_GOING_UP = 0x2,
-            TS_GOING_DOWN = 0x3,
-            DOOR_OPEN = 0x0,
-            DOOR_CLOSED = 0x1,
-            DOOR_OPENING = 0x2,
+            TS_AT_TOP = 0x0
+            TS_AT_BOTTOM = 0x1
+            TS_GOING_UP = 0x2
+            TS_GOING_DOWN = 0x3
+            DOOR_OPEN = 0x0
+            DOOR_CLOSED = 0x1
+            DOOR_OPENING = 0x2
             DOOR_CLOSING = 0x3
         }
         // Alignment: 4
         // Member count: 75
         public enum loadout_slot_t : uint {
-            LOADOUT_SLOT_PROMOTED = 0x-2,
-            LOADOUT_SLOT_INVALID = 0x-1,
-            LOADOUT_SLOT_MELEE = 0x0,
-            LOADOUT_SLOT_C4 = 0x1,
-            LOADOUT_SLOT_FIRST_AUTO_BUY_WEAPON = 0x0,
-            LOADOUT_SLOT_LAST_AUTO_BUY_WEAPON = 0x1,
-            LOADOUT_SLOT_SECONDARY0 = 0x2,
-            LOADOUT_SLOT_SECONDARY1 = 0x3,
-            LOADOUT_SLOT_SECONDARY2 = 0x4,
-            LOADOUT_SLOT_SECONDARY3 = 0x5,
-            LOADOUT_SLOT_SECONDARY4 = 0x6,
-            LOADOUT_SLOT_SECONDARY5 = 0x7,
-            LOADOUT_SLOT_SMG0 = 0x8,
-            LOADOUT_SLOT_SMG1 = 0x9,
-            LOADOUT_SLOT_SMG2 = 0xA,
-            LOADOUT_SLOT_SMG3 = 0xB,
-            LOADOUT_SLOT_SMG4 = 0xC,
-            LOADOUT_SLOT_SMG5 = 0xD,
-            LOADOUT_SLOT_RIFLE0 = 0xE,
-            LOADOUT_SLOT_RIFLE1 = 0xF,
-            LOADOUT_SLOT_RIFLE2 = 0x10,
-            LOADOUT_SLOT_RIFLE3 = 0x11,
-            LOADOUT_SLOT_RIFLE4 = 0x12,
-            LOADOUT_SLOT_RIFLE5 = 0x13,
-            LOADOUT_SLOT_HEAVY0 = 0x14,
-            LOADOUT_SLOT_HEAVY1 = 0x15,
-            LOADOUT_SLOT_HEAVY2 = 0x16,
-            LOADOUT_SLOT_HEAVY3 = 0x17,
-            LOADOUT_SLOT_HEAVY4 = 0x18,
-            LOADOUT_SLOT_HEAVY5 = 0x19,
-            LOADOUT_SLOT_FIRST_WHEEL_WEAPON = 0x2,
-            LOADOUT_SLOT_LAST_WHEEL_WEAPON = 0x19,
-            LOADOUT_SLOT_FIRST_PRIMARY_WEAPON = 0x8,
-            LOADOUT_SLOT_LAST_PRIMARY_WEAPON = 0x19,
-            LOADOUT_SLOT_FIRST_WHEEL_GRENADE = 0x1A,
-            LOADOUT_SLOT_GRENADE0 = 0x1A,
-            LOADOUT_SLOT_GRENADE1 = 0x1B,
-            LOADOUT_SLOT_GRENADE2 = 0x1C,
-            LOADOUT_SLOT_GRENADE3 = 0x1D,
-            LOADOUT_SLOT_GRENADE4 = 0x1E,
-            LOADOUT_SLOT_GRENADE5 = 0x1F,
-            LOADOUT_SLOT_LAST_WHEEL_GRENADE = 0x1F,
-            LOADOUT_SLOT_EQUIPMENT0 = 0x20,
-            LOADOUT_SLOT_EQUIPMENT1 = 0x21,
-            LOADOUT_SLOT_EQUIPMENT2 = 0x22,
-            LOADOUT_SLOT_EQUIPMENT3 = 0x23,
-            LOADOUT_SLOT_EQUIPMENT4 = 0x24,
-            LOADOUT_SLOT_EQUIPMENT5 = 0x25,
-            LOADOUT_SLOT_FIRST_WHEEL_EQUIPMENT = 0x20,
-            LOADOUT_SLOT_LAST_WHEEL_EQUIPMENT = 0x25,
-            LOADOUT_SLOT_CLOTHING_CUSTOMPLAYER = 0x26,
-            LOADOUT_SLOT_CLOTHING_CUSTOMHEAD = 0x27,
-            LOADOUT_SLOT_CLOTHING_FACEMASK = 0x28,
-            LOADOUT_SLOT_CLOTHING_HANDS = 0x29,
-            LOADOUT_SLOT_FIRST_COSMETIC = 0x29,
-            LOADOUT_SLOT_LAST_COSMETIC = 0x29,
-            LOADOUT_SLOT_CLOTHING_EYEWEAR = 0x2A,
-            LOADOUT_SLOT_CLOTHING_HAT = 0x2B,
-            LOADOUT_SLOT_CLOTHING_LOWERBODY = 0x2C,
-            LOADOUT_SLOT_CLOTHING_TORSO = 0x2D,
-            LOADOUT_SLOT_CLOTHING_APPEARANCE = 0x2E,
-            LOADOUT_SLOT_MISC0 = 0x2F,
-            LOADOUT_SLOT_MISC1 = 0x30,
-            LOADOUT_SLOT_MISC2 = 0x31,
-            LOADOUT_SLOT_MISC3 = 0x32,
-            LOADOUT_SLOT_MISC4 = 0x33,
-            LOADOUT_SLOT_MISC5 = 0x34,
-            LOADOUT_SLOT_MISC6 = 0x35,
-            LOADOUT_SLOT_MUSICKIT = 0x36,
-            LOADOUT_SLOT_FLAIR0 = 0x37,
-            LOADOUT_SLOT_SPRAY0 = 0x38,
-            LOADOUT_SLOT_PET = 0x39,
-            LOADOUT_SLOT_FIRST_ALL_CHARACTER = 0x36,
-            LOADOUT_SLOT_LAST_ALL_CHARACTER = 0x39,
+            LOADOUT_SLOT_PROMOTED = 0x-2
+            LOADOUT_SLOT_INVALID = 0x-1
+            LOADOUT_SLOT_MELEE = 0x0
+            LOADOUT_SLOT_C4 = 0x1
+            LOADOUT_SLOT_FIRST_AUTO_BUY_WEAPON = 0x0
+            LOADOUT_SLOT_LAST_AUTO_BUY_WEAPON = 0x1
+            LOADOUT_SLOT_SECONDARY0 = 0x2
+            LOADOUT_SLOT_SECONDARY1 = 0x3
+            LOADOUT_SLOT_SECONDARY2 = 0x4
+            LOADOUT_SLOT_SECONDARY3 = 0x5
+            LOADOUT_SLOT_SECONDARY4 = 0x6
+            LOADOUT_SLOT_SECONDARY5 = 0x7
+            LOADOUT_SLOT_SMG0 = 0x8
+            LOADOUT_SLOT_SMG1 = 0x9
+            LOADOUT_SLOT_SMG2 = 0xA
+            LOADOUT_SLOT_SMG3 = 0xB
+            LOADOUT_SLOT_SMG4 = 0xC
+            LOADOUT_SLOT_SMG5 = 0xD
+            LOADOUT_SLOT_RIFLE0 = 0xE
+            LOADOUT_SLOT_RIFLE1 = 0xF
+            LOADOUT_SLOT_RIFLE2 = 0x10
+            LOADOUT_SLOT_RIFLE3 = 0x11
+            LOADOUT_SLOT_RIFLE4 = 0x12
+            LOADOUT_SLOT_RIFLE5 = 0x13
+            LOADOUT_SLOT_HEAVY0 = 0x14
+            LOADOUT_SLOT_HEAVY1 = 0x15
+            LOADOUT_SLOT_HEAVY2 = 0x16
+            LOADOUT_SLOT_HEAVY3 = 0x17
+            LOADOUT_SLOT_HEAVY4 = 0x18
+            LOADOUT_SLOT_HEAVY5 = 0x19
+            LOADOUT_SLOT_FIRST_WHEEL_WEAPON = 0x2
+            LOADOUT_SLOT_LAST_WHEEL_WEAPON = 0x19
+            LOADOUT_SLOT_FIRST_PRIMARY_WEAPON = 0x8
+            LOADOUT_SLOT_LAST_PRIMARY_WEAPON = 0x19
+            LOADOUT_SLOT_FIRST_WHEEL_GRENADE = 0x1A
+            LOADOUT_SLOT_GRENADE0 = 0x1A
+            LOADOUT_SLOT_GRENADE1 = 0x1B
+            LOADOUT_SLOT_GRENADE2 = 0x1C
+            LOADOUT_SLOT_GRENADE3 = 0x1D
+            LOADOUT_SLOT_GRENADE4 = 0x1E
+            LOADOUT_SLOT_GRENADE5 = 0x1F
+            LOADOUT_SLOT_LAST_WHEEL_GRENADE = 0x1F
+            LOADOUT_SLOT_EQUIPMENT0 = 0x20
+            LOADOUT_SLOT_EQUIPMENT1 = 0x21
+            LOADOUT_SLOT_EQUIPMENT2 = 0x22
+            LOADOUT_SLOT_EQUIPMENT3 = 0x23
+            LOADOUT_SLOT_EQUIPMENT4 = 0x24
+            LOADOUT_SLOT_EQUIPMENT5 = 0x25
+            LOADOUT_SLOT_FIRST_WHEEL_EQUIPMENT = 0x20
+            LOADOUT_SLOT_LAST_WHEEL_EQUIPMENT = 0x25
+            LOADOUT_SLOT_CLOTHING_CUSTOMPLAYER = 0x26
+            LOADOUT_SLOT_CLOTHING_CUSTOMHEAD = 0x27
+            LOADOUT_SLOT_CLOTHING_FACEMASK = 0x28
+            LOADOUT_SLOT_CLOTHING_HANDS = 0x29
+            LOADOUT_SLOT_FIRST_COSMETIC = 0x29
+            LOADOUT_SLOT_LAST_COSMETIC = 0x29
+            LOADOUT_SLOT_CLOTHING_EYEWEAR = 0x2A
+            LOADOUT_SLOT_CLOTHING_HAT = 0x2B
+            LOADOUT_SLOT_CLOTHING_LOWERBODY = 0x2C
+            LOADOUT_SLOT_CLOTHING_TORSO = 0x2D
+            LOADOUT_SLOT_CLOTHING_APPEARANCE = 0x2E
+            LOADOUT_SLOT_MISC0 = 0x2F
+            LOADOUT_SLOT_MISC1 = 0x30
+            LOADOUT_SLOT_MISC2 = 0x31
+            LOADOUT_SLOT_MISC3 = 0x32
+            LOADOUT_SLOT_MISC4 = 0x33
+            LOADOUT_SLOT_MISC5 = 0x34
+            LOADOUT_SLOT_MISC6 = 0x35
+            LOADOUT_SLOT_MUSICKIT = 0x36
+            LOADOUT_SLOT_FLAIR0 = 0x37
+            LOADOUT_SLOT_SPRAY0 = 0x38
+            LOADOUT_SLOT_PET = 0x39
+            LOADOUT_SLOT_FIRST_ALL_CHARACTER = 0x36
+            LOADOUT_SLOT_LAST_ALL_CHARACTER = 0x39
             LOADOUT_SLOT_COUNT = 0x3A
         }
         // Alignment: 4
         // Member count: 4
         public enum EDestructiblePartDamagePassThroughType : uint {
-            Normal = 0x0,
-            Absorb = 0x1,
-            InvincibleAbsorb = 0x2,
+            Normal = 0x0
+            Absorb = 0x1
+            InvincibleAbsorb = 0x2
             InvinciblePassthrough = 0x3
         }
         // Alignment: 4
         // Member count: 3
         public enum RadiusDmgOverride_t : uint {
-            RADIUS_DMG_OVERRIDE_NONE = 0x0,
-            RADIUS_DMG_OVERRIDE_POSITION_ONLY = 0x1,
+            RADIUS_DMG_OVERRIDE_NONE = 0x0
+            RADIUS_DMG_OVERRIDE_POSITION_ONLY = 0x1
             RADIUS_DMG_OVERRIDE_POSITION_SKIP_TRACES = 0x2
         }
         // Alignment: 4
         // Member count: 3
         public enum VoiceDataFormat_t : uint {
-            VOICEDATA_FORMAT_STEAM = 0x0,
-            VOICEDATA_FORMAT_ENGINE = 0x1,
+            VOICEDATA_FORMAT_STEAM = 0x0
+            VOICEDATA_FORMAT_ENGINE = 0x1
             VOICEDATA_FORMAT_OPUS = 0x2
         }
         // Alignment: 8
         // Member count: 20
         public enum NavAttributeEnum : uint {
-            NAV_MESH_NONE = 0x0,
-            NAV_MESH_AVOID = 0x80,
-            NAV_MESH_STAIRS = 0x1000,
-            NAV_MESH_NON_ZUP = 0x8000,
-            NAV_MESH_CROUCH_HEIGHT = 0x10000,
-            NAV_MESH_NON_ZUP_TRANSITION = 0x20000,
-            NAV_MESH_CRAWL_HEIGHT = 0x40000,
-            NAV_MESH_JUMP = 0x2,
-            NAV_MESH_NO_JUMP = 0x8,
-            NAV_MESH_STOP = 0x10,
-            NAV_MESH_RUN = 0x20,
-            NAV_MESH_WALK = 0x40,
-            NAV_MESH_TRANSIENT = 0x100,
-            NAV_MESH_DONT_HIDE = 0x200,
-            NAV_MESH_STAND = 0x400,
-            NAV_MESH_NO_HOSTAGES = 0x800,
-            NAV_MESH_NO_MERGE = 0x2000,
-            NAV_MESH_OBSTACLE_TOP = 0x4000,
-            NAV_ATTR_FIRST_GAME_INDEX = 0x13,
+            NAV_MESH_NONE = 0x0
+            NAV_MESH_AVOID = 0x80
+            NAV_MESH_STAIRS = 0x1000
+            NAV_MESH_NON_ZUP = 0x8000
+            NAV_MESH_CROUCH_HEIGHT = 0x10000
+            NAV_MESH_NON_ZUP_TRANSITION = 0x20000
+            NAV_MESH_CRAWL_HEIGHT = 0x40000
+            NAV_MESH_JUMP = 0x2
+            NAV_MESH_NO_JUMP = 0x8
+            NAV_MESH_STOP = 0x10
+            NAV_MESH_RUN = 0x20
+            NAV_MESH_WALK = 0x40
+            NAV_MESH_TRANSIENT = 0x100
+            NAV_MESH_DONT_HIDE = 0x200
+            NAV_MESH_STAND = 0x400
+            NAV_MESH_NO_HOSTAGES = 0x800
+            NAV_MESH_NO_MERGE = 0x2000
+            NAV_MESH_OBSTACLE_TOP = 0x4000
+            NAV_ATTR_FIRST_GAME_INDEX = 0x13
             NAV_ATTR_LAST_INDEX = 0x3F
         }
         // Alignment: 4
         // Member count: 3
         public enum MoveLinearAuthoredPos_t : uint {
-            MOVELINEAR_AUTHORED_AT_START_POSITION = 0x0,
-            MOVELINEAR_AUTHORED_AT_OPEN_POSITION = 0x1,
+            MOVELINEAR_AUTHORED_AT_START_POSITION = 0x0
+            MOVELINEAR_AUTHORED_AT_OPEN_POSITION = 0x1
             MOVELINEAR_AUTHORED_AT_CLOSED_POSITION = 0x2
         }
         // Alignment: 4
         // Member count: 4
         public enum ValueRemapperMomentumType_t : uint {
-            MomentumType_None = 0x0,
-            MomentumType_Friction = 0x1,
-            MomentumType_SpringTowardSnapValue = 0x2,
+            MomentumType_None = 0x0
+            MomentumType_Friction = 0x1
+            MomentumType_SpringTowardSnapValue = 0x2
             MomentumType_SpringAwayFromSnapValue = 0x3
         }
         // Alignment: 4
         // Member count: 12
         public enum Hull_t : uint {
-            HULL_HUMAN = 0x0,
-            HULL_SMALL_CENTERED = 0x1,
-            HULL_WIDE_HUMAN = 0x2,
-            HULL_TINY = 0x3,
-            HULL_MEDIUM = 0x4,
-            HULL_TINY_CENTERED = 0x5,
-            HULL_LARGE = 0x6,
-            HULL_LARGE_CENTERED = 0x7,
-            HULL_MEDIUM_TALL = 0x8,
-            HULL_SMALL = 0x9,
-            NUM_HULLS = 0xA,
+            HULL_HUMAN = 0x0
+            HULL_SMALL_CENTERED = 0x1
+            HULL_WIDE_HUMAN = 0x2
+            HULL_TINY = 0x3
+            HULL_MEDIUM = 0x4
+            HULL_TINY_CENTERED = 0x5
+            HULL_LARGE = 0x6
+            HULL_LARGE_CENTERED = 0x7
+            HULL_MEDIUM_TALL = 0x8
+            HULL_SMALL = 0x9
+            NUM_HULLS = 0xA
             HULL_NONE = 0xB
         }
         // Alignment: 1
         // Member count: 3
         public enum ExternalAnimGraphInactiveBehavior_t : uint {
-            eNone = 0x0,
-            eUnbind = 0x1,
+            eNone = 0x0
+            eUnbind = 0x1
             eUnbindAndDelete = 0x2
         }
         // Alignment: 4
         // Member count: 13
         public enum NET_Messages : uint {
-            net_NOP = 0x0,
-            net_Disconnect_Legacy = 0x1,
-            net_SplitScreenUser = 0x3,
-            net_Tick = 0x4,
-            net_StringCmd = 0x5,
-            net_SetConVar = 0x6,
-            net_SignonState = 0x7,
-            net_SpawnGroup_Load = 0x8,
-            net_SpawnGroup_ManifestUpdate = 0x9,
-            net_SpawnGroup_SetCreationTick = 0xB,
-            net_SpawnGroup_Unload = 0xC,
-            net_SpawnGroup_LoadCompleted = 0xD,
+            net_NOP = 0x0
+            net_Disconnect_Legacy = 0x1
+            net_SplitScreenUser = 0x3
+            net_Tick = 0x4
+            net_StringCmd = 0x5
+            net_SetConVar = 0x6
+            net_SignonState = 0x7
+            net_SpawnGroup_Load = 0x8
+            net_SpawnGroup_ManifestUpdate = 0x9
+            net_SpawnGroup_SetCreationTick = 0xB
+            net_SpawnGroup_Unload = 0xC
+            net_SpawnGroup_LoadCompleted = 0xD
             net_DebugOverlay = 0xF
         }
         // Alignment: 4
         // Member count: 12
         public enum EWeaponType : uint {
-            EWT_Knife = 0x0,
-            EWT_Pistol = 0x1,
-            EWT_SubMachineGun = 0x2,
-            EWT_Rifle = 0x3,
-            EWT_Shotgun = 0x4,
-            EWT_SniperRifle = 0x5,
-            EWT_MachineGun = 0x6,
-            EWT_C4 = 0x7,
-            EWT_Grenade = 0x8,
-            EWT_Equipment = 0x9,
-            EWT_StackableItem = 0xA,
+            EWT_Knife = 0x0
+            EWT_Pistol = 0x1
+            EWT_SubMachineGun = 0x2
+            EWT_Rifle = 0x3
+            EWT_Shotgun = 0x4
+            EWT_SniperRifle = 0x5
+            EWT_MachineGun = 0x6
+            EWT_C4 = 0x7
+            EWT_Grenade = 0x8
+            EWT_Equipment = 0x9
+            EWT_StackableItem = 0xA
             EWT_Unknown = 0xB
         }
         // Alignment: 4
         // Member count: 5
         public enum EBaseEntityMessages : uint {
-            EM_PlayJingle = 0x88,
-            EM_ScreenOverlay = 0x89,
-            EM_PropagateForce = 0x8B,
-            EM_DoSpark = 0x8C,
+            EM_PlayJingle = 0x88
+            EM_ScreenOverlay = 0x89
+            EM_PropagateForce = 0x8B
+            EM_DoSpark = 0x8C
             EM_FixAngle = 0x8D
         }
         // Alignment: 4
         // Member count: 2
         public enum ECSPredictionEvents : uint {
-            CSPE_DamageTag = 0x1,
+            CSPE_DamageTag = 0x1
             CSPE_PlayerTeleport = 0x3
         }
         // Alignment: 1
         // Member count: 7
         public enum CCSPlayerAnimationState::GroundMoveState_t : uint {
-            None = 0x0,
-            Idle = 0x1,
-            Start = 0x2,
-            Move = 0x3,
-            TurnOnSpot = 0x4,
-            TurnOnSpotLoop = 0x5,
+            None = 0x0
+            Idle = 0x1
+            Start = 0x2
+            Move = 0x3
+            TurnOnSpot = 0x4
+            TurnOnSpotLoop = 0x5
             PlantAndTurn = 0x6
         }
         // Alignment: 4
         // Member count: 6
         public enum PreviewWeaponState : uint {
-            DROPPED = 0x0,
-            HOLSTERED = 0x1,
-            DEPLOYED = 0x2,
-            PLANTED = 0x3,
-            INSPECT = 0x4,
+            DROPPED = 0x0
+            HOLSTERED = 0x1
+            DEPLOYED = 0x2
+            PLANTED = 0x3
+            INSPECT = 0x4
             ICON = 0x5
         }
         // Alignment: 4
         // Member count: 9
         public enum EInButtonState : uint {
-            IN_BUTTON_UP = 0x0,
-            IN_BUTTON_DOWN = 0x1,
-            IN_BUTTON_DOWN_UP = 0x2,
-            IN_BUTTON_UP_DOWN = 0x3,
-            IN_BUTTON_UP_DOWN_UP = 0x4,
-            IN_BUTTON_DOWN_UP_DOWN = 0x5,
-            IN_BUTTON_DOWN_UP_DOWN_UP = 0x6,
-            IN_BUTTON_UP_DOWN_UP_DOWN = 0x7,
+            IN_BUTTON_UP = 0x0
+            IN_BUTTON_DOWN = 0x1
+            IN_BUTTON_DOWN_UP = 0x2
+            IN_BUTTON_UP_DOWN = 0x3
+            IN_BUTTON_UP_DOWN_UP = 0x4
+            IN_BUTTON_DOWN_UP_DOWN = 0x5
+            IN_BUTTON_DOWN_UP_DOWN_UP = 0x6
+            IN_BUTTON_UP_DOWN_UP_DOWN = 0x7
             IN_BUTTON_STATE_COUNT = 0x8
         }
         // Alignment: 4
         // Member count: 4
         public enum WeaponAttackType_t : uint {
-            eInvalid = 0x-1,
-            ePrimary = 0x0,
-            eSecondary = 0x1,
+            eInvalid = 0x-1
+            ePrimary = 0x0
+            eSecondary = 0x1
             eCount = 0x2
         }
         // Alignment: 4
         // Member count: 4
         public enum CDebugOverlayFilterTextType_t : uint {
-            FILTER_TEXT_NONE = 0x0,
-            MATCH = 0x1,
-            HIERARCHY = 0x2,
+            FILTER_TEXT_NONE = 0x0
+            MATCH = 0x1
+            HIERARCHY = 0x2
             COUNT = 0x3
         }
         // Alignment: 4
         // Member count: 42
         public enum PARTICLE_MESSAGE : uint {
-            GAME_PARTICLE_MANAGER_EVENT_CREATE = 0x0,
-            GAME_PARTICLE_MANAGER_EVENT_UPDATE = 0x1,
-            GAME_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD = 0x2,
-            GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION = 0x3,
-            GAME_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK = 0x4,
-            GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENT = 0x5,
-            GAME_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET = 0x6,
-            GAME_PARTICLE_MANAGER_EVENT_DESTROY = 0x7,
-            GAME_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING = 0x8,
-            GAME_PARTICLE_MANAGER_EVENT_RELEASE = 0x9,
-            GAME_PARTICLE_MANAGER_EVENT_LATENCY = 0xA,
-            GAME_PARTICLE_MANAGER_EVENT_SHOULD_DRAW = 0xB,
-            GAME_PARTICLE_MANAGER_EVENT_FROZEN = 0xC,
-            GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT = 0xD,
-            GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION = 0xE,
-            GAME_PARTICLE_MANAGER_EVENT_SET_FOW_PROPERTIES = 0xF,
-            GAME_PARTICLE_MANAGER_EVENT_SET_TEXT = 0x10,
-            GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW = 0x11,
-            GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_MODEL = 0x12,
-            GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_SNAPSHOT = 0x13,
-            GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE = 0x14,
-            GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_GENERIC_FLAG = 0x15,
-            GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_TINT_AND_DESAT = 0x16,
-            GAME_PARTICLE_MANAGER_EVENT_DESTROY_NAMED = 0x17,
-            GAME_PARTICLE_MANAGER_EVENT_SKIP_TO_TIME = 0x18,
-            GAME_PARTICLE_MANAGER_EVENT_CAN_FREEZE = 0x19,
-            GAME_PARTICLE_MANAGER_EVENT_SET_NAMED_VALUE_CONTEXT = 0x1A,
-            GAME_PARTICLE_MANAGER_EVENT_UPDATE_TRANSFORM = 0x1B,
-            GAME_PARTICLE_MANAGER_EVENT_FREEZE_TRANSITION_OVERRIDE = 0x1C,
-            GAME_PARTICLE_MANAGER_EVENT_FREEZE_INVOLVING = 0x1D,
-            GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT = 0x1E,
-            GAME_PARTICLE_MANAGER_EVENT_CLEAR_MODELLIST_OVERRIDE = 0x1F,
-            GAME_PARTICLE_MANAGER_EVENT_CREATE_PHYSICS_SIM = 0x20,
-            GAME_PARTICLE_MANAGER_EVENT_DESTROY_PHYSICS_SIM = 0x21,
-            GAME_PARTICLE_MANAGER_EVENT_SET_VDATA = 0x22,
-            GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE = 0x23,
-            GAME_PARTICLE_MANAGER_EVENT_ADD_FAN = 0x24,
-            GAME_PARTICLE_MANAGER_EVENT_UPDATE_FAN = 0x25,
-            GAME_PARTICLE_MANAGER_EVENT_SET_CLUSTER_GROWTH = 0x26,
-            GAME_PARTICLE_MANAGER_EVENT_REMOVE_FAN = 0x27,
-            GAME_PARTICLE_MANAGER_EVENT_CREATE_SMOKE_GRID = 0x28,
+            GAME_PARTICLE_MANAGER_EVENT_CREATE = 0x0
+            GAME_PARTICLE_MANAGER_EVENT_UPDATE = 0x1
+            GAME_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD = 0x2
+            GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION = 0x3
+            GAME_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK = 0x4
+            GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENT = 0x5
+            GAME_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET = 0x6
+            GAME_PARTICLE_MANAGER_EVENT_DESTROY = 0x7
+            GAME_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING = 0x8
+            GAME_PARTICLE_MANAGER_EVENT_RELEASE = 0x9
+            GAME_PARTICLE_MANAGER_EVENT_LATENCY = 0xA
+            GAME_PARTICLE_MANAGER_EVENT_SHOULD_DRAW = 0xB
+            GAME_PARTICLE_MANAGER_EVENT_FROZEN = 0xC
+            GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT = 0xD
+            GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION = 0xE
+            GAME_PARTICLE_MANAGER_EVENT_SET_FOW_PROPERTIES = 0xF
+            GAME_PARTICLE_MANAGER_EVENT_SET_TEXT = 0x10
+            GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW = 0x11
+            GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_MODEL = 0x12
+            GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_SNAPSHOT = 0x13
+            GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE = 0x14
+            GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_GENERIC_FLAG = 0x15
+            GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_TINT_AND_DESAT = 0x16
+            GAME_PARTICLE_MANAGER_EVENT_DESTROY_NAMED = 0x17
+            GAME_PARTICLE_MANAGER_EVENT_SKIP_TO_TIME = 0x18
+            GAME_PARTICLE_MANAGER_EVENT_CAN_FREEZE = 0x19
+            GAME_PARTICLE_MANAGER_EVENT_SET_NAMED_VALUE_CONTEXT = 0x1A
+            GAME_PARTICLE_MANAGER_EVENT_UPDATE_TRANSFORM = 0x1B
+            GAME_PARTICLE_MANAGER_EVENT_FREEZE_TRANSITION_OVERRIDE = 0x1C
+            GAME_PARTICLE_MANAGER_EVENT_FREEZE_INVOLVING = 0x1D
+            GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT = 0x1E
+            GAME_PARTICLE_MANAGER_EVENT_CLEAR_MODELLIST_OVERRIDE = 0x1F
+            GAME_PARTICLE_MANAGER_EVENT_CREATE_PHYSICS_SIM = 0x20
+            GAME_PARTICLE_MANAGER_EVENT_DESTROY_PHYSICS_SIM = 0x21
+            GAME_PARTICLE_MANAGER_EVENT_SET_VDATA = 0x22
+            GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE = 0x23
+            GAME_PARTICLE_MANAGER_EVENT_ADD_FAN = 0x24
+            GAME_PARTICLE_MANAGER_EVENT_UPDATE_FAN = 0x25
+            GAME_PARTICLE_MANAGER_EVENT_SET_CLUSTER_GROWTH = 0x26
+            GAME_PARTICLE_MANAGER_EVENT_REMOVE_FAN = 0x27
+            GAME_PARTICLE_MANAGER_EVENT_CREATE_SMOKE_GRID = 0x28
             GAME_PARTICLE_MANAGER_EVENT_SET_OVERRIDE_TEXTURE = 0x29
         }
         // Alignment: 4
         // Member count: 8
         public enum CSPlayerBlockingUseAction_t : uint {
-            k_CSPlayerBlockingUseAction_None = 0x0,
-            k_CSPlayerBlockingUseAction_DefusingDefault = 0x1,
-            k_CSPlayerBlockingUseAction_DefusingWithKit = 0x2,
-            k_CSPlayerBlockingUseAction_HostageGrabbing = 0x3,
-            k_CSPlayerBlockingUseAction_HostageDropping = 0x4,
-            k_CSPlayerBlockingUseAction_MapLongUseEntity_Pickup = 0x5,
-            k_CSPlayerBlockingUseAction_MapLongUseEntity_Place = 0x6,
+            k_CSPlayerBlockingUseAction_None = 0x0
+            k_CSPlayerBlockingUseAction_DefusingDefault = 0x1
+            k_CSPlayerBlockingUseAction_DefusingWithKit = 0x2
+            k_CSPlayerBlockingUseAction_HostageGrabbing = 0x3
+            k_CSPlayerBlockingUseAction_HostageDropping = 0x4
+            k_CSPlayerBlockingUseAction_MapLongUseEntity_Pickup = 0x5
+            k_CSPlayerBlockingUseAction_MapLongUseEntity_Place = 0x6
             k_CSPlayerBlockingUseAction_MaxCount = 0x7
         }
         // Alignment: 1
         // Member count: 5
         public enum ShatterDamageCause : uint {
-            SHATTERDAMAGE_BULLET = 0x0,
-            SHATTERDAMAGE_MELEE = 0x1,
-            SHATTERDAMAGE_THROWN = 0x2,
-            SHATTERDAMAGE_SCRIPT = 0x3,
+            SHATTERDAMAGE_BULLET = 0x0
+            SHATTERDAMAGE_MELEE = 0x1
+            SHATTERDAMAGE_THROWN = 0x2
+            SHATTERDAMAGE_SCRIPT = 0x3
             SHATTERDAMAGE_EXPLOSIVE = 0x4
         }
         // Alignment: 4
         // Member count: 10
         public enum ECommunityItemAttribute : uint {
-            k_ECommunityItemAttribute_Invalid = 0x0,
-            k_ECommunityItemAttribute_CardBorder = 0x1,
-            k_ECommunityItemAttribute_Level = 0x2,
-            k_ECommunityItemAttribute_IssueNumber = 0x3,
-            k_ECommunityItemAttribute_TradableTime = 0x4,
-            k_ECommunityItemAttribute_StorePackageID = 0x5,
-            k_ECommunityItemAttribute_CommunityItemAppID = 0x6,
-            k_ECommunityItemAttribute_CommunityItemType = 0x7,
-            k_ECommunityItemAttribute_ProfileModiferEnabled = 0x8,
+            k_ECommunityItemAttribute_Invalid = 0x0
+            k_ECommunityItemAttribute_CardBorder = 0x1
+            k_ECommunityItemAttribute_Level = 0x2
+            k_ECommunityItemAttribute_IssueNumber = 0x3
+            k_ECommunityItemAttribute_TradableTime = 0x4
+            k_ECommunityItemAttribute_StorePackageID = 0x5
+            k_ECommunityItemAttribute_CommunityItemAppID = 0x6
+            k_ECommunityItemAttribute_CommunityItemType = 0x7
+            k_ECommunityItemAttribute_ProfileModiferEnabled = 0x8
             k_ECommunityItemAttribute_ExpiryTime = 0x9
         }
         // Alignment: 4
@@ -1710,874 +1710,874 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 5
         public enum eRollType : uint {
-            ROLL_NONE = 0x-1,
-            ROLL_STATS = 0x0,
-            ROLL_CREDITS = 0x1,
-            ROLL_LATE_JOIN_LOGO = 0x2,
+            ROLL_NONE = 0x-1
+            ROLL_STATS = 0x0
+            ROLL_CREDITS = 0x1
+            ROLL_LATE_JOIN_LOGO = 0x2
             ROLL_OUTTRO = 0x3
         }
         // Alignment: 4
         // Member count: 4
         public enum ScriptedOnDeath_t : uint {
-            SS_ONDEATH_NOT_APPLICABLE = 0x-1,
-            SS_ONDEATH_UNDEFINED = 0x0,
-            SS_ONDEATH_RAGDOLL = 0x1,
+            SS_ONDEATH_NOT_APPLICABLE = 0x-1
+            SS_ONDEATH_UNDEFINED = 0x0
+            SS_ONDEATH_RAGDOLL = 0x1
             SS_ONDEATH_ANIMATED_DEATH = 0x2
         }
         // Alignment: 4
         // Member count: 66
         public enum CSWeaponNameID : uint {
-            WEAPONID_GLOCK = 0x0,
-            WEAPONID_HKP2000 = 0x1,
-            WEAPONID_CZ75A = 0x2,
-            WEAPONID_ELITE = 0x3,
-            WEAPONID_DEAGLE = 0x4,
-            WEAPONID_FIVESEVEN = 0x5,
-            WEAPONID_P250 = 0x6,
-            WEAPONID_REVOLVER = 0x7,
-            WEAPONID_TEC9 = 0x8,
-            WEAPONID_USP_SILENCER = 0x9,
-            WEAPONID_AK47 = 0xA,
-            WEAPONID_M4A1 = 0xB,
-            WEAPONID_M4A1_SILENCER = 0xC,
-            WEAPONID_FAMAS = 0xD,
-            WEAPONID_GALILAR = 0xE,
-            WEAPONID_AUG = 0xF,
-            WEAPONID_SG556 = 0x10,
-            WEAPONID_BIZON = 0x11,
-            WEAPONID_MAC10 = 0x12,
-            WEAPONID_MP5SD = 0x13,
-            WEAPONID_MP7 = 0x14,
-            WEAPONID_MP9 = 0x15,
-            WEAPONID_P90 = 0x16,
-            WEAPONID_UMP45 = 0x17,
-            WEAPONID_MAG7 = 0x18,
-            WEAPONID_NOVA = 0x19,
-            WEAPONID_SAWEDOFF = 0x1A,
-            WEAPONID_XM1014 = 0x1B,
-            WEAPONID_AWP = 0x1C,
-            WEAPONID_SSG08 = 0x1D,
-            WEAPONID_G3SG1 = 0x1E,
-            WEAPONID_SCAR20 = 0x1F,
-            WEAPONID_M249 = 0x20,
-            WEAPONID_NEGEV = 0x21,
-            WEAPONID_TASER = 0x22,
-            WEAPONID_DECOY = 0x23,
-            WEAPONID_FLASHBANG = 0x24,
-            WEAPONID_HEGRENADE = 0x25,
-            WEAPONID_INCGRENADE = 0x26,
-            WEAPONID_MOLOTOV = 0x27,
-            WEAPONID_SMOKEGRENADE = 0x28,
-            WEAPONID_C4 = 0x29,
-            WEAPONID_HEALTHSHOT = 0x2A,
-            WEAPONID_KNIFE = 0x2B,
-            WEAPONID_KNIFE_T = 0x2C,
-            WEAPONID_KNIFE_CSS = 0x2D,
-            WEAPONID_KNIFE_FLIP = 0x2E,
-            WEAPONID_KNIFE_GUT = 0x2F,
-            WEAPONID_KNIFE_KARAMBIT = 0x30,
-            WEAPONID_BAYONET = 0x31,
-            WEAPONID_KNIFE_M9_BAYONET = 0x32,
-            WEAPONID_KNIFE_TACTICAL = 0x33,
-            WEAPONID_KNIFE_FALCHION = 0x34,
-            WEAPONID_KNIFE_SURVIVAL_BOWIE = 0x35,
-            WEAPONID_KNIFE_BUTTERFLY = 0x36,
-            WEAPONID_KNIFE_PUSH = 0x37,
-            WEAPONID_KNIFE_CORD = 0x38,
-            WEAPONID_KNIFE_CANIS = 0x39,
-            WEAPONID_KNIFE_URSUS = 0x3A,
-            WEAPONID_KNIFE_GYPSY_JACKKNIFE = 0x3B,
-            WEAPONID_KNIFE_OUTDOOR = 0x3C,
-            WEAPONID_KNIFE_STILETTO = 0x3D,
-            WEAPONID_KNIFE_WIDOWMAKER = 0x3E,
-            WEAPONID_KNIFE_SKELETON = 0x3F,
-            WEAPONID_KNIFE_KUKRI = 0x40,
+            WEAPONID_GLOCK = 0x0
+            WEAPONID_HKP2000 = 0x1
+            WEAPONID_CZ75A = 0x2
+            WEAPONID_ELITE = 0x3
+            WEAPONID_DEAGLE = 0x4
+            WEAPONID_FIVESEVEN = 0x5
+            WEAPONID_P250 = 0x6
+            WEAPONID_REVOLVER = 0x7
+            WEAPONID_TEC9 = 0x8
+            WEAPONID_USP_SILENCER = 0x9
+            WEAPONID_AK47 = 0xA
+            WEAPONID_M4A1 = 0xB
+            WEAPONID_M4A1_SILENCER = 0xC
+            WEAPONID_FAMAS = 0xD
+            WEAPONID_GALILAR = 0xE
+            WEAPONID_AUG = 0xF
+            WEAPONID_SG556 = 0x10
+            WEAPONID_BIZON = 0x11
+            WEAPONID_MAC10 = 0x12
+            WEAPONID_MP5SD = 0x13
+            WEAPONID_MP7 = 0x14
+            WEAPONID_MP9 = 0x15
+            WEAPONID_P90 = 0x16
+            WEAPONID_UMP45 = 0x17
+            WEAPONID_MAG7 = 0x18
+            WEAPONID_NOVA = 0x19
+            WEAPONID_SAWEDOFF = 0x1A
+            WEAPONID_XM1014 = 0x1B
+            WEAPONID_AWP = 0x1C
+            WEAPONID_SSG08 = 0x1D
+            WEAPONID_G3SG1 = 0x1E
+            WEAPONID_SCAR20 = 0x1F
+            WEAPONID_M249 = 0x20
+            WEAPONID_NEGEV = 0x21
+            WEAPONID_TASER = 0x22
+            WEAPONID_DECOY = 0x23
+            WEAPONID_FLASHBANG = 0x24
+            WEAPONID_HEGRENADE = 0x25
+            WEAPONID_INCGRENADE = 0x26
+            WEAPONID_MOLOTOV = 0x27
+            WEAPONID_SMOKEGRENADE = 0x28
+            WEAPONID_C4 = 0x29
+            WEAPONID_HEALTHSHOT = 0x2A
+            WEAPONID_KNIFE = 0x2B
+            WEAPONID_KNIFE_T = 0x2C
+            WEAPONID_KNIFE_CSS = 0x2D
+            WEAPONID_KNIFE_FLIP = 0x2E
+            WEAPONID_KNIFE_GUT = 0x2F
+            WEAPONID_KNIFE_KARAMBIT = 0x30
+            WEAPONID_BAYONET = 0x31
+            WEAPONID_KNIFE_M9_BAYONET = 0x32
+            WEAPONID_KNIFE_TACTICAL = 0x33
+            WEAPONID_KNIFE_FALCHION = 0x34
+            WEAPONID_KNIFE_SURVIVAL_BOWIE = 0x35
+            WEAPONID_KNIFE_BUTTERFLY = 0x36
+            WEAPONID_KNIFE_PUSH = 0x37
+            WEAPONID_KNIFE_CORD = 0x38
+            WEAPONID_KNIFE_CANIS = 0x39
+            WEAPONID_KNIFE_URSUS = 0x3A
+            WEAPONID_KNIFE_GYPSY_JACKKNIFE = 0x3B
+            WEAPONID_KNIFE_OUTDOOR = 0x3C
+            WEAPONID_KNIFE_STILETTO = 0x3D
+            WEAPONID_KNIFE_WIDOWMAKER = 0x3E
+            WEAPONID_KNIFE_SKELETON = 0x3F
+            WEAPONID_KNIFE_KUKRI = 0x40
             WEAPONID_UNKNOWN = 0x41
         }
         // Alignment: 4
         // Member count: 4
         public enum ChoreoLookAtSpeed_t : uint {
-            eInvalid = 0x-1,
-            eSlow = 0x0,
-            eMedium = 0x1,
+            eInvalid = 0x-1
+            eSlow = 0x0
+            eMedium = 0x1
             eFast = 0x2
         }
         // Alignment: 4
         // Member count: 8
         public enum SpawnGroupFlags_t : uint {
-            SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE = 0x1,
-            SPAWN_GROUP_DONT_SPAWN_ENTITIES = 0x2,
-            SPAWN_GROUP_SYNCHRONOUS_SPAWN = 0x4,
-            SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP = 0x8,
-            SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES = 0x10,
-            SPAWN_GROUP_BLOCK_UNTIL_LOADED = 0x40,
-            SPAWN_GROUP_LOAD_STREAMING_DATA = 0x80,
+            SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE = 0x1
+            SPAWN_GROUP_DONT_SPAWN_ENTITIES = 0x2
+            SPAWN_GROUP_SYNCHRONOUS_SPAWN = 0x4
+            SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP = 0x8
+            SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES = 0x10
+            SPAWN_GROUP_BLOCK_UNTIL_LOADED = 0x40
+            SPAWN_GROUP_LOAD_STREAMING_DATA = 0x80
             SPAWN_GROUP_CREATE_NEW_SCENE_WORLD = 0x100
         }
         // Alignment: 4
         // Member count: 2
         public enum ECSUsrMsg_DisconnectToLobby_Action : uint {
-            k_ECSUsrMsg_DisconnectToLobby_Action_Default = 0x0,
+            k_ECSUsrMsg_DisconnectToLobby_Action_Default = 0x0
             k_ECSUsrMsg_DisconnectToLobby_Action_GoQueue = 0x1
         }
         // Alignment: 4
         // Member count: 3
         public enum ECsgoSteamUserStat : uint {
-            k_ECsgoSteamUserStat_XpEarnedGames = 0x1,
-            k_ECsgoSteamUserStat_MatchWinsCompetitive = 0x2,
+            k_ECsgoSteamUserStat_XpEarnedGames = 0x1
+            k_ECsgoSteamUserStat_MatchWinsCompetitive = 0x2
             k_ECsgoSteamUserStat_SurvivedDangerZone = 0x3
         }
         // Alignment: 4
         // Member count: 17
         public enum gear_slot_t : uint {
-            GEAR_SLOT_INVALID = 0x-1,
-            GEAR_SLOT_RIFLE = 0x0,
-            GEAR_SLOT_PISTOL = 0x1,
-            GEAR_SLOT_KNIFE = 0x2,
-            GEAR_SLOT_GRENADES = 0x3,
-            GEAR_SLOT_C4 = 0x4,
-            GEAR_SLOT_RESERVED_SLOT6 = 0x5,
-            GEAR_SLOT_RESERVED_SLOT7 = 0x6,
-            GEAR_SLOT_RESERVED_SLOT8 = 0x7,
-            GEAR_SLOT_RESERVED_SLOT9 = 0x8,
-            GEAR_SLOT_RESERVED_SLOT10 = 0x9,
-            GEAR_SLOT_RESERVED_SLOT11 = 0xA,
-            GEAR_SLOT_BOOSTS = 0xB,
-            GEAR_SLOT_UTILITY = 0xC,
-            GEAR_SLOT_COUNT = 0xD,
-            GEAR_SLOT_FIRST = 0x0,
+            GEAR_SLOT_INVALID = 0x-1
+            GEAR_SLOT_RIFLE = 0x0
+            GEAR_SLOT_PISTOL = 0x1
+            GEAR_SLOT_KNIFE = 0x2
+            GEAR_SLOT_GRENADES = 0x3
+            GEAR_SLOT_C4 = 0x4
+            GEAR_SLOT_RESERVED_SLOT6 = 0x5
+            GEAR_SLOT_RESERVED_SLOT7 = 0x6
+            GEAR_SLOT_RESERVED_SLOT8 = 0x7
+            GEAR_SLOT_RESERVED_SLOT9 = 0x8
+            GEAR_SLOT_RESERVED_SLOT10 = 0x9
+            GEAR_SLOT_RESERVED_SLOT11 = 0xA
+            GEAR_SLOT_BOOSTS = 0xB
+            GEAR_SLOT_UTILITY = 0xC
+            GEAR_SLOT_COUNT = 0xD
+            GEAR_SLOT_FIRST = 0x0
             GEAR_SLOT_LAST = 0xC
         }
         // Alignment: 4
         // Member count: 10
         public enum CSPlayerState : uint {
-            STATE_ACTIVE = 0x0,
-            STATE_WELCOME = 0x1,
-            STATE_PICKINGTEAM = 0x2,
-            STATE_PICKINGCLASS = 0x3,
-            STATE_DEATH_ANIM = 0x4,
-            STATE_DEATH_WAIT_FOR_KEY = 0x5,
-            STATE_OBSERVER_MODE = 0x6,
-            STATE_GUNGAME_RESPAWN = 0x7,
-            STATE_DORMANT = 0x8,
+            STATE_ACTIVE = 0x0
+            STATE_WELCOME = 0x1
+            STATE_PICKINGTEAM = 0x2
+            STATE_PICKINGCLASS = 0x3
+            STATE_DEATH_ANIM = 0x4
+            STATE_DEATH_WAIT_FOR_KEY = 0x5
+            STATE_OBSERVER_MODE = 0x6
+            STATE_GUNGAME_RESPAWN = 0x7
+            STATE_DORMANT = 0x8
             NUM_PLAYER_STATES = 0x9
         }
         // Alignment: 4
         // Member count: 3
         public enum RequestPause_t : uint {
-            RP_PAUSE = 0x0,
-            RP_UNPAUSE = 0x1,
+            RP_PAUSE = 0x0
+            RP_UNPAUSE = 0x1
             RP_TOGGLEPAUSE = 0x2
         }
         // Alignment: 4
         // Member count: 2
         public enum ScriptedConflictResponse_t : uint {
-            SS_CONFLICT_ENQUEUE = 0x0,
+            SS_CONFLICT_ENQUEUE = 0x0
             SS_CONFLICT_INTERRUPT = 0x1
         }
         // Alignment: 1
         // Member count: 7
         public enum WaterLevel_t : uint {
-            WL_NotInWater = 0x0,
-            WL_Feet = 0x1,
-            WL_Knees = 0x2,
-            WL_Waist = 0x3,
-            WL_Chest = 0x4,
-            WL_FullyUnderwater = 0x5,
+            WL_NotInWater = 0x0
+            WL_Feet = 0x1
+            WL_Knees = 0x2
+            WL_Waist = 0x3
+            WL_Chest = 0x4
+            WL_FullyUnderwater = 0x5
             WL_Count = 0x6
         }
         // Alignment: 4
         // Member count: 3
         public enum WorldTextPanelVerticalAlign_t : uint {
-            WORLDTEXT_VERTICAL_ALIGN_TOP = 0x0,
-            WORLDTEXT_VERTICAL_ALIGN_CENTER = 0x1,
+            WORLDTEXT_VERTICAL_ALIGN_TOP = 0x0
+            WORLDTEXT_VERTICAL_ALIGN_CENTER = 0x1
             WORLDTEXT_VERTICAL_ALIGN_BOTTOM = 0x2
         }
         // Alignment: 1
         // Member count: 4
         public enum RelativeLocationType_t : uint {
-            WORLD_SPACE_POSITION = 0x0,
-            RELATIVE_TO_ENTITY_IN_LOCAL_SPACE = 0x1,
-            RELATIVE_TO_ENTITY_YAW_ONLY = 0x2,
+            WORLD_SPACE_POSITION = 0x0
+            RELATIVE_TO_ENTITY_IN_LOCAL_SPACE = 0x1
+            RELATIVE_TO_ENTITY_YAW_ONLY = 0x2
             RELATIVE_TO_ENTITY_IN_WORLD_SPACE = 0x3
         }
         // Alignment: 4
         // Member count: 14
         public enum CLC_Messages : uint {
-            clc_ClientInfo = 0x14,
-            clc_Move = 0x15,
-            clc_VoiceData = 0x16,
-            clc_BaselineAck = 0x17,
-            clc_RespondCvarValue = 0x19,
-            clc_LoadingProgress = 0x1B,
-            clc_SplitPlayerConnect = 0x1C,
-            clc_SplitPlayerDisconnect = 0x1E,
-            clc_ServerStatus = 0x1F,
-            clc_RequestPause = 0x21,
-            clc_CmdKeyValues = 0x22,
-            clc_RconServerDetails = 0x23,
-            clc_HltvReplay = 0x24,
+            clc_ClientInfo = 0x14
+            clc_Move = 0x15
+            clc_VoiceData = 0x16
+            clc_BaselineAck = 0x17
+            clc_RespondCvarValue = 0x19
+            clc_LoadingProgress = 0x1B
+            clc_SplitPlayerConnect = 0x1C
+            clc_SplitPlayerDisconnect = 0x1E
+            clc_ServerStatus = 0x1F
+            clc_RequestPause = 0x21
+            clc_CmdKeyValues = 0x22
+            clc_RconServerDetails = 0x23
+            clc_HltvReplay = 0x24
             clc_Diagnostic = 0x25
         }
         // Alignment: 4
         // Member count: 3
         public enum EClientUIEvent : uint {
-            EClientUIEvent_Invalid = 0x0,
-            EClientUIEvent_DialogFinished = 0x1,
+            EClientUIEvent_Invalid = 0x0
+            EClientUIEvent_DialogFinished = 0x1
             EClientUIEvent_FireOutput = 0x2
         }
         // Alignment: 4
         // Member count: 4
         public enum AmmoPosition_t : uint {
-            AMMO_POSITION_INVALID = 0x-1,
-            AMMO_POSITION_PRIMARY = 0x0,
-            AMMO_POSITION_SECONDARY = 0x1,
+            AMMO_POSITION_INVALID = 0x-1
+            AMMO_POSITION_PRIMARY = 0x0
+            AMMO_POSITION_SECONDARY = 0x1
             AMMO_POSITION_COUNT = 0x2
         }
         // Alignment: 4
         // Member count: 11
         public enum CDebugOverlayFilterType_t : uint {
-            NONE = 0x0,
-            TEXT = 0x1,
-            ENTITY = 0x2,
-            COUNT = 0x3,
-            TACTICAL_SEARCH = 0x4,
-            AI_SCHEDULE = 0x5,
-            AI_TASK = 0x6,
-            AI_EVENT = 0x7,
-            AI_PATHFINDING = 0x8,
-            END_SIM_HISTORY_TYPES = 0x9,
+            NONE = 0x0
+            TEXT = 0x1
+            ENTITY = 0x2
+            COUNT = 0x3
+            TACTICAL_SEARCH = 0x4
+            AI_SCHEDULE = 0x5
+            AI_TASK = 0x6
+            AI_EVENT = 0x7
+            AI_PATHFINDING = 0x8
+            END_SIM_HISTORY_TYPES = 0x9
             COMBINED = 0x-1
         }
         // Alignment: 4
         // Member count: 24
         public enum PreviewEOMCelebration : uint {
-            INVALID = 0x-1,
-            WALKUP = 0x0,
-            PUNCHING = 0x1,
-            SWAGGER = 0x2,
-            DROPDOWN = 0x3,
-            STRETCH = 0x4,
-            SWAT_FEMALE = 0x5,
-            MASK_F = 0x6,
-            GUERILLA = 0x7,
-            GUERILLA02 = 0x8,
-            GENDARMERIE = 0x9,
-            SCUBA_FEMALE = 0xA,
-            SCUBA_MALE = 0xB,
-            AVA_DEFEAT = 0xC,
-            GENDARMERIE_DEFEAT = 0xD,
-            MAE_DEFEAT = 0xE,
-            RICKSAW_DEFEAT = 0xF,
-            SCUBA_FEMALE_DEFEAT = 0x10,
-            SCUBA_MALE_DEFEAT = 0x11,
-            CRASSWATER_DEFEAT = 0x12,
-            DARRYL_DEFEAT = 0x13,
-            DOCTOR_DEFEAT = 0x14,
-            MUHLIK_DEFEAT = 0x15,
+            INVALID = 0x-1
+            WALKUP = 0x0
+            PUNCHING = 0x1
+            SWAGGER = 0x2
+            DROPDOWN = 0x3
+            STRETCH = 0x4
+            SWAT_FEMALE = 0x5
+            MASK_F = 0x6
+            GUERILLA = 0x7
+            GUERILLA02 = 0x8
+            GENDARMERIE = 0x9
+            SCUBA_FEMALE = 0xA
+            SCUBA_MALE = 0xB
+            AVA_DEFEAT = 0xC
+            GENDARMERIE_DEFEAT = 0xD
+            MAE_DEFEAT = 0xE
+            RICKSAW_DEFEAT = 0xF
+            SCUBA_FEMALE_DEFEAT = 0x10
+            SCUBA_MALE_DEFEAT = 0x11
+            CRASSWATER_DEFEAT = 0x12
+            DARRYL_DEFEAT = 0x13
+            DOCTOR_DEFEAT = 0x14
+            MUHLIK_DEFEAT = 0x15
             VYPA_DEFEAT = 0x16
         }
         // Alignment: 4
         // Member count: 8
         public enum ESOMsg : uint {
-            k_ESOMsg_Create = 0x15,
-            k_ESOMsg_Update = 0x16,
-            k_ESOMsg_Destroy = 0x17,
-            k_ESOMsg_CacheSubscribed = 0x18,
-            k_ESOMsg_CacheUnsubscribed = 0x19,
-            k_ESOMsg_UpdateMultiple = 0x1A,
-            k_ESOMsg_CacheSubscriptionCheck = 0x1B,
+            k_ESOMsg_Create = 0x15
+            k_ESOMsg_Update = 0x16
+            k_ESOMsg_Destroy = 0x17
+            k_ESOMsg_CacheSubscribed = 0x18
+            k_ESOMsg_CacheUnsubscribed = 0x19
+            k_ESOMsg_UpdateMultiple = 0x1A
+            k_ESOMsg_CacheSubscriptionCheck = 0x1B
             k_ESOMsg_CacheSubscriptionRefresh = 0x1C
         }
         // Alignment: 4
         // Member count: 22
         public enum SaveRestoreTableFlags_t : uint {
-            FENTTABLE_NONE = 0x0,
-            FENTTABLE_PLAYER = 0x80000000,
-            FENTTABLE_REMOVED = 0x40000000,
-            FENTTABLE_MOVEABLE = 0x20000000,
-            FENTTABLE_GLOBAL = 0x10000000,
-            FENTTABLE_PLAYERCHILD = 0x8000000,
-            LEVELMASK_BIT_0 = 0x1,
-            LEVELMASK_BIT_1 = 0x2,
-            LEVELMASK_BIT_2 = 0x4,
-            LEVELMASK_BIT_3 = 0x8,
-            LEVELMASK_BIT_4 = 0x10,
-            LEVELMASK_BIT_5 = 0x20,
-            LEVELMASK_BIT_6 = 0x40,
-            LEVELMASK_BIT_7 = 0x80,
-            LEVELMASK_BIT_8 = 0x100,
-            LEVELMASK_BIT_9 = 0x200,
-            LEVELMASK_BIT_10 = 0x400,
-            LEVELMASK_BIT_11 = 0x800,
-            LEVELMASK_BIT_12 = 0x1000,
-            LEVELMASK_BIT_13 = 0x2000,
-            LEVELMASK_BIT_14 = 0x4000,
+            FENTTABLE_NONE = 0x0
+            FENTTABLE_PLAYER = 0x80000000
+            FENTTABLE_REMOVED = 0x40000000
+            FENTTABLE_MOVEABLE = 0x20000000
+            FENTTABLE_GLOBAL = 0x10000000
+            FENTTABLE_PLAYERCHILD = 0x8000000
+            LEVELMASK_BIT_0 = 0x1
+            LEVELMASK_BIT_1 = 0x2
+            LEVELMASK_BIT_2 = 0x4
+            LEVELMASK_BIT_3 = 0x8
+            LEVELMASK_BIT_4 = 0x10
+            LEVELMASK_BIT_5 = 0x20
+            LEVELMASK_BIT_6 = 0x40
+            LEVELMASK_BIT_7 = 0x80
+            LEVELMASK_BIT_8 = 0x100
+            LEVELMASK_BIT_9 = 0x200
+            LEVELMASK_BIT_10 = 0x400
+            LEVELMASK_BIT_11 = 0x800
+            LEVELMASK_BIT_12 = 0x1000
+            LEVELMASK_BIT_13 = 0x2000
+            LEVELMASK_BIT_14 = 0x4000
             LEVELMASK_BIT_15 = 0x8000
         }
         // Alignment: 8
         // Member count: 21
         public enum InputBitMask_t : uint {
-            IN_NONE = 0x0,
-            IN_ALL = 0x-1,
-            IN_ATTACK = 0x1,
-            IN_JUMP = 0x2,
-            IN_DUCK = 0x4,
-            IN_FORWARD = 0x8,
-            IN_BACK = 0x10,
-            IN_USE = 0x20,
-            IN_TURNLEFT = 0x80,
-            IN_TURNRIGHT = 0x100,
-            IN_MOVELEFT = 0x200,
-            IN_MOVERIGHT = 0x400,
-            IN_ATTACK2 = 0x800,
-            IN_RELOAD = 0x2000,
-            IN_SPEED = 0x10000,
-            IN_JOYAUTOSPRINT = 0x20000,
-            IN_FIRST_MOD_SPECIFIC_BIT = 0x100000000,
-            IN_USEORRELOAD = 0x100000000,
-            IN_SCORE = 0x200000000,
-            IN_ZOOM = 0x400000000,
+            IN_NONE = 0x0
+            IN_ALL = 0x-1
+            IN_ATTACK = 0x1
+            IN_JUMP = 0x2
+            IN_DUCK = 0x4
+            IN_FORWARD = 0x8
+            IN_BACK = 0x10
+            IN_USE = 0x20
+            IN_TURNLEFT = 0x80
+            IN_TURNRIGHT = 0x100
+            IN_MOVELEFT = 0x200
+            IN_MOVERIGHT = 0x400
+            IN_ATTACK2 = 0x800
+            IN_RELOAD = 0x2000
+            IN_SPEED = 0x10000
+            IN_JOYAUTOSPRINT = 0x20000
+            IN_FIRST_MOD_SPECIFIC_BIT = 0x100000000
+            IN_USEORRELOAD = 0x100000000
+            IN_SCORE = 0x200000000
+            IN_ZOOM = 0x400000000
             IN_LOOK_AT_WEAPON = 0x800000000
         }
         // Alignment: 4
         // Member count: 14
         public enum HitGroup_t : uint {
-            HITGROUP_INVALID = 0x-1,
-            HITGROUP_GENERIC = 0x0,
-            HITGROUP_HEAD = 0x1,
-            HITGROUP_CHEST = 0x2,
-            HITGROUP_STOMACH = 0x3,
-            HITGROUP_LEFTARM = 0x4,
-            HITGROUP_RIGHTARM = 0x5,
-            HITGROUP_LEFTLEG = 0x6,
-            HITGROUP_RIGHTLEG = 0x7,
-            HITGROUP_NECK = 0x8,
-            HITGROUP_UNUSED = 0x9,
-            HITGROUP_GEAR = 0xA,
-            HITGROUP_SPECIAL = 0xB,
+            HITGROUP_INVALID = 0x-1
+            HITGROUP_GENERIC = 0x0
+            HITGROUP_HEAD = 0x1
+            HITGROUP_CHEST = 0x2
+            HITGROUP_STOMACH = 0x3
+            HITGROUP_LEFTARM = 0x4
+            HITGROUP_RIGHTARM = 0x5
+            HITGROUP_LEFTLEG = 0x6
+            HITGROUP_RIGHTLEG = 0x7
+            HITGROUP_NECK = 0x8
+            HITGROUP_UNUSED = 0x9
+            HITGROUP_GEAR = 0xA
+            HITGROUP_SPECIAL = 0xB
             HITGROUP_COUNT = 0xC
         }
         // Alignment: 4
         // Member count: 8
         public enum FuncRotatorRotationSummaryFlags_t : uint {
-            eNone = 0x0,
-            eRotateBegin = 0x1,
-            eEventsDispatched = 0x2,
-            eRotateCompleted = 0x4,
-            eOscillateStart = 0x8,
-            eOscillateEnd = 0x10,
-            eOscillateArrived = 0x20,
+            eNone = 0x0
+            eRotateBegin = 0x1
+            eEventsDispatched = 0x2
+            eRotateCompleted = 0x4
+            eOscillateStart = 0x8
+            eOscillateEnd = 0x10
+            eOscillateArrived = 0x20
             eOscillateDepart = 0x40
         }
         // Alignment: 4
         // Member count: 2
         public enum PointWorldTextReorientMode_t : uint {
-            POINT_WORLD_TEXT_REORIENT_NONE = 0x0,
+            POINT_WORLD_TEXT_REORIENT_NONE = 0x0
             POINT_WORLD_TEXT_REORIENT_AROUND_UP = 0x1
         }
         // Alignment: 8
         // Member count: 43
         public enum DebugOverlayBits_t : uint {
-            OVERLAY_TEXT_BIT = 0x1,
-            OVERLAY_NAME_BIT = 0x2,
-            OVERLAY_BBOX_BIT = 0x4,
-            OVERLAY_PIVOT_BIT = 0x8,
-            OVERLAY_MESSAGE_BIT = 0x10,
-            OVERLAY_ABSBOX_BIT = 0x20,
-            OVERLAY_RBOX_BIT = 0x40,
-            OVERLAY_SHOW_BLOCKSLOS = 0x80,
-            OVERLAY_ATTACHMENTS_BIT = 0x100,
-            OVERLAY_INTERPOLATED_ATTACHMENTS_BIT = 0x200,
-            OVERLAY_INTERPOLATED_PIVOT_BIT = 0x400,
-            OVERLAY_SKELETON_BIT = 0x800,
-            OVERLAY_INTERPOLATED_SKELETON_BIT = 0x1000,
-            OVERLAY_TRIGGER_BOUNDS_BIT = 0x2000,
-            OVERLAY_HITBOX_BIT = 0x4000,
-            OVERLAY_INTERPOLATED_HITBOX_BIT = 0x8000,
-            OVERLAY_AUTOAIM_BIT = 0x10000,
-            OVERLAY_NPC_SELECTED_BIT = 0x20000,
-            OVERLAY_JOINT_INFO_BIT = 0x40000,
-            OVERLAY_NPC_ROUTE_BIT = 0x80000,
-            OVERLAY_VISIBILITY_TRACES_BIT = 0x100000,
-            OVERLAY_NPC_ENEMIES_BIT = 0x400000,
-            OVERLAY_NPC_CONDITIONS_BIT = 0x800000,
-            OVERLAY_NPC_COMBAT_BIT = 0x1000000,
-            OVERLAY_NPC_TASK_BIT = 0x2000000,
-            OVERLAY_NPC_BODYLOCATIONS = 0x4000000,
-            OVERLAY_NPC_VIEWCONE_BIT = 0x8000000,
-            OVERLAY_NPC_KILL_BIT = 0x10000000,
-            OVERLAY_BUDDHA_MODE = 0x40000000,
-            OVERLAY_NPC_STEERING_REGULATIONS = 0x80000000,
-            OVERLAY_NPC_TASK_TEXT_BIT = 0x100000000,
-            OVERLAY_PROP_DEBUG = 0x200000000,
-            OVERLAY_NPC_RELATION_BIT = 0x400000000,
-            OVERLAY_VIEWOFFSET = 0x800000000,
-            OVERLAY_VCOLLIDE_WIREFRAME_BIT = 0x1000000000,
-            OVERLAY_NPC_SCRIPTED_COMMANDS_BIT = 0x2000000000,
-            OVERLAY_ACTORNAME_BIT = 0x4000000000,
-            OVERLAY_NPC_CONDITIONS_TEXT_BIT = 0x8000000000,
-            OVERLAY_NPC_ABILITY_RANGE_DEBUG_BIT = 0x10000000000,
-            OVERLAY_MINIMAL_TEXT = 0x20000000000,
-            OVERLAY_NPC_GOD_MODE = 0x40000000000,
-            OVERLAY_NPC_ANIM_AI_HANDSHAKES_BIT = 0x80000000000,
+            OVERLAY_TEXT_BIT = 0x1
+            OVERLAY_NAME_BIT = 0x2
+            OVERLAY_BBOX_BIT = 0x4
+            OVERLAY_PIVOT_BIT = 0x8
+            OVERLAY_MESSAGE_BIT = 0x10
+            OVERLAY_ABSBOX_BIT = 0x20
+            OVERLAY_RBOX_BIT = 0x40
+            OVERLAY_SHOW_BLOCKSLOS = 0x80
+            OVERLAY_ATTACHMENTS_BIT = 0x100
+            OVERLAY_INTERPOLATED_ATTACHMENTS_BIT = 0x200
+            OVERLAY_INTERPOLATED_PIVOT_BIT = 0x400
+            OVERLAY_SKELETON_BIT = 0x800
+            OVERLAY_INTERPOLATED_SKELETON_BIT = 0x1000
+            OVERLAY_TRIGGER_BOUNDS_BIT = 0x2000
+            OVERLAY_HITBOX_BIT = 0x4000
+            OVERLAY_INTERPOLATED_HITBOX_BIT = 0x8000
+            OVERLAY_AUTOAIM_BIT = 0x10000
+            OVERLAY_NPC_SELECTED_BIT = 0x20000
+            OVERLAY_JOINT_INFO_BIT = 0x40000
+            OVERLAY_NPC_ROUTE_BIT = 0x80000
+            OVERLAY_VISIBILITY_TRACES_BIT = 0x100000
+            OVERLAY_NPC_ENEMIES_BIT = 0x400000
+            OVERLAY_NPC_CONDITIONS_BIT = 0x800000
+            OVERLAY_NPC_COMBAT_BIT = 0x1000000
+            OVERLAY_NPC_TASK_BIT = 0x2000000
+            OVERLAY_NPC_BODYLOCATIONS = 0x4000000
+            OVERLAY_NPC_VIEWCONE_BIT = 0x8000000
+            OVERLAY_NPC_KILL_BIT = 0x10000000
+            OVERLAY_BUDDHA_MODE = 0x40000000
+            OVERLAY_NPC_STEERING_REGULATIONS = 0x80000000
+            OVERLAY_NPC_TASK_TEXT_BIT = 0x100000000
+            OVERLAY_PROP_DEBUG = 0x200000000
+            OVERLAY_NPC_RELATION_BIT = 0x400000000
+            OVERLAY_VIEWOFFSET = 0x800000000
+            OVERLAY_VCOLLIDE_WIREFRAME_BIT = 0x1000000000
+            OVERLAY_NPC_SCRIPTED_COMMANDS_BIT = 0x2000000000
+            OVERLAY_ACTORNAME_BIT = 0x4000000000
+            OVERLAY_NPC_CONDITIONS_TEXT_BIT = 0x8000000000
+            OVERLAY_NPC_ABILITY_RANGE_DEBUG_BIT = 0x10000000000
+            OVERLAY_MINIMAL_TEXT = 0x20000000000
+            OVERLAY_NPC_GOD_MODE = 0x40000000000
+            OVERLAY_NPC_ANIM_AI_HANDSHAKES_BIT = 0x80000000000
             OVERLAY_NPC_PATH_QUERIES_BIT = 0x100000000000
         }
         // Alignment: 4
         // Member count: 3
         public enum AmmoFlags_t : uint {
-            AMMO_FORCE_DROP_IF_CARRIED = 0x1,
-            AMMO_RESERVE_STAYS_WITH_WEAPON = 0x2,
+            AMMO_FORCE_DROP_IF_CARRIED = 0x1
+            AMMO_RESERVE_STAYS_WITH_WEAPON = 0x2
             AMMO_FLAG_MAX = 0x2
         }
         // Alignment: 4
         // Member count: 15
         public enum EBaseGameEvents : uint {
-            GE_VDebugGameSessionIDEvent = 0xC8,
-            GE_PlaceDecalEvent = 0xC9,
-            GE_ClearWorldDecalsEvent = 0xCA,
-            GE_ClearEntityDecalsEvent = 0xCB,
-            GE_ClearDecalsForEntityEvent = 0xCC,
-            GE_Source1LegacyGameEventList = 0xCD,
-            GE_Source1LegacyListenEvents = 0xCE,
-            GE_Source1LegacyGameEvent = 0xCF,
-            GE_SosStartSoundEvent = 0xD0,
-            GE_SosStopSoundEvent = 0xD1,
-            GE_SosSetSoundEventParams = 0xD2,
-            GE_SosSetLibraryStackFields = 0xD3,
-            GE_SosStopSoundEventHash = 0xD4,
-            GE_ClothStiffenAnimEvent = 0xD5,
+            GE_VDebugGameSessionIDEvent = 0xC8
+            GE_PlaceDecalEvent = 0xC9
+            GE_ClearWorldDecalsEvent = 0xCA
+            GE_ClearEntityDecalsEvent = 0xCB
+            GE_ClearDecalsForEntityEvent = 0xCC
+            GE_Source1LegacyGameEventList = 0xCD
+            GE_Source1LegacyListenEvents = 0xCE
+            GE_Source1LegacyGameEvent = 0xCF
+            GE_SosStartSoundEvent = 0xD0
+            GE_SosStopSoundEvent = 0xD1
+            GE_SosSetSoundEventParams = 0xD2
+            GE_SosSetLibraryStackFields = 0xD3
+            GE_SosStopSoundEventHash = 0xD4
+            GE_ClothStiffenAnimEvent = 0xD5
             GE_ClothEffectAnimEvent = 0xD6
         }
         // Alignment: 4
         // Member count: 5
         public enum DecalFlags_t : uint {
-            eNone = 0x0,
-            eCannotClear = 0x1,
-            eDecalProjectToBackfaces = 0x2,
-            eAll = 0xFFFFFFFF,
+            eNone = 0x0
+            eCannotClear = 0x1
+            eDecalProjectToBackfaces = 0x2
+            eAll = 0xFFFFFFFF
             eAllButCannotClear = 0xFFFFFFFE
         }
         // Alignment: 4
         // Member count: 79
         public enum ECstrike15UserMessages : uint {
-            CS_UM_VGUIMenu = 0x12D,
-            CS_UM_Geiger = 0x12E,
-            CS_UM_Train = 0x12F,
-            CS_UM_HudText = 0x130,
-            CS_UM_SayText_CSGOLegacy = 0x131,
-            CS_UM_SayText2_CSGOLegacy = 0x132,
-            CS_UM_TextMsg_CSGOLegacy = 0x133,
-            CS_UM_HudMsg = 0x134,
-            CS_UM_ResetHud = 0x135,
-            CS_UM_GameTitle = 0x136,
-            CS_UM_Shake = 0x138,
-            CS_UM_Fade = 0x139,
-            CS_UM_Rumble = 0x13A,
-            CS_UM_CloseCaption = 0x13B,
-            CS_UM_CloseCaptionDirect = 0x13C,
-            CS_UM_SendAudio = 0x13D,
-            CS_UM_RawAudio = 0x13E,
-            CS_UM_VoiceMask = 0x13F,
-            CS_UM_RequestState = 0x140,
-            CS_UM_Damage = 0x141,
-            CS_UM_RadioText = 0x142,
-            CS_UM_HintText = 0x143,
-            CS_UM_KeyHintText = 0x144,
-            CS_UM_ProcessSpottedEntityUpdate = 0x145,
-            CS_UM_ReloadEffect = 0x146,
-            CS_UM_AdjustMoney = 0x147,
-            CS_UM_UpdateTeamMoney_CSGOLegacy = 0x148,
-            CS_UM_StopSpectatorMode = 0x149,
-            CS_UM_KillCam = 0x14A,
-            CS_UM_DesiredTimescale = 0x14B,
-            CS_UM_CurrentTimescale = 0x14C,
-            CS_UM_AchievementEvent = 0x14D,
-            CS_UM_MatchEndConditions = 0x14E,
-            CS_UM_DisconnectToLobby = 0x14F,
-            CS_UM_PlayerStatsUpdate = 0x150,
-            CS_UM_ClientInfo = 0x153,
-            CS_UM_XRankGet = 0x154,
-            CS_UM_XRankUpd = 0x155,
-            CS_UM_CallVoteFailed = 0x159,
-            CS_UM_VoteStart = 0x15A,
-            CS_UM_VotePass = 0x15B,
-            CS_UM_VoteFailed = 0x15C,
-            CS_UM_VoteSetup = 0x15D,
-            CS_UM_ServerRankRevealAll = 0x15E,
-            CS_UM_SendLastKillerDamageToClient = 0x15F,
-            CS_UM_ServerRankUpdate = 0x160,
-            CS_UM_ItemPickup = 0x161,
-            CS_UM_ShowMenu = 0x162,
-            CS_UM_BarTime = 0x163,
-            CS_UM_AmmoDenied = 0x164,
-            CS_UM_MarkAchievement = 0x165,
-            CS_UM_MatchStatsUpdate = 0x166,
-            CS_UM_ItemDrop = 0x167,
-            CS_UM_SendPlayerItemDrops = 0x169,
-            CS_UM_RoundBackupFilenames = 0x16A,
-            CS_UM_SendPlayerItemFound = 0x16B,
-            CS_UM_ReportHit = 0x16C,
-            CS_UM_XpUpdate = 0x16D,
-            CS_UM_QuestProgress = 0x16E,
-            CS_UM_ScoreLeaderboardData = 0x16F,
-            CS_UM_PlayerDecalDigitalSignature = 0x170,
-            CS_UM_WeaponSound = 0x171,
-            CS_UM_UpdateScreenHealthBar = 0x172,
-            CS_UM_EntityOutlineHighlight = 0x173,
-            CS_UM_SSUI = 0x174,
-            CS_UM_SurvivalStats = 0x175,
-            CS_UM_DisconnectToLobby2 = 0x176,
-            CS_UM_EndOfMatchAllPlayersData = 0x177,
-            CS_UM_PostRoundDamageReport = 0x178,
-            CS_UM_RoundEndReportData = 0x17B,
-            CS_UM_CurrentRoundOdds = 0x17C,
-            CS_UM_DeepStats = 0x17D,
-            CS_UM_ShootInfo = 0x17F,
-            CS_UM_CounterStrafe = 0x181,
-            CS_UM_DamagePrediction = 0x182,
-            CS_UM_RecurringMissionSchema = 0x183,
-            CS_UM_SendPlayerLoadout = 0x184,
-            CS_UM_WeaponMagDrop = 0x185,
+            CS_UM_VGUIMenu = 0x12D
+            CS_UM_Geiger = 0x12E
+            CS_UM_Train = 0x12F
+            CS_UM_HudText = 0x130
+            CS_UM_SayText_CSGOLegacy = 0x131
+            CS_UM_SayText2_CSGOLegacy = 0x132
+            CS_UM_TextMsg_CSGOLegacy = 0x133
+            CS_UM_HudMsg = 0x134
+            CS_UM_ResetHud = 0x135
+            CS_UM_GameTitle = 0x136
+            CS_UM_Shake = 0x138
+            CS_UM_Fade = 0x139
+            CS_UM_Rumble = 0x13A
+            CS_UM_CloseCaption = 0x13B
+            CS_UM_CloseCaptionDirect = 0x13C
+            CS_UM_SendAudio = 0x13D
+            CS_UM_RawAudio = 0x13E
+            CS_UM_VoiceMask = 0x13F
+            CS_UM_RequestState = 0x140
+            CS_UM_Damage = 0x141
+            CS_UM_RadioText = 0x142
+            CS_UM_HintText = 0x143
+            CS_UM_KeyHintText = 0x144
+            CS_UM_ProcessSpottedEntityUpdate = 0x145
+            CS_UM_ReloadEffect = 0x146
+            CS_UM_AdjustMoney = 0x147
+            CS_UM_UpdateTeamMoney_CSGOLegacy = 0x148
+            CS_UM_StopSpectatorMode = 0x149
+            CS_UM_KillCam = 0x14A
+            CS_UM_DesiredTimescale = 0x14B
+            CS_UM_CurrentTimescale = 0x14C
+            CS_UM_AchievementEvent = 0x14D
+            CS_UM_MatchEndConditions = 0x14E
+            CS_UM_DisconnectToLobby = 0x14F
+            CS_UM_PlayerStatsUpdate = 0x150
+            CS_UM_ClientInfo = 0x153
+            CS_UM_XRankGet = 0x154
+            CS_UM_XRankUpd = 0x155
+            CS_UM_CallVoteFailed = 0x159
+            CS_UM_VoteStart = 0x15A
+            CS_UM_VotePass = 0x15B
+            CS_UM_VoteFailed = 0x15C
+            CS_UM_VoteSetup = 0x15D
+            CS_UM_ServerRankRevealAll = 0x15E
+            CS_UM_SendLastKillerDamageToClient = 0x15F
+            CS_UM_ServerRankUpdate = 0x160
+            CS_UM_ItemPickup = 0x161
+            CS_UM_ShowMenu = 0x162
+            CS_UM_BarTime = 0x163
+            CS_UM_AmmoDenied = 0x164
+            CS_UM_MarkAchievement = 0x165
+            CS_UM_MatchStatsUpdate = 0x166
+            CS_UM_ItemDrop = 0x167
+            CS_UM_SendPlayerItemDrops = 0x169
+            CS_UM_RoundBackupFilenames = 0x16A
+            CS_UM_SendPlayerItemFound = 0x16B
+            CS_UM_ReportHit = 0x16C
+            CS_UM_XpUpdate = 0x16D
+            CS_UM_QuestProgress = 0x16E
+            CS_UM_ScoreLeaderboardData = 0x16F
+            CS_UM_PlayerDecalDigitalSignature = 0x170
+            CS_UM_WeaponSound = 0x171
+            CS_UM_UpdateScreenHealthBar = 0x172
+            CS_UM_EntityOutlineHighlight = 0x173
+            CS_UM_SSUI = 0x174
+            CS_UM_SurvivalStats = 0x175
+            CS_UM_DisconnectToLobby2 = 0x176
+            CS_UM_EndOfMatchAllPlayersData = 0x177
+            CS_UM_PostRoundDamageReport = 0x178
+            CS_UM_RoundEndReportData = 0x17B
+            CS_UM_CurrentRoundOdds = 0x17C
+            CS_UM_DeepStats = 0x17D
+            CS_UM_ShootInfo = 0x17F
+            CS_UM_CounterStrafe = 0x181
+            CS_UM_DamagePrediction = 0x182
+            CS_UM_RecurringMissionSchema = 0x183
+            CS_UM_SendPlayerLoadout = 0x184
+            CS_UM_WeaponMagDrop = 0x185
             CS_UM_CustomHudClicked = 0x186
         }
         // Alignment: 4
         // Member count: 6
         public enum HierarchyType_t : uint {
-            HIERARCHY_NONE = 0x0,
-            HIERARCHY_BONE_MERGE = 0x1,
-            HIERARCHY_ATTACHMENT = 0x2,
-            HIERARCHY_ABSORIGIN = 0x3,
-            HIERARCHY_BONE = 0x4,
+            HIERARCHY_NONE = 0x0
+            HIERARCHY_BONE_MERGE = 0x1
+            HIERARCHY_ATTACHMENT = 0x2
+            HIERARCHY_ABSORIGIN = 0x3
+            HIERARCHY_BONE = 0x4
             HIERARCHY_TYPE_COUNT = 0x5
         }
         // Alignment: 4
         // Member count: 3
         public enum doorCheck_e : uint {
-            DOOR_CHECK_FORWARD = 0x0,
-            DOOR_CHECK_BACKWARD = 0x1,
+            DOOR_CHECK_FORWARD = 0x0
+            DOOR_CHECK_BACKWARD = 0x1
             DOOR_CHECK_FULL = 0x2
         }
         // Alignment: 4
         // Member count: 7
         public enum BeamType_t : uint {
-            BEAM_INVALID = 0x0,
-            BEAM_POINTS = 0x1,
-            BEAM_ENTPOINT = 0x2,
-            BEAM_ENTS = 0x3,
-            xxBEAM_HOSExxunused = 0x4,
-            BEAM_SPLINE = 0x5,
+            BEAM_INVALID = 0x0
+            BEAM_POINTS = 0x1
+            BEAM_ENTPOINT = 0x2
+            BEAM_ENTS = 0x3
+            xxBEAM_HOSExxunused = 0x4
+            BEAM_SPLINE = 0x5
             BEAM_LASER = 0x6
         }
         // Alignment: 4
         // Member count: 5
         public enum ReplayEventType_t : uint {
-            REPLAY_EVENT_CANCEL = 0x0,
-            REPLAY_EVENT_DEATH = 0x1,
-            REPLAY_EVENT_GENERIC = 0x2,
-            REPLAY_EVENT_STUCK_NEED_FULL_UPDATE = 0x3,
+            REPLAY_EVENT_CANCEL = 0x0
+            REPLAY_EVENT_DEATH = 0x1
+            REPLAY_EVENT_GENERIC = 0x2
+            REPLAY_EVENT_STUCK_NEED_FULL_UPDATE = 0x3
             REPLAY_EVENT_VICTORY = 0x4
         }
         // Alignment: 4
         // Member count: 4
         public enum EntitySubclassScope_t : uint {
-            SUBCLASS_SCOPE_NONE = 0x-1,
-            SUBCLASS_SCOPE_PRECIPITATION = 0x0,
-            SUBCLASS_SCOPE_PLAYER_WEAPONS = 0x1,
+            SUBCLASS_SCOPE_NONE = 0x-1
+            SUBCLASS_SCOPE_PRECIPITATION = 0x0
+            SUBCLASS_SCOPE_PLAYER_WEAPONS = 0x1
             SUBCLASS_SCOPE_COUNT = 0x2
         }
         // Alignment: 4
         // Member count: 2
         public enum PointTemplateClientOnlyEntityBehavior_t : uint {
-            CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY = 0x0,
+            CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY = 0x0
             CREATE_FOR_CLIENTS_WHO_CONNECT_LATER = 0x1
         }
         // Alignment: 4
         // Member count: 3
         public enum CDebugOverlayCombinedTypes_t : uint {
-            ALL = 0x0,
-            ANY = 0x1,
+            ALL = 0x0
+            ANY = 0x1
             COUNT = 0x2
         }
         // Alignment: 1
         // Member count: 4
         public enum ShatterGlassStressType : uint {
-            SHATTERGLASS_BLUNT = 0x0,
-            SHATTERGLASS_BALLISTIC = 0x1,
-            SHATTERGLASS_PULSE = 0x2,
+            SHATTERGLASS_BLUNT = 0x0
+            SHATTERGLASS_BALLISTIC = 0x1
+            SHATTERGLASS_PULSE = 0x2
             SHATTERGLASS_EXPLOSIVE = 0x3
         }
         // Alignment: 4
         // Member count: 3
         public enum TrackOrientationType_t : uint {
-            TrackOrientation_Fixed = 0x0,
-            TrackOrientation_FacePath = 0x1,
+            TrackOrientation_Fixed = 0x0
+            TrackOrientation_FacePath = 0x1
             TrackOrientation_FacePathAngles = 0x2
         }
         // Alignment: 4
         // Member count: 5
         public enum WeaponSwitchReason_t : uint {
-            eDrawn = 0x0,
-            eEquipped = 0x1,
-            eUserInitiatedSwitchToLast = 0x2,
-            eUserInitiatedUIKeyPress = 0x3,
+            eDrawn = 0x0
+            eEquipped = 0x1
+            eUserInitiatedSwitchToLast = 0x2
+            eUserInitiatedUIKeyPress = 0x3
             eUserInitiatedSwitchHands = 0x4
         }
         // Alignment: 4
         // Member count: 2
         public enum ValueRemapperRatchetType_t : uint {
-            RatchetType_Absolute = 0x0,
+            RatchetType_Absolute = 0x0
             RatchetType_EachEngage = 0x1
         }
         // Alignment: 4
         // Member count: 5
         public enum NavDirType : uint {
-            NORTH = 0x0,
-            EAST = 0x1,
-            SOUTH = 0x2,
-            WEST = 0x3,
+            NORTH = 0x0
+            EAST = 0x1
+            SOUTH = 0x2
+            WEST = 0x3
             NUM_NAV_DIR_TYPE_DIRECTIONS = 0x4
         }
         // Alignment: 4
         // Member count: 15
         public enum EGCBaseMsg : uint {
-            k_EMsgGCSystemMessage = 0xFA1,
-            k_EMsgGCReplicateConVars = 0xFA2,
-            k_EMsgGCConVarUpdated = 0xFA3,
-            k_EMsgGCInQueue = 0xFA8,
-            k_EMsgGCInviteToParty = 0x1195,
-            k_EMsgGCInvitationCreated = 0x1196,
-            k_EMsgGCPartyInviteResponse = 0x1197,
-            k_EMsgGCKickFromParty = 0x1198,
-            k_EMsgGCLeaveParty = 0x1199,
-            k_EMsgGCServerAvailable = 0x119A,
-            k_EMsgGCClientConnectToServer = 0x119B,
-            k_EMsgGCGameServerInfo = 0x119C,
-            k_EMsgGCError = 0x119D,
-            k_EMsgGCReplay_UploadedToYouTube = 0x119E,
+            k_EMsgGCSystemMessage = 0xFA1
+            k_EMsgGCReplicateConVars = 0xFA2
+            k_EMsgGCConVarUpdated = 0xFA3
+            k_EMsgGCInQueue = 0xFA8
+            k_EMsgGCInviteToParty = 0x1195
+            k_EMsgGCInvitationCreated = 0x1196
+            k_EMsgGCPartyInviteResponse = 0x1197
+            k_EMsgGCKickFromParty = 0x1198
+            k_EMsgGCLeaveParty = 0x1199
+            k_EMsgGCServerAvailable = 0x119A
+            k_EMsgGCClientConnectToServer = 0x119B
+            k_EMsgGCGameServerInfo = 0x119C
+            k_EMsgGCError = 0x119D
+            k_EMsgGCReplay_UploadedToYouTube = 0x119E
             k_EMsgGCLANServerAvailable = 0x119F
         }
         // Alignment: 4
         // Member count: 2
         public enum CRR_Response::ResponseEnum_t : uint {
-            MAX_RESPONSE_NAME = 0xC0,
+            MAX_RESPONSE_NAME = 0xC0
             MAX_RULE_NAME = 0x80
         }
         // Alignment: 4
         // Member count: 4
         public enum MoveMountingAmount_t : uint {
-            MOVE_MOUNT_NONE = 0x0,
-            MOVE_MOUNT_LOW = 0x1,
-            MOVE_MOUNT_HIGH = 0x2,
+            MOVE_MOUNT_NONE = 0x0
+            MOVE_MOUNT_LOW = 0x1
+            MOVE_MOUNT_HIGH = 0x2
             MOVE_MOUNT_MAXCOUNT = 0x3
         }
         // Alignment: 4
         // Member count: 3
         public enum EHudPanelClassStatus_t : uint {
-            k_eHudPanelClassStatus_Undefined = 0x-1,
-            k_eHudPanelClassStatus_DoesNotHaveClass = 0x0,
+            k_eHudPanelClassStatus_Undefined = 0x-1
+            k_eHudPanelClassStatus_DoesNotHaveClass = 0x0
             k_eHudPanelClassStatus_HasClass = 0x1
         }
         // Alignment: 4
         // Member count: 4
         public enum GCClientLauncherType : uint {
-            GCClientLauncherType_DEFAULT = 0x0,
-            GCClientLauncherType_PERFECTWORLD = 0x1,
-            GCClientLauncherType_STEAMCHINA = 0x2,
+            GCClientLauncherType_DEFAULT = 0x0
+            GCClientLauncherType_PERFECTWORLD = 0x1
+            GCClientLauncherType_STEAMCHINA = 0x2
             GCClientLauncherType_SOURCE2 = 0x3
         }
         // Alignment: 4
         // Member count: 3
         public enum ChoreoStrafeMode_t : uint {
-            DEFAULT = 0x0,
-            ENABLE = 0x1,
+            DEFAULT = 0x0
+            ENABLE = 0x1
             DISABLE = 0x2
         }
         // Alignment: 1
         // Member count: 3
         public enum HoverPoseFlags_t : uint {
-            eNone = 0x0,
-            ePosition = 0x1,
+            eNone = 0x0
+            ePosition = 0x1
             eAngles = 0x2
         }
         // Alignment: 1
         // Member count: 18
         public enum RenderFx_t : uint {
-            kRenderFxNone = 0x0,
-            kRenderFxPulseSlow = 0x1,
-            kRenderFxPulseFast = 0x2,
-            kRenderFxPulseSlowWide = 0x3,
-            kRenderFxPulseFastWide = 0x4,
-            kRenderFxFadeSlow = 0x5,
-            kRenderFxFadeFast = 0x6,
-            kRenderFxSolidSlow = 0x7,
-            kRenderFxSolidFast = 0x8,
-            kRenderFxStrobeSlow = 0x9,
-            kRenderFxStrobeFast = 0xA,
-            kRenderFxStrobeFaster = 0xB,
-            kRenderFxFlickerSlow = 0xC,
-            kRenderFxFlickerFast = 0xD,
-            kRenderFxFadeOut = 0xE,
-            kRenderFxFadeIn = 0xF,
-            kRenderFxPulseFastWider = 0x10,
+            kRenderFxNone = 0x0
+            kRenderFxPulseSlow = 0x1
+            kRenderFxPulseFast = 0x2
+            kRenderFxPulseSlowWide = 0x3
+            kRenderFxPulseFastWide = 0x4
+            kRenderFxFadeSlow = 0x5
+            kRenderFxFadeFast = 0x6
+            kRenderFxSolidSlow = 0x7
+            kRenderFxSolidFast = 0x8
+            kRenderFxStrobeSlow = 0x9
+            kRenderFxStrobeFast = 0xA
+            kRenderFxStrobeFaster = 0xB
+            kRenderFxFlickerSlow = 0xC
+            kRenderFxFlickerFast = 0xD
+            kRenderFxFadeOut = 0xE
+            kRenderFxFadeIn = 0xF
+            kRenderFxPulseFastWider = 0x10
             kRenderFxMax = 0x11
         }
         // Alignment: 4
         // Member count: 35
         public enum vote_create_failed_t : uint {
-            VOTE_FAILED_GENERIC = 0x0,
-            VOTE_FAILED_TRANSITIONING_PLAYERS = 0x1,
-            VOTE_FAILED_RATE_EXCEEDED = 0x2,
-            VOTE_FAILED_YES_MUST_EXCEED_NO = 0x3,
-            VOTE_FAILED_QUORUM_FAILURE = 0x4,
-            VOTE_FAILED_ISSUE_DISABLED = 0x5,
-            VOTE_FAILED_MAP_NOT_FOUND = 0x6,
-            VOTE_FAILED_MAP_NAME_REQUIRED = 0x7,
-            VOTE_FAILED_FAILED_RECENTLY = 0x8,
-            VOTE_FAILED_TEAM_CANT_CALL = 0x9,
-            VOTE_FAILED_WAITINGFORPLAYERS = 0xA,
-            VOTE_FAILED_PLAYERNOTFOUND = 0xB,
-            VOTE_FAILED_CANNOT_KICK_ADMIN = 0xC,
-            VOTE_FAILED_SCRAMBLE_IN_PROGRESS = 0xD,
-            VOTE_FAILED_SPECTATOR = 0xE,
-            VOTE_FAILED_FAILED_RECENT_KICK = 0xF,
-            VOTE_FAILED_FAILED_RECENT_CHANGEMAP = 0x10,
-            VOTE_FAILED_FAILED_RECENT_SWAPTEAMS = 0x11,
-            VOTE_FAILED_FAILED_RECENT_SCRAMBLETEAMS = 0x12,
-            VOTE_FAILED_FAILED_RECENT_RESTART = 0x13,
-            VOTE_FAILED_SWAP_IN_PROGRESS = 0x14,
-            VOTE_FAILED_DISABLED = 0x15,
-            VOTE_FAILED_NEXTLEVEL_SET = 0x16,
-            VOTE_FAILED_TOO_EARLY_SURRENDER = 0x17,
-            VOTE_FAILED_MATCH_PAUSED = 0x18,
-            VOTE_FAILED_MATCH_NOT_PAUSED = 0x19,
-            VOTE_FAILED_NOT_IN_WARMUP = 0x1A,
-            VOTE_FAILED_NOT_10_PLAYERS = 0x1B,
-            VOTE_FAILED_TIMEOUT_ACTIVE = 0x1C,
-            VOTE_FAILED_TIMEOUT_INACTIVE = 0x1D,
-            VOTE_FAILED_TIMEOUT_EXHAUSTED = 0x1E,
-            VOTE_FAILED_CANT_ROUND_END = 0x1F,
-            VOTE_FAILED_REMATCH = 0x20,
-            VOTE_FAILED_CONTINUE = 0x21,
+            VOTE_FAILED_GENERIC = 0x0
+            VOTE_FAILED_TRANSITIONING_PLAYERS = 0x1
+            VOTE_FAILED_RATE_EXCEEDED = 0x2
+            VOTE_FAILED_YES_MUST_EXCEED_NO = 0x3
+            VOTE_FAILED_QUORUM_FAILURE = 0x4
+            VOTE_FAILED_ISSUE_DISABLED = 0x5
+            VOTE_FAILED_MAP_NOT_FOUND = 0x6
+            VOTE_FAILED_MAP_NAME_REQUIRED = 0x7
+            VOTE_FAILED_FAILED_RECENTLY = 0x8
+            VOTE_FAILED_TEAM_CANT_CALL = 0x9
+            VOTE_FAILED_WAITINGFORPLAYERS = 0xA
+            VOTE_FAILED_PLAYERNOTFOUND = 0xB
+            VOTE_FAILED_CANNOT_KICK_ADMIN = 0xC
+            VOTE_FAILED_SCRAMBLE_IN_PROGRESS = 0xD
+            VOTE_FAILED_SPECTATOR = 0xE
+            VOTE_FAILED_FAILED_RECENT_KICK = 0xF
+            VOTE_FAILED_FAILED_RECENT_CHANGEMAP = 0x10
+            VOTE_FAILED_FAILED_RECENT_SWAPTEAMS = 0x11
+            VOTE_FAILED_FAILED_RECENT_SCRAMBLETEAMS = 0x12
+            VOTE_FAILED_FAILED_RECENT_RESTART = 0x13
+            VOTE_FAILED_SWAP_IN_PROGRESS = 0x14
+            VOTE_FAILED_DISABLED = 0x15
+            VOTE_FAILED_NEXTLEVEL_SET = 0x16
+            VOTE_FAILED_TOO_EARLY_SURRENDER = 0x17
+            VOTE_FAILED_MATCH_PAUSED = 0x18
+            VOTE_FAILED_MATCH_NOT_PAUSED = 0x19
+            VOTE_FAILED_NOT_IN_WARMUP = 0x1A
+            VOTE_FAILED_NOT_10_PLAYERS = 0x1B
+            VOTE_FAILED_TIMEOUT_ACTIVE = 0x1C
+            VOTE_FAILED_TIMEOUT_INACTIVE = 0x1D
+            VOTE_FAILED_TIMEOUT_EXHAUSTED = 0x1E
+            VOTE_FAILED_CANT_ROUND_END = 0x1F
+            VOTE_FAILED_REMATCH = 0x20
+            VOTE_FAILED_CONTINUE = 0x21
             VOTE_FAILED_MAX = 0x22
         }
         // Alignment: 4
         // Member count: 27
         public enum RumbleEffect_t : uint {
-            RUMBLE_INVALID = 0x-1,
-            RUMBLE_STOP_ALL = 0x0,
-            RUMBLE_PISTOL = 0x1,
-            RUMBLE_357 = 0x2,
-            RUMBLE_SMG1 = 0x3,
-            RUMBLE_AR2 = 0x4,
-            RUMBLE_SHOTGUN_SINGLE = 0x5,
-            RUMBLE_SHOTGUN_DOUBLE = 0x6,
-            RUMBLE_AR2_ALT_FIRE = 0x7,
-            RUMBLE_RPG_MISSILE = 0x8,
-            RUMBLE_CROWBAR_SWING = 0x9,
-            RUMBLE_AIRBOAT_GUN = 0xA,
-            RUMBLE_JEEP_ENGINE_LOOP = 0xB,
-            RUMBLE_FLAT_LEFT = 0xC,
-            RUMBLE_FLAT_RIGHT = 0xD,
-            RUMBLE_FLAT_BOTH = 0xE,
-            RUMBLE_DMG_LOW = 0xF,
-            RUMBLE_DMG_MED = 0x10,
-            RUMBLE_DMG_HIGH = 0x11,
-            RUMBLE_FALL_LONG = 0x12,
-            RUMBLE_FALL_SHORT = 0x13,
-            RUMBLE_PHYSCANNON_OPEN = 0x14,
-            RUMBLE_PHYSCANNON_PUNT = 0x15,
-            RUMBLE_PHYSCANNON_LOW = 0x16,
-            RUMBLE_PHYSCANNON_MEDIUM = 0x17,
-            RUMBLE_PHYSCANNON_HIGH = 0x18,
+            RUMBLE_INVALID = 0x-1
+            RUMBLE_STOP_ALL = 0x0
+            RUMBLE_PISTOL = 0x1
+            RUMBLE_357 = 0x2
+            RUMBLE_SMG1 = 0x3
+            RUMBLE_AR2 = 0x4
+            RUMBLE_SHOTGUN_SINGLE = 0x5
+            RUMBLE_SHOTGUN_DOUBLE = 0x6
+            RUMBLE_AR2_ALT_FIRE = 0x7
+            RUMBLE_RPG_MISSILE = 0x8
+            RUMBLE_CROWBAR_SWING = 0x9
+            RUMBLE_AIRBOAT_GUN = 0xA
+            RUMBLE_JEEP_ENGINE_LOOP = 0xB
+            RUMBLE_FLAT_LEFT = 0xC
+            RUMBLE_FLAT_RIGHT = 0xD
+            RUMBLE_FLAT_BOTH = 0xE
+            RUMBLE_DMG_LOW = 0xF
+            RUMBLE_DMG_MED = 0x10
+            RUMBLE_DMG_HIGH = 0x11
+            RUMBLE_FALL_LONG = 0x12
+            RUMBLE_FALL_SHORT = 0x13
+            RUMBLE_PHYSCANNON_OPEN = 0x14
+            RUMBLE_PHYSCANNON_PUNT = 0x15
+            RUMBLE_PHYSCANNON_LOW = 0x16
+            RUMBLE_PHYSCANNON_MEDIUM = 0x17
+            RUMBLE_PHYSCANNON_HIGH = 0x18
             NUM_RUMBLE_EFFECTS = 0x19
         }
         // Alignment: 4
         // Member count: 6
         public enum LatchDirtyPermission_t : uint {
-            LATCH_DIRTY_DISALLOW = 0x0,
-            LATCH_DIRTY_SERVER_CONTROLLED = 0x1,
-            LATCH_DIRTY_CLIENT_SIMULATED = 0x2,
-            LATCH_DIRTY_PREDICTION = 0x3,
-            LATCH_DIRTY_FRAMESIMULATE = 0x4,
+            LATCH_DIRTY_DISALLOW = 0x0
+            LATCH_DIRTY_SERVER_CONTROLLED = 0x1
+            LATCH_DIRTY_CLIENT_SIMULATED = 0x2
+            LATCH_DIRTY_PREDICTION = 0x3
+            LATCH_DIRTY_FRAMESIMULATE = 0x4
             LATCH_DIRTY_PARTICLE_SIMULATE = 0x5
         }
         // Alignment: 4
         // Member count: 5
         public enum DoorState_t : uint {
-            DOOR_STATE_CLOSED = 0x0,
-            DOOR_STATE_OPENING = 0x1,
-            DOOR_STATE_OPEN = 0x2,
-            DOOR_STATE_CLOSING = 0x3,
+            DOOR_STATE_CLOSED = 0x0
+            DOOR_STATE_OPENING = 0x1
+            DOOR_STATE_OPEN = 0x2
+            DOOR_STATE_CLOSING = 0x3
             DOOR_STATE_AJAR = 0x4
         }
         // Alignment: 4
         // Member count: 4
         public enum ChoreoLookAtMode_t : uint {
-            eInvalid = 0x-1,
-            eChest = 0x0,
-            eHead = 0x1,
+            eInvalid = 0x-1
+            eChest = 0x0
+            eHead = 0x1
             eEyesOnly = 0x2
         }
         // Alignment: 4
         // Member count: 3
         public enum ChatIgnoreType_t : uint {
-            CHAT_IGNORE_NONE = 0x0,
-            CHAT_IGNORE_ALL = 0x1,
+            CHAT_IGNORE_NONE = 0x0
+            CHAT_IGNORE_ALL = 0x1
             CHAT_IGNORE_TEAM = 0x2
         }
         // Alignment: 4
         // Member count: 7
         public enum PlayerConnectedState : uint {
-            NeverConnected = 0x-1,
-            Connected = 0x0,
-            Connecting = 0x1,
-            Reconnecting = 0x2,
-            Disconnecting = 0x3,
-            Disconnected = 0x4,
+            NeverConnected = 0x-1
+            Connected = 0x0
+            Connecting = 0x1
+            Reconnecting = 0x2
+            Disconnecting = 0x3
+            Disconnected = 0x4
             Reserved = 0x5
         }
         // Alignment: 4
         // Member count: 30
         public enum PreviewCharacterBannerAnimation : uint {
-            INVALID = 0x-1,
-            IDLE_OFFSCREEN = 0x0,
-            BANNER_AWP_ACE_GUN = 0x1,
-            BANNER_AWP_ACE_A = 0x2,
-            BANNER_AWP_ACE_B = 0x3,
-            BANNER_AWP_ACE_C = 0x4,
-            BANNER_AWP_ACE_D = 0x5,
-            BANNER_AWP_ACE_E = 0x6,
-            BANNER_PISTOL3SHOT = 0x7,
-            BANNER_3SHOT_A = 0x8,
-            BANNER_3SHOT_B = 0x9,
-            BANNER_3SHOT_C = 0xA,
-            BANNER_PISTOL4SHOT = 0xB,
-            BANNER_4SHOT_A = 0xC,
-            BANNER_4SHOT_B = 0xD,
-            BANNER_4SHOT_C = 0xE,
-            BANNER_4SHOT_D = 0xF,
-            CELEBRATE_STRETCH_NOWEAP_IDLE0 = 0x10,
-            BANNER_BOMB_PLANT = 0x11,
-            BANNER_BOMB_DEFUSAL_VER1 = 0x12,
-            BANNER_BOMB_DEFUSAL_VER2 = 0x13,
-            BANNER_FIRE = 0x14,
-            BANNER_BOMB_BLAST_TOSS = 0x15,
-            BANNER_BOMB_BLAST01 = 0x16,
-            BANNER_BOMB_BLAST02 = 0x17,
-            BANNER_BOMB_BLAST03 = 0x18,
-            BANNER_CELEBRATE_01 = 0x19,
-            BANNER_CELEBRATE_02 = 0x1A,
-            BANNER_CELEBRATE_03 = 0x1B,
+            INVALID = 0x-1
+            IDLE_OFFSCREEN = 0x0
+            BANNER_AWP_ACE_GUN = 0x1
+            BANNER_AWP_ACE_A = 0x2
+            BANNER_AWP_ACE_B = 0x3
+            BANNER_AWP_ACE_C = 0x4
+            BANNER_AWP_ACE_D = 0x5
+            BANNER_AWP_ACE_E = 0x6
+            BANNER_PISTOL3SHOT = 0x7
+            BANNER_3SHOT_A = 0x8
+            BANNER_3SHOT_B = 0x9
+            BANNER_3SHOT_C = 0xA
+            BANNER_PISTOL4SHOT = 0xB
+            BANNER_4SHOT_A = 0xC
+            BANNER_4SHOT_B = 0xD
+            BANNER_4SHOT_C = 0xE
+            BANNER_4SHOT_D = 0xF
+            CELEBRATE_STRETCH_NOWEAP_IDLE0 = 0x10
+            BANNER_BOMB_PLANT = 0x11
+            BANNER_BOMB_DEFUSAL_VER1 = 0x12
+            BANNER_BOMB_DEFUSAL_VER2 = 0x13
+            BANNER_FIRE = 0x14
+            BANNER_BOMB_BLAST_TOSS = 0x15
+            BANNER_BOMB_BLAST01 = 0x16
+            BANNER_BOMB_BLAST02 = 0x17
+            BANNER_BOMB_BLAST03 = 0x18
+            BANNER_CELEBRATE_01 = 0x19
+            BANNER_CELEBRATE_02 = 0x1A
+            BANNER_CELEBRATE_03 = 0x1B
             BANNER_CELEBRATE_04 = 0x1C
         }
         // Alignment: 4
         // Member count: 5
         public enum EntityDissolveType_t : uint {
-            ENTITY_DISSOLVE_INVALID = 0x-1,
-            ENTITY_DISSOLVE_NORMAL = 0x0,
-            ENTITY_DISSOLVE_ELECTRICAL = 0x1,
-            ENTITY_DISSOLVE_ELECTRICAL_LIGHT = 0x2,
+            ENTITY_DISSOLVE_INVALID = 0x-1
+            ENTITY_DISSOLVE_NORMAL = 0x0
+            ENTITY_DISSOLVE_ELECTRICAL = 0x1
+            ENTITY_DISSOLVE_ELECTRICAL_LIGHT = 0x2
             ENTITY_DISSOLVE_CORE = 0x3
         }
         // Alignment: 4
@@ -2588,132 +2588,132 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum Bidirectional_Messages : uint {
-            bi_RebroadcastGameEvent = 0x10,
-            bi_RebroadcastSource = 0x11,
-            bi_GameEvent_DEPRECATED = 0x12,
+            bi_RebroadcastGameEvent = 0x10
+            bi_RebroadcastSource = 0x11
+            bi_GameEvent_DEPRECATED = 0x12
             bi_PredictionEvent = 0x13
         }
         // Alignment: 2
         // Member count: 7
         public enum EntityEffects_t : uint {
-            DEPRICATED_EF_NOINTERP = 0x8,
-            EF_NOSHADOW = 0x10,
-            EF_NODRAW = 0x20,
-            EF_NORECEIVESHADOW = 0x40,
-            EF_PARENT_ANIMATES = 0x200,
-            EF_NODRAW_BUT_TRANSMIT = 0x400,
+            DEPRICATED_EF_NOINTERP = 0x8
+            EF_NOSHADOW = 0x10
+            EF_NODRAW = 0x20
+            EF_NORECEIVESHADOW = 0x40
+            EF_PARENT_ANIMATES = 0x200
+            EF_NODRAW_BUT_TRANSMIT = 0x400
             EF_MAX_BITS = 0xA
         }
         // Alignment: 4
         // Member count: 10
         public enum ChoreoExternalAnimgraphControlState_t : uint {
-            eNone = 0x0,
-            eExit = 0x1,
-            eFallbackExit = 0x2,
-            eState01 = 0x3,
-            eState02 = 0x4,
-            eState03 = 0x5,
-            eState04 = 0x6,
-            eState05 = 0x7,
-            eLooping = 0x8,
+            eNone = 0x0
+            eExit = 0x1
+            eFallbackExit = 0x2
+            eState01 = 0x3
+            eState02 = 0x4
+            eState03 = 0x5
+            eState04 = 0x6
+            eState05 = 0x7
+            eLooping = 0x8
             eCount = 0x9
         }
         // Alignment: 1
         // Member count: 10
         public enum SolidType_t : uint {
-            SOLID_NONE = 0x0,
-            SOLID_BSP = 0x1,
-            SOLID_BBOX = 0x2,
-            SOLID_OBB = 0x3,
-            SOLID_SPHERE = 0x4,
-            SOLID_POINT = 0x5,
-            SOLID_VPHYSICS = 0x6,
-            SOLID_CAPSULE = 0x7,
-            SOLID_CYLINDER = 0x8,
+            SOLID_NONE = 0x0
+            SOLID_BSP = 0x1
+            SOLID_BBOX = 0x2
+            SOLID_OBB = 0x3
+            SOLID_SPHERE = 0x4
+            SOLID_POINT = 0x5
+            SOLID_VPHYSICS = 0x6
+            SOLID_CAPSULE = 0x7
+            SOLID_CYLINDER = 0x8
             SOLID_LAST = 0x9
         }
         // Alignment: 4
         // Member count: 22
         public enum DamageTypes_t : uint {
-            DMG_GENERIC = 0x0,
-            DMG_CRUSH = 0x1,
-            DMG_BULLET = 0x2,
-            DMG_SLASH = 0x4,
-            DMG_BURN = 0x8,
-            DMG_VEHICLE = 0x10,
-            DMG_FALL = 0x20,
-            DMG_BLAST = 0x40,
-            DMG_CLUB = 0x80,
-            DMG_SHOCK = 0x100,
-            DMG_SONIC = 0x200,
-            DMG_ENERGYBEAM = 0x400,
-            DMG_BUCKSHOT = 0x800,
-            DMG_BLAST_SURFACE = 0x1000,
-            DMG_DISSOLVE = 0x2000,
-            DMG_DROWN = 0x4000,
-            DMG_POISON = 0x8000,
-            DMG_RADIATION = 0x10000,
-            DMG_DROWNRECOVER = 0x20000,
-            DMG_ACID = 0x40000,
-            DMG_LASTGENERICFLAG = 0x40000,
+            DMG_GENERIC = 0x0
+            DMG_CRUSH = 0x1
+            DMG_BULLET = 0x2
+            DMG_SLASH = 0x4
+            DMG_BURN = 0x8
+            DMG_VEHICLE = 0x10
+            DMG_FALL = 0x20
+            DMG_BLAST = 0x40
+            DMG_CLUB = 0x80
+            DMG_SHOCK = 0x100
+            DMG_SONIC = 0x200
+            DMG_ENERGYBEAM = 0x400
+            DMG_BUCKSHOT = 0x800
+            DMG_BLAST_SURFACE = 0x1000
+            DMG_DISSOLVE = 0x2000
+            DMG_DROWN = 0x4000
+            DMG_POISON = 0x8000
+            DMG_RADIATION = 0x10000
+            DMG_DROWNRECOVER = 0x20000
+            DMG_ACID = 0x40000
+            DMG_LASTGENERICFLAG = 0x40000
             DMG_HEADSHOT = 0x80000
         }
         // Alignment: 4
         // Member count: 3
         public enum PointWorldTextJustifyVertical_t : uint {
-            POINT_WORLD_TEXT_JUSTIFY_VERTICAL_BOTTOM = 0x0,
-            POINT_WORLD_TEXT_JUSTIFY_VERTICAL_CENTER = 0x1,
+            POINT_WORLD_TEXT_JUSTIFY_VERTICAL_BOTTOM = 0x0
+            POINT_WORLD_TEXT_JUSTIFY_VERTICAL_CENTER = 0x1
             POINT_WORLD_TEXT_JUSTIFY_VERTICAL_TOP = 0x2
         }
         // Alignment: 4
         // Member count: 5
         public enum EProtoDebugVisiblity : uint {
-            k_EProtoDebugVisibility_Always = 0x0,
-            k_EProtoDebugVisibility_Server = 0x46,
-            k_EProtoDebugVisibility_ValveServer = 0x50,
-            k_EProtoDebugVisibility_GC = 0x5A,
+            k_EProtoDebugVisibility_Always = 0x0
+            k_EProtoDebugVisibility_Server = 0x46
+            k_EProtoDebugVisibility_ValveServer = 0x50
+            k_EProtoDebugVisibility_GC = 0x5A
             k_EProtoDebugVisibility_Never = 0x64
         }
         // Alignment: 4
         // Member count: 2
         public enum attributeprovidertypes_t : uint {
-            PROVIDER_GENERIC = 0x0,
+            PROVIDER_GENERIC = 0x0
             PROVIDER_WEAPON = 0x1
         }
         // Alignment: 4
         // Member count: 11
         public enum EGCMsgResponse : uint {
-            k_EGCMsgResponseOK = 0x0,
-            k_EGCMsgResponseDenied = 0x1,
-            k_EGCMsgResponseServerError = 0x2,
-            k_EGCMsgResponseTimeout = 0x3,
-            k_EGCMsgResponseInvalid = 0x4,
-            k_EGCMsgResponseNoMatch = 0x5,
-            k_EGCMsgResponseUnknownError = 0x6,
-            k_EGCMsgResponseNotLoggedOn = 0x7,
-            k_EGCMsgFailedToCreate = 0x8,
-            k_EGCMsgLimitExceeded = 0x9,
+            k_EGCMsgResponseOK = 0x0
+            k_EGCMsgResponseDenied = 0x1
+            k_EGCMsgResponseServerError = 0x2
+            k_EGCMsgResponseTimeout = 0x3
+            k_EGCMsgResponseInvalid = 0x4
+            k_EGCMsgResponseNoMatch = 0x5
+            k_EGCMsgResponseUnknownError = 0x6
+            k_EGCMsgResponseNotLoggedOn = 0x7
+            k_EGCMsgFailedToCreate = 0x8
+            k_EGCMsgLimitExceeded = 0x9
             k_EGCMsgCommitUnfinalized = 0xA
         }
         // Alignment: 1
         // Member count: 6
         public enum MoveCollide_t : uint {
-            MOVECOLLIDE_DEFAULT = 0x0,
-            MOVECOLLIDE_FLY_BOUNCE = 0x1,
-            MOVECOLLIDE_FLY_CUSTOM = 0x2,
-            MOVECOLLIDE_FLY_SLIDE = 0x3,
-            MOVECOLLIDE_COUNT = 0x4,
+            MOVECOLLIDE_DEFAULT = 0x0
+            MOVECOLLIDE_FLY_BOUNCE = 0x1
+            MOVECOLLIDE_FLY_CUSTOM = 0x2
+            MOVECOLLIDE_FLY_SLIDE = 0x3
+            MOVECOLLIDE_COUNT = 0x4
             MOVECOLLIDE_MAX_BITS = 0x3
         }
         // Alignment: 4
         // Member count: 7
         public enum IChoreoServices::ChoreoState_t : uint {
-            STATE_PRE_SCRIPT = 0x0,
-            STATE_WAIT_FOR_SCRIPT = 0x1,
-            STATE_WALK_TO_MARK = 0x2,
-            STATE_SYNCHRONIZE_SCRIPT = 0x3,
-            STATE_PLAY_SCRIPT = 0x4,
-            STATE_PLAY_SCRIPT_POST_IDLE = 0x5,
+            STATE_PRE_SCRIPT = 0x0
+            STATE_WAIT_FOR_SCRIPT = 0x1
+            STATE_WALK_TO_MARK = 0x2
+            STATE_SYNCHRONIZE_SCRIPT = 0x3
+            STATE_PLAY_SCRIPT = 0x4
+            STATE_PLAY_SCRIPT_POST_IDLE = 0x5
             STATE_PLAY_SCRIPT_POST_IDLE_DONE = 0x6
         }
         // Alignment: 4
@@ -2724,514 +2724,514 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum ValueRemapperOutputType_t : uint {
-            OutputType_AnimationCycle = 0x0,
-            OutputType_RotationX = 0x1,
-            OutputType_RotationY = 0x2,
+            OutputType_AnimationCycle = 0x0
+            OutputType_RotationX = 0x1
+            OutputType_RotationY = 0x2
             OutputType_RotationZ = 0x3
         }
         // Alignment: 4
         // Member count: 23
         public enum ETEProtobufIds : uint {
-            TE_EffectDispatchId = 0x190,
-            TE_ArmorRicochetId = 0x191,
-            TE_BeamEntPointId = 0x192,
-            TE_BeamEntsId = 0x193,
-            TE_BeamPointsId = 0x194,
-            TE_BeamRingId = 0x195,
-            TE_BubblesId = 0x198,
-            TE_BubbleTrailId = 0x199,
-            TE_DecalId = 0x19A,
-            TE_WorldDecalId = 0x19B,
-            TE_EnergySplashId = 0x19C,
-            TE_FizzId = 0x19D,
-            TE_ShatterSurfaceId = 0x19E,
-            TE_GlowSpriteId = 0x19F,
-            TE_ImpactId = 0x1A0,
-            TE_MuzzleFlashId = 0x1A1,
-            TE_BloodStreamId = 0x1A2,
-            TE_ExplosionId = 0x1A3,
-            TE_DustId = 0x1A4,
-            TE_LargeFunnelId = 0x1A5,
-            TE_SparksId = 0x1A6,
-            TE_PhysicsPropId = 0x1A7,
+            TE_EffectDispatchId = 0x190
+            TE_ArmorRicochetId = 0x191
+            TE_BeamEntPointId = 0x192
+            TE_BeamEntsId = 0x193
+            TE_BeamPointsId = 0x194
+            TE_BeamRingId = 0x195
+            TE_BubblesId = 0x198
+            TE_BubbleTrailId = 0x199
+            TE_DecalId = 0x19A
+            TE_WorldDecalId = 0x19B
+            TE_EnergySplashId = 0x19C
+            TE_FizzId = 0x19D
+            TE_ShatterSurfaceId = 0x19E
+            TE_GlowSpriteId = 0x19F
+            TE_ImpactId = 0x1A0
+            TE_MuzzleFlashId = 0x1A1
+            TE_BloodStreamId = 0x1A2
+            TE_ExplosionId = 0x1A3
+            TE_DustId = 0x1A4
+            TE_LargeFunnelId = 0x1A5
+            TE_SparksId = 0x1A6
+            TE_PhysicsPropId = 0x1A7
             TE_SmokeId = 0x1AA
         }
         // Alignment: 4
         // Member count: 6
         public enum INavObstacle::NavObstacleType_t : uint {
-            NAV_OBSTACLE_TYPE_INVALID = 0x-1,
-            NAV_OBSTACLE_TYPE_NONE = 0x0,
-            NAV_OBSTACLE_TYPE_AVOID = 0x1,
-            NAV_OBSTACLE_TYPE_CONN = 0x2,
-            NAV_OBSTACLE_TYPE_BLOCK = 0x3,
+            NAV_OBSTACLE_TYPE_INVALID = 0x-1
+            NAV_OBSTACLE_TYPE_NONE = 0x0
+            NAV_OBSTACLE_TYPE_AVOID = 0x1
+            NAV_OBSTACLE_TYPE_CONN = 0x2
+            NAV_OBSTACLE_TYPE_BLOCK = 0x3
             NAV_OBSTACLE_TYPE_PERMANENT_BLOCK = 0x4
         }
         // Alignment: 4
         // Member count: 3
         public enum PointTemplateOwnerSpawnGroupType_t : uint {
-            INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP = 0x0,
-            INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP = 0x1,
+            INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP = 0x0
+            INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP = 0x1
             INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP = 0x2
         }
         // Alignment: 1
         // Member count: 3
         public enum EContributionScoreFlag_t : uint {
-            k_EContributionScoreFlag_Default = 0x0,
-            k_EContributionScoreFlag_Objective = 0x1,
+            k_EContributionScoreFlag_Default = 0x0
+            k_EContributionScoreFlag_Objective = 0x1
             k_EContributionScoreFlag_Bullets = 0x2
         }
         // Alignment: 1
         // Member count: 9
         public enum CCSPlayerAnimationState::Direction_t : uint {
-            None = 0x0,
-            N = 0x1,
-            NE = 0x2,
-            E = 0x3,
-            SE = 0x4,
-            S = 0x5,
-            SW = 0x6,
-            W = 0x7,
+            None = 0x0
+            N = 0x1
+            NE = 0x2
+            E = 0x3
+            SE = 0x4
+            S = 0x5
+            SW = 0x6
+            W = 0x7
             NW = 0x8
         }
         // Alignment: 4
         // Member count: 3
         public enum eSplinePushType : uint {
-            k_eSplinePushAlong = 0x0,
-            k_eSplinePushAway = 0x1,
+            k_eSplinePushAlong = 0x0
+            k_eSplinePushAway = 0x1
             k_eSplinePushTowards = 0x2
         }
         // Alignment: 4
         // Member count: 4
         public enum ChoreoScriptedMoveTo_t : uint {
-            eWait = 0x0,
-            eMoveWithGait = 0x1,
-            eTeleport = 0x2,
+            eWait = 0x0
+            eMoveWithGait = 0x1
+            eTeleport = 0x2
             eWaitFacing = 0x3
         }
         // Alignment: 2
         // Member count: 31
         public enum WeaponGameplayAnimState : uint {
-            WPN_ANIMSTATE_UNINITIALIZED = 0x0,
-            WPN_ANIMSTATE_DROPPED = 0x1,
-            WPN_ANIMSTATE_HOLSTERED = 0xA,
-            WPN_ANIMSTATE_DEPLOY = 0xB,
-            WPN_ANIMSTATE_IDLE = 0x32,
-            WPN_ANIMSTATE_SHOOT_PRIMARY = 0x64,
-            WPN_ANIMSTATE_SHOOT_SECONDARY = 0x65,
-            WPN_ANIMSTATE_SHOOT_DRYFIRE = 0x66,
-            WPN_ANIMSTATE_CHARGE = 0x67,
-            WPN_ANIMSTATE_GRENADE_PULL_PIN = 0xC8,
-            WPN_ANIMSTATE_GRENADE_READY = 0xC9,
-            WPN_ANIMSTATE_GRENADE_THROW = 0xCA,
-            WPN_ANIMSTATE_C4_PLANT = 0x12C,
-            WPN_ANIMSTATE_HEALTHSHOT_INJECT = 0x190,
-            WPN_ANIMSTATE_KNIFE_PRIMARY_HIT = 0x1F4,
-            WPN_ANIMSTATE_KNIFE_PRIMARY_MISS = 0x1F5,
-            WPN_ANIMSTATE_KNIFE_SECONDARY_HIT = 0x1F6,
-            WPN_ANIMSTATE_KNIFE_SECONDARY_MISS = 0x1F7,
-            WPN_ANIMSTATE_KNIFE_PRIMARY_STAB = 0x1F8,
-            WPN_ANIMSTATE_KNIFE_SECONDARY_STAB = 0x1F9,
-            WPN_ANIMSTATE_SILENCER_APPLY = 0x258,
-            WPN_ANIMSTATE_SILENCER_REMOVE = 0x259,
-            WPN_ANIMSTATE_RELOAD = 0x320,
-            WPN_ANIMSTATE_RELOAD_OUTRO = 0x321,
-            WPN_ANIMSTATE_RELOAD_SILENT = 0x322,
-            WPN_ANIMSTATE_RELOAD_OUTRO_SILENT = 0x323,
-            WPN_ANIMSTATE_INSPECT = 0x3E8,
-            WPN_ANIMSTATE_INSPECT_OUTRO = 0x3E9,
-            WPN_ANIMSTATE_INVENTORY_UI_TUMBLE = 0x5DC,
-            WPN_ANIMSTATE_INVENTORY_UI_KEYCHAIN_APPLY = 0x5DD,
+            WPN_ANIMSTATE_UNINITIALIZED = 0x0
+            WPN_ANIMSTATE_DROPPED = 0x1
+            WPN_ANIMSTATE_HOLSTERED = 0xA
+            WPN_ANIMSTATE_DEPLOY = 0xB
+            WPN_ANIMSTATE_IDLE = 0x32
+            WPN_ANIMSTATE_SHOOT_PRIMARY = 0x64
+            WPN_ANIMSTATE_SHOOT_SECONDARY = 0x65
+            WPN_ANIMSTATE_SHOOT_DRYFIRE = 0x66
+            WPN_ANIMSTATE_CHARGE = 0x67
+            WPN_ANIMSTATE_GRENADE_PULL_PIN = 0xC8
+            WPN_ANIMSTATE_GRENADE_READY = 0xC9
+            WPN_ANIMSTATE_GRENADE_THROW = 0xCA
+            WPN_ANIMSTATE_C4_PLANT = 0x12C
+            WPN_ANIMSTATE_HEALTHSHOT_INJECT = 0x190
+            WPN_ANIMSTATE_KNIFE_PRIMARY_HIT = 0x1F4
+            WPN_ANIMSTATE_KNIFE_PRIMARY_MISS = 0x1F5
+            WPN_ANIMSTATE_KNIFE_SECONDARY_HIT = 0x1F6
+            WPN_ANIMSTATE_KNIFE_SECONDARY_MISS = 0x1F7
+            WPN_ANIMSTATE_KNIFE_PRIMARY_STAB = 0x1F8
+            WPN_ANIMSTATE_KNIFE_SECONDARY_STAB = 0x1F9
+            WPN_ANIMSTATE_SILENCER_APPLY = 0x258
+            WPN_ANIMSTATE_SILENCER_REMOVE = 0x259
+            WPN_ANIMSTATE_RELOAD = 0x320
+            WPN_ANIMSTATE_RELOAD_OUTRO = 0x321
+            WPN_ANIMSTATE_RELOAD_SILENT = 0x322
+            WPN_ANIMSTATE_RELOAD_OUTRO_SILENT = 0x323
+            WPN_ANIMSTATE_INSPECT = 0x3E8
+            WPN_ANIMSTATE_INSPECT_OUTRO = 0x3E9
+            WPN_ANIMSTATE_INVENTORY_UI_TUMBLE = 0x5DC
+            WPN_ANIMSTATE_INVENTORY_UI_KEYCHAIN_APPLY = 0x5DD
             WPN_ANIMSTATE_END_VALID = 0x7D0
         }
         // Alignment: 4
         // Member count: 2
         public enum EDestructiblePartRadiusDamageApplyType : uint {
-            ScaleByExplosionRadius = 0x0,
+            ScaleByExplosionRadius = 0x0
             PrioritizeClosestPart = 0x1
         }
         // Alignment: 4
         // Member count: 3
         public enum EntityDistanceMode_t : uint {
-            eOriginToOrigin = 0x0,
-            eCenterToCenter = 0x1,
+            eOriginToOrigin = 0x0
+            eCenterToCenter = 0x1
             eAxisToAxis = 0x2
         }
         // Alignment: 4
         // Member count: 2
         public enum PulseTraceContents_t : uint {
-            STATIC_LEVEL = 0x0,
+            STATIC_LEVEL = 0x0
             SOLID = 0x1
         }
         // Alignment: 4
         // Member count: 22
         public enum NavAttributeDynamicType : uint {
-            NAV_AREA_NONE = 0x0,
-            NAV_AREA_UNDER_WATER = 0x1,
-            NAV_AREA_UNDER_WATER_DEEP = 0x2,
-            NAV_AREA_EXTERNALLY_CREATED = 0x4,
-            NAV_AREA_SHOULD_BE_DESTROYED = 0x8,
-            NAV_AREA_CREATED_BY_OBSTACLE_MGR = 0x10,
-            NAV_AREA_SPLIT_BY_OBSTACLE_MGR = 0x20,
-            NAV_AREA_SPLIT_OBS_CONTAINED = 0x40,
-            NAV_AREA_SPLIT_OBS_BASE_CONTAINED = 0x80,
-            NAV_AREA_HAS_LADDERS = 0x100,
-            NAV_AREA_NAV_LINK = 0x200,
-            NAV_AREA_NAV_LINK_TERMINUS = 0x400,
-            NAV_AREA_CONNECTED_TO_NAV_LINK_OUT = 0x800,
-            NAV_AREA_CONNECTED_TO_NAV_LINK_IN = 0x1000,
-            NAV_AREA_MOVABLE = 0x2000,
-            NAV_AREA_DOCK = 0x4000,
-            NAV_AREA_DOCKING_CANDIDATE = 0x8000,
-            NAV_AREA_BOUNDARY = 0x10000,
-            NAV_AREA_HAS_TACTICAL_SEARCH_ANNOTATIONS = 0x20000,
-            NAV_AREA_DEFORMABLE = 0x40000,
-            NAV_AREA_DEFORMABLE_DOCK = 0x80000,
+            NAV_AREA_NONE = 0x0
+            NAV_AREA_UNDER_WATER = 0x1
+            NAV_AREA_UNDER_WATER_DEEP = 0x2
+            NAV_AREA_EXTERNALLY_CREATED = 0x4
+            NAV_AREA_SHOULD_BE_DESTROYED = 0x8
+            NAV_AREA_CREATED_BY_OBSTACLE_MGR = 0x10
+            NAV_AREA_SPLIT_BY_OBSTACLE_MGR = 0x20
+            NAV_AREA_SPLIT_OBS_CONTAINED = 0x40
+            NAV_AREA_SPLIT_OBS_BASE_CONTAINED = 0x80
+            NAV_AREA_HAS_LADDERS = 0x100
+            NAV_AREA_NAV_LINK = 0x200
+            NAV_AREA_NAV_LINK_TERMINUS = 0x400
+            NAV_AREA_CONNECTED_TO_NAV_LINK_OUT = 0x800
+            NAV_AREA_CONNECTED_TO_NAV_LINK_IN = 0x1000
+            NAV_AREA_MOVABLE = 0x2000
+            NAV_AREA_DOCK = 0x4000
+            NAV_AREA_DOCKING_CANDIDATE = 0x8000
+            NAV_AREA_BOUNDARY = 0x10000
+            NAV_AREA_HAS_TACTICAL_SEARCH_ANNOTATIONS = 0x20000
+            NAV_AREA_DEFORMABLE = 0x40000
+            NAV_AREA_DEFORMABLE_DOCK = 0x80000
             NAV_AREA_LINK_AUTO_ADJUST = 0x100000
         }
         // Alignment: 4
         // Member count: 3
         public enum PointWorldTextJustifyHorizontal_t : uint {
-            POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_LEFT = 0x0,
-            POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_CENTER = 0x1,
+            POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_LEFT = 0x0
+            POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_CENTER = 0x1
             POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_RIGHT = 0x2
         }
         // Alignment: 4
         // Member count: 3
         public enum EHapticPulseType : uint {
-            VR_HAND_HAPTIC_PULSE_LIGHT = 0x0,
-            VR_HAND_HAPTIC_PULSE_MEDIUM = 0x1,
+            VR_HAND_HAPTIC_PULSE_LIGHT = 0x0
+            VR_HAND_HAPTIC_PULSE_MEDIUM = 0x1
             VR_HAND_HAPTIC_PULSE_STRONG = 0x2
         }
         // Alignment: 4
         // Member count: 133
         public enum EGCItemMsg : uint {
-            k_EMsgGCBase = 0x3E8,
-            k_EMsgGCSetItemPosition = 0x3E9,
-            k_EMsgGCCraft = 0x3EA,
-            k_EMsgGCCraftResponse = 0x3EB,
-            k_EMsgGCDelete = 0x3EC,
-            k_EMsgGCVerifyCacheSubscription_DEPRECATED = 0x3ED,
-            k_EMsgGCNameItem = 0x3EE,
-            k_EMsgGCUnlockCrate_DEPRECATED = 0x3EF,
-            k_EMsgGCUnlockCrateResponse = 0x3F0,
-            k_EMsgGCPaintItem_DEPRECATED = 0x3F1,
-            k_EMsgGCPaintItemResponse_DEPRECATED = 0x3F2,
-            k_EMsgGCGoldenWrenchBroadcast_DEPRECATED = 0x3F3,
-            k_EMsgGCMOTDRequest_DEPRECATED = 0x3F4,
-            k_EMsgGCMOTDRequestResponse_DEPRECATED = 0x3F5,
-            k_EMsgGCAddItemToSocket_DEPRECATED = 0x3F6,
-            k_EMsgGCAddItemToSocketResponse_DEPRECATED = 0x3F7,
-            k_EMsgGCAddSocketToBaseItem_DEPRECATED = 0x3F8,
-            k_EMsgGCAddSocketToItem_DEPRECATED = 0x3F9,
-            k_EMsgGCAddSocketToItemResponse_DEPRECATED = 0x3FA,
-            k_EMsgGCNameBaseItem = 0x3FB,
-            k_EMsgGCNameBaseItemResponse = 0x3FC,
-            k_EMsgGCRemoveSocketItem_DEPRECATED = 0x3FD,
-            k_EMsgGCRemoveSocketItemResponse_DEPRECATED = 0x3FE,
-            k_EMsgGCCustomizeItemTexture_DEPRECATED = 0x3FF,
-            k_EMsgGCCustomizeItemTextureResponse_DEPRECATED = 0x400,
-            k_EMsgGCUseItemRequest = 0x401,
-            k_EMsgGCUseItemResponse = 0x402,
-            k_EMsgGCGiftedItems_DEPRECATED = 0x403,
-            k_EMsgGCRemoveItemName = 0x406,
-            k_EMsgGCRemoveItemPaint_DEPRECATED = 0x407,
-            k_EMsgGCGiftWrapItem_DEPRECATED = 0x408,
-            k_EMsgGCGiftWrapItemResponse_DEPRECATED = 0x409,
-            k_EMsgGCDeliverGift_DEPRECATED = 0x40A,
-            k_EMsgGCDeliverGiftResponseGiver_DEPRECATED = 0x40B,
-            k_EMsgGCDeliverGiftResponseReceiver_DEPRECATED = 0x40C,
-            k_EMsgGCUnwrapGiftRequest_DEPRECATED = 0x40D,
-            k_EMsgGCUnwrapGiftResponse_DEPRECATED = 0x40E,
-            k_EMsgGCSetItemStyle_DEPRECATED = 0x40F,
-            k_EMsgGCUsedClaimCodeItem_DEPRECATED = 0x410,
-            k_EMsgGCSortItems = 0x411,
-            k_EMsgGC_RevolvingLootList_DEPRECATED = 0x412,
-            k_EMsgGCLookupAccount_DEPRECATED = 0x413,
-            k_EMsgGCLookupAccountResponse_DEPRECATED = 0x414,
-            k_EMsgGCLookupAccountName_DEPRECATED = 0x415,
-            k_EMsgGCLookupAccountNameResponse_DEPRECATED = 0x416,
-            k_EMsgGCUpdateItemSchema = 0x419,
-            k_EMsgGCRemoveCustomTexture_DEPRECATED = 0x41B,
-            k_EMsgGCRemoveCustomTextureResponse_DEPRECATED = 0x41C,
-            k_EMsgGCRemoveMakersMark_DEPRECATED = 0x41D,
-            k_EMsgGCRemoveMakersMarkResponse_DEPRECATED = 0x41E,
-            k_EMsgGCRemoveUniqueCraftIndex_DEPRECATED = 0x41F,
-            k_EMsgGCRemoveUniqueCraftIndexResponse_DEPRECATED = 0x420,
-            k_EMsgGCSaxxyBroadcast = 0x421,
-            k_EMsgGCBackpackSortFinished = 0x422,
-            k_EMsgGCCollectItem_DEPRECATED = 0x425,
-            k_EMsgGCItemAcknowledged__DEPRECATED = 0x426,
-            k_EMsgGC_ReportAbuse = 0x429,
-            k_EMsgGC_ReportAbuseResponse = 0x42A,
-            k_EMsgGCNameItemNotification = 0x42C,
-            k_EMsgGCApplyConsumableEffects_DEPRECATED = 0x42D,
-            k_EMsgGCConsumableExhausted = 0x42E,
-            k_EMsgGCShowItemsPickedUp = 0x42F,
-            k_EMsgGCClientDisplayNotification_DEPRECATED = 0x430,
-            k_EMsgGCApplyStrangePart_DEPRECATED = 0x431,
-            k_EMsgGC_IncrementKillCountAttribute = 0x432,
-            k_EMsgGC_IncrementKillCountResponse = 0x433,
-            k_EMsgGCApplyPennantUpgrade_DEPRECATED = 0x434,
-            k_EMsgGCSetItemPositions = 0x435,
-            k_EMsgGCApplyEggEssence_DEPRECATED = 0x436,
-            k_EMsgGCNameEggEssenceResponse_DEPRECATED = 0x437,
-            k_EMsgGCPaintKitItem_DEPRECATED = 0x438,
-            k_EMsgGCPaintKitBaseItem_DEPRECATED = 0x439,
-            k_EMsgGCPaintKitItemResponse_DEPRECATED = 0x43A,
-            k_EMsgGCGiftedItems = 0x43B,
-            k_EMsgGCUnlockItemStyle_DEPRECATED = 0x43C,
-            k_EMsgGCUnlockItemStyleResponse_DEPRECATED = 0x43D,
-            k_EMsgGCApplySticker = 0x43E,
-            k_EMsgGCItemAcknowledged = 0x43F,
-            k_EMsgGCStatTrakSwap = 0x440,
-            k_EMsgGCUserTrackTimePlayedConsecutively = 0x441,
-            k_EMsgGCItemCustomizationNotification = 0x442,
-            k_EMsgGCModifyItemAttribute = 0x443,
-            k_EMsgGCCasketItemAdd = 0x444,
-            k_EMsgGCCasketItemExtract = 0x445,
-            k_EMsgGCCasketItemLoadContents = 0x446,
-            k_EMsgGCServerBrowser_FavoriteServer_DEPRECATED = 0x641,
-            k_EMsgGCServerBrowser_BlacklistServer_DEPRECATED = 0x642,
-            k_EMsgGCServerRentalsBase_DEPRECATED = 0x6A4,
-            k_EMsgGCItemPreviewCheckStatus_DEPRECATED = 0x6A5,
-            k_EMsgGCItemPreviewStatusResponse_DEPRECATED = 0x6A6,
-            k_EMsgGCItemPreviewRequest_DEPRECATED = 0x6A7,
-            k_EMsgGCItemPreviewRequestResponse_DEPRECATED = 0x6A8,
-            k_EMsgGCItemPreviewExpire_DEPRECATED = 0x6A9,
-            k_EMsgGCItemPreviewExpireNotification_DEPRECATED = 0x6AA,
-            k_EMsgGCItemPreviewItemBoughtNotification_DEPRECATED = 0x6AB,
-            k_EMsgGCDev_NewItemRequest = 0x7D1,
-            k_EMsgGCDev_NewItemRequestResponse = 0x7D2,
-            k_EMsgGCDev_PaintKitDropItem_DEPRECATED = 0x7D3,
-            k_EMsgGCDev_SchemaReservationRequest = 0x7D4,
-            k_EMsgGCStoreGetUserData = 0x9C4,
-            k_EMsgGCStoreGetUserDataResponse = 0x9C5,
-            k_EMsgGCStorePurchaseInit_DEPRECATED = 0x9C6,
-            k_EMsgGCStorePurchaseInitResponse_DEPRECATED = 0x9C7,
-            k_EMsgGCStorePurchaseFinalize = 0x9C8,
-            k_EMsgGCStorePurchaseFinalizeResponse = 0x9C9,
-            k_EMsgGCStorePurchaseCancel = 0x9CA,
-            k_EMsgGCStorePurchaseCancelResponse = 0x9CB,
-            k_EMsgGCStorePurchaseQueryTxn_DEPRECATED = 0x9CC,
-            k_EMsgGCStorePurchaseQueryTxnResponse_DEPRECATED = 0x9CD,
-            k_EMsgGCStorePurchaseInit = 0x9CE,
-            k_EMsgGCStorePurchaseInitResponse = 0x9CF,
-            k_EMsgGCBannedWordListRequest = 0x9D0,
-            k_EMsgGCBannedWordListResponse = 0x9D1,
-            k_EMsgGCToGCBannedWordListBroadcast = 0x9D2,
-            k_EMsgGCToGCBannedWordListUpdated = 0x9D3,
-            k_EMsgGCToGCDirtySDOCache = 0x9D4,
-            k_EMsgGCToGCDirtyMultipleSDOCache = 0x9D5,
-            k_EMsgGCToGCUpdateSQLKeyValue = 0x9D6,
-            k_EMsgGCToGCIsTrustedServer = 0x9D7,
-            k_EMsgGCToGCIsTrustedServerResponse = 0x9D8,
-            k_EMsgGCToGCBroadcastConsoleCommand = 0x9D9,
-            k_EMsgGCServerVersionUpdated = 0x9DA,
-            k_EMsgGCToGCWebAPIAccountChanged = 0x9DC,
-            k_EMsgGCRequestAnnouncements = 0x9DD,
-            k_EMsgGCRequestAnnouncementsResponse = 0x9DE,
-            k_EMsgGCRequestPassportItemGrant = 0x9DF,
-            k_EMsgGCClientVersionUpdated = 0x9E0,
-            k_EMsgGCRecurringSubscriptionStatus = 0x9E2,
-            k_EMsgGCAdjustEquipSlotsManual = 0x9E3,
-            k_EMsgGCAdjustEquipSlotsShuffle = 0x9E4,
-            k_EMsgGCOpenCrate = 0x9E6,
-            k_EMsgGCAcknowledgeRentalExpiration = 0x9E7,
+            k_EMsgGCBase = 0x3E8
+            k_EMsgGCSetItemPosition = 0x3E9
+            k_EMsgGCCraft = 0x3EA
+            k_EMsgGCCraftResponse = 0x3EB
+            k_EMsgGCDelete = 0x3EC
+            k_EMsgGCVerifyCacheSubscription_DEPRECATED = 0x3ED
+            k_EMsgGCNameItem = 0x3EE
+            k_EMsgGCUnlockCrate_DEPRECATED = 0x3EF
+            k_EMsgGCUnlockCrateResponse = 0x3F0
+            k_EMsgGCPaintItem_DEPRECATED = 0x3F1
+            k_EMsgGCPaintItemResponse_DEPRECATED = 0x3F2
+            k_EMsgGCGoldenWrenchBroadcast_DEPRECATED = 0x3F3
+            k_EMsgGCMOTDRequest_DEPRECATED = 0x3F4
+            k_EMsgGCMOTDRequestResponse_DEPRECATED = 0x3F5
+            k_EMsgGCAddItemToSocket_DEPRECATED = 0x3F6
+            k_EMsgGCAddItemToSocketResponse_DEPRECATED = 0x3F7
+            k_EMsgGCAddSocketToBaseItem_DEPRECATED = 0x3F8
+            k_EMsgGCAddSocketToItem_DEPRECATED = 0x3F9
+            k_EMsgGCAddSocketToItemResponse_DEPRECATED = 0x3FA
+            k_EMsgGCNameBaseItem = 0x3FB
+            k_EMsgGCNameBaseItemResponse = 0x3FC
+            k_EMsgGCRemoveSocketItem_DEPRECATED = 0x3FD
+            k_EMsgGCRemoveSocketItemResponse_DEPRECATED = 0x3FE
+            k_EMsgGCCustomizeItemTexture_DEPRECATED = 0x3FF
+            k_EMsgGCCustomizeItemTextureResponse_DEPRECATED = 0x400
+            k_EMsgGCUseItemRequest = 0x401
+            k_EMsgGCUseItemResponse = 0x402
+            k_EMsgGCGiftedItems_DEPRECATED = 0x403
+            k_EMsgGCRemoveItemName = 0x406
+            k_EMsgGCRemoveItemPaint_DEPRECATED = 0x407
+            k_EMsgGCGiftWrapItem_DEPRECATED = 0x408
+            k_EMsgGCGiftWrapItemResponse_DEPRECATED = 0x409
+            k_EMsgGCDeliverGift_DEPRECATED = 0x40A
+            k_EMsgGCDeliverGiftResponseGiver_DEPRECATED = 0x40B
+            k_EMsgGCDeliverGiftResponseReceiver_DEPRECATED = 0x40C
+            k_EMsgGCUnwrapGiftRequest_DEPRECATED = 0x40D
+            k_EMsgGCUnwrapGiftResponse_DEPRECATED = 0x40E
+            k_EMsgGCSetItemStyle_DEPRECATED = 0x40F
+            k_EMsgGCUsedClaimCodeItem_DEPRECATED = 0x410
+            k_EMsgGCSortItems = 0x411
+            k_EMsgGC_RevolvingLootList_DEPRECATED = 0x412
+            k_EMsgGCLookupAccount_DEPRECATED = 0x413
+            k_EMsgGCLookupAccountResponse_DEPRECATED = 0x414
+            k_EMsgGCLookupAccountName_DEPRECATED = 0x415
+            k_EMsgGCLookupAccountNameResponse_DEPRECATED = 0x416
+            k_EMsgGCUpdateItemSchema = 0x419
+            k_EMsgGCRemoveCustomTexture_DEPRECATED = 0x41B
+            k_EMsgGCRemoveCustomTextureResponse_DEPRECATED = 0x41C
+            k_EMsgGCRemoveMakersMark_DEPRECATED = 0x41D
+            k_EMsgGCRemoveMakersMarkResponse_DEPRECATED = 0x41E
+            k_EMsgGCRemoveUniqueCraftIndex_DEPRECATED = 0x41F
+            k_EMsgGCRemoveUniqueCraftIndexResponse_DEPRECATED = 0x420
+            k_EMsgGCSaxxyBroadcast = 0x421
+            k_EMsgGCBackpackSortFinished = 0x422
+            k_EMsgGCCollectItem_DEPRECATED = 0x425
+            k_EMsgGCItemAcknowledged__DEPRECATED = 0x426
+            k_EMsgGC_ReportAbuse = 0x429
+            k_EMsgGC_ReportAbuseResponse = 0x42A
+            k_EMsgGCNameItemNotification = 0x42C
+            k_EMsgGCApplyConsumableEffects_DEPRECATED = 0x42D
+            k_EMsgGCConsumableExhausted = 0x42E
+            k_EMsgGCShowItemsPickedUp = 0x42F
+            k_EMsgGCClientDisplayNotification_DEPRECATED = 0x430
+            k_EMsgGCApplyStrangePart_DEPRECATED = 0x431
+            k_EMsgGC_IncrementKillCountAttribute = 0x432
+            k_EMsgGC_IncrementKillCountResponse = 0x433
+            k_EMsgGCApplyPennantUpgrade_DEPRECATED = 0x434
+            k_EMsgGCSetItemPositions = 0x435
+            k_EMsgGCApplyEggEssence_DEPRECATED = 0x436
+            k_EMsgGCNameEggEssenceResponse_DEPRECATED = 0x437
+            k_EMsgGCPaintKitItem_DEPRECATED = 0x438
+            k_EMsgGCPaintKitBaseItem_DEPRECATED = 0x439
+            k_EMsgGCPaintKitItemResponse_DEPRECATED = 0x43A
+            k_EMsgGCGiftedItems = 0x43B
+            k_EMsgGCUnlockItemStyle_DEPRECATED = 0x43C
+            k_EMsgGCUnlockItemStyleResponse_DEPRECATED = 0x43D
+            k_EMsgGCApplySticker = 0x43E
+            k_EMsgGCItemAcknowledged = 0x43F
+            k_EMsgGCStatTrakSwap = 0x440
+            k_EMsgGCUserTrackTimePlayedConsecutively = 0x441
+            k_EMsgGCItemCustomizationNotification = 0x442
+            k_EMsgGCModifyItemAttribute = 0x443
+            k_EMsgGCCasketItemAdd = 0x444
+            k_EMsgGCCasketItemExtract = 0x445
+            k_EMsgGCCasketItemLoadContents = 0x446
+            k_EMsgGCServerBrowser_FavoriteServer_DEPRECATED = 0x641
+            k_EMsgGCServerBrowser_BlacklistServer_DEPRECATED = 0x642
+            k_EMsgGCServerRentalsBase_DEPRECATED = 0x6A4
+            k_EMsgGCItemPreviewCheckStatus_DEPRECATED = 0x6A5
+            k_EMsgGCItemPreviewStatusResponse_DEPRECATED = 0x6A6
+            k_EMsgGCItemPreviewRequest_DEPRECATED = 0x6A7
+            k_EMsgGCItemPreviewRequestResponse_DEPRECATED = 0x6A8
+            k_EMsgGCItemPreviewExpire_DEPRECATED = 0x6A9
+            k_EMsgGCItemPreviewExpireNotification_DEPRECATED = 0x6AA
+            k_EMsgGCItemPreviewItemBoughtNotification_DEPRECATED = 0x6AB
+            k_EMsgGCDev_NewItemRequest = 0x7D1
+            k_EMsgGCDev_NewItemRequestResponse = 0x7D2
+            k_EMsgGCDev_PaintKitDropItem_DEPRECATED = 0x7D3
+            k_EMsgGCDev_SchemaReservationRequest = 0x7D4
+            k_EMsgGCStoreGetUserData = 0x9C4
+            k_EMsgGCStoreGetUserDataResponse = 0x9C5
+            k_EMsgGCStorePurchaseInit_DEPRECATED = 0x9C6
+            k_EMsgGCStorePurchaseInitResponse_DEPRECATED = 0x9C7
+            k_EMsgGCStorePurchaseFinalize = 0x9C8
+            k_EMsgGCStorePurchaseFinalizeResponse = 0x9C9
+            k_EMsgGCStorePurchaseCancel = 0x9CA
+            k_EMsgGCStorePurchaseCancelResponse = 0x9CB
+            k_EMsgGCStorePurchaseQueryTxn_DEPRECATED = 0x9CC
+            k_EMsgGCStorePurchaseQueryTxnResponse_DEPRECATED = 0x9CD
+            k_EMsgGCStorePurchaseInit = 0x9CE
+            k_EMsgGCStorePurchaseInitResponse = 0x9CF
+            k_EMsgGCBannedWordListRequest = 0x9D0
+            k_EMsgGCBannedWordListResponse = 0x9D1
+            k_EMsgGCToGCBannedWordListBroadcast = 0x9D2
+            k_EMsgGCToGCBannedWordListUpdated = 0x9D3
+            k_EMsgGCToGCDirtySDOCache = 0x9D4
+            k_EMsgGCToGCDirtyMultipleSDOCache = 0x9D5
+            k_EMsgGCToGCUpdateSQLKeyValue = 0x9D6
+            k_EMsgGCToGCIsTrustedServer = 0x9D7
+            k_EMsgGCToGCIsTrustedServerResponse = 0x9D8
+            k_EMsgGCToGCBroadcastConsoleCommand = 0x9D9
+            k_EMsgGCServerVersionUpdated = 0x9DA
+            k_EMsgGCToGCWebAPIAccountChanged = 0x9DC
+            k_EMsgGCRequestAnnouncements = 0x9DD
+            k_EMsgGCRequestAnnouncementsResponse = 0x9DE
+            k_EMsgGCRequestPassportItemGrant = 0x9DF
+            k_EMsgGCClientVersionUpdated = 0x9E0
+            k_EMsgGCRecurringSubscriptionStatus = 0x9E2
+            k_EMsgGCAdjustEquipSlotsManual = 0x9E3
+            k_EMsgGCAdjustEquipSlotsShuffle = 0x9E4
+            k_EMsgGCOpenCrate = 0x9E6
+            k_EMsgGCAcknowledgeRentalExpiration = 0x9E7
             k_EMsgGCVolatileItemLoadContents = 0x9E8
         }
         // Alignment: 4
         // Member count: 7
         public enum ShakeCommand_t : uint {
-            SHAKE_START = 0x0,
-            SHAKE_STOP = 0x1,
-            SHAKE_AMPLITUDE = 0x2,
-            SHAKE_FREQUENCY = 0x3,
-            SHAKE_START_RUMBLEONLY = 0x4,
-            SHAKE_START_NORUMBLE = 0x5,
+            SHAKE_START = 0x0
+            SHAKE_STOP = 0x1
+            SHAKE_AMPLITUDE = 0x2
+            SHAKE_FREQUENCY = 0x3
+            SHAKE_START_RUMBLEONLY = 0x4
+            SHAKE_START_NORUMBLE = 0x5
             SHAKE_DURATION = 0x6
         }
         // Alignment: 4
         // Member count: 23
         public enum Flags_t : uint {
-            FL_ONGROUND = 0x1,
-            FL_DUCKING = 0x2,
-            FL_WATERJUMP = 0x4,
-            FL_BOT = 0x10,
-            FL_FROZEN = 0x20,
-            FL_ATCONTROLS = 0x40,
-            FL_CLIENT = 0x80,
-            FL_FAKECLIENT = 0x100,
-            FL_FLY = 0x400,
-            FL_SUPPRESS_SAVE = 0x800,
-            FL_IN_VEHICLE = 0x1000,
-            FL_GODMODE = 0x4000,
-            FL_NOTARGET = 0x8000,
-            FL_AIMTARGET = 0x10000,
-            FL_GRENADE = 0x100000,
-            FL_DONTTOUCH = 0x400000,
-            FL_BASEVELOCITY = 0x800000,
-            FL_CONVEYOR = 0x1000000,
-            FL_OBJECT = 0x2000000,
-            FL_ONFIRE = 0x8000000,
-            FL_DISSOLVING = 0x10000000,
-            FL_TRANSRAGDOLL = 0x20000000,
+            FL_ONGROUND = 0x1
+            FL_DUCKING = 0x2
+            FL_WATERJUMP = 0x4
+            FL_BOT = 0x10
+            FL_FROZEN = 0x20
+            FL_ATCONTROLS = 0x40
+            FL_CLIENT = 0x80
+            FL_FAKECLIENT = 0x100
+            FL_FLY = 0x400
+            FL_SUPPRESS_SAVE = 0x800
+            FL_IN_VEHICLE = 0x1000
+            FL_GODMODE = 0x4000
+            FL_NOTARGET = 0x8000
+            FL_AIMTARGET = 0x10000
+            FL_GRENADE = 0x100000
+            FL_DONTTOUCH = 0x400000
+            FL_BASEVELOCITY = 0x800000
+            FL_CONVEYOR = 0x1000000
+            FL_OBJECT = 0x2000000
+            FL_ONFIRE = 0x8000000
+            FL_DISSOLVING = 0x10000000
+            FL_TRANSRAGDOLL = 0x20000000
             FL_UNBLOCKABLE_BY_PLAYER = 0x40000000
         }
         // Alignment: 4
         // Member count: 3
         public enum TRAIN_CODE : uint {
-            TRAIN_SAFE = 0x0,
-            TRAIN_BLOCKING = 0x1,
+            TRAIN_SAFE = 0x0
+            TRAIN_BLOCKING = 0x1
             TRAIN_FOLLOWING = 0x2
         }
         // Alignment: 4
         // Member count: 4
         public enum DestructiblePartDestructionDeathBehavior_t : uint {
-            eDoNotKill = 0x0,
-            eKill = 0x1,
-            eGib = 0x2,
+            eDoNotKill = 0x0
+            eKill = 0x1
+            eGib = 0x2
             eRemove = 0x3
         }
         // Alignment: 4
         // Member count: 3
         public enum BrushSolidities_e : uint {
-            BRUSHSOLID_TOGGLE = 0x0,
-            BRUSHSOLID_NEVER = 0x1,
+            BRUSHSOLID_TOGGLE = 0x0
+            BRUSHSOLID_NEVER = 0x1
             BRUSHSOLID_ALWAYS = 0x2
         }
         // Alignment: 4
         // Member count: 5
         public enum GCProtoBufMsgSrc : uint {
-            GCProtoBufMsgSrc_Unspecified = 0x0,
-            GCProtoBufMsgSrc_FromSystem = 0x1,
-            GCProtoBufMsgSrc_FromSteamID = 0x2,
-            GCProtoBufMsgSrc_FromGC = 0x3,
+            GCProtoBufMsgSrc_Unspecified = 0x0
+            GCProtoBufMsgSrc_FromSystem = 0x1
+            GCProtoBufMsgSrc_FromSteamID = 0x2
+            GCProtoBufMsgSrc_FromGC = 0x3
             GCProtoBufMsgSrc_ReplySystem = 0x4
         }
         // Alignment: 4
         // Member count: 13
         public enum QuestProgress::Reason : uint {
-            QUEST_NONINITIALIZED = 0x0,
-            QUEST_OK = 0x1,
-            QUEST_NOT_ENOUGH_PLAYERS = 0x2,
-            QUEST_WARMUP = 0x3,
-            QUEST_NOT_CONNECTED_TO_STEAM = 0x4,
-            QUEST_NONOFFICIAL_SERVER = 0x5,
-            QUEST_NO_ENTITLEMENT = 0x6,
-            QUEST_NO_QUEST = 0x7,
-            QUEST_PLAYER_IS_BOT = 0x8,
-            QUEST_WRONG_MAP = 0x9,
-            QUEST_WRONG_MODE = 0xA,
-            QUEST_NOT_SYNCED_WITH_SERVER = 0xB,
+            QUEST_NONINITIALIZED = 0x0
+            QUEST_OK = 0x1
+            QUEST_NOT_ENOUGH_PLAYERS = 0x2
+            QUEST_WARMUP = 0x3
+            QUEST_NOT_CONNECTED_TO_STEAM = 0x4
+            QUEST_NONOFFICIAL_SERVER = 0x5
+            QUEST_NO_ENTITLEMENT = 0x6
+            QUEST_NO_QUEST = 0x7
+            QUEST_PLAYER_IS_BOT = 0x8
+            QUEST_WRONG_MAP = 0x9
+            QUEST_WRONG_MODE = 0xA
+            QUEST_NOT_SYNCED_WITH_SERVER = 0xB
             QUEST_REASON_MAX = 0xC
         }
         // Alignment: 4
         // Member count: 2
         public enum ModifyDamageReturn_t : uint {
-            CONTINUE_TO_APPLY_DAMAGE = 0x0,
+            CONTINUE_TO_APPLY_DAMAGE = 0x0
             ABORT_DO_NOT_APPLY_DAMAGE = 0x1
         }
         // Alignment: 4
         // Member count: 2
         public enum ShadowType_t : uint {
-            SHADOWS_NONE = 0x0,
+            SHADOWS_NONE = 0x0
             SHADOWS_SIMPLE = 0x1
         }
         // Alignment: 4
         // Member count: 3
         public enum DirectionAlongSimplePath_t : uint {
-            None = 0x0,
-            TGoesUp = 0x1,
+            None = 0x0
+            TGoesUp = 0x1
             TGoesDown = 0x2
         }
         // Alignment: 4
         // Member count: 6
         public enum GrenadeType_t : uint {
-            GRENADE_TYPE_EXPLOSIVE = 0x0,
-            GRENADE_TYPE_FLASH = 0x1,
-            GRENADE_TYPE_FIRE = 0x2,
-            GRENADE_TYPE_DECOY = 0x3,
-            GRENADE_TYPE_SMOKE = 0x4,
+            GRENADE_TYPE_EXPLOSIVE = 0x0
+            GRENADE_TYPE_FLASH = 0x1
+            GRENADE_TYPE_FIRE = 0x2
+            GRENADE_TYPE_DECOY = 0x3
+            GRENADE_TYPE_SMOKE = 0x4
             GRENADE_TYPE_TOTAL = 0x5
         }
         // Alignment: 4
         // Member count: 2
         public enum ValueRemapperInputType_t : uint {
-            InputType_PlayerShootPosition = 0x0,
+            InputType_PlayerShootPosition = 0x0
             InputType_PlayerShootPositionAroundAxis = 0x1
         }
         // Alignment: 1
         // Member count: 8
         public enum EKillTypes_t : uint {
-            KILL_NONE = 0x0,
-            KILL_DEFAULT = 0x1,
-            KILL_HEADSHOT = 0x2,
-            KILL_BLAST = 0x3,
-            KILL_BURN = 0x4,
-            KILL_SLASH = 0x5,
-            KILL_SHOCK = 0x6,
+            KILL_NONE = 0x0
+            KILL_DEFAULT = 0x1
+            KILL_HEADSHOT = 0x2
+            KILL_BLAST = 0x3
+            KILL_BURN = 0x4
+            KILL_SLASH = 0x5
+            KILL_SHOCK = 0x6
             KILLTYPE_COUNT = 0x7
         }
         // Alignment: 4
         // Member count: 25
         public enum WeaponSound_t : uint {
-            WEAPON_SOUND_EMPTY = 0x0,
-            WEAPON_SOUND_SECONDARY_EMPTY = 0x1,
-            WEAPON_SOUND_SINGLE = 0x2,
-            WEAPON_SOUND_SECONDARY_ATTACK = 0x3,
-            WEAPON_SOUND_MELEE_MISS = 0x4,
-            WEAPON_SOUND_MELEE_HIT = 0x5,
-            WEAPON_SOUND_MELEE_HIT_WORLD = 0x6,
-            WEAPON_SOUND_MELEE_HIT_PLAYER = 0x7,
-            WEAPON_SOUND_MELEE_HIT_NPC = 0x8,
-            WEAPON_SOUND_SPECIAL1 = 0x9,
-            WEAPON_SOUND_SPECIAL2 = 0xA,
-            WEAPON_SOUND_SPECIAL3 = 0xB,
-            WEAPON_SOUND_NEARLYEMPTY = 0xC,
-            WEAPON_SOUND_IMPACT = 0xD,
-            WEAPON_SOUND_REFLECT = 0xE,
-            WEAPON_SOUND_SECONDARY_IMPACT = 0xF,
-            WEAPON_SOUND_SECONDARY_REFLECT = 0x10,
-            WEAPON_SOUND_RELOAD = 0x11,
-            WEAPON_SOUND_SINGLE_ACCURATE = 0x12,
-            WEAPON_SOUND_ZOOM_IN = 0x13,
-            WEAPON_SOUND_ZOOM_OUT = 0x14,
-            WEAPON_SOUND_MOUSE_PRESSED = 0x15,
-            WEAPON_SOUND_DROP = 0x16,
-            WEAPON_SOUND_RADIO_USE = 0x17,
+            WEAPON_SOUND_EMPTY = 0x0
+            WEAPON_SOUND_SECONDARY_EMPTY = 0x1
+            WEAPON_SOUND_SINGLE = 0x2
+            WEAPON_SOUND_SECONDARY_ATTACK = 0x3
+            WEAPON_SOUND_MELEE_MISS = 0x4
+            WEAPON_SOUND_MELEE_HIT = 0x5
+            WEAPON_SOUND_MELEE_HIT_WORLD = 0x6
+            WEAPON_SOUND_MELEE_HIT_PLAYER = 0x7
+            WEAPON_SOUND_MELEE_HIT_NPC = 0x8
+            WEAPON_SOUND_SPECIAL1 = 0x9
+            WEAPON_SOUND_SPECIAL2 = 0xA
+            WEAPON_SOUND_SPECIAL3 = 0xB
+            WEAPON_SOUND_NEARLYEMPTY = 0xC
+            WEAPON_SOUND_IMPACT = 0xD
+            WEAPON_SOUND_REFLECT = 0xE
+            WEAPON_SOUND_SECONDARY_IMPACT = 0xF
+            WEAPON_SOUND_SECONDARY_REFLECT = 0x10
+            WEAPON_SOUND_RELOAD = 0x11
+            WEAPON_SOUND_SINGLE_ACCURATE = 0x12
+            WEAPON_SOUND_ZOOM_IN = 0x13
+            WEAPON_SOUND_ZOOM_OUT = 0x14
+            WEAPON_SOUND_MOUSE_PRESSED = 0x15
+            WEAPON_SOUND_DROP = 0x16
+            WEAPON_SOUND_RADIO_USE = 0x17
             WEAPON_SOUND_NUM_TYPES = 0x18
         }
         // Alignment: 8
         // Member count: 22
         public enum TakeDamageFlags_t : uint {
-            DFLAG_NONE = 0x0,
-            DFLAG_SUPPRESS_HEALTH_CHANGES = 0x1,
-            DFLAG_SUPPRESS_PHYSICS_FORCE = 0x2,
-            DFLAG_SUPPRESS_EFFECTS = 0x4,
-            DFLAG_PREVENT_DEATH = 0x8,
-            DFLAG_FORCE_DEATH = 0x10,
-            DFLAG_ALWAYS_GIB = 0x20,
-            DFLAG_NEVER_GIB = 0x40,
-            DFLAG_REMOVE_NO_RAGDOLL = 0x80,
-            DFLAG_SUPPRESS_DAMAGE_MODIFICATION = 0x100,
-            DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS = 0x200,
-            DFLAG_RADIUS_DMG = 0x400,
-            DFLAG_FORCEREDUCEARMOR_DMG = 0x800,
-            DFLAG_SUPPRESS_INTERRUPT_FLINCH = 0x1000,
-            DFLAG_IGNORE_DESTRUCTIBLE_PARTS = 0x2000,
-            DFLAG_SUPPRESS_BREAKABLES = 0x4000,
-            DFLAG_FORCE_PHYSICS_FORCE = 0x8000,
-            DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX = 0x10000,
-            DFLAG_ALLOW_NON_AUTHORITATIVE = 0x20000,
-            DMG_LASTDFLAG = 0x20000,
-            DFLAG_IGNORE_ARMOR = 0x40000,
+            DFLAG_NONE = 0x0
+            DFLAG_SUPPRESS_HEALTH_CHANGES = 0x1
+            DFLAG_SUPPRESS_PHYSICS_FORCE = 0x2
+            DFLAG_SUPPRESS_EFFECTS = 0x4
+            DFLAG_PREVENT_DEATH = 0x8
+            DFLAG_FORCE_DEATH = 0x10
+            DFLAG_ALWAYS_GIB = 0x20
+            DFLAG_NEVER_GIB = 0x40
+            DFLAG_REMOVE_NO_RAGDOLL = 0x80
+            DFLAG_SUPPRESS_DAMAGE_MODIFICATION = 0x100
+            DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS = 0x200
+            DFLAG_RADIUS_DMG = 0x400
+            DFLAG_FORCEREDUCEARMOR_DMG = 0x800
+            DFLAG_SUPPRESS_INTERRUPT_FLINCH = 0x1000
+            DFLAG_IGNORE_DESTRUCTIBLE_PARTS = 0x2000
+            DFLAG_SUPPRESS_BREAKABLES = 0x4000
+            DFLAG_FORCE_PHYSICS_FORCE = 0x8000
+            DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX = 0x10000
+            DFLAG_ALLOW_NON_AUTHORITATIVE = 0x20000
+            DMG_LASTDFLAG = 0x20000
+            DFLAG_IGNORE_ARMOR = 0x40000
             DFLAG_SUPPRESS_UTILREMOVE = 0x80000
         }
         // Alignment: 4
         // Member count: 3
         public enum ShatterGlassEntityPoolState_t : uint {
-            ENTITY_POOL_STATE_INVALID = 0x0,
-            ENTITY_POOL_STATE_AVAILABLE = 0x1,
+            ENTITY_POOL_STATE_INVALID = 0x0
+            ENTITY_POOL_STATE_AVAILABLE = 0x1
             ENTITY_POOL_STATE_IN_USE = 0x2
         }
         // Alignment: 4
@@ -3242,148 +3242,148 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 2
         public enum ValueRemapperHapticsType_t : uint {
-            HaticsType_Default = 0x0,
+            HaticsType_Default = 0x0
             HaticsType_None = 0x1
         }
         // Alignment: 4
         // Member count: 10
         public enum Disposition_t : uint {
-            D_ER = 0x0,
-            D_HT = 0x1,
-            D_FR = 0x2,
-            D_LI = 0x3,
-            D_NU = 0x4,
-            D_ERROR = 0x0,
-            D_HATE = 0x1,
-            D_FEAR = 0x2,
-            D_LIKE = 0x3,
+            D_ER = 0x0
+            D_HT = 0x1
+            D_FR = 0x2
+            D_LI = 0x3
+            D_NU = 0x4
+            D_ERROR = 0x0
+            D_HATE = 0x1
+            D_FEAR = 0x2
+            D_LIKE = 0x3
             D_NEUTRAL = 0x4
         }
         // Alignment: 4
         // Member count: 5
         public enum GCConnectionStatus : uint {
-            GCConnectionStatus_HAVE_SESSION = 0x0,
-            GCConnectionStatus_GC_GOING_DOWN = 0x1,
-            GCConnectionStatus_NO_SESSION = 0x2,
-            GCConnectionStatus_NO_SESSION_IN_LOGON_QUEUE = 0x3,
+            GCConnectionStatus_HAVE_SESSION = 0x0
+            GCConnectionStatus_GC_GOING_DOWN = 0x1
+            GCConnectionStatus_NO_SESSION = 0x2
+            GCConnectionStatus_NO_SESSION_IN_LOGON_QUEUE = 0x3
             GCConnectionStatus_NO_STEAM = 0x4
         }
         // Alignment: 4
         // Member count: 3
         public enum CanPlaySequence_t : uint {
-            CANNOT_PLAY = 0x0,
-            CAN_PLAY_NOW = 0x1,
+            CANNOT_PLAY = 0x0
+            CAN_PLAY_NOW = 0x1
             CAN_PLAY_ENQUEUED = 0x2
         }
         // Alignment: 4
         // Member count: 4
         public enum BodySectionMutex_t : uint {
-            eNone = 0x0,
-            eLowerBody = 0x1,
-            eUpperBody = 0x2,
+            eNone = 0x0
+            eLowerBody = 0x1
+            eUpperBody = 0x2
             eFullBody = 0x3
         }
         // Alignment: 4
         // Member count: 13
         public enum EChickenActivity : uint {
-            Idle = 0x0,
-            Squat = 0x1,
-            Walk = 0x2,
-            Run = 0x3,
-            Glide = 0x4,
-            Land = 0x5,
-            Panic = 0x6,
-            Trick = 0x7,
-            TurnInPlace = 0x8,
-            Feed = 0x9,
-            Sleep = 0xA,
-            Shoulder = 0xB,
+            Idle = 0x0
+            Squat = 0x1
+            Walk = 0x2
+            Run = 0x3
+            Glide = 0x4
+            Land = 0x5
+            Panic = 0x6
+            Trick = 0x7
+            TurnInPlace = 0x8
+            Feed = 0x9
+            Sleep = 0xA
+            Shoulder = 0xB
             LowOnFood = 0xC
         }
         // Alignment: 1
         // Member count: 4
         public enum CCSPlayerAnimationState::AirAction_t : uint {
-            None = 0x0,
-            Jump = 0x1,
-            StartFall = 0x2,
+            None = 0x0
+            Jump = 0x1
+            StartFall = 0x2
             Land = 0x3
         }
         // Alignment: 4
         // Member count: 5
         public enum MedalRank_t : uint {
-            MEDAL_RANK_NONE = 0x0,
-            MEDAL_RANK_BRONZE = 0x1,
-            MEDAL_RANK_SILVER = 0x2,
-            MEDAL_RANK_GOLD = 0x3,
+            MEDAL_RANK_NONE = 0x0
+            MEDAL_RANK_BRONZE = 0x1
+            MEDAL_RANK_SILVER = 0x2
+            MEDAL_RANK_GOLD = 0x3
             MEDAL_RANK_COUNT = 0x4
         }
         // Alignment: 4
         // Member count: 7
         public enum EBaseClientMessages : uint {
-            CM_CustomGameEvent = 0x118,
-            CM_CustomGameEventBounce = 0x119,
-            CM_ClientUIEvent = 0x11A,
-            CM_DevPaletteVisibilityChanged = 0x11B,
-            CM_WorldUIControllerHasPanelChanged = 0x11C,
-            CM_RotateAnchor = 0x11D,
+            CM_CustomGameEvent = 0x118
+            CM_CustomGameEventBounce = 0x119
+            CM_ClientUIEvent = 0x11A
+            CM_DevPaletteVisibilityChanged = 0x11B
+            CM_WorldUIControllerHasPanelChanged = 0x11C
+            CM_RotateAnchor = 0x11D
             CM_MAX_BASE = 0x12C
         }
         // Alignment: 4
         // Member count: 6
         public enum ObserverMode_t : uint {
-            OBS_MODE_NONE = 0x0,
-            OBS_MODE_FIXED = 0x1,
-            OBS_MODE_IN_EYE = 0x2,
-            OBS_MODE_CHASE = 0x3,
-            OBS_MODE_ROAMING = 0x4,
+            OBS_MODE_NONE = 0x0
+            OBS_MODE_FIXED = 0x1
+            OBS_MODE_IN_EYE = 0x2
+            OBS_MODE_CHASE = 0x3
+            OBS_MODE_ROAMING = 0x4
             NUM_OBSERVER_MODES = 0x5
         }
         // Alignment: 4
         // Member count: 2
         public enum FuncDoorSpawnPos_t : uint {
-            FUNC_DOOR_SPAWN_CLOSED = 0x0,
+            FUNC_DOOR_SPAWN_CLOSED = 0x0
             FUNC_DOOR_SPAWN_OPEN = 0x1
         }
         // Alignment: 4
         // Member count: 3
         public enum EOverrideBlockLOS_t : uint {
-            BLOCK_LOS_DEFAULT = 0x0,
-            BLOCK_LOS_FORCE_FALSE = 0x1,
+            BLOCK_LOS_DEFAULT = 0x0
+            BLOCK_LOS_FORCE_FALSE = 0x1
             BLOCK_LOS_FORCE_TRUE = 0x2
         }
         // Alignment: 4
         // Member count: 5
         public enum EntityAttachmentType_t : uint {
-            eAbsOrigin = 0x0,
-            eCenter = 0x1,
-            eEyes = 0x2,
-            eAttachment = 0x3,
+            eAbsOrigin = 0x0
+            eCenter = 0x1
+            eEyes = 0x2
+            eAttachment = 0x3
             eLocalOffset = 0x4
         }
         // Alignment: 4
         // Member count: 4
         public enum ECsgoGameEvents : uint {
-            GE_PlayerAnimEventId = 0x1C2,
-            GE_RadioIconEventId = 0x1C3,
-            GE_FireBulletsId = 0x1C4,
+            GE_PlayerAnimEventId = 0x1C2
+            GE_RadioIconEventId = 0x1C3
+            GE_FireBulletsId = 0x1C4
             GE_PlayerBulletHitId = 0x1C5
         }
         // Alignment: 1
         // Member count: 14
         public enum MoveType_t : uint {
-            MOVETYPE_NONE = 0x0,
-            MOVETYPE_OBSOLETE = 0x1,
-            MOVETYPE_WALK = 0x2,
-            MOVETYPE_FLY = 0x3,
-            MOVETYPE_FLYGRAVITY = 0x4,
-            MOVETYPE_VPHYSICS = 0x5,
-            MOVETYPE_PUSH = 0x6,
-            MOVETYPE_NOCLIP = 0x7,
-            MOVETYPE_OBSERVER = 0x8,
-            MOVETYPE_LADDER = 0x9,
-            MOVETYPE_CUSTOM = 0xA,
-            MOVETYPE_LAST = 0xB,
-            MOVETYPE_INVALID = 0xB,
+            MOVETYPE_NONE = 0x0
+            MOVETYPE_OBSOLETE = 0x1
+            MOVETYPE_WALK = 0x2
+            MOVETYPE_FLY = 0x3
+            MOVETYPE_FLYGRAVITY = 0x4
+            MOVETYPE_VPHYSICS = 0x5
+            MOVETYPE_PUSH = 0x6
+            MOVETYPE_NOCLIP = 0x7
+            MOVETYPE_OBSERVER = 0x8
+            MOVETYPE_LADDER = 0x9
+            MOVETYPE_CUSTOM = 0xA
+            MOVETYPE_LAST = 0xB
+            MOVETYPE_INVALID = 0xB
             MOVETYPE_MAX_BITS = 0x5
         }
         // Parent: None

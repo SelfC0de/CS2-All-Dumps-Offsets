@@ -3,7 +3,7 @@
 // module:        materialsystem2.dll
 // classes:       15
 // enums:         5
-// generated_at:  2026-11-18T06:23:06.754083400+00:00
+// generated_at:  2026-11-19T06:00:35.840629200+00:00
 //
 // Use:
 //   auto* pawn = reinterpret_cast<C_CSPlayerPawn*>(addr);
@@ -62,15 +62,6 @@ namespace materialsystem2 {
         HORIZ_JUSTIFICATION_NONE = 0x3,
     };
 
-    // MaterialParamFloat_t
-    //   fields: 1
-    //   size: 0x10
-    //   @MGetKV3ClassDefaults
-    class MaterialParamFloat_t {
-    public:
-        SCHEMA_FIELD(float                           , m_flValue                                       , 0x8) // float32
-    };
-
     // PostProcessingBloomParameters_t
     //   fields: 16
     //   size: 0x88
@@ -93,94 +84,6 @@ namespace materialsystem2 {
         SCHEMA_FIELD(float                           , m_flComputeBloomLensDirtBlackLevel              , 0x34) // float32
         SCHEMA_FIELD(float                           , m_flBlurWeight                                  , 0x38) // float32[5]
         SCHEMA_FIELD(::Vector                        , m_vBlurTint                                     , 0x4C) // Vector[5]
-    };
-
-    // MaterialParamInt_t
-    //   fields: 1
-    //   size: 0x10
-    //   @MGetKV3ClassDefaults
-    class MaterialParamInt_t {
-    public:
-        SCHEMA_FIELD(std::int32_t                    , m_nValue                                        , 0x8) // int32
-    };
-
-    // MaterialParam_t
-    //   fields: 1
-    //   size: 0x8
-    //   @MGetKV3ClassDefaults
-    class MaterialParam_t {
-    public:
-        SCHEMA_FIELD(::CUtlString                    , m_name                                          , 0x0) // CUtlString
-    };
-
-    // MaterialParamVector_t
-    //   fields: 1
-    //   size: 0x18
-    //   @MGetKV3ClassDefaults
-    class MaterialParamVector_t {
-    public:
-        SCHEMA_FIELD(::Vector4D                      , m_value                                         , 0x8) // Vector4D
-    };
-
-    // MaterialResourceData_t
-    //   fields: 14
-    //   size: 0x130
-    //   @MGetKV3ClassDefaults
-    class MaterialResourceData_t {
-    public:
-        SCHEMA_FIELD(::CUtlString                    , m_materialName                                  , 0x0) // CUtlString
-        SCHEMA_FIELD(::CUtlString                    , m_shaderName                                    , 0x8) // CUtlString
-        SCHEMA_FIELD(CUtlVector<MaterialParamInt_t>  , m_intParams                                     , 0x10) // CUtlVector<MaterialParamInt_t>
-        SCHEMA_FIELD(CUtlVector<MaterialParamFloat_t>, m_floatParams                                   , 0x28) // CUtlVector<MaterialParamFloat_t>
-        SCHEMA_FIELD(CUtlVector<MaterialParamVector_t>, m_vectorParams                                  , 0x40) // CUtlVector<MaterialParamVector_t>
-        SCHEMA_FIELD(CUtlVector<MaterialParamTexture_t>, m_textureParams                                 , 0x58) // CUtlVector<MaterialParamTexture_t>
-        SCHEMA_FIELD(CUtlVector<MaterialParamBuffer_t>, m_dynamicParams                                 , 0x70) // CUtlVector<MaterialParamBuffer_t>
-        SCHEMA_FIELD(CUtlVector<MaterialParamBuffer_t>, m_dynamicTextureParams                          , 0x88) // CUtlVector<MaterialParamBuffer_t>
-        SCHEMA_FIELD(CUtlVector<MaterialParamInt_t>  , m_intAttributes                                 , 0xA0) // CUtlVector<MaterialParamInt_t>
-        SCHEMA_FIELD(CUtlVector<MaterialParamFloat_t>, m_floatAttributes                               , 0xB8) // CUtlVector<MaterialParamFloat_t>
-        SCHEMA_FIELD(CUtlVector<MaterialParamVector_t>, m_vectorAttributes                              , 0xD0) // CUtlVector<MaterialParamVector_t>
-        SCHEMA_FIELD(CUtlVector<MaterialParamTexture_t>, m_textureAttributes                             , 0xE8) // CUtlVector<MaterialParamTexture_t>
-        SCHEMA_FIELD(CUtlVector<MaterialParamString_t>, m_stringAttributes                              , 0x100) // CUtlVector<MaterialParamString_t>
-        SCHEMA_FIELD(CUtlVector<CUtlString>          , m_renderAttributesUsed                          , 0x118) // CUtlVector<CUtlString>
-    };
-
-    // PostProcessingFogScatteringParameters_t
-    //   fields: 8
-    //   size: 0x20
-    //   @MGetKV3ClassDefaults
-    class PostProcessingFogScatteringParameters_t {
-    public:
-        SCHEMA_FIELD(float                           , m_fRadius                                       , 0x0) // float32
-        SCHEMA_FIELD(float                           , m_fScale                                        , 0x4) // float32
-        SCHEMA_FIELD(float                           , m_fCubemapScale                                 , 0x8) // float32
-        SCHEMA_FIELD(float                           , m_fVolumetricScale                              , 0xC) // float32
-        SCHEMA_FIELD(float                           , m_fGradientScale                                , 0x10) // float32
-        SCHEMA_FIELD(float                           , m_fWaterScale                                   , 0x14) // float32
-        SCHEMA_FIELD(float                           , m_fWaterDensity                                 , 0x18) // float32
-        SCHEMA_FIELD(float                           , m_fWaterDepthBlurRadius                         , 0x1C) // float32
-    };
-
-    // PostProcessingVignetteParameters_t
-    //   fields: 6
-    //   size: 0x24
-    //   @MGetKV3ClassDefaults
-    class PostProcessingVignetteParameters_t {
-    public:
-        SCHEMA_FIELD(float                           , m_flVignetteStrength                            , 0x0) // float32
-        SCHEMA_FIELD(::Vector2D                      , m_vCenter                                       , 0x4) // Vector2D
-        SCHEMA_FIELD(float                           , m_flRadius                                      , 0xC) // float32
-        SCHEMA_FIELD(float                           , m_flRoundness                                   , 0x10) // float32
-        SCHEMA_FIELD(float                           , m_flFeather                                     , 0x14) // float32
-        SCHEMA_FIELD(::Vector                        , m_vColorTint                                    , 0x18) // Vector
-    };
-
-    // MaterialParamString_t
-    //   fields: 1
-    //   size: 0x10
-    //   @MGetKV3ClassDefaults
-    class MaterialParamString_t {
-    public:
-        SCHEMA_FIELD(::CUtlString                    , m_value                                         , 0x8) // CUtlString
     };
 
     // PostProcessingTonemapParameters_t
@@ -206,16 +109,58 @@ namespace materialsystem2 {
         SCHEMA_FIELD(float                           , m_flMaxHighlightLum                             , 0x38) // float32
     };
 
-    // PostProcessingLocalExposureParameters_t
-    //   fields: 4
+    // MaterialResourceData_t
+    //   fields: 14
+    //   size: 0x130
+    //   @MGetKV3ClassDefaults
+    class MaterialResourceData_t {
+    public:
+        SCHEMA_FIELD(::CUtlString                    , m_materialName                                  , 0x0) // CUtlString
+        SCHEMA_FIELD(::CUtlString                    , m_shaderName                                    , 0x8) // CUtlString
+        SCHEMA_FIELD(CUtlVector<MaterialParamInt_t>  , m_intParams                                     , 0x10) // CUtlVector<MaterialParamInt_t>
+        SCHEMA_FIELD(CUtlVector<MaterialParamFloat_t>, m_floatParams                                   , 0x28) // CUtlVector<MaterialParamFloat_t>
+        SCHEMA_FIELD(CUtlVector<MaterialParamVector_t>, m_vectorParams                                  , 0x40) // CUtlVector<MaterialParamVector_t>
+        SCHEMA_FIELD(CUtlVector<MaterialParamTexture_t>, m_textureParams                                 , 0x58) // CUtlVector<MaterialParamTexture_t>
+        SCHEMA_FIELD(CUtlVector<MaterialParamBuffer_t>, m_dynamicParams                                 , 0x70) // CUtlVector<MaterialParamBuffer_t>
+        SCHEMA_FIELD(CUtlVector<MaterialParamBuffer_t>, m_dynamicTextureParams                          , 0x88) // CUtlVector<MaterialParamBuffer_t>
+        SCHEMA_FIELD(CUtlVector<MaterialParamInt_t>  , m_intAttributes                                 , 0xA0) // CUtlVector<MaterialParamInt_t>
+        SCHEMA_FIELD(CUtlVector<MaterialParamFloat_t>, m_floatAttributes                               , 0xB8) // CUtlVector<MaterialParamFloat_t>
+        SCHEMA_FIELD(CUtlVector<MaterialParamVector_t>, m_vectorAttributes                              , 0xD0) // CUtlVector<MaterialParamVector_t>
+        SCHEMA_FIELD(CUtlVector<MaterialParamTexture_t>, m_textureAttributes                             , 0xE8) // CUtlVector<MaterialParamTexture_t>
+        SCHEMA_FIELD(CUtlVector<MaterialParamString_t>, m_stringAttributes                              , 0x100) // CUtlVector<MaterialParamString_t>
+        SCHEMA_FIELD(CUtlVector<CUtlString>          , m_renderAttributesUsed                          , 0x118) // CUtlVector<CUtlString>
+    };
+
+    // PostProcessingVignetteParameters_t
+    //   fields: 6
+    //   size: 0x24
+    //   @MGetKV3ClassDefaults
+    class PostProcessingVignetteParameters_t {
+    public:
+        SCHEMA_FIELD(float                           , m_flVignetteStrength                            , 0x0) // float32
+        SCHEMA_FIELD(::Vector2D                      , m_vCenter                                       , 0x4) // Vector2D
+        SCHEMA_FIELD(float                           , m_flRadius                                      , 0xC) // float32
+        SCHEMA_FIELD(float                           , m_flRoundness                                   , 0x10) // float32
+        SCHEMA_FIELD(float                           , m_flFeather                                     , 0x14) // float32
+        SCHEMA_FIELD(::Vector                        , m_vColorTint                                    , 0x18) // Vector
+    };
+
+    // MaterialParamInt_t
+    //   fields: 1
     //   size: 0x10
     //   @MGetKV3ClassDefaults
-    class PostProcessingLocalExposureParameters_t {
+    class MaterialParamInt_t {
     public:
-        SCHEMA_FIELD(float                           , m_fShadowOffsetEV                               , 0x0) // float32
-        SCHEMA_FIELD(float                           , m_fHighlightOffsetEV                            , 0x4) // float32
-        SCHEMA_FIELD(float                           , m_fSigma                                        , 0x8) // float32
-        SCHEMA_FIELD(float                           , m_fBoostLocalContrast                           , 0xC) // float32
+        SCHEMA_FIELD(std::int32_t                    , m_nValue                                        , 0x8) // int32
+    };
+
+    // MaterialParamTexture_t
+    //   fields: 1
+    //   size: 0x10
+    //   @MGetKV3ClassDefaults
+    class MaterialParamTexture_t {
+    public:
+        SCHEMA_FIELD(CStrongHandle<InfoForResourceTypeCTextureBase>, m_pValue                                        , 0x8) // CStrongHandle<InfoForResourceTypeCTextureBase>
     };
 
     // PostProcessingResource_t
@@ -241,6 +186,52 @@ namespace materialsystem2 {
         SCHEMA_FIELD(PostProcessingLocalExposureParameters_t, m_localExposureParams                           , 0x148) // PostProcessingLocalExposureParameters_t
     };
 
+    // PostProcessingFogScatteringParameters_t
+    //   fields: 8
+    //   size: 0x20
+    //   @MGetKV3ClassDefaults
+    class PostProcessingFogScatteringParameters_t {
+    public:
+        SCHEMA_FIELD(float                           , m_fRadius                                       , 0x0) // float32
+        SCHEMA_FIELD(float                           , m_fScale                                        , 0x4) // float32
+        SCHEMA_FIELD(float                           , m_fCubemapScale                                 , 0x8) // float32
+        SCHEMA_FIELD(float                           , m_fVolumetricScale                              , 0xC) // float32
+        SCHEMA_FIELD(float                           , m_fGradientScale                                , 0x10) // float32
+        SCHEMA_FIELD(float                           , m_fWaterScale                                   , 0x14) // float32
+        SCHEMA_FIELD(float                           , m_fWaterDensity                                 , 0x18) // float32
+        SCHEMA_FIELD(float                           , m_fWaterDepthBlurRadius                         , 0x1C) // float32
+    };
+
+    // MaterialParamVector_t
+    //   fields: 1
+    //   size: 0x18
+    //   @MGetKV3ClassDefaults
+    class MaterialParamVector_t {
+    public:
+        SCHEMA_FIELD(::Vector4D                      , m_value                                         , 0x8) // Vector4D
+    };
+
+    // MaterialParamFloat_t
+    //   fields: 1
+    //   size: 0x10
+    //   @MGetKV3ClassDefaults
+    class MaterialParamFloat_t {
+    public:
+        SCHEMA_FIELD(float                           , m_flValue                                       , 0x8) // float32
+    };
+
+    // PostProcessingLocalExposureParameters_t
+    //   fields: 4
+    //   size: 0x10
+    //   @MGetKV3ClassDefaults
+    class PostProcessingLocalExposureParameters_t {
+    public:
+        SCHEMA_FIELD(float                           , m_fShadowOffsetEV                               , 0x0) // float32
+        SCHEMA_FIELD(float                           , m_fHighlightOffsetEV                            , 0x4) // float32
+        SCHEMA_FIELD(float                           , m_fSigma                                        , 0x8) // float32
+        SCHEMA_FIELD(float                           , m_fBoostLocalContrast                           , 0xC) // float32
+    };
+
     // MaterialParamBuffer_t
     //   fields: 1
     //   size: 0x18
@@ -250,13 +241,22 @@ namespace materialsystem2 {
         SCHEMA_FIELD(::CUtlBinaryBlock               , m_value                                         , 0x8) // CUtlBinaryBlock
     };
 
-    // MaterialParamTexture_t
+    // MaterialParam_t
+    //   fields: 1
+    //   size: 0x8
+    //   @MGetKV3ClassDefaults
+    class MaterialParam_t {
+    public:
+        SCHEMA_FIELD(::CUtlString                    , m_name                                          , 0x0) // CUtlString
+    };
+
+    // MaterialParamString_t
     //   fields: 1
     //   size: 0x10
     //   @MGetKV3ClassDefaults
-    class MaterialParamTexture_t {
+    class MaterialParamString_t {
     public:
-        SCHEMA_FIELD(CStrongHandle<InfoForResourceTypeCTextureBase>, m_pValue                                        , 0x8) // CStrongHandle<InfoForResourceTypeCTextureBase>
+        SCHEMA_FIELD(::CUtlString                    , m_value                                         , 0x8) // CUtlString
     };
 
     // PostProcessingLocalContrastParameters_t

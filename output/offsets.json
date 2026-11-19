@@ -4,12 +4,15 @@
     "dwEntityList": 40945280,
     "dwGameEntitySystem": 40945280,
     "dwGameEntitySystem_highestEntityIndex": 8480,
-    "dwGameRules": 29025776,
+    "dwGameRules": 39153272,
     "dwGlobalVars": 35797712,
     "dwGlowManager": 39140240,
     "dwLocalPlayerController": 38989176,
     "dwLocalPlayerPawn": 39155000,
+    "dwPlantedC4": 38525416,
     "dwPrediction": 39154752,
+    "dwSensitivity": 39143112,
+    "dwSensitivity_sensitivity": 88,
     "dwViewAngles": 39245416,
     "dwViewMatrix": 39177808,
     "dwViewRender": 39180312,
@@ -20,6 +23,7 @@
     "dwNetworkGameClient": 10156944,
     "dwNetworkGameClient_clientTickCount": 920,
     "dwNetworkGameClient_deltaTick": 588,
+    "dwNetworkGameClient_isBackgroundMap": 2888767,
     "dwNetworkGameClient_localPlayer": 248,
     "dwNetworkGameClient_maxClients": 576,
     "dwNetworkGameClient_serverTickCount": 588,
@@ -33,5 +37,8 @@
   "matchmaking.dll": {
     "dwGameTypes": 1765312
   },
-  "soundsystem.dll": {}
+  "soundsystem.dll": {
+    "dwSoundSystem": 5448816,
+    "dwSoundSystem_engineViewData": 108
+  }
 }
