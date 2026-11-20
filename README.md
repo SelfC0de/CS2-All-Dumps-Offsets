@@ -4,7 +4,7 @@
   <strong>Offsets / Dumps</strong>
 </p>
 
-# CS2 All Dumps & Offsets
+# CS2 All  Offsets
 
 Raw, machine-generated CS2 dumps: offsets, schema classes, interfaces, patterns, convars and protobufs. C++, C#, Rust, Zig and JSON — straight from the live client.
 
